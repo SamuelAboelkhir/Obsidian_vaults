@@ -6,18 +6,20 @@
       {
         "id": "316e4014c61a5713",
         "type": "tabs",
+        "dimension": 58.89261744966443,
         "children": [
           {
             "id": "ee4d1336a19750a6",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "personal/Useful Command-line Tools.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Useful Command-line Tools"
             }
           }
         ]
@@ -25,6 +27,7 @@
       {
         "id": "08cd48328ac7c9bb",
         "type": "tabs",
+        "dimension": 41.10738255033557,
         "children": [
           {
             "id": "d725f3437a5209f5",
@@ -109,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.base",
+                "file": "personal/Useful Command-line Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Useful Command-line Tools"
             }
           },
           {
@@ -183,6 +186,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -195,9 +199,9 @@
   },
   "active": "ee4d1336a19750a6",
   "lastOpenFiles": [
+    "Welcome.md",
     "personal/Useful Command-line Tools.md",
-    "Untitled.base",
-    "study/Ethical Hacking/Untitled.md",
-    "Welcome.md"
+    "Notes_hub.base",
+    "study/Ethical Hacking/Untitled.md"
   ]
 }
