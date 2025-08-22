@@ -6,9 +6,9 @@
   "capturedKeyboardMap": {},
   "supportJsCommands": false,
   "vimStatusPromptMap": {
-    "normal": "🟢 Normal",
-    "insert": "🟠 Insert",
-    "visual": "🟡 Visual",
-    "replace": "🔴 Replace"
+    "normal": "🟢",
+    "insert": "🟠",
+    "visual": "🟡",
+    "replace": "🔴"
   }
 }

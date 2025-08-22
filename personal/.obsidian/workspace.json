@@ -1,39 +1,20 @@
 {
   "main": {
-    "id": "16c1f5f7d06c5489",
+    "id": "75c00e27ba3c1993",
     "type": "split",
     "children": [
       {
-        "id": "316e4014c61a5713",
+        "id": "f99744aac67379a4",
         "type": "tabs",
         "children": [
           {
-            "id": "ee4d1336a19750a6",
+            "id": "09fff38b2fe363de",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          }
-        ]
-      },
-      {
-        "id": "08cd48328ac7c9bb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d725f3437a5209f5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -42,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bb3ef1da8167a85b",
+    "id": "c7c020fd8e58b6c5",
     "type": "split",
     "children": [
       {
-        "id": "98bf3e9a09f9e727",
+        "id": "7171d3207a725367",
         "type": "tabs",
         "children": [
           {
-            "id": "33a4583bd0b1e19e",
+            "id": "4e9c0c5831813fd0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +44,7 @@
             }
           },
           {
-            "id": "8ca6b075c03e3d34",
+            "id": "71e2e968449169d5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +61,7 @@
             }
           },
           {
-            "id": "a38144c7f445aae9",
+            "id": "b4e827124202b6e7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "170f06fa6a6a4905",
+    "id": "ea785acd11b357ad",
     "type": "split",
     "children": [
       {
-        "id": "a20c80b493bd6464",
+        "id": "8f8ac4439284d933",
         "type": "tabs",
         "children": [
           {
-            "id": "b51bfce1ab0c07a0",
+            "id": "5746362e882036a5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,11 +99,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "a166a8ad3339bdc0",
+            "id": "dd2d090dd6eae52a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -136,7 +116,7 @@
             }
           },
           {
-            "id": "99e328c797d00359",
+            "id": "71ff01957cc6ba7e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,7 +131,7 @@
             }
           },
           {
-            "id": "ac6a60abe9638f9f",
+            "id": "4062876e51d4fcc9",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -163,23 +143,13 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "6ea0048fea0fefc2",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,15 +159,9 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "ee4d1336a19750a6",
-  "lastOpenFiles": [
-    "personal/Useful Command-line Tools.md",
-    "Untitled.base",
-    "study/Ethical Hacking/Untitled.md",
-    "Welcome.md"
-  ]
+  "active": "09fff38b2fe363de",
+  "lastOpenFiles": []
 }
