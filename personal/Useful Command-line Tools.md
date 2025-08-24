@@ -2,9 +2,18 @@
 Title: Useful Command-line Tools
 tags: [Personal, General]
 ---
-
+# Links: 
+- [[#Various command line tools]]
+- [[#Web development project init]]
+- [[#System management and monitoring]]
+- [[#Networking commands and tools]]
+- [[#System protection]]
+- [[#System navigation]]
+- [[#Photos and video]]
+- [[#Ghostty]]
+- [[#Gaming]]
 ### Various command line tools
-
+#### Back to top: [[#Links]]
 - `apropos` : helps when you can't remember a specific command name.
 - `dpkg --list` : shows all the executables that you have.
 - `exa` : better ls.
@@ -23,12 +32,14 @@ tags: [Personal, General]
 ---
 ### Web development project init
 
+#### Back to top: [[#Links]]
 - `pnpm create next-app` : creats a next.js app
 - `pnpm i -h @nestjs/cli nest new "appname"`
 - `pnpm exec tsc -b`: Runs typescript's compiler to check for errors
 ---
 ### System management and monitoring
 
+#### Back to top: [[#Links]]
 - `sudo sysctl -w fs.inotify.max_user_watches=131070` : increase the limit of file watchers.
 - `ncdu` : a tool that shows you the distribution of disk space.
 - `free -h` : shows memory statistics in a human readable format.
@@ -52,6 +63,7 @@ The count parameter determines how many blocks to copy.
 ---
 ### Networking commands and tools
 
+#### Back to top: [[#Links]]
 - `arp`: shows the device's arp table.
 - `nmap -sn 192.168.1.1/24`: shows all the IPs in the specified range and subnet mask as well as their open ports. Use --verbose on all commands for more details.
 - `nmcli`: CLI network manager.
@@ -69,24 +81,30 @@ The count parameter determines how many blocks to copy.
 ---
 ### System protection
 
+#### Back to top: [[#Links]]
 - `ufw`: local firewall.
 - `clamAV`: anti-virus.
 ---
 ### System navigation
 
+#### Back to top: [[#Links]]
 - `Ranger` : file management tool.
 - `rofi` : window switcher that can also run commands and browse files.
 ---
 ### Photos and video
 
+#### Back to top: [[#Links]]
 - `mpv`: command line media player.
 - `timg`: command line image and video player.
 ---
 ### Ghostty
+
+#### Back to top: [[#Links]]
 - `ghostty +show-config --default --docs`: prints ghostty docs to stdout (use with vipe to get it in nvim)
 ---
 ### Gaming
 
+#### Back to top: [[#Links]]
 - How to run a game with the discrete GPU :
-`__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only wine /mnt/32E0DD386AB19F0B/Games/Exanima.v0.9.0.5/Exanima.v0.9.0.5/Exanima.exe\`
+`__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only wine /mnt/32E0DD386AB19F0B/Games/Exanima.v0.9.0.5/Exanima.v0.9.0.5/Exanima.exe`
 ---

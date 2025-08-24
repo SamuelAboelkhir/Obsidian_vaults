@@ -1,5 +1,6 @@
 [
   "obsidian-git",
   "obsidian-vimrc-support",
-  "obsidian-relative-line-numbers"
+  "obsidian-relative-line-numbers",
+  "external-file-embed-and-link"
 ]
