@@ -4,6 +4,26 @@
     "type": "split",
     "children": [
       {
+        "id": "8cbbe5a89d8e0d4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2d0ab60e2220974",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown-cheat-sheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "markdown-cheat-sheet"
+            }
+          }
+        ]
+      },
+      {
         "id": "316e4014c61a5713",
         "type": "tabs",
         "children": [
@@ -13,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Ethical Hacking/Networking/Subnetting guide.md",
+                "file": "study/Ethical Hacking/Linux/Useful Linux Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subnetting guide"
+              "title": "Useful Linux Commands"
             }
           }
         ]
@@ -179,17 +199,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee4d1336a19750a6",
+  "active": "a2d0ab60e2220974",
   "lastOpenFiles": [
-    "study/Ethical Hacking/Networking/Common ports and protocols.md",
     "study/Ethical Hacking/Networking/Subnetting guide.md",
-    "study/Ethical Hacking/Networking",
+    "study/Ethical Hacking/Linux/Useful Linux Commands.md",
     "personal/Useful Command-line Tools.md",
+    "Subnet-Guide 1.xlsx",
+    "Useful Command-line Tools![[Subnet-Guide.xlsx.md",
+    "Subnet-Guide.xlsx",
+    "markdown-cheat-sheet.md",
+    "study/Ethical Hacking/Ethical Hacking.md",
+    "study/Ethical Hacking/Linux",
+    "study/Ethical Hacking/Untitled.md",
     "assets/Screenshot from 2025-08-24 02-33-08.png",
+    "study/Ethical Hacking/Networking/Common ports and protocols.md",
+    "study/Ethical Hacking/Networking",
     "\"assets/Screenshot from 2025-08-24 02-33-08.png\".md",
     "\"assets",
     "assets/Screenshot.md",
-    "study/Ethical Hacking/Ethical Hacking.md",
     "images/Screenshot.md",
     "images",
     "Notes_hub.base",
@@ -198,12 +225,8 @@
     "~/Documents/Obsidian-vaullts",
     "~/Documents",
     "~",
-    "markdown-cheat-sheet.md",
-    "assets",
     "Welcome.md",
     "create a link.md",
-    "Markdown.pl",
-    "Markdown_1.0.1/Markdown.pl",
     "Untitled.md"
   ]
 }

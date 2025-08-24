@@ -60,6 +60,7 @@ The count parameter determines how many blocks to copy.
 - `nvtop`: Specific nvidia GPU monitor.
 - `btop`: Monitor for CPU, DISK, RAM, Network that's fast and pretty.
 - `uname`: Prints certain system information
+- `getent` : Displays entries from databases supported by the NSS switch libraries
 ---
 ### Networking commands and tools
 

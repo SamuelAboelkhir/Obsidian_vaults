@@ -1,4 +1,5 @@
-## Useful Linux Commands
+More tools are available at [[Useful Command-line Tools#System management and monitoring]]
+
 ### Finding Users Data
 - `Getent` with group/passwd/shadow(with sudo).  
 -  Group  will show you all members of a group

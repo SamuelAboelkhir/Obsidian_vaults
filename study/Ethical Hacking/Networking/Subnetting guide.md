@@ -1,4 +1,1 @@
-
-```EmbedRelativeTo
-home://Work and Education/Networking/Subnet-Guide.xlsx
-```
+![[Subnet-Guide 1.xlsx]]
