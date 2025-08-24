@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8cbbe5a89d8e0d4b",
+        "id": "1b89b5cf1fff0f59",
         "type": "tabs",
         "children": [
           {
-            "id": "a2d0ab60e2220974",
+            "id": "072757b661923eab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,13 +179,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ea0048fea0fefc2",
+  "active": "072757b661923eab",
   "lastOpenFiles": [
+    "markdown-cheat-sheet.md",
     "study/Ethical Hacking/Ethical Hacking.md",
+    "verifyemailaddress.io.md",
+    "().md",
     "study/Ethical Hacking/Linux/Useful Linux Commands Explained.md",
     "work/Untitled.md",
     "study/Ethical Hacking/Linux/Scripting.md",
-    "markdown-cheat-sheet.md",
     "study/Ethical Hacking/Networking/Subnetting guide.md",
     "study/Ethical Hacking/Networking/Common ports and protocols.md",
     "assets/Screenshot from 2025-08-24 03-55-14.png",
