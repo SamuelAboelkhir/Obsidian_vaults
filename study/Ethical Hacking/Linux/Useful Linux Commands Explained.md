@@ -34,3 +34,14 @@ Old:
 - `route`
 
 - `ping` shows you if a machine is on the network via an ICMP request. Note that a host machine may have ICMP disabled and appear to not be connected
+
+### Services
+1. `service`, example: Web servers
+	1. Apache: Allows you to start a server and host software on it
+		1. Start the server with`sudo service apache2 start`
+		2. Type your IP address into the browser. The server will be running on port 80
+		3. Stop the service with `sudo service apache2 stop`
+	2. You can also start servers with python
+		1. `python3 -m http.server [port number]`
+		2. The webserver starts within the folder you're currently inside
+2. `systemctl` runs services at boot

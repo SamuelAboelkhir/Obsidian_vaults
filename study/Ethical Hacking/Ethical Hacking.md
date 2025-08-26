@@ -1,3 +1,4 @@
+### Reminder: People are the weakest link in any organization
 # Five stages of ethical hacking
 1. Reconnaissance
 	- Active

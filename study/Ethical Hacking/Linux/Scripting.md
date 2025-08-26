@@ -1,7 +1,7 @@
 ### Python
 
 #### Socket illustration script
-
+	
 ```
 #!/bin/python3
 
