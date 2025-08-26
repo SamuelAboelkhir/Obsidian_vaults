@@ -38,3 +38,4 @@
 	1. [verifyemailaddress.io](https://tools.emailhippo.com)
 	2. [email-checker.net/validate](https://email-checker.net/validate)
 	3. Try forgot my password using an email. If it works, the email is valid, and will give you a hint to an email that's tied to it where the verification code was sent.
+
