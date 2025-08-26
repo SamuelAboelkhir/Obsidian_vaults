@@ -1,4 +1,4 @@
-### Five stages of ethical hacking
+# Five stages of ethical hacking
 1. Reconnaissance
 	- Active
 	- Passive
@@ -8,7 +8,9 @@
 4. Maintaining Access
 5. Covering Tracks
 
-### Recon - Passive(OSINT)
+# Recon  
+
+### Passive(OSINT)
 1. Physical/social recon which include:
 	1. Location information
 		1. Satellite images
@@ -22,10 +24,11 @@
 		- WHOIS, nslookup, dnsrecon
 	2. Finding subdomains
 		- Google Fu, dig, Nmap, Sublist3r, Bluto, crt.sh, etc.
+		- The go to tool for network mapping of attack surfaces and external asset discovery is[OWASP AMASS](https://github.com/owasp-amass/amass)
 	3. Fingerprinting
 		- Nmap, Wappalyzer, WhatWeb, BuiltWith, NetCat
 	4. Data breaches
-		- HaveIBeenPwned, Breach-Parse, WeLeakInfo
+		- HaveIBeenPwned, [Breach-Parse](https://github.com/hmaverickadams/breach-parse), WeLeakInfo
 
 
 ### Identifying emails
@@ -39,3 +42,16 @@
 	2. [email-checker.net/validate](https://email-checker.net/validate)
 	3. Try forgot my password using an email. If it works, the email is valid, and will give you a hint to an email that's tied to it where the verification code was sent.
 
+### Validating subdomains
+- [tomnomnom httprobe](https://github.com/tomnomnom/httprobe) can take a list of found subdomains and validate which of them is actually alive and usable
+
+### Finding tech stack
+1. [builtwith](https://builtwith.com/) finds the stack a website is built with
+2. wappalyzer is a firefox add-on that also identifies the tech stack of the web page
+3. whatweb (CLI) is a CLI tool that identifies recognizes web pages and identifies their technologies
+
+## Bug bounty hunting websites
+1. [bugcrowd](https://www.bugcrowd.com/customer/)
+
+### Burp suite
+- For burp suite notes, follow this link [[Burp suite]]
