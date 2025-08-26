@@ -1,0 +1,1 @@
+1. Always make sure the attribute names used in the frontend DTO matches the backend entities for typeORM to know which fields to populate with data

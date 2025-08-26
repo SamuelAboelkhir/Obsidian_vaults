@@ -13,15 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/Things to fix in the PMM.md",
+                "file": "study/Ethical Hacking/Burp suite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Things to fix in the PMM"
+              "title": "Burp suite"
+            }
+          },
+          {
+            "id": "6b3882f2b858ea23",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "study/Ethical Hacking/Ethical Hacking.md",
+                "bFile": "study/Ethical Hacking/Ethical Hacking.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Ethical Hacking"
+            }
+          },
+          {
+            "id": "1885605dae2a90c4",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "work/PMM.md",
+                "bFile": "work/PMM.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: PMM"
+            }
+          },
+          {
+            "id": "1d8b109c380d684a",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "6aa58999e87360d0",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -179,12 +238,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "072757b661923eab",
+  "active": "6aa58999e87360d0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "work/General.md",
+    "work/Things to fix in the PMM.md",
+    "work/PMM.md",
+    "work/MyFleeta.md",
+    "personal/Groceries.md",
     "study/Ethical Hacking/Burp suite.md",
     "study/Ethical Hacking/Ethical Hacking.md",
     "study/Ethical Hacking/Untitled 1.md",
-    "work/Things to fix in the PMM.md",
     "markdown-cheat-sheet.md",
     "verifyemailaddress.io.md",
     "().md",
@@ -213,7 +277,6 @@
     "~/Documents",
     "~",
     "Welcome.md",
-    "create a link.md",
-    "Untitled.md"
+    "create a link.md"
   ]
 }
