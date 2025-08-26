@@ -13,74 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Ethical Hacking/Burp suite.md",
+                "file": "study/Ethical Hacking/Web Searching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burp suite"
-            }
-          },
-          {
-            "id": "6b3882f2b858ea23",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "study/Ethical Hacking/Ethical Hacking.md",
-                "bFile": "study/Ethical Hacking/Ethical Hacking.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Ethical Hacking"
-            }
-          },
-          {
-            "id": "1885605dae2a90c4",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "work/PMM.md",
-                "bFile": "work/PMM.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: PMM"
-            }
-          },
-          {
-            "id": "1d8b109c380d684a",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "6aa58999e87360d0",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "title": "Web Searching"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,23 +179,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6aa58999e87360d0",
+  "active": "072757b661923eab",
   "lastOpenFiles": [
+    "study/Ethical Hacking/Linux/Scripting.md",
+    "study/Ethical Hacking/Web Searching.md",
+    "EthicalHacking/Linux/Scripting.md",
+    "EthicalHacking/Linux",
+    "EthicalHacking",
+    "Linux/Scripting/Challenge.md",
+    "Linux/Scripting",
+    "Linux",
+    "work/PMM.md",
+    "[[.md",
+    "study/Ethical Hacking/Ethical Hacking.md",
+    "study/Ethical Hacking/Burp suite.md",
     "conflict-files-obsidian-git.md",
     "work/General.md",
     "work/Things to fix in the PMM.md",
-    "work/PMM.md",
     "work/MyFleeta.md",
     "personal/Groceries.md",
-    "study/Ethical Hacking/Burp suite.md",
-    "study/Ethical Hacking/Ethical Hacking.md",
     "study/Ethical Hacking/Untitled 1.md",
     "markdown-cheat-sheet.md",
     "verifyemailaddress.io.md",
     "().md",
     "study/Ethical Hacking/Linux/Useful Linux Commands Explained.md",
     "work/Untitled.md",
-    "study/Ethical Hacking/Linux/Scripting.md",
     "study/Ethical Hacking/Networking/Subnetting guide.md",
     "study/Ethical Hacking/Networking/Common ports and protocols.md",
     "assets/Screenshot from 2025-08-24 03-55-14.png",
@@ -269,14 +218,6 @@
     "study/Ethical Hacking/Networking",
     "\"assets/Screenshot from 2025-08-24 02-33-08.png\".md",
     "\"assets",
-    "images/Screenshot.md",
-    "images",
-    "images.md",
-    "~/Documents/Obsidian-vaullts/images.md",
-    "~/Documents/Obsidian-vaullts",
-    "~/Documents",
-    "~",
-    "Welcome.md",
-    "create a link.md"
+    "images/Screenshot.md"
   ]
 }

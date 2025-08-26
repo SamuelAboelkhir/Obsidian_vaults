@@ -24,3 +24,6 @@ This example shows the use of socket to
 - You can listen on this port to see the connection being established with netcat `nc -nvlp 7777`
 - When creating a port scanner using the socket module, when we use `socket.socket(socket.AF_INET, socket.SOCK_STREAM)`. AF_INET is IPV4 and SOCK_STREAM is a port
 - If you assigned the previous code to variable s, then now you do s.connect(HOST, PORT) where HOST is a chosen IPV4 address and PORT is a chosen port
+
+### Challenge
+-  Write a python script that utilizes web scrappers to gather first and last names of employees from an org on linkdin
