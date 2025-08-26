@@ -50,7 +50,7 @@
 2. wappalyzer is a firefox add-on that also identifies the tech stack of the web page
 3. whatweb (CLI) is a CLI tool that identifies recognizes web pages and identifies their technologies
 
-## Bug bounty hunting websites
+### Bug bounty hunting websites
 1. [bugcrowd](https://www.bugcrowd.com/customer/)
 
 ### Burp suite

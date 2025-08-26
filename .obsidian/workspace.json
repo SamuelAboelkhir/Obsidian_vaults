@@ -11,10 +11,14 @@
             "id": "b1336348fdf099f1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "study/Ethical Hacking/Ethical Hacking.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Ethical Hacking"
             }
           }
         ]
@@ -175,8 +179,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ea0048fea0fefc2",
+  "active": "b1336348fdf099f1",
   "lastOpenFiles": [
+    "work/General.md",
     "personal/Groceries.md",
     "conflict-files-obsidian-git.md",
     "study/Ethical Hacking/Burp suite.md",
