@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1b89b5cf1fff0f59",
+        "id": "95410e9405f4fcff",
         "type": "tabs",
         "children": [
           {
-            "id": "072757b661923eab",
+            "id": "b1336348fdf099f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Ethical Hacking/Linux/Scripting.md",
+                "file": "work/VA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scripting"
-            }
-          },
-          {
-            "id": "b442f291fba4b163",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/Ethical Hacking/Linux/Useful Linux Commands Explained.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Useful Linux Commands Explained"
-            }
-          },
-          {
-            "id": "0cc062558406b59a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/Ethical Hacking/Linux/Useful Linux Commands Explained.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Useful Linux Commands Explained"
+              "title": "VA"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,32 +158,6 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "c4a280241787cb59",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "study/Ethical Hacking/Linux/Useful Linux Commands Explained.md"
-              },
-              "icon": "lucide-file-signature",
-              "title": "Footnotes"
-            }
-          },
-          {
-            "id": "9399c61ecb53be63",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
           }
         ],
         "currentTab": 4
@@ -231,48 +176,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "audio-recorder:Start/stop recording": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0cc062558406b59a",
+  "active": "b1336348fdf099f1",
   "lastOpenFiles": [
-    "study/Ethical Hacking/Ethical Hacking.md",
-    "study/Ethical Hacking/Ethical Hacking DB.base",
-    "Untitled 1.md",
-    "study/Ethical Hacking/Linux/Scripting.md",
+    "work/PMM.md",
+    "work/VA.md",
+    "work/MyFleeta.md",
+    "personal/Useful Command-line Tools.md",
     "study/Ethical Hacking/Linux/Useful Linux Commands Explained.md",
-    "Untitled.md",
+    "study/Ethical Hacking/Linux/Scripting.md",
+    "study/Ethical Hacking/Web Searching.md",
+    "study/Ethical Hacking/Burp suite.md",
+    "study/Ethical Hacking/Ethical Hacking.md",
+    "work/General.md",
+    "personal/Groceries.md",
+    "conflict-files-obsidian-git.md",
+    "markdown-cheat-sheet.md",
     "study/Ethical Hacking/Networking/Subnetting guide.md",
     "study/Ethical Hacking/Networking/Common ports and protocols.md",
-    "study/Ethical Hacking/Web Searching.md",
-    "EthicalHacking/Linux/Scripting.md",
-    "EthicalHacking/Linux",
-    "EthicalHacking",
-    "Linux/Scripting/Challenge.md",
-    "Linux/Scripting",
-    "Linux",
-    "work/PMM.md",
-    "[[.md",
-    "study/Ethical Hacking/Burp suite.md",
-    "conflict-files-obsidian-git.md",
-    "work/General.md",
-    "work/Things to fix in the PMM.md",
-    "work/MyFleeta.md",
-    "personal/Groceries.md",
-    "study/Ethical Hacking/Untitled 1.md",
-    "markdown-cheat-sheet.md",
-    "verifyemailaddress.io.md",
-    "().md",
-    "work/Untitled.md",
     "assets/Screenshot from 2025-08-24 03-55-14.png",
     "assets/Screenshot from 2025-08-24 02-33-08.png",
     "assets/Screenshot.md",
     "Notes_hub.base",
-    "personal/Useful Command-line Tools.md",
     "Subnet-Guide 1.xlsx",
+    "Useful Command-line Tools![[Subnet-Guide.xlsx.md",
     "Subnet-Guide.xlsx",
     "study/Ethical Hacking/Linux",
-    "study/Ethical Hacking/Networking"
+    "study/Ethical Hacking/Untitled.md",
+    "study/Ethical Hacking/Networking",
+    "\"assets/Screenshot from 2025-08-24 02-33-08.png\".md",
+    "\"assets",
+    "images/Screenshot.md",
+    "images",
+    "images.md",
+    "~/Documents/Obsidian-vaullts/images.md",
+    "~/Documents/Obsidian-vaullts",
+    "~/Documents",
+    "~",
+    "Welcome.md",
+    "create a link.md",
+    "Untitled.md"
   ]
 }
