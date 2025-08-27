@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/VA.md",
+                "file": "work/Overtime And Annuals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VA"
+              "title": "Overtime And Annuals"
             }
           }
         ]
@@ -158,6 +158,20 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "9f4ca4275c4e295e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ],
         "currentTab": 4
@@ -168,6 +182,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -181,8 +196,9 @@
   },
   "active": "b1336348fdf099f1",
   "lastOpenFiles": [
+    "work/VA onboarding meeting.md",
+    "work/Overtime And Annuals.md",
     "work/PMM.md",
-    "work/VA.md",
     "work/MyFleeta.md",
     "personal/Useful Command-line Tools.md",
     "study/Ethical Hacking/Linux/Useful Linux Commands Explained.md",
