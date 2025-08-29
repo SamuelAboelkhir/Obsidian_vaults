@@ -35,6 +35,20 @@ Old:
 
 - `ping` shows you if a machine is on the network via an ICMP request. Note that a host machine may have ICMP disabled and appear to not be connected
 
+- `arp-scan -l` scans all devices on a network
+- `netdiscover -r 192.168.57.0/24` sweeps an entire subnet showing data in a table
+
+### nmap
+- nmap runs in stealth mode by default, in which case instead of a normal TCP three-way handshake: SYN SYNACK ACK, it does SYN SYNACK RST, however, this can be picked up by decent security measures
+- `nmap -T4 -p- -A` 
+	- `-T` determines the speed of the process which is between 1 and 5 (5 is the fastest)
+	- `-p-` says to scan all ports. Without it the top 1000 ports are scanned by default. `-p` alone can be succeeded with specific port numbers
+	- `-A` is an aggressive scan, which means that it will find all possible information such as fingerprinting, OS details, etc.
+- nmap has multiple uses, such as: 
+	1. Host discovery. ex: `-sn` for ping sweep
+	2. Scan techniques. ex: `-sS` stealth scan, `-sU` UDP scan
+		- Note, it's best to (especially with UDP scan) not use -A at first, and save it until the open ports have been identified as leaving -A in an all ports scan is much slower. However, that's not needed especially if you're working on other stuff (such as OSINT) and have time to give the nmap scan to finish.
+
 ### Services
 1. `service`, example: Web servers
 	1. Apache: Allows you to start a server and host software on it

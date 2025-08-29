@@ -79,6 +79,13 @@ The count parameter determines how many blocks to copy.
 - `Lynx` : a simple terminal web browser.
 - `lsof -i [port]`: Shows the process that owns or is using the port.
 - `termshark`: CLI tshark.
+- The following commands can be used to flush and replace the IP address assigned by DHCP, as long as IP assignment is no longer automatic 
+```
+sudo ip addr flush dev eth0
+sudo ip addr add 192.168.57.10/24 dev eth0
+sudo ip route add default via 192.168.57.1
+
+```
 ---
 ### System protection
 
