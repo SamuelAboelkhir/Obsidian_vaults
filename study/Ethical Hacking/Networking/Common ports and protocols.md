@@ -163,7 +163,7 @@
 
 ### 19. GRE - Generic Routing Encapsulation
 - Creates a tunnel between communicating devices that makes it seem as if they were directly connected
-- Hides the user's public IP and shows the proxy's public IP instead
+- Encapsulates packets within IP packets, creating a virtual point-to-point link
 - Commonly used by VPN
 - Encapsulates traffic inside of IP
 	- Two endpoints appear to be directly connected to each other
@@ -220,13 +220,16 @@
 - Tunnel mode is the most used mode for the upmost security
 
 ### 24. Authentication Header (AH)
-- Hash of the packet and a shared key
-	- MD5, SHA-1, or SHA-2 are common
+- Provides data integrity and authentication using HMAC 
+	- SHA-1, SHA-256, SHA-384, or SHA-512 are common (MD5 is deprecated) 
+	- Does NOT provide encryption/confidentiality
 	- Adds the AH to the packet header
 	- ![AH](assets/Screenshot%20from%202025-08-29%2014-41-55.png)
 
 ### 25. Encapsulation Security Payload (ESP)
 - Encrypts the packet
-	- MD5, SHA-1, or SHA-2 for hash, and 3DES or AES for encryption
+	- SHA-1, SHA-256+ for authentication; AES, ChaCha20 for encryption (3DES/MD5 deprecated) 
+	- Provides both encryption AND authentication 
+	- Can be used with or without AH
 	- Adds a header, a trailer, and an Integrity Check Value
 	- ![ESP](assets/Screenshot%20from%202025-08-29%2014-43-25.png)

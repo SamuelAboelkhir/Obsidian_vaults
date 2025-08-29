@@ -1,5 +1,5 @@
 
-| Overtime<br>Type | Time  | Annuals Consumed | Annuals Remaining |
-| ---------------- | ----- | ---------------- | ----------------- |
-| Internal         | 3:10  | 2                | 21                |
-| Billable         | 00:30 |                  |                   |
+| Overtime<br>Type | Time   | Annuals Consumed | Annuals Remaining |
+| ---------------- | ------ | ---------------- | ----------------- |
+| Internal         | 03h10m | 2                | 21                |
+| Billable         | 01h20m |                  |                   |

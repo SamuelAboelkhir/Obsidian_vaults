@@ -1,4 +1,5 @@
-- Owner is Veador Auder (maybe)
+### Client Info
+- Owner is Viateur Audet
 - Furniture moving company
 - They have a fleet of trucks
 
@@ -14,13 +15,12 @@
 - SAP (German company) is the biggest ERP company
 
 ### Problem
+- We are going in with the assumption that they have obsolete steps in the system to reflect the processes.
 - Redundancy and process overload
 - Some processes aren't needed and the software doesn't reflect the company's communication structure
 
 ### Request
-1. Tracking software for the drivers
-2. Data collection
-3. Fix the database
+- Find a way to leverage the data from the data collection software called Issac
 
 ### First Steps
 1. Study and understand AS400 and VA's operational modal
@@ -40,6 +40,3 @@
 2. Operators, dispatchers, etc. can go on that excel sheet to go all the data they need
 3. An interface on top of AS400 was attempted and failed (the employees were not consulted before the interface was made)
 4. It's hard to onboard people on the excel sheet
-
-### Bottom line
-- Increase efficiency and revenue for the client
