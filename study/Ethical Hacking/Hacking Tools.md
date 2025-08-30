@@ -1,0 +1,32 @@
+- Butp suite
+	- Burp suite is a web proxy with its own cert allowing it to see TLS encrypted data
+	- To get started, you need to start burp suite, and a browser (preferably firefox) and go to the browser settings
+		- Add a proxy that runs on localhost and port 8080
+		- Visit `https://burp/` and download the CA Certificate
+		- Import the certificate to firefox via it's privacy and security tab, then certificates, Authorities 
+	- Burp Tabs
+		- Proxy
+			- Allows you to turn on intercept to see and manipulate each request and response that burp is intercepting before forwarding it to its destination
+		- Target
+			- Shows you all the pages discovered from all the traffic that got intercepted by the proxy
+			-  The target tab doesn't always pickup all traffic right away and multiple refreshes may be required
+		- Repeater
+			- The Repeater shows you your response to a request in real time, and allows you to modify it before it's sent
+	- You can right click an intercepted packet from any tab, and send it to other tabs like the Repeater
+- nikto
+	- Web vulnerability scanning tool
+	- Basic syntax: `nikto -h http(s)://ip_address` 
+- dirbuster
+	- Run with `dirbuster &` to keep it running in the background
+	- Provide it with a URL + port. E.g `http://192.168.57.4:80/`
+	- You need to pick a wordlist file. 
+		- On kali, you can browse to `/usr/share/wordlists/dirbuster/` and pick a wordlist file from the ones provided
+		- Remember that buster tools like dirbuster and gobuster rely on wordlists with well-known directory names such as http://website/admin to verify which directories are accessible
+	- You can also specify file extensions
+		- Apache uses .php
+		- Microsoft websites (IAS) use .asp and .aspx
+		- You can also add other extensions such as (.txt .zip .rar .pdf .docx), although that will increase the search time
+	- An example full path with file extensions would be http://website/admin.php
+	- You can view results in a list or tree view, and interact with pages to view them in the browser while the scan is still active
+- dirb
+- gobuster

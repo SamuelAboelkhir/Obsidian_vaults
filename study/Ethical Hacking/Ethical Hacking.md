@@ -54,5 +54,9 @@
 ### Bug bounty hunting websites
 1. [bugcrowd](https://www.bugcrowd.com/customer/)
 
-### Burp suite
-- For burp suite notes, follow this link [[Burp suite]]
+### Notes
+- It's important to keep a note file of your findings during a pentest
+- You should have a directory dedicated for the project where you also keep a file with the scan result of every used tool
+
+### Hacking Tools
+- For comprehensive hacking tools notes, follow this link [[Hacking Tools]]

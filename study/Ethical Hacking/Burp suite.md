@@ -1,1 +1,0 @@
-1. The target tab doesn't always pickup all traffic right away and multiple refreshes may be required
