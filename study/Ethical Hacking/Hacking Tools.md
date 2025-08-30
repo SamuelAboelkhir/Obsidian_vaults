@@ -10,6 +10,7 @@
 		- Target
 			- Shows you all the pages discovered from all the traffic that got intercepted by the proxy
 			-  The target tab doesn't always pickup all traffic right away and multiple refreshes may be required
+			- Target allows you to also set a scope as to what should be intercepted
 		- Repeater
 			- The Repeater shows you your response to a request in real time, and allows you to modify it before it's sent
 	- You can right click an intercepted packet from any tab, and send it to other tabs like the Repeater
@@ -30,3 +31,6 @@
 	- You can view results in a list or tree view, and interact with pages to view them in the browser while the scan is still active
 - dirb
 - gobuster
+- Metasploit
+	- An exploitation framework that can also do enumeration and more
+	- 

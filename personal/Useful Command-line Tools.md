@@ -61,6 +61,23 @@ The count parameter determines how many blocks to copy.
 - `btop`: Monitor for CPU, DISK, RAM, Network that's fast and pretty.
 - `uname`: Prints certain system information
 - `getent` : Displays entries from databases supported by the NSS switch libraries
+- `ps aux` lists all running processes
+	- ps = Process Status command
+	- a = Show processes for ALL users (not just current user)
+	- u = Show in USER-oriented format (detailed info)
+	- x = Show processes WITHOUT controlling terminal (background processes)
+- Top CPU users
+	- ps aux --sort=-%cpu | head -10
+ - Top memory users  
+	- ps aux --sort=-%mem | head -10
+ - Processes using most CPU right now
+	- top -o %CPU
+- `jobs -l` shows background jobs in current shell with process ID
+-  Information about specific process (replace 1234 with actual PID)
+	- cat /proc/1234/status
+	- cat /proc/1234/cmdline
+	- ls -la /proc/1234/
+
 ---
 ### Networking commands and tools
 
@@ -86,6 +103,9 @@ sudo ip addr add 192.168.57.10/24 dev eth0
 sudo ip route add default via 192.168.57.1
 
 ```
+- `ps aux | grep -E "(dhcp|network|wpa|nm-)"`: finds network related processes
+- To find processes using specific ports
+	- `sudo netstat -tulpn | grep :80`
 ---
 ### System protection
 
