@@ -1,0 +1,1 @@
+Should contain an image of the found page with the IP in the URL shown
