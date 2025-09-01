@@ -103,9 +103,13 @@ sudo ip addr add 192.168.57.10/24 dev eth0
 sudo ip route add default via 192.168.57.1
 
 ```
+
 - `ps aux | grep -E "(dhcp|network|wpa|nm-)"`: finds network related processes
 - To find processes using specific ports
 	- `sudo netstat -tulpn | grep :80`
+
+- `sudo dhcpcd eth0` lets dhcpd run on your interface and give it an IP address
+
 ---
 ### System protection
 
