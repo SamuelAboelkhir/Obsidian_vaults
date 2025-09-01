@@ -9,3 +9,6 @@
 	- 80/tcp    open  http        Apache httpd 1.3.20 ((Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)
 - [**Webalizer Version 2.01**](http://www.mrunix.net/webalizer/)
 	- http://192.168.57.4/usage/usage_202508.html
+- SMB
+	- Unix (Samba 2.2.1a)
+- 22/tcp    open  ssh         OpenSSH 2.9p2 (protocol 1.99)

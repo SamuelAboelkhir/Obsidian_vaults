@@ -54,6 +54,18 @@
 ### Bug bounty hunting websites
 1. [bugcrowd](https://www.bugcrowd.com/customer/)
 
+### Enumeration
+- Enumeration revolves around perusing leads, and exploring all possible angles of attack
+- A possible flow is something like: 
+	- Using nmap to find exploitable ports 
+	- Then nikto to identify possible weaknesses in web applications 
+	- Followed by a dirbuster scan with a wordlist file on one of the exploitable ports
+- smbclient is great for trying to enumerate when an SMB port is discovered
+- SSH
+	- The reason to attempt SSH enumeration despite it being so secure is that you may be shown a banner telling you the SSH version and who made it, which info that can be further enumerated
+	- For older machines when you try to ssh you may be told no matching key exchange method is found
+		- In this case, try `ssh 192.168.57.4 -oKexAlgorithms=+[the machine's offer]` as the machine will be offering a specific exchange method
+		- You can then follow this up with `ssh 192.168.57.4 -oKexAlgorithms=+[the machine's offer] -c [offered cipher]` when you get a 2nd error telling you that no matching cipher was found
 ### Notes
 - It's important to keep a note file of your findings during a pentest
 - You should have a directory dedicated for the project where you also keep a file with the scan result of every used tool

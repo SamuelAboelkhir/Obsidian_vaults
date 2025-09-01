@@ -33,4 +33,14 @@
 - gobuster
 - Metasploit
 	- An exploitation framework that can also do enumeration and more
-	- 
+	- Typing a `search` with a word like `smb` into metasploit will show all the available tools it has for it
+	- The name of the tool will start with its category, e.g 'auxiliary' which is meant for enumeration, followed by what it does exactly
+	- You can then say `use` and the name or number of the tool that you want to use it
+	- Typing info will show you `info` about the tool and `options` will show you available usage options
+	- Tools will normally require you `set` an RHOST(S) which is the target(s) of your attack
+	- Once your options are set you can then `run` to use the tool
+- smbclient
+	- Not exactly a hacking tool, but it can connect to an smbserver's file share
+	- If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files
+	- `smbclient -L \\\\192.168.57.4\\` will list all files
+	- If you find a file `smbclient \\\\192.168.57.4\\ADMIN$` will attempt to connect to the file
