@@ -44,3 +44,5 @@
 	- If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files
 	- `smbclient -L \\\\192.168.57.4\\` will list all files
 	- If you find a file `smbclient \\\\192.168.57.4\\ADMIN$` will attempt to connect to the file
+- nessus 
+	- A vulnerability scanner tool
