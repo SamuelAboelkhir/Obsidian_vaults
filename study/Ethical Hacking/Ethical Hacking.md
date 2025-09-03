@@ -4,7 +4,7 @@
 	- Active
 	- Passive
 2. Scanning and enumeration
-	- Nmap, Nessus, Nikto, etc
+	- [[Useful Linux Commands Explained#nmap | nmap]], [[Hacking Tools#^687ee2|  nessus]], [[Hacking Tools#^b7c0a7 | nikto]], etc
 3. Gaining Access ("Exploitation")
 4. Maintaining Access
 5. Covering Tracks
@@ -24,12 +24,12 @@
 	1. Target validation
 		- WHOIS, nslookup, dnsrecon
 	2. Finding subdomains
-		- Google Fu, dig, Nmap, Sublist3r, Bluto, crt.sh, etc.
+		- [[Web Searching | Google Fu]], [[Useful Command-line Tools#^d16ff0 | dig]], [[Useful Linux Commands Explained#nmap | nmap]], Sublist3r, Bluto, crt.sh, etc.
 		- The go to tool for network mapping of attack surfaces and external asset discovery is[OWASP AMASS](https://github.com/owasp-amass/amass)
 	3. Fingerprinting
-		- Nmap, Wappalyzer, WhatWeb, BuiltWith, NetCat
+		- [[Useful Linux Commands Explained#nmap | nmap]], Wappalyzer, WhatWeb, BuiltWith, NetCat
 	4. Data breaches
-		- HaveIBeenPwned, [Breach-Parse](https://github.com/hmaverickadams/breach-parse), WeLeakInfo
+		- [HaveIBeenPwned](https://haveibeenpwned.com), [Breach-Parse](https://github.com/hmaverickadams/breach-parse), WeLeakInfo
 
 
 ### Identifying emails
@@ -57,10 +57,10 @@
 ### Enumeration
 - Enumeration revolves around perusing leads, and exploring all possible angles of attack
 - A possible flow is something like: 
-	- Using nmap to find exploitable ports 
-	- Then nikto to identify possible weaknesses in web applications 
-	- Followed by a dirbuster scan with a wordlist file on one of the exploitable ports
-- smbclient is great for trying to enumerate when an SMB port is discovered
+	- Using [[Useful Linux Commands Explained#nmap | nmap]] to find exploitable ports 
+	- Then [[Hacking Tools#^b7c0a7 | nikto]] to identify possible weaknesses in web applications 
+	- Followed by a [[Hacking Tools#^b7c0a7 | dirbuster]] scan with a wordlist file on one of the exploitable ports
+- [[Hacking Tools#^4f8b18| smbclient]] is great for trying to enumerate when an SMB port is discovered
 - SSH
 	- The reason to attempt SSH enumeration despite it being so secure is that you may be shown a banner telling you the SSH version and who made it, which info that can be further enumerated
 	- For older machines when you try to ssh you may be told no matching key exchange method is found
@@ -85,3 +85,5 @@
 
 ### Hacking Tools
 - For comprehensive hacking tools notes, follow this link [[Hacking Tools]]
+
+### Assessments

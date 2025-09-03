@@ -1,7 +1,7 @@
 More tools are available at [[Useful Command-line Tools]]
 
 ### Finding Users Data
-- `Getent` with group/passwd/shadow(with sudo).  
+- [[Useful Command-line Tools#^870e82| Getent]] with group/passwd/shadow(with sudo).  
 -  Group  will show you all members of a group
 -  Passwd will show you all users
 -  Shadow will show you the password hashes of users that actually have passwords
@@ -29,8 +29,8 @@ New:
 - `ip r` shows the routing table
 
 Old:
-- `ifconfig`
-- `arp -a`
+- [[Useful Command-line Tools#^a631d5 | ifconfig]]
+- [[Useful Command-line Tools#^225c89 | arp]] `-a`
 - `route`
 
 - `ping` shows you if a machine is on the network via an ICMP request. Note that a host machine may have ICMP disabled and appear to not be connected

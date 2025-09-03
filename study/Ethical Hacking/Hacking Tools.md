@@ -14,10 +14,10 @@
 		- Repeater
 			- The Repeater shows you your response to a request in real time, and allows you to modify it before it's sent
 	- You can right click an intercepted packet from any tab, and send it to other tabs like the Repeater
-- nikto
+- nikto ^b7c0a7
 	- Web vulnerability scanning tool
 	- Basic syntax: `nikto -h http(s)://ip_address` 
-- dirbuster
+- dirbuster ^99ae95
 	- Run with `dirbuster &` to keep it running in the background
 	- Provide it with a URL + port. E.g `http://192.168.57.4:80/`
 	- You need to pick a wordlist file. 
@@ -39,10 +39,10 @@
 	- Typing info will show you `info` about the tool and `options` will show you available usage options
 	- Tools will normally require you `set` an RHOST(S) which is the target(s) of your attack
 	- Once your options are set you can then `run` to use the tool
-- smbclient
+- smbclient ^4f8b18
 	- Not exactly a hacking tool, but it can connect to an smbserver's file share
 	- If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files
 	- `smbclient -L \\\\192.168.57.4\\` will list all files
 	- If you find a file `smbclient \\\\192.168.57.4\\ADMIN$` will attempt to connect to the file
-- nessus 
+- nessus  ^687ee2
 	- A vulnerability scanner tool

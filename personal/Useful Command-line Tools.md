@@ -60,7 +60,7 @@ The count parameter determines how many blocks to copy.
 - `nvtop`: Specific nvidia GPU monitor.
 - `btop`: Monitor for CPU, DISK, RAM, Network that's fast and pretty.
 - `uname`: Prints certain system information
-- `getent` : Displays entries from databases supported by the NSS switch libraries
+- `getent` : Displays entries from databases supported by the NSS switch libraries ^870e82
 - `ps aux` lists all running processes
 	- ps = Process Status command
 	- a = Show processes for ALL users (not just current user)
@@ -82,12 +82,13 @@ The count parameter determines how many blocks to copy.
 ### Networking commands and tools
 
 #### Back to top: [[#Links]]
-- `arp`: shows the device's arp table.
+- `arp`: shows the device's arp table. ^225c89
 - `nmap -sn 192.168.1.1/24`: shows all the IPs in the specified range and subnet mask as well as their open ports. Use --verbose on all commands for more details.
+	- See also [[Useful Linux Commands Explained#nmap | nmap]]
 - `nmcli`: CLI network manager.
 - `mtr`: shows both ping and traceroute to a specific IP.
-- `dig`: does DNS lookups and reverse DNS with the -x flag.
-- `ifconfig`/`ip`: both show IPs and network interface information.
+- `dig`: does DNS lookups and reverse DNS with the -x flag ^d16ff0
+- `ifconfig`/`ip`: both show IPs and network interface information. ^a631d5
 - `netstat`: for network statistics.
 - `host`: shows info about a host.
 - `hostname`: shows the hostname. Use with -I to see the IPs.
