@@ -1,4 +1,4 @@
-- Butp suite
+#### Butp suite
 	- Burp suite is a web proxy with its own cert allowing it to see TLS encrypted data
 	- To get started, you need to start burp suite, and a browser (preferably firefox) and go to the browser settings
 		- Add a proxy that runs on localhost and port 8080
@@ -13,11 +13,11 @@
 			- Target allows you to also set a scope as to what should be intercepted
 		- Repeater
 			- The Repeater shows you your response to a request in real time, and allows you to modify it before it's sent
-	- You can right click an intercepted packet from any tab, and send it to other tabs like the Repeater
-- nikto ^b7c0a7
+	- You can right click an intercepted packet from any tab, and send it to other tabs like the Repeater 
+#### nikto ^b7c0a7
 	- Web vulnerability scanning tool
 	- Basic syntax: `nikto -h http(s)://ip_address` 
-- dirbuster ^99ae95
+#### dirbuster ^99ae95
 	- Run with `dirbuster &` to keep it running in the background
 	- Provide it with a URL + port. E.g `http://192.168.57.4:80/`
 	- You need to pick a wordlist file. 
@@ -29,9 +29,9 @@
 		- You can also add other extensions such as (.txt .zip .rar .pdf .docx), although that will increase the search time
 	- An example full path with file extensions would be http://website/admin.php
 	- You can view results in a list or tree view, and interact with pages to view them in the browser while the scan is still active
-- dirb
-- gobuster
-- Metasploit
+#### dirb
+#### gobuster
+#### Metasploit
 	- An exploitation framework that can also do enumeration and more
 	- Typing a `search` with a word like `smb` into metasploit will show all the available tools it has for it
 	- The name of the tool will start with its category, e.g 'auxiliary' which is meant for enumeration, followed by what it does exactly
@@ -39,10 +39,10 @@
 	- Typing info will show you `info` about the tool and `options` will show you available usage options
 	- Tools will normally require you `set` an RHOST(S) which is the target(s) of your attack
 	- Once your options are set you can then `run` to use the tool
-- smbclient ^4f8b18
+#### smbclient ^4f8b18
 	- Not exactly a hacking tool, but it can connect to an smbserver's file share
 	- If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files
 	- `smbclient -L \\\\192.168.57.4\\` will list all files
 	- If you find a file `smbclient \\\\192.168.57.4\\ADMIN$` will attempt to connect to the file
-- nessus  ^687ee2
+#### nessus  ^687ee2
 	- A vulnerability scanner tool
