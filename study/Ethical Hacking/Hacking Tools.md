@@ -46,3 +46,6 @@
 	- If you find a file `smbclient \\\\192.168.57.4\\ADMIN$` will attempt to connect to the file
 #### nessus  ^687ee2
 	- A vulnerability scanner tool
+	- NNAH-LFFS-PZXP-KTB5-P38X
+	- Works on private networks only with the free edition
+	- Don't rely on nessus's reported vulnerability on your report, rather, confirm it, and take a screenshot of the actual vulnerability
