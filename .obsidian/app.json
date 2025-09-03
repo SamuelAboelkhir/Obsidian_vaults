@@ -2,6 +2,6 @@
   "vimMode": true,
   "showLineNumber": true,
   "propertiesInDocument": "source",
-  "promptDelete": false,
+  "promptDelete": true,
   "alwaysUpdateLinks": true
 }

@@ -1,4 +1,4 @@
-- #### [[General Notes]]
-- #### [[Vulnerabilities]]
-- #### [[Findings index| Findings]]
-- #### [[Nmap index| nmap]]
+#### [[General Notes]]
+#### [[Vulnerabilities]]
+#### [[Findings index| Findings]]
+#### [[Nmap index| nmap]]

@@ -1,3 +1,2 @@
-### All VA notes
-- [[IBM i]]
-- [[VA onboarding meeting]]
+#### [[IBM i]]
+#### [[VA onboarding meeting]]

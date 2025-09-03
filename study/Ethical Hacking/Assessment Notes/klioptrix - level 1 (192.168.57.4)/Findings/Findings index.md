@@ -1,3 +1,3 @@
-- #### [[Default Web Page - Apache]]
-- #### [[Findings]]
-- #### [[Information Disclosure]]
+#### [[Default Web Page - Apache]]
+#### [[Findings]]
+#### [[Information Disclosure]]
