@@ -66,6 +66,19 @@
 	- For older machines when you try to ssh you may be told no matching key exchange method is found
 		- In this case, try `ssh 192.168.57.4 -oKexAlgorithms=+[the machine's offer]` as the machine will be offering a specific exchange method
 		- You can then follow this up with `ssh 192.168.57.4 -oKexAlgorithms=+[the machine's offer] -c [offered cipher]` when you get a 2nd error telling you that no matching cipher was found
+
+### Research
+- After finding potential vulnerabilities during enumeration, you want to start researching possible exploits
+- A good way to start is with google
+	- Copy the name of a tech that you suspect to be exploitable and add "exploit" to it in the sarch
+	- Google will start providing you with exploits from:
+		- https://www.exploit-db.com
+		- https://www.rapid7.com
+		- And even some github links
+- Another way to research if no internet access is available is via the CLI command `searchsploit` which is filled and updated with the exploits from exploit-db and is update as you update the database
+	- Searchsploit doesn't like it when you're too specific  as it does exact string matching in its search
+	- A search like `searchsploit mod ssl 2` will return a list of exploits with OpenSSL versions, and their path in `/usr/share/exploitdb/`
+
 ### Notes
 - It's important to keep a note file of your findings during a pentest
 - You should have a directory dedicated for the project where you also keep a file with the scan result of every used tool
