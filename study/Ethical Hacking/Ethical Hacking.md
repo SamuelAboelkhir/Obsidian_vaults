@@ -89,6 +89,7 @@
 - A reverse shell is a shell that allows a victim to connect to you
 	- You can have netcat active on the attackbox listening on a port, and the target connects to your IP on the same port via netcat
 - Port forward or port trigger is needed to connect the target's public IP to the attackbox's private IP
+- ![Netcat Reverse Shell](assets/Screenshot%20from%202025-09-03%2013-56-41.png)
 ### Netcat Bind Shell
 - Less common
 	- Mostly on external assessments
@@ -97,6 +98,7 @@
 	- Attackbox connects - target listens
 - We open a port on the target via an exploit, then connect to it via netcat
 - No need for port forwarding since we connect the attackbox's public IP to the target's private IP
+- ![Netcat Bind Shell](assets/Screenshot%20from%202025-09-03%2013-44-18.png)
 # Notes
 - It's important to keep a note file of your findings during a pentest
 - You should have a directory dedicated for the project where you also keep a file with the scan result of every used tool
