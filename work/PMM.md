@@ -9,3 +9,8 @@
 
 
 kanban instead of scrum
+
+1- Functions and constants defined in a hook or any other function will continue to be recreated and rerended every time it's called. 
+If it's static define it outside the function.
+
+2- Callback wrappers can achieve the same goal.

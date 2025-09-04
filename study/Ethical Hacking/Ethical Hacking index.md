@@ -1,4 +1,11 @@
 #### [[Ethical Hacking]]
 #### [[Hacking Tools]]
 #### [[Practice]]
-#### [[Web Searching]]
+
+# Stages and Techniques
+
+#### [[Reconnaissance]]
+##### [[Web Searching]]
+#### [[Enumeration]]
+##### [[Research]]
+#### [[Exploitation]]

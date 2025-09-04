@@ -9,7 +9,7 @@
 		- Built-in DB called DB2 for i which is integrated in the OS
 	- Development Tools
 	- Applications
-		- ERP systems
+		- [[VA onboarding meeting#^112aba |ERP]] systems
 		- Manufacturing control
 		- Supply chain management
 		- Financial systems

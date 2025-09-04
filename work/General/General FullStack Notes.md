@@ -7,3 +7,11 @@
 	- `queryClient.invalidateQueries({ queryKey: ['users'] })` invalidates every key that has the word "users"
 ### 2. Tanstack router
 - You can create mutation functions with {mutate: funcName} = useMutate, which returns the result of mutate as you're destructuring it from useMutate. Or funName = useMutate, which has the entire mutation object, then you can say funcName.mutate to apply a mutation
+
+### 3. React 
+- useEffect always triggers after a render, don't use it to track changes based on user input
+- Each react component has a default `key` prop that makes different instances of the same component render as different components in general
+	- Useful when you need different instances of a component per user
+
+### 4. TypeORM
+- Always make sure the attribute names used in the frontend DTO matches the backend entities for typeORM to know which fields to populate with data

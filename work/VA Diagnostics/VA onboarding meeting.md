@@ -11,23 +11,8 @@
 5. Deliver them together
 
 ### Technology (AS400/High series)
-- ERP enterprise resource planning
+- ERP enterprise resource planning ^112aba
 - SAP (German company) is the biggest ERP company
-
-### Problem
-- We are going in with the assumption that they have obsolete steps in the system to reflect the processes.
-- Redundancy and process overload
-- Some processes aren't needed and the software doesn't reflect the company's communication structure
-
-### Request
-- Find a way to leverage the data from the data collection software called Issac
-
-### First Steps
-1. Study and understand AS400 and VA's operational modal
-2. Take a look at the DB and diagnose it
-3. Look for inconsistencies and define/plan what needs to be fixed and how
-4. Find operational problems as we're studying the software
-5. Prepare a report to present the findings
 
 ### Digital transformation program
 - Multi project program
@@ -40,3 +25,20 @@
 2. Operators, dispatchers, etc. can go on that excel sheet to go all the data they need
 3. An interface on top of AS400 was attempted and failed (the employees were not consulted before the interface was made)
 4. It's hard to onboard people on the excel sheet
+
+### Problem
+- We are going in with the assumption that they have obsolete steps in the system to reflect the processes
+- Redundancy and process overload
+- Some processes aren't needed and the software doesn't reflect the company's communication structure
+
+### Request
+- Find a way to leverage the data from the data collection software called Issac
+
+### First Steps
+1. Study and understand AS400 and VA's operational modal
+2. Take a look at the DB and diagnose it
+3. Look for inconsistencies and define/plan what needs to be fixed and how
+4. Find operational problems as we're studying the software
+5. Prepare a report to present the findings
+6. Research Issac's capabilities to know what data we can gather from it about each truck
+7. Research DB cosmos 2 (AS400's integrated DB)
