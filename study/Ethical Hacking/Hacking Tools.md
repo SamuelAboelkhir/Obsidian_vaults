@@ -42,7 +42,6 @@
 	- You can set pretty much everything in general such as the LHOST, ports, and the payload `set payload linux/x86/shell_bind_tcp`
 - Once your options are set you can then `run` or `exploit` to use the tool
 - Typing `options` after a failed exploitation attempt may provide you with payload options
-	
 #### smbclient ^4f8b18
 - Not exactly a hacking tool, but it can connect to an smbserver's file share
 - If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files

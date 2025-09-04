@@ -15,7 +15,7 @@
 		- The go to tool for network mapping of attack surfaces and external asset discovery is[OWASP AMASS](https://github.com/owasp-amass/amass)
 	3. Fingerprinting
 		- [[Useful Linux Commands Explained#nmap | nmap]], Wappalyzer, WhatWeb, BuiltWith, NetCat
-	4. Data breaches
+	4. Data breaches ^ce5358
 		- [HaveIBeenPwned](https://haveibeenpwned.com), [Breach-Parse](https://github.com/hmaverickadams/breach-parse), WeLeakInfo
 
 
