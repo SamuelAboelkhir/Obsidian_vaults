@@ -15,3 +15,7 @@
 
 ### 4. TypeORM
 - Always make sure the attribute names used in the frontend DTO matches the backend entities for typeORM to know which fields to populate with data
+
+### 5. Jira
+- User story splitting
+	- ![Splitting][assets/Screenshot%20from%202025-09-04%2013-36-01.png]
