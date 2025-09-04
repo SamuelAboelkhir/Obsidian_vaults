@@ -1,4 +1,4 @@
-#### [[General Notes]]
+#### [[study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/General Notes]]
 #### [[Vulnerabilities]]
 #### [[Findings index| Findings]]
 #### [[Nmap index| nmap]]
