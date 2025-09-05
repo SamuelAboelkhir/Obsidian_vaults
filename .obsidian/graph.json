@@ -2,21 +2,71 @@
   "collapse-filter": true,
   "search": "",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:personal  ",
+      "color": {
+        "a": 1,
+        "rgb": 1356574
+      }
+    },
+    {
+      "query": "path:assets  ",
+      "color": {
+        "a": 1,
+        "rgb": 14606418
+      }
+    },
+    {
+      "query": "path:\"study/Ethical Hacking/Assessment Notes\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 12875292
+      }
+    },
+    {
+      "query": "path:study/Linux  ",
+      "color": {
+        "a": 1,
+        "rgb": 7726758
+      }
+    },
+    {
+      "query": "path:study/Networking  ",
+      "color": {
+        "a": 1,
+        "rgb": 4027018
+      }
+    },
+    {
+      "query": "path:\"study/Ethical Hacking\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13834007
+      }
+    },
+    {
+      "query": "path:work ",
+      "color": {
+        "a": 1,
+        "rgb": 2036675
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.6666666666666663,
+  "linkDistance": 30,
+  "scale": 0.21961549836153146,
   "close": true
 }
