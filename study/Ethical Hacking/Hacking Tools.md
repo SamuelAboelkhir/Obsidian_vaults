@@ -13,6 +13,13 @@
 		- Target allows you to also set a scope as to what should be intercepted
 	- Repeater
 		- The Repeater shows you your response to a request in real time, and allows you to modify it before it's sent
+	- Intruder
+		- You can highlight and add parameters
+			- Example: email and password if you're logging into a website
+		- You can select different **attack types**
+			- **Sniper** is the most common and uses one parameter ^837b27
+		- You can use the **pitchfork** attack type with multiple params ^cbb090
+			- The pitchfork attack takes in lists of data, such as a list of usernames and a list of passwords
 - You can right click an intercepted packet from any tab, and send it to other tabs like the Repeater 
 #### nikto
 - Web vulnerability scanning tool
