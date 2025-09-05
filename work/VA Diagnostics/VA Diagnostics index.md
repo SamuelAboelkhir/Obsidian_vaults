@@ -1,3 +1,3 @@
 #### [[IBM i]]
 #### [[VA onboarding meeting]]
-#### [[General Notes]]
+#### [[work/VA Diagnostics/General Notes]]

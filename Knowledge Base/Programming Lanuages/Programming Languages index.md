@@ -1,0 +1,5 @@
+#### [[General Patterns]]
+#### [[C index|C]]
+#### [[Java index|Java]]
+#### [[HTML-CSS-JS index|HTML/CSS/JS]]
+#### [[Python index|Python]]

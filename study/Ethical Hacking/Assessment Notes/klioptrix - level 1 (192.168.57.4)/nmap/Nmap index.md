@@ -1,2 +1,0 @@
-#### [[nmap scan]]
-#### [[study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/interesting scanned ports/index | interesting scanned ports]]

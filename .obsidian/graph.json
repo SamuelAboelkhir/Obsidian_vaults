@@ -22,38 +22,45 @@
       }
     },
     {
-      "query": "path:\"study/Ethical Hacking/Assessment Notes\"  ",
+      "query": "path:\"Knowledge Base/Ethical Hacking/Assessment Notes\"  ",
       "color": {
         "a": 1,
         "rgb": 12875292
       }
     },
     {
-      "query": "path:study/Linux  ",
+      "query": "path:\"Knowledge Base/Linux\"  ",
       "color": {
         "a": 1,
         "rgb": 7726758
       }
     },
     {
-      "query": "path:study/Networking  ",
+      "query": "path:\"Knowledge Base/Networking\"",
       "color": {
         "a": 1,
         "rgb": 4027018
       }
     },
     {
-      "query": "path:\"study/Ethical Hacking\"  ",
+      "query": "path:\"Knowledge Base/Ethical Hacking\"  ",
       "color": {
         "a": 1,
         "rgb": 13834007
       }
     },
     {
+      "query": "path:\"Knowledge Base/Programming Lanuages\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16958
+      }
+    },
+    {
       "query": "path:work ",
       "color": {
         "a": 1,
-        "rgb": 2036675
+        "rgb": 1909715
       }
     }
   ],
@@ -67,6 +74,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.21961549836153146,
+  "scale": 0.1516751384231361,
   "close": true
 }

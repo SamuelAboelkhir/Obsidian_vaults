@@ -1,5 +1,5 @@
 #### [[Personal index| Personal]]
 #### [[Work index| Work]]
-#### [[Study index| Study]]
+#### [[Knowledge Base index| Study]]
 #### [[markdown-cheat-sheet]]
 #### [[Notes_hub.base]]
