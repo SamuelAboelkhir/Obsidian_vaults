@@ -15,6 +15,8 @@
 ### 2. SSH - Secure Shell
 - The Secure Shell meant mainly for text-based console communication but can do more than that
 - Works over tcp/22 and deals with encrypted data
+- SSH/port 22 is a common finding in the [[Enumeration#^550553|enumeration]] step of [[Ethical Hacking]]
+	- For more insight about exploiting SSH, check-out [[Exploitation#Common ports and protocols 2. SSH - Secure Shell SSH|SSH exploitation]]
 
 ### 3. SFTP - Secure FTP
 - Same as FTP but with security, as in the fact that the data is encrypted
