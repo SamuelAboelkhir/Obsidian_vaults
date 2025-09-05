@@ -11,10 +11,10 @@
 	1. Target validation
 		- WHOIS, nslookup, dnsrecon
 	2. Finding subdomains
-		- [[Web Searching | Google Fu]], [[CLI Tools and Commands#^d16ff0| dig]], [[Useful Linux Commands For Pentesting#nmap| nmap]], Sublist3r, Bluto, crt.sh, etc.
-		- The go to tool for network mapping of attack surfaces and external asset discovery is[OWASP AMASS](https://github.com/owasp-amass/amass)
+		- [[Web Searching |Google Fu]], [[CLI Tools and Commands#^d16ff0|dig]], [[Useful Linux Commands For Pentesting#nmap|nmap]], Sublist3r, Bluto, crt.sh, etc.
+		- The go to tool for network mapping of attack surfaces and external asset discovery is [OWASP AMASS](https://github.com/owasp-amass/amass)
 	3. Fingerprinting
-		- [[Useful Linux Commands For Pentesting#nmap| nmap]], Wappalyzer, WhatWeb, BuiltWith, NetCat
+		- [[Useful Linux Commands For Pentesting#nmap|nmap]], Wappalyzer, WhatWeb, BuiltWith, NetCat
 	4. Data breaches ^ce5358
 		- [HaveIBeenPwned](https://haveibeenpwned.com), [Breach-Parse](https://github.com/hmaverickadams/breach-parse), WeLeakInfo
 
