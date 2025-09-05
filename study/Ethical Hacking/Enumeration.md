@@ -1,9 +1,9 @@
 - Enumeration revolves around perusing leads, and exploring all possible angles of attack
 - A possible flow is something like: 
 	- Using [[Useful Linux Commands Explained#nmap |nmap]] to find exploitable ports 
-	- Then [[Hacking Tools#^b7c0a7|nikto]] to identify possible weaknesses in web applications 
-	- Followed by a [[Hacking Tools#^b7c0a7|dirbuster]] scan with a wordlist file on one of the exploitable ports
-- [[Hacking Tools#^4f8b18|smbclient]] is great for trying to enumerate when an SMB port is discovered
+	- Then [[Hacking Tools#nikto|nikto]] to identify possible weaknesses in web applications 
+	- Followed by a [[Hacking Tools#dirbuster|dirbuster]] scan with a wordlist file on one of the exploitable ports
+- [[Hacking Tools#smbclient|smbclient]] is great for trying to enumerate when an SMB port is discovered
 - [[Common ports and protocols#2. SSH - Secure Shell|SSH]] ^550553
 	- The reason to attempt SSH enumeration despite it being so secure is that you may be shown a banner telling you the SSH version and who made it, which info that can be further enumerated
 	- For older machines when you try to ssh you may be told no matching key exchange method is found

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4279a55a2aa1296a",
+        "id": "869faf0260d31775",
         "type": "tabs",
         "children": [
           {
-            "id": "26560d2ade57dd66",
+            "id": "c3edcadf83248758",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "flow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5110321044922
+    "width": 320.5
   },
   "right": {
     "id": "170f06fa6a6a4905",
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/MyFleeta.md",
+                "file": "study/Ethical Hacking/Hacking Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MyFleeta"
+              "title": "Backlinks for Hacking Tools"
             }
           },
           {
@@ -109,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/MyFleeta.md",
+                "file": "study/Ethical Hacking/Hacking Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MyFleeta"
+              "title": "Outgoing links from Hacking Tools"
             }
           },
           {
@@ -138,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/MyFleeta.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MyFleeta"
+              "title": "Outline"
             }
           },
           {
@@ -204,41 +203,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26560d2ade57dd66",
+  "active": "c3edcadf83248758",
   "lastOpenFiles": [
-    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/General Notes.md",
-    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/nmap scan.md",
-    "work/Work index.md",
-    "study/Study index.md",
-    "work/General/General index.md",
-    "work/VA Diagnostics/General Notes.md",
-    "work/General/General FullStack Notes.md",
-    "assets/Screenshot from 2025-09-04 13-36-01.png",
-    "assets/Screenshot from 2025-09-04 11-40-25.png",
-    "assets/Screenshot_2025-09-04_16-24-56.png",
-    "study/Networking/Subnetting guide.md",
+    "study/Ethical Hacking/Flow.md",
+    "study/Ethical Hacking/Assessment Notes/Assessment Notes index.md",
     "study/Ethical Hacking/Ethical Hacking index.md",
-    "study/Linux/Linux index.md",
-    "study/Networking/Networking index.md",
-    "work/VA Diagnostics/VA Diagnostics index.md",
-    "work/VA Diagnostics/VA onboarding meeting.md",
-    "work/VA Diagnostics/IBM i.md",
-    "study/Linux/Useful Linux Commands Explained.md",
-    "study/Ethical Hacking/Enumeration.md",
-    "study/Networking/Common ports and protocols.md",
-    "study/Ethical Hacking/Exploitation.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/klioptrix followed flow and findings.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/nmap scan.md",
     "study/Ethical Hacking/Ethical Hacking.md",
-    "personal/Useful Command-line Tools.md",
+    "study/Ethical Hacking/Enumeration.md",
     "study/Ethical Hacking/Hacking Tools.md",
-    "work/Overtime And Annuals.md",
-    "work/PMM.md",
-    "work/MyFleeta.md",
-    "study/Ethical Hacking/Reconnaissance.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/Klioptrix - level 1 index.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/General Notes.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/Nmap index.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/interesting scanned ports/port 139/139.md",
+    "study/Networking/Common ports and protocols.md",
     "study/Ethical Hacking/Research.md",
-    "assets/proxy-image.jpeg",
-    "assets/Screenshot from 2025-09-03 13-56-41.png",
-    "assets/Screenshot from 2025-09-03 13-46-35.png",
-    "assets/Screenshot from 2025-09-03 13-44-18.png",
+    "Enumerate.md",
+    "study/Ethical Hacking/Exploitation.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/Findings/Information Disclosure.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/Findings/Findings.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/Findings/Default Web Page - Apache.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/Vulnerabilities.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/interesting scanned ports/port 80-443/nikto.md",
+    "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/interesting scanned ports/port 139/Port 139 index.md",
+    "study/Ethical Hacking/Reconnaissance.md",
+    "study/Linux/Scripting.md",
+    "study/Ethical Hacking/Web Searching.md",
+    "study/Ethical Hacking/Script Challenges.md",
+    "assets/Screenshot_2025-09-04_16-24-56.png",
+    "assets/Screenshot from 2025-09-04 13-36-01.png",
     "Notes_hub.base",
     "work/General",
     "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/interesting scanned ports/port 80-443",
@@ -251,6 +245,11 @@
     "study/Ethical Hacking/Assessment Notes",
     "assets/Screenshot from 2025-08-29 14-43-25.png",
     "assets/Screenshot from 2025-08-29 14-41-55.png",
-    "assets/Screenshot from 2025-08-29 14-39-46.png"
+    "assets/Screenshot from 2025-08-29 14-39-46.png",
+    "assets/Screenshot from 2025-08-29 14-35-17.png",
+    "assets/Screenshot from 2025-08-29 14-23-37.png",
+    "assets/Screenshot from 2025-08-29 14-03-59.png",
+    "assets/Screenshot from 2025-08-29 14-01-01.png",
+    "assets/Screenshot from 2025-08-24 03-55-14.png"
   ]
 }

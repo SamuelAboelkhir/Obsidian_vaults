@@ -14,10 +14,11 @@
 	- Repeater
 		- The Repeater shows you your response to a request in real time, and allows you to modify it before it's sent
 - You can right click an intercepted packet from any tab, and send it to other tabs like the Repeater 
-#### nikto ^b7c0a7
+#### nikto
 - Web vulnerability scanning tool
-- Basic syntax: `nikto -h http(s)://ip_address` 
-#### dirbuster ^99ae95
+- Basic syntax: `nikto -h http(s)://ip_address`
+- Can be blocked if the application has good security/firewall
+#### dirbuster
 - Run with `dirbuster &` to keep it running in the background
 - Provide it with a URL + port. E.g `http://192.168.57.4:80/`
 - You need to pick a wordlist file. 
@@ -42,13 +43,19 @@
 	- You can set pretty much everything in general such as the LHOST, ports, and the payload `set payload linux/x86/shell_bind_tcp`
 - Once your options are set you can then `run` or `exploit` to use the tool
 - Typing `options` after a failed exploitation attempt may provide you with payload options
-#### smbclient ^4f8b18
+#### smbclient
 - Not exactly a hacking tool, but it can connect to an smbserver's file share
 - If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files
 - `smbclient -L \\\\192.168.57.4\\` will list all files
 - If you find a file `smbclient \\\\192.168.57.4\\ADMIN$` will attempt to connect to the file
-#### nessus  ^687ee2
+#### nessus
 - A vulnerability scanner tool
-- NNAH-LFFS-PZXP-KTB5-P38X
+- Search for nessus download on google, then download and install the relevant file
+- Start nessus by typing `sudo systemctl start nessusd.service` or `sudo /etc/init.d/nessusd start`
+- Go to https://localhost:8834 to use nessus
+- My activation code that I never got to use NNAH-LFFS-PZXP-KTB5-P38X
 - Works on private networks only with the free edition
 - Don't rely on nessus's reported vulnerability on your report, rather, confirm it, and take a screenshot of the actual vulnerability
+#### enum4linux
+- A powerful enumeration tool
+- Give it an ip and it will do the rest
