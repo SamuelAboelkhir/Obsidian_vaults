@@ -4,7 +4,7 @@
 - Information disclosure
 	- 404 not found page
 	- Server headers disclose version information
-- Interesting [[Useful Linux Commands Explained#nmap | nmap]] findings
+- Interesting [[Useful Linux Commands For Pentesting#nmap| nmap]] findings
 	- mod_ssl/2.8.4 - mod_ssl 2.8.7 and lower are vulnerable to a remote buffer overflow which may allow a remote shell.
 	- 80/tcp    open  http        Apache httpd 1.3.20 ((Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)
 - [**Webalizer Version 2.01**](http://www.mrunix.net/webalizer/)

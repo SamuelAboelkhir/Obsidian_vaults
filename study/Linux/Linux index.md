@@ -1,2 +1,2 @@
-#### [[Useful Linux Commands Explained]]
+#### [[CLI Tools and Commands]]
 #### [[Scripting]]

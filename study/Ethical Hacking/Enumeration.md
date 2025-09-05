@@ -1,6 +1,6 @@
 - Enumeration revolves around perusing leads, and exploring all possible angles of attack
 - A possible flow is something like: 
-	- Using [[Useful Linux Commands Explained#nmap |nmap]] to find exploitable ports 
+	- Using [[Useful Linux Commands For Pentesting#nmap|nmap]] to find exploitable ports 
 	- Then [[Hacking Tools#^b7c0a7|nikto]] to identify possible weaknesses in web applications 
 	- Followed by a [[Hacking Tools#^b7c0a7|dirbuster]] scan with a wordlist file on one of the exploitable ports
 - [[Hacking Tools#^4f8b18|smbclient]] is great for trying to enumerate when an SMB port is discovered
