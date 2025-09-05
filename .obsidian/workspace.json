@@ -11,13 +11,33 @@
             "id": "c3edcadf83248758",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "personal/Useful Command-line Tools.md",
+                "bFile": "study/Linux/CLI Tools and Commands.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: CLI Tools and Commands"
+            }
+          },
+          {
+            "id": "b6a104ff8f723d33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,12 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
@@ -203,8 +224,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3edcadf83248758",
+  "active": "b6a104ff8f723d33",
   "lastOpenFiles": [
+    "study/Ethical Hacking/Ethical Hacking.md~",
+    "study/Ethical Hacking/Enumeration.md~",
+    "conflict-files-obsidian-git.md",
+    "study/Linux/CLI Tools and Commands.md",
+    "study/Ethical Hacking/Useful Linux Commands For Pentesting.md",
     "study/Ethical Hacking/Flow.md",
     "study/Ethical Hacking/Assessment Notes/Assessment Notes index.md",
     "study/Ethical Hacking/Ethical Hacking index.md",
@@ -227,10 +253,6 @@
     "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/Vulnerabilities.md",
     "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/interesting scanned ports/port 80-443/nikto.md",
     "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap/interesting scanned ports/port 139/Port 139 index.md",
-    "study/Ethical Hacking/Reconnaissance.md",
-    "study/Linux/Scripting.md",
-    "study/Ethical Hacking/Web Searching.md",
-    "study/Ethical Hacking/Script Challenges.md",
     "assets/Screenshot_2025-09-04_16-24-56.png",
     "assets/Screenshot from 2025-09-04 13-36-01.png",
     "Notes_hub.base",
@@ -242,7 +264,6 @@
     "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/nmap",
     "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)/Findings",
     "study/Ethical Hacking/Assessment Notes/klioptrix - level 1 (192.168.57.4)",
-    "study/Ethical Hacking/Assessment Notes",
     "assets/Screenshot from 2025-08-29 14-43-25.png",
     "assets/Screenshot from 2025-08-29 14-41-55.png",
     "assets/Screenshot from 2025-08-29 14-39-46.png",

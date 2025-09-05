@@ -4,7 +4,7 @@
 	- Active
 	- Passive
 2. Scanning and enumeration
-	- [[Useful Linux Commands Explained#nmap |nmap]], [[Hacking Tools#nessus|nessus]], [[Hacking Tools#nikto|nikto]], etc
+	- [[Useful Linux Commands For Pentesting#nmap|nmap]], [[Hacking Tools#^687ee2|nessus]], [[Hacking Tools#^b7c0a7 |nikto]], etc
 3. Gaining Access ("Exploitation")
 4. Maintaining Access
 5. Covering Tracks

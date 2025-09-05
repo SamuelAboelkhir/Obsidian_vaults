@@ -60,7 +60,12 @@ The count parameter determines how many blocks to copy.
 - `nvtop`: Specific nvidia GPU monitor.
 - `btop`: Monitor for CPU, DISK, RAM, Network that's fast and pretty.
 - `uname`: Prints certain system information
+- `passwd`: sets system password
+- `groups`: shows available groups ^2ddd0f
 - `getent` : Displays entries from databases supported by the NSS switch libraries ^870e82
+- `getent passwd` or `cat /etc/passwd`: shows all available users ^95dc24
+- `getent group` or `cat /etc/group`: shows all available groups and their members
+- `sudo getent shadow or sudo cat /etc/shadow`: shows you the password hashes of users that have passwords ^46071d
 - `ps aux` lists all running processes
 	- ps = Process Status command
 	- a = Show processes for ALL users (not just current user)
@@ -77,14 +82,24 @@ The count parameter determines how many blocks to copy.
 	- cat /proc/1234/status
 	- cat /proc/1234/cmdline
 	- ls -la /proc/1234/
-
+- `sudo -l`: shows you available sudo privileges ^424c38
+- `sudo cat /etc/sudoers`: shows you which users and groups have which sudo permissions ^85415c
+- `systemctl` runs services at boot ^87cbfa
+- `service`, example: Web servers ^484cec
+	1. Apache: Allows you to start a server and host software on it
+		1. Start the server with`sudo service apache2 start`
+		2. Type your IP address into the browser. The server will be running on port 80
+		3. Stop the service with `sudo service apache2 stop`
+	2. You can also start servers with python
+		1. `python3 -m http.server [port number]`
+		2. The webserver starts within the folder you're currently inside
 ---
 ### Networking commands and tools
 
 #### Back to top: [[#Links]]
 - `arp`: shows the device's arp table. ^225c89
-- `nmap -sn 192.168.1.1/24`: shows all the IPs in the specified range and subnet mask as well as their open ports. Use --verbose on all commands for more details.
-	- See also [[Useful Linux Commands Explained#nmap | nmap]]
+- `nmap -sn 192.168.1.1/24`: shows all the IPs in the specified range and subnet mask as well as their open ports. Use --verbose on all commands for more details. ^2b1c6e
+	- See also [[Useful Linux Commands For Pentesting#nmap|nmap]]
 - `nmcli`: CLI network manager.
 - `mtr`: shows both ping and traceroute to a specific IP.
 - `dig`: does DNS lookups and reverse DNS with the -x flag ^d16ff0
