@@ -1,5 +1,12 @@
+---
+tags:
+- type/findings/initial
+- context/target/klioptrix/level/1
+- context/phase/reconnaissance
+---
+
 ### Gathered Information
-- 80/443 on IP 192.168.57.4
+- [[Common ports and protocols#9. HTTP and HTTPS - Hypertext Transfer Protocol|80/443]] on IP 192.168.57.4
 - Found a default webpage - Apache - PHP
 - Information disclosure
 	- 404 not found page

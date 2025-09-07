@@ -1,3 +1,14 @@
+---
+tags:
+- type/scan
+- context/target/klioptrix/level/1
+- context/phase/reconnaissance
+- topic/nmap-scan-results
+- tool/nmap
+---
+Refer To:
+- [[Useful Linux Commands For Pentesting#nmap]]
+- [[CLI Tools and Commands#^2b1c6e]]
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-30 13:46 EDT
 Nmap scan report for 192.168.57.4
 Host is up (0.00021s latency).

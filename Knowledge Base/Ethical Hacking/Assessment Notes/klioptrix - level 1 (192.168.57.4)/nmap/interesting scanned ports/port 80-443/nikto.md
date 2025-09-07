@@ -1,3 +1,16 @@
+---
+tags:
+- type/scan
+- context/target/klioptrix/level/1
+- context/phase/enumeration
+- topic/port-findings
+- context/port/80-443
+- context/service/http
+- tool/nikto
+---
+
+**Refer to:**
+- [[Hacking Tools#nikto]]
 - Nikto v2.5.0
 ---------------------------------------------------------------------------
 + Target IP:          192.168.57.4

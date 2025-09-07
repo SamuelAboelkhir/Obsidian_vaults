@@ -1,3 +1,9 @@
+---
+tags: 
+- topic/network-tunneling
+- type/reference/networking
+---
+
 Network Tunneling and VPN Technologies: A Complete Guide
 1. GRE - Generic Routing Encapsulation
 GRE is the foundation of network tunneling technology. It creates a virtual tunnel between two communicating devices, making them appear as if they were directly connected even across complex networks.

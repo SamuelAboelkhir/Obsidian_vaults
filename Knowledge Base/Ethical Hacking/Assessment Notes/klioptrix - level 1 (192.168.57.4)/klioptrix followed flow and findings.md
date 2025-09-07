@@ -1,4 +1,10 @@
-1. [[Useful Linux Commands Explained#nmap|nmap]] scan to detect possibly vulnerable ports 
+---
+tags:
+- type/findings/flow
+- context/target/klioptrix/level/1
+---
+
+1. [[Useful Linux Commands For Pentesting#nmap|nmap]] scan to detect possibly vulnerable ports 
 	1. Gave us port 139 (smb) and 80/443 (http/https)
 	2. Gave us some OS info
 2. [[Enumeration|Enumerate]] findings by first trying to connect to the target on the browser

@@ -1,3 +1,9 @@
+---
+tags:
+- domain/ethical-hacking
+- type/index/domain
+---
+
 #### [[Ethical Hacking]]
 #### [[Hacking Tools]]
 #### [[Useful Linux Commands For Pentesting]]
@@ -10,7 +16,7 @@
 ##### [[Web Searching]]
 #### [[Enumeration]]
 ##### [[Research]]
-#### [[Exploitation]]
+#### [[Exploitation index|Exploitation]]
 
 # Assessments
 #### [[Assessment Notes index]]

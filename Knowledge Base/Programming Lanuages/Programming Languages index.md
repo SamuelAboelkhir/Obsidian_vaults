@@ -1,5 +1,11 @@
+---
+tags: 
+- domain/coding
+- type/index/domain
+---
+
 #### [[General Patterns]]
 #### [[C index|C]]
 #### [[Java index|Java]]
-#### [[HTML-CSS-JS index|HTML/CSS/JS]]
+#### [[JS index|JS]]
 #### [[Python index|Python]]

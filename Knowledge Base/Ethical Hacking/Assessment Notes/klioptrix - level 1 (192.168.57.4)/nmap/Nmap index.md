@@ -1,2 +1,9 @@
+---
+tags:
+- type/index/scan
+- context/target/klioptrix/level/1
+- tool/nmap
+- topic/nmap-scan-index
+---
 #### [[nmap scan]]
-#### [[index| interesting scanned ports]]
+#### [[Ports index|interesting scanned ports]]

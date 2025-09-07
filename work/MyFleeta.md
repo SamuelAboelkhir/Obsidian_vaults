@@ -1,3 +1,7 @@
+---
+tags: [work-project/myfleeta, type/billable-coding-project]
+---
+
 2. [x] Remove UsersPage and ServiceProgramTemplatePage from the router as they are now components, and adjust their names accordingly
 3. [x] In ServicesAndParts, the service detail page needs to close back to the dashboard not the admin config page
 4. [x] Try modal based create/edit pages, or small boxes

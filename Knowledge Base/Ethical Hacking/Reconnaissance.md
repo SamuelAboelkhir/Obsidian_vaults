@@ -1,3 +1,10 @@
+---
+tags:
+- type/reference/ethical-hacking
+- context/phase/reconnaissance
+- topic/phases/hacking
+---
+
 ### Passive(OSINT)
 1. Physical/social recon which include:
 	1. Location information

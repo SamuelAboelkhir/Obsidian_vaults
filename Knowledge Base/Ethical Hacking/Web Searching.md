@@ -1,3 +1,9 @@
+---
+tags:
+- type/reference/ethical-hacking
+- context/phase/web-searching
+- topic/phases/hacking
+---
 ### Google
 - [Google Searching Syntax](https://developers.google.com/code-search/reference) Google-fu is good. Use advanced searching syntax on a domain and try different searching terms, filetypes, sites, etc. in order to see what extra info you can find.
 

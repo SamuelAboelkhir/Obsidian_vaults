@@ -1,3 +1,9 @@
+---
+tags:
+- topic/ports-and-protocols
+- type/reference/networking
+---
+
 # OSI Model
 ![OSI model](assets/proxy-image.jpeg)
 
@@ -15,8 +21,8 @@
 ### 2. SSH - Secure Shell
 - The Secure Shell meant mainly for text-based console communication but can do more than that
 - Works over tcp/22 and deals with encrypted data
-- SSH/port 22 is a common finding in the [[Enumeration#^550553|enumeration]] step of [[Ethical Hacking]]
-	- For more insight about exploiting SSH, check-out [[Exploitation#Common ports and protocols 2. SSH - Secure Shell SSH|SSH exploitation]]
+- SSH/port 22 is a common finding in the [[Enumeration#SSH|enumeration]] step of [[Ethical Hacking]]
+	- For more insight about exploiting SSH, check-out [[Exploitation#SSH|SSH exploitation]]
 
 ### 3. SFTP - Secure FTP
 - Same as FTP but with security, as in the fact that the data is encrypted
@@ -112,6 +118,8 @@
 - ![LDAP tree structure](assets/Screenshot%20from%202025-08-29%2014-01-01.png)
 
 ### 13. SMB - Server Message Block
+- **Refer To:** 
+	- [[Enumeration#smbclient]]
 - Protocol used by Microsoft Windows
 	- The data is stored in files on the network in a file share
 	- File sharing, printer sharing
@@ -120,7 +128,7 @@
 	- Access rights integration across systems
 	- File share publishing
 	- File locking
-- Used to use NetBIOS
+- Used to use NetBIOS (tcp/139)
 - Now it's direct SMB communication using IP over  tcp/445 (NetBIOS-less)
 
 ### 14. Syslog

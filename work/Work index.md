@@ -1,6 +1,10 @@
-### [[General index| General notes]]
+---
+tags: [work, type/area-index]
+---
+
+### [[General index|General notes]]
 ### [[Overtime And Annuals]]
 ### All Projects
-- #### [[PMM]]
+- #### [[Compass]]
 - #### [[MyFleeta]]
-- #### [[VA Diagnostics index| VA]]
+- #### [[VA Diagnostics index|VA]]

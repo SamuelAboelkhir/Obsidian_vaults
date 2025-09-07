@@ -1,3 +1,7 @@
+---
+tags: [work/va/notes, type/work-notes]
+---
+
 - Assumption 1: 
 	- React is not needed excel is enough
 	- We may need to fix the DB

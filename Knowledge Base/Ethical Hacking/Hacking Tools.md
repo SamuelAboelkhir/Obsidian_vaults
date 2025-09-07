@@ -1,3 +1,9 @@
+---
+tags:
+- type/reference/ethical-hacking
+- topic/tools/hacking
+---
+
 #### Butp suite
 - Burp suite is a web proxy with its own cert allowing it to see TLS encrypted data
 - To get started, you need to start burp suite, and a browser (preferably firefox) and go to the browser settings

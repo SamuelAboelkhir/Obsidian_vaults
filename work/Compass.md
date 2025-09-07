@@ -1,4 +1,8 @@
-## Things to fix in the PMM
+---
+tags: [work-project/compass, type/internal-coding-project]
+---
+
+## Things to fix in Compass
 
 1. Problem: The AdminPanel route is still accessible for non-admin users
 	- [ ] Solution: Add role restriction for the route as a whole

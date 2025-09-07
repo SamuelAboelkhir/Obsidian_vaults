@@ -1,3 +1,9 @@
+---
+tags: 
+- type/reference/linux
+- topic/scripting
+---
+
 ### Python
 
 #### Socket illustration script

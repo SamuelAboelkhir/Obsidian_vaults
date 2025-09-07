@@ -1,5 +1,5 @@
 ---
 tags: 
-- language/c
+- language/js
 - type/index/language
 ---

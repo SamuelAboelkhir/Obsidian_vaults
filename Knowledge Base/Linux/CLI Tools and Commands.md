@@ -1,6 +1,7 @@
 ---
-Title: Useful Command-line Tools
-tags: [Personal, General]
+tags: 
+- type/reference/linux
+- topic/cli
 ---
 # Links: 
 - [[#Various command line tools]]
