@@ -1,10 +1,9 @@
 ---
-tags: [work, type/area-index]
+tagas: 
+- area/work
+- type/index/area
 ---
 
-### [[General index|General notes]]
-### [[Overtime And Annuals]]
-### All Projects
-- #### [[Compass]]
-- #### [[MyFleeta]]
-- #### [[VA Diagnostics index|VA]]
+#### [[General index|General notes]]
+#### [[Overtime And Annuals]]
+#### [[Projects index|Projects]]

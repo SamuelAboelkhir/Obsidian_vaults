@@ -1,6 +1,7 @@
 ---
 tags: 
-- personal/groceries
+- area/personal/groceries
+- category/misc
 ---
 
 1. Laura leafs

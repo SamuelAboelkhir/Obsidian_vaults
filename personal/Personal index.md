@@ -1,6 +1,6 @@
 ---
 tags: 
-- personal
+- area/personal
 - type/index/area
 ---
 

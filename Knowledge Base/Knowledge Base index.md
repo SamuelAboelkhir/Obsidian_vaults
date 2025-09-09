@@ -1,6 +1,6 @@
 ---
 tags: 
-- knowledge-base
+- area/knowledge-base
 - type/index/area
 ---
 

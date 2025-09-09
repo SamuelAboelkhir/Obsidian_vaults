@@ -1,7 +1,8 @@
 ---
 tags:
-- type/findings/initial
+- type/findings
 - context/target/klioptrix/level/1
+- context/initial
 - context/phase/reconnaissance
 ---
 

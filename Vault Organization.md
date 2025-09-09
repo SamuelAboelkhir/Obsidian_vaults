@@ -39,3 +39,12 @@
 		- **Where found:** `context/target/klioptrix/level/1`
 		- **When found:** `context/phase/reconnaissance`
 		- **What type:** `context/vulnerability/[specific-type]`
+	- Tags explained:
+		- topic: File content type. E.g, notes, index, etc...
+		- area: root level folder
+		- domain: first level folder, under root
+		- topic: 2nd level folder, under domain, more specific
+		- category: Supplements type, and can exist across different areas. E.g, daily
+		- context: Differentiates between similar types
+			- area/work, domain/projects, context/compass or context/myfleeta
+			- context is used on every file belonging to the context including the index

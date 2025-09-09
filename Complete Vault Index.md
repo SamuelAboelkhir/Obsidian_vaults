@@ -1,6 +1,6 @@
 ---
 tags: 
-- complete-vault
+- root/complete-vault
 - type/index/root
 ---
 

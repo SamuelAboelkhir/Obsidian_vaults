@@ -1,5 +1,8 @@
 ---
-tags: [work-project/compass, type/internal-coding-project]
+tags:
+- type/notes
+- category/internal-coding-project
+- context/compass
 ---
 
 ## Things to fix in Compass

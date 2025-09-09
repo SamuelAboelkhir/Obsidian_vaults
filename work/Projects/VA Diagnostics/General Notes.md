@@ -1,7 +1,12 @@
 ---
-tags: [work/va/notes, type/work-notes]
+tags: 
+- type/notes
+- context/va
 ---
-
+aadel
+ 
+iVTgmZxMKuhQ8
+ 
 - Assumption 1: 
 	- React is not needed excel is enough
 	- We may need to fix the DB
@@ -40,3 +45,9 @@ Discussion
 - ROI
 - What is a program?
 - knowledge transfer
+
+db2 catalog tcpip node node_name remote dashDB_IP_address server port
+
+how do I use this command to connect with the DB2 server hosted on my client's AS400?
+
+I tried and got SQL10007N Message "-1390" could not be retrieved. Reason code: "3".

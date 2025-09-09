@@ -1,5 +1,8 @@
 ---
-tags: [work-project/myfleeta, type/billable-coding-project]
+tags: 
+- type/notes
+- category/billable-coding-project
+- context/myfleeta
 ---
 
 2. [x] Remove UsersPage and ServiceProgramTemplatePage from the router as they are now components, and adjust their names accordingly

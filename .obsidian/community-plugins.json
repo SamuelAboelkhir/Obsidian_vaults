@@ -3,5 +3,6 @@
   "obsidian-vimrc-support",
   "obsidian-relative-line-numbers",
   "external-file-embed-and-link",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-tagfolder"
 ]
