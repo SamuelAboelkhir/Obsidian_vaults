@@ -31,3 +31,7 @@ tags:
 1. [[Hacking Tools#Metasploit|metasploit]]
 	1. The culmination of all the enumeration and research
 	2. Pick the correct tool based on gathered info
+#### 5. Post Exploitation
+- Gathered information after managing to get in
+- Undetected malicious activity
+	- Whether or not the client security was able to detect you
