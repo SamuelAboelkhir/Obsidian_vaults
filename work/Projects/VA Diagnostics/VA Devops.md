@@ -13,3 +13,8 @@
 - There is also a docker image
 - We're suggesting to migrate from innovation's gitlab to another VA gitlab instead of going directly to azure devops for hosting the webapp
 - We will migrate from innovation's gitlab to our own, do test, then back to their gitlab, and if they want then to azure
+
+
+
+1. Who started communications? us or them?
+2. 

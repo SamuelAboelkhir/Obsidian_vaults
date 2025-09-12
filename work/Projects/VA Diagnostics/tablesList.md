@@ -1,10 +1,10 @@
 # All tables
-- [x] $MSDFF01
-- [x] ACDFF01
-- [x] ACDFF01EXT
-- [x] AGDFF01
-- [x] AGDFF01EXT
-- [x] AGDFF02
+- [ ] $MSDFF01
+- [ ] ACDFF01
+- [ ] ACDFF01EXT
+- [ ] AGDFF01
+- [ ] AGDFF01EXT
+- [ ] AGDFF02
 - [ ] ANDFF01
 - [ ] ANDFF01EXD
 - [ ] ANDFF01EXT

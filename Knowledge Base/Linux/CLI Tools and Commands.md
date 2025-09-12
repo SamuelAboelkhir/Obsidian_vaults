@@ -5,6 +5,7 @@ tags:
 ---
 # Links: 
 - [[#Various command line tools]]
+- [[#File operations]]
 - [[#Web development project init]]
 - [[#System management and monitoring]]
 - [[#Networking commands and tools]]
@@ -30,6 +31,14 @@ tags:
 - vipe: pipe stdin into the text editor, and save quit to pipe the output to stdout.
 - `sudo update-alternatives --config x-terminal-emulator`: Change default terminal.
 - `chsh -s /bin/${shell}`: Replace ${shell} with the shell you want to change the default shell.
+---
+### File operations
+- `wc`: word count
+- `uniq`: finds unique occurrences of lines in the file 
+- `cut`: extracts specific columns from a file
+- `diff`: compares the contents of files
+- `sort`: sorts the contents of the file
+- #### Back to top: [[#Links]]
 ---
 ### Web development project init
 
