@@ -22,4 +22,4 @@ MOC: Knowledge Base
 [[EH Buffer Overflow Steps]]
 [[EH Spiking]]
 ## Assessments
-[[EH Assessments Index]]
+[[EH AS Klioptrix - level 1]]

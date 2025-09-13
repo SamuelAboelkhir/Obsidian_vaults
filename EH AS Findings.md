@@ -2,6 +2,8 @@
 tags:
 - klioptrix/level-1
 - Findings
+- EH
+MOC: Knowledge Base
 ---
 
 Found a default webpage - Apache - PHP

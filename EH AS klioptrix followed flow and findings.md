@@ -2,6 +2,8 @@
 tags:
 - klioptrix/level-1
 - Flow
+- EH
+MOC: Knowledge Base
 ---
 
 1. [[EH Useful Linux Commands For Pentesting#nmap|nmap]] scan to detect possibly vulnerable ports 
