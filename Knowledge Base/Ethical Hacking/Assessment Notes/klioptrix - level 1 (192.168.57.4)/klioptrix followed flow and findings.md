@@ -1,6 +1,6 @@
 ---
 tags:
-- type/findings/flow
+- type/flow/findings
 - context/target/klioptrix/level/1
 ---
 

