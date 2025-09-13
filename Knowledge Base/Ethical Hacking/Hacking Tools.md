@@ -62,7 +62,7 @@ tags:
 	- `-f`means file type which is set to `c`as the output file
 	- `-a`is our architecture
 	- `-b`is for bad characters that should be used which we found here [[Buffer Overflow Steps#^d6154c|Buffer Overflow stes#Finding Bad Characters]]
-
+	- ![Generated ShellCode](assets/Screenshot_2025-09-13_05-14-49.png)
 #### smbclient
 - Not exactly a hacking tool, but it can connect to an smbserver's file share
 - If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files
