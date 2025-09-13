@@ -2,6 +2,8 @@
 tags:
 - klioptrix/level-1
 - Vulnerabilities
+- EH
+MOC: Knowledge Base
 ---
 
 - [[NET Common ports and protocols#9. HTTP and HTTPS - Hypertext Transfer Protocol|80/443]] - Potentially vulnerable to OpenLuck (https://www.exploit-db.com/exploits/764), https://github.com/heltonWernik/OpenLuck
