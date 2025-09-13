@@ -1,0 +1,28 @@
+---
+---
+
+- Formerly known as AS400 (Application System/400)
+- Is a mid-range business computer system
+- It acts as an integrated business platform which offers
+	-  Hardware (cloud servers)
+	- OS (IBM i)
+		- User interface is the 5250 green screen terminal
+		- Secured by an object-level security model built into the kernel
+	- Database 
+		- Built-in DB called DB2 for i which is integrated in the OS
+	- Development Tools
+	- Applications
+		- [[WR VA onboarding meeting#^112aba|ERP]] systems
+		- Manufacturing control
+		- Supply chain management
+		- Financial systems
+		- Customer management
+- It's meant to be a complete business solution
+- Highly reliable system intended for mid-market companies
+- The main benefits the system offers are:
+	- Zero downtime (99.999% uptime)
+	- Everything is integrated
+	- Automatic system management requiring minimal IT
+	- Backward compatibility with older software
+	- Built-in security
+	- Scalability

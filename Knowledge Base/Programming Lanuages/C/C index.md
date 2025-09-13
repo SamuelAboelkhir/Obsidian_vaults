@@ -1,5 +1,0 @@
----
-tags: 
-- language/c
-- type/index/language
----
