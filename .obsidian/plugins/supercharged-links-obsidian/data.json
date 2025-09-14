@@ -1,0 +1,111 @@
+{
+  "targetAttributes": [],
+  "targetTags": true,
+  "getFromInlineField": false,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "enableBases": true,
+  "selectors": [
+    {
+      "type": "tag",
+      "name": "",
+      "value": "MOC",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "0ef3-066f",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "EH",
+      "matchCaseSensitive": false,
+      "match": "startswith",
+      "uid": "a3bb-3583",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "AS",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "de48-a358",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "LI",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "c2a7-c55c",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "NET",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "2a97-c9b0",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "PER",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "6258-b88f",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "PG",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "62c2-e1f8",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "WR",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "742c-be47",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    }
+  ]
+}
