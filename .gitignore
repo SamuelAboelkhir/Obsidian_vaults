@@ -1,14 +1,11 @@
 # Workspace files
 .obsidian/workspace*
 .obsidian/cache/
-.obsidian/graph.json
+# .obsidian/graph.json
 
 # Sync plugin folders but ignore data files
-.obsidian/plugins/*/data.json
+# .obsidian/plugins/*/data.json
 .obsidian/plugins/*/cache/
-
-
-
 
 # Ignore Smart Environment folder
 .smart-env
