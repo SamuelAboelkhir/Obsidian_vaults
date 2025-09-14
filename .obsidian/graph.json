@@ -15,13 +15,6 @@
       }
     },
     {
-      "query": "file:AS",
-      "color": {
-        "a": 1,
-        "rgb": 14344774
-      }
-    },
-    {
       "query": "file:EH",
       "color": {
         "a": 1,
@@ -32,7 +25,7 @@
       "query": "file:LI",
       "color": {
         "a": 1,
-        "rgb": 10405194
+        "rgb": 16774917
       }
     },
     {
@@ -64,9 +57,9 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -0.6,
+  "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
@@ -74,6 +67,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 275,
-  "scale": 0.200225830078125,
+  "scale": 0.059326171875,
   "close": true
 }
