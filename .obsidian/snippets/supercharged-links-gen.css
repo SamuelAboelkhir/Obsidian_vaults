@@ -78,13 +78,13 @@ div[data-id="0ef3-066f"] div.setting-item-description::after,
 }
 
 div[data-id="a3bb-3583"] div.setting-item-description,
-[data-link-path^="EH" i] {
+[data-link-path^="EH" ] {
     color: var(--a3bb-3583-color) !important;
     font-weight: var(--a3bb-3583-weight);
 }
 
 .c-a3bb-3583-use-background div[data-id="a3bb-3583"] div.setting-item-description,
-.c-a3bb-3583-use-background .data-link-text[data-link-path^="EH" i] {
+.c-a3bb-3583-use-background .data-link-text[data-link-path^="EH" ] {
     background-color: var(--a3bb-3583-background-color) !important;
     border-radius: 5px;
     padding-left: 2px;
@@ -93,12 +93,12 @@ div[data-id="a3bb-3583"] div.setting-item-description,
 }
 
 div[data-id="a3bb-3583"] div.setting-item-description::before,
-.data-link-icon[data-link-path^="EH" i]::before {
+.data-link-icon[data-link-path^="EH" ]::before {
     content: var(--a3bb-3583-before);
 }
 
 div[data-id="a3bb-3583"] div.setting-item-description::after,
-.data-link-icon-after[data-link-path^="EH" i]::after {
+.data-link-icon-after[data-link-path^="EH" ]::after {
     content: var(--a3bb-3583-after);
 }
 

@@ -17,7 +17,16 @@
     "filter": "",
     "height": "100%",
     "hoverEdges": true,
-    "layout": "force-directed",
+    "layout": {
+      "name": "dagre",
+      "animate": true,
+      "animationDuration": 500,
+      "spacingFactor": 0.5,
+      "fit": false,
+      "padding": 30,
+      "nodeDimensionsIncludeLabels": true,
+      "avoidOverlap": true
+    },
     "limit": 10000,
     "mergeEdges": true,
     "mode": "local",

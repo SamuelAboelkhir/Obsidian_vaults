@@ -27,7 +27,7 @@
       "type": "path",
       "name": "",
       "value": "EH",
-      "matchCaseSensitive": false,
+      "matchCaseSensitive": true,
       "match": "startswith",
       "uid": "a3bb-3583",
       "selectText": true,

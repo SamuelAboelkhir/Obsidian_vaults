@@ -1,11 +1,12 @@
 ---
 tags:
 - klioptrix/level-1
-- Initial-findings
+- Assessment
+- Findings/Initial
 - EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Klioptrix - level 1 index|Back to index]]
 ### Gathered Information
 - [[NET Common ports and protocols#9. HTTP and HTTPS - Hypertext Transfer Protocol|80/443]] on IP 192.168.57.4
 - Found a default webpage - Apache - PHP

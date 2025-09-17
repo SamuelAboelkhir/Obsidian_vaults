@@ -1,11 +1,12 @@
 ---
 tags:
 - klioptrix/level-1
+- Assessment
 - Flow
 - EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Klioptrix - level 1 index|Back to index]]
 1. [[EH Useful Linux Commands For Pentesting#nmap|nmap]] scan to detect possibly vulnerable ports 
 	1. Gave us port 139 (smb) and 80/443 (http/https)
 	2. Gave us some OS info

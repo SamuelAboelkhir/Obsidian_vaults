@@ -1,11 +1,12 @@
 ---
 tags:
 - klioptrix/level-1
-- Vulnerabilities
+- Assessment
+- Findings/Vulnerabilities
 - EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Klioptrix - level 1 index|Back to index]]
 - [[NET Common ports and protocols#9. HTTP and HTTPS - Hypertext Transfer Protocol|80/443]] - Potentially vulnerable to OpenLuck (https://www.exploit-db.com/exploits/764), https://github.com/heltonWernik/OpenLuck
 	- Penetrated with OpenLuck #context/phase/exploitation
 	- Couldn't connect to the internet and was limited to the apache user

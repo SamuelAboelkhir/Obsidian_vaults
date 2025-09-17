@@ -79,19 +79,69 @@
   },
   "additionalProperties": {},
   "backupGraphOptions": {
-    "collapse-filter": false,
+    "collapse-filter": true,
     "search": "",
     "localJumps": 1,
     "localBacklinks": true,
     "localForelinks": true,
-    "localInterlinks": true,
-    "showTags": true,
+    "localInterlinks": false,
+    "showTags": false,
     "showAttachments": false,
     "hideUnresolved": false,
     "collapse-color-groups": true,
-    "colorGroups": [],
+    "colorGroups": [
+      {
+        "query": "tag:#MOC  ",
+        "color": {
+          "a": 1,
+          "rgb": 14075019
+        }
+      },
+      {
+        "query": "file:EH",
+        "color": {
+          "a": 1,
+          "rgb": 13638432
+        }
+      },
+      {
+        "query": "file:LI",
+        "color": {
+          "a": 1,
+          "rgb": 16774917
+        }
+      },
+      {
+        "query": "file:NET",
+        "color": {
+          "a": 1,
+          "rgb": 1490168
+        }
+      },
+      {
+        "query": "file:PER",
+        "color": {
+          "a": 1,
+          "rgb": 5340873
+        }
+      },
+      {
+        "query": "file:PG",
+        "color": {
+          "a": 1,
+          "rgb": 2603134
+        }
+      },
+      {
+        "query": "file:WR",
+        "color": {
+          "a": 1,
+          "rgb": 10788759
+        }
+      }
+    ],
     "collapse-display": true,
-    "showArrow": false,
+    "showArrow": true,
     "textFadeMultiplier": 0,
     "nodeSizeMultiplier": 1,
     "lineSizeMultiplier": 1,
@@ -100,7 +150,7 @@
     "repelStrength": 10,
     "linkStrength": 1,
     "linkDistance": 250,
-    "scale": 0.6666666666666666,
+    "scale": 0.2962962962962963,
     "close": true
   },
   "openInNewTab": false,
@@ -332,7 +382,28 @@
   "collapseState": true,
   "collapseLegend": true,
   "resetAfterChanges": false,
-  "collapsedSettings": {},
+  "collapsedSettings": {
+    "automation": true,
+    "tags": true,
+    "properties": true,
+    "links": true,
+    "arrows": true,
+    "folders": true,
+    "images": true,
+    "icons": true,
+    "focus": true,
+    "shapes": true,
+    "layers": true,
+    "elements-stats": true,
+    "names": true,
+    "zoom": true,
+    "local-graph": true,
+    "display": true,
+    "filter": true,
+    "inputs": true,
+    "performances": true,
+    "beta": true
+  },
   "selectionMode": "replace",
   "exportSVGOptions": {
     "asImage": true,

@@ -1,22 +1,20 @@
 ---
 tags: 
 - MOC
+MOC: Work
 ---
-
+[[_0000 Home|Home]]
 # All Projects
 ## Compass
 [[WR Compass]]
 ## MyFleeta
 [[WR MyFleeta]]
+## Church
+[[WR Church Service]]
 ## VA
-[[WR IBM i]]
-[[WR Schema]]
-[[WR VA Devops]]
-[[WR tablesList]]
-[[WR General Notes]]
-[[WR Customer Data]]
 [[WR VA Diagnostics index]]
-[[WR VA onboarding meeting]]
+# bid.it
+[[WR Bid.it index]]
 # General notes
 [[WR Code Review Flow]]
 [[WR Overtime And Annuals]]
