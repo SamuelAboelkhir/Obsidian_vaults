@@ -1,11 +1,12 @@
 ---
 tags:
 - klioptrix/level-1
-- Scan
+- Assessment
+- Scan/Nikto
 - EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Klioptrix - level 1 index|Back to index]]
 **Refer to:**
 - [[EH Hacking Tools#nikto]]
 - Nikto v2.5.0

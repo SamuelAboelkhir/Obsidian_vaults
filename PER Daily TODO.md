@@ -1,12 +1,12 @@
 ---
 tags:
-- category/todo
-- domain/daily
-- type/notes
+- PER
+- TODO
+MOC: Personal
 ---
-
-- [x] Get into the habit of doing some French/German on duolingo
-- [x] Work on ethical hacking
+[[_0000 Home|Home]] | [[_0003 Personal MOC]]
+- [ ] Get into the habit of doing some French/German on duolingo
+- [ ] Work on ethical hacking
 - [ ] Do some coding challenges on Code warrior/leet code
 	- [ ] C
 	- [ ] TS

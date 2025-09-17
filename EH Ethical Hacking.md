@@ -1,8 +1,9 @@
 ---
 tags:
-  - EH
+- EH
 MOC: Knowledge Base
 ---
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH Ethical Hacking index|Back to index]]
 ### Reminder: People are the weakest link in any organization
 # Five stages of ethical hacking
 1. Reconnaissance
@@ -28,5 +29,3 @@ MOC: Knowledge Base
 - You should have a directory dedicated for the project where you also keep a file with the scan result of every used tool
 
 # [[EH Hacking Tools]]
-
-# [[EH Assessments Index]]

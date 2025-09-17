@@ -1,9 +1,10 @@
 ---
 tags:
 - klioptrix/level-1
-- Information-disclosure
+- Assessment
+- Findings/Information-disclosure
 - EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Klioptrix - level 1 index|Back to index]]
 Should have photos of the information disclosures highlighted

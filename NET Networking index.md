@@ -1,8 +1,10 @@
 ---
 tags:
-- MOC/Knowledge
+- Index
+- NET
 MOC: Knowledge Base
 ---
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]]
 # Networking References
 [[NET Subnetting guide]]
 [[NET Common ports and protocols]]

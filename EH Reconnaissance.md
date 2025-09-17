@@ -1,9 +1,9 @@
 ---
 tags:
-  - EH
+- EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH Ethical Hacking index|Back to index]]
 ### Passive(OSINT)
 1. Physical/social recon which include:
 	1. Location information

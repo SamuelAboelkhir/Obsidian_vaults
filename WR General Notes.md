@@ -1,12 +1,18 @@
 ---
 tags: 
-- type/notes
-- context/va
+- WR
+- VA
+MOC: Work
 ---
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[WR VA Diagnostics index|Back to index]]
 aadel
- 
 iVTgmZxMKuhQ8
- 
+ VPN: 
+sashraf
+T!&M#eoF7t95
+DB creds:
+esky001 
+2Sk6J1m2s$
 - Assumption 1: 
 	- React is not needed excel is enough
 	- We may need to fix the DB
@@ -51,3 +57,4 @@ db2 catalog tcpip node node_name remote dashDB_IP_address server port
 how do I use this command to connect with the DB2 server hosted on my client's AS400?
 
 I tried and got SQL10007N Message "-1390" could not be retrieved. Reason code: "3".
+

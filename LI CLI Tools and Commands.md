@@ -3,6 +3,7 @@ tags:
 - LI
 MOC: Knowledge Base
 ---
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[LI Linux index|Back to index]]
 # Links: 
 - [[#Various command line tools]]
 - [[#File operations]]

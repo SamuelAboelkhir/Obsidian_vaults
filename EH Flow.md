@@ -1,9 +1,9 @@
 ---
 tags:
-  - EH
+- EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH Ethical Hacking index|Back to index]]
 #### 1.  [[EH Reconnaissance]]
 1. [[EH Useful Linux Commands For Pentesting#nmap|nmap]] scan to detect possibly vulnerable ports 
 	1. Can give us ports like 139 (smb) and 80/443 (http/https)

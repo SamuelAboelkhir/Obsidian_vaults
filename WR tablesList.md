@@ -1,3 +1,10 @@
+---
+tags:
+- WR
+- VA
+MOC: Work
+---
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[WR VA Diagnostics index|Back to index]]
 # All tables
 - [ ] $MSDFF01
 - [ ] ACDFF01

@@ -3,7 +3,7 @@ tags:
 - LI
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[LI Linux index|Back to index]]
 ### Python
 
 #### Socket illustration script

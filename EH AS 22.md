@@ -1,11 +1,12 @@
 ---
 tags:
 - klioptrix/level-1
-- Port22
+- Assessment
+- Port
 - EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Klioptrix - level 1 index|Back to index]]
 OpenSSH 2.9p2 (protocol 1.99)
 
 **Refer To:**

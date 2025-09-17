@@ -1,13 +1,16 @@
 ---
 tags:
-- MOC/Knowledge
+- Index
+- EH
 MOC: Knowledge Base
 ---
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]]
 # Ethical Hacking References
 ## General
 [[EH Ethical Hacking]]
 [[EH Flow]]
 [[EH Practice]]
+[[EH Badchars]]
 ## Tools
 [[EH Hacking Tools]]
 [[EH Useful Linux Commands For Pentesting]]
@@ -22,4 +25,4 @@ MOC: Knowledge Base
 [[EH Buffer Overflow Steps]]
 [[EH Spiking]]
 ## Assessments
-[[EH AS Klioptrix - level 1]]
+[[EH AS Klioptrix - level 1 index]]

@@ -3,7 +3,7 @@ tags:
 - EH
 MOC: Knowledge Base
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH Ethical Hacking index|Back to index]]
 - Buffer overflow is based around sending too much data to a program in order to try and overflow its memory buffer and spill into the following memory buffer
 - The goal is to reach a buffer called the EIP (Extended Instruction Pointer) which is a pointer or return address.
 - We can use this address by pointing towards the direction that we want (malicious code) to gain reverse shell, and access to the target.
@@ -50,5 +50,9 @@ MOC: Knowledge Base
 7. Generating Shellcode ^0dee88
 	1. Helps us get the [[EH Exploitation#Netcat Reverse Shell|reverse shell]]
 	2. The culmination of our previous work
-	3. In this step we finally send our payload to gain access to the target, using [[EH Hacking Tools#Metasploit|metasploit]]
+	3. In this step we finally send our payload to gain access to the target, using [[EH Hacking Tools#Metasploit|metasploit]]. Follow the link and check the part about using msfvenom.
+	4. Take note of the payload size as it matters when working with limited space.
+		1. Example: You have 200 bytes left, and the payload is 351 byes
+	5. Now we add the generated shellcode to the python script
+		1. We also need to add a a "noop" (no operation) which acts as pading between the JMP command and the overflow shellcode itself
 8. Achieving code execution

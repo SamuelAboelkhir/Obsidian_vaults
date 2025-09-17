@@ -1,6 +1,10 @@
 ---
+tags:
+- WR
+- VA
+MOC: Work
 ---
-
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[WR VA Diagnostics index|Back to index]]
 - Formerly known as AS400 (Application System/400)
 - Is a mid-range business computer system
 - It acts as an integrated business platform which offers

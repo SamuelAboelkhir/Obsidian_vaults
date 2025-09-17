@@ -1,3 +1,10 @@
+---
+tags:
+- General
+- WR
+MOC: Work
+---
+[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]]
 ### 1. Tanstack query
 - The query key holds the name of cache that tanstack query creates, and any where you create a fetcher that has the same query key, it will check the cache first which means you can create multiple hooks that check the same shared cache
 - Keywords like list or detail in query keys are purely conventional, and have no real meaning to tanstack itself,

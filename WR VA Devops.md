@@ -1,3 +1,10 @@
+---
+tags:
+- WR
+- VA
+MOC: Work
+---
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[WR VA Diagnostics index|Back to index]]
 - Devops needs to transfer the app files from the local device to websphere
 - The devops pipline is failing though
 - Currently transferring the EAR file to websphere is manual
