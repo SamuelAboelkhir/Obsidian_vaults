@@ -13,14 +13,12 @@ MOC: Work
 	- [ ] Solution: Check if the pages are lazy loading `CreateLazyFileRoute`, and if not, experiment with the idea of making them lazy
 3. Problem: To fetch a single user from useUser you have to fetch them all then filter
 	- [ ] Solution: Update useUser hook to be able to accept an ID and fetch a single user by ID
-
 # New Features
 - Permissions for roles
 - Team and department modifications
 - Convert to modals like MyFleeta
 
 kanban instead of scrum
-
 ## OKRs
 - Driven top down
 - OKRs should be visible by default for transparency, unless the creator makes it private

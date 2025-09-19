@@ -5,12 +5,12 @@
   "external-file-embed-and-link",
   "editing-toolbar",
   "obsidian-hover-editor",
-  "supercharged-links-obsidian",
   "pane-relief",
-  "obsidian-style-settings",
   "extended-graph",
   "calendar",
   "obsidian-kanban",
   "global-search-and-replace",
-  "dataview"
+  "dataview",
+  "supercharged-links-obsidian",
+  "obsidian-style-settings"
 ]
