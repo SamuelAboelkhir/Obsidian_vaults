@@ -88,7 +88,7 @@
     "showTags": false,
     "showAttachments": false,
     "hideUnresolved": false,
-    "collapse-color-groups": true,
+    "collapse-color-groups": false,
     "colorGroups": [
       {
         "query": "tag:#MOC  ",
@@ -98,50 +98,50 @@
         }
       },
       {
-        "query": "file:EH",
+        "query": "file:/^EH/",
         "color": {
           "a": 1,
           "rgb": 13638432
         }
       },
       {
-        "query": "file:LI",
+        "query": "file:/^LI/",
         "color": {
           "a": 1,
-          "rgb": 16774917
+          "rgb": 10410588
         }
       },
       {
-        "query": "file:NET",
+        "query": "file:/^NET/",
         "color": {
           "a": 1,
           "rgb": 1490168
         }
       },
       {
-        "query": "file:PER",
+        "query": "file:/^PER/",
         "color": {
           "a": 1,
           "rgb": 5340873
         }
       },
       {
-        "query": "file:PG",
+        "query": "file:/^PG/",
         "color": {
           "a": 1,
           "rgb": 2603134
         }
       },
       {
-        "query": "file:WR",
+        "query": "file:/^WR/",
         "color": {
           "a": 1,
-          "rgb": 10788759
+          "rgb": 9219541
         }
       }
     ],
     "collapse-display": true,
-    "showArrow": true,
+    "showArrow": false,
     "textFadeMultiplier": 0,
     "nodeSizeMultiplier": 1,
     "lineSizeMultiplier": 1,

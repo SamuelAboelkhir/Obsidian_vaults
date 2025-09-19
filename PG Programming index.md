@@ -9,5 +9,5 @@ MOC: Knowledge Base
 [[PG General Patterns]]
 [[PG C index]]
 [[PG Java index]]
-[[PG JS index]]
+[[PG JS-TS index]]
 [[PG Python index]]

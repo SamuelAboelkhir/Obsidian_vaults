@@ -19,4 +19,3 @@ MOC: Work
 [[WR Code Review Flow]]
 [[WR Overtime And Annuals]]
 [[WR Claude Personalities]]
-[[WR General FullStack Notes]]
