@@ -1,5 +1,7 @@
 {
-  "targetAttributes": [],
+  "targetAttributes": [
+    "MOC"
+  ],
   "targetTags": true,
   "getFromInlineField": false,
   "enableTabHeader": true,
@@ -13,10 +15,10 @@
   "selectors": [
     {
       "type": "tag",
-      "name": "",
+      "name": "MOC",
       "value": "MOC",
-      "matchCaseSensitive": false,
-      "match": "exact",
+      "matchCaseSensitive": true,
+      "match": "startswith",
       "uid": "0ef3-066f",
       "selectText": true,
       "selectAppend": true,
