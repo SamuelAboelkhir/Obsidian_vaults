@@ -1,6 +1,6 @@
 ---
 tags:
-- klioptrix/level-1
+- kioptrix/level-1
 - Assessment
 - Index
 - EH
@@ -19,8 +19,8 @@ MOC: Knowledge Base
 [[EH AS 80-443]]
 ## Scans
 [[EH AS nikto]]
-[[EH AS nmap scan]]
+[[EH AS kioptrix nmap scan]]
 ## Vulnerabilities
 [[EH AS Vulnerabilities]]
 ## Full flow used
-[[EH AS klioptrix followed flow and findings]]
+[[EH AS kioptrix followed flow and findings]]

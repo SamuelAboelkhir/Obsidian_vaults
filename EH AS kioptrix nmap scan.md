@@ -1,12 +1,12 @@
 ---
 tags:
-- klioptrix/level-1
+- kioptrix/level-1
 - Assessment
 - Scan/Nmap
 - EH
 MOC: Knowledge Base
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Klioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 Refer To:
 - [[EH Useful Linux Commands For Pentesting#nmap]]
 - [[LI CLI Tools and Commands#^2b1c6e]]
