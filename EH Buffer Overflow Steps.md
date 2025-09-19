@@ -45,8 +45,7 @@ MOC: Knowledge Base
 		3. This tools takes assembly code and returns hexvalue equivalent
 		4. An example is `JMP ESP` whose equivalent is `FFE4`
 		5. `!mona find -s "\xff\xe4" -m essfunc.dll` will give you return addresses for the unprotected part of the vulnserver program
-		6. What's opcode?
-		7. We insert the found hexvalue in reverse "little indian format for x86 architecture"
+		6. We insert the found hexvalue in reverse "little indian format for x86 architecture"
 7. Generating Shellcode ^0dee88
 	1. Helps us get the [[EH Exploitation#Netcat Reverse Shell|reverse shell]]
 	2. The culmination of our previous work

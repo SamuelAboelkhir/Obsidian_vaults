@@ -9,8 +9,8 @@ MOC: Knowledge Base
 [[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH Ethical Hacking index|Back to index]]
 # All Findings
 ## Findings
-[[EH AS Findings]]
 [[EH AS Initial Findings|EH AS Initial Findings]]
+[[EH AS Findings]]
 [[EH AS Information Disclosure]]
 [[EH AS Default Web Page - Apache]]
 ## Ports

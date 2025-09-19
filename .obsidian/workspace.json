@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "16c1f5f7d06c5489",
+    "id": "c0620df8cf111b9a",
     "type": "split",
     "children": [
       {
-        "id": "2737693251d35c17",
+        "id": "5f6031929275055a",
         "type": "tabs",
-        "dimension": 68.41216216216216,
+        "dimension": 64.93288590604027,
         "children": [
           {
-            "id": "9048b27e645b2cf0",
+            "id": "2ba3cd771be2c005",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -17,101 +17,59 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "_0000 Home.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [
-                    {
-                      "query": "tag:#MOC  ",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14075019
-                      }
-                    },
-                    {
-                      "query": "file:EH",
-                      "color": {
-                        "a": 1,
-                        "rgb": 13638432
-                      }
-                    },
-                    {
-                      "query": "file:LI",
-                      "color": {
-                        "a": 1,
-                        "rgb": 16774917
-                      }
-                    },
-                    {
-                      "query": "file:NET",
-                      "color": {
-                        "a": 1,
-                        "rgb": 1490168
-                      }
-                    },
-                    {
-                      "query": "file:PER",
-                      "color": {
-                        "a": 1,
-                        "rgb": 5340873
-                      }
-                    },
-                    {
-                      "query": "file:PG",
-                      "color": {
-                        "a": 1,
-                        "rgb": 2603134
-                      }
-                    },
-                    {
-                      "query": "file:WR  ",
-                      "color": {
-                        "a": 1,
-                        "rgb": 10788759
-                      }
-                    }
-                  ],
-                  "collapse-display": true,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.3003387451171875,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of _0000 Home"
-            }
-          },
-          {
-            "id": "1a16e2b9518ef030",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                },
                 {
-                  "state": "{}",
+                  "title": "EH AS 139",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS 139.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS 139\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Assessment index template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment index template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment index template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Assessment file template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment file template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment file template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Diff: data.json",
+                  "icon": "diff",
+                  "state": "{\"type\":\"split-diff-view\",\"state\":{\"aFile\":\".obsidian/plugins/extended-graph/data.json\",\"bFile\":\".obsidian/plugins/extended-graph/data.json\",\"aRef\":\"\"},\"icon\":\"diff\",\"title\":\"Diff: data.json\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Assessment file template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment file template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment file template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Assessment index template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment index template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment index template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Assessment file template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment file template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment file template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Diff: workspace.json",
+                  "icon": "diff",
+                  "state": "{\"type\":\"split-diff-view\",\"state\":{\"aFile\":\".obsidian/workspace.json\",\"bFile\":\".obsidian/workspace.json\",\"aRef\":\"\"},\"icon\":\"diff\",\"title\":\"Diff: workspace.json\"}",
                   "eState": "{}"
                 }
               ]
@@ -126,21 +84,56 @@
               "icon": "lucide-file",
               "title": "_0000 Home"
             }
+          },
+          {
+            "id": "d2eeb685d9a6b5e5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Assessment file template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment file template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment file template\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Assessment index template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Assessment index template"
+            }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "d582b22533a617f1",
+        "id": "39a7a05088980d05",
         "type": "split",
-        "dimension": 31.58783783783784,
+        "dimension": 35.06711409395973,
         "children": [
           {
-            "id": "90cca2751e2c5f5e",
+            "id": "6a3bb5c7666e0bba",
             "type": "tabs",
             "children": [
               {
-                "id": "fe70c947f23ed3f2",
+                "id": "6ee23a019c12196a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -154,7 +147,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "_0000 Home.md",
+                    "file": "Templates/Assessment index template.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -165,7 +158,7 @@
                       "showTags": false,
                       "showAttachments": false,
                       "hideUnresolved": false,
-                      "collapse-color-groups": true,
+                      "collapse-color-groups": false,
                       "colorGroups": [
                         {
                           "query": "tag:#MOC  ",
@@ -175,50 +168,50 @@
                           }
                         },
                         {
-                          "query": "file:EH",
+                          "query": "file:/^EH/",
                           "color": {
                             "a": 1,
                             "rgb": 13638432
                           }
                         },
                         {
-                          "query": "file:LI",
+                          "query": "file:/^LI/",
                           "color": {
                             "a": 1,
-                            "rgb": 16774917
+                            "rgb": 10410588
                           }
                         },
                         {
-                          "query": "file:NET",
+                          "query": "file:/^NET/",
                           "color": {
                             "a": 1,
                             "rgb": 1490168
                           }
                         },
                         {
-                          "query": "file:PER",
+                          "query": "file:/^PER/",
                           "color": {
                             "a": 1,
                             "rgb": 5340873
                           }
                         },
                         {
-                          "query": "file:PG",
+                          "query": "file:/^PG/",
                           "color": {
                             "a": 1,
                             "rgb": 2603134
                           }
                         },
                         {
-                          "query": "file:WR",
+                          "query": "file:/^WR/",
                           "color": {
                             "a": 1,
-                            "rgb": 10788759
+                            "rgb": 9219541
                           }
                         }
                       ],
                       "collapse-display": true,
-                      "showArrow": true,
+                      "showArrow": false,
                       "textFadeMultiplier": 0,
                       "nodeSizeMultiplier": 1,
                       "lineSizeMultiplier": 1,
@@ -227,22 +220,22 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.3003387451171875,
+                      "scale": 0.2962962962962963,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of _0000 Home"
+                  "title": "Graph of Assessment index template"
                 }
               }
             ]
           },
           {
-            "id": "24c2e22be7d41a2a",
+            "id": "b8b026989112a0dd",
             "type": "tabs",
             "children": [
               {
-                "id": "759b77fb571d686c",
+                "id": "57ed94cf18f741b7",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -269,15 +262,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bb3ef1da8167a85b",
+    "id": "6240a4ae230d56f3",
     "type": "split",
     "children": [
       {
-        "id": "98bf3e9a09f9e727",
+        "id": "95755c985188ec3c",
         "type": "tabs",
         "children": [
           {
-            "id": "33a4583bd0b1e19e",
+            "id": "57b6d59e9e915d00",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -292,14 +285,14 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "8ca6b075c03e3d34",
+            "id": "6db47695d59257fe",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -317,7 +310,7 @@
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -325,7 +318,7 @@
             }
           },
           {
-            "id": "a38144c7f445aae9",
+            "id": "0b8746ecdf039535",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -342,46 +335,23 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "9f4ca4275c4e295e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 300
   },
   "right": {
-    "id": "170f06fa6a6a4905",
+    "id": "8e99a47d8558ad1a",
     "type": "split",
     "children": [
       {
-        "id": "a20c80b493bd6464",
+        "id": "0f1145dd62bf78e5",
         "type": "tabs",
         "children": [
           {
-            "id": "b51bfce1ab0c07a0",
+            "id": "a5b32f4a2a7510dd",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -395,6 +365,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "EH AS 139.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -404,11 +375,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for EH AS 139"
             }
           },
           {
-            "id": "a166a8ad3339bdc0",
+            "id": "69e6d9d5e32b70f1",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -422,15 +393,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "EH AS 139.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from EH AS 139"
             }
           },
           {
-            "id": "99e328c797d00359",
+            "id": "fb6ff8f50085306f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -454,7 +426,30 @@
             }
           },
           {
-            "id": "ac6a60abe9638f9f",
+            "id": "3b507676b4673b40",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8491d81c9571956a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -468,16 +463,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Templates/Assessment index template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Assessment index template"
             }
           },
           {
-            "id": "6ea0048fea0fefc2",
+            "id": "d74116742cf99d73",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -496,78 +492,32 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 428.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "textanalysis:Text Analysis": false,
-      "juggl:Juggl global graph": false,
-      "obsidian-kanban:Create new board": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "33a4583bd0b1e19e",
+  "active": "d2eeb685d9a6b5e5",
   "lastOpenFiles": [
+    "Templates/Assessment file template.md",
     "_0000 Home.md",
-    "_0003 Personal MOC.md",
-    "WR VA Diagnostics index.md",
-    "Untitled Kanban.md",
-    "_0001 Knowledge Base MOC.md",
-    "_0002 Work MOC.md",
-    "PER Daily TODO.md",
-    "WR Bid.it index.md",
-    "WR Bid.it General.md",
-    "WR Overtime And Annuals.md",
-    "WR MyFleeta.md",
-    "WR General FullStack Notes.md",
-    "WR Compass.md",
-    "WR Code Review Flow.md",
-    "WR Claude Personalities.md",
-    "WR Church Service.md",
-    "WR Bid.it setup.md",
-    "PER TODO.md",
-    "PER Groceries.md",
-    "NET Common ports and protocols.md",
-    "WR VA onboarding meeting.md",
-    "EH AS 22.md",
-    "NET Network Tunneling Guide Generated By Claude.md",
-    "EH AS 80-443.md",
-    "EH AS Findings.md",
-    "EH AS nikto.md",
-    "assets/Compilation-Process-in-C.png",
-    "assets/Screenshot_2025-09-13_05-14-49.png",
-    "assets/Screenshot_2025-09-04_16-24-56.png",
-    "Recording 20250914020003.m4a",
-    "Templates",
-    "assets/Screenshot from 2025-09-04 13-36-01.png",
-    "assets/Subnet-Guide.xlsx",
-    "work/Projects/VA Diagnostics/Tables",
-    "work/Projects/VA Diagnostics",
-    "work/Projects",
-    "work/General",
-    "work",
-    "Subnet-Guide.xlsx",
-    "daily",
-    "assets/Screenshot from 2025-09-03 13-56-41.png",
-    "assets/Screenshot from 2025-09-04 11-40-25.png",
-    "assets/Screenshot from 2025-09-06 22-22-18.png",
-    "assets/Screenshot from 2025-09-06 22-18-39.png",
-    "assets/Screenshot from 2025-08-29 14-41-55.png",
-    "assets/Screenshot from 2025-08-29 14-39-46.png",
-    "Untitled.canvas"
+    "EH AS 139.md",
+    "Templates/Assessment index template.md"
   ]
 }
