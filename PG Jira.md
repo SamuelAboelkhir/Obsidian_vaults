@@ -1,6 +1,5 @@
 ---
 tags:
-- JS/TS
 - Other
 - PG
 MOC: Knowledge Base

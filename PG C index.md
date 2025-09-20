@@ -1,6 +1,6 @@
 ---
 tags: 
-- C
+- Programming-Language
 - Index
 - PG
 MOC: Knowledge Base

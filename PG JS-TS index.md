@@ -1,6 +1,6 @@
 ---
 tags: 
-- JS
+- Programming-Language
 - Index
 - PG
 MOC: Knowledge Base
