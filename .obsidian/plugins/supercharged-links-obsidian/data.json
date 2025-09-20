@@ -14,18 +14,6 @@
   "enableBases": true,
   "selectors": [
     {
-      "type": "tag",
-      "name": "MOC",
-      "value": "MOC",
-      "matchCaseSensitive": true,
-      "match": "startswith",
-      "uid": "0ef3-066f",
-      "selectText": true,
-      "selectAppend": true,
-      "selectPrepend": true,
-      "selectBackground": true
-    },
-    {
       "type": "path",
       "name": "",
       "value": "EH",
@@ -104,6 +92,30 @@
       "matchCaseSensitive": true,
       "match": "startswith",
       "uid": "742c-be47",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "MOC",
+      "value": "MOC",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "0ef3-066f",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "Index",
+      "value": "Index",
+      "matchCaseSensitive": false,
+      "match": "contains",
+      "uid": "c75b-027a",
       "selectText": true,
       "selectAppend": true,
       "selectPrepend": true,
