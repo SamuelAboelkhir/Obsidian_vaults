@@ -1,6 +1,6 @@
 ---
 tags:
-- Java
+- Programming-Language
 - Index
 - PG
 MOC: Knowledge Base

@@ -1,6 +1,6 @@
 ---
 tags: 
-- Python
+- Programming-Language
 - Index
 - PG
 MOC: Knowledge Base
