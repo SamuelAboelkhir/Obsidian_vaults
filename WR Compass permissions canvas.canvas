@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"844d824bfedc71b4","type":"text","text":"Frontend permissions management:\n1. permissionsHelper defines an object array\n2. Each object dictates the permissions the user has\n3. A user's role is used to fetch the correct object from the helper\n4. The object is passed as a prop to components that change dynamically based on role","x":-320,"y":-320,"width":320,"height":290},
+		{"id":"2fc86bed00c4d4f1","type":"text","text":"Backend permissions management:\n\n1. Simpler than the frontend implementation\n2. Involves managing role permissions using role guards\nRBAC: only permissions and admin role will be hardcoded\nAdmin can create roles and assign permissions from the existing permissions\nABAC: Define a set of policies depending on the policy being accessed and not the role","x":220,"y":-320,"width":320,"height":290},
+		{"id":"7cb44f82fa6a1393","type":"text","text":"User accesses a page with role based permissions","x":-285,"y":160,"width":250,"height":60},
+		{"id":"24f0391c341bfdd9","type":"text","text":"1. At the top of the page, the permissiosHelper will be called\n2. The user's permission will be used to filter the array and retrieve the user's role permissions\n3. Based on the permissions object the user will see different UI elements, or have different interactions with the UI elements\n4. Example: Objectives table","x":-440,"y":320,"width":560,"height":200},
+		{"id":"73c29896a49146b5","type":"text","text":"Team manager:\n- Can see and use both edit and delete buttons only in his own team's Team objectives\n- Can see view objectives button","x":-320,"y":720,"width":320,"height":160},
+		{"id":"51d5ac786b72ee28","type":"text","text":"Employee:\n- Can't see edit or delete buttons\n- Can see view objectives button","x":-680,"y":720,"width":328,"height":160},
+		{"id":"e876e877eaf10646","type":"text","text":"Department manager:\n- Can see and use both edit and delete buttons in all his team's Team objectives and Department Objectives for his department only\n- Can see view objectives button","x":33,"y":720,"width":507,"height":160}
+	],
+	"edges":[
+		{"id":"3b887371cbb89ad4","fromNode":"844d824bfedc71b4","fromSide":"bottom","toNode":"7cb44f82fa6a1393","toSide":"top"},
+		{"id":"538672d890695b78","fromNode":"7cb44f82fa6a1393","fromSide":"bottom","toNode":"24f0391c341bfdd9","toSide":"top"},
+		{"id":"f7c45aff570d3d3c","fromNode":"24f0391c341bfdd9","fromSide":"bottom","toNode":"73c29896a49146b5","toSide":"top"},
+		{"id":"e50aeae67486067d","fromNode":"24f0391c341bfdd9","fromSide":"bottom","toNode":"51d5ac786b72ee28","toSide":"top"},
+		{"id":"85e485475a57d915","fromNode":"24f0391c341bfdd9","fromSide":"bottom","toNode":"e876e877eaf10646","toSide":"top"}
+	]
+}

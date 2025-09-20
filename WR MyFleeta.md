@@ -4,7 +4,7 @@ tags:
 - MyFleeta 
 MOC: Work
 ---
-[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]]
+[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR Projects index]]
 2. [x] Remove UsersPage and ServiceProgramTemplatePage from the router as they are now components, and adjust their names accordingly
 3. [x] In ServicesAndParts, the service detail page needs to close back to the dashboard not the admin config page
 4. [x] Try modal based create/edit pages, or small boxes

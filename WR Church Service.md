@@ -4,7 +4,7 @@ tags:
 - Church
 MOC: Work
 ---
-[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]]
+[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR Projects index]]
 # General Notes
 - Project to serve all categories. Priests, Ministry leaders, Class leaders
 - Priests know their sons in confession from the available data

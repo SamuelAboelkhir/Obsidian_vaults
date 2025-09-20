@@ -4,7 +4,7 @@ tags:
 - WR
 MOC: Work
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[WR Bid.it index|Back to index]]
+[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR Bid.it index|Back to index]]
 # General notes
 - Car owner's car must have a registered VIN number
 - Car dealer must be certified with the Quebec authorities that he can buy and sell cars

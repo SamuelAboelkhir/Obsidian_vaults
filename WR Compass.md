@@ -4,7 +4,7 @@ tags:
 - Compass
 MOC: Work
 ---
-[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]]
+[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR Projects index]]
 ## Things to fix in Compass
 
 1. Problem: The AdminPanel route is still accessible for non-admin users
@@ -43,3 +43,18 @@ kanban instead of scrum
 - You can choose who to share it with
 ### Capabilities
 - You can say the company have a capability if at least 4 people are capable of doing something.
+
+
+```
+[
+CEO : [can]
+ADMIN
+EMPLOYEE
+]
+```
+
+```
+[canEditObjective, canDeleteInit]
+```
+# Canvas
+[[WR Compass permissions canvas.canvas|WR Compass permissions canvas]]
