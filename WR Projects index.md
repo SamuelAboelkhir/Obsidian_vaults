@@ -6,11 +6,11 @@ MOC: Work
 ---
 [[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]]
 ## Compass
-[[WR Compass]]
+[[WR Compass index]]
 ## MyFleeta
 [[WR MyFleeta]]
 ## Church
-[[WR Church Service]]
+[[WR Church index]]
 ## VA
 [[WR VA Diagnostics index]]
 # bid.it

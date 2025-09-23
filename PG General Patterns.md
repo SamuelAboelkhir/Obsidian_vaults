@@ -3,13 +3,17 @@ tags:
 - PG
 MOC: Knowledge Base
 ---
+
 [[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG C index|Back to index]]
 # String interpolation
 - The act of passing the value of a variable in a string
 - Most languages have a method that's similar to C (the G.O.A.T)
-	- C: `printf("Hello %s", name)`
-	- JS/TS: 
+	- C: 
+	  ```C
+		  printf("Hello %s", name)
 		```
+	- JS/TS: 
+		```typescript
 		const name = "Alice";
 		const age = 30;
 		
@@ -28,7 +32,7 @@ MOC: Knowledge Base
 		Year born: ${new Date().getFullYear() - age};
 		```
 	- Python: 
-		```
+		```python
 	    name = "Alice"
 	    age = 30
 		  
@@ -52,7 +56,7 @@ MOC: Knowledge Base
 		message = "Hello, {name}! You are {age} years old.".format(name=name, age=age)
 		```
 	- Java: 
-		```
+		```java
 		String name = "Alice";
 		int age = 30;
 		

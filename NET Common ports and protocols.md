@@ -17,6 +17,7 @@ MOC: Knowledge Base
 		- tcp/21 (control)
 		- The point is that it can authenticate a user with a username and password
 	- Among its features are the ability to list, add, delete, etc.
+	- When anonymous access is allowed, all you need to do is use the username `anonymous` and leave the password field blank to login
 
 ### 2. SSH - Secure Shell
 - The Secure Shell meant mainly for text-based console communication but can do more than that
