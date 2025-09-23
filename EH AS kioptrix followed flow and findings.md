@@ -17,7 +17,7 @@ MOC: Knowledge Base
 		2. https://target
 		3. [[EH Hacking Tools#dirbuster|Dirbuster]] with a directory list wordlist
 	2.  [[NET Common ports and protocols#13. SMB - Server Message Block|SMB]]
-		1. metasploit
+		1. [[EH Hacking Tools#Metasploit|metasploit]]
 			1. search smb for available smb tools
 			2. Use auxiliary scanner to enumerate host smb version
 				1. Gave us the version (samba 2.2.1)

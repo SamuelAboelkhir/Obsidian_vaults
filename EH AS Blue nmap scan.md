@@ -6,7 +6,7 @@ tags:
 - EH
 MOC: Knowledge Base
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Blue index|Back to index]]
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-19 07:16 EDT
 Nmap scan report for 192.168.57.8
 Host is up (0.00042s latency).

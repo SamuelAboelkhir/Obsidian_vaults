@@ -1,6 +1,6 @@
 ---
 tags:
-- {name}
+- dev
 - Assessment
 - Index
 - EH
@@ -11,5 +11,6 @@ MOC: Knowledge Base
 ## Findings
 ## Ports
 ## Scans
+[[EH AS Dev nmap scan]]
 ## Vulnerabilities
 ## Full flow used

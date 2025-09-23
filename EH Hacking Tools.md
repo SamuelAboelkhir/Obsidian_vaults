@@ -19,7 +19,7 @@ MOC: Knowledge Base
 		- Target allows you to also set a scope as to what should be intercepted
 	- Repeater
 		- The Repeater shows you your response to a request in real time, and allows you to modify it before it's sent
-	- Intruder
+	- Intruder - useful in [[EH Exploitation#Credential Stuffing and Password Spraying|credential stuffing and password spraying]]
 		- You can highlight and add parameters
 			- Example: email and password if you're logging into a website
 		- You can select different **attack types**
@@ -44,9 +44,18 @@ MOC: Knowledge Base
 - An example full path with file extensions would be http://website/admin.php
 - You can view results in a list or tree view, and interact with pages to view them in the browser while the scan is still active
 #### dirb
+- Example: `dirb http://192.168.57.9`
+- A CLI tool similar to dirbuster that takes a URL, and starts finding all possible related directories
+- Has a `dirb`folder under `wordslist`in kali, but I'm not 100% sure if it automatically knows about it and uses it or if it uses a wordlist from the internet with the dirb one on kali being a possible param to pass
+#### ffuf
+- Example: `ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.57.9/FUZZ`
+- Similar tool to dirb
+- The main difference is that it goes level by level before going inside each found directory
+- Allows you to limit the found URLs by response status
 #### gobuster
 #### Metasploit
 - An exploitation framework that can also do enumeration and more
+- Access with `msfconsole`
 - Typing a `search` with a word like `smb` into metasploit will show all the available tools it has for it
 - The name of the tool will start with its category, e.g 'auxiliary' which is meant for enumeration, followed by what it does exactly
 - You can then say `use` and the name or number of the tool that you want to use
@@ -79,3 +88,21 @@ MOC: Knowledge Base
 #### enum4linux
 - A powerful enumeration tool
 - Give it an ip and it will do the rest
+#### hash-identifier
+- Not much to say, you just provide it with a hash and it gives you information about what type it is
+#### hashcat
+- Cracks hashes
+- It's recommended to run it on your actual OS, and not kali linux if kali is running on a VM
+	- The reason is that hashcat, and hash cracking in general normally uses the GPU, while on the VM it will use the CPU
+- Requires a passwords list, such as `rockyou.txt`
+- A hashcat command example is `hashcat -m 0 cd73502828457d15655bbd7a63fb0bc8  /usr/share/wordlists/rockyou.txt`
+	- `-m 0` correlates to the module to crack, or in other words, the hash version. e.g "MD5"
+	- Can be provided with the hash directly, or a file containing hashes
+# linpeas.sh
+- Download from [linpeas.sh](https://github.com/peass-ng/PEASS-ng/releases/tag/20250904-27f4363e)
+- A script intended for finding all privilege escalation vectors on a target machine
+# pspy
+- You want the 64 bit version, so `pspy64`
+- It's a tool  that allows for "unprivileged Linux process snooping"
+- pspy is a command line tool designed to snoop on processes without need for root permissions. It allows you to see commands run by other users, cron jobs, etc. as they execute. Great for enumeration of Linux systems in CTFs. Also great to demonstrate your colleagues why passing secrets as arguments on the command line is a bad idea.
+- The tool gathers the info from procfs scans. Inotify watchers placed on selected parts of the file system trigger these scans to catch short-lived processes.

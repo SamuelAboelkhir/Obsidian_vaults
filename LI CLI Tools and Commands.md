@@ -34,10 +34,15 @@ MOC: Knowledge Base
 - `chsh -s /bin/${shell}`: Replace ${shell} with the shell you want to change the default shell.
 ---
 ### File operations
+- `cat`: prints file content to stdout
+	- `batcat`: better cat that adds scrolling among other features
+- `ls`: shows the contents of a folder
+	- `exa`: better ls that adds icons and color
 - `wc`: word count
 - `uniq`: finds unique occurrences of lines in the file 
 - `cut`: extracts specific columns from a file
 - `diff`: compares the contents of files
+	- `colordiff`: diff but with color highlighting
 - `sort`: sorts the contents of the file
 - #### Back to top: [[#Links]]
 ---
@@ -102,8 +107,13 @@ The count parameter determines how many blocks to copy.
 		2. Type your IP address into the browser. The server will be running on port 80
 		3. Stop the service with `sudo service apache2 stop`
 	2. You can also start servers with python
-		1. `python3 -m http.server [port number]`
+		1. `python3 -m http.server [port number]` ^b96608
 		2. The webserver starts within the folder you're currently inside
+- `showmount`: Shows mounted directories
+	- `-e`: Shows the mounts on a server
+- `mount`: Mount directories to your system
+	- Can mount remote directories
+	- `-t`: indicates the filesystem type
 ---
 ### Networking commands and tools
 
@@ -145,7 +155,9 @@ sudo ip route add default via 192.168.57.1
 - `clamAV`: anti-virus.
 ---
 ### System navigation
-
+- `locate`: provide it with a file name and it will give you its location
+	- It traverses an index of the file system that it saves in a DB
+	- Requires updating that db via `sudo updatedb`
 #### Back to top: [[#Links]]
 - `Ranger` : file management tool.
 - `rofi` : window switcher that can also run commands and browse files.

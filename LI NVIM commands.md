@@ -1,0 +1,11 @@
+---
+tags: 
+- LI
+MOC: Knowledge Base
+---
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[LI Linux index|Back to index]]
+# File manipulation
+- `:file`: Allows you to rename your current file
+- `:read`: Reads a file's content in the current file
+	- `:read !sed -n '10,20p' file1.txt`: A format for appending specific lines from a file in the current file
+- You can use external CLI commands with nvim open by typing `:![command]`
