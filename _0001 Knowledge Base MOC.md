@@ -9,3 +9,4 @@ MOC: Knowledge Base
 [[NET Networking index]]
 [[EH Ethical Hacking index]]
 [[PG Programming index]]
+[[DS Datascience index]]

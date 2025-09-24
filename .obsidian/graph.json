@@ -62,6 +62,13 @@
         "a": 1,
         "rgb": 11621088
       }
+    },
+    {
+      "query": "file:/^DS/ -tag:#Index",
+      "color": {
+        "a": 1,
+        "rgb": 1919559
+      }
     }
   ],
   "collapse-display": true,
@@ -74,6 +81,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 182,
-  "scale": 0.0889892578125,
+  "scale": 0.13348388671875,
   "close": true
 }
