@@ -87,7 +87,7 @@
     },
     {
       "type": "path",
-      "name": "",
+      "name": "MOC",
       "value": "WR",
       "matchCaseSensitive": true,
       "match": "startswith",
@@ -116,6 +116,18 @@
       "matchCaseSensitive": false,
       "match": "contains",
       "uid": "c75b-027a",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "MOC",
+      "value": "DS",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "be6e-7158",
       "selectText": true,
       "selectAppend": true,
       "selectPrepend": true,

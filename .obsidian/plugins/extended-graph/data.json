@@ -79,7 +79,7 @@
   },
   "additionalProperties": {},
   "backupGraphOptions": {
-    "collapse-filter": false,
+    "collapse-filter": true,
     "search": "",
     "localJumps": 1,
     "localBacklinks": true,
@@ -88,7 +88,7 @@
     "showTags": false,
     "showAttachments": false,
     "hideUnresolved": false,
-    "collapse-color-groups": true,
+    "collapse-color-groups": false,
     "colorGroups": [
       {
         "query": "tag:#MOC  ",
@@ -145,6 +145,13 @@
           "a": 1,
           "rgb": 11621088
         }
+      },
+      {
+        "query": "file:/^DS/ -tag:#Index",
+        "color": {
+          "a": 1,
+          "rgb": 1919559
+        }
       }
     ],
     "collapse-display": true,
@@ -157,7 +164,7 @@
     "repelStrength": 10,
     "linkStrength": 1,
     "linkDistance": 250,
-    "scale": 0.2962962962962963,
+    "scale": 0.200225830078125,
     "close": true
   },
   "openInNewTab": false,

@@ -14,5 +14,7 @@
   "supercharged-links-obsidian",
   "obsidian-style-settings",
   "obsidian-linter",
-  "simple-code-formatter"
+  "simple-code-formatter",
+  "webpage-html-export",
+  "slurp"
 ]

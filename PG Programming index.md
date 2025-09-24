@@ -12,3 +12,4 @@ MOC: Knowledge Base
 [[PG Java index]]
 [[PG JS-TS index]]
 [[PG Python index]]
+[[PG R index]]
