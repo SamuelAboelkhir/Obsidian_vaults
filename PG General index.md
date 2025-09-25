@@ -9,3 +9,6 @@ MOC: Knowledge Base
 [[PG CICD]]
 [[PG Website deployment]]
 [[PG Regular expression syntax cheat sheet]]
+[[PG Markdown Cheat Sheet]]
+[[PG PostgreSQL Basics Cheat Sheet]]
+[[PG Bash & zsh Shell Terminal Basics Cheat Sheet]]

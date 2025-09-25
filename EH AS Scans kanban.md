@@ -6,6 +6,8 @@ kanban-plugin: board
 
 ## Scans
 
+- [ ] nmap
+- [ ] nessus
 - [ ] nikto
 
 
@@ -15,8 +17,6 @@ kanban-plugin: board
 
 ## Complete
 
-- [ ] nessus
-- [ ] nmap
 
 
 
