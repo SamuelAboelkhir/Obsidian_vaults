@@ -7,7 +7,7 @@ MOC: Knowledge Base
 ---
 
 [[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG C index|Back to index]]
-- acquired from [https://www.geeksforgeeks.org/c/c-cheatsheet/](https://www.geeksforgeeks.org/c/c-cheatsheet/) using slurp
+- Acquired from [https://www.geeksforgeeks.org/c/c-cheatsheet/](https://www.geeksforgeeks.org/c/c-cheatsheet/) using slurp
 
 This ****C Cheat Sheet**** provides an overview of both basic and advanced concepts of the C language. Whether you're a beginner or an experienced programmer, this cheat sheet will help you revise and quickly go through the core principles of the C language.
 
@@ -486,11 +486,30 @@ __data_type arr_name__ [size1][size2][size3];    // ****3D array****
 
 ### ****Example of Arrays****
 
-C`// C Program to demonstrate the use of array #include <stdio.h>  int main() {     // array declaration and initialization     int arr[5] = { 10, 20, 30, 40, 50 };      // modifying element at index 2     arr[2] = 100;      // traversing array using for loop     printf("Elements in Array: ");     for (int i = 0; i < 5; i++) {         printf("%d ", arr[i]);     }      return 0; }`
+```C
+// C Program to demonstrate the use of array 
+#include <stdio.h>  
+
+int main() {     
+
+// array declaration and initialization     
+	int arr[5] = { 10, 20, 30, 40, 50 };      
+	
+	// modifying element at index 2     
+	arr[2] = 100;      
+	
+	// traversing array using for loop     
+	printf("Elements in Array: ");     
+	for (int i = 0; i < 5; i++) {         
+		printf("%d ", arr[i]);     
+	}      
+return 0; 
+}
 
 **Output**
 
 Elements in Array: 10 20 100 40 50 
+```
 
 ## Strings
 

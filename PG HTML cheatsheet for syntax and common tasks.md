@@ -1,6 +1,6 @@
 ---
 tags: 
-- Other
+- HTML
 - PG
 MOC: Knowledge Base
 ---

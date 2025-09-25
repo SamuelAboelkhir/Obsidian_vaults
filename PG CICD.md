@@ -5,7 +5,7 @@ tags:
 MOC: Knowledge Base
 ---
 
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG C index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG General index|Back to index]]
 # Components
 - Active server
 - A runner
