@@ -16,5 +16,8 @@
   "obsidian-linter",
   "simple-code-formatter",
   "webpage-html-export",
-  "slurp"
+  "slurp",
+  "obsidian-format-code",
+  "mousewheel-image-zoom",
+  "obsidian-image-toolkit"
 ]
