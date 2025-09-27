@@ -132,6 +132,18 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "MOC",
+      "value": "SC",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "ad7a-0630",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }
