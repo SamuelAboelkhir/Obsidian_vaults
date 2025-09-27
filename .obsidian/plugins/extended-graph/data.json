@@ -88,7 +88,7 @@
     "showTags": false,
     "showAttachments": false,
     "hideUnresolved": false,
-    "collapse-color-groups": false,
+    "collapse-color-groups": true,
     "colorGroups": [
       {
         "query": "tag:#MOC  ",
@@ -150,7 +150,14 @@
         "query": "file:/^DS/ -tag:#Index",
         "color": {
           "a": 1,
-          "rgb": 1919559
+          "rgb": 1794698
+        }
+      },
+      {
+        "query": "file:/^SC/ -tag:#Index",
+        "color": {
+          "a": 1,
+          "rgb": 32071
         }
       }
     ],
