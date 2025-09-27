@@ -352,3 +352,5 @@ code-along
 Learn to do exploratory data analysis and create visualizations with ggplot2.
 
 Richie Cotton
+
+![[PG data-visualization-ggplo2.pdf]]
