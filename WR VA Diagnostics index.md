@@ -9,8 +9,5 @@ MOC: Work
 [[WR IBM i]]
 [[WR VA onboarding meeting]]
 [[WR General Notes|WR General Notes]]
-[[WR Schema]]
 [[WR VA Devops]]
-[[WR tablesList]]
 [[WR Customer Data]]
-[[WR VA Meeting with Robert]]

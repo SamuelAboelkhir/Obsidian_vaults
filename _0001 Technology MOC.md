@@ -1,10 +1,10 @@
 ---
 tags: 
 - MOC
-MOC: Knowledge Base
+MOC: Technology
 ---
 [[_0000 Home|Home]] 
-# Knowledge MOCs
+# Technology Domains
 [[LI Linux index]]
 [[NET Networking index]]
 [[EH Ethical Hacking index]]
