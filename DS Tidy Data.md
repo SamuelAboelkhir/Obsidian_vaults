@@ -1,9 +1,9 @@
 ---
 tags:
 - DS
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[DS Datascience index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[DS Datascience index|Back to index]]
 # What you should have
 - You should have 4 things when you finish tidying the data
 	- The raw data
