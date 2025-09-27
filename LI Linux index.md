@@ -2,9 +2,9 @@
 tags: 
 - Index
 - LI
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]]
 # Linux References
 [[LI CLI Tools and Commands]]
 [[LI Scripting]]
