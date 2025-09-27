@@ -307,3 +307,5 @@ df %>%
     group_by(z) %>% 
     summarise(total = sum(x))
 ```
+
+![[PG base-r-cheat-sheet.pdf]]
