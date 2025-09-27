@@ -3059,6 +3059,42 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "EH Enumeration",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Enumeration.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Enumeration\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "EH Buffer Overflow Steps",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Buffer Overflow Steps.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Buffer Overflow Steps\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}}}"
+                },
+                {
+                  "title": "EH Badchars",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Badchars.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Badchars\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":63},\"to\":{\"line\":5,\"ch\":63}}}"
+                },
+                {
+                  "title": "EH AS kioptrix nikto",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS kioptrix nikto.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS kioptrix nikto\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":15},\"to\":{\"line\":6,\"ch\":15}}}"
+                },
+                {
+                  "title": "EH AS kioptrix - level 1 index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS kioptrix - level 1 index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS kioptrix - level 1 index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":3},\"to\":{\"line\":7,\"ch\":3}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":85},\"to\":{\"line\":12,\"ch\":85}}}"
+                },
+                {
                   "title": "EH AS kioptrix 80-443",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS kioptrix 80-443.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS kioptrix 80-443\"}",
@@ -3219,12 +3255,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_0000 Home.md",
+                "file": "EH Ethical Hacking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_0000 Home"
+              "title": "EH Ethical Hacking"
             }
           },
           {
@@ -3455,7 +3491,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "_0000 Home.md",
+                    "file": "EH Ethical Hacking.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -3554,7 +3590,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of _0000 Home"
+                  "title": "Graph of EH Ethical Hacking"
                 }
               }
             ]
@@ -3792,13 +3828,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_0000 Home.md",
+                "file": "EH Ethical Hacking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _0000 Home"
+              "title": "Outline of EH Ethical Hacking"
             }
           },
           {
@@ -3846,6 +3882,13 @@
   },
   "active": "11574518355d8466",
   "lastOpenFiles": [
+    "EH Enumeration.md",
+    "EH Buffer Overflow Steps.md",
+    "EH Badchars.md",
+    "EH AS kioptrix nikto.md",
+    "EH AS kioptrix - level 1 index.md",
+    "_0001 Knowledge Base MOC.md",
+    "_0000 Home.md",
     "EH AS kioptrix 80-443.md",
     "EH AS kioptrix 139.md",
     "EH AS kioptrix Default Web Page - Apache.md",
@@ -3854,9 +3897,7 @@
     "EH AS kioptrix Information Disclosure.md",
     "EH AS kioptrix Initial Findings.md",
     "EH AS kioptrix nmap scan.md",
-    "EH AS kioptrix nikto.md",
     "EH AS kioptrix Vulnerabilities.md",
-    "EH AS kioptrix - level 1 index.md",
     "EH AS Assessments index.md",
     "EH AS Academy index.md",
     "DS Introduction to Probability Rules Cheat Sheet.md",
@@ -3865,13 +3906,8 @@
     "PG Python index.md",
     "PG Programming index.md",
     "PG JS-TS index.md",
-    "_0000 Home.md",
     "_0002 Work MOC.md",
     "_0003 Personal MOC.md",
-    "_0004 Sciences MOC.md",
-    "EH AS Academy Flow.md",
-    "DS Tidy Data.md",
-    "DS Preprocessing.md",
     "WR Compass permissions canvas.canvas",
     "WR Bid.it Schema.canvas",
     "PG JavaCheatSheet.pdf",
