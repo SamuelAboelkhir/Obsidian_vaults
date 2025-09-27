@@ -2,10 +2,9 @@
 tags: 
 - HTML
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
-
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG C index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG C index|Back to index]]
 ## HTML cheatsheet for syntax and common tasks
 
 While using [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML) it can be very handy to have an easy way to remember how to use HTML tags properly and how to apply them. MDN provides you with extended [HTML reference documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements) as well as a deep instructional [set of HTML guides](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content). However, in many cases we just need some quick hints as we go. That's the whole purpose of the cheat sheet, to give you some quick accurate ready to use code snippets for common usages.

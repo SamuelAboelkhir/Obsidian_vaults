@@ -3,9 +3,9 @@ tags:
 - Programming-Language
 - R
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG R index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG R index|Back to index]]
 # Reading files
 - You can read files via a variety of commands, but the most common is `read.table([filePath], sep=[separator], header= TRUE)`
 - Read files are stored in RAM

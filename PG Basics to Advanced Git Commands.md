@@ -2,9 +2,9 @@
 tags: 
 - Other
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG General index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG General index|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/git-cheat-sheet](https://www.datacamp.com/cheat-sheet/git-cheat-sheet)
 
 ![Git Cheat Sheet](https://images.datacamp.com/image/upload/v1656574156/git_cheat_sheet_85713d75cb.png)

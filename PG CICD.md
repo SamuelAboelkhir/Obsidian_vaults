@@ -2,10 +2,9 @@
 tags: 
 - Other
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
-
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG General index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG General index|Back to index]]
 # Components
 - Active server
 - A runner

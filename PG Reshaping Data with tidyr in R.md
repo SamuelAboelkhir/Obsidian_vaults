@@ -3,9 +3,9 @@ tags:
 - Programming-Language
 - R
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG R index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG R index|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/reshaping-data-with-tidyr-in-r](https://www.datacamp.com/cheat-sheet/reshaping-data-with-tidyr-in-r)
 
 ![Reshaping data with tidyR in R.png](https://images.datacamp.com/image/upload/v1677237149/Reshaping_data_with_tidy_R_in_R_fdc7a037c8.png)

@@ -2,10 +2,10 @@
 tags: 
 - Other
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG General index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG General index|Back to index]]
 -  Acquired from [https://www.datacamp.com/cheat-sheet/markdown-cheat-sheet-23](https://www.datacamp.com/cheat-sheet/markdown-cheat-sheet-23)
 ![](https://media.datacamp.com/legacy/image/upload/v1697798108/Markdown_Cheat_Sheet_9657d9746f.png)
 

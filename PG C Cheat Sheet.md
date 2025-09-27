@@ -3,10 +3,10 @@ tags:
 - Programming-Language
 - C
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG C index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG C index|Back to index]]
 - Acquired from [https://www.geeksforgeeks.org/c/c-cheatsheet/](https://www.geeksforgeeks.org/c/c-cheatsheet/) using slurp
 
 This ****C Cheat Sheet**** provides an overview of both basic and advanced concepts of the C language. Whether you're a beginner or an experienced programmer, this cheat sheet will help you revise and quickly go through the core principles of the C language.
