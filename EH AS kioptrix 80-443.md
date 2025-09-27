@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Port
 - EH
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 - mod_ssl/2.8.4 - mod_ssl 2.8.7 and lower are vulnerable to a remote buffer overflow which may allow a remote shell.
 - 80/tcp    open  http        Apache httpd 1.3.20 ((Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)
 - Discovered [**Webalizer Version 2.01**](http://www.mrunix.net/webalizer/) on http://192.168.57.4/usage/usage_202508.html

@@ -3,11 +3,10 @@ tags:
 - blue
 - Assessment
 - Findings/Vulnerabilities
-
 - EH
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Blue index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS Blue index|Back to index]]
 ### Critical vulneraility - Unsupported Windows OS
 ![[Screenshot from 2025-09-20 17-30-02.png]]
 ### High vulnerability -  MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)

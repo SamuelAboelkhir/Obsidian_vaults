@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Scan/Nmap
 - EH
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Dev index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS Dev index|Back to index]]
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-23 04:46 EDT
 Nmap scan report for 192.168.57.10
 Host is up (0.00027s latency).
