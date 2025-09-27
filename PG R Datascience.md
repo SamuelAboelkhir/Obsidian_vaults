@@ -25,7 +25,7 @@ MOC: Knowledge Base
 - Subsetting
 	- Subset rows
 		- `DT[2,`: outputs row 2
-		- `DT[DT$y="a",]`: Accesses the y column and returns all rows where y = "a"
+		- `DT[DT$y=="a",]`: Accesses the y column and returns all rows where y = "a"
 		- `DT[c(2,3)]`: Returns the 2nd and 3rd rows
 		- `DT[,c(2,3)]`: Can't use the same logic to subset columns
 			- You can instead path a list of functions to perform on the columns by name
