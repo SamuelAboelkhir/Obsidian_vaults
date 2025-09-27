@@ -2,9 +2,9 @@
 tags:
 - Index
 - EH
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]]
 # Ethical Hacking References
 ## General
 [[EH Ethical Hacking]]

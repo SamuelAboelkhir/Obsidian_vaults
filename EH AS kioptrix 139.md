@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Port
 - EH
-MOC: Knowledge Base
+MOC: Technology 
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 - SMB
 	- **Refer To:**
 		- [[NET Common ports and protocols#13. SMB - Server Message Block|SMB]]

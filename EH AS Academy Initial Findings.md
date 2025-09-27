@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Findings/Initial
 - EH
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Academy index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS Academy index|Back to index]]
 - port21 ftp version
 	- [+] 192.168.57.9:21       - FTP Banner: '220 (vsFTPd 3.0.3)\x0d\x0a'
 - port80
