@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Index
 - EH
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[EH AS Assessments index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS Assessments index|Back to index]]
 # All Findings
 ## Findings
 [[EH AS kioptrix Initial Findings|EH AS kioptrix Initial Findings]]
