@@ -3,9 +3,9 @@ tags:
 - Programming-Language
 - Python
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG Python index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG Python index|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet](https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet)
 ![](https://media.datacamp.com/cms/python-basics-cheat-sheet-updated0925.png)
 

@@ -3,9 +3,9 @@ tags:
 - Programming-Language
 - R
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG R index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG R index|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/the-datatable-r-package-cheat-sheet](https://www.datacamp.com/cheat-sheet/the-datatable-r-package-cheat-sheet)
 
 ![data table cheat sheet](https://images.datacamp.com/image/upload/v1653830919/Screenshot_2022_05_29_at_15_28_25_dfe1d8ad34.png)

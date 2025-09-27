@@ -2,10 +2,10 @@
 tags: 
 - Other
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG General index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG General index|Back to index]]
 -  Acquired from [https://www.datacamp.com/cheat-sheet/postgre-sql-basics-cheat-sheet](https://www.datacamp.com/cheat-sheet/postgre-sql-basics-cheat-sheet)
 ![](https://media.datacamp.com/legacy/image/upload/v1700745416/Postgre_SQL_Cheat_Sheet_3432a8648a.png)
 

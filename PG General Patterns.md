@@ -2,10 +2,10 @@
 tags: 
 - Other
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG General index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG General index|Back to index]]
 # String interpolation
 - The act of passing the value of a variable in a string
 - Most languages have a method that's similar to C (the G.O.A.T)

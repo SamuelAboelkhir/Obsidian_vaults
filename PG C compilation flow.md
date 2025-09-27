@@ -3,8 +3,8 @@ tags:
 - Programming-Language
 - C
 - PG
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[PG C index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG C index|Back to index]]
 
 ![Compilation flow](assets/Compilation-Process-in-C.png)
