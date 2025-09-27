@@ -1,9 +1,9 @@
 ---
 tags: 
 - LI
-MOC: Knowledge Base
+MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Knowledge Base MOC|Back to Knowledge MOC]] | [[LI Linux index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[LI Linux index|Back to index]]
 # Links: 
 - [[#Various command line tools]]
 - [[#File operations]]
