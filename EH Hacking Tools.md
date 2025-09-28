@@ -106,3 +106,14 @@ MOC: Technology
 - It's a tool  that allows for "unprivileged Linux process snooping"
 - pspy is a command line tool designed to snoop on processes without need for root permissions. It allows you to see commands run by other users, cron jobs, etc. as they execute. Great for enumeration of Linux systems in CTFs. Also great to demonstrate your colleagues why passing secrets as arguments on the command line is a bad idea.
 - The tool gathers the info from procfs scans. Inotify watchers placed on selected parts of the file system trigger these scans to catch short-lived processes.
+# fcrackzip
+- zip file password cracking tool, acquired from apt
+- `fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt save.zip`
+	- `-v`: verbose
+	- `-u`: unzip
+	- `-D`: Dictionary attack
+	- `-p`: File used for attack
+# gtfobin
+- Not a tool in the traditional sense as it's a website
+- It's basically a list of instructions on how to escalate privileges via different commands
+- Example is, you compromised a user, and he can use `sudo zip` with no password. How do you abuse that? `gtfobin` can tell you
