@@ -5,7 +5,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[_0005 Ethical Hacking MOC|Back to index]]
 # Flows kanbans
 [[EH AS Scans kanban]]
 # Linux

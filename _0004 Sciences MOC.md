@@ -7,3 +7,4 @@ MOC: Sciences
 
 [[SC Biochemistry index]]
 [[SC Chemistry index]]
+[[SC Datascience index]]

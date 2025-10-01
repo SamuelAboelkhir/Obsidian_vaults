@@ -6,7 +6,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS Blue index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[EH AS Blue index|Back to index]]
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-19 07:16 EDT
 Nmap scan report for 192.168.57.8
 Host is up (0.00042s latency).

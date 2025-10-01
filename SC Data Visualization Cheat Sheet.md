@@ -1,9 +1,10 @@
 ---
 tags:
 - DS
+- SC
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[DS Datascience index|Back to index]]
+[[_0000 Home|Home]] | [[_0004 Sciences MOC |Back to Sciences MOC]] | [[SC Datascience index|Back to index]]
 - Aquired from [https://www.datacamp.com/cheat-sheet/data-viz-cheat-sheet](https://www.datacamp.com/cheat-sheet/data-viz-cheat-sheet)
 ![Data Visualization Cheat Sheet](https://images.datacamp.com/image/upload/v1650647503/Screenshot_2022_04_22_at_15_36_27_8c3d233ab3.png)
 

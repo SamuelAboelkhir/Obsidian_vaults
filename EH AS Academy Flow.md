@@ -6,7 +6,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS Academy index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[EH AS Academy index|Back to index]]
 # Complete flow to gain root
 1. nmap to find the available ports
 2. FTP to find the note.txt file with leaked credentials

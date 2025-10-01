@@ -1,11 +1,10 @@
 ---
 tags:
-- Programming-Language
-- R
+- Programming-Language/R
 - PG
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG R index|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/getting-started-r](https://www.datacamp.com/cheat-sheet/getting-started-r) using the Obsidian Web Clipper extension
 - See also [[PG base-r-cheat-sheet.pdf]]
 

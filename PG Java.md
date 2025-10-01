@@ -1,10 +1,9 @@
 ---
 tags:
-- Programming-Language
-- Java
+- Programming-Language/Java
 - PG
 MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG Java index|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
 [[PG JavaCheatSheet.pdf]]

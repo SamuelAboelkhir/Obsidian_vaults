@@ -3,7 +3,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[_0005 Ethical Hacking MOC|Back to index]]
 ### Passive(OSINT)
 1. Physical/social recon which include:
 	1. Location information
@@ -17,7 +17,7 @@ MOC: Technology
 	1. Target validation
 		- WHOIS, nslookup, dnsrecon
 	2. Finding subdomains
-		- [[EH Web Searching|Google Fu]], [[LI CLI Tools and Commands#^d16ff0|dig]], [[EH Useful Linux Commands For Pentesting#nmap|nmap]], Sublist3r, Bluto, crt.sh, etc.
+		- [[EH Web Searching|Google Fu]], [[TECH CLI Tools and Commands#^d16ff0|dig]], [[EH Useful Linux Commands For Pentesting#nmap|nmap]], Sublist3r, Bluto, crt.sh, etc.
 		- The go to tool for network mapping of attack surfaces and external asset discovery is [OWASP AMASS](https://github.com/owasp-amass/amass)
 	3. Fingerprinting
 		- [[EH Useful Linux Commands For Pentesting#nmap|nmap]], Wappalyzer, WhatWeb, BuiltWith, NetCat

@@ -6,7 +6,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 **Refer to:**
 - [[EH Hacking Tools#nikto]]
 - Nikto v2.5.0
@@ -46,7 +46,7 @@ MOC: Technology
 + /assets/mobirise/css/meta.php?filesrc=: A PHP backdoor file manager was found.
 + /login.cgi?cli=aa%20aa%27cat%20/etc/hosts: Some D-Link router remote command execution.
 + /shell?cat+/etc/hosts: A backdoor was identified.
-+ /#wp-config.php#: #wp-config.php# file found. This file contains the credentials.
++ /#wp-config.php#: `#wp-config`.php# file found. This file contains the credentials.
 + 8908 requests: 0 error(s) and 30 item(s) reported on remote host
 + End Time:           2025-08-30 06:40:31 (GMT-4) (26 seconds)
 ---------------------------------------------------------------------------

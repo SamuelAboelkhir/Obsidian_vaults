@@ -1,11 +1,10 @@
 ---
 tags:
-- Programming-Language
-- R
+- Programming-Language/R
 - PG
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG R index|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/data-manipulation-with-dplyr-in-r-cheat-sheet](https://www.datacamp.com/cheat-sheet/data-manipulation-with-dplyr-in-r-cheat-shee)
 
 ![Data Manipulation with Dplyr Cheat Sheet](https://images.datacamp.com/image/upload/v1660559784/image1_e4022b23cf.png)

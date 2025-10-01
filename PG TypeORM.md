@@ -1,11 +1,11 @@
 ---
 tags:
-- JS/TS
+- Programming-Language/JS-TS
 - ORM
 - PG
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG JS-TS index|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
 ### TypeORM tips
 - Always make sure the attribute names used in the frontend DTO matches the backend entities for typeORM to know which fields to populate with data
 # The MOFO bug
