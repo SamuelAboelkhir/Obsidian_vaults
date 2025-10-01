@@ -5,7 +5,7 @@ tags:
 MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG C index|Back to index]]
 - Acquired from [https://www.geeksforgeeks.org/c/c-cheatsheet/](https://www.geeksforgeeks.org/c/c-cheatsheet/) using slurp
 
 This ****C Cheat Sheet**** provides an overview of both basic and advanced concepts of the C language. Whether you're a beginner or an experienced programmer, this cheat sheet will help you revise and quickly go through the core principles of the C language.
