@@ -5,7 +5,7 @@ tags:
 MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
 -  Acquired from [https://www.datacamp.com/cheat-sheet/markdown-cheat-sheet-23](https://www.datacamp.com/cheat-sheet/markdown-cheat-sheet-23)
 ![](https://media.datacamp.com/legacy/image/upload/v1697798108/Markdown_Cheat_Sheet_9657d9746f.png)
 

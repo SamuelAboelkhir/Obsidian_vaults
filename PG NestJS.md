@@ -5,10 +5,10 @@ tags:
 - PG
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG JS-TS index|Back to index]]
 # Decorator
 - A decorator can be defined as follows: 
-	```
+	```TS
 	import { Reflector } from '@nestjs/core';
 	import { Permissions } from 'src/enums';
 

@@ -4,7 +4,7 @@ tags:
 - PG
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Bash index|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/bash-and-zsh-shell-terminal-basics-cheat-sheet](https://www.datacamp.com/cheat-sheet/bash-and-zsh-shell-terminal-basics-cheat-sheet)
 ![](https://media.datacamp.com/legacy/image/upload/v1700048361/Bash_Cheat_Sheet_4503e68287.png)
 

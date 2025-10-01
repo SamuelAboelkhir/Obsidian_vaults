@@ -4,7 +4,7 @@ tags:
 - PG
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG R index|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/ggplot2-cheat-sheet](https://www.datacamp.com/cheat-sheet/ggplot2-cheat-sheet)
 
 Data visualization skills are table stakes for anyone looking to grow their R skills. ggplot2 is one of R’s premiere packages, as it allows an accessible approach to building robust data visualizations in R. In this cheat sheet, you’ll have a handy guide for all the functions and techniques to get you started with ggplot2.

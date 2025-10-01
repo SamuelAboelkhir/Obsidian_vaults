@@ -4,7 +4,7 @@ tags:
 - PG
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Bash index|Back to index]]
 - Acquired from [https://devhints.io/bash](https://devhints.io/bash)
 ## Getting started
 

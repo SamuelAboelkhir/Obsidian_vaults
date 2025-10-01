@@ -5,7 +5,7 @@ tags:
 MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
 # String interpolation
 - The act of passing the value of a variable in a string
 - Most languages have a method that's similar to C (the G.O.A.T)
