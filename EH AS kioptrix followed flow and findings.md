@@ -6,7 +6,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 1. [[EH Useful Linux Commands For Pentesting#nmap|nmap]] scan to detect possibly vulnerable ports 
 	1. Gave us port 139 (smb) and 80/443 (http/https)
 	2. Gave us some OS info
@@ -16,7 +16,7 @@ MOC: Technology
 			1. Showed us a default page that included info about the OS
 		2. https://target
 		3. [[EH Hacking Tools#dirbuster|Dirbuster]] with a directory list wordlist
-	2.  [[NET Common ports and protocols#13. SMB - Server Message Block|SMB]]
+	2.  [[TECH Common ports and protocols#13. SMB - Server Message Block|SMB]]
 		1. [[EH Hacking Tools#Metasploit|metasploit]]
 			1. search smb for available smb tools
 			2. Use auxiliary scanner to enumerate host smb version

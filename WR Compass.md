@@ -4,7 +4,7 @@ tags:
 - Compass
 MOC: Work
 ---
-[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR Compass index]]
+[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR Projects index]]
 ## Things to fix in Compass
 
 1. Problem: The AdminPanel route is still accessible for non-admin users

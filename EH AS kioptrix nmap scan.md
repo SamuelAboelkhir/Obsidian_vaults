@@ -6,10 +6,10 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 Refer To:
 - [[EH Useful Linux Commands For Pentesting#nmap]]
-- [[LI CLI Tools and Commands#^2b1c6e]]
+- [[TECH CLI Tools and Commands#^2b1c6e]]
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-30 13:46 EDT
 Nmap scan report for 192.168.57.4
 Host is up (0.00021s latency).

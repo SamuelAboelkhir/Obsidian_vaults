@@ -1,9 +1,10 @@
 ---
 tags: 
 - LI
+- TECH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[LI Linux index|Back to index]]
+[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
 # File manipulation
 - `:file`: Allows you to rename your current file
 - `:read`: Reads a file's content in the current file

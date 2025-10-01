@@ -1,7 +1,6 @@
 ---
 tags:
 - Church
-- Index
 - WR
 MOC: Work
 ---
@@ -37,6 +36,3 @@ tqvO$8exmLiE8$Ik
 ```
 
 this is where you'll get things done [https://github.com/ChurchCRM/CRM](https://github.com/ChurchCRM/CRM "https://github.com/churchcrm/crm") [https://github.com/ChurchCRM/CRM/wiki/Installing-ChurchCRM-in-cPanel-shared-hosting](https://github.com/ChurchCRM/CRM/wiki/Installing-ChurchCRM-in-cPanel-shared-hosting "https://github.com/churchcrm/crm/wiki/installing-churchcrm-in-cpanel-shared-hosting")
-
-# Requirements
-[[WR Church Requirements]]

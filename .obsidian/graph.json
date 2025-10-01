@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#MOC  ",
@@ -22,20 +22,6 @@
       }
     },
     {
-      "query": "file:/^LI/ -tag:#Index",
-      "color": {
-        "a": 1,
-        "rgb": 10410588
-      }
-    },
-    {
-      "query": "file:/^NET/ -tag:#Index",
-      "color": {
-        "a": 1,
-        "rgb": 1490168
-      }
-    },
-    {
       "query": "file:/^PER/ -tag:#Index",
       "color": {
         "a": 1,
@@ -46,7 +32,7 @@
       "query": "file:/^PG/ -tag:#Index",
       "color": {
         "a": 1,
-        "rgb": 2603134
+        "rgb": 2596791
       }
     },
     {
@@ -64,17 +50,17 @@
       }
     },
     {
-      "query": "file:/^DS/ -tag:#Index",
-      "color": {
-        "a": 1,
-        "rgb": 1794698
-      }
-    },
-    {
       "query": "file:/^SC/ -tag:#Index",
       "color": {
         "a": 1,
         "rgb": 32071
+      }
+    },
+    {
+      "query": "file:/^TECH/-tag:#Index",
+      "color": {
+        "a": 1,
+        "rgb": 2380494
       }
     }
   ],
@@ -88,6 +74,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 197,
-  "scale": 0.0889892578125,
+  "scale": 0.13348388671875,
   "close": true
 }

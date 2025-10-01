@@ -4,7 +4,7 @@ tags:
 - VA
 MOC: Work
 ---
-[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR VA Diagnostics index|Back to index]]
+[[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR Projects index]]
 aadel
 iVTgmZxMKuhQ8
  VPN: 

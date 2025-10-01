@@ -1,9 +1,10 @@
 ---
 tags:
 - DS
+- SC
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[DS Datascience index|Back to index]]
+[[_0000 Home|Home]] | [[_0004 Sciences MOC |Back to Sciences MOC]] | [[SC Datascience index|Back to index]]
 # What you should have
 - You should have 4 things when you finish tidying the data
 	- The raw data

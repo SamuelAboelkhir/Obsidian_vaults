@@ -3,11 +3,11 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[_0005 Ethical Hacking MOC|Back to index]]
 - Buffer overflow is based around sending too much data to a program in order to try and overflow its memory buffer and spill into the following memory buffer
 - The goal is to reach a buffer called the EIP (Extended Instruction Pointer) which is a pointer or return address.
 - We can use this address by pointing towards the direction that we want (malicious code) to gain reverse shell, and access to the target.
-- **See:** [[LI Anatomy of Memory]]
+- **See:** [[TECH Anatomy of Memory]]
 # Steps
 1. Spiking ^3a5df5
 	1. [[EH Spiking]]

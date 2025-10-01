@@ -1,10 +1,9 @@
 ---
 tags:
-- Index
-- EH
-MOC: Technology
+- MOC
+MOC: Ethical Hacking
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]]
+[[_0000 Home|Home]]
 # Ethical Hacking References
 ## General
 [[EH Ethical Hacking]]

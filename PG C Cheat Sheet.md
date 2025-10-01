@@ -1,12 +1,11 @@
 ---
 tags:
-- Programming-Language
-- C
+- Programming-Language/C
 - PG
 MOC: Technology
 ---
 
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[PG C index|Back to index]]
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[_0006 Programming MOC|Back to index]]
 - Acquired from [https://www.geeksforgeeks.org/c/c-cheatsheet/](https://www.geeksforgeeks.org/c/c-cheatsheet/) using slurp
 
 This ****C Cheat Sheet**** provides an overview of both basic and advanced concepts of the C language. Whether you're a beginner or an experienced programmer, this cheat sheet will help you revise and quickly go through the core principles of the C language.
@@ -31,10 +30,10 @@ return 0;
 
 Here,
 
-- ****#include <stdio.h>:**** The header file inclusion to use printf() function.
-- ****int main():**** The main() function is the entry point of any C program.
-- ****printf("Hello World"):**** Function to print hello world.
-- ****return 0:**** Value returned by the main() function.
+- **** include <stdio.h>:**** The header file inclusion to use printf() function.
+- **** int main():**** The main() function is the entry point of any C program.
+- **** printf("Hello World"):**** Function to print hello world.
+- **** return 0:**** Value returned by the main() function.
 
 ## Variables
 
@@ -74,7 +73,7 @@ Basic data types are built-in in the C programming language and are independent 
 4. ****double:**** Used to represent decimal numbers up to 15 precision digits.
 5. ****void:**** Used to represent the valueless entity.
 
-#### ****Example of Basic Data Types****
+#### **** Example of Basic Data Types ****
 
 char c = 'a';
 int integer = 24;
@@ -170,7 +169,7 @@ where,
 ```C
 // C program to illustrate the basic input and output using 
 // printf() and scanf() 
-#include <stdio.h>  
+# include <stdio.h>  
 int main() {
      int roll_num;     
      char name[50];      
@@ -330,7 +329,7 @@ The conditional operator is a kind of single-line if-else statement that tests t
 
 ```C
 // C program to illustrate conditional statements 
-#include <stdio.h>
+# include <stdio.h>
 
 int main() 
 {
@@ -419,7 +418,7 @@ label:       |    ****goto**** label;
 ## Example of Loops and Jump Statements
 
 ```C
-// C program to illustrate loops #include <stdio.h>  
+// C program to illustrate loops # include <stdio.h>  
 // Driver code 
 int main() 
 {     
@@ -488,7 +487,7 @@ __data_type arr_name__ [size1][size2][size3];    // ****3D array****
 
 ```C
 // C Program to demonstrate the use of array 
-#include <stdio.h>  
+# include <stdio.h>  
 
 int main() {     
 
@@ -523,8 +522,8 @@ char string_name [] = "__any_text__";
 
 ```C
 // C program to illustrate strings  
-#include <stdio.h> 
-#include <string.h>  
+# include <stdio.h> 
+# include <string.h>  
 int main() {     
 
 // declare and initialize string     
@@ -574,7 +573,7 @@ We can dereference (access the value pointed by the pointer) using the same ****
 ### Example of Pointers
 
 ```C
-// C program to illustrate Pointers #include <stdio.h>  
+// C program to illustrate Pointers # include <stdio.h>  
 // Driver program 
 int main() {     
 	int var = 10;      
@@ -646,7 +645,7 @@ function_name (__arguments__);
 ```C
 // C program to show function 
 // call and definition 
-#include <stdio.h>  
+# include <stdio.h>  
 
 // Function that takes two parameters 
 // a and b as inputs and returns 
@@ -718,8 +717,8 @@ The free function is used to deallocate the already allocated memory.
 
 ```C
 // C program to illustrate the dynamic memory allocation 
-#include <stdio.h> 
-#include <stdlib.h>  
+# include <stdio.h> 
+# include <stdlib.h>  
 int main() {     
 
 // using malloc to allocate the int array of size 10     
@@ -775,7 +774,7 @@ or
 
 ```C
 // C program to illustrate the use of structures 
-#include <stdio.h>  
+# include <stdio.h>  
 
 // declaring structure with name str1 
 struct str1 {     
@@ -841,7 +840,7 @@ Union members can be accessed using ****dot operator ( . )**** but only one memb
 
 ```C
 // C Program to demonstrate how to use union 
-#include <stdio.h>  
+# include <stdio.h>  
 
 // union template or declaration 
 union un {     
@@ -880,7 +879,7 @@ Enumeration, also known as enum is a user-defined data type that is used to assi
 
 ```C
 // An example program to demonstrate working
-// of enum in C #include <stdio.h>  
+// of enum in C # include <stdio.h>  
 enum week { Mon, Tue, Wed, Thur, Fri, Sat, Sun };  
 int main() {     
 	enum week day;     
@@ -911,17 +910,17 @@ The preprocessor directives are used to provide instructions to the preprocessor
 
 ****The following table lists all the preprocessor directives in C/C++:****
 
-|S.No.|****Preprocessor Directives****|****Description****|
-|---|---|---|
-|1.|****#define****|Used to define a macro|
-|2.|****#undef****|Used to undefine a macro|
-|3.|****#include****|Used to include a file in the source code program|
-|4.|****#ifdef****|Used to include a section of code if a certain macro is defined by #define|
-|5.|****#endif****|Used to mark the end of #endif|
-|6.|****#ifndef****|Used to include a section of code if a certain macro is not defined by #define|
-|7.|****#if****|Check for the specified condition|
-|8.|****#else****|Alternate code that executes when #if fails|
-|9.|****#pragma****|This directive is a special purpose directive and is used to turn on or off some features.|
+| S.No. | ****Preprocessor Directives**** | ****Description****                                                                        |
+| ----- | ------------------------------- | ------------------------------------------------------------------------------------------ |
+| 1.    | ****define****                  | Used to define a macro                                                                     |
+| 2.    | ****undef****                   | Used to undefine a macro                                                                   |
+| 3.    | ****include****                 | Used to include a file in the source code program                                          |
+| 4.    | ****ifdef****                   | Used to include a section of code if a certain macro is defined by `define`                |
+| 5.    | ****endif****                   | Used to mark the end of `endif`                                                            |
+| 6.    | ****ifndef****                  | Used to include a section of code if a certain macro is not defined by `define`            |
+| 7.    | ****if****                      | Check for the specified condition                                                          |
+| 8.    | ****else****                    | Alternate code that executes when  `if` fails                                              |
+| 9.    | ****pragma****                  | This directive is a special purpose directive and is used to turn on or off some features. |
 
 ## Common Library Functions
 
