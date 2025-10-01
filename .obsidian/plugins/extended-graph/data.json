@@ -79,12 +79,15 @@
   },
   "additionalProperties": {},
   "backupGraphOptions": {
-    "collapse-filter": false,
+    "collapse-filter": true,
     "search": "",
+    "localJumps": 1,
+    "localBacklinks": true,
+    "localForelinks": true,
+    "localInterlinks": false,
     "showTags": false,
     "showAttachments": false,
     "hideUnresolved": false,
-    "showOrphans": true,
     "collapse-color-groups": false,
     "colorGroups": [
       {
@@ -123,7 +126,7 @@
         }
       },
       {
-        "query": "tag:#Index",
+        "query": "tag:#Index  ",
         "color": {
           "a": 1,
           "rgb": 11621088
@@ -145,16 +148,16 @@
       }
     ],
     "collapse-display": true,
-    "showArrow": true,
-    "textFadeMultiplier": -2,
+    "showArrow": false,
+    "textFadeMultiplier": 0,
     "nodeSizeMultiplier": 1,
     "lineSizeMultiplier": 1,
-    "collapse-forces": false,
-    "centerStrength": 0,
-    "repelStrength": 20,
+    "collapse-forces": true,
+    "centerStrength": 0.518713248970312,
+    "repelStrength": 10,
     "linkStrength": 1,
-    "linkDistance": 197,
-    "scale": 0.0889892578125,
+    "linkDistance": 250,
+    "scale": 0.13348388671875,
     "close": true
   },
   "openInNewTab": false,
