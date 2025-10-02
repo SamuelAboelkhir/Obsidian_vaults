@@ -6,9 +6,9 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 ### Gathered Information
-- [[TECH Common ports and protocols#9. HTTP and HTTPS - Hypertext Transfer Protocol|80/443]] on IP 192.168.57.4
+- [[NET Common ports and protocols#9. HTTP and HTTPS - Hypertext Transfer Protocol|80/443]] on IP 192.168.57.4
 - Found a default webpage - Apache - PHP
 - Information disclosure
 	- 404 not found page

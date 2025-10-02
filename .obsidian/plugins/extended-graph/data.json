@@ -143,7 +143,21 @@
         "query": "file:/^TECH/-tag:#Index",
         "color": {
           "a": 1,
-          "rgb": 2380494
+          "rgb": 9550649
+        }
+      },
+      {
+        "query": "file:/^NET/-tag:#Index",
+        "color": {
+          "a": 1,
+          "rgb": 154430
+        }
+      },
+      {
+        "query": "file:/^CYB/-tag:#Index",
+        "color": {
+          "a": 1,
+          "rgb": 2835610
         }
       }
     ],

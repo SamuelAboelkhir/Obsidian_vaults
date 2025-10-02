@@ -3,7 +3,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[_0005 Ethical Hacking MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
 ### Reminder: People are the weakest link in any organization
 # Five stages of ethical hacking
 1. Reconnaissance

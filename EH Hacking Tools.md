@@ -3,7 +3,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0005 Ethical Hacking MOC |Back to Ethical Hacking MOC]] | [[_0005 Ethical Hacking MOC|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
 #### Burp suite
 - Burp suite is a web proxy with its own cert allowing it to see TLS encrypted data
 - To get started, you need to start burp suite, and a browser (preferably firefox) and go to the browser settings

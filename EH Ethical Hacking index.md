@@ -1,9 +1,12 @@
 ---
 tags:
-- MOC
-MOC: Ethical Hacking
+- EH
+- Index
+- CYBER
+MOC: Cybersecurity
 ---
-[[_0000 Home|Home]]
+[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]]
+
 # Ethical Hacking References
 ## General
 [[EH Ethical Hacking]]

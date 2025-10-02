@@ -6,10 +6,10 @@ MOC: Technology
 ---
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
 ### Python
-
+- Also refer to [[PG Python Cheat Sheet for Beginners]]
 #### Socket illustration script
 	
-```
+```Python
 #!/bin/python3
 
 import socket

@@ -1,10 +1,10 @@
 ---
 tags:
 - NET
-- TECH
+- CYBER
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Networking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[NET Networking index|Back to index]]
 # OSI Model
 ![OSI model](assets/proxy-image.jpeg)
 
