@@ -10,6 +10,7 @@ MOC: Programming
 [[PG CICD]]
 [[PG Website deployment]]
 [[PG Regular expression syntax cheat sheet]]
+- Other Regex cheat sheet [[PG RegEX Cheat Sheet & Quick Reference]]
 [[PG Markdown Cheat Sheet]]
 [[PG PostgreSQL Basics Cheat Sheet]]
 [[PG Basics to Advanced Git Commands]]

@@ -60,7 +60,21 @@
       "query": "file:/^TECH/-tag:#Index",
       "color": {
         "a": 1,
-        "rgb": 2380494
+        "rgb": 9550649
+      }
+    },
+    {
+      "query": "file:/^NET/-tag:#Index",
+      "color": {
+        "a": 1,
+        "rgb": 154430
+      }
+    },
+    {
+      "query": "file:/^CYB/-tag:#Index",
+      "color": {
+        "a": 1,
+        "rgb": 2835610
       }
     }
   ],
@@ -74,6 +88,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 197,
-  "scale": 0.13348388671875,
+  "scale": 0.059326171875,
   "close": true
 }

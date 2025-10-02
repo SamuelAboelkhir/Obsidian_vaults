@@ -10,3 +10,8 @@ MOC: Technology
 [[TECH CLI Tools and Commands]]
 [[TECH Scripting]]
 [[TECH Anatomy of Memory]]
+[[TECH Awk Command Cheat Sheet & Quick Reference]]
+[[TECH Sed Command Cheat Sheet & Quick Reference]]
+[[TECH NVIM commands]]
+[[TECH Vim Cheat Sheet & Quick Reference]]
+[[TECH Bash & zsh Shell Terminal Basics Cheat Sheet]]
