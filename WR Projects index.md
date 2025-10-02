@@ -13,9 +13,9 @@ MOC: Work
 ## Church
 [[WR Church Requirements]]
 ## VA
-[[WR IBM i]]
+[[WR VA IBM i]]
 [[WR VA onboarding meeting]]
-[[WR General Notes|WR General Notes]]
+[[WR VA General Notes|WR VA General Notes]]
 [[WR VA Devops]]
 [[WR Customer Data]]
 # bid.it

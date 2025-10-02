@@ -13,7 +13,7 @@ MOC: Technology
 # Project Structure
 - [From the docs](https://nextjs.org/docs/app/getting-started/project-structure)
 - A valid structure that's similar to react is:
-```
+```TS
 app/ //use it like the router folder
 features/
 	user/
@@ -47,7 +47,7 @@ For example, the `<Page>` component is a Server Component that fetches data ab
 
 `app/[id]/page.tsx`
 
-```
+```TS
 import LikeButton from '@/app/ui/like-button'
 import { getPost } from '@/lib/data' 
 
@@ -70,7 +70,7 @@ return (
 
 `app/ui/like-button.tsx`
 
-```
+```TS
 'use client' 
 import { useState } from 'react' 
 export default function LikeButton({ 
@@ -80,5 +80,27 @@ likes: number }) {
 // ...
 }
 ```
+# Parallel routes
+- Children + all other slots must be mentioned in the layout for this to work
+```TS
+export default function Layout({
+  children,
+  team,
+  analytics,
+}: {
+  children: React.ReactNode
+  analytics: React.ReactNode
+  team: React.ReactNode
+}) {
+  return (
+    <>
+      {children}
+      {team}
+      {analytics}
+    </>
+  )
+}
+```
+- It's advisable to have a `default.js` file that acts as a fallback in case a file in the route doesn't load, otherwise you will get a `404`
 # All features of next
 - [From the docs](https://nextjs.org/docs/app/api-reference)
