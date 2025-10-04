@@ -955,6 +955,66 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "CYB Cybersecurity index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":23},\"to\":{\"line\":8,\"ch\":23}}}"
+                },
+                {
+                  "title": "CYB Cybersecurity concepts",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":1},\"to\":{\"line\":0,\"ch\":1}}}"
+                },
+                {
+                  "title": "CYB Cybersecurity index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
+                },
+                {
+                  "title": "CYB Cybersecurity concepts",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "CYB Cybersecurity index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
+                },
+                {
+                  "title": "_0005 Cybersecurity MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 Cybersecurity MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":20},\"to\":{\"line\":8,\"ch\":20}}}"
+                },
+                {
+                  "title": "TECH CLI Tools and Commands",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "TECH Linux index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":19},\"to\":{\"line\":9,\"ch\":19}}}"
+                },
+                {
+                  "title": "_0001 Technology MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":14}}}"
+                },
+                {
+                  "title": "PG NextJS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG NextJS.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG NextJS\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "WR Bid.it Schema",
                   "icon": "lucide-layout-dashboard",
                   "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"WR Bid.it Schema.canvas\",\"viewState\":{\"x\":9.89935011354467,\"y\":-728.4937057354251,\"zoom\":-0.4739361305434324}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"WR Bid.it Schema\"}",
@@ -1073,12 +1133,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG NextJS.md",
+                "file": "CYB Cybersecurity concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG NextJS"
+              "title": "CYB Cybersecurity concepts"
             }
           },
           {
@@ -1556,7 +1616,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG NextJS.md",
+                    "file": "CYB Cybersecurity concepts.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1655,7 +1715,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG NextJS"
+                  "title": "Graph of CYB Cybersecurity concepts"
                 }
               }
             ]
@@ -1966,6 +2026,13 @@
   },
   "active": "f38b2e6e4ed475d7",
   "lastOpenFiles": [
+    "CYB Cybersecurity index.md",
+    "CYB Cybersecurity concepts.md",
+    "_0005 Cybersecurity MOC.md",
+    "TECH CLI Tools and Commands.md",
+    "TECH Linux index.md",
+    "_0001 Technology MOC.md",
+    "PG NextJS.md",
     "WR Bid.it Schema.canvas",
     "WR Bid.it General.md",
     "WR Bid.it setup.md",
@@ -1982,16 +2049,10 @@
     "TECH NVIM commands.md",
     "TECH Vim Regexp Cheat Sheet.md",
     "TECH Vim Cheat Sheet & Quick Reference.md",
-    "TECH Linux index.md",
     "TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md",
-    "TECH CLI Tools and Commands.md",
     "TECH Sed Command Cheat Sheet & Quick Reference.md",
     "PG Other index.md",
     "PG RegEX Cheat Sheet & Quick Reference.md",
-    "PG Bash Cheat Sheet & Quick Reference.md",
-    "PG Bash index.md",
-    "PG Regular expression syntax cheat sheet.md",
-    "PG React.md",
     "assets/fievel_vim-regexp.pdf",
     "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
     "WR VA BL Schema attempt 1.canvas",
