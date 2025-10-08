@@ -17,11 +17,11 @@ MOC: Work
 [[WR VA onboarding meeting]]
 [[WR VA General Notes|WR VA General Notes]]
 [[WR VA Devops]]
-[[WR Customer Data]]
 # bid.it
 [[WR Bid.it General]]
 [[WR Bid.it setup]]
 [[WR Bid.it Design]]
+[[WR Bid.it tips]]
 ## Canvases
 [[WR Compass permissions canvas.canvas|WR Compass permissions canvas]]
 [[WR Bid.it Schema.canvas|WR Bid.it Schema]]

@@ -21,3 +21,6 @@ MOC: Work
 	- We're very close: Admin allows consumer and dealer discuss to reach a middle ground
 - By default consumers and dealers will not see each other's contact details
 - Buy now is an auto buy price that bypasses the auction and allows you to immediately buy the car at a higher price set by the consumer
+
+- Also check
+	- [[PG NextJS]]

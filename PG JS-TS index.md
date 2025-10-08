@@ -15,5 +15,8 @@ MOC: Programming
 - [[PG NestJS|NestJS]]
 #### Component libraries
 - [[PG Mantine|Mantine]]
+- [[PG Shadcn|Shadcn]]
 #### ORM
 - [[PG TypeORM|TypeORM]]
+# Node
+- [[PG npm-pnpm]]

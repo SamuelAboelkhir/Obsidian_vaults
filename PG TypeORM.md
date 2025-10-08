@@ -41,3 +41,205 @@ Config params: {
 # The fix
 - Change this line `dotenv({ path: `.env.${process.env.NODE_ENV }` });` in the datasource at least temporarily to 
 - dotenv({ path: `.env.${process.env.NODE_ENV || 'development'}` });`
+# Relations
+``` TS
+//1. OneToOne Relationship
+
+//Example: User ↔ Profile (One user has one profile)
+
+// user/entities/user.entity.ts
+import { Entity, PrimaryGeneratedColumn, Column, OneToOne, JoinColumn } from 'typeorm';
+import { Profile } from './profile.entity';
+
+@Entity('users')
+export class User {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  email: string;
+
+  // ✅ OneToOne - Owning side (has the foreign key)
+  @OneToOne(() => Profile, profile => profile.user, { cascade: true })
+  @JoinColumn() // Only on the owning side
+  profile: Profile;
+}
+
+// profile/entities/profile.entity.ts
+import { Entity, PrimaryGeneratedColumn, Column, OneToOne } from 'typeorm';
+import { User } from './user.entity';
+
+@Entity('profiles')
+export class Profile {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  firstName: string;
+
+  @Column()
+  lastName: string;
+
+  // ✅ OneToOne - Inverse side (no foreign key)
+  @OneToOne(() => User, user => user.profile)
+  user: User;
+}
+
+// Create with relation
+const user = userRepo.create({
+  email: 'john@example.com',
+  profile: {
+    firstName: 'John',
+    lastName: 'Doe'
+  }
+});
+await userRepo.save(user);
+
+// Query with relation
+const userWithProfile = await userRepo.findOne({
+  where: { id: 1 },
+  relations: ['profile']
+});
+```
+
+```TS
+//2. OneToMany / ManyToOne Relationship
+
+//Example: User ↔ Posts (One user has many posts)
+
+// user/entities/user.entity.ts
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+import { Post } from './post.entity';
+
+@Entity('users')
+export class User {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  name: string;
+
+  // ✅ OneToMany - One user has many posts
+  @OneToMany(() => Post, post => post.user, { cascade: true })
+  posts: Post[];
+}
+
+// post/entities/post.entity.ts
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 'typeorm';
+import { User } from './user.entity';
+
+@Entity('posts')
+export class Post {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  title: string;
+
+  @Column()
+  content: string;
+
+  @Column()
+  userId: number; // Foreign key column
+
+  // ✅ ManyToOne - Many posts belong to one user
+  @ManyToOne(() => User, user => user.posts, { onDelete: 'CASCADE' })
+  @JoinColumn({ name: 'userId' }) // Optional: specify FK column name
+  user: User;
+}
+
+// Create with relation
+const user = await userRepo.findOne({ where: { id: 1 } });
+const post = postRepo.create({
+  title: 'My Post',
+  content: 'Content here',
+  user: user // or userId: 1
+});
+await postRepo.save(post);
+
+// Query with relations
+const userWithPosts = await userRepo.findOne({
+  where: { id: 1 },
+  relations: ['posts']
+});
+
+const postWithUser = await postRepo.findOne({
+  where: { id: 1 },
+  relations: ['user']
+});
+```
+
+```TS
+//3. ManyToMany Relationship
+
+//Example: User ↔ Roles (Many users have many roles)
+
+// user/entities/user.entity.ts
+import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable } from 'typeorm';
+import { Role } from './role.entity';
+
+@Entity('users')
+export class User {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  name: string;
+
+  // ✅ ManyToMany - Owning side (has JoinTable)
+  @ManyToMany(() => Role, role => role.users, { cascade: true })
+  @JoinTable({
+    name: 'user_roles', // Custom junction table name
+    joinColumn: { name: 'userId', referencedColumnName: 'id' },
+    inverseJoinColumn: { name: 'roleId', referencedColumnName: 'id' }
+  })
+  roles: Role[];
+}
+
+// role/entities/role.entity.ts
+import { Entity, PrimaryGeneratedColumn, Column, ManyToMany } from 'typeorm';
+import { User } from './user.entity';
+
+@Entity('roles')
+export class Role {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  name: string;
+
+  // ✅ ManyToMany - Inverse side (no JoinTable)
+  @ManyToMany(() => User, user => user.roles)
+  users: User[];
+}
+
+// Create and assign roles
+const adminRole = await roleRepo.findOne({ where: { name: 'Admin' } });
+const userRole = await roleRepo.findOne({ where: { name: 'User' } });
+
+const user = userRepo.create({
+  name: 'John Doe',
+  roles: [adminRole, userRole]
+});
+await userRepo.save(user);
+
+// Add role to existing user
+const user = await userRepo.findOne({ 
+  where: { id: 1 }, 
+  relations: ['roles'] 
+});
+const newRole = await roleRepo.findOne({ where: { id: 3 } });
+user.roles.push(newRole);
+await userRepo.save(user);
+
+// Query with relations
+const userWithRoles = await userRepo.findOne({
+  where: { id: 1 },
+  relations: ['roles']
+});
+
+const roleWithUsers = await roleRepo.findOne({
+  where: { id: 1 },
+  relations: ['users']
+});
+```

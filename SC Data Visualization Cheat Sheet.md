@@ -81,3 +81,6 @@ cheat-sheet
 In this Power BI Cheat Sheet, you'll get the download on creating your first visualization, top visualizations in Power BI, using DAX, and more.
 
 Richie Cotton
+
+- Also check
+	- [[PG ggplot2 Cheat Sheet]]

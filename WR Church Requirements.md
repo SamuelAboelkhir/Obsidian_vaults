@@ -41,3 +41,6 @@ MOC: Work
 1. Schema
 2. Data entry system
 3. User attendance tracking feature
+
+- Also check
+	- [[PG NextJS]]
