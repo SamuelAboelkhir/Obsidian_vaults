@@ -179,4 +179,8 @@ sudo ip route add default via 192.168.57.1
 #### Back to top: [[#Links]]
 - How to run a game with the discrete GPU :
 `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only wine /home/blackdovah/ubuntu24/home/blackdovah/Games/Exanima.v0.9.0.5/Exanima.v0.9.0.5/Exanima.exe`
+- # Always purge old driver first
+	- sudo apt purge "nvidia-driver-*" "nvidia-dkms-*" sudo apt autoremove --purge 
+	 ###### Then install new one 
+	- sudo apt install nvidia-driver-535 sudo reboot
 ---

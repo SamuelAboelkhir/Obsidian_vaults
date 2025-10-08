@@ -1,8 +1,8 @@
 ---
 tags:
-- {name}
+- dev
 - Assessment
-- {type}
+- Findings/Initial
 - EH
 MOC: Technology
 ---

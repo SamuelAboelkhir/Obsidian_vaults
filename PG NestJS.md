@@ -26,3 +26,6 @@ MOC: Technology
 	- `context.getClass()` is for the controller class as a whole
 	- Passing both `[context.getHandler(), context.getClass()]` in this order in an array means to first check if the specific method has a specific permission to check, and if not, fall back to the controller permission
 	- `context.switchToGttp().getRequst()` converts the generic nestJS execution context that works with HTTP, WebSocket, GraphQL specifically to HTTP
+# NestJS commands
+- To generate a new module
+	- `nest g resource [module name]`

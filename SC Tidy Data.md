@@ -37,3 +37,6 @@ MOC: Technology
 - Outputs the tidy data
 - Doesn't require parameters
 - In case running the script as is isn't possible, provide usage instructions
+
+- Check also
+	- [[PG Reshaping Data with tidyr in R]]
