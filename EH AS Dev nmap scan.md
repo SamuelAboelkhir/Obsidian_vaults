@@ -4,7 +4,7 @@ tags:
 - Assessment
 - Scan/Nmap
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS Dev index|Back to index]]
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-23 04:46 EDT

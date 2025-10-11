@@ -4,11 +4,11 @@ tags:
 - Assessment
 - Scan/Nmap
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 Refer To:
-- [[EH Useful Linux Commands For Pentesting#nmap]]
+- [[TECH CLI Tools and Commands#nmap]]
 - [[TECH CLI Tools and Commands#^2b1c6e]]
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-30 13:46 EDT
 Nmap scan report for 192.168.57.4

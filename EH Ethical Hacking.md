@@ -1,7 +1,7 @@
 ---
 tags:
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
 ### Reminder: People are the weakest link in any organization
@@ -10,7 +10,7 @@ MOC: Technology
 	- Active
 	- Passive
 2. Scanning and enumeration
-	- [[EH Useful Linux Commands For Pentesting#nmap|nmap]], [[EH Hacking Tools#^687ee2|nessus]], [[EH Hacking Tools#^b7c0a7|nikto]], etc
+	- [[TECH CLI Tools and Commands#nmap|nmap]], [[EH Hacking Tools#^687ee2|nessus]], [[EH Hacking Tools#^b7c0a7|nikto]], etc
 3. Gaining Access ("Exploitation")
 4. Maintaining Access
 5. Covering Tracks

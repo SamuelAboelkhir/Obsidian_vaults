@@ -4,7 +4,7 @@ tags:
 - Assessment
 - Findings/Vulnerabilities
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS Blue index|Back to index]]
 ### Critical vulneraility - Unsupported Windows OS

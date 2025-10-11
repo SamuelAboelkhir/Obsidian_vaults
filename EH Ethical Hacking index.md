@@ -15,7 +15,6 @@ MOC: Cybersecurity
 [[EH Badchars]]
 ## Tools
 [[EH Hacking Tools]]
-[[EH Useful Linux Commands For Pentesting]]
 ## Reconnaissance
 [[EH Reconnaissance]]
 [[EH Web Searching]]

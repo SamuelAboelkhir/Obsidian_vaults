@@ -1,7 +1,7 @@
 ---
 tags:
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
 ### Passive(OSINT)
@@ -17,10 +17,10 @@ MOC: Technology
 	1. Target validation
 		- WHOIS, nslookup, dnsrecon
 	2. Finding subdomains
-		- [[EH Web Searching|Google Fu]], [[TECH CLI Tools and Commands#^d16ff0|dig]], [[EH Useful Linux Commands For Pentesting#nmap|nmap]], Sublist3r, Bluto, crt.sh, etc.
+		- [[EH Web Searching|Google Fu]], [[TECH CLI Tools and Commands#^d16ff0|dig]], [[TECH CLI Tools and Commands#nmap|nmap]], Sublist3r, Bluto, crt.sh, etc.
 		- The go to tool for network mapping of attack surfaces and external asset discovery is [OWASP AMASS](https://github.com/owasp-amass/amass)
 	3. Fingerprinting
-		- [[EH Useful Linux Commands For Pentesting#nmap|nmap]], Wappalyzer, WhatWeb, BuiltWith, NetCat
+		- [[TECH CLI Tools and Commands#nmap|nmap]], Wappalyzer, WhatWeb, BuiltWith, NetCat
 	4. Data breaches ^ce5358
 		- [HaveIBeenPwned](https://haveibeenpwned.com), [Breach-Parse](https://github.com/hmaverickadams/breach-parse), WeLeakInfo
 

@@ -4,7 +4,7 @@ tags:
 - Assessment
 - Scan/Nikto
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 **Refer to:**

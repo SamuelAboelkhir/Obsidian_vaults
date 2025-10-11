@@ -1,7 +1,7 @@
 ---
 tags:
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
 - Buffer overflow is based around sending too much data to a program in order to try and overflow its memory buffer and spill into the following memory buffer

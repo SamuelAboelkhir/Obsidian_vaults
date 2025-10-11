@@ -1,12 +1,12 @@
 ---
 tags:
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
 - Enumeration revolves around perusing leads, and exploring all possible angles of attack
 - A possible flow is something like: 
-	- Using [[EH Useful Linux Commands For Pentesting#nmap|nmap]] to find exploitable ports 
+	- Using [[TECH CLI Tools and Commands#nmap|nmap]] to find exploitable ports 
 	- Then [[EH Hacking Tools#^b7c0a7|nikto]] to identify possible weaknesses in web applications 
 	- Followed by a [[EH Hacking Tools#^b7c0a7|dirbuster]] scan with a wordlist file on one of the exploitable ports
 ##### smbclient

@@ -4,7 +4,7 @@ tags:
 - Assessment
 - Findings/Initial
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 ### Gathered Information
@@ -13,7 +13,7 @@ MOC: Technology
 - Information disclosure
 	- 404 not found page
 	- Server headers disclose version information
-- Interesting [[EH Useful Linux Commands For Pentesting#nmap| nmap]] findings
+- Interesting [[TECH CLI Tools and Commands#nmap|nmap]] findings
 	- mod_ssl/2.8.4 - mod_ssl 2.8.7 and lower are vulnerable to a remote buffer overflow which may allow a remote shell.
 	- 80/tcp    open  http        Apache httpd 1.3.20 ((Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)
 - [**Webalizer Version 2.01**](http://www.mrunix.net/webalizer/)

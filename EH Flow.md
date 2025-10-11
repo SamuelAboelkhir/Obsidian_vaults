@@ -1,11 +1,11 @@
 ---
 tags:
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
 #### 1.  [[EH Reconnaissance]]
-1. [[EH Useful Linux Commands For Pentesting#nmap|nmap]] scan to detect possibly vulnerable ports 
+1. [[TECH CLI Tools and Commands#nmap|nmap]] scan to detect possibly vulnerable ports 
 	1. Can give us ports like 139 (smb) and 80/443 (http/https)
 	2. can give us some OS info
 2. [[EH Hacking Tools#nikto|nikto]]
