@@ -1,6 +1,7 @@
 ---
 tags: 
 - LI
+- CLI
 - TECH
 MOC: Technology
 ---

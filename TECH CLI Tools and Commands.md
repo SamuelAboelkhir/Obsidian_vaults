@@ -16,6 +16,7 @@ MOC: Technology
 - [[#Photos and video]]
 - [[#Ghostty]]
 - [[#Gaming]]
+- [[#Commands useful in pentesting]]
 ### Various command line tools
 #### Back to top: [[#Links]]
 - `apropos` : helps when you can't remember a specific command name.
@@ -45,6 +46,43 @@ MOC: Technology
 - `diff`: compares the contents of files
 	- `colordiff`: diff but with color highlighting
 - `sort`: sorts the contents of the file
+- `sudo rsync -avxHAXS --progress /mnt/old_ubuntu24/home/ /mnt/new_home/`
+	- `a` : archive mode (preserves everything)
+	- `v `: verbose (show files being copied)  
+	- `x` : don't cross filesystem boundaries
+	- `H` : preserve hard links
+	- `A` : preserve ACLs
+	- `X` : preserve extended attributes
+	- `S` : handle sparse files efficiently
+	- `--progress` : show progress bar
+- `find`: Search for files in a directory hierarchy
+	- `-exec` Allows you to execute a command on each found file
+		- the syntax would be `find [path] [conditions] -exec [command] {} \;`
+		- `{}` is a placeholder for the current found filename
+		- `\;` Marks the end of the command. Replace with `';'` in zsh
+	- Examples:
+		- find . -type f -name "EH*" -exec sed -n '/MOC: Technology/p' {} ';'
+			-  `find .` = search in current directory
+			- `-type f` = only files (not directories)
+			- `-name "EH*"` = files starting with "EH"
+			- `-exec sed -n '/MOC: Technology/p' {} ';'` = run `sed` on each file
+			    - `sed -n` = suppress default output
+				- `'/MOC: Technology/p'` = print lines containing "MOC: Technology"
+			    - `{}` = current filename
+			    - `';'` = end the exec command
+		- `find . -type f -name "EH*" -exec sed -i 's/MOC: Technology/MOC: Cybersecurity/g' {} ';'`
+			-  `sed -i` = edit files in-place (saves changes)
+			- `s/old/new/g` = substitute old with new globally
+	- You can also end with `+` instead of `';'` to process multiple files at once
+	- You can add `-ok` instead of `-exec` to ask for confirmation before every operation
+	- You can pass multiple commands with multiple `-exec`
+	- You can create a complex command with `sh -c`
+		- `find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;`
+- [[TECH xargs|xargs]]: Reads items from standard input and executes commands with those items as arguments.
+- [[TECH Awk Command Cheat Sheet & Quick Reference|awk]]
+- [[TECH Sed Command Cheat Sheet & Quick Reference|sed]]
+- `ln`: Creates links between files
+	- `ln -s /home/file1 /home/Documents/link-to-file1`
 - #### Back to top: [[#Links]]
 ---
 ### Web development project init
@@ -121,7 +159,6 @@ The count parameter determines how many blocks to copy.
 #### Back to top: [[#Links]]
 - `arp`: shows the device's arp table. ^225c89
 - `nmap -sn 192.168.1.1/24`: shows all the IPs in the specified range and subnet mask as well as their open ports. Use --verbose on all commands for more details. ^2b1c6e
-	- See also [[EH Useful Linux Commands For Pentesting#nmap|nmap]]
 - `nmcli`: CLI network manager.
 - `mtr`: shows both ping and traceroute to a specific IP.
 - `dig`: does DNS lookups and reverse DNS with the -x flag ^d16ff0
@@ -183,4 +220,61 @@ sudo ip route add default via 192.168.57.1
 	- sudo apt purge "nvidia-driver-*" "nvidia-dkms-*" sudo apt autoremove --purge 
 	 ###### Then install new one 
 	- sudo apt install nvidia-driver-535 sudo reboot
+---
+#### Back to top: [[#Links]]
+# Commands useful in pentesting
+### Finding Users Data
+- [[TECH CLI Tools and Commands#^870e82|Getent]] with group/passwd/shadow(with sudo).  
+	-  [[TECH CLI Tools and Commands#^2ddd0f|Group]]  will show you all members of a group
+	-  [[TECH CLI Tools and Commands#^95dc24|Passwd]] will show you all users
+	-  [[TECH CLI Tools and Commands#^46071d|Shadow]] will show you the password hashes of users that actually have passwords
+-  [[TECH CLI Tools and Commands#^85415c|sudoers]] can get you info about which users and groups have which permissions
+- To see sudo privileges [[TECH CLI Tools and Commands#^424c38|sudo -l]]
+### Privileges/permissions
+-  Privileges on Linux follow the structure `drwxrwxrwx`
+	- `d`: directory. If it's empty `-` it means file, and if it's `l` it means a symlink
+	- `rwx`: read, write, execute
+		- first rwx = current user/owner
+		- second rwx = group
+		- third rwx = other users
+- This line shown by `ls -la` is normally followed by two columns | user group | showing the user name and the group name that have access to the file with rwx defining their privileges being read, write, and execute
+- You can change a file's privileges with `chmod` using +rwx or -rwx to add or remove privileges
+- Chmod also works with the following totals
+![Chmod privileges](assets/Screenshot%20from%202025-08-24%2003-55-14.png)
+### Users And Groups
+- You can add a user with `sudo addUser [name]` but this is debian specific
+-  You can also use `sudo useradd [name]` followed by `sudo passwd [name]`
+- You switch to that user with `su [name]`
+- You can add a group with `sudo groupadd [group]` then add a user with `sudo usermod -a -G [group] [user]`
+### Networking
+The following commands will have 2 versions. The old version of the command, and the recent version.
+
+New:
+- `ip a` shows all network interfaces
+- `ip n` shows all neighboring end devices
+- `ip r` shows the routing table
+
+Old:
+- [[TECH CLI Tools and Commands#^a631d5|ifconfig]]
+- [[TECH CLI Tools and Commands#^225c89|arp]] `-a`
+- `route`
+
+- `ping` shows you if a machine is on the network via an ICMP request. Note that a host machine may have ICMP disabled and appear to not be connected
+
+- `arp-scan -l` scans all devices on a network
+- `netdiscover -r 192.168.57.0/24` sweeps an entire subnet showing data in a table
+### nmap
+- nmap runs in stealth mode by default, in which case instead of a normal TCP three-way handshake: SYN SYNACK ACK, it does SYN SYNACK RST, however, this can be picked up by decent security measures
+- `nmap -T4 -p- -A` 
+	- `-T` determines the speed of the process which is between 1 and 5 (5 is the fastest)
+	- `-p-` says to scan all ports. Without it the top 1000 ports are scanned by default. `-p` alone can be succeeded with specific port numbers
+	- `-A` is an aggressive scan, which means that it will find all possible information such as fingerprinting, OS details, etc.
+- nmap has multiple uses, such as: 
+	1. Host discovery. ex: `-sn` for ping sweep
+	2. Scan techniques. ex: `-sS` stealth scan, `-sU` UDP scan
+		- Note, it's best to (especially with UDP scan) not use -A at first, and save it until the open ports have been identified as leaving -A in an all ports scan is much slower. However, that's not needed especially if you're working on other stuff (such as OSINT) and have time to give the nmap scan to finish.
+### Services
+1. [[TECH CLI Tools and Commands#^484cec|service such as webservers]]
+	1. Useful in [[EH Exploitation#Privilege Escalation]] as you can have scripts on your server that you download on the target machine with `wget`
+2. [[TECH CLI Tools and Commands#^87cbfa|systemctl]]
 ---

@@ -4,7 +4,7 @@ tags:
 - Assessment
 - Flow
 - EH
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS Academy index|Back to index]]
 # Complete flow to gain root

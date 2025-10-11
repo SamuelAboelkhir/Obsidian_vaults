@@ -2,7 +2,7 @@
 tags:
 - NET
 - CYBER
-MOC: Technology
+MOC: Cybersecurity
 ---
 [[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[NET Networking index|Back to index]]
 ![Shared Responsibility](assets/proxy-image.png)
