@@ -12,6 +12,9 @@ MOC: Work
 [[WR MyFleeta]]
 ## Church
 [[WR Church Requirements]]
+[[WR Church Extra]]
+[[WR Church ERD.canvas|WR Church ERD]]
+[[WR Church Tasks]]
 ## VA
 [[WR VA IBM i]]
 [[WR VA onboarding meeting]]

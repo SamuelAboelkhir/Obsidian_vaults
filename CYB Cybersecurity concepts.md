@@ -76,4 +76,18 @@ MOC: Cybersecurity
 	- Attacker follows an authorized person into a secure location
 - **Something for something (quid pro quo)**
 	- Attacker requests information in exchange for something
-#### DoS
+#### DoS - Denial of service
+- Types:
+	- Overwhelming quantity of traffic:
+		- A network, host or application is sent a ton of data at a rate it can't handle causing it the transmission or response to slow down, or the device/service to crash.
+	- Maliciously formatted packets:
+		- A packet (collection of data that flows between a source and a receiver. Check the [[NET Common ports and protocols|OSI Model]]) is maliciously formatted and sent to the receiver who wont be able to handle it. The packet is maliciously formatted when it contains errors or improperly formatted packets that are unidentifiable by applications. This usually causes the receiver to run slowely or crash.
+#### DDoS - Distributed DoS
+- Similar to DoS but originates from multiple coordinated sources
+- Attackers build networks (botnet) of infected hosts called zombies that are controlled by handler systems.
+- Zombie computers constantly scan for more hosts to infect.
+- The attacker can instruct the botnet of zombies to carry out a DDoS whenever he wants.
+#### Botnet
+- A bot computer is typically infected by visiting an unsafe website or opening an infected email attachment or infected media file. A botnet is a group of bots, connected through the Internet, that can be controlled by a malicious individual or group. It can have tens of thousands, or even hundreds of thousands, of bots that are typically controlled through a command and control server.
+- These bots can be activated to distribute malware, launch DDoS attacks, distribute spam email, or execute brute-force password attacks. Cybercriminals will often rent out botnets to third parties for nefarious purposes.
+- Many organizations. like Cisco, force network activities through botnet traffic filters to identify any botnet locations.
