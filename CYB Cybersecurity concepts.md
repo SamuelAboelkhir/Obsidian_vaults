@@ -91,3 +91,32 @@ MOC: Cybersecurity
 - A bot computer is typically infected by visiting an unsafe website or opening an infected email attachment or infected media file. A botnet is a group of bots, connected through the Internet, that can be controlled by a malicious individual or group. It can have tens of thousands, or even hundreds of thousands, of bots that are typically controlled through a command and control server.
 - These bots can be activated to distribute malware, launch DDoS attacks, distribute spam email, or execute brute-force password attacks. Cybercriminals will often rent out botnets to third parties for nefarious purposes.
 - Many organizations. like Cisco, force network activities through botnet traffic filters to identify any botnet locations.
+# On-path attacks
+- This is when an attacker intercepts or modifies communications between two devices, such as a browser and server to collect info or impersonate one of them.
+- This attack comes in two flavors
+	- #### MITM - Man in the middle
+		- The attacker takes control of the user's device discreetly and intercepts the user's information before it reaches its intended destination
+		- Many types of malware possess MITM capabilities
+		- Primarily used to steal financial data
+	- #### MITMO - Man in the mobile
+		- A variation of MITM that targets mobile devices.
+		- Infected devices are instructed to exfiltrate sensitive user info and send it to the attacker
+		- `ZeuS` is a malware package that has MITMO capabilities allowing attackers to capture two step verification SMS messages quietly
+# SEO poisoning
+- The act of using SEO and popular search terms to push malicious sites to the top of the search results.
+# Password attacks
+- #### Password spraying
+	- See also [[EH Exploitation#Password spraying|Password spraying]]
+	- This technique attempts to gain access to a system by ‘spraying’ a few commonly used passwords across a large number of accounts. For example, a cybercriminal uses 'Password123' with many usernames before trying again with a second commonly-used password, such as ‘qwerty.’
+	- This technique allows the perpetrator to remain undetected as they avoid frequent account lockouts.
+- #### Dictionary attacks
+	- A hacker systematically tries every word in a dictionary or a list of commonly used words as a password in an attempt to break into a password-protected account.
+- #### Brute-force attacks
+	- The simplest and most commonly used way of gaining access to a password-protected site, brute-force attacks see an attacker using all possible combinations of letters, numbers and symbols in the password space until they get it right.
+- #### Rainbow attacks
+	- See also [[EH Hacking Tools#hashcat|hash cracking with hashcat]]
+	- Passwords in a computer system are not stored as plain text, but as hashed values (numerical values that uniquely identify data). A rainbow table is a large dictionary of precomputed hashes and the passwords from which they were calculated.
+	- Unlike a brute-force attack that has to calculate each hash, a rainbow attack compares the hash of a password with those stored in the rainbow table. When an attacker finds a match, they identify the password used to create the hash.
+- #### Traffic interception
+	- Plain text or unencrypted passwords can be easily read by other humans and machines by intercepting communications.
+	- If you store a password in clear, readable text, anyone who has access to your account or device, whether authorized or unauthorized, can read it.

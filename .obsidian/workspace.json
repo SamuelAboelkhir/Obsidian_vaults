@@ -4,234 +4,105 @@
     "type": "split",
     "children": [
       {
-        "id": "5f6031929275055a",
-        "type": "tabs",
-        "dimension": 79.62806424344886,
-        "children": [
-          {
-            "id": "01d108e60d866640",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR Church Requirements",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Church Requirements.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Church Requirements\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.625}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":22},\"to\":{\"line\":13,\"ch\":22}},\"scroll\":1.625}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WR Church Extra.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WR Church Extra"
-            }
-          },
-          {
-            "id": "e3b3256103debfb5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR Church Tasks",
-                  "icon": "lucide-trello",
-                  "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"WR Church Tasks.md\",\"kanbanViewState\":{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false]}},\"icon\":\"lucide-trello\",\"title\":\"WR Church Tasks\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR Church Requirements",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Church Requirements.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Church Requirements\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":25.82575741429412}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CYB Cybersecurity concepts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CYB Cybersecurity concepts"
-            }
-          },
-          {
-            "id": "86120bfb92a61bcf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR Bid.it Schema",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"WR Bid.it Schema.canvas\",\"viewState\":{\"x\":-7,\"y\":-781.5,\"zoom\":-0.6267070416656603}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"WR Bid.it Schema\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR Church ERD",
-                  "icon": "lucide-layout-dashboard",
-                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"WR Church ERD.canvas\",\"viewState\":{\"x\":-78.59543465291829,\"y\":-32.679063918094215,\"zoom\":-0.8000000000000002}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"WR Church ERD\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR Church Requirements",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Church Requirements.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Church Requirements\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.625}"
-                },
-                {
-                  "title": "TECH CLI Tools and Commands",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "TECH CLI Tools and Commands",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":243,\"ch\":0},\"to\":{\"line\":243,\"ch\":0}},\"scroll\":239.80594635407752}"
-                },
-                {
-                  "title": "EH Useful Linux Commands For Pentesting",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Useful Linux Commands For Pentesting.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Useful Linux Commands For Pentesting\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "TECH CLI Tools and Commands",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":17},\"to\":{\"line\":28,\"ch\":17}},\"scroll\":106.99322817722957}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0001 Technology MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0005 Cybersecurity MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 Cybersecurity MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0005 Cybersecurity MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 Cybersecurity MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR VA Operations",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Operations.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Operations\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR VA Devops",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Devops.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Devops\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR VA General Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR VA onboarding meeting",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA onboarding meeting.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA onboarding meeting\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR VA IBM i",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA IBM i.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA IBM i\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR VA Operations",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Operations.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Operations\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "WR Church ERD.canvas",
-                "viewState": {
-                  "x": -121.07490877040414,
-                  "y": -301.66599882477664,
-                  "zoom": -0.6836047787814657
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "WR Church ERD"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "dfb7b8ba809e530c",
+        "id": "068d91a0f98cf3cf",
         "type": "split",
-        "dimension": 20.37193575655114,
         "children": [
           {
             "id": "b8b026989112a0dd",
             "type": "tabs",
+            "dimension": 74.61928934010153,
             "children": [
               {
-                "id": "6ee23a019c12196a",
+                "id": "f7e13953e01709b2",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "CYB Cybersecurity index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
+                    },
+                    {
+                      "title": "_0005 Cybersecurity MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 Cybersecurity MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
+                    },
+                    {
+                      "title": "_0000 Home",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "CYB Cybersecurity concepts",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "CYB Cybersecurity index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "_0005 Cybersecurity MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 Cybersecurity MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "_0006 Programming MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "PG Bash Cheat Sheet & Quick Reference",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash Cheat Sheet & Quick Reference\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.625}"
+                    },
+                    {
+                      "title": "PER TODO",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER TODO\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "PG Bash Cheat Sheet & Quick Reference",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash Cheat Sheet & Quick Reference\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "PG Bash index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CYB Cybersecurity concepts.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CYB Cybersecurity concepts"
+                }
+              },
+              {
+                "id": "6a404001e61c560d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -243,139 +114,172 @@
                   ]
                 },
                 "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "CYB Cybersecurity concepts.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": false,
-                      "colorGroups": [
-                        {
-                          "query": "tag:#MOC  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 14075019
-                          }
-                        },
-                        {
-                          "query": "file:/^EH/ -tag:#Index",
-                          "color": {
-                            "a": 1,
-                            "rgb": 13638432
-                          }
-                        },
-                        {
-                          "query": "file:/^PER/ -tag:#Index",
-                          "color": {
-                            "a": 1,
-                            "rgb": 5340873
-                          }
-                        },
-                        {
-                          "query": "file:/^PG/ -tag:#Index",
-                          "color": {
-                            "a": 1,
-                            "rgb": 2596791
-                          }
-                        },
-                        {
-                          "query": "file:/^WR/ -tag:#Index",
-                          "color": {
-                            "a": 1,
-                            "rgb": 9219541
-                          }
-                        },
-                        {
-                          "query": "tag:#Index  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 11621088
-                          }
-                        },
-                        {
-                          "query": "file:/^SC/ -tag:#Index",
-                          "color": {
-                            "a": 1,
-                            "rgb": 32071
-                          }
-                        },
-                        {
-                          "query": "file:/^TECH/-tag:#Index",
-                          "color": {
-                            "a": 1,
-                            "rgb": 9550649
-                          }
-                        },
-                        {
-                          "query": "file:/^NET/-tag:#Index",
-                          "color": {
-                            "a": 1,
-                            "rgb": 154430
-                          }
-                        },
-                        {
-                          "query": "file:/^CYB/-tag:#Index",
-                          "color": {
-                            "a": 1,
-                            "rgb": 2835610
-                          }
-                        }
-                      ],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.13348388671875,
-                      "close": true
-                    }
-                  },
+                  "type": "graph",
+                  "state": {},
                   "icon": "lucide-git-fork",
-                  "title": "Graph of CYB Cybersecurity concepts"
+                  "title": "Graph view"
                 }
               }
             ]
           },
           {
-            "id": "0bbf8ee1064b1650",
-            "type": "tabs",
+            "id": "b73d1de3b6f951a3",
+            "type": "split",
+            "dimension": 25.380710659898476,
             "children": [
               {
-                "id": "57ed94cf18f741b7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
+                "id": "245a2b3bd968e52f",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "972ff7b260cbaea7",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "localgraph",
+                      "state": {
+                        "file": "CYB Cybersecurity concepts.md",
+                        "options": {
+                          "collapse-filter": true,
+                          "search": "",
+                          "localJumps": 1,
+                          "localBacklinks": true,
+                          "localForelinks": true,
+                          "localInterlinks": false,
+                          "showTags": false,
+                          "showAttachments": false,
+                          "hideUnresolved": false,
+                          "collapse-color-groups": false,
+                          "colorGroups": [
+                            {
+                              "query": "tag:#MOC  ",
+                              "color": {
+                                "a": 1,
+                                "rgb": 14075019
+                              }
+                            },
+                            {
+                              "query": "file:/^EH/ -tag:#Index",
+                              "color": {
+                                "a": 1,
+                                "rgb": 13638432
+                              }
+                            },
+                            {
+                              "query": "file:/^PER/ -tag:#Index",
+                              "color": {
+                                "a": 1,
+                                "rgb": 5340873
+                              }
+                            },
+                            {
+                              "query": "file:/^PG/ -tag:#Index",
+                              "color": {
+                                "a": 1,
+                                "rgb": 2596791
+                              }
+                            },
+                            {
+                              "query": "file:/^WR/ -tag:#Index",
+                              "color": {
+                                "a": 1,
+                                "rgb": 9219541
+                              }
+                            },
+                            {
+                              "query": "tag:#Index  ",
+                              "color": {
+                                "a": 1,
+                                "rgb": 11621088
+                              }
+                            },
+                            {
+                              "query": "file:/^SC/ -tag:#Index",
+                              "color": {
+                                "a": 1,
+                                "rgb": 32071
+                              }
+                            },
+                            {
+                              "query": "file:/^TECH/-tag:#Index",
+                              "color": {
+                                "a": 1,
+                                "rgb": 9550649
+                              }
+                            },
+                            {
+                              "query": "file:/^NET/-tag:#Index",
+                              "color": {
+                                "a": 1,
+                                "rgb": 154430
+                              }
+                            },
+                            {
+                              "query": "file:/^CYB/-tag:#Index",
+                              "color": {
+                                "a": 1,
+                                "rgb": 2835610
+                              }
+                            }
+                          ],
+                          "collapse-display": true,
+                          "showArrow": false,
+                          "textFadeMultiplier": 0,
+                          "nodeSizeMultiplier": 1,
+                          "lineSizeMultiplier": 1,
+                          "collapse-forces": true,
+                          "centerStrength": 0.518713248970312,
+                          "repelStrength": 10,
+                          "linkStrength": 1,
+                          "linkDistance": 250,
+                          "scale": 0.13348388671875,
+                          "close": true
+                        }
+                      },
+                      "icon": "lucide-git-fork",
+                      "title": "Graph of CYB Cybersecurity concepts"
                     }
-                  ]
-                },
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
+                  }
+                ]
+              },
+              {
+                "id": "89889428c3aa6067",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "bf2098ea8da69888",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "calendar",
+                      "state": {},
+                      "icon": "calendar-with-checkmark",
+                      "title": "Calendar"
+                    }
+                  }
+                ]
               }
-            ]
+            ],
+            "direction": "horizontal"
           }
         ],
-        "direction": "horizontal"
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -633,11 +537,22 @@
       "univer:Univer": false
     }
   },
-  "active": "e3b3256103debfb5",
+  "active": "f7e13953e01709b2",
   "lastOpenFiles": [
-    "WR Church Tasks.md",
+    "CYB Cybersecurity index.md",
+    "CYB Cybersecurity terms.md",
+    "CYB Cybersecurity concepts.md",
+    "_0005 Cybersecurity MOC.md",
+    "_0000 Home.md",
+    "_0006 Programming MOC.md",
+    "PG Bash Cheat Sheet & Quick Reference.md",
+    "PER TODO.md",
+    "PG Bash index.md",
     "WR Church ERD.canvas",
+    "SC Chemistry index.md",
     "WR Church Extra.md",
+    "WR Overtime And Annuals.md",
+    "WR Church Tasks.md",
     "WR Church Requirements.md",
     "WR Bid.it Schema.canvas",
     "WR Projects index.md",
@@ -653,16 +568,6 @@
     "EH Flow.md",
     "EH Reconnaissance.md",
     "EH Ethical Hacking.md",
-    "EH Enumeration.md",
-    "EH AS kioptrix followed flow and findings.md",
-    "EH AS kioptrix Initial Findings.md",
-    "EH AS kioptrix nmap scan.md",
-    "_0000 Home.md",
-    "_0001 Technology MOC.md",
-    "WR VA General Notes.md",
-    "_0005 Cybersecurity MOC.md",
-    "_0006 Programming MOC.md",
-    "WR VA Operations.md",
     "sedDd3nNG",
     "assets/sedguwuKn",
     "PG npm",
