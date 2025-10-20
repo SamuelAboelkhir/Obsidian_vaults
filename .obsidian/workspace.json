@@ -10,105 +10,10 @@
           {
             "id": "b8b026989112a0dd",
             "type": "tabs",
-            "dimension": 74.61928934010153,
+            "dimension": 76.48054145516075,
             "children": [
               {
-                "id": "f7e13953e01709b2",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "CYB Cybersecurity index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "CYB Cybersecurity index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
-                    },
-                    {
-                      "title": "_0005 Cybersecurity MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 Cybersecurity MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}}}"
-                    },
-                    {
-                      "title": "CYB Cybersecurity concepts",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "CYB Cybersecurity index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "_0005 Cybersecurity MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 Cybersecurity MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "PG Bash Cheat Sheet & Quick Reference",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash Cheat Sheet & Quick Reference\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.625}"
-                    },
-                    {
-                      "title": "PER TODO",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER TODO\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Bash Cheat Sheet & Quick Reference",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash Cheat Sheet & Quick Reference\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Bash index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "CYB Cybersecurity concepts.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CYB Cybersecurity concepts"
-                }
-              },
-              {
-                "id": "6a404001e61c560d",
+                "id": "cae13efdf4f03df7",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -116,14 +21,71 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "_0003 Personal MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
+                  "type": "markdown",
+                  "state": {
+                    "file": "WR Overtime And Annuals.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "WR Overtime And Annuals"
+                }
+              },
+              {
+                "id": "d1ac3b45b4e02bb1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "_0003 Personal MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":14},\"to\":{\"line\":11,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "PER Questions",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Questions.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Questions\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":39},\"to\":{\"line\":6,\"ch\":39}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "_0003 Personal MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "_0000 Home",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":14},\"to\":{\"line\":9,\"ch\":14}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "PER Python Snake Plan.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "PER Python Snake Plan"
                 }
               }
             ]
@@ -131,7 +93,7 @@
           {
             "id": "b73d1de3b6f951a3",
             "type": "split",
-            "dimension": 25.380710659898476,
+            "dimension": 23.519458544839257,
             "children": [
               {
                 "id": "245a2b3bd968e52f",
@@ -152,9 +114,9 @@
                     "state": {
                       "type": "localgraph",
                       "state": {
-                        "file": "CYB Cybersecurity concepts.md",
+                        "file": "WR Overtime And Annuals.md",
                         "options": {
-                          "collapse-filter": true,
+                          "collapse-filter": false,
                           "search": "",
                           "localJumps": 1,
                           "localBacklinks": true,
@@ -163,7 +125,7 @@
                           "showTags": false,
                           "showAttachments": false,
                           "hideUnresolved": false,
-                          "collapse-color-groups": false,
+                          "collapse-color-groups": true,
                           "colorGroups": [
                             {
                               "query": "tag:#MOC  ",
@@ -225,7 +187,7 @@
                               "query": "file:/^NET/-tag:#Index",
                               "color": {
                                 "a": 1,
-                                "rgb": 154430
+                                "rgb": 7720130
                               }
                             },
                             {
@@ -251,7 +213,7 @@
                         }
                       },
                       "icon": "lucide-git-fork",
-                      "title": "Graph of CYB Cybersecurity concepts"
+                      "title": "Graph of WR Overtime And Annuals"
                     }
                   }
                 ]
@@ -492,13 +454,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYB Cybersecurity concepts.md",
+                "file": "PG NestJS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CYB Cybersecurity concepts"
+              "title": "Outline of PG NestJS"
             }
           },
           {
@@ -540,51 +502,53 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "univer:Univer": false
+      "univer:Univer": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f7e13953e01709b2",
+  "active": "cae13efdf4f03df7",
   "lastOpenFiles": [
-    "CYB Cybersecurity index.md",
-    "CYB Cybersecurity concepts.md",
-    "CYB Cybersecurity terms.md",
-    "_0005 Cybersecurity MOC.md",
-    "_0000 Home.md",
-    "_0006 Programming MOC.md",
-    "PG Bash Cheat Sheet & Quick Reference.md",
-    "PER TODO.md",
-    "PG Bash index.md",
-    "WR Church ERD.canvas",
-    "SC Chemistry index.md",
-    "WR Church Extra.md",
-    "WR Overtime And Annuals.md",
-    "WR Church Tasks.md",
-    "WR Church Requirements.md",
-    "WR Bid.it Schema.canvas",
-    "WR Projects index.md",
-    "WR VA BL Schema attempt 1.canvas",
+    "PER Python Snake Plan.md",
     "TECH CLI Tools and Commands.md",
     "TECH Linux index.md",
-    "TECH Sed Command Cheat Sheet & Quick Reference.md",
-    "TECH Awk Command Cheat Sheet & Quick Reference.md",
-    "TECH xargs.md",
-    "SC Preprocessing.md",
-    "EH Useful Linux Commands For Pentesting.md",
-    "EH Ethical Hacking index.md",
-    "EH Flow.md",
-    "EH Reconnaissance.md",
-    "EH Ethical Hacking.md",
+    "_0001 Technology MOC.md",
+    "WR Church Requirements.md",
+    "WR Church Extra.md",
+    "WR Church ERD.canvas",
+    "PG C Cheat Sheet.md",
+    "PG Python General.md",
+    "PG Python index.md",
+    "_0003 Personal MOC.md",
+    "PER Questions.md",
+    "PG Python dunder.md",
+    "PG C index.md",
+    "_0006 Programming MOC.md",
+    "assets/Pasted image 20251018173629.png",
+    "PG Python dictionaries.md",
+    "PG Python generator.md",
+    "EH Web Searching.md",
+    "Generators in Python.md",
+    "_0000 Home.md",
+    "NET Components of a URL.md",
+    "PG Character Encoding.md",
+    "NET Networking index.md",
+    "_0005 Cybersecurity MOC.md",
+    "NET Shared Responsibility Model.md",
+    "Components of a URL.md",
+    "PG Other index.md",
+    "WR Compass permissions canvas.canvas",
+    "WR Bid.it Schema.canvas",
+    "Excalidraw",
+    "WR VA BL Schema attempt 1.canvas",
     "sedDd3nNG",
     "assets/sedguwuKn",
     "PG npm",
     "assets/fievel_vim-regexp.pdf",
     "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
-    "WR Compass permissions canvas.canvas",
     "assets/OWASP_WSTG_Checklist.xlsx",
     "assets/EH OWASP_Testing_Guide_v3.pdf",
     "Untitled.xlsx",
     "assets/PG JavaCheatSheet.pdf",
-    "assets/PG data-visualization-ggplo2.pdf",
     "assets/electron_config.jpg",
     "assets/ColorLargeTypePeriodicTable.png",
     "electron_config.jpg",
@@ -593,7 +557,6 @@
     "Biochemistry/Attachments/Structures 7.png",
     "Biochemistry/Attachments/Structures 6.png",
     "Biochemistry/Attachments/Structures 5.png",
-    "Biochemistry/Attachments/Structures 4.png",
-    "Biochemistry/Attachments/Structures 3.png"
+    "Biochemistry/Attachments/Structures 4.png"
   ]
 }

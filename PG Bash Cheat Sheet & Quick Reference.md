@@ -2,7 +2,7 @@
 tags: 
 - Programming-Language/Bash
 - PG
-MOC: Technology
+MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Bash index|Back to index]]
 - Acquired from [https://quickref.me/bash](https://quickref.me/bash) 

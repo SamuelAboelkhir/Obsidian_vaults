@@ -4,6 +4,7 @@ tags:
 - TECH
 MOC: Technology
 ---
+
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
 # Links: 
 - [[#Various command line tools]]
@@ -60,24 +61,37 @@ MOC: Technology
 		- the syntax would be `find [path] [conditions] -exec [command] {} \;`
 		- `{}` is a placeholder for the current found filename
 		- `\;` Marks the end of the command. Replace with `';'` in zsh
-	- Examples:
-		- find . -type f -name "EH*" -exec sed -n '/MOC: Technology/p' {} ';'
-			-  `find .` = search in current directory
-			- `-type f` = only files (not directories)
-			- `-name "EH*"` = files starting with "EH"
-			- `-exec sed -n '/MOC: Technology/p' {} ';'` = run `sed` on each file
-			    - `sed -n` = suppress default output
-				- `'/MOC: Technology/p'` = print lines containing "MOC: Technology"
-			    - `{}` = current filename
-			    - `';'` = end the exec command
-		- `find . -type f -name "EH*" -exec sed -i 's/MOC: Technology/MOC: Cybersecurity/g' {} ';'`
-			-  `sed -i` = edit files in-place (saves changes)
-			- `s/old/new/g` = substitute old with new globally
-	- You can also end with `+` instead of `';'` to process multiple files at once
-	- You can add `-ok` instead of `-exec` to ask for confirmation before every operation
-	- You can pass multiple commands with multiple `-exec`
-	- You can create a complex command with `sh -c`
-		- `find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;`
+```bash
+Examples:
+
+find . -type f -name "EH*" -exec sed -n '/MOC: Technology/p' {} ';'
+- find . 
+	# search in current directory
+- -type f 
+	# only files (not directories)
+- -name "EH*" 
+	# files starting with "EH"
+- -exec sed -n '/MOC: Technology/p' {} ';' 
+	# run `sed` on each file
+- sed -n 
+	# suppress default output
+- '/MOC: Technology/p' 
+	# print lines containing "MOC: Technology"
+- {}
+	# current filename
+- ';'
+	# end the exec command
+find . -type f -name "EH*" -exec sed -i 's/MOC: Technology/MOC: Cybersecurity/g' {} ';'
+- sed -i
+	# edit files in-place (saves changes)
+- s/old/new/g
+	# substitute old with new globally
+You can also end with `+` instead of `';'` to process multiple files at once
+You can add `-ok` instead of `-exec` to ask for confirmation before every operation
+You can pass multiple commands with multiple `-exec`
+You can create a complex command with `sh -c`
+find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
+```
 - [[TECH xargs|xargs]]: Reads items from standard input and executes commands with those items as arguments.
 - [[TECH Awk Command Cheat Sheet & Quick Reference|awk]]
 - [[TECH Sed Command Cheat Sheet & Quick Reference|sed]]
@@ -88,7 +102,7 @@ MOC: Technology
 ### Web development project init
 
 #### Back to top: [[#Links]]
-- `pnpm create next-app` : creats a next.js app
+- `pnpm create next-app` : creates a next.js app
 - `pnpm i -h @nestjs/cli nest new "appname"`
 - `pnpm exec tsc -b`: Runs typescript's compiler to check for errors
 ---
@@ -107,7 +121,7 @@ of=/swapfile is the output swap storage file. The common practice is to place th
 The bs parameter is the block size.
 The count parameter determines how many blocks to copy.
 
-> Followed by chmod 600 to give the swapfile read and write permissions, then mkswap to convert the file size to be reserved for swap, swapon then activates the swapfile (it's best to add the swapfile in /etc/fstab for it to become persistant between restarts)
+> Followed by chmod 600 to give the swapfile read and write permissions, then mkswap to convert the file size to be reserved for swap, swapon then activates the swapfile (it's best to add the swapfile in /etc/fstab for it to become persistent between restarts)
 
 - `lshw`: Shows hardware information.
 - `duf`: Shows disk usage.
@@ -205,6 +219,7 @@ sudo ip route add default via 192.168.57.1
 #### Back to top: [[#Links]]
 - `mpv`: command line media player.
 - `timg`: command line image and video player.
+- `ffmpeg`: media convertor
 ---
 ### Ghostty
 

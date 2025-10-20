@@ -7,9 +7,7 @@ MOC: Technology
 ---
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
 - Acquired from [https://quickref.me/sed.html](https://quickref.me/sed.html)
-## Sed
-
-## Getting Started
+- See also [[TECH CLI Tools and Commands#File operations]]
 
 ### Sed Usage
 

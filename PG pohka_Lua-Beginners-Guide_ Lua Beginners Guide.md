@@ -2,7 +2,7 @@
 tags:
 - Programming-Language/Lua
 - PG
-MOC: Technology
+MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Lua index|Back to index]]
 - Acquired from [https://github.com/pohka/Lua-Beginners-Guide](https://github.com/pohka/Lua-Beginners-Guide)

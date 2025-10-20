@@ -15,3 +15,4 @@ MOC: Programming
 [[PG PostgreSQL Basics Cheat Sheet]]
 [[PG Basics to Advanced Git Commands]]
 [[PG Jira]]
+[[PG Character Encoding]]
