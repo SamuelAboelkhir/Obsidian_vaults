@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"98fbcb078a5f05ab","type":"text","text":"# User\n- Id\n- name\n- email\n- password\n- role\n# Relations\n- Ministry: ManyToMany\n- Class: ManyToOne\n- Events: ManyToMany\n- MemberProfile: OneToOne\n- ServantProfile: OneToOne\n- PriestProfile: OneToOne","x":-180,"y":-183,"width":250,"height":532,"color":"1"},
+		{"id":"98fbcb078a5f05ab","type":"text","text":"# User\n- Id\n- name\n- email\n- password\n- role\n- PhoneNumber\n# Relations\n- Ministry: ManyToMany\n- Class: ManyToOne\n- Events: ManyToMany\n- MemberProfile: OneToOne\n- ServantProfile: OneToOne\n- PriestProfile: OneToOne","x":-180,"y":-183,"width":250,"height":532,"color":"1"},
 		{"id":"553dbbc28bc95d54","type":"text","text":"# Permissions","x":-940,"y":-89,"width":250,"height":390,"color":"3"},
 		{"id":"a8fef4136f4854fe","type":"text","text":"# MemberProfile\n- id\n- classId\n- ministryId\n- eventsEnrolledIn\n- Classification[internal or external]\n- grade\n- points\n- confessionFather\n- attendance\n- startDate\n- entireFamily?\n# Relations\n- User: OneToOne\n- Priest: ManyToOne","x":110,"y":-880,"width":250,"height":558,"color":"5"},
 		{"id":"2f6e6a55be45e334","type":"text","text":"# ServantProfile\n- id\n- type\n- classId\n- ministryId\n- ministryMembers\n- eventsEnrolledIn\n- serviceStartDate\n# Relations\n- User: OneToOne\n","x":-180,"y":-720,"width":250,"height":398,"color":"5"},

@@ -2,7 +2,7 @@
 tags:
 - Programming-Language/R
 - PG
-MOC: Technology
+MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG R index|Back to index]]
 - Acquired from [https://www.datacamp.com/cheat-sheet/the-datatable-r-package-cheat-sheet](https://www.datacamp.com/cheat-sheet/the-datatable-r-package-cheat-sheet)

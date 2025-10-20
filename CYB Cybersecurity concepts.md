@@ -158,3 +158,7 @@ MOC: Cybersecurity
 # Software updates
 - Always make sure all your software is up to date as updates introduce fixes to existing and known vulnerabilities
 - However, it's advisable to backup your data before an update, as the update itself can sometimes prove hazardous, as with the recent examples from microsoft windows
+# KRACKs - Key reinstallation attacks
+- Exploits a vulnerability in WPA2 encryption on wireless routers.
+- More information can be found here [https://www.krackattacks.com](https://www.krackattacks.com)
+- Should be reviewed and considered as an entry in [[EH Exploitation]]

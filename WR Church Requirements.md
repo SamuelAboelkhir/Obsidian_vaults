@@ -4,6 +4,7 @@ tags:
 - Church
 MOC: Work
 ---
+
 [[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]] | [[WR Projects index]]
 # General Notes
 - Project to serve all categories. Priests, Ministry leaders, Class leaders
@@ -44,3 +45,9 @@ MOC: Work
 
 - Also check
 	- [[PG NextJS]]
+# 2nd session
+- Review the excel
+- Add restrictions on data viewing
+- Attendance
+	- Manual via checklist
+	- QR code implementation (later)

@@ -31,7 +31,7 @@ esky001 
 	- IBM i is hard
 	- Data scatter
 	- The excel is using a schema made by the operators that only they know
-10.31.134
+10.30.1.134
 # Meeting notes
 
 - ROI of db analysis? : S
