@@ -58,3 +58,10 @@ how do I use this command to connect with the DB2 server hosted on my client's A
 
 I tried and got SQL10007N Message "-1390" could not be retrieved. Reason code: "3".
 
+# New notes
+- Probill after its signed is taken back to be turned into an invoice to be sent to the guy who made the PO
+- Probills have to be added to the system either automatically or manually
+- Issac can do it automatically but since the system has too many entry points it can break then it gets done manually
+
+How are they managing their warehousing?
+What problems do they have with the probills?
