@@ -23,6 +23,78 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "WR MyFleeta",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR MyFleeta.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR MyFleeta\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "WR VA onboarding meeting",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA onboarding meeting.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA onboarding meeting\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "api_planning_guide",
+                      "icon": "code-glyph",
+                      "state": "{\"type\":\"html-view\",\"state\":{\"file\":\"html/api_planning_guide.html\"},\"icon\":\"code-glyph\",\"title\":\"api_planning_guide\"}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "api_first_design",
+                      "icon": "code-glyph",
+                      "state": "{\"type\":\"html-view\",\"state\":{\"file\":\"html/api_first_design.html\"},\"icon\":\"code-glyph\",\"title\":\"api_first_design\"}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "api_planning_guide",
+                      "icon": "code-glyph",
+                      "state": "{\"type\":\"html-view\",\"state\":{\"file\":\"html/api_planning_guide.html\"},\"icon\":\"code-glyph\",\"title\":\"api_planning_guide\"}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "PG API first design",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG API first design.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG API first design\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":16},\"to\":{\"line\":9,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "PG Other index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":14},\"to\":{\"line\":18,\"ch\":14}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "_0006 Programming MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":10},\"to\":{\"line\":16,\"ch\":10}},\"scroll\":1.625}"
+                    },
+                    {
+                      "title": "WR VA General Notes",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "PG JS-TS index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG JS-TS index.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG JS-TS index\"}",
+                      "eState": "{\"scroll\":6.801619433198381}"
+                    },
+                    {
+                      "title": "_0006 Programming MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":12},\"to\":{\"line\":14,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "WR Overtime And Annuals",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "_0003 Personal MOC",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
@@ -508,7 +580,22 @@
   },
   "active": "cae13efdf4f03df7",
   "lastOpenFiles": [
+    "WR MyFleeta.md",
+    "WR VA onboarding meeting.md",
+    "html/api_planning_guide.html",
+    "html/api_first_design.html",
+    "PG API first design.md",
+    "PG Other index.md",
+    "_0006 Programming MOC.md",
+    "PG JS-TS index.md",
+    "WR VA General Notes.md",
+    "PG NestJS.md",
+    "EH AS Academy nmap scan.md",
     "PER Python Snake Plan.md",
+    "PG Character Encoding.md",
+    "html",
+    "PG NextJS.md",
+    "WR Overtime And Annuals.md",
     "TECH CLI Tools and Commands.md",
     "TECH Linux index.md",
     "_0001 Technology MOC.md",
@@ -522,20 +609,8 @@
     "PER Questions.md",
     "PG Python dunder.md",
     "PG C index.md",
-    "_0006 Programming MOC.md",
     "assets/Pasted image 20251018173629.png",
     "PG Python dictionaries.md",
-    "PG Python generator.md",
-    "EH Web Searching.md",
-    "Generators in Python.md",
-    "_0000 Home.md",
-    "NET Components of a URL.md",
-    "PG Character Encoding.md",
-    "NET Networking index.md",
-    "_0005 Cybersecurity MOC.md",
-    "NET Shared Responsibility Model.md",
-    "Components of a URL.md",
-    "PG Other index.md",
     "WR Compass permissions canvas.canvas",
     "WR Bid.it Schema.canvas",
     "Excalidraw",
@@ -546,9 +621,6 @@
     "assets/fievel_vim-regexp.pdf",
     "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
     "assets/OWASP_WSTG_Checklist.xlsx",
-    "assets/EH OWASP_Testing_Guide_v3.pdf",
-    "Untitled.xlsx",
-    "assets/PG JavaCheatSheet.pdf",
     "assets/electron_config.jpg",
     "assets/ColorLargeTypePeriodicTable.png",
     "electron_config.jpg",
