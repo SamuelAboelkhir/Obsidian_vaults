@@ -10,3 +10,9 @@ MOC: Programming
 # Node commands
 - To check for typescript issues
 	- `pnpm exec tsc -b`
+# NextJS Project init
+```bash
+pnpm create next-app #creates a next.js app
+pnpm i -h @nestjs/cli nest new "appname"
+pnpm exec tsc -b`: Runs typescript's compiler to check for errors
+```

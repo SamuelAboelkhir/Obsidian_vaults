@@ -9,7 +9,6 @@ MOC: Technology
 # Links: 
 - [[#Various command line tools]]
 - [[#File operations]]
-- [[#Web development project init]]
 - [[#System management and monitoring]]
 - [[#Networking commands and tools]]
 - [[#System protection]]
@@ -95,16 +94,11 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - [[TECH xargs|xargs]]: Reads items from standard input and executes commands with those items as arguments.
 - [[TECH Awk Command Cheat Sheet & Quick Reference|awk]]
 - [[TECH Sed Command Cheat Sheet & Quick Reference|sed]]
+- `eval`: eval is a built-in Linux command that executes arguments as a shell command. It combines arguments into a single string, uses it as input to the shell, and executes the commands
+- 
 - `ln`: Creates links between files
 	- `ln -s /home/file1 /home/Documents/link-to-file1`
 - #### Back to top: [[#Links]]
----
-### Web development project init
-
-#### Back to top: [[#Links]]
-- `pnpm create next-app` : creates a next.js app
-- `pnpm i -h @nestjs/cli nest new "appname"`
-- `pnpm exec tsc -b`: Runs typescript's compiler to check for errors
 ---
 ### System management and monitoring
 
@@ -167,6 +161,7 @@ The count parameter determines how many blocks to copy.
 - `mount`: Mount directories to your system
 	- Can mount remote directories
 	- `-t`: indicates the filesystem type
+- [[TECH SSH |ssh]]
 ---
 ### Networking commands and tools
 
@@ -186,11 +181,10 @@ The count parameter determines how many blocks to copy.
 - `lsof -i [port]`: Shows the process that owns or is using the port.
 - `termshark`: CLI tshark.
 - The following commands can be used to flush and replace the IP address assigned by DHCP, as long as IP assignment is no longer automatic 
-```
+```bash
 sudo ip addr flush dev eth0
 sudo ip addr add 192.168.57.10/24 dev eth0
 sudo ip route add default via 192.168.57.1
-
 ```
 
 - `ps aux | grep -E "(dhcp|network|wpa|nm-)"`: finds network related processes
