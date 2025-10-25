@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "TECH Linux index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":8},\"to\":{\"line\":21,\"ch\":8}}}"
+                    },
+                    {
+                      "title": "Diff: manifest.json",
+                      "icon": "diff",
+                      "state": "{\"type\":\"split-diff-view\",\"state\":{\"aFile\":\".obsidian/themes/Omarchy/manifest.json\",\"bFile\":\".obsidian/themes/Omarchy/manifest.json\",\"aRef\":\"HEAD\",\"bRef\":\"\"},\"icon\":\"diff\",\"title\":\"Diff: manifest.json\"}",
+                      "eState": "{}"
+                    },
+                    {
                       "title": "WR Overtime And Annuals",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
@@ -109,15 +121,14 @@
                   ]
                 },
                 "state": {
-                  "type": "split-diff-view",
+                  "type": "markdown",
                   "state": {
-                    "aFile": "PG Python general.md",
-                    "bFile": "PG Python general.md",
-                    "aRef": "HEAD",
-                    "bRef": ""
+                    "file": "TECH Services.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "diff",
-                  "title": "Diff: PG Python general"
+                  "icon": "lucide-file",
+                  "title": "TECH Services"
                 }
               },
               {
@@ -193,6 +204,7 @@
                     "state": {
                       "type": "localgraph",
                       "state": {
+                        "file": "TECH Services.md",
                         "options": {
                           "collapse-filter": false,
                           "search": "",
@@ -291,7 +303,7 @@
                         }
                       },
                       "icon": "lucide-git-fork",
-                      "title": "Graph view"
+                      "title": "Graph of TECH Services"
                     }
                   }
                 ]
@@ -586,6 +598,9 @@
   },
   "active": "cae13efdf4f03df7",
   "lastOpenFiles": [
+    "TECH Linux index.md",
+    "TECH Services.md",
+    "TECH Sed Command Cheat Sheet & Quick Reference.md",
     "WR Overtime And Annuals.md",
     "PG Python general.md",
     "PER Disabled.md",
@@ -605,7 +620,6 @@
     "html",
     "PG NextJS.md",
     "TECH CLI Tools and Commands.md",
-    "TECH Linux index.md",
     "_0001 Technology MOC.md",
     "WR Church Requirements.md",
     "WR Church Extra.md",
@@ -614,8 +628,6 @@
     "PG Python General.md",
     "PG Python index.md",
     "_0003 Personal MOC.md",
-    "PER Questions.md",
-    "PG Python dunder.md",
     "assets/Pasted image 20251018173629.png",
     "WR Compass permissions canvas.canvas",
     "WR Bid.it Schema.canvas",
