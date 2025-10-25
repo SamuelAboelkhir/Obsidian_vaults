@@ -13,6 +13,9 @@ T!&M#eoF7t95
 DB creds:
 esky001 
 2Sk6J1m2s$
+http://vawhapp.vatransport.com:11500/VAWarehouseApp/login 
+Username 10472 
+Password js10472 
 - Assumption 1: 
 	- React is not needed excel is enough
 	- We may need to fix the DB

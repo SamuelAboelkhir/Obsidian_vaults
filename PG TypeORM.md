@@ -153,7 +153,7 @@ const user = await userRepo.findOne({ where: { id: 1 } });
 const post = postRepo.create({
   title: 'My Post',
   content: 'Content here',
-  user: user // or userId: 1
+  user: user // or userId: 2
 });
 await postRepo.save(post);
 
