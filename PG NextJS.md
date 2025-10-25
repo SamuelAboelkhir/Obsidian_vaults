@@ -6,6 +6,8 @@ tags:
 MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG JS-TS index|Back to index]]
+# Project initialization
+[[PG npm-pnpm#NextJS Project init]]
 # Personal thoughts (SSR)
 - When working with nextJS it's important to always keep its SSR (server side rendering) nature in mind
 - Certain development patters will not work out of the box like the do in [[PG React|React]] as you must wait and consider "is this component static? (SSR) or is it dynamic? (CSR)". If the component turns out to be dynamic and reliant on user input (has elements that can't be pre-rendered) the component will be considered CSR, and you must mark it with the `'use client'` directive.

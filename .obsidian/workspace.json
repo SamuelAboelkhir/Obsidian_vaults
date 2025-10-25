@@ -16,11 +16,53 @@
                 "id": "cae13efdf4f03df7",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "TECH SSH",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH SSH.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH SSH\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "TECH Linux index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":19},\"to\":{\"line\":9,\"ch\":19}}}"
+                    },
+                    {
+                      "title": "TECH SSH",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH SSH.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH SSH\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":93},\"to\":{\"line\":7,\"ch\":93}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "TECH Linux index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":9},\"to\":{\"line\":20,\"ch\":9}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "TECH CLI Tools and Commands",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":101},\"to\":{\"line\":7,\"ch\":101}},\"scroll\":0.7714285714285715}"
+                    },
+                    {
+                      "title": "TECH Linux index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "TECH Services",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Services.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Services\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7714285714285715}"
                     },
                     {
                       "title": "TECH Linux index",
@@ -123,12 +165,71 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TECH Services.md",
+                    "file": "TECH CLI Tools and Commands.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "TECH Services"
+                  "title": "TECH CLI Tools and Commands"
+                }
+              },
+              {
+                "id": "ee4db99ca34221c5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "PG NextJS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG NextJS.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG NextJS\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":17},\"to\":{\"line\":9,\"ch\":17}}}"
+                    },
+                    {
+                      "title": "PG JS-TS index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG JS-TS index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG JS-TS index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":17},\"to\":{\"line\":12,\"ch\":17}}}"
+                    },
+                    {
+                      "title": "PG NestJS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG NestJS.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG NestJS\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":94},\"to\":{\"line\":7,\"ch\":94}}}"
+                    },
+                    {
+                      "title": "PG JS-TS index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG JS-TS index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG JS-TS index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":19},\"to\":{\"line\":14,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "PG npm-pnpm",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG npm-pnpm.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG npm-pnpm\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":95},\"to\":{\"line\":7,\"ch\":95}},\"scroll\":0.2}"
+                    },
+                    {
+                      "title": "PG JS-TS index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG JS-TS index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG JS-TS index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":10},\"to\":{\"line\":21,\"ch\":10}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "PG npm-pnpm.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "PG npm-pnpm"
                 }
               },
               {
@@ -204,7 +305,7 @@
                     "state": {
                       "type": "localgraph",
                       "state": {
-                        "file": "TECH Services.md",
+                        "file": "TECH CLI Tools and Commands.md",
                         "options": {
                           "collapse-filter": false,
                           "search": "",
@@ -303,7 +404,7 @@
                         }
                       },
                       "icon": "lucide-git-fork",
-                      "title": "Graph of TECH Services"
+                      "title": "Graph of TECH CLI Tools and Commands"
                     }
                   }
                 ]
@@ -577,7 +678,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -598,9 +700,16 @@
   },
   "active": "cae13efdf4f03df7",
   "lastOpenFiles": [
+    "PG npm-pnpm.md",
+    "PG NextJS.md",
+    "PG JS-TS index.md",
+    "PG NestJS.md",
+    "TECH CLI Tools and Commands.md",
+    "TECH SSH.md",
     "TECH Linux index.md",
-    "TECH Services.md",
     "TECH Sed Command Cheat Sheet & Quick Reference.md",
+    "SC Principles of Biochemistry.md",
+    "TECH Services.md",
     "WR Overtime And Annuals.md",
     "PG Python general.md",
     "PER Disabled.md",
@@ -611,23 +720,16 @@
     "PG API first design.md",
     "PG Other index.md",
     "_0006 Programming MOC.md",
-    "PG JS-TS index.md",
     "WR VA General Notes.md",
-    "PG NestJS.md",
     "EH AS Academy nmap scan.md",
     "PER Python Snake Plan.md",
     "PG Character Encoding.md",
     "html",
-    "PG NextJS.md",
-    "TECH CLI Tools and Commands.md",
     "_0001 Technology MOC.md",
     "WR Church Requirements.md",
     "WR Church Extra.md",
     "WR Church ERD.canvas",
     "PG C Cheat Sheet.md",
-    "PG Python General.md",
-    "PG Python index.md",
-    "_0003 Personal MOC.md",
     "assets/Pasted image 20251018173629.png",
     "WR Compass permissions canvas.canvas",
     "WR Bid.it Schema.canvas",
