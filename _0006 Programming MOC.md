@@ -21,3 +21,5 @@ MOC: Programming
 [[PG R index]]
 #### Lua
 [[PG Lua index]]
+#### Algorithms
+[[PG Alogrithms index]]
