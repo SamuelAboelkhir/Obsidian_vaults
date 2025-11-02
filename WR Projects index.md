@@ -25,6 +25,7 @@ MOC: Work
 [[WR Bid.it setup]]
 [[WR Bid.it Design]]
 [[WR Bid.it tips]]
+[[WR Bit.it TODO]]
 ## Canvases
 [[WR Compass permissions canvas.canvas|WR Compass permissions canvas]]
 [[WR Bid.it Schema.canvas|WR Bid.it Schema]]

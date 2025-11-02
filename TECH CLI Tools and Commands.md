@@ -161,6 +161,7 @@ The count parameter determines how many blocks to copy.
 - `mount`: Mount directories to your system
 	- Can mount remote directories
 	- `-t`: indicates the filesystem type
+	- `sudo mount -t ext4 -o exec,dev,suid UUID=eb360311-93d7-4e5e-8b13-19d4153e6f1b /mnt/ubuntu24`
 - [[TECH SSH |ssh]]
 ---
 ### Networking commands and tools

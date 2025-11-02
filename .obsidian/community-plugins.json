@@ -23,5 +23,7 @@
   "univer",
   "excalibrain",
   "obsidian-excalidraw-plugin",
-  "obsidian-html-plugin"
+  "obsidian-html-plugin",
+  "dataview-autocompletion",
+  "pdf-folder-to-markdowns"
 ]

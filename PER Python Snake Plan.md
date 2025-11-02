@@ -47,8 +47,8 @@ MOC: Personal
 
 # Achievements/Milestones
 - [x] Movement
-- [ ] Controlled movement
-- [ ] Movement in all directions
+- [x] Controlled movement
+- [x] Movement in all directions
 - [ ] Snake body shape changes depending on movement
 - [ ] Add apple
 - [ ] Snake can eat apple
