@@ -21,3 +21,5 @@ MOC: Technology
 [[TECH SSH]]
 # Creating a service
 [[TECH Services]]
+# Omarchy
+[[TECH Omarchy]]

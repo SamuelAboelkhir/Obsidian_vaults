@@ -68,3 +68,14 @@ I tried and got SQL10007N Message "-1390" could not be retrieved. Reason code: "
 
 How are they managing their warehousing?
 What problems do they have with the probills?
+
+
+- Planner
+- Team leader
+- Team from 1 to 5
+- Assigned trailer
+- Tasks
+- Teams are reassigned daily
+- Planners discuss with the chiefs via chatbox
+- Chiefs can see the team via a button
+- Both the chat and button appear per trailer when you click on it via the assigned trailer list

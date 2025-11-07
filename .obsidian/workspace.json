@@ -23,6 +23,54 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "TECH Linux index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":8},\"to\":{\"line\":24,\"ch\":8}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "WR Bit.it TODO",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Bit.it TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Bit.it TODO\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "WR Church ERD",
+                      "icon": "lucide-layout-dashboard",
+                      "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"WR Church ERD.canvas\",\"viewState\":{\"x\":-169.91050520958748,\"y\":-121.8704539022516,\"zoom\":-0.8683946035064568}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"WR Church ERD\"}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "PG Character Encoding",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Character Encoding.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Character Encoding\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "TECH CLI Tools and Commands",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":0},\"to\":{\"line\":50,\"ch\":0}},\"scroll\":35.929590570719604}"
+                    },
+                    {
+                      "title": "TECH Linux index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}}}"
+                    },
+                    {
+                      "title": "_0001 Technology MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
+                    },
+                    {
+                      "title": "PG big-o of arrays and objects",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG big-o of arrays and objects.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG big-o of arrays and objects\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "PG Alogrithms index",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
@@ -177,16 +225,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "PG big-o of arrays and objects.md",
+                    "file": "TECH Omarchy.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "PG big-o of arrays and objects"
+                  "title": "TECH Omarchy"
                 }
               },
               {
-                "id": "a6cbb1fff347b9b5",
+                "id": "7fedba0725493849",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -196,136 +244,34 @@
                       "eState": "{}"
                     },
                     {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":31},\"to\":{\"line\":8,\"ch\":31}}}"
+                      "title": "WR Bid.it Schema",
+                      "icon": "lucide-layout-dashboard",
+                      "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"WR Bid.it Schema.canvas\",\"viewState\":{\"x\":-68.00375844809906,\"y\":-668.0601034315986,\"zoom\":-1.6000000357627862}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"WR Bid.it Schema\"}",
+                      "eState": "{}"
                     },
                     {
-                      "title": "PG recursion",
+                      "title": "WR VA General Notes",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG recursion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG recursion\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":107},\"to\":{\"line\":7,\"ch\":107}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":24},\"to\":{\"line\":12,\"ch\":24}}}"
-                    },
-                    {
-                      "title": "PG big-o of arrays and objects",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG big-o of arrays and objects.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG big-o of arrays and objects\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":104},\"to\":{\"line\":7,\"ch\":104}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":16},\"to\":{\"line\":10,\"ch\":16}}}"
-                    },
-                    {
-                      "title": "PG problem solving",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG problem solving.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"04-05-pdf-slides-problem-solving\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":108},\"to\":{\"line\":7,\"ch\":108}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":17},\"to\":{\"line\":11,\"ch\":17}}}"
-                    },
-                    {
-                      "title": "PG big-o of arrays and objects",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG big-o of arrays and objects.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"03-pdf-slides-big-o-of-arrays-and-objects\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":107},\"to\":{\"line\":7,\"ch\":107}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":23},\"to\":{\"line\":10,\"ch\":23}}}"
-                    },
-                    {
-                      "title": "PG big-o notation",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG big-o notation.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG big-o notation\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":102},\"to\":{\"line\":7,\"ch\":102}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":15},\"to\":{\"line\":24,\"ch\":15}},\"scroll\":2.9166666666666665}"
-                    },
-                    {
-                      "title": "PG Other index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":61},\"to\":{\"line\":7,\"ch\":61}}}"
-                    },
-                    {
-                      "title": "PG Time complexities of different data structures",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Time complexities of different data structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Time complexities of different data structures\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":101},\"to\":{\"line\":7,\"ch\":101}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "TECH CLI Tools and Commands",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":12},\"to\":{\"line\":11,\"ch\":12}},\"scroll\":0.6761904761904762}"
                     },
                     {
                       "title": "WR Overtime And Annuals",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR Bit.it TODO",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Bit.it TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Bit.it TODO\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":87},\"to\":{\"line\":14,\"ch\":87}}}"
-                    },
-                    {
-                      "title": "WR Bid.it Schema",
-                      "icon": "lucide-layout-dashboard",
-                      "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"WR Bid.it Schema.canvas\",\"viewState\":{\"x\":-7,\"y\":-781.5,\"zoom\":-0.7752827229145394}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"WR Bid.it Schema\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "PER Python Snake Plan",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Python Snake Plan.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Python Snake Plan\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":42.4317617866005}"
-                    },
-                    {
-                      "title": "_0003 Personal MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":13},\"to\":{\"line\":11,\"ch\":13}}}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "PG Time complexities of different data structures.md",
+                    "file": "WR VA General Notes.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "PG Time complexities of different data structures"
+                  "title": "WR VA General Notes"
                 }
               },
               {
@@ -397,7 +343,7 @@
                     "state": {
                       "type": "localgraph",
                       "state": {
-                        "file": "PG big-o of arrays and objects.md",
+                        "file": "TECH Omarchy.md",
                         "options": {
                           "collapse-filter": false,
                           "search": "",
@@ -496,7 +442,7 @@
                         }
                       },
                       "icon": "lucide-git-fork",
-                      "title": "Graph of PG big-o of arrays and objects"
+                      "title": "Graph of TECH Omarchy"
                     }
                   }
                 ]
@@ -614,7 +560,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 309.5,
+    "collapsed": true
   },
   "right": {
     "id": "8e99a47d8558ad1a",
@@ -789,87 +736,37 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "3c368fe1414b5301",
-    "type": "floating",
-    "children": [
-      {
-        "id": "487e8f084ce5e1de",
-        "type": "window",
-        "children": [
-          {
-            "id": "733ce0cac32e70c4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1e554c15fbcd04bb",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "Sources - Dataview",
-                      "icon": "globe-2",
-                      "state": "{\"state\":{\"url\":\"https://blacksmithgu.github.io/obsidian-dataview/\"},\"type\":\"webviewer\"}",
-                      "eState": "null"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://blacksmithgu.github.io/obsidian-dataview/reference/sources/#folders",
-                    "title": "Sources - Dataview",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Sources - Dataview"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 960,
-        "height": 1054,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "34bf951b79635d9f",
   "lastOpenFiles": [
-    "PG Alogrithms index.md",
-    "PG Time complexities of different data structures.md",
-    "PG dynamic programming.md",
-    "PG graph traversal dijkstra.md",
-    "PG hash tables.md",
-    "PG heaps.md",
-    "PG trees and tree traversal.md",
-    "PG queues.md",
-    "PG stacks.md",
-    "PG doubly linked lists.md",
-    "PG singly linked lists.md",
-    "PG data structures introduction.md",
-    "PG merge quick radix sort.md",
-    "PG bubble selection insertion sort.md",
-    "PG searching algorithms.md",
-    "PG recursion.md",
-    "PG problem solving.md",
+    "TECH Linux index.md",
+    "TECH Services.md",
+    "TECH Sed Command Cheat Sheet & Quick Reference.md",
+    "TECH Awk Command Cheat Sheet & Quick Reference.md",
+    "TECH xargs.md",
+    "TECH Vim Cheat Sheet & Quick Reference.md",
+    "TECH NVIM commands.md",
+    "TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md",
+    "TECH CLI Tools and Commands.md",
+    "TECH Anatomy of Memory.md",
+    "TECH Scripting.md",
+    "TECH Omarchy.md",
+    "TECH SSH.md",
+    "WR Bit.it TODO.md",
+    "WR VA General Notes.md",
+    "WR Bid.it Schema.canvas",
+    "WR Church ERD.canvas",
+    "PG Character Encoding.md",
+    "WR Overtime And Annuals.md",
+    "_0001 Technology MOC.md",
     "PG big-o of arrays and objects.md",
-    "PG big-o notation.md",
-    "PG Bash index.md",
-    "PG Bash scripting cheatsheet.md",
-    "PG Lua index.md",
-    "_0006 Programming MOC.md",
-    "PG Other index.md",
-    "PG General Patterns.md",
+    "WR Church Requirements.md",
+    "PG testing with playwright.md",
+    "PG Tanstack.md",
+    "WR General Index.md",
+    "PG Website deployment.md",
+    "WR VA BL Schema attempt 1.canvas",
+    "WR Projects index.md",
+    "_0002 Work MOC.md",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele.zip",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/29-pdf-slides-dynamic-programming.pdf",
@@ -880,12 +777,8 @@
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/21-2-pdf-slides-queues.pdf",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/21-1-pdf-slides-stacks.pdf",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/20-pdf-slides-doubly-linked-lists.pdf",
-    "_0000 Home.md",
-    "WR Bid.it Schema.canvas",
-    "WR Church ERD.canvas",
     "assets/Pasted image 20251018173629.png",
     "WR Compass permissions canvas.canvas",
-    "WR VA BL Schema attempt 1.canvas",
     "assets/electron_config.jpg",
     "assets/ColorLargeTypePeriodicTable.png",
     "electron_config.jpg",
