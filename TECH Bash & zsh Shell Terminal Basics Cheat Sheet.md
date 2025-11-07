@@ -1,5 +1,6 @@
 ---
 tags: 
+- LI
 - Bash
 - TECH
 MOC: Technology

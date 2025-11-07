@@ -1,6 +1,7 @@
 ---
 tags: 
 - LI
+- CLI
 - TECH
 MOC: Technology
 ---
@@ -56,6 +57,7 @@ MOC: Technology
 	- `S` : handle sparse files efficiently
 	- `--progress` : show progress bar
 - `find`: Search for files in a directory hierarchy
+	- `fd`: Better find
 	- `-exec` Allows you to execute a command on each found file
 		- the syntax would be `find [path] [conditions] -exec [command] {} \;`
 		- `{}` is a placeholder for the current found filename
