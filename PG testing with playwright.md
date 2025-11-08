@@ -1,8 +1,8 @@
 ---
 tags:
-- Programming-Language/JS-TS
+- JS-TS
 - Framework
-- PG
+- Programming-Language
 MOC: Programming
 ---
 

@@ -1,6 +1,8 @@
 ---
 tags: 
-- PER
+- Python
+- Projects
+- Programming-Language
 MOC: Personal
 ---
 
@@ -56,3 +58,6 @@ MOC: Personal
 - [ ] Add border
 - [ ] Snake dies when it hits the border
 - [ ] Snake dies when it eats itself
+
+# Refer to
+- [[PG Python index]]

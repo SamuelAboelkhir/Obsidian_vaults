@@ -1,7 +1,6 @@
 ---
 tags: 
 - Other
-- PG
 MOC: Programming
 ---
 

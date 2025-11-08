@@ -1,6 +1,6 @@
 ---
 tags:
-- SC/DS
+- DS
 MOC: Technology
 ---
 [[_0000 Home|Home]] | [[_0004 Sciences MOC |Back to Sciences MOC]] | [[SC Datascience index|Back to index]]

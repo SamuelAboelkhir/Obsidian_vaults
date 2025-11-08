@@ -1,6 +1,5 @@
 ---
 tags:
-- CYB
 - Index
 - CYBER
 MOC: Cybersecurity

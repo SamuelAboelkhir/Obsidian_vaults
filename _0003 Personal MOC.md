@@ -9,5 +9,4 @@ MOC: Personal
 [[PER Daily TODO]]
 [[PER Groceries]]
 [[PER Questions]]
-[[PER Python Snake Plan]]
 [[PER Project ideas index]]
