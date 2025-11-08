@@ -1,7 +1,7 @@
 ---
 tags:
-- Programming-Language/Java
-- PG
+- Java
+- Programming-Language
 MOC: Programming
 ---
 

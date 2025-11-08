@@ -1,6 +1,8 @@
 ---
 tags:
-- WR/Church
+- Church
+- Projects
+- Service
 MOC: Work
 ---
 

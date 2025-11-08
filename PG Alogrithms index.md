@@ -1,8 +1,7 @@
 ---
 tags: 
-- Algorithms
 - Index
-- PG
+- Algorithms
 MOC: Programming
 ---
 

@@ -1,6 +1,5 @@
 ---
 tags:
-- CYB
 - CYBER
 MOC: Cybersecurity
 ---

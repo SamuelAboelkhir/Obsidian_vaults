@@ -3,6 +3,7 @@ tags:
 - MOC
 MOC: Programming
 ---
+
 [[_0000 Home|Home]]
 # All Language References
 #### Bash

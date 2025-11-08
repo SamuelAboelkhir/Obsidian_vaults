@@ -1,7 +1,7 @@
 ---
 tags:
 - Index
-- WR
+- Projects
 MOC: Work
 ---
 [[_0000 Home|Home]] | [[_0002 Work MOC|Back to Work MOC]]
@@ -13,8 +13,6 @@ MOC: Work
 ## Church
 [[WR Church Requirements]]
 [[WR Church Extra]]
-[[WR Church ERD.canvas|WR Church ERD]]
-[[WR Church Tasks]]
 ## VA
 [[WR VA IBM i]]
 [[WR VA onboarding meeting]]
@@ -30,3 +28,6 @@ MOC: Work
 [[WR Compass permissions canvas.canvas|WR Compass permissions canvas]]
 [[WR Bid.it Schema.canvas|WR Bid.it Schema]]
 [[WR VA BL Schema attempt 1.canvas|WR VA BL Schema attempt 1]]
+[[WR Church ERD.canvas|WR Church ERD]]
+# Kanban
+[[WR Church Tasks]]

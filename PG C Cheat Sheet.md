@@ -1,7 +1,7 @@
 ---
 tags:
-- Programming-Language/C
-- PG
+- C
+- Programming-Language
 MOC: Programming
 ---
 

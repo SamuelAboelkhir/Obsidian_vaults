@@ -1,7 +1,6 @@
 ---
 tags:
 - LI
-- TECH
 MOC: Technology
 ---
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
