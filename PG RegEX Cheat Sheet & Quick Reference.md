@@ -346,14 +346,14 @@ In `[ ]` always escape `. \ ]` and sometimes `^ - .`
 
 ### Modifiers
 
-| Pattern | Meaning |
-| --- | --- |
-| `(?i)` \[a-z\]\* `(?-i)` | Ignore case ON / OFF |
-| `(?s)`.\* `(?-s)` | Match multiple lines (causes. to match newline) |
-| `(?m)` ^.\*;$ `(?-m)` | ^ & $ match lines not whole string |
-| `(?x)` | #free-spacing mode, this EOL comment ignored |
-| `(?-x)` | free-spacing mode OFF |
-| /regex/ `ismx` | Modify mode for entire string |
+| Pattern                  | Meaning                                         |
+| ------------------------ | ----------------------------------------------- |
+| `(?i)` \[a-z\]\* `(?-i)` | Ignore case ON / OFF                            |
+| `(?s)`.\* `(?-s)`        | Match multiple lines (causes. to match newline) |
+| `(?m)` ^.\*;$ `(?-m)`    | ^ & $ match lines not whole string              |
+| `(?x)`                   | `#free-spacing` mode, this EOL comment ignored  |
+| `(?-x)`                  | free-spacing mode OFF                           |
+| /regex/ `ismx`           | Modify mode for entire string                   |
 
 ### Groups
 
