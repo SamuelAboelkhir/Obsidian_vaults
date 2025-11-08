@@ -1,7 +1,6 @@
 ---
 tags:
-- WR
-- Church
+- WR/Church
 MOC: Work
 ---
 

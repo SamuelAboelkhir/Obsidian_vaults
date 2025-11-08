@@ -148,7 +148,6 @@ Welcome to the Playwright testing suite for the PMM project! This guide will hel
 
 - [Playwright Docs](https://playwright.dev/docs/intro)
 - [Playwright Test Examples](https://playwright.dev/docs/test-examples)
-- [PMM Source Code](../src/)
 
 ---
 

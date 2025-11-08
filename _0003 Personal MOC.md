@@ -10,3 +10,4 @@ MOC: Personal
 [[PER Groceries]]
 [[PER Questions]]
 [[PER Python Snake Plan]]
+[[PER Project ideas index]]

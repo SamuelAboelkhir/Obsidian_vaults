@@ -1,7 +1,6 @@
 ---
 tags: 
-- BioChem
-- SC
+- SC/BioChem
 MOC: Sciences
 ---
 [[_0000 Home|Home]] | [[_0004 Sciences MOC|Back to Sciences MOC]] | [[SC Biochemistry index|Back to index]]
