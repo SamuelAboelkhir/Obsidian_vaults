@@ -331,6 +331,7 @@ SELECT * FROM pg_catalog.pg_tables
 ```
 
 ---
+![[SQLJoins.jpeg]]
 
 ![Richie Cotton's photo](https://media.datacamp.com/cms/richie-sq.jpeg?w=128)
 

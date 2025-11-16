@@ -1,6 +1,5 @@
 ---
 tags:
-- PER
 - TODO
 MOC: Personal
 ---

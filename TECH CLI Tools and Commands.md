@@ -179,6 +179,8 @@ The count parameter determines how many blocks to copy.
 - `hostname`: shows the hostname. Use with -I to see the IPs.
 - `iftop`: a network monitoring tool.
 - `curl`/`wget`: tools for data transfer/downloading files via the terminal.
+	- You can use `curl ifconfig.me` to see your public IP address
+	- Also with `wget -qO- ifconfig.me`
 - `Lynx` : a simple terminal web browser.
 - `lsof -i [port]`: Shows the process that owns or is using the port.
 - `termshark`: CLI tshark.

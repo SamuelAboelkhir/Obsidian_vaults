@@ -1,8 +1,7 @@
 ---
-tags: 
-- C
-- Index
-- Programming-Language
+tags:
+  - C
+  - Index
 MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]]
