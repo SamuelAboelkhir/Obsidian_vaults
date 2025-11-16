@@ -13,6 +13,7 @@ MOC: Work
 ## Church
 [[WR Church Requirements]]
 [[WR Church Extra]]
+[[WR Church TODO]]
 ## VA
 [[WR VA IBM i]]
 [[WR VA onboarding meeting]]
