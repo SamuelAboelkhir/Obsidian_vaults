@@ -19,6 +19,7 @@ MOC: Work
 [[WR VA onboarding meeting]]
 [[WR VA General Notes|WR VA General Notes]]
 [[WR VA Devops]]
+[[WR VA Databsase schema]]
 # bid.it
 [[WR Bid.it General]]
 [[WR Bid.it setup]]

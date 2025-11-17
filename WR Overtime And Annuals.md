@@ -8,4 +8,4 @@ MOC: Work
 | Overtime<br>Type | Time   | Annuals Consumed | Annuals Remaining |
 | ---------------- | ------ | ---------------- | ----------------- |
 | Internal         | 02h18m | 3                | 20                |
-| Billable         | 01h40m |                  |                   |
+| Billable         | 02h17m |                  |                   |
