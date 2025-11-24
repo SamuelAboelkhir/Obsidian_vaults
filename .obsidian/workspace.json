@@ -10,7 +10,7 @@
           {
             "id": "b8b026989112a0dd",
             "type": "tabs",
-            "dimension": 86.94516971279373,
+            "dimension": 80.54474708171206,
             "children": [
               {
                 "id": "34bf951b79635d9f",
@@ -21,6 +21,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "CLI Tool",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/CLI Tool.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CLI Tool\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "The beginning of a beautiful journey",
@@ -267,12 +273,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Samuel & Adel/CLI Tool.md",
+                    "file": "Samuel & Adel/Dream Project.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CLI Tool"
+                  "title": "Dream Project"
                 }
               },
               {
@@ -284,6 +290,66 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "WR VA General Notes",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "WR Projects index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":33},\"to\":{\"line\":19,\"ch\":33}},\"scroll\":4.333333333333333}"
+                    },
+                    {
+                      "title": "WR VA Training guide",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Training guide.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Training guide\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":65},\"to\":{\"line\":7,\"ch\":65}}}"
+                    },
+                    {
+                      "title": "WR VA Operations",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Operations.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Operations\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "WR VA Training guide",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Training guide.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Training guide\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "WR Projects index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "EH Hacking Tools",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Hacking Tools.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Hacking Tools\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "EH Ethical Hacking",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":16},\"to\":{\"line\":30,\"ch\":16}},\"scroll\":9.92239336492891}"
+                    },
+                    {
+                      "title": "EH Ethical Hacking index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":18},\"to\":{\"line\":10,\"ch\":18}},\"scroll\":4.333333333333333}"
+                    },
+                    {
+                      "title": "WR VA General Notes",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "WR Projects index",
@@ -488,29 +554,95 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "WR VA General Notes.md",
+                    "file": "WR Overtime And Annuals.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "WR VA General Notes"
+                  "title": "WR Overtime And Annuals"
                 }
               },
               {
                 "id": "fe43c0341e471d2d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "Graph view",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                      "eState": "{}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "TECH Linux index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":11},\"to\":{\"line\":8,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "_0001 Technology MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "_0000 Home",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "PG C compilation flow",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C compilation flow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C compilation flow\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":15},\"to\":{\"line\":6,\"ch\":15}}}"
+                    },
+                    {
+                      "title": "PG C index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "_0006 Programming MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "_0000 Home",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":14},\"to\":{\"line\":12,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "NET Network Tunneling Guide Generated By Claude",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Network Tunneling Guide Generated By Claude.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Network Tunneling Guide Generated By Claude\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":15},\"to\":{\"line\":5,\"ch\":15}}}"
+                    },
+                    {
+                      "title": "NET Components of a URL",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Components of a URL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Components of a URL\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":156},\"to\":{\"line\":46,\"ch\":156}},\"scroll\":30.662109375}"
+                    },
+                    {
+                      "title": "NET Common ports and protocols",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Common ports and protocols.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Common ports and protocols\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":193,\"ch\":6},\"to\":{\"line\":193,\"ch\":6}},\"scroll\":177.68765743073047}"
+                    },
+                    {
+                      "title": "CYB Cybersecurity concepts",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":5},\"to\":{\"line\":69,\"ch\":5}},\"scroll\":69.28085106382979}"
+                    },
+                    {
+                      "title": "WR Overtime And Annuals",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "WR General Index",
@@ -661,12 +793,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "WR Overtime And Annuals.md",
+                    "file": "TECH CLI Tools and Commands.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "WR Overtime And Annuals"
+                  "title": "TECH CLI Tools and Commands"
                 }
               },
               {
@@ -851,12 +983,12 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "b73d1de3b6f951a3",
             "type": "split",
-            "dimension": 13.054830287206268,
+            "dimension": 19.45525291828794,
             "children": [
               {
                 "id": "245a2b3bd968e52f",
@@ -1060,7 +1192,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "League of legends",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -1094,7 +1226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 320.5
   },
   "right": {
     "id": "8e99a47d8558ad1a",
@@ -1250,7 +1382,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 639.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1270,35 +1402,35 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "fe43c0341e471d2d",
+  "active": "d8f24088562debac",
   "lastOpenFiles": [
-    "WR Overtime And Annuals.md",
-    "WR General Index.md",
-    "_0002 Work MOC.md",
-    "WR Church TODO.md",
     "WR VA General Notes.md",
-    "WR Projects index.md",
-    "WR VA Databsase schema.md",
-    "PG Lua quick reference.md",
-    "PG Lua index.md",
-    "PG pohka_Lua-Beginners-Guide_ Lua Beginners Guide.md",
-    "_0006 Programming MOC.md",
     "_0000 Home.md",
-    "_0003 Personal MOC.md",
-    "PER TODO.md",
-    "WR Church Requirements.md",
-    "WR Church Extra.md",
-    "WR Claude Personalities.md",
-    "WR Church Tasks.md",
     "Samuel & Adel/CLI Tool.md",
-    "PER Important websites.md",
-    "PER Daily TODO.md",
-    "PER Groceries.md",
-    "PER Questions.md",
-    "PER Project ideas index.md",
+    "Samuel & Adel/Dream Project.md",
     "Samuel & Adel/The beginning of a beautiful journey.md",
+    "TECH CLI Tools and Commands.md",
+    "Excalidraw/Drawing 2025-11-22 09.38.54.excalidraw.md",
+    "TECH Linux index.md",
+    "TECH Sed Command Cheat Sheet & Quick Reference.md",
+    "_0001 Technology MOC.md",
+    "PG C compilation flow.md",
+    "WR Projects index.md",
+    "WR VA Training guide.md",
+    "PER Important websites.md",
+    "_0006 Programming MOC.md",
+    "PG Python index.md",
+    "PG Python generator.md",
+    "PG Python General.md",
+    "PG JS-TS index.md",
+    "PG NextJS.md",
+    "PG React.md",
+    "PG Java index.md",
+    "PG Java.md",
+    "PG C index.md",
+    "NET Network Tunneling Guide Generated By Claude.md",
+    "WR VA Operations.md",
     "bookmarks_11_14_25.html",
-    "PER Interactive science learning website.md",
     "assets/ColorLargeTypePeriodicTable.png",
     "assets/Compilation-Process-in-C.png",
     "assets/proxy-image.jpeg",
