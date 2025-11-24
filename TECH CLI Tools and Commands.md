@@ -164,6 +164,8 @@ The count parameter determines how many blocks to copy.
 	- `-t`: indicates the filesystem type
 	- `sudo mount -t ext4 -o exec,dev,suid UUID=eb360311-93d7-4e5e-8b13-19d4153e6f1b /mnt/ubuntu24`
 - [[TECH SSH |ssh]]
+- `env`: Shows the environment variables on the shell for the current session only
+- `set`: Shows the shell's local variables
 ---
 ### Networking commands and tools
 
