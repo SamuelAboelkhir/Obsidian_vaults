@@ -285,11 +285,29 @@
                 "id": "d8f24088562debac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "Graph view",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                      "eState": "{}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "WR VA General Notes",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "WR Overtime And Annuals",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "WR VA General Notes",
@@ -563,6 +581,53 @@
                 }
               },
               {
+                "id": "362fe28bf16f49d7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "PG C index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C index\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "_0006 Programming MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":9},\"to\":{\"line\":11,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "_0000 Home",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":12},\"to\":{\"line\":12,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "Release Notes 1.10.6",
+                      "icon": "lucide-book-up",
+                      "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.10.6\"},\"icon\":\"lucide-book-up\",\"title\":\"Release Notes 1.10.6\"}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "PG C compilation flow.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "PG C compilation flow"
+                }
+              },
+              {
                 "id": "fe43c0341e471d2d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -802,176 +867,86 @@
                 }
               },
               {
-                "id": "9462cdb476af2b65",
+                "id": "d45fdb76f365efc3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 6,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "PG PostgreSQL Basics Cheat Sheet",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG PostgreSQL Basics Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG PostgreSQL Basics Cheat Sheet\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":331,\"ch\":0},\"to\":{\"line\":331,\"ch\":0}},\"scroll\":333.0444103230379}"
-                    },
-                    {
-                      "title": "SQLJoins",
-                      "icon": "lucide-image",
-                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/SQLJoins.jpeg\"},\"icon\":\"lucide-image\",\"title\":\"SQLJoins\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "proxy-image",
-                      "icon": "lucide-image",
-                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/proxy-image.png\"},\"icon\":\"lucide-image\",\"title\":\"proxy-image\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "proxy-image",
-                      "icon": "lucide-image",
-                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/proxy-image.jpeg\"},\"icon\":\"lucide-image\",\"title\":\"proxy-image\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "Compilation-Process-in-C",
-                      "icon": "lucide-image",
-                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Compilation-Process-in-C.png\"},\"icon\":\"lucide-image\",\"title\":\"Compilation-Process-in-C\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "ColorLargeTypePeriodicTable",
-                      "icon": "lucide-image",
-                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/ColorLargeTypePeriodicTable.png\"},\"icon\":\"lucide-image\",\"title\":\"ColorLargeTypePeriodicTable\"}",
-                      "eState": "{}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
                     },
                     {
-                      "title": "SC Datascience index",
+                      "title": "_0000 Home",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":25},\"to\":{\"line\":12,\"ch\":25}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}},\"scroll\":0}"
                     },
                     {
-                      "title": "_0004 Sciences MOC",
+                      "title": "WR Compass",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":17},\"to\":{\"line\":9,\"ch\":17}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Compass.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Compass\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":1},\"to\":{\"line\":5,\"ch\":1}}}"
                     },
                     {
-                      "title": "SC Chemistry index",
+                      "title": "WR Bid.it Design",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":65},\"to\":{\"line\":6,\"ch\":65}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Bid.it Design.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Bid.it Design\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":10},\"to\":{\"line\":3,\"ch\":0}}}"
                     },
                     {
-                      "title": "_0004 Sciences MOC",
+                      "title": "EH Ethical Hacking",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":16},\"to\":{\"line\":8,\"ch\":16}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":4},\"to\":{\"line\":2,\"ch\":4}}}"
                     },
                     {
-                      "title": "SC Biochemistry index",
+                      "title": "EH AS Dev index",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":62},\"to\":{\"line\":6,\"ch\":62}}}"
-                    },
-                    {
-                      "title": "SC Equations",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Equations.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Equations\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":94},\"to\":{\"line\":5,\"ch\":94}}}"
-                    },
-                    {
-                      "title": "SC Biochemistry index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "SC Equations",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Equations.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Equations\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":95},\"to\":{\"line\":5,\"ch\":95}}}"
-                    },
-                    {
-                      "title": "SC Biochemistry index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":11},\"to\":{\"line\":10,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "SC Pathways",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Pathways.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Pathways\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":98},\"to\":{\"line\":5,\"ch\":98}}}"
-                    },
-                    {
-                      "title": "SC Biochemistry index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "SC Principles of Biochemistry",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Principles of Biochemistry.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Principles of Biochemistry\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":98},\"to\":{\"line\":5,\"ch\":98}}}"
-                    },
-                    {
-                      "title": "SC Biochemistry index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":26},\"to\":{\"line\":8,\"ch\":26}}}"
-                    },
-                    {
-                      "title": "Graph view",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "PER Project ideas index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Project ideas index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Project ideas\"}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Dev index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Dev index\"}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0003 Personal MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":11},\"to\":{\"line\":12,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "Graph view",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "WR Overtime And Annuals",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR General Index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
-                    },
-                    {
-                      "title": "_0002 Work MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}}}"
                     },
                     {
                       "title": "_0000 Home",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "Graph view",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "_0000 Home",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "PG R index",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R index.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R index\"}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "_0006 Programming MOC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":9},\"to\":{\"line\":21,\"ch\":9}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "_0000 Home",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":14},\"to\":{\"line\":12,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "Graph view",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                      "eState": "{}"
                     }
                   ]
                 },
@@ -1192,7 +1167,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "League of legends",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -1404,32 +1379,33 @@
   },
   "active": "d8f24088562debac",
   "lastOpenFiles": [
-    "WR VA General Notes.md",
+    "WR Overtime And Annuals.md",
     "_0000 Home.md",
-    "Samuel & Adel/CLI Tool.md",
-    "Samuel & Adel/Dream Project.md",
-    "Samuel & Adel/The beginning of a beautiful journey.md",
-    "TECH CLI Tools and Commands.md",
-    "Excalidraw/Drawing 2025-11-22 09.38.54.excalidraw.md",
-    "TECH Linux index.md",
-    "TECH Sed Command Cheat Sheet & Quick Reference.md",
-    "_0001 Technology MOC.md",
-    "PG C compilation flow.md",
-    "WR Projects index.md",
-    "WR VA Training guide.md",
-    "PER Important websites.md",
+    "_0002 Work MOC.md",
     "_0006 Programming MOC.md",
-    "PG Python index.md",
-    "PG Python generator.md",
-    "PG Python General.md",
-    "PG JS-TS index.md",
-    "PG NextJS.md",
-    "PG React.md",
-    "PG Java index.md",
-    "PG Java.md",
     "PG C index.md",
-    "NET Network Tunneling Guide Generated By Claude.md",
-    "WR VA Operations.md",
+    "PG C Cheat Sheet.md",
+    "EH AS kioptrix Information Disclosure.md",
+    "EH Badchars.md",
+    "WR Compass.md",
+    "WR Bid.it Design.md",
+    "EH Ethical Hacking.md",
+    "EH AS Dev index.md",
+    "PG R index.md",
+    "PG Data Manipulation with dplyr in R Cheat Sheet.md",
+    "PG R Datascience.md",
+    "WR Compass permissions canvas.canvas",
+    "WR Projects index.md",
+    "WR VA Databsase schema.md",
+    "WR VA Devops.md",
+    "TECH CLI Tools and Commands.md",
+    "excalibrain.md",
+    "Excalidraw/Drawing 2025-10-14 16.39.20.excalidraw.md",
+    "Excalidraw/Drawing 2025-11-22 09.38.54.excalidraw.md",
+    "PG C compilation flow.md",
+    "WR VA General Notes.md",
+    "NET Components of a URL.md",
+    "Samuel & Adel/CLI Tool.md",
     "bookmarks_11_14_25.html",
     "assets/ColorLargeTypePeriodicTable.png",
     "assets/Compilation-Process-in-C.png",
@@ -1449,7 +1425,6 @@
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/24-pdf-slides-heaps.pdf",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/22-23-pdf-slides-trees-and-tree-traversal.pdf",
     "assets/Pasted image 20251018173629.png",
-    "WR Compass permissions canvas.canvas",
     "assets/electron_config.jpg",
     "electron_config.jpg",
     "ColorLargeTypePeriodicTable.png",
