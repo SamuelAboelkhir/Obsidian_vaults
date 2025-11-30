@@ -79,7 +79,7 @@
   },
   "additionalProperties": {},
   "backupGraphOptions": {
-    "collapse-filter": false,
+    "collapse-filter": true,
     "search": "",
     "localJumps": 1,
     "localBacklinks": true,
@@ -88,7 +88,7 @@
     "showTags": false,
     "showAttachments": false,
     "hideUnresolved": false,
-    "collapse-color-groups": true,
+    "collapse-color-groups": false,
     "colorGroups": [
       {
         "query": "tag:#MOC  ",
@@ -126,7 +126,7 @@
         }
       },
       {
-        "query": "tag:#Index  ",
+        "query": "tag:#Index",
         "color": {
           "a": 1,
           "rgb": 11621088
@@ -150,7 +150,7 @@
         "query": "file:/^NET/-tag:#Index",
         "color": {
           "a": 1,
-          "rgb": 7720130
+          "rgb": 7457990
         }
       },
       {
@@ -171,7 +171,7 @@
     "repelStrength": 10,
     "linkStrength": 1,
     "linkDistance": 250,
-    "scale": 0.13348388671875,
+    "scale": 0.16128327524498295,
     "close": true
   },
   "openInNewTab": false,

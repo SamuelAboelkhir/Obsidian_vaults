@@ -1,1137 +1,282 @@
 {
   "main": {
-    "id": "c0620df8cf111b9a",
+    "id": "48ea091705abba72",
     "type": "split",
     "children": [
       {
-        "id": "068d91a0f98cf3cf",
-        "type": "split",
+        "id": "7a009a3f609bcaae",
+        "type": "tabs",
+        "dimension": 74.16237113402062,
         "children": [
           {
-            "id": "b8b026989112a0dd",
-            "type": "tabs",
-            "dimension": 80.54474708171206,
-            "children": [
-              {
-                "id": "34bf951b79635d9f",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "CLI Tool",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/CLI Tool.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CLI Tool\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "The beginning of a beautiful journey",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/The beginning of a beautiful journey.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"The beginning of a beautiful journey\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PER Project ideas index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Project ideas index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Project ideas index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":7},\"to\":{\"line\":13,\"ch\":7}}}"
-                    },
-                    {
-                      "title": "_0003 Personal MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":12},\"to\":{\"line\":12,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "WR Overtime And Annuals",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "TECH CLI Tools and Commands",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "TECH Linux index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":16},\"to\":{\"line\":9,\"ch\":16}}}"
-                    },
-                    {
-                      "title": "TECH Omarchy",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Omarchy.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Omarchy\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":97},\"to\":{\"line\":6,\"ch\":97}}}"
-                    },
-                    {
-                      "title": "TECH Linux index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":8},\"to\":{\"line\":24,\"ch\":8}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "WR Bit.it TODO",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Bit.it TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Bit.it TODO\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR Church ERD",
-                      "icon": "lucide-layout-dashboard",
-                      "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"WR Church ERD.canvas\",\"viewState\":{\"x\":-169.91050520958748,\"y\":-121.8704539022516,\"zoom\":-0.8683946035064568}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"WR Church ERD\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "PG Character Encoding",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Character Encoding.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Character Encoding\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "TECH CLI Tools and Commands",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":0},\"to\":{\"line\":50,\"ch\":0}},\"scroll\":35.929590570719604}"
-                    },
-                    {
-                      "title": "TECH Linux index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "_0001 Technology MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
-                    },
-                    {
-                      "title": "PG big-o of arrays and objects",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG big-o of arrays and objects.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG big-o of arrays and objects\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":12},\"to\":{\"line\":12,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "PG Bash index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Bash scripting cheatsheet",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash scripting cheatsheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash scripting cheatsheet\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG merge quick radix sort",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG merge quick radix sort.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG merge quick radix sort\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Lua index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Lua index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Lua index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG big-o notation",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG big-o notation.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG big-o notation\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Alogrithms index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":1},\"to\":{\"line\":9,\"ch\":1}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":12},\"to\":{\"line\":24,\"ch\":12}},\"scroll\":9.362226920366455}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":13},\"to\":{\"line\":12,\"ch\":13}}}"
-                    },
-                    {
-                      "title": "EH AS Academy Initial Findings",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Academy Initial Findings.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Academy Initial Findings\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":39},\"to\":{\"line\":27,\"ch\":39}},\"scroll\":8.100260416666666}"
-                    },
-                    {
-                      "title": "_0001 Technology MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":11},\"to\":{\"line\":2,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "_0001 Technology MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":33},\"to\":{\"line\":23,\"ch\":33}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "WR Overtime And Annuals",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":22},\"to\":{\"line\":11,\"ch\":22}}}"
-                    },
-                    {
-                      "title": "WR Bit.it TODO",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Bit.it TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Bit.it TODO\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":84},\"to\":{\"line\":11,\"ch\":84}}}"
-                    },
-                    {
-                      "title": "PG General Patterns",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG General Patterns.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG General Patterns\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "PG Other index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":15},\"to\":{\"line\":8,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":14},\"to\":{\"line\":16,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":18},\"to\":{\"line\":12,\"ch\":18}}}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":16},\"to\":{\"line\":5,\"ch\":16}}}"
-                    },
-                    {
-                      "title": "PG Other index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":57},\"to\":{\"line\":7,\"ch\":57}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Samuel & Adel/Dream Project.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Dream Project"
-                }
-              },
-              {
-                "id": "d8f24088562debac",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "Graph view",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "WR VA General Notes",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR Overtime And Annuals",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR VA General Notes",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR Projects index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":33},\"to\":{\"line\":19,\"ch\":33}},\"scroll\":4.333333333333333}"
-                    },
-                    {
-                      "title": "WR VA Training guide",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Training guide.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Training guide\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":65},\"to\":{\"line\":7,\"ch\":65}}}"
-                    },
-                    {
-                      "title": "WR VA Operations",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Operations.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Operations\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR VA Training guide",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Training guide.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Training guide\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR Projects index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "EH Hacking Tools",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Hacking Tools.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Hacking Tools\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "EH Ethical Hacking",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":16},\"to\":{\"line\":30,\"ch\":16}},\"scroll\":9.92239336492891}"
-                    },
-                    {
-                      "title": "EH Ethical Hacking index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":18},\"to\":{\"line\":10,\"ch\":18}},\"scroll\":4.333333333333333}"
-                    },
-                    {
-                      "title": "WR VA General Notes",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR Projects index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":30},\"to\":{\"line\":19,\"ch\":30}},\"scroll\":10.543262411347518}"
-                    },
-                    {
-                      "title": "WR VA Databsase schema",
-                      "icon": "excalidraw-icon",
-                      "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"WR VA Databsase schema.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"WR VA Databsase schema\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "PG Lua quick reference",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Lua quick reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Lua quick reference\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "PG Lua index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Lua index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Lua index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":13},\"to\":{\"line\":10,\"ch\":13}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":11},\"to\":{\"line\":23,\"ch\":11}},\"scroll\":4.333333333333333}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":14},\"to\":{\"line\":12,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "_0003 Personal MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":16},\"to\":{\"line\":5,\"ch\":16}}}"
-                    },
-                    {
-                      "title": "PER Important websites",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Important websites.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Important websites\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":38},\"to\":{\"line\":5,\"ch\":38}}}"
-                    },
-                    {
-                      "title": "_0003 Personal MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":5},\"to\":{\"line\":6,\"ch\":5}}}"
-                    },
-                    {
-                      "title": "PER Important websites",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Important websites.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Important websites\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "_0003 Personal MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}}}"
-                    },
-                    {
-                      "title": "bookmarks_11_14_25",
-                      "icon": "code-glyph",
-                      "state": "{\"type\":\"html-view\",\"state\":{\"file\":\"bookmarks_11_14_25.html\"},\"icon\":\"code-glyph\",\"title\":\"bookmarks_11_14_25\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "PER Project ideas index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Project ideas index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Project ideas index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0003 Personal MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":15},\"to\":{\"line\":11,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":12},\"to\":{\"line\":9,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "PG C Cheat Sheet",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C Cheat Sheet\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "PG LSP",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG LSP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG LSP\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":2},\"to\":{\"line\":7,\"ch\":2}},\"scroll\":24.47470238095238}"
-                    },
-                    {
-                      "title": "TECH Bash & zsh Shell Terminal Basics Cheat Sheet",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Bash & zsh Shell Terminal Basics Cheat Sheet\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "PG JS-TS index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG JS-TS index.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG JS-TS index\"}",
-                      "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"scroll\":4.372469635627531}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "title": "PG Basics to Advanced Git Commands",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Basics to Advanced Git Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Basics to Advanced Git Commands\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":2}"
-                    },
-                    {
-                      "title": "CYB Cybersecurity concepts",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":27},\"to\":{\"line\":13,\"ch\":27}},\"scroll\":0.0761904761904762}"
-                    },
-                    {
-                      "title": "TECH Sed Command Cheat Sheet & Quick Reference",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Sed Command Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Sed Command Cheat Sheet & Quick Reference\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":22},\"to\":{\"line\":33,\"ch\":22}},\"scroll\":0.6714285714285714}"
-                    },
-                    {
-                      "title": "TECH CLI Tools and Commands",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":30},\"to\":{\"line\":34,\"ch\":30}},\"scroll\":18.53909952606635}"
-                    },
-                    {
-                      "title": "TECH SSH",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH SSH.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH SSH\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "TECH CLI Tools and Commands",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":165,\"ch\":15},\"to\":{\"line\":165,\"ch\":15}},\"scroll\":147.63210900473933}"
-                    },
-                    {
-                      "title": "EH Exploitation",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Exploitation.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Exploitation\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":65},\"to\":{\"line\":15,\"ch\":65}},\"scroll\":0.7523809523809524}"
-                    },
-                    {
-                      "title": "TECH CLI Tools and Commands",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":18},\"to\":{\"line\":53,\"ch\":18}},\"scroll\":36.761067708333336}"
-                    },
-                    {
-                      "title": "NET Common ports and protocols",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Common ports and protocols.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Common ports and protocols\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":49},\"to\":{\"line\":126,\"ch\":49}},\"scroll\":118.67063197026022}"
-                    },
-                    {
-                      "title": "TECH CLI Tools and Commands",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "TECH Linux index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":10},\"to\":{\"line\":8,\"ch\":10}}}"
-                    },
-                    {
-                      "title": "_0001 Technology MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":10},\"to\":{\"line\":7,\"ch\":10}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "WR Overtime And Annuals.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "WR Overtime And Annuals"
-                }
-              },
-              {
-                "id": "362fe28bf16f49d7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "PG C index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}}}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":9},\"to\":{\"line\":11,\"ch\":9}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":12},\"to\":{\"line\":12,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "Release Notes 1.10.6",
-                      "icon": "lucide-book-up",
-                      "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.10.6\"},\"icon\":\"lucide-book-up\",\"title\":\"Release Notes 1.10.6\"}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "PG C compilation flow.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "PG C compilation flow"
-                }
-              },
-              {
-                "id": "fe43c0341e471d2d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "TECH Linux index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":11},\"to\":{\"line\":8,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "_0001 Technology MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}}}"
-                    },
-                    {
-                      "title": "PG C compilation flow",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C compilation flow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C compilation flow\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":15},\"to\":{\"line\":6,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "PG C index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":14},\"to\":{\"line\":12,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "NET Network Tunneling Guide Generated By Claude",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Network Tunneling Guide Generated By Claude.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Network Tunneling Guide Generated By Claude\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":15},\"to\":{\"line\":5,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "NET Components of a URL",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Components of a URL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Components of a URL\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":156},\"to\":{\"line\":46,\"ch\":156}},\"scroll\":30.662109375}"
-                    },
-                    {
-                      "title": "NET Common ports and protocols",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Common ports and protocols.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Common ports and protocols\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":193,\"ch\":6},\"to\":{\"line\":193,\"ch\":6}},\"scroll\":177.68765743073047}"
-                    },
-                    {
-                      "title": "CYB Cybersecurity concepts",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":5},\"to\":{\"line\":69,\"ch\":5}},\"scroll\":69.28085106382979}"
-                    },
-                    {
-                      "title": "WR Overtime And Annuals",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR General Index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":15},\"to\":{\"line\":8,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "_0002 Work MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":13},\"to\":{\"line\":9,\"ch\":13}}}"
-                    },
-                    {
-                      "title": "WR Church TODO",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Church TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Church TODO\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":52},\"to\":{\"line\":9,\"ch\":52}}}"
-                    },
-                    {
-                      "title": "WR Projects index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":13},\"to\":{\"line\":15,\"ch\":13}}}"
-                    },
-                    {
-                      "title": "WR Church Requirements",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Church Requirements.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Church Requirements\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":70},\"to\":{\"line\":8,\"ch\":70}}}"
-                    },
-                    {
-                      "title": "WR Church Extra",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Church Extra.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Church Extra\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR Claude Personalities",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Claude Personalities.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Claude Personalities\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "WR Church Tasks",
-                      "icon": "lucide-trello",
-                      "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"WR Church Tasks.md\",\"kanbanViewState\":{\"kanban-plugin\":\"board\",\"list-collapse\":[false,false,false]}},\"icon\":\"lucide-trello\",\"title\":\"WR Church Tasks\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "WR Claude Personalities",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Claude Personalities.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Claude Personalities\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "WR Church Requirements",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Church Requirements.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Church Requirements\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.333333333333333}"
-                    },
-                    {
-                      "title": "CLI Tool",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/CLI Tool.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CLI Tool\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "The beginning of a beautiful journey",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/The beginning of a beautiful journey.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"The beginning of a beautiful journey\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "CLI Tool",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/CLI Tool.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CLI Tool\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":3},\"to\":{\"line\":15,\"ch\":3}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "The beginning of a beautiful journey",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/The beginning of a beautiful journey.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"The beginning of a beautiful journey\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":1.80859375}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "EH AS Academy Flow",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Academy Flow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Academy Flow\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":6},\"to\":{\"line\":4,\"ch\":6}}}"
-                    },
-                    {
-                      "title": "CYB Cybersecurity concepts",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}}}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0005 Cybersecurity MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 Cybersecurity MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0004 Sciences MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0003 Personal MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0002 Work MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0001 Technology MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TECH CLI Tools and Commands.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "TECH CLI Tools and Commands"
-                }
-              },
-              {
-                "id": "d45fdb76f365efc3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "WR Compass",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Compass.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Compass\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":1},\"to\":{\"line\":5,\"ch\":1}}}"
-                    },
-                    {
-                      "title": "WR Bid.it Design",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Bid.it Design.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Bid.it Design\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":10},\"to\":{\"line\":3,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "EH Ethical Hacking",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":4},\"to\":{\"line\":2,\"ch\":4}}}"
-                    },
-                    {
-                      "title": "EH AS Dev index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Dev index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Dev index\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "Graph view",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "PG R index",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R index.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R index\"}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "_0006 Programming MOC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":9},\"to\":{\"line\":21,\"ch\":9}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "_0000 Home",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":14},\"to\":{\"line\":12,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "Graph view",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "graph",
-                  "state": {},
+            "id": "2a32697fc196b962",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "Graph view",
                   "icon": "lucide-git-fork",
-                  "title": "Graph view"
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG C index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":18},\"to\":{\"line\":9,\"ch\":18}}}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}}}"
+                },
+                {
+                  "title": "PG trees and tree traversal",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG trees and tree traversal.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG trees and tree traversal\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Alogrithms index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":20},\"to\":{\"line\":22,\"ch\":20}}}"
+                },
+                {
+                  "title": "PG heaps",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG heaps.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG heaps\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":106},\"to\":{\"line\":5,\"ch\":106}}}"
+                },
+                {
+                  "title": "PG Alogrithms index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":9},\"to\":{\"line\":23,\"ch\":9}}}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":15},\"to\":{\"line\":25,\"ch\":15}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
-              }
-            ],
-            "currentTab": 1
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Memory management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Memory management"
+            }
           },
           {
-            "id": "b73d1de3b6f951a3",
-            "type": "split",
-            "dimension": 19.45525291828794,
+            "id": "241156d802b90823",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8e63b7d754490c17",
+        "type": "split",
+        "dimension": 25.837628865979383,
+        "children": [
+          {
+            "id": "5345fe004c76117d",
+            "type": "tabs",
+            "dimension": 65.53398058252428,
             "children": [
               {
-                "id": "245a2b3bd968e52f",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "972ff7b260cbaea7",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "localgraph",
-                      "state": {
-                        "file": "WR Overtime And Annuals.md",
-                        "options": {
-                          "collapse-filter": false,
-                          "search": "",
-                          "localJumps": 1,
-                          "localBacklinks": true,
-                          "localForelinks": true,
-                          "localInterlinks": false,
-                          "showTags": false,
-                          "showAttachments": false,
-                          "hideUnresolved": false,
-                          "collapse-color-groups": true,
-                          "colorGroups": [
-                            {
-                              "query": "tag:#MOC  ",
-                              "color": {
-                                "a": 1,
-                                "rgb": 14075019
-                              }
-                            },
-                            {
-                              "query": "file:/^EH/ -tag:#Index",
-                              "color": {
-                                "a": 1,
-                                "rgb": 13638432
-                              }
-                            },
-                            {
-                              "query": "file:/^PER/ -tag:#Index",
-                              "color": {
-                                "a": 1,
-                                "rgb": 5340873
-                              }
-                            },
-                            {
-                              "query": "file:/^PG/ -tag:#Index",
-                              "color": {
-                                "a": 1,
-                                "rgb": 2596791
-                              }
-                            },
-                            {
-                              "query": "file:/^WR/ -tag:#Index",
-                              "color": {
-                                "a": 1,
-                                "rgb": 9219541
-                              }
-                            },
-                            {
-                              "query": "tag:#Index  ",
-                              "color": {
-                                "a": 1,
-                                "rgb": 11621088
-                              }
-                            },
-                            {
-                              "query": "file:/^SC/ -tag:#Index",
-                              "color": {
-                                "a": 1,
-                                "rgb": 32071
-                              }
-                            },
-                            {
-                              "query": "file:/^TECH/-tag:#Index",
-                              "color": {
-                                "a": 1,
-                                "rgb": 9550649
-                              }
-                            },
-                            {
-                              "query": "file:/^NET/-tag:#Index",
-                              "color": {
-                                "a": 1,
-                                "rgb": 7720130
-                              }
-                            },
-                            {
-                              "query": "file:/^CYB/-tag:#Index",
-                              "color": {
-                                "a": 1,
-                                "rgb": 2835610
-                              }
-                            }
-                          ],
-                          "collapse-display": true,
-                          "showArrow": false,
-                          "textFadeMultiplier": 0,
-                          "nodeSizeMultiplier": 1,
-                          "lineSizeMultiplier": 1,
-                          "collapse-forces": true,
-                          "centerStrength": 0.518713248970312,
-                          "repelStrength": 10,
-                          "linkStrength": 1,
-                          "linkDistance": 250,
-                          "scale": 0.13348388671875,
-                          "close": true
-                        }
-                      },
-                      "icon": "lucide-git-fork",
-                      "title": "Graph of WR Overtime And Annuals"
+                "id": "8db8e8362861b018",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
                     }
-                  }
-                ]
-              },
-              {
-                "id": "89889428c3aa6067",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "bf2098ea8da69888",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
+                  ]
+                },
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "PG Memory management.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": false,
+                      "colorGroups": [
                         {
-                          "state": "{}",
-                          "eState": "{}"
+                          "query": "tag:#MOC  ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14075019
+                          }
+                        },
+                        {
+                          "query": "file:/^EH/ -tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 13638432
+                          }
+                        },
+                        {
+                          "query": "file:/^PER/ -tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 5340873
+                          }
+                        },
+                        {
+                          "query": "file:/^PG/ -tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2596791
+                          }
+                        },
+                        {
+                          "query": "file:/^WR/ -tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 9219541
+                          }
+                        },
+                        {
+                          "query": "tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 11621088
+                          }
+                        },
+                        {
+                          "query": "file:/^SC/ -tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 32071
+                          }
+                        },
+                        {
+                          "query": "file:/^TECH/-tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 9550649
+                          }
+                        },
+                        {
+                          "query": "file:/^NET/-tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 7457990
+                          }
+                        },
+                        {
+                          "query": "file:/^CYB/-tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 2835610
+                          }
                         }
-                      ]
-                    },
-                    "state": {
-                      "type": "calendar",
-                      "state": {},
-                      "icon": "calendar-with-checkmark",
-                      "title": "Calendar"
+                      ],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.16128327524498295,
+                      "close": true
                     }
-                  }
-                ]
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of PG Memory management"
+                }
               }
-            ],
-            "direction": "horizontal"
+            ]
+          },
+          {
+            "id": "6d28c791c403057c",
+            "type": "tabs",
+            "dimension": 34.46601941747573,
+            "children": [
+              {
+                "id": "9b48b59a18d7e0d2",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ]
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6240a4ae230d56f3",
+    "id": "45d0b7e359d7ca4e",
     "type": "split",
     "children": [
       {
-        "id": "95755c985188ec3c",
+        "id": "261f056ccc8cc030",
         "type": "tabs",
         "children": [
           {
-            "id": "57b6d59e9e915d00",
+            "id": "3197a52ebbcc7fda",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1153,7 +298,7 @@
             }
           },
           {
-            "id": "6db47695d59257fe",
+            "id": "4fe5d8850d22c578",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1169,9 +314,9 @@
               "state": {
                 "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -1179,7 +324,7 @@
             }
           },
           {
-            "id": "0b8746ecdf039535",
+            "id": "8a5183638eea1d8b",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1201,18 +346,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 300
   },
   "right": {
-    "id": "8e99a47d8558ad1a",
+    "id": "abf9a2f144801ffd",
     "type": "split",
     "children": [
       {
-        "id": "0f1145dd62bf78e5",
+        "id": "a3b2f69598f79aea",
         "type": "tabs",
         "children": [
           {
-            "id": "a5b32f4a2a7510dd",
+            "id": "fa579ab956e8ec30",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1226,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PG General Patterns.md",
+                "file": "_0000 Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1236,11 +381,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PG General Patterns"
+              "title": "Backlinks for _0000 Home"
             }
           },
           {
-            "id": "69e6d9d5e32b70f1",
+            "id": "7a31a1b53cada5ff",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1254,16 +399,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PG General Patterns.md",
+                "file": "_0000 Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PG General Patterns"
+              "title": "Outgoing links from _0000 Home"
             }
           },
           {
-            "id": "fb6ff8f50085306f",
+            "id": "300f2f65a1dc3a57",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1279,7 +424,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -1287,7 +432,7 @@
             }
           },
           {
-            "id": "3b507676b4673b40",
+            "id": "153eb0ec036fe142",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1310,7 +455,7 @@
             }
           },
           {
-            "id": "8491d81c9571956a",
+            "id": "b4686196e4d86fa4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1324,27 +469,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WR VA General Notes.md",
+                "file": "_0000 Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WR VA General Notes"
+              "title": "Outline of _0000 Home"
             }
           },
           {
-            "id": "d74116742cf99d73",
+            "id": "563e5529cdb39fec",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "git-view",
               "state": {},
@@ -1357,7 +493,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 639.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1377,57 +513,17 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "d8f24088562debac",
+  "active": "2a32697fc196b962",
   "lastOpenFiles": [
-    "WR Overtime And Annuals.md",
-    "_0000 Home.md",
-    "_0002 Work MOC.md",
-    "_0006 Programming MOC.md",
+    "PG Memory management.md",
     "PG C index.md",
-    "PG C Cheat Sheet.md",
-    "EH AS kioptrix Information Disclosure.md",
-    "EH Badchars.md",
-    "WR Compass.md",
-    "WR Bid.it Design.md",
-    "EH Ethical Hacking.md",
-    "EH AS Dev index.md",
-    "PG R index.md",
-    "PG Data Manipulation with dplyr in R Cheat Sheet.md",
-    "PG R Datascience.md",
-    "WR Compass permissions canvas.canvas",
-    "WR Projects index.md",
-    "WR VA Databsase schema.md",
-    "WR VA Devops.md",
-    "TECH CLI Tools and Commands.md",
-    "excalibrain.md",
-    "Excalidraw/Drawing 2025-10-14 16.39.20.excalidraw.md",
-    "Excalidraw/Drawing 2025-11-22 09.38.54.excalidraw.md",
     "PG C compilation flow.md",
-    "WR VA General Notes.md",
-    "NET Components of a URL.md",
-    "Samuel & Adel/CLI Tool.md",
-    "bookmarks_11_14_25.html",
-    "assets/ColorLargeTypePeriodicTable.png",
-    "assets/Compilation-Process-in-C.png",
-    "assets/proxy-image.jpeg",
-    "assets/proxy-image.png",
-    "assets/SQLJoins.jpeg",
-    "Samuel & Adel",
-    "WR Church ERD.canvas",
-    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
-    "WR Bid.it Schema.canvas",
-    "WR VA BL Schema attempt 1.canvas",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele.zip",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/29-pdf-slides-dynamic-programming.pdf",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/26-27-28-pdf-slides-graph-traversal-dijkstra.pdf",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/25-pdf-slides-hash-tables.pdf",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/24-pdf-slides-heaps.pdf",
+    "_0006 Programming MOC.md",
+    "PG trees and tree traversal.md",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/22-23-pdf-slides-trees-and-tree-traversal.pdf",
-    "assets/Pasted image 20251018173629.png",
-    "assets/electron_config.jpg",
-    "electron_config.jpg",
-    "ColorLargeTypePeriodicTable.png",
-    "Biochemistry/Attachments/Structures 8.png"
+    "PG Alogrithms index.md",
+    "PG heaps.md",
+    "_0000 Home.md",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md"
   ]
 }
