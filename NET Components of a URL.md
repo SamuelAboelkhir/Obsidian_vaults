@@ -1,9 +1,9 @@
 ---
 tags:
 - NET
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[NET Networking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[NET Networking index|Back to index]]
 - Acquired from [https://www.geeksforgeeks.org/computer-networks/components-of-a-url/](https://www.geeksforgeeks.org/computer-networks/components-of-a-url/)
 # Components of a URL
 If you are SpongeBob then your URL is Bikini Bottom on the floor of the Pacific Ocean but if you’re not, your URL is definitely the address of the house you live in! URL stands for [**Uniform Resource Locator**](https://www.geeksforgeeks.org/blogs/url-full-form/)**.** For a website, a URL is basically where the website lives online and it helps visitors to identify the site easily as well as get an idea about its contents.

@@ -1,7 +1,7 @@
 ---
 tags:
 - NET
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[NET Networking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[NET Networking index|Back to index]]
 ![Shared Responsibility](assets/proxy-image.png)

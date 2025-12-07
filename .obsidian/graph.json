@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
-  "collapse-color-groups": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#MOC  ",
@@ -76,18 +76,25 @@
         "a": 1,
         "rgb": 2835610
       }
+    },
+    {
+      "query": "file:/^IT/-tag:#Index",
+      "color": {
+        "a": 1,
+        "rgb": 16774932
+      }
     }
   ],
   "collapse-display": true,
-  "showArrow": true,
-  "textFadeMultiplier": -2,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0,
+  "centerStrength": 0.735595703125,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 197,
-  "scale": 0.0889892578125,
+  "linkDistance": 30,
+  "scale": 0.1634837056722049,
   "close": true
 }

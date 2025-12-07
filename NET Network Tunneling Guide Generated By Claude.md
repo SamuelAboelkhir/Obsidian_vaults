@@ -1,9 +1,9 @@
 ---
 tags: 
 - NET
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[NET Networking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[NET Networking index|Back to index]]
 Network Tunneling and VPN Technologies: A Complete Guide
 1. GRE - Generic Routing Encapsulation
 GRE is the foundation of network tunneling technology. It creates a virtual tunnel between two communicating devices, making them appear as if they were directly connected even across complex networks.

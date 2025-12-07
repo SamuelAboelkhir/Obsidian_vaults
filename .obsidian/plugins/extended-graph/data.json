@@ -5,13 +5,13 @@
       "tags": false,
       "properties": false,
       "property-key": false,
-      "links": false,
+      "links": true,
       "linksSameColorAsNode": false,
       "folders": false,
       "imagesFromProperty": false,
       "imagesFromEmbeds": false,
       "imagesForAttachments": false,
-      "focus": false,
+      "focus": true,
       "shapes": false,
       "elements-stats": false,
       "names": false,
@@ -42,7 +42,13 @@
   "interactiveSettings": {
     "tag": {
       "colormap": "hsv",
-      "colors": [],
+      "colors": [
+        {
+          "type": "",
+          "color": "#ffff00",
+          "recursive": false
+        }
+      ],
       "unselected": [],
       "excludeRegex": {
         "regex": "",
@@ -166,7 +172,7 @@
     "textFadeMultiplier": 0,
     "nodeSizeMultiplier": 1,
     "lineSizeMultiplier": 1,
-    "collapse-forces": true,
+    "collapse-forces": false,
     "centerStrength": 0.518713248970312,
     "repelStrength": 10,
     "linkStrength": 1,
@@ -174,31 +180,98 @@
     "scale": 0.16128327524498295,
     "close": true
   },
-  "openInNewTab": false,
+  "openInNewTab": true,
   "canonicalizePropertiesWithDataview": true,
   "states": [
     {
       "id": "default-vault",
       "name": "Default state",
       "engineOptions": {
-        "colorGroups": [],
+        "colorGroups": [
+          {
+            "query": "tag:#MOC  ",
+            "color": {
+              "a": 1,
+              "rgb": 14075019
+            }
+          },
+          {
+            "query": "file:/^EH/ -tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 13638432
+            }
+          },
+          {
+            "query": "file:/^PER/ -tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 5340873
+            }
+          },
+          {
+            "query": "file:/^PG/ -tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 2596791
+            }
+          },
+          {
+            "query": "file:/^WR/ -tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 9219541
+            }
+          },
+          {
+            "query": "tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 11621088
+            }
+          },
+          {
+            "query": "file:/^SC/ -tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 32071
+            }
+          },
+          {
+            "query": "file:/^TECH/-tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 9550649
+            }
+          },
+          {
+            "query": "file:/^NET/-tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 7457990
+            }
+          },
+          {
+            "query": "file:/^CYB/-tag:#Index",
+            "color": {
+              "a": 1,
+              "rgb": 2835610
+            }
+          }
+        ],
         "search": "",
         "hideUnresolved": false,
         "showAttachments": false,
         "showOrphans": true,
         "showTags": false,
-        "localBacklinks": true,
-        "localForelinks": true,
-        "localInterlinks": false,
-        "localJumps": 1,
         "lineSizeMultiplier": 1,
         "nodeSizeMultiplier": 1,
         "showArrow": false,
         "textFadeMultiplier": 0,
-        "centerStrength": 0.5187132489703118,
-        "linkDistance": 250,
+        "centerStrength": 0,
+        "linkDistance": 30,
         "linkStrength": 1,
-        "repelStrength": 10
+        "repelStrength": 9.55403645833333
       },
       "toggleTypes": {
         "tag": [],
@@ -218,8 +291,8 @@
     }
   ],
   "startingStateID": "default-vault",
-  "syncDefaultState": false,
-  "saveConfigsWithState": false,
+  "syncDefaultState": true,
+  "saveConfigsWithState": true,
   "customColorMaps": {},
   "imageProperties": [
     "image"
@@ -244,9 +317,9 @@
   "recomputeStatsOnGraphChange": false,
   "zoomFactor": 2,
   "focusScaleFactor": 1.8,
-  "highlightOpenNodes": false,
-  "highlightSearchResults": false,
-  "maxNodes": 20,
+  "highlightOpenNodes": true,
+  "highlightSearchResults": true,
+  "maxNodes": 500,
   "delay": 500,
   "revertAction": false,
   "enableCSS": false,
@@ -393,8 +466,8 @@
   "layersLevels": {},
   "defaultLevelForLayers": 0,
   "horizontalLegend": false,
-  "useRadialMenu": false,
-  "radialMenuModifier": "Shift",
+  "useRadialMenu": true,
+  "radialMenuModifier": "Ctrl",
   "pinNodeModifier": "Alt",
   "useLeftClickToSelect": true,
   "selectNodeModifier": "Shift",
@@ -438,5 +511,25 @@
     "useModifiedNames": true,
     "showIcons": false
   },
-  "multipleNodesData": {}
+  "multipleNodesData": {
+    "shapeData": {
+      "type": "grid",
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "step": 100
+    },
+    "queryData": {
+      "combinationLogic": "AND",
+      "rules": [
+        {
+          "source": "all",
+          "property": "",
+          "value": "",
+          "logic": ""
+        }
+      ]
+    }
+  }
 }

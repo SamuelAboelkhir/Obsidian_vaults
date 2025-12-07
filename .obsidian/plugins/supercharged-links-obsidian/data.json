@@ -132,6 +132,18 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "MOC",
+      "value": "IT",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "f193-ad63",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }

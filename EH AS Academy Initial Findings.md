@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Findings/Initial
 - EH
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS Academy index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH AS Academy index|Back to index]]
 - port21 ftp version
 	- [+] 192.168.57.9:21       - FTP Banner: '220 (vsFTPd 3.0.3)\x0d\x0a'
 - port80
