@@ -6,7 +6,7 @@ tags:
 - EH
 MOC: Technology
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
 # All Findings
 ## Findings
 ## Ports

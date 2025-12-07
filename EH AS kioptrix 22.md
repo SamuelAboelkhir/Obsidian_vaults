@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Port
 - EH
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 OpenSSH 2.9p2 (protocol 1.99)
 
 **Refer To:**

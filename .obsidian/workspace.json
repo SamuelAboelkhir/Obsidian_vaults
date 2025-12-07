@@ -6,23 +6,191 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 74.16237113402062,
+        "dimension": 75.70876288659794,
         "children": [
           {
             "id": "2a32697fc196b962",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "IT index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "_0005 IT MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
+                },
+                {
+                  "title": "CYB Cybersecurity concepts",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":41},\"to\":{\"line\":5,\"ch\":41}}}"
+                },
+                {
+                  "title": "CYB Cybersecurity index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":18},\"to\":{\"line\":7,\"ch\":18}}}"
+                },
+                {
+                  "title": "_0005 IT MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}}}"
+                },
+                {
+                  "title": "IT base conversion",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT base conversion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT base conversion\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":49},\"to\":{\"line\":5,\"ch\":49}}}"
+                },
+                {
+                  "title": "WR Claude Personalities",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Claude Personalities.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Claude Personalities\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR Code Review Flow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Code Review Flow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Code Review Flow\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR Overtime And Annuals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR General Index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "IT base conversion",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT base conversion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT base conversion\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":8},\"to\":{\"line\":2,\"ch\":8}}}"
+                },
+                {
+                  "title": "IT index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                },
+                {
+                  "title": "_0005 IT MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":9},\"to\":{\"line\":6,\"ch\":9}},\"scroll\":0}"
+                },
+                {
+                  "title": "NET Networking index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Networking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Networking index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":57},\"to\":{\"line\":6,\"ch\":57}}}"
+                },
+                {
+                  "title": "_0005 IT MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 Cybersecurity MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":21},\"to\":{\"line\":6,\"ch\":21}}}"
+                },
+                {
+                  "title": "CYB Cybersecurity concepts",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity concepts.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity concepts\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Database Grouping",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Database Grouping.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Database Grouping\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Database Grouping 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Database Grouping.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database Grouping 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Database Grouping",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Database Grouping.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Database Grouping\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "AS-IS POD",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/AS-IS POD.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"AS-IS POD\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "AS-Is Facturation",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/AS-Is Facturation.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"AS-Is Facturation\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "AS-IS POD",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/AS-IS POD.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"AS-IS POD\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "AS-IS Digitization of PODs",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/AS-IS Digitization of PODs.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"AS-IS Digitization of PODs\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "AS-IS POD",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/AS-IS POD.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"AS-IS POD\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Database Grouping",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Database Grouping.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Database Grouping\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Database Grouping",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Database Grouping.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Database Grouping 1\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Database Grouping",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Database Grouping.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Database Grouping\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "WR Overtime And Annuals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Memory management",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Memory management.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Memory management\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "PG C index",
@@ -77,16 +245,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Memory management.md",
+                "file": "IT base conversion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Memory management"
+              "title": "IT base conversion"
             }
           },
           {
-            "id": "241156d802b90823",
+            "id": "be9c1d989693d604",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -104,12 +272,13 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 25.837628865979383,
+        "dimension": 24.29123711340206,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -131,7 +300,6 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG Memory management.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -213,6 +381,13 @@
                             "a": 1,
                             "rgb": 2835610
                           }
+                        },
+                        {
+                          "query": "file:/^IT/-tag:#Index",
+                          "color": {
+                            "a": 1,
+                            "rgb": 16774932
+                          }
                         }
                       ],
                       "collapse-display": true,
@@ -220,7 +395,7 @@
                       "textFadeMultiplier": 0,
                       "nodeSizeMultiplier": 1,
                       "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
+                      "collapse-forces": false,
                       "centerStrength": 0.518713248970312,
                       "repelStrength": 10,
                       "linkStrength": 1,
@@ -230,7 +405,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG Memory management"
+                  "title": "Graph view"
                 }
               }
             ]
@@ -312,7 +487,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#General  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -481,6 +656,15 @@
           {
             "id": "563e5529cdb39fec",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "git-view",
               "state": {},
@@ -513,17 +697,44 @@
       "system3-relay:Relay": false
     }
   },
-  "active": "2a32697fc196b962",
+  "active": "be9c1d989693d604",
   "lastOpenFiles": [
-    "PG Memory management.md",
-    "PG C index.md",
-    "PG C compilation flow.md",
-    "_0006 Programming MOC.md",
-    "PG trees and tree traversal.md",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/22-23-pdf-slides-trees-and-tree-traversal.pdf",
-    "PG Alogrithms index.md",
-    "PG heaps.md",
+    "IT base conversion.md",
+    "IT index.md",
+    "_0005 IT MOC.md",
+    "NET Networking index.md",
+    "NET Subnetting guide.md",
+    "sedijvXKQ",
+    "CYB Cybersecurity concepts.md",
+    "CYB Cybersecurity index.md",
+    "EH Ethical Hacking index.md",
+    "assets/sedqcVKfQ",
+    "WR Claude Personalities.md",
+    "WR Code Review Flow.md",
+    "WR Overtime And Annuals.md",
+    "WR General Index.md",
+    "EH AS Assessments index.md",
+    "EH AS kioptrix - level 1 index.md",
+    "EH Flow.md",
+    "TECH CLI Tools and Commands.md",
+    "assets/sedetWzrg",
+    "NET Components of a URL.md",
+    "NET Shared Responsibility Model.md",
+    "NET Network Tunneling Guide Generated By Claude.md",
+    "NET Common ports and protocols.md",
     "_0000 Home.md",
-    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md"
+    "Samuel & Adel/Excalidraw/Database Grouping.md",
+    "01_04_rmarkdown.html",
+    "VA Database Schema V3.md",
+    "Samuel & Adel/Excalidraw/AS-IS POD.md",
+    "Samuel & Adel/Excalidraw/AS-Is Facturation.md",
+    "Samuel & Adel/Excalidraw",
+    "Obsidian_vaults.html",
+    "Compilation-Process-in-C.png",
+    "Pasted image 20251202214548.png",
+    "old_schema.sql",
+    "new_schema.sql",
+    "Overall.dbml",
+    "Enhanced Schema.dbml"
   ]
 }

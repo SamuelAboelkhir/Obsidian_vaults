@@ -1,9 +1,9 @@
 ---
 tags:
 - CYBER
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[CYB Cybersecurity index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[CYB Cybersecurity index|Back to index]]
 # Types of malware
 ## Spyware
 - Designed to spy on everything you do.

@@ -1,9 +1,9 @@
 ---
 tags:
 - EH
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH Ethical Hacking index|Back to index]]
 ### Vulnerable machines
 1. Kioptrix from vulnhub [TCM's kioptrix version](https://drive.google.com/drive/folders/1z923e0icfJADbhgS0Qfaxuez-GJTWvjt)
 	- **Useful For Learning About:**

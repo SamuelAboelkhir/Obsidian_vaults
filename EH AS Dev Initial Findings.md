@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Findings/Initial
 - EH
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS Dev index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH AS Dev index|Back to index]]
 # Ports
 80
 8080

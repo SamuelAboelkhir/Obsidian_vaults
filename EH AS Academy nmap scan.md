@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Scan/Nmap
 - EH
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS Academy index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH AS Academy index|Back to index]]
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-21 13:55 EDT
 Nmap scan report for 192.168.57.9
 Host is up (0.00022s latency).

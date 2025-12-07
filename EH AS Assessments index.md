@@ -3,9 +3,9 @@ tags:
 - Assessment
 - Index
 - EH
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH Ethical Hacking index|Back to index]]
 # Flows kanbans
 [[EH AS Scans kanban]]
 # Linux

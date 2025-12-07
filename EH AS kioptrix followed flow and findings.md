@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Flow
 - EH
-MOC: Cybersecurity
+MOC: IT
 ---
-[[_0000 Home|Home]] | [[_0005 Cybersecurity MOC|Back to Cybersecurity MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
+[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH AS kioptrix - level 1 index|Back to index]]
 1. [[TECH CLI Tools and Commands#nmap|nmap]] scan to detect possibly vulnerable ports 
 	1. Gave us port 139 (smb) and 80/443 (http/https)
 	2. Gave us some OS info

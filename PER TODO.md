@@ -1,9 +1,9 @@
 ---
 tags:
 - TODO
+Navigation: "[[_0000 Home|Home]] | [[_0003 Personal MOC]]"
 MOC: Personal
 ---
-[[_0000 Home|Home]] | [[_0003 Personal MOC]]
 
 - [ ] Finish migrating to ubuntu 24
 	- [x] Get steam working and test REPO
