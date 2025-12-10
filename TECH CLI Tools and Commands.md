@@ -99,6 +99,8 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - 
 - `ln`: Creates links between files
 	- `ln -s /home/file1 /home/Documents/link-to-file1`
+- `pandoc`: General markup converter with multiple different format options
+- `glow`: TUI markup renderer
 - #### Back to top: [[#Links]]
 ---
 ### System management and monitoring
@@ -166,6 +168,7 @@ The count parameter determines how many blocks to copy.
 - [[TECH SSH |ssh]]
 - `env`: Shows the environment variables on the shell for the current session only
 - `set`: Shows the shell's local variables
+- `sysbench`: Scriptable multi-threaded benchmark tool for databases and systems
 ---
 ### Networking commands and tools
 
