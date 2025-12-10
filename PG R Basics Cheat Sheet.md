@@ -307,4 +307,4 @@ df %>%
     summarise(total = sum(x))
 ```
 
-![[PG base-r-cheat-sheet.pdf]]
+![[PG base-r-cheat-sheet.pdf|#height=200]]
