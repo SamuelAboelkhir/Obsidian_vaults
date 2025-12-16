@@ -6,7 +6,7 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 75.70876288659794,
+        "dimension": 86.94516971279373,
         "children": [
           {
             "id": "59ad5ca75470100d",
@@ -17,6 +17,72 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "TECH CLI Tools and Commands",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "TECH Omarchy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Omarchy.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Omarchy\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Python general",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python general.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python general\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR Overtime And Annuals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Database Grouping",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Database Grouping.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Database Grouping\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Documents life cylce",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Documents life cylce.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Documents life cylce\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Database Grouping",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/Database Grouping.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Database Grouping\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "VA Probill lifecycle",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Samuel & Adel/Excalidraw/VA Probill lifecycle.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"VA Probill lifecycle\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR Compass Access Control planning",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Compass Access Control planning.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Compass Access Control planning\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR Overtime And Annuals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "PG R Basics Cheat Sheet",
@@ -77,12 +143,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR Overtime And Annuals.md",
+                "file": "IT index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR Overtime And Annuals"
+              "title": "IT index"
             }
           }
         ]
@@ -90,7 +156,7 @@
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 24.29123711340206,
+        "dimension": 13.054830287206268,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -112,7 +178,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "WR Overtime And Annuals.md",
+                    "file": "IT index.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -218,7 +284,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of WR Overtime And Annuals"
+                  "title": "Graph of IT index"
                 }
               }
             ]
@@ -513,6 +579,16 @@
   },
   "active": "59ad5ca75470100d",
   "lastOpenFiles": [
+    "TECH CLI Tools and Commands.md",
+    "TECH Omarchy.md",
+    "PG Python general.md",
+    "WR Overtime And Annuals.md",
+    "Samuel & Adel/Excalidraw/Database Grouping.md",
+    "Samuel & Adel/Excalidraw/Documents life cylce.md",
+    "Samuel & Adel/Excalidraw/VA Probill lifecycle.md",
+    "WR VA General Notes.md",
+    "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md",
+    "WR Compass Access Control planning.md",
     "PG R Basics Cheat Sheet.md",
     "PG R index.md",
     "PG Text Data In R Cheat Sheet.md",
@@ -524,27 +600,17 @@
     "Pasted image 20251208194352.png",
     "html/api_planning_guide.html",
     "html/api_first_design.html",
-    "Samuel & Adel/Excalidraw/VA Probill lifecycle.md",
-    "TECH CLI Tools and Commands.md",
     "Samuel & Adel/Excalidraw/VA Databsase schema V2.md",
-    "Samuel & Adel/Excalidraw/Documents life cylce.md",
     "Samuel & Adel/Excalidraw/To-Be Invoicing.md",
-    "Samuel & Adel/Excalidraw/Database Grouping.md",
     "PG C My general notes dump.md",
     "richtext_converted_to_markdown.md",
     "WR Bid.it Schema.canvas",
     "Va diagnostic report outline.txt",
     "WR Bid.it Design.md",
-    "WR Overtime And Annuals.md",
     "IT base conversion.md",
     "IT index.md",
     "_0005 IT MOC.md",
     "NET Networking index.md",
-    "_0000 Home.md",
-    "PG Python index.md",
-    "PG C index.md",
-    "PG Memory management.md",
-    "_0006 Programming MOC.md",
     "sedijvXKQ",
     "assets/sedqcVKfQ",
     "assets/sedetWzrg",
