@@ -12,8 +12,14 @@
             "id": "59ad5ca75470100d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -592,8 +598,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -616,6 +621,7 @@
   },
   "active": "59ad5ca75470100d",
   "lastOpenFiles": [
+    "WR Overtime And Annuals.md",
     "WR VA General Notes.md",
     "WR VA Devops.md",
     "WR VA Databsase schema.md",
@@ -625,7 +631,6 @@
     "TECH CLI Tools and Commands.md",
     "TECH Omarchy.md",
     "PG Python general.md",
-    "WR Overtime And Annuals.md",
     "Samuel & Adel/Excalidraw/Database Grouping.md",
     "Samuel & Adel/Excalidraw/Documents life cylce.md",
     "Samuel & Adel/Excalidraw/VA Probill lifecycle.md",
