@@ -34,6 +34,8 @@ MOC: Technology
 - vipe: pipe stdin into the text editor, and save quit to pipe the output to stdout.
 - `sudo update-alternatives --config x-terminal-emulator`: Change default terminal.
 - `chsh -s /bin/${shell}`: Replace ${shell} with the shell you want to change the default shell.
+- `tinyxxd`: Does a pretty hexdump
+- `hexdump`: Does a normal hexdump (the hex is split into groups of 4 and the first 2 and last 2 digits in each group are swapped compared to tinyxxd)
 ---
 ### File operations
 - `cat`: prints file content to stdout
