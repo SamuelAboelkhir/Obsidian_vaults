@@ -19,6 +19,42 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR VA Devops",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Devops.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Devops\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR VA Databsase schema",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"WR VA Databsase schema.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"WR VA Databsase schema\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "NET Common ports and protocols",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Common ports and protocols.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Common ports and protocols\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "NET Networking index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Networking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Networking index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "IT index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "TECH CLI Tools and Commands",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
@@ -143,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT index.md",
+                "file": "WR Overtime And Annuals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IT index"
+              "title": "WR Overtime And Annuals"
             }
           }
         ]
@@ -178,7 +214,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "IT index.md",
+                    "file": "WR Overtime And Annuals.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -284,7 +320,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of IT index"
+                  "title": "Graph of WR Overtime And Annuals"
                 }
               }
             ]
@@ -556,7 +592,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -579,6 +616,12 @@
   },
   "active": "59ad5ca75470100d",
   "lastOpenFiles": [
+    "WR VA General Notes.md",
+    "WR VA Devops.md",
+    "WR VA Databsase schema.md",
+    "NET Common ports and protocols.md",
+    "NET Networking index.md",
+    "IT index.md",
     "TECH CLI Tools and Commands.md",
     "TECH Omarchy.md",
     "PG Python general.md",
@@ -586,7 +629,6 @@
     "Samuel & Adel/Excalidraw/Database Grouping.md",
     "Samuel & Adel/Excalidraw/Documents life cylce.md",
     "Samuel & Adel/Excalidraw/VA Probill lifecycle.md",
-    "WR VA General Notes.md",
     "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md",
     "WR Compass Access Control planning.md",
     "PG R Basics Cheat Sheet.md",
@@ -606,11 +648,6 @@
     "richtext_converted_to_markdown.md",
     "WR Bid.it Schema.canvas",
     "Va diagnostic report outline.txt",
-    "WR Bid.it Design.md",
-    "IT base conversion.md",
-    "IT index.md",
-    "_0005 IT MOC.md",
-    "NET Networking index.md",
     "sedijvXKQ",
     "assets/sedqcVKfQ",
     "assets/sedetWzrg",
