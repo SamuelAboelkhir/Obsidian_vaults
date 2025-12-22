@@ -14,7 +14,7 @@ MOC: Programming
 [[PG LSP]]
 ## SQL
 [[PG PostgreSQL Basics Cheat Sheet]]
-[[PG Basics to Advanced Git Commands]]
+[[PG SQL]]
 ## Project management
 [[PG Jira]]
 ## CICD
@@ -24,3 +24,4 @@ MOC: Programming
 [[PG API first design]]
 # Git
 [[PG git]]
+[[PG Basics to Advanced Git Commands]]
