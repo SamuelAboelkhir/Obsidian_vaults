@@ -38,6 +38,9 @@ SELECT * FROM <table>;
 
 -- Multiple fields
 SELECT name, balance FROM users;
+
+-- Selecting a count
+SELECT COUNT(*) FROM employees;
 ```
 #### CREATE
 ```SQL
@@ -68,6 +71,48 @@ ADD COLUMN job_title TEXT;
 
 ALTER TABLE contractors
 DROP COLUMN is_manager;
+```
+#### INSERT
+```SQL
+INSERT INTO employees(id, name, title)
+VALUES (1, 'Allan', 'Engineer');
+```
+#### DELETE
+```SQL
+DELETE FROM employees
+    WHERE id = 251;
+```
+#### UPDATE
+```SQL
+UPDATE employees
+SET job_title = 'Backend Engineer', salary = 150000
+WHERE id = 251;
+```
+# Clauses
+- A clause is a 2nd parameter in the query like WHERE and AS that's used to add conditions to the query or shape the form of the outcome
+#### AS
+```SQL
+SELECT employee_id AS id, employee_name AS name
+FROM employees;
+```
+#### WHERE
+- Doesn't need a specific example as it's the most used clause and will be shown in many of the examples in this note file
+#### BETWEEN
+```SQL
+SELECT employee_name, salary
+FROM employees
+WHERE salary BETWEEN 30000 AND 60000;
+
+SELECT product_name, quantity
+FROM products
+WHERE quantity NOT BETWEEN 20 AND 100;
+```
+#### Functions (IIF)
+```SQL
+-- The below example is like a ternary conditional
+SELECT quantity,
+    IIF(quantity < 10, 'Order more', 'In Stock') AS directive
+    FROM products;
 ```
 # Migrations
 - A migration alters the structure of the database as a whole, and can be considered similar to a git commit
@@ -123,3 +168,9 @@ CREATE TABLE transactions (
 	balance - INTEGER - NOT NULL
 );
 ```
+# ORM
+- Object-Relational Mapping (ORMs) allow you to perform CRUD operations on a database using a traditional programming language instead of SQL.
+- They come in the form of framworks or libraries that you use in your backend, and a good example would be [[PG TypeORM |TypeORM]]
+- ORMs map database records to in-memory objects
+- ORMs trade control for simplicity, and tend to limit you to whatever SQL the ORM is capable of generating and whatever features it provides
+- It's also harder to debug with ORMs since you'll need to go through the documentation and framework/library's code to figure out what went wrong with the generated SQL
