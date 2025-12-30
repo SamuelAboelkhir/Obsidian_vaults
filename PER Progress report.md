@@ -5,16 +5,7 @@ MOC: Personal
 ---
 [[_0000 Home|Home]] | [[_0003 Personal MOC]]
 # Work
-#### compass
-- Backend
-	- [x] Enums
-	- [x] Entities
-	- [ ] Services
-	- [ ] Controllers
--  Frontend
-	- [ ] Page
-	- [ ] Types
-	- [ ] Hooks
+
 # Study
 #### Ongoing
 - Languages
@@ -35,12 +26,3 @@ MOC: Personal
 - Rust
 - Zig
 - C++ ?
-# OS migration
-- [x] Configs
-- [x] Nvim
-- [x] Dependencies/bins
-- [ ] Tmux - (Pending sessions migration)
-- [ ] History - (Needs moving)
-- [ ] Gaming
-- [ ] Docker
-- [ ] VirtualBox
