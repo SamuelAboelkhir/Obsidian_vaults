@@ -31,6 +31,7 @@ MOC: Programming
 	- [ElasticSearch](https://www.elastic.co/)
 # Commands
 - The following commands work for all SQL DBs but are mainly meant for SQLite since that's the one used in [boot.dev's](https://www.boot.dev/courses/learn-sql) course
+- Also, if you wrap a string in double quotes `"` SQL will interpret it as a column, at least in some SQL DBs, so probably better to stick to single quotes `'` for strings
 #### SELECT
 ```SQL
 -- All fields
@@ -88,7 +89,7 @@ UPDATE employees
 SET job_title = 'Backend Engineer', salary = 150000
 WHERE id = 251;
 ```
-# Clauses
+# Clauses/Keywords
 - A clause is a 2nd parameter in the query like WHERE and AS that's used to add conditions to the query or shape the form of the outcome
 #### AS
 ```SQL
@@ -113,6 +114,75 @@ WHERE quantity NOT BETWEEN 20 AND 100;
 SELECT quantity,
     IIF(quantity < 10, 'Order more', 'In Stock') AS directive
     FROM products;
+```
+#### DISTINCT
+```SQL
+-- Returns unique values only
+SELECT DISTINCT previous_company
+    FROM employees;
+```
+# Logical Operators
+- Logical operators seem to be only usable after a `WHERE` clause, which does honestly make sense
+- You can also group logical operators with parentheses to specify the order of operations
+#### Comparison Operators
+- = (used for equality, not assignment)
+- <
+- >
+- <=
+- >=
+- <> or !=
+#### AND
+```SQL
+SELECT product_name, quantity, shipment_status
+    FROM products
+    WHERE shipment_status = 'pending'
+    AND quantity BETWEEN 0 and 10;
+```
+#### OR
+```SQL
+SELECT product_name, quantity, shipment_status
+    FROM products
+    WHERE shipment_status = 'out of stock'
+    OR quantity BETWEEN 10 and 100;
+
+-- A more complicated example
+SELECT count(*) AS junior_count 
+  FROM users 
+  WHERE (country_code = 'US' OR country_code = 'CA') AND age < 18;
+```
+#### IN
+- Technically a shorthand for multiple OR conditions that returns true of false based on whether or not the first operand matches and of the values in the 2nd operand
+```SQL
+-- This is
+SELECT product_name, shipment_status
+    FROM products
+    WHERE shipment_status IN ('shipped', 'preparing', 'out of stock');
+
+-- Equivalent to
+SELECT product_name, shipment_status
+    FROM products
+    WHERE shipment_status = 'shipped'
+        OR shipment_status = 'preparing'
+        OR shipment_status = 'out of stock';
+```
+#### LIKE
+- Like is meant for partial matching and is coupled with two other wildcard operators
+	- `%`: matches zero or more characters
+	- `_`: matches a single character
+		- You can add multiple `_` to extend the string length
+		- 'AL___' is a word that's 5 char long starting with AL and then SQL will find all possible combinations for the 3 last chars in the available records
+```SQL
+-- Product starts with banana
+SELECT * FROM products
+WHERE product_name LIKE 'banana%';
+
+-- Product ends with banana
+SELECT * FROM products
+WHERE product_name LIKE '%banana';
+
+-- Product contains banana
+SELECT * FROM products
+WHERE product_name LIKE '%banana%';
 ```
 # Migrations
 - A migration alters the structure of the database as a whole, and can be considered similar to a git commit
