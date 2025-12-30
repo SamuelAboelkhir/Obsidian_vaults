@@ -242,7 +242,7 @@
             }
           },
           {
-            "id": "fdd4bc17ac87f8c4",
+            "id": "3ed03b92c6365702",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -252,40 +252,34 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "PG Other index",
+                  "title": "PG npm-pnpm",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":5},\"to\":{\"line\":28,\"ch\":5}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG npm-pnpm.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG npm-pnpm\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG JS-TS index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG JS-TS index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG JS-TS index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":10},\"to\":{\"line\":21,\"ch\":10}}}"
                 },
                 {
                   "title": "_0006 Programming MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":8},\"to\":{\"line\":17,\"ch\":8}},\"scroll\":0}"
-                },
-                {
-                  "title": "PER Progress report",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Progress report.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Progress report\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":2.6666666666666665}"
-                },
-                {
-                  "title": "PG TypeORM",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG TypeORM.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG TypeORM\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Docker.md",
+                "file": "WR Overtime And Annuals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Docker"
+              "title": "WR Overtime And Annuals"
             }
           },
           {
@@ -335,7 +329,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG Docker.md",
+                    "file": "WR Overtime And Annuals.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -441,7 +435,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG Docker"
+                  "title": "Graph of WR Overtime And Annuals"
                 }
               }
             ]
@@ -734,18 +728,22 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "fdd4bc17ac87f8c4",
+  "active": "3ed03b92c6365702",
   "lastOpenFiles": [
-    "assets/deployment-pipeline.png",
+    "PG npm-pnpm.md",
+    "PG JS-TS index.md",
+    "PG TS.md",
+    "PG NestJS.md",
+    "_0006 Programming MOC.md",
     "PG SQL.md",
     "PG Docker.md",
+    "assets/deployment-pipeline.png",
     "WR VA General Notes.md",
     "TECH CLI Tools and Commands.md",
     "assets/VM_architecture.png",
     "assets/Containers_architecture.png",
     "PG Other index.md",
     "PG Basics to Advanced Git Commands.md",
-    "_0006 Programming MOC.md",
     "PER Progress report.md",
     "PG TypeORM.md",
     "WR Overtime And Annuals.md",
@@ -761,9 +759,6 @@
     "TECH Omarchy.md",
     "PG Python general.md",
     "Samuel & Adel/Excalidraw/Database Grouping.md",
-    "Samuel & Adel/Excalidraw/Documents life cylce.md",
-    "Samuel & Adel/Excalidraw/VA Probill lifecycle.md",
-    "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md",
     "html/VA diagnostic report.html",
     "Pasted image 20251208194352.png",
     "html/api_planning_guide.html",
