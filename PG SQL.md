@@ -184,6 +184,19 @@ WHERE product_name LIKE '%banana';
 SELECT * FROM products
 WHERE product_name LIKE '%banana%';
 ```
+#### LIMIT
+```SQL
+SELECT * FROM products
+    WHERE product_name LIKE '%berry%'
+    LIMIT 50;
+```
+#### ORDER BY
+- Order by must always come before "LIMIT" if used together
+```SQL
+-- Order by sorts in ascending order "ASC" by default
+SELECT name, price, quantity FROM products
+    ORDER BY quantity DESC;
+```
 # Migrations
 - A migration alters the structure of the database as a whole, and can be considered similar to a git commit
 - Any command like ALTER or CREATE that changes the DB's schema is a mutation
