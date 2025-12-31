@@ -17,11 +17,15 @@ who has an account?
 who is actually using the account?
 usage frequency
 are the KPIs ready for the reviewer to go in and perform the review?
-
-
-
-- [x] who's sending the request?
-- [x] his permissions
-- [x] the required permissions
-- [x] the endpoint
-- [x] the request type
+# Workout routine
+#### upper
+- Pushups 3 sets to failure
+- Bicep curls 3 sets to failure
+- overhead triceps extension 3 sets to failure
+- and the reverse rows 3 sets to failure
+#### lower
+- Squats 3 sets to failure
+- Hip Thrusts 3 to failure
+- bulgarian split squats 3 sets to failure
+- straight legged deadlift 3 sets to failure
+- modified Candle (Dragon flag)  3 sets to failure
