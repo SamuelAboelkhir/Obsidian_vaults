@@ -4,80 +4,53 @@ tags:
 MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
-# Components
-- Active server
-- A runner
-	- A program that runs the instructions file
-	- In gitlab the runner needs to be added to the repo, and registered as belonging to the specific repo
-	- The runner can also be installed on the server and registered as belonging to that specific server
-	- On gitlab, you need to pick a runner type
-		- **Types**:
-		    - **Shared Runners**: Provided by GitLab (on gitlab.com)
-		    - **Group Runners**: Shared across projects in a group
-		    - **Project Runners**: Dedicated to specific projects
-		    - **Self-hosted Runners**: Your own machines/containers
-	- On the server you need to specify the executor
-		- **Executors** (how runners run jobs):
-		    - **Docker**: Runs jobs in Docker containers (most common)
-		    - **Shell**: Runs directly on the runner's shell
-		    - **Kubernetes**: Runs jobs in Kubernetes pods
-		    - **VirtualBox/VMware**: Runs in VMs
-- Instructions
-	- Normally a yaml file
-	- A script with jobs that runners follow during CICD based on a trigger
-	- Composed of different stages representing jobs to be carried out
-	- A job is a collection of instructions
-	- Jobs normally have tags
-		- These tags are used to tell the runner which jobs to run
-		- Multiple runners can work on the same yaml file, with each one taking a different set of jobs
-# **Common Keywords**
-- **`image`**: Docker image to run the job in
-- **`before-script`**: Always runs before the script
-- **`script`**: Commands to execute (required)
-- **`stage`**: Which pipeline stage
-- **`dependencies`**: Which jobs must complete first
-- **`artifacts`**: Files to preserve and pass to next stages
-- **`cache`**: Files to cache between pipeline runs
-- **`variables`**: Environment variables
-- **`only/except`**: Branch/tag conditions
-- **`when`**: Conditions for running (on_success, on_failure, manual)
-# Steps
-- Start the deployment server and make sure its running
-- Start a gitlab runner
-- Install and register the runner on the server
-- Create an instructions yaml file
-- Define the scope of the instructions
-	- Via stages: sequentially define the name of each stage
-- Add tags for different jobs under the stages
-- Cleanup
-# Example flow with explanation
-### 1. **Stages** (Pipeline Phases)
+
+# Continuous Integration
+- This part of CICD is mostly about automating code testing and review
+- When it comes to reviewing syntax, formatting and even security, computers are better at this than humans, which is where automated tests come into play in a PR, even before a human ever comes in to review things like subtle bugs or architectural decisions
+- Lets take the below workflow as an example
 ```yaml
-stages: 
-	- build 
-	- test 
-	- security 
-	- deploy
+name: ci
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.25.1"
+
+      - name: Force Failure
+        run: (exit 1)
 ```
-### 2. **Jobs** (Individual Tasks)
-```yaml
-# Job name
-build-frontend: 
-# Which stage this job belongs to 
-stage: build 
-# Which Docker image to use 
-image: node:18-alpine 
-# Commands to execute 
-script: 
-	- cd frontend 
-	- npm ci 
-	- npm run build 
-# Save build artifacts 
-artifacts: 
-	paths: 
-	- frontend/.next/ 
-  expire_in: 1 hour 
-  # Only run on certain conditions 
-  only: 
-	- main 
-```
+#### Workflows
+- A workflow is triggered when an event occurs in a github repo, such as opening a PR into main
+#### Jobs
+- A workflow is made up of one or more of those
+- A job is itself a set of steps that run on the same runner (a runner is a virtual machine that run your job on github's servers)
+- We currently have 1 job only in our workflow, but you'd normally have more jobs in order to run your tests in parallel, or if you wanted to run the same tests on different operating systems
+#### Steps
+- A job is made up on one or more of those
+- A step is a single tak that can run:
+	- Commands
+	- Scripts
+	- Actions
+- Example steps of a job could be:
+	- Checking out the code
+	- Installing dependencies
+	- Running tests
+- Our own tests job has 3 steps:
+	- Check out the code
+	- Set up Go
+	- Force failure of the CI job
+- 

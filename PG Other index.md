@@ -19,6 +19,7 @@ MOC: Programming
 [[PG Jira]]
 ## CICD
 [[PG CICD]]
+[[PG CICD old]]
 [[PG Website deployment]]
 ## Design
 [[PG API first design]]

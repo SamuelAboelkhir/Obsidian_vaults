@@ -6,23 +6,71 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 86.94516971279373,
+        "dimension": 84.08910103420844,
         "children": [
           {
             "id": "59ad5ca75470100d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "WR Overtime And Annuals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PG CICD old",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CICD old.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CICD old\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG CICD",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CICD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CICD\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Character Encoding",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Character Encoding.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Character Encoding\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG CICD",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CICD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CICD\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":24.285714285714285}"
+                },
+                {
+                  "title": "PG CICD old",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CICD old.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CICD old\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.297766749379653}"
+                },
+                {
+                  "title": "PG CICD",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CICD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CICD\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":2},\"to\":{\"line\":55,\"ch\":2}},\"scroll\":34.857142857142854}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":7},\"to\":{\"line\":20,\"ch\":7}}}"
+                },
+                {
+                  "title": "PG CICD old",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CICD old.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CICD\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":93},\"to\":{\"line\":5,\"ch\":93}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG SQL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":472,\"ch\":235},\"to\":{\"line\":472,\"ch\":235}},\"scroll\":451.98828125}"
                 },
                 {
                   "title": "PG Other index",
@@ -233,76 +281,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG SQL.md",
+                "file": "PG CICD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG SQL"
-            }
-          },
-          {
-            "id": "1da5fee0833410c3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_0003 Personal MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_0003 Personal MOC"
-            }
-          },
-          {
-            "id": "3ed03b92c6365702",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG npm-pnpm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG npm-pnpm.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG npm-pnpm\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG JS-TS index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG JS-TS index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG JS-TS index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":10},\"to\":{\"line\":21,\"ch\":10}}}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WR Overtime And Annuals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WR Overtime And Annuals"
+              "title": "PG CICD"
             }
           },
           {
@@ -324,13 +308,12 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 13.054830287206268,
+        "dimension": 15.910898965791567,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -352,7 +335,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "_0003 Personal MOC.md",
+                    "file": "PG CICD.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -458,7 +441,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of _0003 Personal MOC"
+                  "title": "Graph of PG CICD"
                 }
               }
             ]
@@ -751,22 +734,33 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "1da5fee0833410c3",
+  "active": "59ad5ca75470100d",
   "lastOpenFiles": [
+    "PG CICD old.md",
+    "PG CICD.md",
+    "PG Character Encoding.md",
+    "PG Other index.md",
     "PG SQL.md",
+    "PG trees and tree traversal.md",
+    "PG Alogrithms index.md",
+    "_0006 Programming MOC.md",
+    "_0003 Personal MOC.md",
+    "_0000 Home.md",
+    "assets/full_join.png",
+    "assets/right_join.png",
+    "assets/left_join.png",
+    "assets/inner_join.png",
     "WR Overtime And Annuals.md",
+    "PG Docker.md",
     "PG npm-pnpm.md",
     "PG JS-TS index.md",
     "PG TS.md",
     "PG NestJS.md",
-    "_0006 Programming MOC.md",
-    "PG Docker.md",
     "assets/deployment-pipeline.png",
     "WR VA General Notes.md",
     "TECH CLI Tools and Commands.md",
     "assets/VM_architecture.png",
     "assets/Containers_architecture.png",
-    "PG Other index.md",
     "PG Basics to Advanced Git Commands.md",
     "PER Progress report.md",
     "PG TypeORM.md",
@@ -774,14 +768,7 @@
     "PG git.md",
     "CYB Cybersecurity concepts.md",
     "NET Common ports and protocols.md",
-    "PG CICD.md",
     "WR VA Devops.md",
-    "WR VA Databsase schema.md",
-    "NET Networking index.md",
-    "IT index.md",
-    "TECH Omarchy.md",
-    "PG Python general.md",
-    "Samuel & Adel/Excalidraw/Database Grouping.md",
     "html/VA diagnostic report.html",
     "Pasted image 20251208194352.png",
     "html/api_planning_guide.html",
