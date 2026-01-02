@@ -290,6 +290,29 @@
             }
           },
           {
+            "id": "67e1d83db648b0df",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG SQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG SQL"
+            }
+          },
+          {
             "id": "a9bb728591b0d918",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -308,7 +331,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8e63b7d754490c17",
@@ -335,7 +359,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG CICD.md",
+                    "file": "PG SQL.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -436,12 +460,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.16128327524498298,
+                      "scale": 0.29629629629629656,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG CICD"
+                  "title": "Graph of PG SQL"
                 }
               }
             ]
@@ -734,10 +758,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "59ad5ca75470100d",
+  "active": "67e1d83db648b0df",
   "lastOpenFiles": [
-    "PG CICD old.md",
     "PG CICD.md",
+    "PG CICD old.md",
     "PG Character Encoding.md",
     "PG Other index.md",
     "PG SQL.md",
