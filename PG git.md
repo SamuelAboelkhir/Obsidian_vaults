@@ -5,6 +5,7 @@ MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
 
+# GIT PART 1
 # Porcelain and plumbing
 - Git commands are split into 2 groups
 - High level commands are known as Porcelain, while low level commands are plumbing
@@ -92,7 +93,7 @@ MOC: Programming
 - After the merge is done, `git log` will show the merge commit as the top commit and it will have 2 parents instead of one, which are the two tips of the branches that got merged
 #### Rebase
 - When we rebase, we basically alter the history of the feature branch (technically the base branch now since we need to be checked out here before rebasing) to match the base branch, then we add the changes on top of the tip of the base branch.
-- Essentially, this means that git will apply the base branche's commits one by one starting from the best common ancestor (where both branches diverged), all the way till the tip of the base branch, then it will add the commits of the feature branch on top of it
+- Essentially, this means that git will apply the base branch's commits one by one starting from the best common ancestor (where both branches diverged), all the way till the tip of the base branch, then it will add the commits of the feature branch on top of it
 #### How they compare
 - If you mainly rely on merging, then you'll maintain the true form of the history of your repo, but it may get bloated with a bunch of merge commits
 - Rebasing doesn't maintain the true history, but it maintains a more linear and cleaner history that's easier to read and work with
@@ -145,3 +146,65 @@ MOC: Programming
 	- If you want to ignore all files of a specific type `*.txt` except for a few examples, you can use `!/important.txt` to specify the files you want to exclude
 	- You can add comments with `#` too
 	- Also remember that the order is super important, so doing something like `temp/*` then `!temp/instructions.md` will exclude the instructions files from .gitignore, but if you reverse the order, it will be ignored
+# GIT PART 2
+- `git commit --amend` allows you to amend a commit message that maybe you made a mistake on, however, it also alters the commit's hash, so it basically makes a new one
+- Forking a repo is actually not a git operation, but rather a feature offered by many Git hosting services. Forking allows you to copy a repo into your own account so that you can play around with it without affecting the original
+## PRs from a Fork
+- If you want to contribute to an open-source project, you need to:
+	1. Fork their repo into your account
+	2. Clone your fork to your local machine
+	3. Create a new branch (let's call it your_feature)
+	4. Make changes
+	5. Commit and push changes to your fork's remote your_feature branch
+	6. Create a pull request to original_owner/repo main from your_username/repo your_feature
+## Reflog
+- Logs the changes to a reference
+- It's basically git log but with a step by step path made of every action taken, such as commits and branch switches all the way to step 0 which is where you're at now
+- Reflog also, unlike log, doesn't just show you what's currently available in the branch, but if you were to `git reset`, which would remove a commit and by consequence remove it from `git log`, `git reflog` will tell you that you reset a commit
+- Reflog basically follows the movement of the HEAD ref
+- Imagine you deleted a branch with a unique command on it, and you need that commit, now what?
+- Well, thanks to reflog, you can recover the hash of that commit, and follow it down with `git cat-file` all the way till you find the blob's contents
+- The resulting chain of commands would look like this
+```bash
+git reflog # find the commit sha at HEAD@{1}
+git cat-file -p <commit sha>
+git cat-file -p <tree sha>
+git cat-file -p <blob sha> > slander.md
+git add .
+git commit -m "B: recovery"
+```
+- There is actually a better way of doing that
+## Merge
+- `git merge <commitish>` takes a commitish as an argument. What's a commitish you say? Well, that's anything that looks like a commit, such as a branch, tag, commit, HEAD@{1}, etc... basically anything that has a hash it seems
+- Using `git merge` we get
+```bash
+git merge HEAD@{1}
+```
+- Yes really, _the more you know_ I guess
+# Conflicting Changes
+- Isn't it great that every developer works on _different_ lines of code when working on a project? Ahhhhh, so nice... or it would be if it was true, but then that chapter on merge conflicts wouldn't exist
+- Merge conflicts occur when you're trying to merge two commits that both make changes to the same lines of code and they're not in a parent-child relationship, after all, git doesn't know which version of the change to keep, so it flags it as a conflict and tells you to handle it, mr distinguished engineer
+- Remember, in a merge conflict, 'ours' refers to the branch we're currently on, the one HEAD will be pointing to, and 'theirs' is the branch we're merging into our branch
+## Checkout Conflict
+- Turns out 'ours' and 'theirs' aint just terminology, git actually uses this terminology as flags for some commands
+- For example, we can fix conflicts using git's own tools instead of manually editing files
+- Here's an example of how `git checkout --theirs path/to/file`
+- This also means that `git checkout` isn't just an outdated version of `git switch`, it still has it's own unique use
+- Also, remember when resolving conflicts that you still need to provide a message to the merge conflict resolution commit to document how the conflict was resolved
+- That also means that this is the only type of merge where git wont generate its default "Merge branch 'branch-name'" message, since you have to provide a custom one
+## Rebase Conflicts
+- Since rebase checks out the source branch that you're rebasing on top of to then replay your branch's commits on top, the conflict here will have the 'theirs' branch as the HEAD unlike what happened in the merge conflict. So in this context, 'ours' is the main branch, and 'theirs' is the feature branch (again because git switched branches under the hood) despite the fact that we're rebasing while being checked out on the feature branch
+- Also, during a rebase conflict, you won't be on a branch at all, you'll be in "detached HEAD" until you resolve the conflict
+- Again, if we use `git checkout --theirs` here, it will be the reverse of during a merge conflict, as now it refers to the feature branch (previously 'ours') and vice versa for `git checkout --ours`, this distinction is really important
+- Also, in a rebase, after resolving the conflict we `git add` but we don't `git commit`, instead we `git rebase --continue`
+- During a rebase conflict, if you choose to resolve the conflict by keeping the changes from the base branch instead of the feature branch, keep in mind that the commit you decided to forsake from the feature branch, will in fact, be gone from history, since it is not pointless, but because reflog is based, it will still keep mention of it as usual
+- If we instead keep some changes from the feature branch commit, even if not all of them, git would still reference it in the history
+## Repeat Resolution Setup
+- Sometimes, especially with rebase conflicts, you may find yourself resolving the same conflict over and over again, which can be very annoying especially when you have multiple long-running feature branches being rebased off of main
+- Git gives us a solution though called "rerere" or Reuse Recorded Resolution
+- This setting allows git to remember how you usually resolve a specific conflict and then it can resolve it automatically
+- This hidden tech also applies to merging
+- To enable "rerere": `git config set --local rerere.enabled true`
+- Rerere cache can be cleared in case you don't want the recorded resolutions to persist: `rm -rf .git/rr-cache`
+# Squashing
+- 
