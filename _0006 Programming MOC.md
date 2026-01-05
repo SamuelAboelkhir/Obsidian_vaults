@@ -10,6 +10,8 @@ MOC: Programming
 [[PG Bash index]]
 #### C
 [[PG C index]]
+#### GO
+[[PG Go index]]
 #### Java
 [[PG Java index]]
 #### JS/TS
