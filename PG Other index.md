@@ -24,7 +24,7 @@ MOC: Programming
 ## Design
 [[PG API first design]]
 # Git
-[[PG git]]
+[[PG Git]]
 [[PG Basics to Advanced Git Commands]]
 # Docker
 [[PG Docker]]
