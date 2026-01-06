@@ -187,3 +187,380 @@ func addToDatabase(hp, damage int, name string, level int) {
   // ?
 }
 ```
+
+## Ignoring Return Values
+- A similar concept is also possible in javascript I believe
+- If a function returns a value that you don't care about, you can actually ignore it by assigning it to a blank identifier `_`
+```Go
+func getPoint() (x int, y int) {
+    return 3, 4
+}
+
+// ignore y value
+x, _ := getPoint()
+```
+- In some languages that have this ability, it's merely a convention, but in Go, it's a full fledged language feature that completely discards the value
+- This feature is useful because the Go compiler returns and error if you have unused variable declarations, so instead of assigning an unwanted value to a variable that you never use, you can just discard it
+## Named Return Values
+- Return values in Go can be given names, in which case they're treated as if they were new variables that were defined at the top of the function. Then you can do a naked return as return will automatically return the return values
+- This practice is best for short functions, as it hurts readability. They can document the purpose of the returned values though
+```Go
+func getCoords() (x, y int) {
+	// x and y are initialized with zero values
+
+	return // automatically returns x and y
+}
+
+// This is the same as the above function
+func getCoords() (int, int) {
+	var x int
+	var y int
+	return x, y
+}
+```
+- This is quite the unique behavior, the ability to declare the return variables in the signature, not just their types which auto initializes them and makes them return with an empty return
+- The best practice is to both have named return values to clarify their purpose, and to still have them explicitly mentioned in the return instead of using a naked return as to not hurt readability
+```Go
+func calculator(a, b int) (int, int, error) {
+    if b == 0 {
+      return 0, 0, errors.New("can't divide by zero")
+    }
+    mul := a * b
+    div := a / b
+    return mul, div, nil
+}
+```
+- nil is the zero value of an error
+## Early Returns
+- Go also supports early returns from inside conditionals for example
+- This is nice as it means we can use Guard Clauses (an early return from a function when a condition is met) to make conditional blocks more one-dimensional and easier to read
+```Go
+// Nested conditionals without Guard Clauses
+func getInsuranceAmount(status insuranceStatus) int {
+  amount := 0
+  if !status.hasInsurance(){
+    amount = 1
+  } else {
+    if status.isTotaled(){
+      amount = 10000
+    } else {
+      if status.isDented(){
+        amount = 160
+        if status.isBigDent(){
+          amount = 270
+        }
+      } else {
+        amount = 0
+      }
+    }
+  }
+  return amount
+}
+
+// Conditionals with Guard Clauses
+func getInsuranceAmount(status insuranceStatus) int {
+  if !status.hasInsurance(){
+    return 1
+  }
+  if status.isTotaled(){
+    return 10000
+  }
+  if !status.isDented(){
+    return 0
+  }
+  if status.isBigDent(){
+    return 270
+  }
+  return 160
+}
+```
+## Functions As Values
+- Go supports first-class and higher-order functions
+- A language is said to have first-class functions when functions can be treated like any other variable, such as, being able to pass a function as an argument to another function, and be assigned as a value to a variable
+```Go
+// Say we have these two simple functions
+func add(x, y int) int {
+	return x + y
+}
+
+func mul(x, y int) int {
+	return x * y
+}
+
+// And this functions that can use them
+func aggregate(a, b, c int, arithmetic func(int, int) int) int {
+  firstResult := arithmetic(a, b)
+  secondResult := arithmetic(firstResult, c)
+  return secondResult
+}
+
+// Now we can do this
+func main() {
+	sum := aggregate(2, 3, 4, add)
+	// sum is 9
+	product := aggregate(2, 3, 4, mul)
+	// product is 24
+}
+```
+- The above example is possible because aggregate's callback function here is not very specific, it's just a function that takes two ints as its arguments and returns an int, which applies to our two simple functions
+## Anonymous Functions
+- You can also define unnamed functions in Go
+```Go
+func conversions(converter func(int) int, x, y, z int) (int, int, int) {
+	convertedX := converter(x)
+	convertedY := converter(y)
+	convertedZ := converter(z)
+	return convertedX, convertedY, convertedZ
+}
+
+func double(a int) int {
+    return a + a
+}
+
+func main() {
+    // using a named function
+	newX, newY, newZ := conversions(double, 1, 2, 3)
+	// newX is 2, newY is 4, newZ is 6
+
+    // using an anonymous function
+	newX, newY, newZ = conversions(func(a int) int {
+	    return a + a
+	}, 1, 2, 3)
+	// newX is 2, newY is 4, newZ is 6
+```
+## Defer
+- This is a unique feature of Go
+- The `defer` keyword allows us to mark a function, that will be executed automatically whenever and wherever the enclosing function it was called inside of returns
+```Go
+func GetUsername(dstName, srcName string) (username string, err error) {
+	// Open a connection to a database
+	conn, _ := db.Open(srcName)
+
+	// Close the connection *anywhere* the GetUsername function returns
+	defer conn.Close()
+
+	username, err = db.FetchUser()
+	if err != nil {
+		// The defer statement is auto-executed if we return here
+		return "", err
+	}
+
+	// The defer statement is auto-executed if we return here
+	return username, nil
+}
+```
+## Block Scope
+- Like javascript and C, Go is block-scoped
+- A variable that's declared inside a block is accessible only in that block and its nested blocks
+```Go
+package main
+
+// scoped to the entire "main" package (basically global)
+var age = 19
+
+func sendEmail() {
+    // scoped to the "sendEmail" function
+    name := "Jon Snow"
+
+    for i := 0; i < 5; i++ {
+        // scoped to the "for" body
+        email := "snow@winterfell.net"
+    }
+}
+
+// Explicit block
+package main
+
+import fmt
+
+func main() {
+    {
+        age := 19
+        // this is okay
+        fmt.Println(age)
+    }
+
+    // this is not okay
+    // the age variable is out of scope
+    fmt.Println(age)
+}
+```
+- Blocks are defined by curly braces `{}`. New blocks are created for:
+	- Functions
+	- Loops
+	- If statements
+	- Switch statements
+	- Select statements
+	- Explicit blocks
+## Closures
+- These are functions that reference variables from outside their body, and they can both access and assign to the referenced variables
+- The closure function remembers the variables that it had access to even after it returns
+```Go
+func concatter() func(string) string {
+	doc := ""
+	return func(word string) string {
+		doc += word + " "
+		return doc
+	}
+}
+
+func main() {
+	harryPotterAggregator := concatter()
+	harryPotterAggregator("Mr.")
+	harryPotterAggregator("and")
+	harryPotterAggregator("Mrs.")
+	harryPotterAggregator("Dursley")
+	harryPotterAggregator("of")
+	harryPotterAggregator("number")
+	harryPotterAggregator("four,")
+	harryPotterAggregator("Privet")
+
+	fmt.Println(harryPotterAggregator("Drive"))
+	// Mr. and Mrs. Dursley of number four, Privet Drive
+}
+```
+- When using closures, the compiler automatically escapes any variables that must outlive the stack frame, to the heap
+- When the compiler sees that that the inner function is referencing a variable from the outer variable, that should normally be popped from the stack, it will allocate it to the heap and create a hidden pointer usable only by the inner function every time its called that points to the variable that's now on the heap
+- So now, every time `harryPotterAggreagator` is called, the inner function will be created on the stack in a stack frame. The `doc` variable will be updated, and persist since it's on the heap, and the stack frame will be popped
+- As per boots, the variable lives in a closure "environment" object on the heap
+- The returned function value, is also apparently 2 pointers, the pointer to the code, and pointer to the environment in a struct
+```Go
+type closure struct {
+    fn   *functionCode   // pointer to compiled code
+    env  *environment    // pointer to captured variables (like doc)
+}
+```
+## Currying
+- This is a concept from functional programming that involves applying a function partially
+- This allows a function with multiple arguments, to be transformed into a sequence of functions, each taking a single argument
+```Go
+func main() {
+  squareFunc := selfMath(multiply)
+  doubleFunc := selfMath(add)
+
+  fmt.Println(squareFunc(5))
+  // prints 25
+
+  fmt.Println(doubleFunc(5))
+  // prints 10
+}
+
+func multiply(x, y int) int {
+  return x * y
+}
+
+func add(x, y int) int {
+  return x + y
+}
+
+func selfMath(mathFunc func(int, int) int) func (int) int {
+  return func(x int) int {
+    return mathFunc(x, x)
+  }
+}
+```
+- In the above example, `selfMath` takes an input function as its argument, and returns a function
+- The return function itself takes an argument, and returns the result of passing that argument to the input function that's gonna use it in a calculation
+# Struct
+- Good news to me, an average structs enjoyer, Go has them too!!!!
+```Go
+type car struct {
+	brand      string
+	model      string
+	doors      int
+	mileage    int
+}
+```
+- Go also supports nested structs
+```Go
+type car struct {
+  brand string
+  model string
+  doors int
+  mileage int
+  frontWheel wheel
+  backWheel wheel
+}
+
+type wheel struct {
+  radius int
+  material string
+}
+
+// We access the fields in a struct with the dot `.` operator just like in C 
+myCar := car{}
+myCar.frontWheel.radius = 5
+```
+## Anonymous Structs
+- These are nameless structs that are meant to be used once, never to be referenced again
+```Go
+myCar := struct {
+  brand string
+  model string
+} {
+  brand: "Toyota",
+  model: "Camry",
+}
+
+// Anonymous structs can be nested in other structs too
+type car struct {
+  brand string
+  model string
+  doors int
+  mileage int
+  // wheel is a field containing an anonymous struct
+  wheel struct {
+    radius int
+    material string
+  }
+}
+
+var myCar = car{
+  brand:   "Rezvani",
+  model:   "Vengeance",
+  doors:   4,
+  mileage: 35000,
+  wheel: struct {
+    radius   int
+    material string
+  }{
+    radius:   35,
+    material: "alloy",
+  },
+}
+```
+## Embedded Structs
+- It should probably have been made obvious once structs were brought up that Go is not an object oriented language
+- Embedded structs allow for data-only inheritance though
+```Go
+type car struct {
+  brand string
+  model string
+}
+
+type truck struct {
+  // "car" is embedded, so the definition of a
+  // "truck" now also additionally contains all
+  // of the fields of the car struct
+  car
+  bedSize int
+}
+```
+## Embedded vs Nested
+- An embedded struct's fields are accessible at the top level like normal fields
+- Like nested structs you can assign the promoted fields with the embedded struct in a "composite literal", so you don't have to do struct.nested.field, you can just do struct.field
+- A composite type is any complex type like a struct or array
+- The composite literal is basically the syntax used to assign the values of a composite type
+```Go
+lanesTruck := truck{
+  bedSize: 10,
+  car: car{
+    brand: "Toyota",
+    model: "Tundra",
+  },
+}
+
+fmt.Println(lanesTruck.brand) // Toyota
+fmt.Println(lanesTruck.model) // Tundra
+```
+- The main difference in declaration is that for the struct to be embedded you must add it to the other struct directly. You can't name the field, if you do it becomes nested
