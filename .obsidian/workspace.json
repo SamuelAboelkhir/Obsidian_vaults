@@ -12,8 +12,14 @@
             "id": "bc04d01dd4026d92",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "EH Web Searching",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Web Searching.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Web Searching\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -50,6 +56,41 @@
             }
           },
           {
+            "id": "f8be5af5be3d0161",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":6},\"to\":{\"line\":20,\"ch\":6}},\"scroll\":10.997395833333334}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":13},\"to\":{\"line\":19,\"ch\":13}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG CICD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG CICD"
+            }
+          },
+          {
             "id": "a9bb728591b0d918",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -68,7 +109,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8e63b7d754490c17",
@@ -95,7 +137,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG Go note dump.md",
+                    "file": "PG CICD.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -201,7 +243,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG Go note dump"
+                  "title": "Graph of PG CICD"
                 }
               }
             ]
@@ -494,21 +536,22 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "bc04d01dd4026d92",
+  "active": "f8be5af5be3d0161",
   "lastOpenFiles": [
-    "PG Go index.md",
-    "_0006 Programming MOC.md",
-    "PG CICD.md",
+    "PG Other index.md",
     "PG Git.md",
+    "_0006 Programming MOC.md",
+    "PG Go note dump.md",
+    "EH Web Searching.md",
+    "PG Go index.md",
+    "PG CICD.md",
     "PG Docker.md",
     "PER Important websites.md",
-    "PG Go note dump.md",
     "assets/the_compilation_process.png",
     "assets/Go_is_GOATed.png",
     "PG C compilation flow.md",
     "PG C index.md",
     "PG C My general notes dump.md",
-    "PG Other index.md",
     "assets/semantic_versioning.png",
     "_0003 Personal MOC.md",
     "_0000 Home.md",
@@ -531,7 +574,6 @@
     "WR VA General Notes.md",
     "assets/VM_architecture.png",
     "assets/Containers_architecture.png",
-    "PG Basics to Advanced Git Commands.md",
     "html/VA diagnostic report.html",
     "html/api_planning_guide.html",
     "html/api_first_design.html",

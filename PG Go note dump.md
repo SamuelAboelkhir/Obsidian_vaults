@@ -109,6 +109,7 @@ const pi = 3.14159
 ## Formatting Strings in Go
 - Go also uses `Printf` and `Sprintf` that are available in the C family
 - Go has a default format formatter `%v` that can be used as a catchall
+- Go also has `%T` which returns the type of a variable
 ```Go
 s := fmt.Sprintf("I am %v years old", 10)
 // I am 10 years old
@@ -564,3 +565,343 @@ fmt.Println(lanesTruck.brand) // Toyota
 fmt.Println(lanesTruck.model) // Tundra
 ```
 - The main difference in declaration is that for the struct to be embedded you must add it to the other struct directly. You can't name the field, if you do it becomes nested
+## Struct Methods
+- Structs can have methods in Go, but the way that's done is a bit weird
+```Go
+type rect struct {
+  width int
+  height int
+}
+
+// area has a receiver of (r rect)
+// rect is the struct
+// r is the placeholder
+func (r rect) area() int {
+  return r.width * r.height
+}
+
+var r = rect{
+  width: 5,
+  height: 10,
+}
+
+fmt.Println(r.area())
+// prints 50
+```
+- You basically create the struct first, then you create a function, and that function gets what's known as a receiver
+- The receiver is kinda like another argument, and conventionally it's name is the first letter of the struct
+- This adds a function to the struct, so as the example above shows, now if we assign `r` as a new rect, we can call `r.area()` as a method of the rect struct
+- Boots elaborated on this further
+```Go
+// Regular function
+func getBasicAuth(a authenticationInfo) string {
+    return "Authorization: Basic " + a.username + ":" + a.password
+}
+
+// You'd call it like this:
+auth := authenticationInfo{"user", "pass"}
+result := getBasicAuth(auth)  // passing auth as an argument
+
+// Method
+func (a authenticationInfo) getBasicAuth() string {
+    return "Authorization: Basic " + a.username + ":" + a.password
+}
+
+// You call it like this:
+auth := authenticationInfo{"user", "pass"}
+result := auth.getBasicAuth()  // calling it ON the auth struct
+```
+- So in a sense, you don't define the function inside the struct as you would with a class or object in OOP, since Go isn't even OOP it's procedural programming, but rather you assign functions to the struct
+## Memory Layout
+- Works exactly like C, nothing else to say here
+## Empty Structs
+- These structs are literally empty, meaning they take up zero bytes of memory
+- They are used in Go as a unary value
+```Go
+// anonymous empty struct type
+empty := struct{}{}
+
+// named empty struct type
+type emptyStruct struct{}
+empty := emptyStruct{}
+```
+# Interfaces in Go
+- An interface is a collection of functions under one type
+- A struct that defines all the functions of an interface as methods with the same return types will satisfy the interface and become a member of it
+- A struct can belong to multiple interfaces
+```Go
+type shape interface {
+  area() float64
+  perimeter() float64
+}
+
+type rect struct {
+    width, height float64
+}
+func (r rect) area() float64 {
+    return r.width * r.height
+}
+func (r rect) perimeter() float64 {
+    return 2*r.width + 2*r.height
+}
+
+type circle struct {
+    radius float64
+}
+func (c circle) area() float64 {
+    return math.Pi * c.radius * c.radius
+}
+func (c circle) perimeter() float64 {
+    return 2 * math.Pi * c.radius
+}
+
+func printShapeData(s shape) {
+	fmt.Printf("Area: %v - Perimeter: %v\n", s.area(), s.perimeter())
+}
+```
+- Like structs, we can have empty interfaces
+```Go
+interface{}
+```
+- An empty interface has no requirements, therefore all structs will implicitly satisfy it
+- It's also preferable to name the interface's parameters for clarity
+```Go
+// Bad
+type Copier interface {
+  Copy(string, string) int
+}
+
+// Good
+type Copier interface {
+  Copy(sourceFile string, destinationFile string) (bytesCopied int)
+}
+```
+## Type Assertion
+- In cases where you need to access one of the types that implement an interface, you can do so with type assertion
+```Go
+type shape interface {
+	area() float64
+}
+
+type circle struct {
+	radius float64
+}
+
+func (c circle) area() float64 {
+	// ...
+}
+
+func printShapeInfo(s shape) {
+	c, ok := s.(circle)
+	if ok {
+		radius := c.radius
+		fmt.Println("s is a circle, radius: %v", radius)
+		return
+	}
+}
+```
+- We can also use a switch to do several type assertions
+```GO
+func printNumericValue(num interface{}) {
+	switch v := num.(type) {
+	case int:
+		fmt.Printf("%T\n", v)
+	case string:
+		fmt.Printf("%T\n", v)
+	default:
+		fmt.Printf("%T\n", v)
+	}
+}
+
+func main() {
+	printNumericValue(1)
+	// prints "int"
+
+	printNumericValue("1")
+	// prints "string"
+
+	printNumericValue(struct{}{})
+	// prints "struct {}"
+}
+```
+## Clean Interfaces
+- Interfaces have some best practices and rules of thumb to keep them actually good and usable
+1. **Keep Interfaces Small**
+	- Interfaces are meant to define the minimal behavior necessary to accurately represent an idea or concept
+	- Here's an example from the standard HTTP package
+	```Go
+	type File interface {
+	    io.Closer
+	    io.Reader
+	    io.Seeker
+	    Readdir(count int) ([]os.FileInfo, error)
+	    Stat() (os.FileInfo, error)
+	}
+	```
+	- Any type that satisfies this interface will be considered a `File`, regardless of it's underlying `Concrete Type`
+2. **Interfaces Should Have No Knowledge of Satisfying Types**
+	- An interface doesn't need to have any idea or direct relation with the types that satisfy it
+	```Go
+	type car interface {
+		Color() string
+		Speed() int
+		IsFiretruck() bool
+	}
+	```
+	- In this example, we're checking for every car if it's a firetruck, which isn't very practical as now we have to check if a car is, well, any other type of vehicle too `IsTank()`, `IsSedan()` and so on
+	- Instead, type assertion should have been used to figure out what type of car we're dealing with
+	- In some cases, we can have a sub-interface that in a sense, extends the main interface
+	```Go
+	type firetruck interface {
+		car
+		HoseLength() int
+	}
+	```
+3. **Interfaces Are Not Classes**
+	- Interfaces are not classes, they are slimmer.
+	- Interfaces don't have constructors or deconstructors that require that data is created or destroyed.
+	- Interfaces aren't hierarchical by nature, though there is syntactic sugar to create interfaces that happen to be supersets of other interfaces.
+	- Interfaces define function signatures, not their underlying behavior (function definition/body). They don't make code "DRY" as each struct that satisfies the interface, will need to have its own copies of the functions in the interface
+# Errors
+- Errors in Go are values, and they have their own interface
+```Go
+type error interface {
+    Error() string
+}
+```
+- When something can go wrong in a function, it should return the zero value of its original return type, and an error. Otherwise, it should return the correct value, and `nil`
+- Taking `Atoi` as an example, how do we use it safely?
+```Go
+func Atoi(s string) (int, error)
+
+// Atoi converts a stringified number to an integer
+i, err := strconv.Atoi("42b")
+if err != nil {
+    fmt.Println("couldn't convert:", err)
+    // because "42b" isn't a valid integer, we print:
+    // couldn't convert: strconv.Atoi: parsing "42b": invalid syntax
+    // Note:
+    // 'parsing "42b": invalid syntax' is returned by the .Error() method
+    return
+}
+// if we get here, then the
+// variable i was converted successfully
+```
+- Since errors are interfaces, we can make custom types that implement that interface
+```Go
+type userError struct {
+    name string
+}
+
+func (e userError) Error() string {
+    return fmt.Sprintf("%v has a problem with their account", e.name)
+}
+
+// Then use it as an error
+func sendSMS(msg, userName string) error {
+    if !canSendToUser(userName) {
+        return userError{name: userName}
+    }
+    ...
+}
+```
+- This approach tends to overcomplicate things though, so we have another way of doing this, the errors package
+```Go
+package main
+
+import (
+	"errors"
+)
+
+func divide(x, y float64) (float64, error) {
+	if y == 0 {
+		return 0, errors.New("no dividing by 0")
+	}
+	return x / y, nil
+}
+```
+## Panic!!!!
+- Generally speaking, don't ever use `Panic`
+- Panic is another way of handling errors
+- It basically causes the running function to return, and it keeps returning up the stack until it crashes the whole app, or reaches a `recover`
+- Recover is a function that we can defer earlier and it will basically return control to the app and continue the execution in case of a panic
+```Go
+func enrichUser(userID string) User {
+    user, err := getUser(userID)
+    if err != nil {
+        panic(err)
+    }
+    return user
+}
+
+func main() {
+    defer func() {
+        if r := recover(); r != nil {
+            fmt.Println("recovered from panic:", r)
+        }
+    }()
+
+    // this panics, but the defer/recover block catches it
+    // a truly astonishingly bad way to handle errors
+    enrichUser("123")
+}
+```
+- A better alternative to panic is `log.Fatal`
+# Loops
+- Go's loops use the standard C syntax
+```Go
+for INITIAL; CONDITION; AFTER{
+  // do something
+}
+```
+- The new thing here is that we can omit sections of the loop 
+```Go
+for INITIAL; ; AFTER {
+  // do something forever
+}
+```
+- This leads to another unique thing about Go, we don't have while loops, nor do we need them when we can omit everything from a for loop except the condition, which makes it a while loop in practice
+```Go
+for CONDITION {
+  // do some stuff while CONDITION is true
+}
+```
+# Slices in Go
+## Arrays
+- Like C, these are fixed size groups of variables of the same type
+- Arrays can be declared without initialization, or with initialization
+```Go
+// Without
+var myInts [10]int
+// Or
+myInts := [10]int{}
+
+// With
+primes := [6]int{2, 3, 5, 7, 11, 13}
+```
+## Slices
+- Slices are in a way, the dynamic array struct we used to make in C, and they're ordered
+- You use them 99 times out of a 100 in Go because they're dynamically-sized
+- The zero value of a slice is `nill`
+- Non-nil slices as the name implies are parts of something, and as such, they actually always have an underlying array, but that's not always explicitly specified. However, we can make it explicit
+```Go
+primes := [6]int{2, 3, 5, 7, 11, 13}
+mySlice := primes[1:4]
+// mySlice = {3, 5, 7}
+
+// Or
+mylice := []int{}
+```
+- Go slices have the same syntax as python slices. Low index is inclusive, and high index is exclusive just like python too
+```Go
+// From low to high
+arrayname[lowIndex:highIndex]
+// From low to end
+arrayname[lowIndex:]
+// From start to high
+arrayname[:highIndex]
+// Entire array
+arrayname[:]
+```
+- Behind the scenes, when we expand a slice, as I said before, it's the exact same as what used to happen in C with dynamic array structs. When the slice expands beyond the original array's confines, a new array will be created somewhere else in memory, the data will be copied over, and we will have a bigger array, just like with `realloc`
+- 
