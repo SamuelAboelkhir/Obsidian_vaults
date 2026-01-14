@@ -157,7 +157,7 @@ on:
     branched: [main]
 
 jobs:
-  teploy:
+  deploy:
     name: Deploy
     runs-on: ubuntu-latest
 
