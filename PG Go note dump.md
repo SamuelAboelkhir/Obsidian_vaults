@@ -922,4 +922,152 @@ mySlice := []string{"I", "love", "go"}
 - A slice has a length and a capacity
 - The length is how many elements are in the slice right now. It can be viewed with `len()`
 - The capacity is the number of elements in the underlying array counting from the first element in the slice, and it can be accessed with `cap()`
-- 
+## Variadic
+- Many functions can take an arbitrary number of final arguments, which is possible by passing `...` allowing variadic functions to receive variadic arguments as a slice
+```Go
+func concat(strs ...string) string {
+    final := ""
+    // strs is just a slice of strings
+    for i := 0; i < len(strs); i++ {
+        final += strs[i]
+    }
+    return final
+}
+
+func main() {
+    final := concat("Hello ", "there ", "friend!")
+    fmt.Println(final)
+    // Output: Hello there friend!
+}
+```
+- You can also pass actual slices to variadic functions, using the spread operator. Yes, the same one from javascript
+```Go
+func printStrings(strings ...string) {
+	for i := 0; i < len(strings); i++ {
+		fmt.Println(strings[i])
+	}
+}
+
+func main() {
+    names := []string{"bob", "sue", "alice"}
+    printStrings(names...)
+}
+```
+- Also, see how an empty interface can be useful in this following example
+```Go
+func Println(a ...interface{}) (n int, err error)
+```
+- `Println()` and other print functions are variadic, and can take any number of arguments, but we were talking about needing to pass variadic arguments of the same type. Well, using an empty interface that doesn't specify a type, we can pass arguments of any type, and they will be acceptable by the function
+## Append
+- Append adds elements to slices dynamically, and if the underlying array is full, it will create a new one and point the slice to it
+- Append is veriadic
+## Range
+- The `range` keyword in Go is syntactic sure that facilitates iterating over elements of a slice, where the `ELEMENT` is a copy of the value at `INDEX` of the slice
+```Go
+for INDEX, ELEMENT := range SLICE {
+}
+
+// Example
+fruits := []string{"apple", "banana", "grape"}
+for i, fruit := range fruits {
+    fmt.Println(i, fruit)
+}
+// 0 apple
+// 1 banana
+// 2 grape
+```
+## Slice of Slices
+- Not really breaking news considering every language can do this, but a slice can hold other slices to create a matrix or 2D slice
+```Go
+rows := [][]int{}
+rows = append(rows, []int{1, 2, 3})
+rows = append(rows, []int{4, 5, 6})
+fmt.Println(rows)
+// [[1 2 3] [4 5 6]]
+```
+- Note that append changes the underlying array of the input slice and returns a new slice, which usually means that you shouldn't use append on any slice, other than itself
+```Go
+// don't do this!
+someSlice = append(otherSlice, element)
+```
+- To explain why this is a bad practice, consider the 2 following examples
+#### Example A
+```Go
+// Example A works a expected
+a := make([]int, 3)
+fmt.Println("len of a:", len(a))
+fmt.Println("cap of a:", cap(a))
+// len of a: 3
+// cap of a: 3
+
+b := append(a, 4)
+fmt.Println("appending 4 to b from a")
+fmt.Println("b:", b)
+fmt.Println("addr of b:", &b[0])
+// appending 4 to b from a
+// b: [0 0 0 4]
+// addr of b: 0x44a0c0
+
+c := append(a, 5)
+fmt.Println("appending 5 to c from a")
+fmt.Println("addr of c:", &c[0])
+fmt.Println("a:", a)
+fmt.Println("b:", b)
+fmt.Println("c:", c)
+// appending 5 to c from a
+// addr of c: 0x44a180
+// a: [0 0 0]
+// b: [0 0 0 4]
+// c: [0 0 0 5]
+```
+#### Example B
+```Go
+// Example B has a problem
+i := make([]int, 3, 8)
+fmt.Println("len of i:", len(i))
+fmt.Println("cap of i:", cap(i))
+// len of i: 3
+// cap of i: 8
+
+j := append(i, 4)
+fmt.Println("appending 4 to j from i")
+fmt.Println("j:", j)
+fmt.Println("addr of j:", &j[0])
+// appending 4 to j from i
+// j: [0 0 0 4]
+// addr of j: 0x454000
+
+g := append(i, 5)
+fmt.Println("appending 5 to g from i")
+fmt.Println("addr of g:", &g[0])
+fmt.Println("i:", i)
+fmt.Println("j:", j)
+fmt.Println("g:", g)
+// appending 5 to g from i
+// addr of g: 0x454000
+// i: [0 0 0]
+// j: [0 0 0 5]
+// g: [0 0 0 5]
+```
+- The reason example B had a bug is due to what we said about [[#Append]] before
+- Append only creates a new slice, if the underlying array has no more space left, but when we used `make()` in example B and declared a higher capacity than the slice's length, we made sure there is room for more elements, and the slice was able to grow within the confines of the underlying array, so both `j` and `g` ended up pointing at the same array, instead of becoming new slices for new arrays, which caused the overwritte on index 4
+- This is why, we always use append, on the same slice. We can also copy the values from the other slice first if we want to introduce change it to it in a different array
+```Go
+mySlice := []int{1, 2, 3}
+mySlice = append(mySlice, 4)
+
+// Copy the original slice's contents
+slice1 := []int{1,2,3,4}
+slice2 := []int{}
+slice2 = append(slice2, slice1...)
+```
+## Iterating over strings
+- A string is a bytes array, but a single char in Go, unlike C can be larger than 1 byte, and would actually probably return its UTF/ASCII value
+- If you want to instead get actual chars when indexing a string, you must use the `rune` type
+- This is default behavior when using `range`, but we can also do the following
+```Go
+s := "Hello"
+runes := []rune(s)
+
+ch := runes[1] // this is a rune, 'e'
+```

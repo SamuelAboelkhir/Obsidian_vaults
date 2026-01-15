@@ -56,76 +56,6 @@
             }
           },
           {
-            "id": "f8be5af5be3d0161",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":6},\"to\":{\"line\":20,\"ch\":6}},\"scroll\":10.997395833333334}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":13},\"to\":{\"line\":19,\"ch\":13}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG CICD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG CICD"
-            }
-          },
-          {
-            "id": "760e73843d4d575f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":8},\"to\":{\"line\":29,\"ch\":8}},\"scroll\":10.997395833333334}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":13},\"to\":{\"line\":19,\"ch\":13}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG Docker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG Docker"
-            }
-          },
-          {
             "id": "a9bb728591b0d918",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -144,8 +74,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "8e63b7d754490c17",
@@ -172,7 +101,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG Docker.md",
+                    "file": "PG Go note dump.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -278,7 +207,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG Docker"
+                  "title": "Graph of PG Go note dump"
                 }
               }
             ]
@@ -571,10 +500,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "760e73843d4d575f",
+  "active": "bc04d01dd4026d92",
   "lastOpenFiles": [
-    "NET Common ports and protocols.md",
     "PG Docker.md",
+    "NET Common ports and protocols.md",
     "PG Go note dump.md",
     "PG CICD.md",
     "PG Other index.md",
