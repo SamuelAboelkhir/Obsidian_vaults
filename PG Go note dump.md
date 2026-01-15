@@ -905,6 +905,7 @@ arrayname[:]
 ```
 - Behind the scenes, when we expand a slice, as I said before, it's the exact same as what used to happen in C with dynamic array structs. When the slice expands beyond the original array's confines, a new array will be created somewhere else in memory, the data will be copied over, and we will have a bigger array, just like with `realloc`
 ## Make
+- `make()` is a memory allocation and initialization function, used primarily with slices, maps and channels
 - When creating a slice, we don't need to think about the underlying array
 - We can create a slice with the `make()` function which will fill the slice with zero values of the declared type up to the declared length. This is good for pre-declaring the size of an array if we know it beforehand, reducing a bit of unnecessary computations that can affect performance. We can even pre-declare the capacity of the underlying array, but if we don't, it will default to being equal to the slice's length
 ```Go
@@ -1070,4 +1071,13 @@ s := "Hello"
 runes := []rune(s)
 
 ch := runes[1] // this is a rune, 'e'
+```
+# Maps
+- Oy, Go has objects, kinda, it has a data structure with key->value mapping, aptly called a map
+- Also, make in't exclusive to slices, it can be used to make maps
+```Go
+ages := make(map[string]int)
+ages["John"] = 37
+ages["Mary"] = 24
+ages["Mary"] = 21 // overwrites 24
 ```
