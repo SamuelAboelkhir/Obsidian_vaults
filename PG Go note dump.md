@@ -466,10 +466,10 @@ func selfMath(mathFunc func(int, int) int) func (int) int {
 - Good news to me, an average structs enjoyer, Go has them too!!!!
 ```Go
 type car struct {
-	brand      string
-	model      string
-	doors      int
-	mileage    int
+	brand string
+	model string
+	doors int
+	mileage int
 }
 ```
 - Go also supports nested structs
@@ -805,7 +805,7 @@ func sendSMS(msg, userName string) error {
     ...
 }
 ```
-- This approach tends to overcomplicate things though, so we have another way of doing this, the errors package
+- This approach tends to over complicate things though, so we have another way of doing this, the errors package
 ```Go
 package main
 
@@ -1080,4 +1080,67 @@ ages := make(map[string]int)
 ages["John"] = 37
 ages["Mary"] = 24
 ages["Mary"] = 21 // overwrites 24
+
+// You can also use a literal
+ages := map[string]int{
+  "John": 37,
+  "Mary": 21,
+}
 ```
+- You can also use `len()` on a map to get the total number of key->value pairs
+## Mutations
+- These are ways of manipulating the data
+```Go
+// Insert element
+m[key] = elem
+
+// Get element
+elem = m[key]
+
+// Delete element
+delete(m, key)
+
+// Check if a key exists
+elem, ok := m[key]
+
+// If `key` is in `m`, then `ok` is `true` and `elem` is the value as expected.
+// If `key` is not in the map, then `ok` is `false` and `elem` is the zero value for the map's element type.
+```
+## Key types
+- Values are quite lax, and allow you to use any type that you want, keys, not so much
+- Keys must be of a type that's "comparable", meaning it can be used in a comparison with == such as boolean, numeric, string, pointer, channel, and interfaces. Also structs and arrays that contain these types
+- Being able to use a struct as a key is interesting, but very useful
+- For example, this map of maps could be used to tally web page hits by country
+```Go
+hits := make(map[string]map[string]int)
+```
+- This is a map of string to (map of string to int). Each key of the outer map is the path to a web page with its own inner map. Each inner map key is a two-letter country code. This expression retrieves the number of times an Australian has loaded the documentation page
+```Go
+n := hits["/doc/"]["au"]
+```
+- But this approach can become unwieldy when adding data since for any outer key you will need to check if the inner map exists firsts and create it if it doesn't
+```Go
+func add(m map[string]map[string]int, path, country string) {
+    mm, ok := m[path]
+    if !ok {
+        mm = make(map[string]int)
+        m[path] = mm
+    }
+    mm[country]++
+}
+add(hits, "/doc/", "au")
+```
+- If we were to use a struct key though
+```Go
+type Key struct {
+    Path, Country string
+}
+hits := make(map[Key]int)
+
+// Then checking if a vietnamese person checked the home page
+hits[Key{"/", "vn"}]++
+
+// Checking how many Swiss have read the spec
+n := hits[Key{"/ref/spec", "ch"}]
+```
+- Here, the use of a struct allowed us to key data by multiple dimensions
