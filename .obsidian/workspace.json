@@ -6,7 +6,7 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 84.08910103420844,
+        "dimension": 84.08796895213455,
         "children": [
           {
             "id": "bc04d01dd4026d92",
@@ -15,10 +15,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "EH Web Searching",
+                  "title": "PG SQL",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Web Searching.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Web Searching\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":338,\"ch\":65},\"to\":{\"line\":338,\"ch\":65}},\"scroll\":374.5425667090216}"
                 },
                 {
                   "state": "{}",
@@ -28,7 +28,7 @@
                   "title": "PG Go index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}},\"scroll\":0}"
                 },
                 {
                   "title": "_0006 Programming MOC",
@@ -79,7 +79,7 @@
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 15.910898965791567,
+        "dimension": 15.91203104786546,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -502,16 +502,20 @@
   },
   "active": "bc04d01dd4026d92",
   "lastOpenFiles": [
-    "PG CICD old.md",
-    "PG Go note dump.md",
     "PG Docker.md",
+    "PG Other index.md",
+    "_0006 Programming MOC.md",
+    "PG Go note dump.md",
+    "PG Go index.md",
+    "PG SQL.md",
+    "assets/go_module.png",
+    "WR Overtime And Annuals.md",
+    "WR Church ERD.canvas",
+    "PG CICD old.md",
     "NET Common ports and protocols.md",
     "PG CICD.md",
-    "PG Other index.md",
     "PG Git.md",
-    "_0006 Programming MOC.md",
     "EH Web Searching.md",
-    "PG Go index.md",
     "PER Important websites.md",
     "assets/the_compilation_process.png",
     "assets/Go_is_GOATed.png",
@@ -521,7 +525,6 @@
     "assets/semantic_versioning.png",
     "_0003 Personal MOC.md",
     "_0000 Home.md",
-    "PG SQL.md",
     "TECH CLI Tools and Commands.md",
     "PG Character Encoding.md",
     "PG trees and tree traversal.md",
@@ -530,14 +533,11 @@
     "assets/right_join.png",
     "assets/left_join.png",
     "assets/inner_join.png",
-    "WR Overtime And Annuals.md",
     "PG npm-pnpm.md",
     "PG JS-TS index.md",
     "PG TS.md",
-    "PG NestJS.md",
     "assets/deployment-pipeline.png",
     "assets/VM_architecture.png",
-    "assets/Containers_architecture.png",
     "html/VA diagnostic report.html",
     "html/api_planning_guide.html",
     "html/api_first_design.html",
