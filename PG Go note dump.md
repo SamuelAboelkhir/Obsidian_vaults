@@ -762,6 +762,19 @@ func main() {
 	- Interfaces don't have constructors or deconstructors that require that data is created or destroyed.
 	- Interfaces aren't hierarchical by nature, though there is syntactic sugar to create interfaces that happen to be supersets of other interfaces.
 	- Interfaces define function signatures, not their underlying behavior (function definition/body). They don't make code "DRY" as each struct that satisfies the interface, will need to have its own copies of the functions in the interface
+# Note on Types
+- This isn't covered as a lesson on boot.dev, and was just used in `CH10 L11` but I wanted to cover it because it's interesting
+- You can declare a new type called a **Named Type**, of any underlying type, and then assign `const` values to it
+```Go
+type transactionType string
+
+const (
+    transactionDeposit    transactionType = "deposit"
+    transactionWithdrawal transactionType = "withdrawal"
+)
+```
+- This just make this type a bit more unique, and gives autocomplete on the allowed values
+- Also you obviously don't have to pass `const` values in particular, but it's good practice
 # Errors
 - Errors in Go are values, and they have their own interface
 ```Go
@@ -1144,3 +1157,436 @@ hits[Key{"/", "vn"}]++
 n := hits[Key{"/ref/spec", "ch"}]
 ```
 - Here, the use of a struct allowed us to key data by multiple dimensions
+## Count Instances
+- What we did with `range` was not unique to ranges, but rather it's a feature in Go that allows us to assign variables within the `if block`. Technically, we already knew this though because that's the `INITIALIZATION` step
+```Go
+names := map[string]int{}
+missingNames := []string{}
+
+if _, ok := names["Denna"]; !ok {
+    // if the key doesn't exist yet,
+    // append the name to the missingNames slice
+    missingNames = append(missingNames, "Denna")
+}
+```
+# Pointers
+- Same good ol' pointers from C, lets "C" what's new here, hehehe....
+## References
+- You can define a pointer without initializing it, making it's value (the address it holds) `nil`. This pointer is called a nil pointer
+- That pointer isn't super useful though, so we can instead assign it a value normally
+```Go
+// nil pointer
+var p *int
+
+fmt.Printf("value of p: %v\n", p)
+// value of p: <nil>
+
+// Assigned pointer
+myString := "hello"      // myString is just a string
+myStringPtr := &myString // myStringPtr is a pointer to myString's address
+
+fmt.Printf("value of myStringPtr: %v\n", myStringPtr)
+// value of myStringPtr: 0x140c050
+```
+- Just like C, we can dereference a pointer to get the value of the variable who's address the pointer has as a value
+```Go
+*myStringPtr = "world"                              // set myString through the pointer
+fmt.Printf("value of myString: %s\n", *myStringPtr) // read myString through the pointer
+// value of myString: world
+```
+- Unlike C though, Go has no pointer arithmetic
+## Pass by Reference
+- Most variables in Go are passed to functions by value, except for some composite variables like slices and maps
+- This, like in C, is one of the main uses of pointers, which is to pass by reference
+```Go
+// Pass by Value
+func increment(x int) {
+    x++
+    fmt.Println(x)
+    // 6
+}
+
+
+func main() {
+    x := 5
+    increment(x)
+    fmt.Println(x)
+    // 5
+}
+
+// Pass by Reference
+func increment(x *int) {
+    *x++
+    fmt.Println(*x)
+    // 6
+}
+
+func main() {
+    x := 5
+    increment(&x)
+    fmt.Println(x)
+    // 6
+}
+```
+- Pointers to structs here have a different syntax than in C
+```Go
+// This doesn't work
+msgTotal := *analytics.MessagesTotal
+
+// This is how to access a pointer to a struct's fields
+msgTotal := analytics.MessagesTotal
+
+// But this would also work
+msgTotal := (*analytics).MessagesTotal
+```
+- The above approach is the recommended simplest way to access struct fields in Go
+- It's a shorthand for
+```Go
+(*analytics).MessagesTotal
+
+// The above i equivalent to
+analytics.MessagesTotal
+```
+- This is because of operator precedence in Go, where the dot `.` is interpreted before the dereference `*`, which I believe is also the same as in C
+## Nil Pointers
+- Remember when I said before a nil pointer is probably not very useful? Well, it's also dangerous
+- If you try to dereference a nil pointer, it will cause a runtime error, and `panic` (I wonder if we can defer a recover just in case)
+- So, just like in C, always check if a pointer is nil before actually dereferencing it
+## Pointer Receivers
+- In Go, a pointer receiver is more popular that value receivers for struct methods since you usually want to alter the value of the receiver
+- Apparently, a method with pointer receivers doesn't need a pointer to be used when calling the method. The pointer will automatically be derived from the value
+```Go
+// Pointer receiver
+type car struct {
+	color string
+}
+
+func (c *car) setColor(color string) {
+	c.color = color
+}
+
+func main() {
+	c := car{
+		color: "white",
+	}
+	c.setColor("blue")
+	fmt.Println(c.color)
+	// prints "blue"
+}
+
+// Value receiver
+type car struct {
+	color string
+}
+
+func (c car) setColor(color string) {
+	c.color = color
+}
+
+func main() {
+	c := car{
+		color: "white",
+	}
+	c.setColor("blue")
+	fmt.Println(c.color)
+	// prints "white"
+}
+
+// Another example
+type circle struct {
+	x int
+	y int
+    radius int
+}
+
+func (c *circle) grow() {
+    c.radius *= 2
+}
+
+func main() {
+    c := circle{
+        x: 1,
+        y: 2,
+        radius: 4,
+    }
+
+    // notice c is not a pointer in the calling function
+    // but the method still gains access to a pointer to c
+    c.grow()
+    fmt.Println(c.radius)
+    // prints 8
+}
+```
+## Pointer Performance
+- Lane's rule of thumb are:
+	1. First, worry about writing clear, correct, maintainable code.
+	2. If you have a performance problem, fix it.
+- These rules really apply generally to code, we even had similar rules of thumb regarding [[PG SQL#Normalization]]
+- This means, we should focus on using pointers when we need a shared reference to a value, rather than deciding to always use pointers because they don't create copies which should be faster
+- When we actually have performance issues, we should consider:
+	1. Stack vs Heap
+	2. Copying
+- Also, note that local non-pointer variables are actually faster to pass around than pointers, because they're stored on the stack which is faster to access than the heap, despite the fact copying is involved
+- If the value being copied is so large though that it actually starts becoming such a big problem, then using a pointer to avoid copying might be the move, but since we will now have the value on the heap, the speed gain from not copying has to be greater than the speed loss from moving to the heap
+- It's really a balancing act, and your understanding of the underlying systems at play, is how you optimize it
+- The reason Go uses less memory than Java and C# is that Go tends to allocate more on the stack
+# Packages and Modules
+- Every Go program is made up of packages
+- The "main" one, is the main file of the program, with `package main` at the top
+- This file has its entry point at the `main()` function, and it's compiled into an executable program
+- A package by any other name is called a library package, and wont have an entry point
+- Libraries simply export functionality that can be used by other packages, like the following code, which is a main package, and imports code from the `fmt` and `math/rand` library packages
+```Go
+package main
+
+import (
+	"fmt"
+	"math/rand"
+)
+
+func main() {
+	fmt.Println("My favorite number is", rand.Intn(10))
+}
+```
+## Package Naming
+- Conventionally, a package name is the same as the last element of its import path
+- For example, the `math/rand` package comprises files that begin with
+```Go
+package rand
+```
+- Package names aren't required to match their import path. For example, a package path can be `github.com/textio/rand`, and be called `random`, however, that's discouraged for the sake of  consistency
+## One Package / Directory
+- A directory of Go code can have at most one package
+- All `.go` files in a single directory must belong to the same package, otherwise an error will be thrown by the compiler
+- This goes for both main and library packages
+## Modules
+- Go programs are organized into packages
+- A package is a directory of Go code that's all compiled together
+- Functions, types, variables, and constants defined in one source file are visible to all other source file within the same package (directory)
+- A repository contains one or more modules, where a module is a collection of Go packages that are relates together
+![[go_module.png]]
+## One Module Per Repo (Usually)
+- A module is declared by a file named `go.mod` at the root of the project
+- That file contains:
+	- The module path
+	- The version of Go the project requires
+	- Optionally, any external package dependencies the project has
+- The module path is the import path prefix for all the packages within the module
+- Example `go.mod`
+```
+module github.com/bootdotdev/exampleproject
+
+go 1.25.1
+
+require github.com/google/examplepackage v1.3.0
+```
+- The module's path doesn't only serve as an import path prefix for the packages within, but also indicates where the go command should look to download it
+- For example, to download `golang.org/x/tools`, the go command would search the repository at [https://golang.org/x/tools](https://golang.org/x/tools)
+- An import path is the module's path + a package's subdirectory within the module
+- A module can be defined locally, and not necessarily on a remote repository
+## Go Environment
+#### Directory Structure
+- To recap how packages and modules work in your project directory structure:
+	- You will have many git repositories on your machine (typically one per project).
+	- Each repository is typically a single module.
+	- Each module contains one or more packages
+	- Each package consists of one or more Go source files in a single directory.
+#### GOPATH
+- `$GOPATH` is an environment variable that gets set by default somewhere on the machine, typically in the home directory `~/go`
+- One should avoid working directly inside `$GOPATH/src`, as this is the old way of working with Go, and is now outdated, and can causes issues
+## Go Run
+- `go run` is a way to compile and run a Go package without saving the compiled binary
+- Mainly used for local testing and debugging
+## Go Build
+- Go run, but permanent. `go build`
+- It compiles the code into a single statically linked executable program
+## Go Install
+- The `go install` command compiles and installs a package, or packages on your local machine for your personal use
+- It installs the package's compiled binary in the `GOBIN` directory
+- Running `go install` inside your Go project will compile, and install it in `GOBIN` making it globally available on your machine
+## Custom Package
+- If we create a non-main package, maybe in a new module (yes a module can exist without a main package), and run `go build`, the package will be compiled and cached for future use
+- The cache location can be found with `go env GOCACHE`, but generally you don't need to touch it
+- Remember that a variable with a capital name is public, otherwise it private
+- To import packages from one local module into another you need to update the `go.mod` file as such
+```Go
+module github.com/SamuelAboelkhir/hellogo
+
+go 1.25.1
+// Order doesn't matter
+replace github.com/SamuelAboelkhir/mystrings v0.0.0 => ../mystrings
+
+require github.com/SamuelAboelkhir/mystrings v0.0.0
+```
+- In the course we had the hellogo module and mystrings module as sibling directories
+- Then inside `hellogo/main.go`
+```Go
+package main
+
+import (
+	"fmt"
+	"github.com/SamuelAboelkhir/mystrings"
+)
+
+func main() {
+	fmt.Println(mystrings.Reverse("hello world"))
+}
+```
+- The `replace` command in the `go.mod` file told Go to look for the imported package in `../mystrings` instead of the remote repository
+## Remote Packages
+- The use of `replace` is not really advised, as the proper way to create and use a dependency is to publish it to a remote repository, although this only matters in collaborative settings. Using `replace` should be fine for local-only development
+- This time, we added a new directory `datetest`
+```Go
+package main
+
+import (
+	"fmt"
+	"time"
+
+	tinytime "github.com/wagslane/go-tinytime"
+)
+
+func main() {
+	tt := tinytime.New(1585750374)
+	tt = tt.Add(time.Hour * 48)
+	fmt.Println("1585750374 converted to a tinytime is:", tt)
+}
+
+```
+- We then ran `go get github.com/wagslane/go-tinytime` to get the required code
+- `go get` did a few things though
+	- It downloaded the module's code and added it to the cache
+	- It updated go.mod, adding a require line for the module with its specific version
+	- It updated a file called `go.sum` which Go uses to record a checksum for the downloaded modules so that it can verify their integrity in the future
+## Clean Packages
+#### Rules of Thumb
+1. Hide Internal Logic
+	- Similar to encapsulation from OOP
+	- Oftentimes, applications will have complex logic that requires a lot of code, which can be exposed via an API
+	- This means most of the dirty work can be kept within a package away from other applications that need the API
+	- For example
+	```Go
+	package classifier
+
+	// ClassifyImage classifies images as "hotdog" or "not hotdog"
+	func ClassifyImage(image []byte) (imageType string) {
+		if hasHotdogColors(image) && hasHotdogShape(image) {
+			return "hotdog"
+		} else {
+			return "not hotdog"
+		}
+	}
+	
+	func hasHotdogShape(image []byte) bool {
+		// internal logic that the application doesn't need to know about
+		return true
+	}
+	
+	func hasHotdogColors(image []byte) bool {
+		// internal logic that the application doesn't need to know about
+		return true
+	}
+	```
+	- In the above code, only `ClassifyImage()` is public and exposed to the application-level, while the rest is kept private
+	- This is because, the rest of the application, or other applications, don't need to know how images are being classified, just the result of the classification
+2. Don't Change APIs
+	- The private functions in the package can be changed for testing, refactoring, and fixing bugs
+	- The exported function's signature though, shouldn't be changed to keep the API stable, otherwise, users will be constantly getting breaking changes with every change to the signature
+3. Don't Export Functions from the Main Package
+	- A `main` package isn't a library, you don't need to export functions from it
+4. Packages Shouldn't Know About Dependents
+	- A package, shouldn't have specific knowledge about a particular application that uses it
+	- This just keeps the package generic and usable by all other applications that need it, instead of it being tailored towards any specific dependent
+# Channels
+## Concurrency
+- To increase the speed of a program, you can either decrease the number of executions that it needs per second, or, get a better CPU that can execute more instructions per second
+- Concurrency is the ability to perform multiple tasks at the same time
+- Code is usually executed one line at a time. This is called, sequential execution, or synchronous execution
+- If we have multiple CPU cores, we can execute multiple tasks at **exactly** the same time
+- A single core can execute code at **almost** the same time by switching between tasks very quickly
+- Go is concurrent by design, which is apparently a unique feature
+- Go excels at performing many tasks simultaneously, and safely, using a simple syntax
+- To use concurrency in Go, you simply use the `go` keyword when calling a function
+```Go
+go function()
+```
+- Here, the `go` keyword spawns a new `goroutine`, which is a lightweight thread of execution that is a part of the Go runtime alongside Go' garbage collector
+## Channels
+- Channels are a typed, [thread-safe](https://en.wikipedia.org/wiki/Thread_safety) (meaning it can be invoked and accessed concurrently by multiple threads without causing unexpected behavior) queue
+- Channels allow different `goroutines` to communicate with each other
+```GO
+// Create a channel
+ch := make(chan int)
+```
+- The `<-` is called the channel operator. Data flows in the direction of the arrow. This operation will [block](https://en.wikipedia.org/wiki/Blocking_(computing)) until another `goroutine` is ready to receive the value
+```Go
+// Send data to a channel
+ch <- 69
+```
+- When data is received from a channel, the read value is removed from the channel, and is saved in the receiving variable. Again, this operation will block until there is a value in the channel to be read
+```Go
+// Receive data from a channel
+v := <-ch
+```
+- Channels are reference types like maps and slices, so they are passed by reference by default
+```GO
+func send(ch chan int) {
+    ch <- 99
+}
+
+func main() {
+    ch := make(chan int)
+    go send(ch)
+    fmt.Println(<-ch) // 99
+}
+```
+#### Blocking and Deadlocks
+- A [deadlock](https://yourbasic.org/golang/detect-deadlock/#:~:text=yourbasic.org%2Fgolang,look%20at%20this%20simple%20example.) occurs when a group of `goroutines` are all blocking and none of them can continue
+## Signals
+- Sometimes, we don't care what's being passed through a channel, but when and if something is passed
+- In that case, we can block and wait until something is sent on a channel
+```Go
+<-ch
+```
+- This code blocks until it pops a single item off the channel, and then continues to discard items
+- Empty structs are usually used as unary values in these cases so that the sender communicates that this is only a signal and not actual data
+```GO
+func downloadData() chan struct{} {
+	downloadDoneCh := make(chan struct{})
+
+	go func() {
+		fmt.Println("Downloading data file...")
+		time.Sleep(2 * time.Second) // simulate download time
+
+		// after the download is done, send a "signal" to the channel
+		downloadDoneCh <- struct{}{}
+	}()
+
+	return downloadDoneCh
+}
+
+func processData(downloadDoneCh chan struct{}) {
+	// any code here can run normally
+	fmt.Println("Preparing to process data...")
+
+	// block until `downloadData` sends the signal that it's done
+	<-downloadDoneCh
+
+	// any code here can assume that data download is complete
+	fmt.Println("Data download complete, starting data processing...")
+}
+
+processData(downloadData())
+// Preparing to process data...
+// Downloading data file...
+// Data download complete, starting data processing...
+```
+# Buffered Channels
+- Note that the sending and receiving are expected to happen at the same time, which is the whole point of the `goroutine`s and the channels that establish communication between them
+- If you try to send and receive on the same `goroutine` you will cause a deadlock, because this is sequential, not concurrent
+- If the channel is buffered, and works as a queue, then it can hold data, and would actually work even on the same `goroutine` because a buffered channel only blocks when its queue is full for sending, or when its empty for receiving. An unbuffered channel holds no data, so send and receive must be simultaneous
+- Similarly, if you send n times on one `goroutine` you must receive n times on the other `goroutine`, otherwise you will have a deadlock
+- To buffer a channel
+```Go
+ch := make(chan int, 100)
+```
