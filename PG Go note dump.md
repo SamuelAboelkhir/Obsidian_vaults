@@ -462,6 +462,25 @@ func selfMath(mathFunc func(int, int) int) func (int) int {
 ```
 - In the above example, `selfMath` takes an input function as its argument, and returns a function
 - The return function itself takes an argument, and returns the result of passing that argument to the input function that's gonna use it in a calculation
+## Function Literals
+- Functions also have literal syntax
+```Go
+func pingPong(numPings int) {
+	pings := make(chan struct{})
+	pongs := make(chan struct{})
+	go ponger(pings, pongs)
+	go pinger(pings, numPings)
+	func() {
+		i := 0
+		for range pongs {
+			fmt.Println("got pong", i)
+			i++
+		}
+		fmt.Println("pongs done")
+	}()
+}
+```
+- Note that similar to javascript, adding the `()` at the end of a function literal, calls it immediately
 # Struct
 - Good news to me, an average structs enjoyer, Go has them too!!!!
 ```Go
@@ -1589,4 +1608,568 @@ processData(downloadData())
 - To buffer a channel
 ```Go
 ch := make(chan int, 100)
+```
+## Closing Channels
+- The sender can also explicitly close a channel
+```Go
+ch := make(chan int)
+
+// do some stuff with the channel
+
+close(ch)
+```
+- We can even use the same `ok` value used in maps to check if a channel is closed
+```Go
+v, ok := <-ch
+```
+- Attempting to send on a closed channel will cause a panic, which, when on the main `goroutine` will cause the program to crash
+- A panic on any other `goroutine`, will cause only it to crash
+- Closing a channel isn't necessary as they'll still be garbage collected anyway when unused, but closing a channel can indicate to a receiver that there's nothing else to be received
+## Range
+- We can range over channels just like with slices and maps
+```Go
+for item := range ch {
+    // item is the next value received from the channel
+}
+```
+## Select
+- `select` is used when we have one `goroutine` listening to multiple channels, and we want to process data in the order it come through each channel
+- Syntactically, `select` is similar to `switch`
+```Go
+select {
+case i, ok := <-chInts:
+	if ok {
+		fmt.Println(i)
+	}
+case s, ok := <-chStrings:
+	if ok {
+		fmt.Println(s)
+	}
+}
+```
+- The first channel that has a value will execute first, and if multiple have values ready at the same time, one will be chose at random
+- Adding a default case to `select` makes prevents it from blocking as it executes immediately if no other channel has a value ready
+```Go
+select {
+case v := <-ch:
+    // use v
+default:
+    // receiving from ch would block
+    // so do something else
+}
+```
+- In case you want to ignore the channel's value, you have two options
+```Go
+select {
+case <-ch:
+    // event received; value ignored
+default:
+    // so do something else
+}
+
+// Or
+select {
+case _ = <-ch:
+    // event received; value ignored
+default:
+    // so do something else
+}
+```
+## Tickers
+- The `time` package in Go's standard library has multiple functions that return channels
+- `time.Tick()` is a standard library function that returns a channel that sends a value on a given interval.
+- `time.After()` sends a value once after the duration has passed.
+- `time.Sleep()` blocks the current `goroutine` for the specified duration of time.
+- These functions take a `time.Duration` ass an argument
+```Go
+time.Tick(500 * time.Millisecond)
+```
+- The functions here default to nanoseconds if you don't specify the units
+## Read-Only Channels
+- Channels can be marked a read-only if you cast it from `chan` to `<-chan` and the type
+```Go
+func main() {
+    ch := make(chan int)
+    readCh(ch)
+}
+
+func readCh(ch <-chan int) {
+    // ch can only be read from
+    // in this function
+}
+```
+- Inversely, channels can be write-only, by moving the arrow's position
+```Go
+func writeCh(ch chan<- int) {
+    // ch can only be written to
+    // in this function
+}
+```
+## A Few Closing Notes About Channels
+- A declared but uninitialized channel is nil just like a slice
+```Go
+var s []int       // s is nil
+var c chan string // c is nil
+
+var s = make([]int, 5) // s is initialized and not nil
+var c = make(chan int) // c is initialized and not nil
+```
+- A send to a nil channel blocks forever
+```Go
+var c chan string        // c is nil
+c <- "let's get started" // blocks
+```
+- A receive from a nil channel blocks forever
+```Go
+var c chan string // c is nil
+fmt.Println(<-c)  // blocks
+```
+- A send to a closed channel panics
+```GO
+var c = make(chan int, 100)
+close(c)
+c <- 1 // panic: send on closed channel
+```
+- A receive from a closed channel returns the zero value immediately
+```Go
+var c = make(chan int, 100)
+close(c)
+fmt.Println(<-c) // 0
+```
+- If a program exists before its `goroutine`s are completed, they will be killed silently
+# Mutexes
+- Mutexes allow us to lock access to data
+- They ensure that we can control which `goroutine`s can access which data at which time
+- The `sync.Mutex` type from the standard library provide us with two methods to achieve this, `.Lock()` and `.Unlock()`
+```Go
+func protected(){
+    mu.Lock()
+    defer mu.Unlock()
+    // the rest of the function is protected
+    // any other calls to `mu.Lock()` will block
+}
+```
+- It's good practice to remember to defer an unblock for locked blocks
+#### Maps Are Not Thread-Safe
+- A map accessed by multiple `goroutine`s is a good example of something that you want to lock, as maps are not thread-safe
+- Mutex is short for mutual exclusion because it excludes different threads (or `goroutine`s) from accessing the same data at the same time
+- Mutex is used when multiple threads are accessing the same data, where maybe one is reading the shared data as the other thread is writing to it
+- This could cause a panic if the reader is reading bad data that's being mutated in place
+![[mutex.png]]
+```Go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	m := map[int]int{}
+	go writeLoop(m)
+	go readLoop(m)
+
+	// stop program from exiting, must be killed
+	block := make(chan struct{})
+	<-block
+}
+
+func writeLoop(m map[int]int) {
+	for {
+		for i := 0; i < 100; i++ {
+			m[i] = i
+		}
+	}
+}
+
+func readLoop(m map[int]int) {
+	for {
+		for k, v := range m {
+			fmt.Println(k, "-", v)
+		}
+	}
+}
+```
+- The above code creates a map, then starts two `goroutine`s that have access to the map
+- One routine is continuously mutating the values stored in the map while the other is printing values from the map
+- This program on a multi-core machine could run into the following error: `fatal error: concurrent map iteration and map write`
+- This is where mutexes step in
+```Go
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+func main() {
+	m := map[int]int{}
+
+	mu := &sync.Mutex{}
+
+	go writeLoop(m, mu)
+	go readLoop(m, mu)
+
+	// stop program from exiting, must be killed
+	block := make(chan struct{})
+	<-block
+}
+
+func writeLoop(m map[int]int, mu *sync.Mutex) {
+	for {
+		for i := 0; i < 100; i++ {
+			mu.Lock()
+			m[i] = i
+			mu.Unlock()
+		}
+	}
+}
+
+func readLoop(m map[int]int, mu *sync.Mutex) {
+	for {
+		mu.Lock()
+		for k, v := range m {
+			fmt.Println(k, "-", v)
+		}
+		mu.Unlock()
+	}
+}
+```
+- Now, in both routines, we can lock before reading/writing, do the operation, then unlock, making sure these two operation happen in sync and not at the same time
+- No other thread can lock the mutex while it's already locked, and if another thread attempts to lock it, it will be blocked until the mutex is unlocked
+## RW Mutex
+- The standard library also offers us the `sync.RWMutex` which provides these two new methods `.RLock()` and `.RUnlock()`
+- This mutex improves performance for read-intensive processes, and allows multiple `goroutine`s to read from the map simultaneously since multiple `Rlock()` calls can occur at the same time
+- However, if a `goroutine` already has a `Lock()` then all other locks, including `RLocks()` will be blocked until the routine unlocks
+- Maps are actually safe for concurrent read access, but not for concurrent read/write or write/write access
+- With read/write, all the reader will have access to the map at the same time, but a writer will still lock out all the reader and writers until it's done
+```Go
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+func main() {
+	m := map[int]int{}
+
+	mu := &sync.RWMutex{}
+
+	go writeLoop(m, mu)
+	go readLoop(m, mu)
+	go readLoop(m, mu)
+	go readLoop(m, mu)
+	go readLoop(m, mu)
+
+	// stop program from exiting, must be killed
+	block := make(chan struct{})
+	<-block
+}
+
+func writeLoop(m map[int]int, mu *sync.RWMutex) {
+	for {
+		for i := 0; i < 100; i++ {
+			mu.Lock()
+			m[i] = i
+			mu.Unlock()
+		}
+	}
+}
+
+func readLoop(m map[int]int, mu *sync.RWMutex) {
+	for {
+		mu.RLock()
+		for k, v := range m {
+			fmt.Println(k, "-", v)
+		}
+		mu.RUnlock()
+	}
+}
+```
+# Generics
+- Go didn't always have generics, and as it doesn't have classes either, that meant that it wasn't a very DRY language, and you had to write different versions of the same function per type
+```Go
+func splitIntSlice(s []int) ([]int, []int) {
+    mid := len(s)/2
+    return s[:mid], s[mid:]
+}
+
+func splitStringSlice(s []string) ([]string, []string) {
+    mid := len(s)/2
+    return s[:mid], s[mid:]
+}
+```
+- Generics allow us to use variables to refer to specific types
+```Go
+func splitAnySlice[T any](s []T) ([]T, []T) {
+    mid := len(s)/2
+    return s[:mid], s[mid:]
+}
+```
+- This means now we can have more abstract functions that reduce code duplication
+- `T` is the name of the type parameter for `splitAnySlice()`, and it must match the `any` constraint, meaning it can be anything
+```GO
+firstInts, secondInts := splitAnySlice([]int{0, 1, 2, 3})
+fmt.Println(firstInts, secondInts)
+```
+- To create the zero value of a type
+```Go
+var myZeroInt int
+
+// Generic
+var myZero T
+```
+## Constraints
+- Constraints like `any` are interfaces that allow us to write generics that operate within the constraints of a given interface
+- `any` is the same as the empty interface for example because it means the type in question can be anything
+- We can also create custom constraints
+- For example, a `concat()` function takes a slice of values and concatenates them into a string
+- This function should be able to accept any type that can be represented as a string, even if it isn't a string
+- An example for this is a `user` struct with a `.String()` method that returns the user's name and age as a string
+```Go
+type stringer interface {
+    String() string
+}
+
+func concat[T stringer](vals []T) string {
+    result := ""
+    for _, val := range vals {
+        // this is where the .String() method
+        // is used. That's why we need a more specific
+        // constraint instead of the any constraint
+        result += val.String()
+    }
+    return result
+}
+```
+- Based on boots, the benefit of using a generic in place of the interface itself, is that it still enforces the underlying concrete type, and doesn't consider all types to be the interface's type
+- So if typeA and typeB implement interfaceA. Using generics `func [T interfaceA]()` and saying `func(typeA)` means that the function is running with knowledge that it's using typeA, instead of believing it's using interfaceA
+## Interface Type Lists
+- The release of generics brought about a new way for writing interfaces too
+- Interfaces as we've seen so far are method-based, where a type satisfies the interface if it has all of its methods
+- Now, we also have **(type-set) interfaces**
+- These interfaces list the concrete (underlying) types that are allowed, instead of the methods
+- They are intended to be used mainly as constraints on type parameters
+- For example, to use `<` or `>` on a type parameter `T`, the compiler must know `T` is ordered
+- A type-list interface would spell out exactly which types count as ordered
+```Go
+// Ordered matches any type that supports <, <=, >, and >=.
+type Ordered interface {
+    ~int | ~int8 | ~int16 | ~int32 | ~int64 |
+        ~uint | ~uint8 | ~uint16 | ~uint32 | ~uint64 | ~uintptr |
+        ~float32 | ~float64 |
+        ~string
+}
+
+// Because T is constrained by Ordered, the compiler knows
+// that < is valid for any T used with this function.
+func Min[T Ordered](a, b T) T {
+    if a < b {
+        return a
+    }
+    return b
+}
+```
+## Parametric Constraints
+- Interface definitions can also accept type parameters
+```Go
+// The store interface represents a store that sells products.
+// It takes a type parameter P that represents the type of products the store sells.
+type store[P product] interface {
+	Sell(P)
+}
+
+type product interface {
+	Price() float64
+	Name() string
+}
+
+type book struct {
+	title  string
+	author string
+	price  float64
+}
+
+func (b book) Price() float64 {
+	return b.price
+}
+
+func (b book) Name() string {
+	return fmt.Sprintf("%s by %s", b.title, b.author)
+}
+
+type toy struct {
+	name  string
+	price float64
+}
+
+func (t toy) Price() float64 {
+	return t.price
+}
+
+func (t toy) Name() string {
+	return t.name
+}
+
+// The bookStore struct represents a store that sells books.
+type bookStore struct {
+	booksSold []book
+}
+
+// Sell adds a book to the bookStore's inventory.
+func (bs *bookStore) Sell(b book) {
+	bs.booksSold = append(bs.booksSold, b)
+}
+
+// The toyStore struct represents a store that sells toys.
+type toyStore struct {
+	toysSold []toy
+}
+
+// Sell adds a toy to the toyStore's inventory.
+func (ts *toyStore) Sell(t toy) {
+	ts.toysSold = append(ts.toysSold, t)
+}
+
+// sellProducts takes a store and a slice of products and sells
+// each product one by one.
+func sellProducts[P product](s store[P], products []P) {
+	for _, p := range products {
+		s.Sell(p)
+	}
+}
+
+func main() {
+	bs := bookStore{
+		booksSold: []book{},
+	}
+
+    // By passing in "book" as a type parameter, we can use the sellProducts function to sell books in a bookStore
+	sellProducts[book](&bs, []book{
+		{
+			title:  "The Hobbit",
+			author: "J.R.R. Tolkien",
+			price:  10.0,
+		},
+		{
+			title:  "The Lord of the Rings",
+			author: "J.R.R. Tolkien",
+			price:  20.0,
+		},
+	})
+	fmt.Println(bs.booksSold)
+
+    // We can then do the same for toys
+	ts := toyStore{
+		toysSold: []toy{},
+	}
+	sellProducts[toy](&ts, []toy{
+		{
+			name:  "Lego",
+			price: 10.0,
+		},
+		{
+			name:  "Barbie",
+			price: 20.0,
+		},
+	})
+	fmt.Println(ts.toysSold)
+}
+```
+- The name `T` is a variable name for the type parameter, which means, it could have been called anything, kinda like how the receiver in a struct method is conventionally the first character of the struct name
+# Enums
+## Lack of Enums
+- Go's type system is the least powerful thing about it, being closer to C than Rust or Typescript. As such, Go has no enums, sum types, tagged unions, etc...
+## Error handling
+- `%w` is the verb (yes they're called verbs instead of format specifiers now) is a wrapper for error types in particular
+```Go
+user, err := getUser()
+if err != nil {
+    return fmt.Errorf("failed to get user: %w", err)
+}
+// do something with user
+```
+## Type definitions
+- Since Go has no union types, we have to instead resort to other solutions, like type definitions
+```Go
+type sendingChannel string
+
+const (
+    Email sendingChannel = "email"
+    SMS   sendingChannel = "sms"
+    Phone sendingChannel = "phone"
+)
+
+func sendNotification(ch sendingChannel, message string) {
+    // send the message
+}
+```
+- This is a bit safer than using straight strings, but still not perfect
+```Go
+// This will be prevented
+sendingCh := "slack"
+sendNotification(sendingCh, "hello") // string is not sendingChannel
+
+// But not this
+// "slack" is automatically implied as a sendingChannel
+sendNotification("slack", "hello")
+
+// We can also still do this
+sendingCh := "slack"
+convertedSendingCh := sendingChannel(sendingCh)
+sendNotification(convertedSendingCh, "hello")
+```
+## Iota
+- Iota is a keyword that creates a sequence of numbers
+- It tart at 0 and increment by 1 for each constant in a `const` block
+```Go
+type sendingChannel int
+
+const (
+    Email sendingChannel = iota
+    SMS
+    Phone
+)
+```
+- Note that Iota is not an `enum`, and doesn't provide the benefits of an `enum`, such as type safety, as you can still assign any number to `sendingChannel`, even if it's outside the 3 defined values here
+- It is however the closest thing we have, and still would create a list of numbered items that fall under `sendingChannel`
+# Go Proverbs
+```
+Don't communicate by sharing memory, share memory by communicating.
+
+Concurrency is not parallelism.
+
+Channels orchestrate; mutexes serialize.
+
+The bigger the interface, the weaker the abstraction.
+
+Make the zero value useful.
+
+interface{} says nothing.
+
+Gofmt's style is no one's favorite, yet gofmt is everyone's favorite.
+
+A little copying is better than a little dependency.
+
+Syscall must always be guarded with build tags.
+
+Cgo must always be guarded with build tags.
+
+Cgo is not Go.
+
+With the unsafe package there are no guarantees.
+
+Clear is better than clever.
+
+Reflection is never clear.
+
+Errors are values.
+
+Don't just check errors, handle them gracefully.
+
+Design the architecture, name the components, document the details.
+
+Documentation is for users.
+
+Don't panic.
 ```
