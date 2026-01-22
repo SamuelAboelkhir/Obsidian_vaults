@@ -81,17 +81,50 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2025-12-02 20.19.31.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-12-02 20.19.31.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2025-12-02 20.19.31.excalidraw.restored",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.restored.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-12-02 20.19.31.excalidraw.restored\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2025-12-02 20.19.31.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-12-02 20.19.31.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2025-11-29 20.06.40.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-11-29 20.06.40.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-11 19.22.26.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "8e63b7d754490c17",
@@ -118,7 +151,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "WR VA General Notes.md",
+                    "file": "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -224,7 +257,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of WR VA General Notes"
+                  "title": "Graph of Drawing 2025-12-11 19.22.26.excalidraw"
                 }
               }
             ]
@@ -517,10 +550,15 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "bc04d01dd4026d92",
+  "active": "a9bb728591b0d918",
   "lastOpenFiles": [
-    "PG Git.md",
+    "Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.md",
+    "Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.restored.md",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
+    "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md",
+    "excalibrain.md",
     "WR VA General Notes.md",
+    "PG Git.md",
     "_0000 Home.md",
     "WR Overtime And Annuals.md",
     "WR Church Requirements.md",
@@ -546,11 +584,6 @@
     "PG C index.md",
     "PG C My general notes dump.md",
     "assets/semantic_versioning.png",
-    "_0003 Personal MOC.md",
-    "TECH CLI Tools and Commands.md",
-    "PG Character Encoding.md",
-    "PG trees and tree traversal.md",
-    "PG Alogrithms index.md",
     "assets/full_join.png",
     "assets/right_join.png",
     "assets/left_join.png",
