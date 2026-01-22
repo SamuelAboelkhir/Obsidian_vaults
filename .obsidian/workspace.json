@@ -12,29 +12,23 @@
             "id": "bc04d01dd4026d92",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "PG SQL",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":338,\"ch\":65},\"to\":{\"line\":338,\"ch\":65}},\"scroll\":374.5425667090216}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "PG Go index",
+                  "title": "PG Python index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "_0006 Programming MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":6},\"to\":{\"line\":13,\"ch\":6}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":13},\"to\":{\"line\":21,\"ch\":13}},\"scroll\":4.333333333333333}"
                 },
                 {
                   "title": "PG CICD",
@@ -47,12 +41,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Go note dump.md",
+                "file": "WR VA General Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Go note dump"
+              "title": "WR VA General Notes"
+            }
+          },
+          {
+            "id": "ff27ec0df482a48a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Git"
             }
           },
           {
@@ -101,7 +118,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG Go note dump.md",
+                    "file": "WR VA General Notes.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -207,7 +224,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG Go note dump"
+                  "title": "Graph of WR VA General Notes"
                 }
               }
             ]
@@ -502,20 +519,25 @@
   },
   "active": "bc04d01dd4026d92",
   "lastOpenFiles": [
+    "PG Git.md",
+    "WR VA General Notes.md",
+    "_0000 Home.md",
+    "WR Overtime And Annuals.md",
+    "WR Church Requirements.md",
+    "PG Python index.md",
+    "WR Church Tasks.md",
+    "_0006 Programming MOC.md",
+    "PG Go index.md",
+    "PG Go note dump.md",
     "assets/mutex.png",
     "PG Docker.md",
     "PG Other index.md",
-    "_0006 Programming MOC.md",
-    "PG Go note dump.md",
-    "PG Go index.md",
     "PG SQL.md",
     "assets/go_module.png",
-    "WR Overtime And Annuals.md",
     "WR Church ERD.canvas",
     "PG CICD old.md",
     "NET Common ports and protocols.md",
     "PG CICD.md",
-    "PG Git.md",
     "EH Web Searching.md",
     "PER Important websites.md",
     "assets/the_compilation_process.png",
@@ -525,7 +547,6 @@
     "PG C My general notes dump.md",
     "assets/semantic_versioning.png",
     "_0003 Personal MOC.md",
-    "_0000 Home.md",
     "TECH CLI Tools and Commands.md",
     "PG Character Encoding.md",
     "PG trees and tree traversal.md",
@@ -534,11 +555,7 @@
     "assets/right_join.png",
     "assets/left_join.png",
     "assets/inner_join.png",
-    "PG npm-pnpm.md",
-    "PG JS-TS index.md",
-    "PG TS.md",
     "assets/deployment-pipeline.png",
-    "assets/VM_architecture.png",
     "html/VA diagnostic report.html",
     "html/api_planning_guide.html",
     "html/api_first_design.html",
