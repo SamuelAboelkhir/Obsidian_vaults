@@ -9,7 +9,7 @@
         "dimension": 84.08796895213455,
         "children": [
           {
-            "id": "bc04d01dd4026d92",
+            "id": "ff27ec0df482a48a",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -19,22 +19,105 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.87797619047619}"
+                },
+                {
+                  "title": "Drawing 2025-11-29 20.06.40.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-11-29 20.06.40.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2025-12-02 20.19.31.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-12-02 20.19.31.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2025-12-02 20.19.31.excalidraw.restored",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.restored.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-12-02 20.19.31.excalidraw.restored\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2025-12-11 19.22.26.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-12-11 19.22.26.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0002 Work MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":0},\"to\":{\"line\":30,\"ch\":0}},\"scroll\":6.828685258964144}"
+                },
+                {
+                  "title": "TECH CLI Tools and Commands",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.76}"
+                },
+                {
+                  "title": "TECH Anatomy of Memory",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Anatomy of Memory.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Anatomy of Memory\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.333333333333333}"
+                },
+                {
                   "title": "PG Python index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":8},\"to\":{\"line\":8,\"ch\":8}},\"scroll\":0}"
                 },
                 {
                   "title": "_0006 Programming MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":13},\"to\":{\"line\":21,\"ch\":13}},\"scroll\":4.333333333333333}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":7},\"to\":{\"line\":21,\"ch\":7}},\"scroll\":4.333333333333333}"
                 },
                 {
-                  "title": "PG CICD",
+                  "title": "PG Git",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CICD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CICD\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":66},\"to\":{\"line\":5,\"ch\":66}},\"scroll\":0.76}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Git.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Git\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":57},\"to\":{\"line\":5,\"ch\":57}},\"scroll\":0.76}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_0002 Work MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_0002 Work MOC"
+            }
+          },
+          {
+            "id": "cfe018f49b825d84",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "WR VA Dump",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Dump\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":2},\"to\":{\"line\":5,\"ch\":2}},\"scroll\":0}"
+                },
+                {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":17},\"to\":{\"line\":17,\"ch\":17}}}"
                 }
               ]
             },
@@ -50,36 +133,15 @@
             }
           },
           {
-            "id": "ff27ec0df482a48a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG Git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG Git"
-            }
-          },
-          {
             "id": "a9bb728591b0d918",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 5,
               "stack": [
                 {
-                  "state": "{}",
+                  "title": "Drawing 2025-12-11 19.22.26.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-12-11 19.22.26.excalidraw\"}",
                   "eState": "{}"
                 },
                 {
@@ -107,20 +169,16 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "state": "{}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-11 19.22.26.excalidraw"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -151,7 +209,6 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -257,7 +314,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Drawing 2025-12-11 19.22.26.excalidraw"
+                  "title": "Graph view"
                 }
               }
             ]
@@ -339,7 +396,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -552,37 +609,37 @@
   },
   "active": "a9bb728591b0d918",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-01-27 14.41.39.excalidraw.md",
+    "PG npm-pnpm.md",
+    "_0000 Home.md",
+    "PG JS-TS index.md",
+    "_0006 Programming MOC.md",
+    "PG Python General.md",
+    "WR VA General Notes.md",
+    "WR Church ERD.canvas",
+    "WR Church Requirements.md",
+    "WR Church Tasks.md",
+    "WR Church TODO.md",
+    "WR Church Extra.md",
+    "PG SQL.md",
+    "PG Other index.md",
+    "PG Go note dump.md",
+    "PG Docker.md",
+    "_0002 Work MOC.md",
+    "WR Overtime And Annuals.md",
+    "NET Common ports and protocols.md",
+    "NET Networking index.md",
+    "_0005 IT MOC.md",
+    "WR VA Dump.md",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
     "Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.md",
     "Excalidraw/Drawing 2025-12-02 20.19.31.excalidraw.restored.md",
-    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
     "Excalidraw/Drawing 2025-12-11 19.22.26.excalidraw.md",
-    "excalibrain.md",
-    "WR VA General Notes.md",
-    "PG Git.md",
-    "_0000 Home.md",
-    "WR Overtime And Annuals.md",
-    "WR Church Requirements.md",
-    "PG Python index.md",
-    "WR Church Tasks.md",
-    "_0006 Programming MOC.md",
-    "PG Go index.md",
-    "PG Go note dump.md",
+    "Excalidraw/Drawing 2026-01-26 18.51.59.excalidraw.md",
     "assets/mutex.png",
-    "PG Docker.md",
-    "PG Other index.md",
-    "PG SQL.md",
     "assets/go_module.png",
-    "WR Church ERD.canvas",
-    "PG CICD old.md",
-    "NET Common ports and protocols.md",
-    "PG CICD.md",
-    "EH Web Searching.md",
-    "PER Important websites.md",
     "assets/the_compilation_process.png",
     "assets/Go_is_GOATed.png",
-    "PG C compilation flow.md",
-    "PG C index.md",
-    "PG C My general notes dump.md",
     "assets/semantic_versioning.png",
     "assets/full_join.png",
     "assets/right_join.png",
