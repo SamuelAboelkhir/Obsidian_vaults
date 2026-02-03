@@ -8,3 +8,7 @@ MOC: Work
 [[WR Projects index]]
 # General notes
 [[WR General Index]]
+
+# TODO this week
+
+
