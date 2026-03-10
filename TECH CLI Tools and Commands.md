@@ -37,6 +37,7 @@ MOC: Technology
 - `tinyxxd`: Does a pretty hexdump
 - `hexdump`: Does a normal hexdump (the hex is split into groups of 4 and the first 2 and last 2 digits in each group are swapped compared to tinyxxd)
 - `expr`: A command that evaluates expressions
+- `trans`: A shell dictionary and translator, which is basically a google translate wrapper
 ---
 ### File operations
 - `cat`: prints file content to stdout
@@ -104,6 +105,8 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 	- `ln -s /home/file1 /home/Documents/link-to-file1`
 - `pandoc`: General markup converter with multiple different format options
 - `glow`: TUI markup renderer
+- `evtest`: A tools that captures a device's inputs
+	- Used with `sudo` as it needs to scan a root file for the list of devices
 - #### Back to top: [[#Links]]
 ---
 ### System management and monitoring
@@ -168,10 +171,12 @@ The count parameter determines how many blocks to copy.
 	- Can mount remote directories
 	- `-t`: indicates the filesystem type
 	- `sudo mount -t ext4 -o exec,dev,suid UUID=eb360311-93d7-4e5e-8b13-19d4153e6f1b /mnt/ubuntu24`
-- [[TECH SSH |ssh]]
 - `env`: Shows the environment variables on the shell for the current session only
 - `set`: Shows the shell's local variables
+- `printenv`: Safer method of showing env variables than `echo`
+	- Doesn't need `$` before the variable's name
 - `sysbench`: Scriptable multi-threaded benchmark tool for databases and systems
+- `powertop`:  A power consumption and power management diagnosis tool.
 ---
 ### Networking commands and tools
 
@@ -180,7 +185,9 @@ The count parameter determines how many blocks to copy.
 - `nmap -sn 192.168.1.1/24`: shows all the IPs in the specified range and subnet mask as well as their open ports. Use --verbose on all commands for more details. ^2b1c6e
 - `nmcli`: CLI network manager.
 - `mtr`: shows both ping and traceroute to a specific IP.
+- `nslookup`: This command performs manual DNS queries to convert domain names into IP addresses and also works in reverse.
 - `dig`: does DNS lookups and reverse DNS with the -x flag ^d16ff0
+	-  It's more detailed that `nslookup`
 - `ifconfig`/`ip`: both show IPs and network interface information. ^a631d5
 - `netstat`: for network statistics.
 - `host`: shows info about a host.
@@ -198,13 +205,16 @@ sudo ip addr flush dev eth0
 sudo ip addr add 192.168.57.10/24 dev eth0
 sudo ip route add default via 192.168.57.1
 ```
-
 - `ps aux | grep -E "(dhcp|network|wpa|nm-)"`: finds network related processes
 - To find processes using specific ports
 	- `sudo netstat -tulpn | grep :80`
 
 - `sudo dhcpcd eth0` lets dhcpd run on your interface and give it an IP address
-
+- [[TECH SSH |ssh]]
+- `tcpdump`: This command captures network packets in real-time, providing insight into traffic flowing through the network.
+- `nc (Netcat)`: This command reads and writes data across network connections using TCP or UDP. It is often called the “Swiss army knife” of networking
+- `ss`: A modern replacement for netstat, this command analyzes socket-level statistics, such as open and listening ports
+	- Syntax: ss -tuln (to show listening TCP/UDP ports)
 ---
 ### System protection
 
