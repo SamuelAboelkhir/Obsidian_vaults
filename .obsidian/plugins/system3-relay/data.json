@@ -22,7 +22,6 @@
   "enableDeltaLogging": false,
   "enableDocumentHistory": false,
   "enableEditorTweens": false,
-  "enableSyncModal": false,
   "enableNetworkLogging": false,
   "enableCanvasSync": false,
   "enableVerifyUploads": false,
@@ -30,7 +29,13 @@
   "enableDiscordLogin": false,
   "enableSelfManageHosts": true,
   "enableToasts": false,
+  "enablePresenceAvatars": true,
+  "enableLiveEmbeds": true,
+  "enablePreviewViewHooks": true,
+  "enableMetadataViewHooks": true,
+  "enableKanbanView": true,
   "debugging": false,
+  "enableSyncModal": false,
   "login": {
     "provider": "github"
   },
