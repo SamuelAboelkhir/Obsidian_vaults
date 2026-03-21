@@ -70,48 +70,48 @@ Escape these special characters with `\`
 
 ### Meta Sequences
 
-| Pattern | Description |
-| --- | --- |
-| `.` | Any single character |
-| `\s` | Any whitespace character |
-| `\S` | Any non-whitespace character |
-| `\d` | Any digit, Same as \[0-9\] |
-| `\D` | Any non-digit, Same as \[^0-9\] |
-| `\w` | Any word character |
-| `\W` | Any non-word character |
-| `\X` | Any Unicode sequences, linebreaks included |
-| `\C` | Match one data unit |
-| `\R` | Unicode newlines |
-| `\v` | Vertical whitespace character |
-| `\V` | Negation of \\v - anything except newlines and vertical tabs |
-| `\h` | Horizontal whitespace character |
-| `\H` | Negation of \\h |
-| `\K` | Reset match |
-| `\n` | Match nth subpattern |
-| `\pX` | Unicode property X |
-| `\p{...}` | Unicode property or script category |
-| `\PX` | Negation of \\pX |
-| `\P{...}` | Negation of \\p |
-| `\Q...\E` | Quote; treat as literals |
-| `\k<name>` | Match subpattern `name` |
-| `\k'name'` | Match subpattern `name` |
-| `\k{name}` | Match subpattern `name` |
-| `\gn` | Match nth subpattern |
-| `\g{n}` | Match nth subpattern |
-| `\g<n>` | Recurse nth capture group |
-| `\g'n'` | Recurses nth capture group. |
-| `\g{-n}` | Match nth relative previous subpattern |
-| `\g<+n>` | Recurse nth relative upcoming subpattern |
-| `\g'+n'` | Match nth relative upcoming subpattern |
-| `\g'letter'` | Recurse named capture group `letter` |
-| `\g{letter}` | Match previously-named capture group `letter` |
-| `\g<letter>` | Recurses named capture group `letter` |
-| `\xYY` | Hex character YY |
-| `\x{YYYY}` | Hex character YYYY |
-| `\ddd` | Octal character ddd |
-| `\cY` | Control character Y |
-| `[\b]` | Backspace character |
-| `\` | Makes any character literal |
+| Pattern      | Description                                                  |
+| ------------ | ------------------------------------------------------------ |
+| `.`          | Any single character                                         |
+| `\s`         | Any whitespace character                                     |
+| `\S`         | Any non-whitespace character                                 |
+| `\d`         | Any digit, Same as \[0-9\]                                   |
+| `\D`         | Any non-digit, Same as \[^0-9\]                              |
+| `\w`         | Any word character                                           |
+| `\W`         | Any non-word character                                       |
+| `\X`         | Any Unicode sequences, linebreaks included                   |
+| `\C`         | Match one data unit                                          |
+| `\R`         | Unicode newlines                                             |
+| `\v`         | Vertical whitespace character                                |
+| `\V`         | Negation of \\v - anything except newlines and vertical tabs |
+| `\h`         | Horizontal whitespace character                              |
+| `\H`         | Negation of \\h                                              |
+| `\K`         | Reset match                                                  |
+| `\n`         | Match nth subpattern                                         |
+| `\pX`        | Unicode property X                                           |
+| `\p{...}`    | Unicode property or script category                          |
+| `\PX`        | Negation of \\pX                                             |
+| `\P{...}`    | Negation of \\p                                              |
+| `\Q...\E`    | Quote; treat as literals                                     |
+| `\k<name>`   | Match subpattern `name`                                      |
+| `\k'name'`   | Match subpattern `name`                                      |
+| `\k{name}`   | Match subpattern `name`                                      |
+| `\gn`        | Match nth subpattern                                         |
+| `\g{n}`      | Match nth subpattern                                         |
+| `\g<n>`      | Recurse nth capture group                                    |
+| `\g'n'`      | Recurses nth capture group.                                  |
+| `\g{-n}`     | Match nth relative previous subpattern                       |
+| `\g<+n>`     | Recurse nth relative upcoming subpattern                     |
+| `\g'+n'`     | Match nth relative upcoming subpattern                       |
+| `\g'letter'` | Recurse named capture group `letter`                         |
+| `\g{letter}` | Match previously-named capture group `letter`                |
+| `\g<letter>` | Recurses named capture group `letter`                        |
+| `\xYY`       | Hex character YY                                             |
+| `\x{YYYY}`   | Hex character YYYY                                           |
+| `\ddd`       | Octal character ddd                                          |
+| `\cY`        | Control character Y                                          |
+| `[\b]`       | Backspace character                                          |
+| `\`          | Makes any character literal                                  |
 
 ### Anchors
 
