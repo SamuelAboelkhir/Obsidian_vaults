@@ -13,7 +13,7 @@ MOC: Technology
 - [[#Networking commands and tools]]
 - [[#System protection]]
 - [[#System navigation]]
-- [[#Photos and video]]
+- [[#Photos, audio and video]]
 - [[#Ghostty]]
 - [[#Gaming]]
 - [[#Commands useful in pentesting]]
@@ -25,6 +25,11 @@ MOC: Technology
 - `batcat`: better cat.
 - `compgen -b` : shows all built-in terminal commands.
 - `compgen -c` : shows all command-line tools available in the system's PATH.
+	- `compgen -c | grep '^xdg-'`: Gets a list of all the XDG commands
+	- xdg-* commands are part of the freedesktop.org “XDG” tools, which are meant to be desktop-agnostic.
+		- Works on GNOME, KDE, XFCE, LXDE, etc.
+		- Handles things like opening files, setting default apps, opening URLs, launching the preferred browser, etc.
+		- It’s basically Linux’s cross-desktop utility layer.
 - (the one provided in this case)
 - `ls -lt /var/lib/dpkg/info/*.list` : shows a list of installed packages 
 - sorted by date.
@@ -107,6 +112,9 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - `glow`: TUI markup renderer
 - `evtest`: A tools that captures a device's inputs
 	- Used with `sudo` as it needs to scan a root file for the list of devices
+- `gedit`: Opens the default GUI text editor
+- `gio`: Opens a file using its default GUI app
+- `xdg-open`: Opens a file or URL in the user's preferred application
 - #### Back to top: [[#Links]]
 ---
 ### System management and monitoring
@@ -117,7 +125,13 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - `free -h` : shows memory statistics in a human readable format.
 - `swapon --show` : shows the available swapfiles and their usages.
 -  `more /proc/sys/vm/swappiness` : shows the swappiness statistic of the system.
-- `sudo dd if=dev/zero of=/swapfile2 bs=1M count=2048 status=progress; sudo chmod 600 /swapfile2; sudo mkswap /swapfile2; sudo swapon /swapfile2` : a command that starts with dd, a command for reading, writing, and converting file data. The command contains the following parameters:
+```zsh
+sudo dd if=dev/zero of=/swapfile2 bs=1M count=2048 status=progress
+sudo chmod 600 /swapfile2
+sudo mkswap /swapfile2
+sudo swapon /swapfile2
+``` 
+A command that starts with dd, a command for reading, writing, and converting file data. The command contains the following parameters:
 
 > if=/dev/zero is the input file. The /dev/zero file is a special file that returns as many null characters as a read operation requests.
 of=/swapfile is the output swap storage file. The common practice is to place the file in the root directory.
@@ -125,7 +139,18 @@ The bs parameter is the block size.
 The count parameter determines how many blocks to copy.
 
 > Followed by chmod 600 to give the swapfile read and write permissions, then mkswap to convert the file size to be reserved for swap, swapon then activates the swapfile (it's best to add the swapfile in /etc/fstab for it to become persistent between restarts)
-
+- Another swap method. It's better on arch, and you should also have a swap folder to avoid swap files being added to btrfs snapshots
+```zsh
+sudo mkdir /swap
+sudo chattr +C /swap
+sudo swapoff /swapfile0
+sudo truncate -s 0 /swap/swapfile0
+sudo chattr +C /swap/swapfile0
+sudo fallocate -l 16G /swap/swapfile0
+sudo chmod 600 /swap/swapfile0
+sudo mkswap /swap/swapfile0
+sudo swapon /swap/swapfile0
+```
 - `lshw`: Shows hardware information.
 - `duf`: Shows disk usage.
 - `glances`: Monitoring swiss knife which is extensible, and has alarms support.
@@ -230,12 +255,13 @@ sudo ip route add default via 192.168.57.1
 - `Ranger` : file management tool.
 - `rofi` : window switcher that can also run commands and browse files.
 ---
-### Photos and video
+### Photos, audio and video
 
 #### Back to top: [[#Links]]
 - `mpv`: command line media player.
 - `timg`: command line image and video player.
 - `ffmpeg`: media convertor
+- `audacity`: multi-track audio editor and recorder
 ---
 ### Ghostty
 

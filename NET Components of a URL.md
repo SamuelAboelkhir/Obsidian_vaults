@@ -11,7 +11,7 @@ If you are SpongeBob then your URL is Bikini Bottom on the floor of the Pacific 
 A typical website has **at least 3 parts** in its URL like *www.google.com* but some complex URLs might also have 8 to 9 parts namely scheme, subdomain, domain name, top-level domain, port number, path, query, parameters, and fragment.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20210625160610/urldiag.PNG)
-
+![](assets/url_parts.png)
 Components of a URL
 
 **1\. Scheme:**
