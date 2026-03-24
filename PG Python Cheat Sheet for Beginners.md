@@ -3,9 +3,9 @@ tags:
 - Python
 - Programming-Language
 MOC: Programming
+source: "https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Python index|Back to index]]
-- Acquired from [https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet](https://www.datacamp.com/cheat-sheet/getting-started-with-python-cheat-sheet)
 ![](https://media.datacamp.com/cms/python-basics-cheat-sheet-updated0925.png)
 
 Python is the most popular programming language in [data science](https://www.datacamp.com/blog/what-is-data-science-the-definitive-guide). It is easy to learn and comes with a wide array of powerful libraries for data analysis. This cheat sheet provides beginners and intermediate users a guide to using python. Use it to jump-start your journey with python. if you want more detailed guides.

@@ -2,9 +2,9 @@
 tags: 
 - LI
 MOC: Technology
+source: "https://quickref.me/vim.html"
 ---
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
-- Acquired from [https://quickref.me/vim.html](https://quickref.me/vim.html)
 ## Vim
 
 ## Getting Started

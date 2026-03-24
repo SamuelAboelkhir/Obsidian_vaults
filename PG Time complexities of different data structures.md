@@ -2,9 +2,9 @@
 tags: 
 - Algorithms
 MOC: Programming
+source: "https://www.geeksforgeeks.org/dsa/time-complexities-of-different-data-structures/"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Alogrithms index|Back to index]]
-- Acquired from [https://www.geeksforgeeks.org/dsa/time-complexities-of-different-data-structures/](https://www.geeksforgeeks.org/dsa/time-complexities-of-different-data-structures/)
 
 [Time Complexity](https://www.geeksforgeeks.org/dsa/understanding-time-complexity-simple-examples/) is a concept in computer science that deals with the quantification of the amount of time taken by a set of code or [algorithm](https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/) to process or run as a function of the amount of input. In other words, the time complexity is how long a program takes to process a given input. The efficiency of an algorithm depends on two parameters:
 

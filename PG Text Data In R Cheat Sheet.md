@@ -3,9 +3,9 @@ tags:
 - R
 - Programming-Language
 MOC: Programming
+source: "https://www.datacamp.com/cheat-sheet/text-data-in-r-cheat-sheet"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG R index|Back to index]]
-- Acquired from [https://www.datacamp.com/cheat-sheet/text-data-in-r-cheat-sheet](https://www.datacamp.com/cheat-sheet/text-data-in-r-cheat-sheet)
 
 ![R Text Cheat Sheet.png](https://images.datacamp.com/image/upload/v1671056642/R_Text_Cheat_Sheet_3b4753f59a.png)
 

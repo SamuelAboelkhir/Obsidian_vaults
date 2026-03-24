@@ -3,6 +3,7 @@ tags:
 - Python
 - Programming-Language
 MOC: Programming
+source: "https://www.geeksforgeeks.org/python/generators-in-python/"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Python index|Back to index]]
 - A generator in python and many other languages that provide generators is a type of iterable object that looks like a function, as it can have parameters, and acts as an iterable.
@@ -13,7 +14,6 @@ MOC: Programming
 - The generator will finish once it reaches a `finish` statement, or once the loop itself has ended, or has lead any kind of satisfactory conclusion, that would lead to a `break` statement.
 
 # Generators explanation from GeeksForGeeks
-- Acquired from [https://www.geeksforgeeks.org/python/generators-in-python/](https://www.geeksforgeeks.org/python/generators-in-python/)
 A ****generator function**** is a special type of function that returns an iterator object. Instead of using return to send back a single value, generator functions use yield to produce a series of results over time. This allows the function to generate values and pause its execution after each yield, maintaining its state between iterations.
 
 ****Example:****

@@ -2,9 +2,9 @@
 tags:
 - Other
 MOC: Programming
+source: "https://quickref.me/regex.html#regex-in-java"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
-- Acquired from [https://quickref.me/regex.html#regex-in-java](https://quickref.me/regex.html#regex-in-java)
 ## RegEX
 
 ## Getting Started

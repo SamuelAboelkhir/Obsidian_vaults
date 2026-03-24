@@ -3,9 +3,9 @@ tags:
 - CLI
 - LI
 MOC: Technology
+source: "https://quickref.me/awk.html"
 ---
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
-- Acquired from [https://quickref.me/awk.html](https://quickref.me/awk.html)
 ## Awk
 
 ## Getting Started
