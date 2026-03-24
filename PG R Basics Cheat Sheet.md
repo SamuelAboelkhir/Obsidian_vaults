@@ -3,9 +3,10 @@ tags:
 - R
 - Programming-Language
 MOC: Programming
+source: "https://www.datacamp.com/cheat-sheet/getting-started-r"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG R index|Back to index]]
-- Acquired from [https://www.datacamp.com/cheat-sheet/getting-started-r](https://www.datacamp.com/cheat-sheet/getting-started-r) using the Obsidian Web Clipper extension
+- Acquired using the Obsidian Web Clipper extension
 - See also [[PG base-r-cheat-sheet.pdf]]
 
 ![|700](https://media.datacamp.com/legacy/v1700142934/R_Cheat_Sheet_PN_Gfinal_c7ed5de665.png)

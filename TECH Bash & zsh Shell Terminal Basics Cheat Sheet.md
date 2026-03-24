@@ -3,9 +3,9 @@ tags:
 - Bash
 - LI
 MOC: Technology
+source: "https://www.datacamp.com/cheat-sheet/bash-and-zsh-shell-terminal-basics-cheat-sheet"
 ---
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
-- Acquired from [https://www.datacamp.com/cheat-sheet/bash-and-zsh-shell-terminal-basics-cheat-sheet](https://www.datacamp.com/cheat-sheet/bash-and-zsh-shell-terminal-basics-cheat-sheet)
 ![](https://media.datacamp.com/legacy/image/upload/v1700048361/Bash_Cheat_Sheet_4503e68287.png)
 
 Have this cheat sheet at your fingertips

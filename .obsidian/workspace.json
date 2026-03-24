@@ -19,6 +19,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Drawing 2026-03-16 19.02.47.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-16 19.02.47.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-16 19.02.47.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
                   "title": "WR Bit.it TODO",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Bit.it TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Bit.it TODO\"}",
@@ -51,12 +57,14 @@
               ]
             },
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-16 19.02.47.excalidraw.md"
+                "file": "WR VA General Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-16 19.02.47.excalidraw"
+              "icon": "lucide-file",
+              "title": "WR VA General Notes"
             }
           },
           {
@@ -68,6 +76,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "TECH Linux index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "TECH Bash & zsh Shell Terminal Basics Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Bash & zsh Shell Terminal Basics Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.84699679046309}"
                 },
                 {
                   "title": "_0001 Technology MOC",
@@ -176,12 +202,221 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_0006 Programming MOC.md",
+                "file": "TECH CLI Tools and Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_0006 Programming MOC"
+              "title": "TECH CLI Tools and Commands"
+            }
+          },
+          {
+            "id": "e81f1bcb6f067794",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "TECH Vim Cheat Sheet & Quick Reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Vim Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Vim Cheat Sheet & Quick Reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":37},\"to\":{\"line\":4,\"ch\":37}}}"
+                },
+                {
+                  "title": "TECH Sed Command Cheat Sheet & Quick Reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Sed Command Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Sed Command Cheat Sheet & Quick Reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":37},\"to\":{\"line\":5,\"ch\":37}}}"
+                },
+                {
+                  "title": "TECH Bash & zsh Shell Terminal Basics Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Bash & zsh Shell Terminal Basics Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":92},\"to\":{\"line\":5,\"ch\":92}},\"scroll\":0}"
+                },
+                {
+                  "title": "TECH Awk Command Cheat Sheet & Quick Reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Awk Command Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Awk Command Cheat Sheet & Quick Reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":37},\"to\":{\"line\":5,\"ch\":37}}}"
+                },
+                {
+                  "title": "SC Introduction to Probability Rules Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Introduction to Probability Rules Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Introduction to Probability Rules Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Time complexities of different data structures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Time complexities of different data structures.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Time complexities of different data structures\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":90},\"to\":{\"line\":4,\"ch\":90}}}"
+                },
+                {
+                  "title": "PG The data.table R Package Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG The data.table R Package Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG The data.table R Package Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":81},\"to\":{\"line\":5,\"ch\":81}}}"
+                },
+                {
+                  "title": "PG Regular expression syntax cheat sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Regular expression syntax cheat sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Regular expression syntax cheat sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":101},\"to\":{\"line\":4,\"ch\":101}}}"
+                },
+                {
+                  "title": "PG Text Data In R Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Text Data In R Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Text Data In R Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":72},\"to\":{\"line\":5,\"ch\":72}}}"
+                },
+                {
+                  "title": "PG Reshaping Data with tidyr in R",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Reshaping Data with tidyr in R.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Reshaping Data with tidyr in R\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":76},\"to\":{\"line\":5,\"ch\":76}}}"
+                },
+                {
+                  "title": "PG RegEX Cheat Sheet & Quick Reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG RegEX Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG RegEX Cheat Sheet & Quick Reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":53},\"to\":{\"line\":4,\"ch\":53}}}"
+                },
+                {
+                  "title": "PG R Basics Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Basics Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Basics Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
+                },
+                {
+                  "title": "PG C Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":1},\"to\":{\"line\":7,\"ch\":1}}}"
+                },
+                {
+                  "title": "PG R Basics Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Basics Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Basics Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":62},\"to\":{\"line\":5,\"ch\":62}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Python generator",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python generator.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python generator\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":67},\"to\":{\"line\":5,\"ch\":67}},\"scroll\":0.76}"
+                },
+                {
+                  "title": "PG Python Cheat Sheet for Beginners",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python Cheat Sheet for Beginners.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python Cheat Sheet for Beginners\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":85},\"to\":{\"line\":5,\"ch\":85}}}"
+                },
+                {
+                  "title": "PG PostgreSQL Basics Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG PostgreSQL Basics Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG PostgreSQL Basics Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":76},\"to\":{\"line\":4,\"ch\":76}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG pohka_Lua-Beginners-Guide_ Lua Beginners Guide",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG pohka_Lua-Beginners-Guide_ Lua Beginners Guide.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG pohka_Lua-Beginners-Guide_ Lua Beginners Guide\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":53},\"to\":{\"line\":5,\"ch\":53}}}"
+                },
+                {
+                  "title": "PG Markdown Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Markdown Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Markdown Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":69},\"to\":{\"line\":4,\"ch\":69}}}"
+                },
+                {
+                  "title": "PG Lua quick reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Lua quick reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Lua quick reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":42},\"to\":{\"line\":5,\"ch\":42}}}"
+                },
+                {
+                  "title": "PG ggplot2 Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG ggplot2 Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG ggplot2 Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":65},\"to\":{\"line\":5,\"ch\":65}}}"
+                },
+                {
+                  "title": "PG Data Manipulation with dplyr in R Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Data Manipulation with dplyr in R Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Data Manipulation with dplyr in R Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":91},\"to\":{\"line\":5,\"ch\":91}}}"
+                },
+                {
+                  "title": "PG C Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}}}"
+                },
+                {
+                  "title": "PG Basics to Advanced Git Commands",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Basics to Advanced Git Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Basics to Advanced Git Commands\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":61},\"to\":{\"line\":4,\"ch\":61}}}"
+                },
+                {
+                  "title": "PG Bash scripting cheatsheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash scripting cheatsheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash scripting cheatsheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":33},\"to\":{\"line\":5,\"ch\":33}}}"
+                },
+                {
+                  "title": "NET Components of a URL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Components of a URL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Components of a URL\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}}}"
+                },
+                {
+                  "title": "PG HTTP response status codes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG HTTP response status codes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG HTTP response status codes\",\"popstate\":true}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG HTTP",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG HTTP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG HTTP\",\"popstate\":true}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":6},\"to\":{\"line\":31,\"ch\":6}},\"scroll\":1.8333333333333335}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.8333333333333335}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":251,\"ch\":3},\"to\":{\"line\":251,\"ch\":3}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TECH Vim Regexp Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TECH Vim Regexp Cheat Sheet"
             }
           },
           {
@@ -320,6 +555,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "PG RegEX Cheat Sheet & Quick Reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG RegEX Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG RegEX Cheat Sheet & Quick Reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":190,\"ch\":15},\"to\":{\"line\":190,\"ch\":15}},\"scroll\":184.37697912918316}"
+                },
+                {
                   "title": "PG SQL",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
@@ -366,16 +607,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG RegEX Cheat Sheet & Quick Reference.md",
+                "file": "PG SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG RegEX Cheat Sheet & Quick Reference"
+              "title": "PG SQL"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "8e63b7d754490c17",
@@ -402,7 +643,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "_0006 Programming MOC.md",
+                    "file": "TECH Vim Regexp Cheat Sheet.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -508,7 +749,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of _0006 Programming MOC"
+                  "title": "Graph of TECH Vim Regexp Cheat Sheet"
                 }
               }
             ]
@@ -801,35 +1042,35 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "cfe018f49b825d84",
+  "active": "3197a52ebbcc7fda",
   "lastOpenFiles": [
-    "_0001 Technology MOC.md",
-    "_0002 Work MOC.md",
-    "_0003 Personal MOC.md",
-    "WR VA TODO.md",
-    "Excalidraw/Drawing 2026-03-16 19.02.47.excalidraw.md",
-    "WR Bit.it TODO.md",
-    "_0000 Home.md",
-    "TECH CLI Tools and Commands.md",
-    "WR Church TODO.md",
-    "PER Daily TODO.md",
-    "WR Projects index.md",
-    "WR VA Devops.md",
-    "WR VA Databsase schema.md",
-    "WR VA General Notes.md",
-    "PG RegEX Cheat Sheet & Quick Reference.md",
-    "PG SQL.md",
-    "Excalidraw/Drawing 2026-03-09 15.16.48.excalidraw.md",
-    "PG R Basics Cheat Sheet.md",
-    "NET Components of a URL.md",
-    "IT base conversion.md",
-    "NET Common ports and protocols.md",
+    "TECH Vim Cheat Sheet & Quick Reference.md",
+    "TECH Sed Command Cheat Sheet & Quick Reference.md",
+    "TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md",
+    "TECH Awk Command Cheat Sheet & Quick Reference.md",
+    "SC Introduction to Probability Rules Cheat Sheet.md",
     "WR Overtime And Annuals.md",
+    "PG Time complexities of different data structures.md",
+    "PG The data.table R Package Cheat Sheet.md",
+    "PG Regular expression syntax cheat sheet.md",
+    "PG Text Data In R Cheat Sheet.md",
+    "PG Reshaping Data with tidyr in R.md",
+    "PG RegEX Cheat Sheet & Quick Reference.md",
+    "PG R Basics Cheat Sheet.md",
+    "PG C Cheat Sheet.md",
+    "PG HTTP.md",
+    "PG Python generator.md",
+    "PG Python Cheat Sheet for Beginners.md",
+    "PG PostgreSQL Basics Cheat Sheet.md",
+    "PG pohka_Lua-Beginners-Guide_ Lua Beginners Guide.md",
+    "PG Markdown Cheat Sheet.md",
+    "PG Lua quick reference.md",
+    "PG ggplot2 Cheat Sheet.md",
+    "PG Data Manipulation with dplyr in R Cheat Sheet.md",
+    "PG Basics to Advanced Git Commands.md",
+    "PG Bash scripting cheatsheet.md",
+    "NET Components of a URL.md",
     "assets/url_parts.png",
-    "PG Git.md",
-    "PG Other index.md",
-    "Excalidraw/Drawing 2026-02-11 15.54.25.excalidraw.md",
-    "_0006 Programming MOC.md",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",
     "assets/mutex.png",

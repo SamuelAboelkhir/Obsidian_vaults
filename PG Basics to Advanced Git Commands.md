@@ -2,9 +2,9 @@
 tags: 
 - Other
 MOC: Programming
+source: "https://www.datacamp.com/cheat-sheet/git-cheat-sheet"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
-- Acquired from [https://www.datacamp.com/cheat-sheet/git-cheat-sheet](https://www.datacamp.com/cheat-sheet/git-cheat-sheet)
 
 ![Git Cheat Sheet](https://images.datacamp.com/image/upload/v1656574156/git_cheat_sheet_85713d75cb.png)
 

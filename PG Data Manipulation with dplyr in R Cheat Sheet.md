@@ -3,9 +3,9 @@ tags:
 - R
 - Programming-Language
 MOC: Programming
+source: "https://www.datacamp.com/cheat-sheet/data-manipulation-with-dplyr-in-r-cheat-sheet"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG R index|Back to index]]
-- Acquired from [https://www.datacamp.com/cheat-sheet/data-manipulation-with-dplyr-in-r-cheat-sheet](https://www.datacamp.com/cheat-sheet/data-manipulation-with-dplyr-in-r-cheat-shee)
 
 ![Data Manipulation with Dplyr Cheat Sheet](https://images.datacamp.com/image/upload/v1660559784/image1_e4022b23cf.png)
 

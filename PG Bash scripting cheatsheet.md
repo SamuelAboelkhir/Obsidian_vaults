@@ -3,9 +3,9 @@ tags:
 - Bash
 - Programming-Language
 MOC: Programming
+source: "https://devhints.io/bash"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Bash index|Back to index]]
-- Acquired from [https://devhints.io/bash](https://devhints.io/bash)
 ## Getting started
 
 ### Introduction

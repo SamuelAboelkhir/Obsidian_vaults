@@ -3,10 +3,10 @@ tags:
 - Lua
 - Programming-Language
 MOC: Programming
+source: "https://learnxinyminutes.com/lua/"
 ---
 
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Lua index|Back to index]]
-- Acquired from [https://learnxinyminutes.com/lua/](https://learnxinyminutes.com/lua/)
 
 ```lua
 -- Two dashes start a one-line comment.
