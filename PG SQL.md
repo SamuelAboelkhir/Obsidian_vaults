@@ -198,6 +198,12 @@ SELECT * FROM products
 SELECT name, price, quantity FROM products
     ORDER BY quantity DESC;
 ```
+#### Case
+- A case is a condition that can be used with something like order by to prioritize certain rows over others in the sorting
+```SQL
+ORDER BY
+  CASE WHEN status = 'ACTIVE' THEN 0 ELSE 1 END,
+```
 # Migrations
 - A migration alters the structure of the database as a whole, and can be considered similar to a git commit
 - Any command like ALTER or CREATE that changes the DB's schema is a mutation

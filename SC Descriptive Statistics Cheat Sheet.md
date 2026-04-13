@@ -2,9 +2,9 @@
 tags:
 - DS
 MOC: Technology
+source: "https://www.datacamp.com/cheat-sheet/descriptive-statistics-cheat-sheet"
 ---
 [[_0000 Home|Home]] | [[_0004 Sciences MOC |Back to Sciences MOC]] | [[SC Datascience index|Back to index]]
-- Aquired from [https://www.datacamp.com/cheat-sheet/descriptive-statistics----](https://www.datacamp.com/cheat-sheet/descriptive-statistics----)
 ![Descriptive Statistics - updated.png](https://media.datacamp.com/cms/descriptive-statistics---updated.png)
 
 Descriptive Statistics - updated.png
