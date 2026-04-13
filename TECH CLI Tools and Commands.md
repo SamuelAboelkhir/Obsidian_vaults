@@ -43,6 +43,7 @@ MOC: Technology
 - `hexdump`: Does a normal hexdump (the hex is split into groups of 4 and the first 2 and last 2 digits in each group are swapped compared to tinyxxd)
 - `expr`: A command that evaluates expressions
 - `trans`: A shell dictionary and translator, which is basically a google translate wrapper
+- `ldd`: list dynamic dependencies. It lists the dependencies of a binary file, and whether or not the binary file can locate them
 ---
 ### File operations
 - `cat`: prints file content to stdout
@@ -202,6 +203,9 @@ sudo swapon /swap/swapfile0
 	- Doesn't need `$` before the variable's name
 - `sysbench`: Scriptable multi-threaded benchmark tool for databases and systems
 - `powertop`:  A power consumption and power management diagnosis tool.
+- `snapper`: snapshot creation tool. The created snapshots can be booted into using `limine` or `GRUB`
+- `btrfs subvolume list`: shows you all your subvolumes, like those created by snapper
+- `lsblk`: lists block devices, so it can show available SSDs, filesystem types, mountpoints and so on
 ---
 ### Networking commands and tools
 
@@ -221,6 +225,24 @@ sudo swapon /swap/swapfile0
 - `curl`/`wget`: tools for data transfer/downloading files via the terminal.
 	- You can use `curl ifconfig.me` to see your public IP address
 	- Also with `wget -qO- ifconfig.me`
+	- Some curl commands:
+		- `curl https://jsonplaceholder.typicode.com/users/1 > user1.json`
+			- curl uses `GET` by default, and in the above example, we redirected the output to a json file
+		- `curl -X POST http://example.com/resource -H "Content-Type: application/json" -d '{"key1":"value1","key2":"value2"}'`
+			- Here we used `-X` to pick the http method `POST` and `-H` to set the content type header, then `-d` to send the actual json data
+			- This post request will return a response that we can redirect to a file again, as the responses are `stdout`
+- `xh`: xh uses HTTPie's request-item syntax to set headers, request body, query string, etc.
+	-  =/:= for setting the request body's JSON or form fields (= for strings and := for other JSON types).
+	- == for adding query strings.
+	- @ for including files in multipart requests e.g picture@hello.jpg or picture@hello.jpg;type=image/jpeg;filename=goodbye.jpg.
+	- : for adding or removing headers e.g connection:keep-alive or connection:.
+	- ; for including headers with empty values e.g header-without-value;.
+	- An @ prefix can be used to read a value from a file. For example: x-api-key:@api-key.txt.
+	- The request body can also be read from standard input, or from a file using @filename.
+- `jq`: A tool for parsing and manipulating JSON data
+	- Piping curl request responses to `jq` will immediately parse it in a nice format
+	- We can pick a specific field from the response `jq '.name'` or `jq '.name.' user.json` if you use it with a file
+	- For arrays we can do `jq '.[].username` for example to get the username field from an array of elements
 - `Lynx` : a simple terminal web browser.
 - `lsof -i [port]`: Shows the process that owns or is using the port.
 - `termshark`: CLI tshark.
@@ -240,6 +262,10 @@ sudo ip route add default via 192.168.57.1
 - `nc (Netcat)`: This command reads and writes data across network connections using TCP or UDP. It is often called the “Swiss army knife” of networking
 - `ss`: A modern replacement for netstat, this command analyzes socket-level statistics, such as open and listening ports
 	- Syntax: ss -tuln (to show listening TCP/UDP ports)
+- `warp-cli`: A cloudflare cli tool for using `warp`
+	- initialize with `warp-cli registration new`
+	- connect with `warp-cli connect`
+	- disconnect with `warp-cli disconnect`
 ---
 ### System protection
 

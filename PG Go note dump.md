@@ -697,6 +697,7 @@ type Copier interface {
 ```
 ## Type Assertion
 - In cases where you need to access one of the types that implement an interface, you can do so with type assertion
+- It's kinda similar to C's casting, but while C's compiler trusts you to do whatever you want, Go will actually check the type at runtime, and will PANIC if the type doesn't match the assertion
 ```Go
 type shape interface {
 	area() float64
@@ -850,6 +851,27 @@ func divide(x, y float64) (float64, error) {
 		return 0, errors.New("no dividing by 0")
 	}
 	return x / y, nil
+}
+```
+- One more thing you can do, is print the error directly with `fmt.Errorf()`
+```Go
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func fetchData(url string) (int, error) {
+	res, err := http.Get(url)
+	if err != nil {
+		return 0, fmt.Errorf("network error: %v", err)
+	}
+	defer res.Body.Close()
+	if res.StatusCode != http.StatusOK {
+	    return res.StatusCode, fmt.Errorf("non-OK HTTP status: %s", res.Status)
+	}
+	return res.StatusCode, nil
 }
 ```
 ## Panic!!!!
@@ -1426,7 +1448,7 @@ require github.com/google/examplepackage v1.3.0
 ## Custom Package
 - If we create a non-main package, maybe in a new module (yes a module can exist without a main package), and run `go build`, the package will be compiled and cached for future use
 - The cache location can be found with `go env GOCACHE`, but generally you don't need to touch it
-- Remember that a variable with a capital name is public, otherwise it private
+- Remember that a variable with a capital name is public, otherwise it's private
 - To import packages from one local module into another you need to update the `go.mod` file as such
 ```Go
 module github.com/SamuelAboelkhir/hellogo

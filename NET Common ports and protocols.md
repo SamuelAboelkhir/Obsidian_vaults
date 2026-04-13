@@ -4,7 +4,7 @@ tags:
 MOC: IT
 ---
 [[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[NET Networking index|Back to index]]
-# OSI Model
+# Open Systems Interconnection (OSI) Model
 ![OSI model](assets/proxy-image.jpeg)
 
 # Common Ports and Protocols

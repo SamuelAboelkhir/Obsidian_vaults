@@ -11,3 +11,4 @@ MOC: Technology
 [[SC Descriptive Statistics Cheat Sheet]]
 [[SC Data Science Cheat Sheet for Business Leaders]]
 [[SC Introduction to Probability Rules Cheat Sheet]]
+[[SC DataScience Note Dump]]
