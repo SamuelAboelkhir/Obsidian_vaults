@@ -316,6 +316,185 @@ typedef struct Human{
 		2. Then fetch the chunk containing addresses 8-15.
 		3. Then "mask" out the unwanted bits and "shift" the remaining bits together to reconstruct the 4-byte int.
 	- By adding those 3 bytes of padding, the compiler ensures the CPU can grab the int in a single, clean architectural move.
+## Pointers
+- A pointer is a variable who's value is a memory address for a spot in memory that's holding the value of another variable. In essence, a pointer, points, at a location in memory
+- The address of a variable can be printed by prefixing the variable with the address operator `&`
+- The `%p` formatter is used to print a pointer (memory address)
+- Since a pointer is just a memory address, that's holding the address to another memory location, that's holding actual data, there is nothing stopping us from even having a pointer to a pointer
+- Pointers are how we pass by reference in C and [[PG Go note dump#Pointers|Go]]
+	- This is because accessing data via the address of where it actually is located means that modifying the value held by the address will apply the modification to every single pointer that's pointing at said address, unlike copying the data to a completely new address (pass by value)
+- To declare a variable as a pointer, we use `*`
+```C
+int meaning_of_life = 42;
+int *pointer_to_mol = &meaning_of_life;
+int value_at_pointer = *pointer_to_mol;
+// value_at_pointer = 42
+```
+- Here, we declared an int variable that was assigned a memory address
+- Then, we pointed at that address with an int pointer, since we're pointing at an int, by declaring the variable as a pointer using `*` and passing it the address of the variable with `&`
+- Using the pointer as is will just print its value, which obviously is an address, but to use the value the pointer is pointing at, or in other words, to use the address, we can dereference the pointer, also with `*`
+- If this was a pointer to a pointer, we would use `**`, because the first time, we dereference the first pointer's address giving us the address held by the 2nd pointer, and the 2nd `*` will dereference that 2nd address to the actual value at the end of the chain
+- A pointer can also point to a struct, but accessing the fields of a struct through a pointer has a slightly different syntax than normal access
+```C
+// Normal access
+coordinate_t point = {10, 20, 30};
+printf("X: %d\n", point.x); // X: 10
+
+// Pointer access
+coordinate_t point = {10, 20, 30};
+coordinate_t *ptrToPoint = &point;
+printf("X: %d\n", ptrToPoint->x); // X: 10
+
+// Or, dereference the pointer first
+coordinate_t point = {10, 20, 30};
+coordinate_t *ptrToPoint = &point;
+printf("X: %d\n", (*ptrToPoint).x); // X: 10
+```
+- Note that the `.` operator has higher precedence that `*`, which is why the parentheses are necessary, to make sure the pointer is dereferenced before the field is accessed
+### Virtual memory
+- Physical memory refers to the actual RAM stick in the computer, while virtual memory is an abstraction over the physical memory that programs use
+- The OS manages access to the physical memory
+- A running program is called a process, and is given access to a chunk of virtual memory
+- If the software in question is a firmware that runs without an OS, then it will use physical memory directly
+- The reason for the existence of virtual memory is:
+	1. **Isolation**: One process can't access the memory of another process.
+	2. **Security**: The operating system can prevent processes from accessing certain parts of memory.
+	3. **Simplicity**: Developers don't have to worry about managing physical memory and the memory of other processes.
+	4. **Performance**: The operating system can optimize memory access depending on the hardware and needs of the program. For example, by moving data between physical memory and the hard drive.
+- The idea to remember here is that, virtual memory is just an encapsulation over a process, where the process believes it has access to contiguous memory, starting from 0, but in reality, every address in the virtual memory may very well be scattered all over the physical stick
+- Also, RAM is paginated, and virtual memory addresses are mapped to physical addresses using a paging table
+## Arrays
+- An array in C is a fixed size ordered collection of elements, that's indexed by ints starting at zero, and can only hold elements of the same type
+- They are stored in contiguous memory just like structs
+- Iterating over an array in C is only dooable via loops
+```C
+#include <stdio.h>
+
+int main() {
+    int numbers[5] = {1, 2, 3, 4, 5};
+
+    // Iterate and print each element
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", numbers[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+```
+- To update an array element
+```C
+#include <stdio.h>
+
+int main() {
+    int numbers[5] = {1, 2, 3, 4, 5};
+
+    // Update some values
+    numbers[1] = 20;
+    numbers[3] = 40;
+
+    // Print updated array
+    for (int i = 0; i < 5; i++) {
+        printf("%d ", numbers[i]);
+    }
+    printf("\n");
+
+    return 0;
+    
+    // Output
+    // 1 20 3 40 5
+}
+```
+- An array in C is technically a pointer to the first element of the array, therefore, array indexing and pointer arithmetic can be used interchangeably to access array elements
+```C
+int numbers[5] = {1, 2, 3, 4, 5};
+int *numbers_ptr = numbers;
+// Access the third element (index 2)
+int value = numbers[2];
+// This is the same as
+int value = *(numbers + 2);
+
+```
+- Here, `numbers + 2` computes the address of the third element, and `*` dereferences it to get the value
+### Pointer arithmetic
+- When we add an int to a pointer, the resulting pointer will be offset by that integer times the size of the data type
+```C
+int *p = numbers + 2;  // p points to the third element
+int value = *p;        // value is 3
+```
+
+| Address | Element    | Value |
+| ------- | ---------- | ----- |
+| 0x1000  | numbers[0] | 1     |
+| 0x1004  | numbers[1] | 2     |
+| 0x1008  | numbers[2] | 3     |
+| 0x100C  | numbers[3] | 4     |
+| 0x1010  | numbers[4] | 5     |
+- Accessing elements from the above table using pointers
+	- `numbers + 0` or `&numbers[0]` points to `0x1000`
+	- `numbers + 1` or `&numbers[1]` points to `0x1004`
+	- `numbers + 2` or `&numbers[2]` points to `0x1008`
+	- `numbers + 3` or `&numbers[3]` points to `0x100C`
+	- `numbers + 4` or `&numbers[4]` points to `0x1010`
+```C
+#include <stdio.h>
+
+int main() {
+  int numbers[5] = {1, 2, 3, 4, 5};
+
+  // Accessing elements using array indexing
+  printf("numbers[2] = %d\n", numbers[2]);  // Output: 3
+
+  // Accessing elements using pointers
+  printf("*(numbers + 2) = %d\n", *(numbers + 2));  // Output: 3
+
+  // Pointer arithmetic
+  int *ptr = numbers;
+  printf("Pointer ptr points to numbers[0]: %d\n", *ptr);  // Output: 1
+  ptr += 2;
+  printf("Pointer ptr points to numbers[2]: %d\n", *ptr);  // Output: 3
+
+  return 0;
+}
+```
+- We can also create arrays of structs
+```C
+typedef struct Coordinate {
+  int x;
+  int y;
+  int z;
+} coordinate_t;
+
+coordinate_t points[3] = {
+  {1, 2, 3},
+  {4, 5, 6},
+  {7, 8, 9}
+};
+
+printf("points[1].x = %d, points[1].y = %d, points[1].z = %d\n",
+  points[1].x, points[1].y, points[1].z
+);
+// points[1].x = 4, points[1].y = 5, points[1].z = 6
+
+coordinate_t *ptr = points;
+printf("ptr[1].x = %d, ptr[1].y = %d, ptr[1].z = %d\n",
+  (ptr + 1)->x, (ptr + 1)->y, (ptr + 1)->z
+);
+// ptr[1].x = 4, ptr[1].y = 5, ptr[1].z = 6
+```
+- Here is the memory layout:
+
+| Address  | Element       | Value | Offset (bytes) |
+| -------- | ------------- | ----- | -------------- |
+| `0x2000` | `points[0].x` | 1     | 0              |
+| `0x2004` | `points[0].y` | 2     | 4              |
+| `0x2008` | `points[0].z` | 3     | 8              |
+| `0x200C` | `points[1].x` | 4     | 12             |
+| `0x2010` | `points[1].y` | 5     | 16             |
+| `0x2014` | `points[1].z` | 6     | 20             |
+| `0x2018` | `points[2].x` | 7     | 24             |
+| `0x201C` | `points[2].y` | 8     | 28             |
+| `0x2020` | `points[2].z` | 9     | 32             |
 # Stack and Heap
 ### Stack
 - The stack in C is an OS controlled memory that acts as its name implies, as a stack

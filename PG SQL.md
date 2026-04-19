@@ -24,7 +24,7 @@ MOC: Programming
 - They have dynamic schemas
 - Have a variety of different storage methods, including tables, files, key-value pairs, graphs, wide-column, etc...
 - Some of the most popular NoSQL DBs are:
-	-  [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
+	- [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
 	- [Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra)
 	- [CouchDB](https://en.wikipedia.org/wiki/Apache_CouchDB)
 	- [DynamoDB](https://en.wikipedia.org/wiki/Amazon_DynamoDB)

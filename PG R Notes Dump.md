@@ -322,7 +322,7 @@ structure(list(a = 1, b = "a"), class = "data.frame", row.names = c(NA,
 ```
 - Functions like `read.csv()` do these steps under the hood
 - Establishing a connection can be useful for reading lines of a file for example
-### Subsetting
+## Subsetting
 - When you subset an object in R with the single bracket operator`[`, it always return an object of the same class
 	- The single bracket operator is used to select more than one element of the object
 - The double bracket operator `[[` is used to select one element and the class of the returned object
@@ -351,7 +351,7 @@ structure(list(a = 1, b = "a"), class = "data.frame", row.names = c(NA,
 - When a single element is retrieved from a matrix, it's returned as a vector of length 1 (this is an exception to the norm of `[` ), as R by default drops the dimensionallity of the matrix
 	- This behavior is controllable though, and can be turned off with `x[1, 2, drop = FALSE]`
 - Same goes for subsetting a single column or row, where R will return a vector, not a matrix (which makes sense since you want the element at those coordinates, not a new matrix)
-#### Partial matching
+### Partial matching
 - R supports partial matching when accessing objects
 ```R
 > x = list(aardvark = 1:5)
@@ -363,7 +363,7 @@ NULL
 [1] 1 2 3 4 5
 ```
 - The `$` operator supports this by default, the `[[` operator doesn't, so we would have to specify it
-#### Removing NA values
+### Removing NA values
 ```R
 > x = c(1, 2, NA, 4, NA, 5)
 > bad = is.na(x)
@@ -402,7 +402,7 @@ NULL
 7    23     299  8.6   65     5   7
 8    19      99 13.8   59     5   8
 ```
-#### Vectorized operations
+## Vectorized operations
 - R supports the ability to add two vectors together, where each element from each vector will be added/multiplied/divided together based on their index
 ```R
 > x = 1:4; y = 6:9
@@ -421,7 +421,7 @@ NULL
 ```
 - It's even possible to do this with matrices, where the opperatios are carried out coordinate wise
 - R also has a special operator `%*%` which is for true matrix multiplications (don't know much about matrices to know what that means)
-### Control Structures
+## Control Structures
 #### If Else
 - R has a similar `if else` syntax to the C syntax
 ```R
@@ -439,7 +439,7 @@ y = if(x > 3) {
 	0
 }
 ```
-#### For loop
+### For loop
 - This one is more like python's syntax
 ```R
 for(i in 1:10) {
@@ -465,14 +465,14 @@ for(letter in x) {
 for(i in 1:4) print(x[i])
 ```
 - Note how `seq_along()` was used on x to generate a sequential int vector equal to the size of x. Basically the same as doing a range that's `1:length(x)`
-#### While loop
+### While loop
 - Honestly, nothing unique enough to be worth mentioning
-#### Repeat/next/break
+### Repeat/next/break
 - R has a dedicated loop keyword for infinite loops called repeat
 - You can break out of these only with `break`
 - It's not really used much, as you would normally want to exit out of a loop eventually, and that's achievable with a `while` loop and its condition for example
 - `next` and `break` are nothing new
-### Functions
+## Functions
 - Functions in R return the last evaluated expression automatically
 ```R
 add2 = function(x, y) {
@@ -501,7 +501,7 @@ f = function(a, b) {
 	a^2
 }
 ```
-#### The ... argument
+### The ... argument
 - R also has a very cool feature, the `...` argument
 	- Unlike the spread operator from JS or the [[PG Go note dump#Variadic|variadic]] operator from Go, the `...` argument in R indicates a variable number of arguments that can be passed on to another function
 	- It's useful for when you want to extend another function, and you don't want to copy the full argument list of the first, since R's functions can have some very long argument lists
@@ -534,7 +534,7 @@ function (..., file = "", sep = " ", fill = FALSE, labels = NULL,
     append = FALSE) 
 ```
 - The catch with `...` though, is that any argument that comes after it must be names explicitly, despite R supporting partial matching and positional arguments
-### Scope
+## Scope
 - R relies on namespaces to separate its various symbols
 - If you assign a value to a variable, R searches its packages in order until it finds the value of that variable when it's called, and the global environment is always the one that will be searched first, while the base package is always last
 - The order of the search is as follows:
@@ -558,4 +558,541 @@ make.power = function(n) {
 	}
 	pow
 }
+```
+- `ls()` lists all the functions in an environment
+	- When used on a function returned by a factory function, the returned objects will all be from the factory function's closure
+- `get()` returns the value of an object, provided the name of the object and its closure environment `get("n", environment(cube))`
+- Due to R relying on lexical scoping over dynamic scoping provided we have an example like the following:
+```R
+y = 10
+
+f = function(x) {
+	y = 2
+	y^2 + g(x)
+}
+
+g = function(x) {
+	x*y
+}
+```
+- If we were to call `f(3)`, the result will consider `y = 10` not `y = 2`
+	- This because lexical scoping prioritizes the environment in which the function was defined, not the one where it was called (known as the parent frame in R)
+	- This is why the answer is 34, where in `f()` the `y = 2` so `y^2` is 4, and in `g()` the `y = 10` which will give 4 + 30
+- Python actually uses lexical scoping as well
+- With lexical scoping, all objects are stored in memory, and all objects always have a pointer to their respective defining environments
+	- This introduces a limitation as only physical memory can be used here, not virtual memory, which could be problematic with larger objects
+### Optimization
+- R has functions for optimizing the values of certain parameters in a function
+- These functions expect a parameters array to work on
+- These functions are for example `optim()`, `nlm()` and `optimize()`
+- It's normally desirable to allow a function to have params that the caller can hold fixed for the optimization to work
+```R
+make.NegLogLike = function(data, fixed=c(FALSE, FALSE)) {
+	params = fixed
+	function(p) {
+		params[!fixed] = p
+		mu = params[1]
+		sigma = params[2]
+		a = -0.5*length(data) * log(2*pi*sigma^2)
+		b = -0.5*sum((data-mu)^2) / (sigma^2)
+		-(a + b)
+	}
+}
+```
+- The above example show a constructor function (factory function) being used to pass data and a vector of params to an objective function (internal function)
+- The function is supposed to find the negative log likelihood of a normal distribution, and optimization functions will attempt to minimize that likelihood by default
+- Defining a function in any other environment than the global environment (such as the inside of another function) will return a special tag called environment, which is a pointer to the defining environment `<environment: 0x165b1a4>`
+```R
+> set.seed(1); normals = rnorm(100, 1, 2)
+> nLL = make.NegLegLik(normals)
+> nLL
+function(p) {
+	params[!fixed] = p
+	mu = params[1]
+	sigma = params[2]
+	a = -0.5*length(data) * log(2*pi*sigma^2)
+	b = -0.5*sum((data-mu)^2) / (sigma^2)
+	-(a + b)
+}
+<environment: 0x165b1a4>
+> ls(environment(nLL))
+[1] "data" "fixed" "params"
+```
+```R
+> optim(c(mu = 0, sigma = 1), nLL)$par
+	   mu    sigma
+ 1.218239 1.787343
+```
+ - Fixing sigma = 2
+```R
+ > nLL = make.NegLogLik(normals, c(FALSE,2))
+ > optimize(nLL, c(-1, 3))$minimum
+ [1] 1.217775
+```
+- Fixing mu = 1
+```R
+> nLL = make.NegLogLik(normals, c(1, FALSE))
+> optimize(nLL, c(1e-6, 10))$minimum
+[1] 1.800596
+```
+- The likelihood can then be plotted
+```R
+nLL = make.NegLogLik(normals, c(1, FALSE))
+x = seq(1.7, 1.9, len=100)
+y = sapply(x, nLL)
+plot(x, exp(-(y - min(y))), type = "l")
+
+nLL = make.NegLogLik(normals, c(FALSE, 2))
+x = seq(0.5, 1.5, len = 100)
+y = sapply(x, nLL)
+plot(x, exp(-(y - min(y))), type = "l")
+```
+- The objective function will contain the data, as well as the arguments, thanks to the constructor function
+## Dates and times
+- R represents dates and times in a special way, using two different classes `POSIXct` and `POSIXlt` for time, and `Date` for dates
+- Internally, dates are stored as the number of days since 1970-01-01, and time as the number of seconds since the same date
+- Times don't have time attached to them
+```R
+x = as.Date("1970-01-01")
+x
+[1] "1970-01-01"
+unclass(x)
+[1] 0
+unclass(as.Date("1970-01-02"))
+[1] 1
+```
+- `POSIXct` stores time as a long integer, while `POSIXlt` stores time as a list alongside other useful information such as the day of the week, of the year, and of the month, as well as the month
+- There are also functions that operate on dates and times
+	- `weekdays`: give the day of the week
+	- `months`: give the month name
+	- `quarters`: give the quarter number
+- Times like dates can be coerced from a string using `as.POSIXct` and `as.POSIXlt`
+```R
+> x = Sys.time()
+> x
+[1] "2026-04-14 18:05:57 EET"
+> p = as.POSIXlt(x)
+> names(unclass(p))
+ [1] "sec"    "min"    "hour"   "mday"   "mon"    "year"   "wday"   "yday"   "isdst"  "zone"   "gmtoff"
+> p$sec
+[1] 57.75504
+```
+- `Sys.time()`'s output is already in `POSIXct` format
+- `strptime()` is a function that can take a date string and some formatters, then return the resulting datetime object in `POSIXlt` format `strptime(datestring, "%B, %d, %Y, %H:%M")`
+- Dates and time support the `+` and `-` mathematical operators, as well as comparisons
+- Dates and times even keep track of leap years, daylight savings, and time zones
+## Loop functions
+- These are functions that have the word "apply" in them
+- `lapply`: loop over a list and evaluate a function on each element, kinda like a `.forEach` in JS
+- `sapply`: same as `lapply` but try to simplify the result
+- `apply`: apply a function over the margins of an array. Useful with matrices and other higher dimension arrays
+- `tapply`: apply a function over subsets of a vector
+- `mapply`: multivariate version of `lapply`
+- `split` can split objects and is useful when used in conjunction with an apply function
+### lapply
+- `lapply` takes 3 arguments, a list, a function, and other arguments
+	- The loop itself is actually done internally in C
+	- If supplied with something that's not a list, it will attempt to coerce it into one, or throw an error if it fails
+	- It always returns a list regardless of the class of the input
+```R
+> x = list(a = 1:4, b = rnorm(10), c = rnorm(20,1), d = rnorm(100, 5))
+> lapply(x, mean)
+$a
+[1] 2.5
+
+$b
+[1] 0.3474802
+
+$c
+[1] 0.937003
+
+$d
+[1] 4.957727
+```
+- Another example using `runif` which generates uniform random variables using a random number generator
+	- `runif` generates as many RNGs as the number it's applied on, so 1 for `runif(1)`, 2 for `runif(2)`, and so on
+```R
+> x = 1:4
+> lapply(x, runif)
+[[1]]
+[1] 0.1621091
+
+[[2]]
+[1] 0.475397920 0.001932835
+
+[[3]]
+[1] 0.4414591 0.2609297 0.9384137
+
+[[4]]
+[1] 0.7158333 0.1630855 0.4761880 0.6902567
+```
+- `runif` can take some other arguments, and we can supply them as well via `lapply`
+```R
+> lapply(x, runif, min = 0, max = 10)
+[[1]]
+[1] 4.608952
+
+[[2]]
+[1] 9.551467 7.125401
+
+[[3]]
+[1] 3.971479 1.177206 2.401163
+
+[[4]]
+[1] 8.636306 4.359764 4.978681 6.919277
+```
+- The `apply` family can also be used with anonymous functions
+```R
+> x = list(a = matrix(1:4, 2, 2), b = matrix(1:6, 3, 2))
+> lapply(x, function(elt) elt[,1])
+$a
+[1] 1 2
+
+$b
+[1] 1 2 3
+```
+### sapply
+- `sapply` simplifies the results, which means that while `lapply` always returns a list, `sapply` will try to simplify that if possible
+- For example, if `lapply` will return a list where each element is of length 1, `sapply` will instead return a vector. If instead every element is a vector of the same length, then a matrix will be returned. If `sapply` can't figure out a simplification, a list will be returned
+### apply
+- `apply` takes one extra argument, which is a margin to be retained
+- It's generally used with higher dimension arrays to apply a function to, for example, the columns or rows of a matrix
+```R
+> x = matrix(rnorm(200), 20, 10)
+> apply(x, 2, mean)
+ [1]  0.02449109  0.07583942  0.14146002  0.21051413  0.09442709  0.02218266 -0.15932850  0.09021391
+ [9]  0.14723035 -0.22431309
+> apply(x, 1, sum)
+ [1]  5.6773875  3.2343443  2.0688445 -5.6814233  3.3122708 -0.3792983 -4.4445006 -0.1156158 -2.8256077
+[10]  0.4223744  0.1913922  2.4322329 -1.2574098  0.9317553  2.6447572  4.2018323 -1.0060557  1.6188788
+[19] -7.5141518  4.9423346
+```
+- In the above example, we applied mean first on each column of the matrix, then sum on each row
+- Had we used `lapply` here, it would have returned a list of 200 elements, and `sapply` would have simplified that to a vector of 200 elements
+- For cols and rows though, a much faster method of calculating the sums and means would be to use the dedicated functions:
+	- `rowSums`
+	- `rowMeans`
+	- `colSums`
+	- `colMeans`
+- These functions are much faster than using apply, especially on large matrices
+- Another example with `quantile`
+```R
+> apply(x, 1, quantile, probs = c(0.25, 0.75))
+         [,1]       [,2]       [,3]       [,4]       [,5]       [,6]        [,7]       [,8]       [,9]
+25% 0.7153803 -0.6346605 -0.5233306 -0.8343386 -0.3544961 -0.8447185 -0.63733164 -0.2856758 -0.8083212
+75% 1.0435839  1.2633594  0.6725798 -0.3130326  1.1609297  0.5731975 -0.02612577  0.5116271  0.2837464
+         [,10]      [,11]     [,12]      [,13]      [,14]      [,15]      [,16]      [,17]      [,18]
+25% -0.7827622 -0.3885836 0.3025282 -0.7308451 -0.5537525 -0.2782507 0.02738015 -1.0011764 -0.1396592
+75%  0.9236771  0.8167648 0.5869685  0.3460132  0.2237042  0.6699093 0.98505861  0.9329413  0.4408073
+         [,19]      [,20]
+25% -1.3107189 -0.2781763
+75% -0.2110138  0.9061585
+```
+- Another example with an array that holds 10 2x2 matrices, which means it has 3 dimensions
+```R
+> a = array(rnorm(2 * 2 * 10), c(2, 2, 10))
+> apply(a, c(1, 2), mean)
+           [,1]       [,2]
+[1,] -0.1000849 -0.1717568
+[2,]  0.2343975  0.1940927
+> rowMeans(a, dims = 2)
+           [,1]       [,2]
+[1,] -0.1000849 -0.1717568
+[2,]  0.2343975  0.1940927
+```
+- Here we kept the first and second dimensions, and took the mean of all the matrices, which returned a matrix. We also can see how that would be done with `rowMeans`
+### mapply
+- It applies a function over a set of arguments in parallel
+- Results are simplified by default, but you can choose not to simplify them
+- The functions used with `mapply` must take multiple args, as element 1 of each function will be passed to each of the args, then 2, then 3 and so on
+- This means the number of args of the `mapply` func, must be at least as many as the number of lists that we pass to `mapply`
+```R
+> mapply(rep, 1:4, 4:1)
+[[1]]
+[1] 1 1 1 1
+
+[[2]]
+[1] 2 2 2
+
+[[3]]
+[1] 3 3
+
+[[4]]
+[1] 4
+```
+- In the above example, `rep` takes 2 args, the number to be repeated, and the number of repetitions
+- Instead of creating a list with 4 separate calls to `rep`, we use `mapply` and two vectors, `1:4` and `4:1`. The result is, that each element of each vector will be passed to `rep`'s args by index, so 1 and 4, 2 and 3, 3 and 2, then 4 and 1, giving the resulting list of 4 vectors
+### tapply
+- Used to apply a function on a subset of a vector
+- You can choose to NOT simplify the output, which is simplified by default, same as with `mapply`
+- Takes a factor variable (categorical variable) to subset a vector, and applies the function on the subset
+```R
+> x = c(rnorm(10), runif(10), rnorm(10,1))
+> x
+ [1]  1.22474329 -0.36777511 -1.62840260  0.54322239  1.12749080 -0.41607110  0.39945592  0.90586474
+ [9] -0.31548009  0.21295795  0.37984482  0.79926283  0.76851398  0.55482586  0.65426236  0.52139844
+[17]  0.28219220  0.72079695  0.02915776  0.35614220 -0.21100346  0.66848058  2.55670488  1.79782156
+[25]  1.22266300  2.20423180 -0.56523335  1.33282837  1.71137286  3.21169852
+> f = gl(3, 10)
+> f
+ [1] 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3
+Levels: 1 2 3
+> tapply(x, f, mean)
+        1         2         3 
+0.1686006 0.5066397 1.3929565 
+```
+- The above vector has 3 groups
+	- 10 normals
+	- 10 uniforms
+	- 10 normals with a mean of 1
+- With `tapply`, we manage to get the mean of each group, by also supplying a 3 levels factor that we generated
+- In another example, we can use `range` to find the min and max of each factor
+```R
+> tapply(x, f, range)
+$`1`
+[1] -1.628403  1.224743
+
+$`2`
+[1] 0.02915776 0.79926283
+
+$`3`
+[1] -0.5652334  3.2116985
+```
+### split
+- `split` isn't a loop function, but it works very nicely with apply functions
+- `split` always returns a list
+- It takes a factor like `tapply` as well as a vector, and splits the vector by the factor's levels
+- We can then use an apply function on any of those individual groups
+```R
+> x = c(rnorm(10), runif(10), rnorm(10,1))
+> x
+ [1]  1.22474329 -0.36777511 -1.62840260  0.54322239  1.12749080 -0.41607110  0.39945592  0.90586474
+ [9] -0.31548009  0.21295795  0.37984482  0.79926283  0.76851398  0.55482586  0.65426236  0.52139844
+[17]  0.28219220  0.72079695  0.02915776  0.35614220 -0.21100346  0.66848058  2.55670488  1.79782156
+[25]  1.22266300  2.20423180 -0.56523335  1.33282837  1.71137286  3.21169852
+> f = gl(3, 10)
+> f
+ [1] 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3
+Levels: 1 2 3
+> split(x, f)
+$`1`
+ [1]  1.2247433 -0.3677751 -1.6284026  0.5432224  1.1274908 -0.4160711  0.3994559  0.9058647 -0.3154801
+[10]  0.2129579
+
+$`2`
+ [1] 0.37984482 0.79926283 0.76851398 0.55482586 0.65426236 0.52139844 0.28219220 0.72079695 0.02915776
+[10] 0.35614220
+
+$`3`
+ [1] -0.2110035  0.6684806  2.5567049  1.7978216  1.2226630  2.2042318 -0.5652334  1.3328284  1.7113729
+[10]  3.2116985
+```
+- These two use cases are the same, and neither is more efficient
+```R
+> lapply(split(x,f), mean)
+$`1`
+[1] 0.1686006
+
+$`2`
+[1] 0.5066397
+
+$`3`
+[1] 1.392956
+
+> tapply(x, f, mean, simplify = FALSE)
+$`1`
+[1] 0.1686006
+
+$`2`
+[1] 0.5066397
+
+$`3`
+[1] 1.392956
+```
+- The nice thing about `split` though, is that it can split some much more complicated objects
+```R
+> library(datasets)
+> head(airquality)
+  Ozone Solar.R Wind Temp Month Day
+1    41     190  7.4   67     5   1
+2    36     118  8.0   72     5   2
+3    12     149 12.6   74     5   3
+4    18     313 11.5   62     5   4
+5    NA      NA 14.3   56     5   5
+6    28      NA 14.9   66     5   6
+> s = split(airquality, airquality$Month)
+> lapply(s, function(x) colMeans(x[, c("Ozone", "Solar.R", "Wind")]))
+$`5`
+   Ozone  Solar.R     Wind 
+      NA       NA 11.62258 
+
+$`6`
+    Ozone   Solar.R      Wind 
+       NA 190.16667  10.26667 
+
+$`7`
+     Ozone    Solar.R       Wind 
+        NA 216.483871   8.941935 
+
+$`8`
+   Ozone  Solar.R     Wind 
+      NA       NA 8.793548 
+
+$`9`
+   Ozone  Solar.R     Wind 
+      NA 167.4333  10.1800 
+      
+# This also works
+> tapply(airquality, airquality$Month, function(x) colMeans(x[, c("Ozone", "Solar.R", "Wind")]))
+$`5`
+   Ozone  Solar.R     Wind 
+      NA       NA 11.62258 
+
+$`6`
+    Ozone   Solar.R      Wind 
+       NA 190.16667  10.26667 
+
+$`7`
+     Ozone    Solar.R       Wind 
+        NA 216.483871   8.941935 
+
+$`8`
+   Ozone  Solar.R     Wind 
+      NA       NA 8.793548 
+
+$`9`
+   Ozone  Solar.R     Wind 
+      NA 167.4333  10.1800
+```
+- If we wanted to get the data as a matrix instead
+```R
+> sapply(s, function(x) colMeans(x[, c("Ozone", "Solar.R", "Wind")]))
+               5         6          7        8        9
+Ozone         NA        NA         NA       NA       NA
+Solar.R       NA 190.16667 216.483871       NA 167.4333
+Wind    11.62258  10.26667   8.941935 8.793548  10.1800
+> sapply(s, function(x) colMeans(x[, c("Ozone", "Solar.R", "Wind")], na.rm = TRUE))
+                5         6          7          8         9
+Ozone    23.61538  29.44444  59.115385  59.961538  31.44828
+Solar.R 181.29630 190.16667 216.483871 171.857143 167.43333
+Wind     11.62258  10.26667   8.941935   8.793548  10.18000
+```
+- This is due to `sapply` simplifying the results, and not splitting the data by factors
+#### Splitting on more than one level
+- Some times, we would have more than one factor to split by
+##### Combining factors (Combinatorics)
+```R
+> x = rnorm(10)
+> f1 = gl(2, 5)
+> f2 = gl(5, 2)
+> f1
+ [1] 1 1 1 1 1 2 2 2 2 2
+Levels: 1 2
+> f2
+ [1] 1 1 2 2 3 3 4 4 5 5
+Levels: 1 2 3 4 5
+> interaction(f1, f2)
+ [1] 1.1 1.1 1.2 1.2 1.3 2.3 2.4 2.4 2.5 2.5
+Levels: 1.1 2.1 1.2 2.2 1.3 2.3 1.4 2.4 1.5 2.5
+```
+- Using `interaction` here, we generated all the possible combinations between both factors
+- We can then split using a list of both factors
+```R
+> str(split(x, list(f1, f2)))
+List of 10
+ $ 1.1: num [1:2] 1.383 -0.137
+ $ 2.1: num(0) 
+ $ 1.2: num [1:2] -0.474 -1.26
+ $ 2.2: num(0) 
+ $ 1.3: num -0.66
+ $ 2.3: num 0.461
+ $ 1.4: num(0) 
+ $ 2.4: num [1:2] 0.271 -0.755
+ $ 1.5: num(0) 
+ $ 2.5: num [1:2] -2.249 -0.642
+ 
+ # Droping empty levels
+ > str(split(x, list(f1, f2), drop = TRUE))
+List of 6
+ $ 1.1: num [1:2] 1.383 -0.137
+ $ 1.2: num [1:2] -0.474 -1.26
+ $ 1.3: num -0.66
+ $ 2.3: num 0.461
+ $ 2.4: num [1:2] 0.271 -0.755
+ $ 2.5: num [1:2] -2.249 -0.642
+```
+- Here, the split function is trying to group similar values from both groups
+- What the test factors did was, split the same int vector in two different ways
+	- In `f1`, we split the first five numbers into group 1, and the latter 5 into group 2
+	- In `f2` each 2 numbers were added to a group, for a total of 5 groups
+- When we try to find interactions between them, we basically check which numbers in `f1` intersect with `f2`, by combining 1.1, 2.1, 1.2, 2.2, and so on
+- The reason for the empty levels here, is that level 2 in `f1` only has the latter 5 numbers of the vector, while in `f2`, the first 2 and half levels, have the first 5 numbers, so only level 1 of `f1` intersects with those levels
+- After the first 5 numbers, it switches, and only level 2 of `f1` is finding intersections now
+- If it's still unclear (future me (: ) basically map the first 5 numbers of an int vector to 1 level, and then split them over 3 levels, and do the same for the 2nd 5 numbers
+	- Logically, because we went in order, the first 5 numbers filling level 1 will have filled the 2nd factor's 5 groups of 2, as numbers 1:2, then 3:4, then 5, and the same for the 2nd 5
+## Debugging tools
+- R has built in debugging tools
+- The types of diagnostic messages to expect from R are
+	- `message`: A generic diagnostic notification
+	- `warn`: An indication that something is wrong, but not fatal
+	- `error`: An indication something is wrong and fatal
+	- `condition`: You're own self declared error (kinda like python's except I suppose)
+- R's debugging tools are
+	- `traceback`: prints out the function call stack in case of an error
+	- `debug`: flags a function for "debug" mode, then you can step through execution one line at a time (basically a debugger)
+	- `browser`: suspends the execution of a function wherever it's called, and puts it in debug mode (kinda like a deferred `debug`)
+	- `trace`: allows you to insert debugging code into a function at a specific place
+	- `recover`: basically a `catch` for R's PANIC, that allows you to handle the thrown error [[PG Go note dump#Panic!!!!|Go]] style
+```R
+> lm(y ~ x)
+
+Error in eval(predvars, data, env) : object 'y' not found
+
+> traceback()
+7: eval(predvars, data, env)
+6: eval(predvars, data, env)
+5: model.frame.default(formula = y ~ x, drop.unused.levels = TRUE)
+4: stats::model.frame(formula = y ~ x, drop.unused.levels = TRUE)
+3: eval(mf, parent.frame())
+2: eval(mf, parent.frame())
+1: lm(y ~ x)
+
+# The `...` are not part of the actual output, I was just trying to shorten it a bit
+> debug(lm)
+> lm(y ~ x)
+debugging in: lm(y ~ x)
+debug: {
+    ret.x <- x
+    ret.y <- y
+    cl <- match.call()
+    mf <- match.call(expand.dots = FALSE)
+    m <- match(c("formula", "data", "subset", "weights", "na.action", 
+        "offset"), names(mf), 0L)
+    ...
+}
+Browse[1]> 
+debug: ret.x <- x
+Browse[1]> 
+debug: ret.y <- y
+Browse[1]> 
+debug: cl <- match.call()
+Browse[1]> 
+debug: mf <- match.call(expand.dots = FALSE)
+...
+Error in eval(predvars, data, env) : object 'y' not found
+
+# This sets a global recovery option for the current session only
+> options(error= recover)
+> read.csv("menoexist")
+Error in file(file, "rt") : cannot open the connection
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file 'menoexist': No such file or directory
+
+Enter a frame number, or 0 to exit   
+
+1: read.csv("menoexist")
+2: read.table(file = file, header = header, sep = sep, quote = quote, dec = dec, fill = fill, comment.char
+3: file(file, "rt")
+Selection: 
 ```
