@@ -202,6 +202,7 @@ x, _ := getPoint()
 ```
 - In some languages that have this ability, it's merely a convention, but in Go, it's a full fledged language feature that completely discards the value
 - This feature is useful because the Go compiler returns and error if you have unused variable declarations, so instead of assigning an unwanted value to a variable that you never use, you can just discard it
+- You can do a similar thing with imports, where you can say `import _ "<package>"` to tell Go that you need this package for its side effects, not to directly use it
 ## Named Return Values
 - Return values in Go can be given names, in which case they're treated as if they were new variables that were defined at the top of the function. Then you can do a naked return as return will automatically return the return values
 - This practice is best for short functions, as it hurts readability. They can document the purpose of the returned values though
@@ -795,6 +796,14 @@ const (
 ```
 - This just make this type a bit more unique, and gives autocomplete on the allowed values
 - Also you obviously don't have to pass `const` values in particular, but it's good practice
+- We can declare a type out of basically anything, and use it to wrap other values
+```Go
+type HandlerFunc func(ResponseWriter, *Request)
+// This type is defined in the http/net package
+http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+    // ...
+})
+```
 # Errors
 - Errors in Go are values, and they have their own interface
 ```Go
@@ -1015,7 +1024,7 @@ func Println(a ...interface{}) (n int, err error)
 - `Println()` and other print functions are variadic, and can take any number of arguments, but we were talking about needing to pass variadic arguments of the same type. Well, using an empty interface that doesn't specify a type, we can pass arguments of any type, and they will be acceptable by the function
 ## Append
 - Append adds elements to slices dynamically, and if the underlying array is full, it will create a new one and point the slice to it
-- Append is veriadic
+- Append is variadic
 ## Range
 - The `range` keyword in Go is syntactic sure that facilitates iterating over elements of a slice, where the `ELEMENT` is a copy of the value at `INDEX` of the slice
 ```Go
@@ -2195,3 +2204,5 @@ Documentation is for users.
 
 Don't panic.
 ```
+# More resources
+- Go's official docs [https://pkg.go.dev/](https://pkg.go.dev/)

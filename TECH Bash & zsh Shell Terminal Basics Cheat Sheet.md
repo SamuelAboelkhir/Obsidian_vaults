@@ -391,8 +391,6 @@ Related
 
 ![](https://media.datacamp.com/legacy/v1700047996/Excel_Keyboard_Shortcuts_Cheat_Sheet_8be3b4534b.png?w=750)Excel Shortcuts Cheat Sheet
 
-cheat-sheet
-
 [View original](https://www.datacamp.com/cheat-sheet/excel-shortcuts-cheat-sheet)
 
 Improve on your Excel skills with the handy shortcuts featured in this convenient cheat sheet!
@@ -400,8 +398,6 @@ Improve on your Excel skills with the handy shortcuts featured in this convenien
 Richie Cotton
 
 ![](https://media.datacamp.com/legacy/v1715077530/La_Tex_Cheat_Sheet_c38cf64295.png?w=750)LaTeX Cheat Sheet
-
-cheat-sheet
 
 [View original](https://www.datacamp.com/cheat-sheet/latex-cheat-sheet)
 

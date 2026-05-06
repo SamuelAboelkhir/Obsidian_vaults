@@ -6,47 +6,59 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 81.86562296151337,
+        "dimension": 81.87702265372168,
         "children": [
           {
             "id": "04fd0c8bc5034c83",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 5,
+              "pos": 4,
               "stack": [
                 {
-                  "title": "PG RegEX Cheat Sheet & Quick Reference",
+                  "title": "WR VA General Notes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG RegEX Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG RegEX Cheat Sheet & Quick Reference\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":29},\"to\":{\"line\":4,\"ch\":29}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":9},\"to\":{\"line\":17,\"ch\":9}},\"scroll\":6.833333333333333}"
                 },
                 {
-                  "title": "PG Regular expression syntax cheat sheet",
+                  "title": "WR Projects index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Regular expression syntax cheat sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Regular expression syntax cheat sheet\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
-                  "title": "PG Other index",
+                  "title": "_0002 Work MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.8333333333333335}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "PG RegEX Cheat Sheet & Quick Reference",
+                  "title": "WR General Index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG RegEX Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG RegEX Cheat Sheet & Quick Reference\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.76}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "WR VA Temp Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Temp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Temp Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "WR VA TODO",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA TODO\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":40},\"to\":{\"line\":29,\"ch\":40}},\"scroll\":1.8333333333333335}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":46},\"to\":{\"line\":31,\"ch\":46}},\"scroll\":1.8333333333333335}"
                 },
                 {
-                  "state": "{}",
-                  "eState": "{}"
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":11},\"to\":{\"line\":33,\"ch\":11}},\"scroll\":0}"
                 },
                 {
                   "title": "Drawing 2026-03-16 19.02.47.excalidraw",
@@ -89,6 +101,41 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "WR VA TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WR VA TODO"
+            }
+          },
+          {
+            "id": "23b3d987666c9bde",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "WR General Index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR Bid.it General",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Bid.it General.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Bid.it General\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "WR VA General Notes.md",
                 "mode": "source",
                 "source": false
@@ -98,7 +145,7 @@
             }
           },
           {
-            "id": "44d63fa2f931da18",
+            "id": "d823619e5fb5363f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -112,16 +159,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR Overtime And Annuals.md",
+                "file": "TECH CLI Tools and Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR Overtime And Annuals"
+              "title": "TECH CLI Tools and Commands"
             }
           },
           {
-            "id": "8f29db2b9d80be33",
+            "id": "190c961f91002115",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -131,199 +178,32 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "PG Go http client",
+                  "title": "PER Project ideas index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http client.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http client\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Go index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG Go index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG Go index"
-            }
-          },
-          {
-            "id": "cfe018f49b825d84",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 2,
-              "stack": [
-                {
-                  "title": "PG Python Cheat Sheet for Beginners",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python Cheat Sheet for Beginners.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python Cheat Sheet for Beginners\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":49},\"to\":{\"line\":20,\"ch\":49}},\"scroll\":1.8333333333333335}"
-                },
-                {
-                  "title": "PG Python index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG C index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG C index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG C index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "TECH CLI Tools and Commands",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "TECH Linux index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "TECH Bash & zsh Shell Terminal Basics Cheat Sheet",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Bash & zsh Shell Terminal Basics Cheat Sheet\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.84699679046309}"
-                },
-                {
-                  "title": "_0001 Technology MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0002 Work MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Project ideas index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Project ideas index\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "_0003 Personal MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0002 Work MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR VA TODO",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA TODO\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":1.8333333333333335}"
-                },
-                {
-                  "title": "WR VA General Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":11},\"to\":{\"line\":12,\"ch\":11}}}"
-                },
-                {
-                  "title": "Drawing 2026-03-09 15.16.48.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-09 15.16.48.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-09 15.16.48.excalidraw\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "_0002 Work MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":21.452668360864042}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":251,\"ch\":3},\"to\":{\"line\":251,\"ch\":3}},\"scroll\":86.17893820713664}"
-                },
-                {
-                  "title": "TECH CLI Tools and Commands",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":255,\"ch\":51},\"to\":{\"line\":255,\"ch\":51}},\"scroll\":236.779296875}"
-                },
-                {
-                  "title": "NET Components of a URL",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Components of a URL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Components of a URL\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":10},\"to\":{\"line\":13,\"ch\":10}},\"scroll\":8.121354166666666}"
-                },
-                {
-                  "title": "_0002 Work MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":201},\"to\":{\"line\":31,\"ch\":201}},\"scroll\":0}"
-                },
-                {
-                  "title": "Drawing 2026-03-09 15.16.48.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-09 15.16.48.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-09 15.16.48.excalidraw\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR VA General Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":11},\"to\":{\"line\":12,\"ch\":11}}}"
-                },
-                {
-                  "title": "WR VA TODO",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":2},\"to\":{\"line\":5,\"ch\":2}},\"scroll\":0}"
-                },
-                {
-                  "title": "WR VA General Notes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":17},\"to\":{\"line\":17,\"ch\":17}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_0006 Programming MOC.md",
+                "file": "PER Anything that has to do with science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_0006 Programming MOC"
+              "title": "PER Anything that has to do with science"
             }
           },
           {
-            "id": "8eba60c72eb6e835",
+            "id": "4f976f41d6f57f6c",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -331,6 +211,89 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Advanced formatting syntax - Obsidian Help",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://obsidian.md/help/advanced-syntax\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                }
+              ]
+            },
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://obsidian.md/help/advanced-syntax#Math",
+                "title": "Advanced formatting syntax - Obsidian Help",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Advanced formatting syntax - Obsidian Help"
+            }
+          },
+          {
+            "id": "8eba60c72eb6e835",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 2,
+              "stack": [
+                {
+                  "title": "TECH Vim Cheat Sheet & Quick Reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Vim Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Vim Cheat Sheet & Quick Reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":445,\"ch\":47},\"to\":{\"line\":445,\"ch\":47}},\"scroll\":416.4505208333333}"
+                },
+                {
+                  "title": "Drawing 2026-03-24 19.17.21.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-24 19.17.21.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.833333333333333}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.833333333333333}"
+                },
+                {
+                  "title": "PG AI Discussion",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG AI Discussion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG AI Discussion\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.76}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG SQL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":6},\"to\":{\"line\":14,\"ch\":6}}}"
+                },
+                {
+                  "title": "PG SQL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "PG Other index",
@@ -401,6 +364,66 @@
                   "title": "PG Go index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Go note dump",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go note dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go note dump\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":21},\"to\":{\"line\":8,\"ch\":21}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Go http server",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http server.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http server\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}}}"
+                },
+                {
+                  "title": "PG Go note dump",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go note dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go note dump\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":21},\"to\":{\"line\":8,\"ch\":21}}}"
+                },
+                {
+                  "title": "PG Go http client",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http client.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http client\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Go note dump",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go note dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go note dump\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":16},\"to\":{\"line\":5,\"ch\":16}}}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":21},\"to\":{\"line\":8,\"ch\":21}},\"scroll\":0}"
                 },
                 {
@@ -450,12 +473,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Go note dump.md",
+                "file": "PG Go http server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Go note dump"
+              "title": "PG Go http server"
             }
           },
           {
@@ -704,128 +727,50 @@
             }
           },
           {
-            "id": "2a2d2acd404c98c5",
+            "id": "0e4196a92189f540",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "TECH Services",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Services.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Services\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":103,\"ch\":0},\"to\":{\"line\":103,\"ch\":0}},\"scroll\":36.83056872037915}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "PG R Datascience",
+                  "title": "SC Preprocessing",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Datascience.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Datascience\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Preprocessing.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Preprocessing\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":130,\"ch\":61},\"to\":{\"line\":130,\"ch\":61}},\"scroll\":122.11404066073698}"
                 },
                 {
                   "title": "PG R Notes Dump",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Notes Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Notes Dump\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1834,\"ch\":3},\"to\":{\"line\":1834,\"ch\":3}},\"scroll\":1813.5982142857142}"
+                },
+                {
+                  "title": "SC Preprocessing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Preprocessing.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Preprocessing\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":108,\"ch\":26},\"to\":{\"line\":108,\"ch\":26}},\"scroll\":85.68869047619047}"
+                },
+                {
+                  "title": "SC Datascience index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":28},\"to\":{\"line\":7,\"ch\":28}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0004 Sciences MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "PG R Datascience",
+                  "title": "_0000 Home",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Datascience.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Datascience\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG R Notes Dump",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Notes Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Notes Dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG React",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG React.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG React\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG R Notes Dump",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Notes Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Notes Dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG React",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG React.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG React\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG R Notes Dump",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Notes Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Notes Dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG React",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG React.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG React\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG R Notes Dump",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Notes Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Notes Dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":43},\"to\":{\"line\":38,\"ch\":43}},\"scroll\":20.379146919431278}"
-                },
-                {
-                  "title": "PG R index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":52},\"to\":{\"line\":13,\"ch\":52}},\"scroll\":0}"
-                },
-                {
-                  "title": "TECH Vim Cheat Sheet & Quick Reference",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Vim Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Vim Cheat Sheet & Quick Reference\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":33},\"to\":{\"line\":104,\"ch\":33}},\"scroll\":669.8228679381073}"
-                },
-                {
-                  "title": "PG RegEX Cheat Sheet & Quick Reference",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG RegEX Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG RegEX Cheat Sheet & Quick Reference\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":188,\"ch\":8},\"to\":{\"line\":188,\"ch\":8}},\"scroll\":167.04559860293642}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG Go note dump",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go note dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go note dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG Go index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":3},\"to\":{\"line\":5,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.8333333333333335}"
-                },
-                {
-                  "title": "PG CICD",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CICD.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CICD\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
@@ -841,11 +786,52 @@
             }
           },
           {
-            "id": "f49e2b337465c449",
+            "id": "43f28f0b28f540e0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "PG R Notes Dump",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Notes Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Notes Dump\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1329,\"ch\":3},\"to\":{\"line\":1329,\"ch\":3}},\"scroll\":1309.4501488095239}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC Preprocessing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SC Preprocessing"
+            }
+          },
+          {
+            "id": "9905f43c4a04e6ae",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 2,
+              "stack": [
+                {
+                  "title": "SC DataScience Note Dump",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC DataScience Note Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC DataScience Note Dump\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":120,\"ch\":76},\"to\":{\"line\":120,\"ch\":76}},\"scroll\":110.11724565756823}"
+                },
+                {
+                  "title": "SC Datascience index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -854,7 +840,7 @@
                   "title": "SC Datascience index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":52},\"to\":{\"line\":12,\"ch\":52}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":16},\"to\":{\"line\":9,\"ch\":16}},\"scroll\":0}"
                 },
                 {
                   "title": "_0004 Sciences MOC",
@@ -863,97 +849,37 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "_0000 Home",
+                  "title": "SC Datascience index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":12},\"to\":{\"line\":8,\"ch\":12}}}"
+                },
+                {
+                  "title": "_0004 Sciences MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0005 IT MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "IT index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG SQL",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":346,\"ch\":0},\"to\":{\"line\":346,\"ch\":0}},\"scroll\":212.08595144220791}"
-                },
-                {
-                  "title": "PG RegEX Cheat Sheet & Quick Reference",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG RegEX Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG RegEX Cheat Sheet & Quick Reference\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":190,\"ch\":15},\"to\":{\"line\":190,\"ch\":15}},\"scroll\":184.37697912918316}"
-                },
-                {
-                  "title": "PG SQL",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":6},\"to\":{\"line\":14,\"ch\":6}},\"scroll\":6.833333333333333}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.997433076641}"
-                },
-                {
-                  "title": "PG Python index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.8333333333333335}"
-                },
-                {
-                  "title": "PG Git",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Git.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Git\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SC DataScience Note Dump.md",
+                "file": "SC Exploratory Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SC DataScience Note Dump"
+              "title": "SC Exploratory Analysis"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 18.134377038486626,
+        "dimension": 18.12297734627832,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -975,7 +901,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG R Notes Dump.md",
+                    "file": "SC Exploratory Analysis.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1076,12 +1002,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.05852766346593505,
+                      "scale": 0.017341530020608405,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG R Notes Dump"
+                  "title": "Graph of SC Exploratory Analysis"
                 }
               }
             ]
@@ -1320,13 +1246,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PG Go note dump.md",
+                "file": "SC Exploratory Analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PG Go note dump"
+              "title": "Outline of SC Exploratory Analysis"
             }
           },
           {
@@ -1375,46 +1301,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2a2d2acd404c98c5",
+  "active": "9905f43c4a04e6ae",
   "lastOpenFiles": [
-    "PG Go note dump.md",
     "PG R Notes Dump.md",
+    "SC Exploratory Analysis.md",
+    "Pasted image 20260506104801.png",
+    "Pasted image 20260506104642.png",
+    "SC Preprocessing.md",
+    "PG Go http server.md",
     "PG Go index.md",
-    "PG Go http client.md",
-    "WR VA General Notes.md",
-    "_0006 Programming MOC.md",
-    "PG C My general notes dump.md",
-    "WR Overtime And Annuals.md",
-    "Excalidraw/Drawing 2026-03-16 19.02.47.excalidraw.md",
-    "WR VA TODO.md",
-    "PG RegEX Cheat Sheet & Quick Reference.md",
-    "PG Other index.md",
-    "PG Regular expression syntax cheat sheet.md",
-    "PG SQL.md",
-    "_0000 Home.md",
+    "PG Go note dump.md",
+    "Pasted image 20260505111809.png",
+    "Pasted image 20260505111659.png",
+    "Pasted image 20260505111353.png",
+    "Pasted image 20260505111021.png",
+    "Pasted image 20260505110640.png",
+    "Pasted image 20260505110630.png",
+    "Pasted image 20260505110442.png",
     "TECH CLI Tools and Commands.md",
-    "PG Python index.md",
-    "PG Python.md",
-    "PG Python General.md",
-    "WR Bit.it TODO.md",
+    "Pasted image 20260505024736.png",
+    "PER Anything that has to do with science.md",
+    "PER Project ideas index.md",
     "_0003 Personal MOC.md",
-    "VA Semantic Model So Far.md",
-    "PG Git.md",
-    "WR VA Temp Notes.md",
+    "SC Datascience index.md",
     "SC DataScience Note Dump.md",
-    "NET Common ports and protocols.md",
-    "assets/benefit_of_replication.png",
-    "assets/example_hypothesis.png",
-    "assets/dependent_and_independent_variables.png",
-    "assets/what_is_data.png",
-    "assets/big_data_qualities.png",
-    "assets/data_scientists_qualities.png",
-    "assets/memory_layout_mixed.png",
-    "assets/memory_layout.png",
-    "assets/url_parts.png",
+    "_0004 Sciences MOC.md",
+    "PER Interactive science learning website.md",
+    "WR VA General Notes.md",
+    "SC Tidy Data.md",
+    "SC Data Science Cheat Sheet for Business Leaders.md",
+    "SC Introduction to Probability Rules Cheat Sheet.md",
+    "SC Descriptive Statistics Cheat Sheet.md",
+    "SC Data Visualization Cheat Sheet.md",
+    "SC Biochemistry index.md",
+    "SC Principles of Biochemistry.md",
+    "SC Chemistry index.md",
+    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
+    "SC Chemistry.md",
+    "TECH Linux index.md",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",
-    "assets/mutex.png",
     "html/VA diagnostic report.html",
     "html/api_planning_guide.html",
     "html/api_first_design.html",
@@ -1424,7 +1350,6 @@
     "assets/sedqcVKfQ",
     "assets/sedetWzrg",
     "01_04_rmarkdown.html",
-    "Samuel & Adel/Excalidraw",
-    "Obsidian_vaults.html"
+    "Samuel & Adel/Excalidraw"
   ]
 }

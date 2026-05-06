@@ -83,6 +83,9 @@ VALUES (1, 'Allan', 'Engineer');
 DELETE FROM employees
     WHERE id = 251;
 ```
+```SQL
+DROP TABLE employees;
+```
 #### UPDATE
 ```SQL
 UPDATE employees
@@ -304,6 +307,28 @@ HAVING balance > 20
 SELECT ROUND(AVG(song_length), 1)
 FROM songs
 ```
+#### WITH
+- WITH provides a way to write auxiliary statements for use in a larger query. These statements, which are often referred to as Common Table Expressions or CTEs, can be thought of as defining temporary tables that exist just for one query. Each auxiliary statement in a WITH clause can be a SELECT, INSERT, UPDATE, or DELETE; and the WITH clause itself is attached to a primary statement that can also be a SELECT, INSERT, UPDATE, or DELETE.
+##### SELECT in WITH
+- The basic value of SELECT in WITH is to break down complicated queries into simpler parts. An example is:
+```sql
+WITH regional_sales AS (
+    SELECT region, SUM(amount) AS total_sales
+    FROM orders
+    GROUP BY region
+), top_regions AS (
+    SELECT region
+    FROM regional_sales
+    WHERE total_sales > (SELECT SUM(total_sales)/10 FROM regional_sales)
+)
+SELECT region,
+       product,
+       SUM(quantity) AS product_units,
+       SUM(amount) AS product_sales
+FROM orders
+WHERE region IN (SELECT region FROM top_regions)
+GROUP BY region, product;
+```
 # Schema
 - There is no perfect way to architect a database schema, we can only do our best to choose a sane set of tables fields and constraints that will accomplish our goals
 - For example, if we want a table that stores a user's balance, then we need a table that:
@@ -483,3 +508,139 @@ INSERT INTO students(name) VALUES ('Robert'); DROP TABLE students;--);
 - ORMs map database records to in-memory objects
 - ORMs trade control for simplicity, and tend to limit you to whatever SQL the ORM is capable of generating and whatever features it provides
 - It's also harder to debug with ORMs since you'll need to go through the documentation and framework/library's code to figure out what went wrong with the generated SQL
+# Transactions
+- The following section in the file assumes the use of kysely and DB2 for i (work reasons)
+- Every statement that runs in SQL, is a transaction
+- A transaction must be "Commited" in order for it to persist in the database
+- SQL drivers actually abstract this fact by setting the flag `autocommit` to true by default
+- This means that every statement that runs is immediately commited
+```SQL
+-- (implicit BEGIN)
+INSERT INTO users VALUES ('alice');
+COMMIT;  -- done for you
+```
+```SQL
+-- autocommit is ON
+BEGIN;                    -- some drivers ignore this, some error
+INSERT INTO a VALUES (1); -- COMMITTED immediately!
+INSERT INTO b VALUES (2); -- COMMITTED immediately!
+ROLLBACK;                 -- does nothing, everything is already saved
+```
+- If you wanted to run a migration, the migration normally has to "lock" the database as it runs, similar to [[PG Go note dump#Mutexes]] which lock a certain function to a specific goroutine to avoid conflicting insertions/deletions
+- In order to have a proper multi-statement transaction, `autocommit` needs to be turned off
+## Migration locking
+### The problem
+- You deploy your app to 3 servers. They all boot at the same time. They all run migrate.ts which says "add a column to the users table." Without coordination:
+	- Server 1 starts adding the column
+	- Server 2 starts adding the column → ERROR (column already exists, or worse, half-applied)
+	- Server 3 marks the migration as complete before it's actually done
+- A single migrator needs to run at a given point in time
+### How a row lock becomes a mutex
+- When a transaction does `SELECT ... FOR UPDATE`, the database marks that row as "I'm going to modify this, nobody else touch it." Any other transaction trying to `SELECT ... FOR UPDATE` the same row will **block** (wait) until the first transaction ends.
+- The lock protocol is
+```SQL
+1. BEGIN (autocommit OFF)
+2. SELECT is_locked FROM kysely_migration_lock 
+   WHERE id='migration_lock' FOR UPDATE WITH RS;
+   ↑ If someone else is migrating, this waits here.
+3. Run all the migrations.
+4. COMMIT  ← this releases the lock.
+```
+- This protocol utilizes a dedicated locking table
+- It's kinda like being the one holding the "talking pillow" (quick Breaking Bad reference)
+- Not all databases require a locking table, as something like postgres utilizes a different protocol `advisory locking`
+## Isolation Levels: What Your Transaction Can See
+- Imagine two transactions running at the same time. What should Transaction A see of Transaction B's uncommitted work?
+- The SQL standard defines four answers, from loosest to strictest:
+### READ UNCOMMITTED (DB2: UR — Uncommitted Read)
+"I'll read whatever's there, even half-finished writes."
+- Fastest, but you can see data that later gets rolled back ("dirty reads").
+- Useful for approximate analytics where precision doesn't matter.
+### READ COMMITTED (DB2: CS — Cursor Stability)
+"I only read data that's been committed."
+- But if I read the same row twice in my transaction, I might get different values (because another transaction committed in between).
+- DB2's default on many platforms.
+### REPEATABLE READ (DB2: RS — Read Stability)
+"If I read a row, it won't change for the rest of my transaction."
+- But new rows matching my query might appear ("phantom reads").
+### SERIALIZABLE (DB2: RR — Repeatable Read, confusingly named)
+"My transaction behaves as if no other transaction exists."
+- Strictest, slowest. No surprises.
+### DB2 example
+| Kysely             | DB2 |
+| ------------------ | --- |
+| `read uncommitted` | UR  |
+| `read committed`   | CS  |
+| `repeatable read`  | RS  |
+| `serializable`     | RR  |
+- For DB2 transactions, `RS` is the sweet spot, but note that DB2 as per the above table, doesn't utilize the same standard isolation levels nomenclature
+## DDL vs DML
+- SQL statements split into categories:
+	- **DML — Data Manipulation Language**: `INSERT`, `UPDATE`, `DELETE`, `SELECT`. You're changing _data_.
+	- **DDL — Data Definition Language**: `CREATE TABLE`, `ALTER TABLE`, `DROP INDEX`. You're changing _structure_ (the schema).
+- Migrations are almost always DDL: "add this column, create this index, drop that table."
+## Transactional DDL
+- The question is: can DDL participate in a transaction like DML does?
+```SQL
+BEGIN;
+CREATE TABLE users (id INT);
+INSERT INTO users VALUES (1);
+ROLLBACK;  -- does the table still exist?
+```
+- **PostgreSQL**: No, the table is gone. Fully transactional DDL.
+- **MySQL**: Yes, the table still exists. DDL auto-commits. Not transactional.
+- **DB2 LUW**: Mostly yes, with caveats.
+- **DB2 for i**: Only if the schema is _journaled_.
+### Why this matters for migrations
+- If DDL is transactional and your migration fails halfway, everything rolls back. Clean.
+- If DDL is not transactional and your migration fails halfway, you have **a half-applied migration**. The `users` table was created, but the `INSERT` failed. Now your database is in a state that doesn't match any migration version. This is a nightmare to recover from manually.
+- Kysely's `supportsTransactionalDdl` flag tells the migrator: "can I wrap this whole migration in a transaction for safety?" If `true`, it does. If `false`, it runs migrations without that safety net and trusts you to write idempotent migrations (ones that can be retried).
+## Returning
+```SQL
+INSERT INTO users (name) VALUES ('alice');
+-- server returns: "1 row affected"
+```
+- Usually, when we write to the database, it only shows how many rows were affected by the write, but it doesn't tell us much else about the written data
+- If the DB driver supports returning, and returning is enabled, the database will return the inserted row as a response
+```SQL
+-- Postgres
+INSERT INTO users (name) VALUES ('alice') RETURNING id;
+
+-- DB2
+SELECT id FROM FINAL TABLE (INSERT INTO users (name) VALUES ('alice'));
+```
+## Connection Pools and Why Pinning Matters
+
+### A pool
+- A pool is a set of open database connections your app reuses. Opening a connection is expensive (TCP + authentication), so the pool keeps, say, 10 of them warm.
+- When you run a query:
+	1. Pool hands you an unused connection.
+	2. You run the query.
+	3. Pool takes the connection back.
+- Your next query might get a **different** connection.
+### Why transactions need pinning
+- A transaction is a state that lives **inside one connection**. If you do:
+```
+Pool → gives you connection A → BEGIN, INSERT
+Pool → gives you connection B → INSERT  ← different connection!
+Pool → gives you connection A → COMMIT
+```
+- The second INSERT is running outside the transaction. It's not protected.
+- **Pinning** means: once you start a transaction, keep using the same connection until you commit or rollback. Kysely does this correctly _if your dialect's `DatabaseConnection` abstraction respects it_. You have to ensure your driver doesn't secretly swap connections.
+### Why the migration lock is extra sensitive to this
+- The lock lives on a specific connection's transaction. If any statement during the migration accidentally uses a different connection, those statements are not protected by the lock, and can run concurrently with another server's migrations. Chaos.
+## Putting It All Together: What Happens During a Migration
+```
+1. Kysely gets a connection from the pool — call it Conn#3.
+2. Driver sets autocommit OFF on Conn#3.
+3. On Conn#3: BEGIN transaction at isolation level RS.
+4. On Conn#3: SELECT ... FOR UPDATE WITH RS on the lock row.
+   → If another server holds it, we wait here.
+   → When we get it, we are the only migrator alive.
+5. On Conn#3 (still pinned): run migration DDL statements.
+6. On Conn#3: update the kysely_migration table to record this version applied.
+7. On Conn#3: COMMIT.
+   → Lock releases. Other servers can now proceed.
+8. Connection returns to pool.
+```
+- Every arrow there depends on the concepts above working correctly. Pinning fails → lock bypassed. Autocommit on → lock released early. DDL not transactional → half-applied migration on failure. Wrong isolation level → lock doesn't hold.

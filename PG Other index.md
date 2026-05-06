@@ -13,8 +13,10 @@ MOC: Programming
 [[PG Markdown Cheat Sheet]]
 [[PG LSP]]
 ## SQL
-[[PG PostgreSQL Basics Cheat Sheet]]
 [[PG SQL]]
+[[PG AI Discussion]]
+### From the internet
+[[PG PostgreSQL Basics Cheat Sheet]]
 ## Project management
 [[PG Jira]]
 ## CICD
@@ -25,6 +27,7 @@ MOC: Programming
 [[PG API first design]]
 # Git
 [[PG Git]]
+### From the internet
 [[PG Basics to Advanced Git Commands]]
 # Docker
 [[PG Docker]]

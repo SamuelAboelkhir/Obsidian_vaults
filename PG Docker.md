@@ -48,6 +48,8 @@ docker run -d -p hostport:containerport namespace/name:tag
 - You can also have an open terminal session with `docker exec -it <CONTAINER_ID> sh or /bin/sh` where:
 	- `-i`: interactive exec
 	- `-t`: TTY (teletypewriter) interface, which just means terminal really
+- You can execute commands without entering the container by adding `-c "<command"` after the `-sh` argument
+- You can pass a `--user <username>` after the `exec` argument to enter the container as a specific user
 # Networking
 - Usually when you run a container it will have external network access by default, however, sometimes, that's not desirable. You may not want the container to have internet access if:
 	- You're running 3rd party code that you don't trust, and it shouldn't need network access
