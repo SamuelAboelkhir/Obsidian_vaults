@@ -1301,10 +1301,100 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
+  "floating": {
+    "id": "f86cc9fdf2720ed9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "82505013c986dc54",
+        "type": "window",
+        "children": [
+          {
+            "id": "7cc75bb9c1840345",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "490a9d092c0d07d9",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/Vinzent03/obsidian-git",
+                    "title": "GitHub - Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md · GitHub",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "GitHub - Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md · GitHub"
+                }
+              },
+              {
+                "id": "199844b920327810",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Common issues - Git Documentation - Obsidian Publish",
+                      "icon": "globe-2",
+                      "state": "{\"state\":{\"url\":\"https://publish.obsidian.md/git-doc/Common+issues#Linux/MacOS\"},\"type\":\"webviewer\"}",
+                      "eState": "null"
+                    },
+                    {
+                      "title": "Common issues - Git Documentation - Obsidian Publish",
+                      "icon": "globe-2",
+                      "state": "{\"state\":{\"url\":\"https://publish.obsidian.md/git-doc/Common+issues\"},\"type\":\"webviewer\"}",
+                      "eState": "null"
+                    },
+                    {
+                      "title": "Common issues - Git Documentation - Obsidian Publish",
+                      "icon": "globe-2",
+                      "state": "{\"state\":{\"url\":\"https://publish.obsidian.md/git-doc/Authentication\"},\"type\":\"webviewer\"}",
+                      "eState": "null"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://publish.obsidian.md/git-doc/Common+issues#Bad%20owner%20or%20permissions%20on%20/home/%20%3Cuser%3E/.ssh/config",
+                    "title": "Common issues - Git Documentation - Obsidian Publish",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Common issues - Git Documentation - Obsidian Publish"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 950,
+        "height": 1034,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "9905f43c4a04e6ae",
   "lastOpenFiles": [
-    "PG R Notes Dump.md",
     "SC Exploratory Analysis.md",
+    "PG R Notes Dump.md",
     "Pasted image 20260506104801.png",
     "Pasted image 20260506104642.png",
     "SC Preprocessing.md",
