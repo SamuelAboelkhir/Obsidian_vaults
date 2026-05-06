@@ -4,6 +4,8 @@ tags:
 MOC: Sciences
 ---
 [[_0000 Home|Home]] | [[_0004 Sciences MOC |Back to Sciences MOC]] | [[SC Datascience index|Back to index]]
+
+
 # Getting and Cleaning Data
 - The data life cycle looks something like this
 ```mermaid
@@ -124,6 +126,7 @@ A-->B-->C-->D
 - It could also involve asking the user to run the script on pieces of the raw data, instead of passing the whole thing all at once, or just asking the user to do some final tweaks to the output by hand
 ## Tidying and manipulating data
 ### Dplyr
+![[data-transformation.pdf]]
 - Dplyr is a package meant for manipulating tabular data
 - It can work with a variety of table types like data frames, data tables, databases, and multidimensional arrays
 - The first step for working with dyplr is to load data into a data frame table using `tbl_df`
@@ -241,6 +244,7 @@ A-->B-->C-->D
  5 ABCoptim       16     15         9    17807.
 ```
 #### Chaining (the chain operator)
+- The chaining operator was later changed to be `|>`
 - R support higher order functions, so we can do some function chaining, functional programming style
 - However, dplyr provides a nicer, more readable solution, akin to how linux CLI tackles that same challenge
 - Introducing the chain operator `%>%`
@@ -303,6 +307,7 @@ cran %>%
 ### Tidyr
 - A package for tidying messy data, that's dependent on the functionalities of dplyr, as it comes from the same ecosystem
 #### Gather
+- This function has been superseded by `pivot_longer`
 - The `gather` function can do a sort of a pivot where it switches columns from being variables, to being values, or from columns to rows
 ```R
 > gather(students, sex, count, -grade)
@@ -320,6 +325,7 @@ cran %>%
 ```
 - `gather`' arguments are, the original dataset first, then a key, and a value arguments, which here were sex and count respectively. This gives the column names for the tidy dataset. Lastly, -grade meant that we want to gather all columns, except for grade, since this was already a proper column
 #### Separate
+- This function has been superseded by `separate_wider_position` and `separate_wider_delim`
 - In the following example, we have data that suffers from two issues
 	- Values are being used as variables again
 	- Multiple values are grouped as one column

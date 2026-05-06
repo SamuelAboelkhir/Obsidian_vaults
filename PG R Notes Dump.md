@@ -6,6 +6,7 @@ MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG R index|Back to index]]
 
+![[rstudio-ide.png]]
 # R packages
 - For  R, there are two main repositories for packages
 	- [CRAN (Comprehensive R Archive Network)](https://cran.r-project.org/web/packages/): R’s main repository (>12,100 packages available!) 
@@ -40,6 +41,7 @@ MOC: Programming
 	- Vignettes open html files in the browser
 - To find all the available vignettes `browseVignettes()` or for a specific package `browseVignettes("ggplot2")`
 # R basics
+![[PG base-r-cheat-sheet.pdf]]
 - R is an interpreted language that's based on the S language
 - Being interpreted, it shares some similarities with python, like being able to print a variable by just typing it
 ```R

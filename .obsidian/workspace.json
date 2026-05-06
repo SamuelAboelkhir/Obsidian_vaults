@@ -113,8 +113,20 @@
             "id": "23b3d987666c9bde",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
+                {
+                  "title": "Drawing 2026-03-24 19.17.21.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-24 19.17.21.excalidraw\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -123,7 +135,7 @@
                   "title": "WR General Index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "WR Bid.it General",
@@ -229,6 +241,29 @@
               },
               "icon": "globe-2",
               "title": "Advanced formatting syntax - Obsidian Help"
+            }
+          },
+          {
+            "id": "f99ea865ae02b7cf",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://obsidian.md/help/embeds",
+                "title": "Embed files - Obsidian Help",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Embed files - Obsidian Help"
             }
           },
           {
@@ -786,20 +821,26 @@
             }
           },
           {
-            "id": "43f28f0b28f540e0",
+            "id": "7b80605dd791ba01",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "PG R Notes Dump",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Notes Dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Notes Dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1329,\"ch\":3},\"to\":{\"line\":1329,\"ch\":3}},\"scroll\":1309.4501488095239}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "SC Datascience index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "SC Exploratory Analysis",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Exploratory Analysis.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Exploratory Analysis\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.761503501277625}"
                 }
               ]
             },
@@ -812,6 +853,65 @@
               },
               "icon": "lucide-file",
               "title": "SC Preprocessing"
+            }
+          },
+          {
+            "id": "53313dbe17ffe604",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "PG The data.table R Package Cheat Sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG The data.table R Package Cheat Sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG The data.table R Package Cheat Sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":311.56719576719576}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.521611721611722}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "SC Datascience index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":21},\"to\":{\"line\":10,\"ch\":21}},\"scroll\":0}"
+                },
+                {
+                  "title": "SC Tidy Data",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Tidy Data.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Tidy Data\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "New tab",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"empty\",\"state\":{},\"icon\":\"lucide-file\",\"title\":\"New tab\"}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG R index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG R index"
             }
           },
           {
@@ -874,7 +974,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       },
       {
         "id": "8e63b7d754490c17",
@@ -1002,7 +1102,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.017341530020608405,
+                      "scale": 0.13168724359399506,
                       "close": true
                     }
                   },
@@ -1148,7 +1248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_0000 Home.md",
+                "file": "SC Exploratory Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1158,7 +1258,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _0000 Home"
+              "title": "Backlinks for SC Exploratory Analysis"
             }
           },
           {
@@ -1176,12 +1276,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_0000 Home.md",
+                "file": "SC Exploratory Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _0000 Home"
+              "title": "Outgoing links from SC Exploratory Analysis"
             }
           },
           {
@@ -1301,134 +1401,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "f86cc9fdf2720ed9",
-    "type": "floating",
-    "children": [
-      {
-        "id": "82505013c986dc54",
-        "type": "window",
-        "children": [
-          {
-            "id": "7cc75bb9c1840345",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "490a9d092c0d07d9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://github.com/Vinzent03/obsidian-git",
-                    "title": "GitHub - Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md · GitHub",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "GitHub - Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md · GitHub"
-                }
-              },
-              {
-                "id": "199844b920327810",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "Common issues - Git Documentation - Obsidian Publish",
-                      "icon": "globe-2",
-                      "state": "{\"state\":{\"url\":\"https://publish.obsidian.md/git-doc/Common+issues#Linux/MacOS\"},\"type\":\"webviewer\"}",
-                      "eState": "null"
-                    },
-                    {
-                      "title": "Common issues - Git Documentation - Obsidian Publish",
-                      "icon": "globe-2",
-                      "state": "{\"state\":{\"url\":\"https://publish.obsidian.md/git-doc/Common+issues\"},\"type\":\"webviewer\"}",
-                      "eState": "null"
-                    },
-                    {
-                      "title": "Common issues - Git Documentation - Obsidian Publish",
-                      "icon": "globe-2",
-                      "state": "{\"state\":{\"url\":\"https://publish.obsidian.md/git-doc/Authentication\"},\"type\":\"webviewer\"}",
-                      "eState": "null"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://publish.obsidian.md/git-doc/Common+issues#Bad%20owner%20or%20permissions%20on%20/home/%20%3Cuser%3E/.ssh/config",
-                    "title": "Common issues - Git Documentation - Obsidian Publish",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Common issues - Git Documentation - Obsidian Publish"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 950,
-        "height": 1034,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "9905f43c4a04e6ae",
   "lastOpenFiles": [
-    "SC Exploratory Analysis.md",
-    "PG R Notes Dump.md",
-    "Pasted image 20260506104801.png",
-    "Pasted image 20260506104642.png",
     "SC Preprocessing.md",
+    "PG R index.md",
+    "PG The data.table R Package Cheat Sheet.md",
+    "_0006 Programming MOC.md",
+    "_0000 Home.md",
+    "SC Datascience index.md",
+    "PG R Notes Dump.md",
+    "assets/PG base-r-cheat-sheet.pdf",
+    "PG R Basics Cheat Sheet.md",
+    "PG R Datascience.md",
+    "SC Tidy Data.md",
+    "PG Reshaping Data with tidyr in R.md",
+    "PG ggplot2 Cheat Sheet.md",
+    "assets/Pasted image 20260506224803.png",
+    "assets/Pasted image 20260506224118.png",
+    "assets/Pasted image 20260506224012.png",
+    "assets/Pasted image 20260506104801.png",
+    "assets/Pasted image 20260506104642.png",
+    "assets/Pasted image 20260505111809.png",
+    "assets/Pasted image 20260505111659.png",
+    "assets/Pasted image 20260505111353.png",
+    "assets/Pasted image 20260505111021.png",
+    "assets/Pasted image 20260505110640.png",
+    "PG Data Manipulation with dplyr in R Cheat Sheet.md",
+    "SC Exploratory Analysis.md",
+    "_0004 Sciences MOC.md",
+    "SC Data Visualization Cheat Sheet.md",
+    "WR VA General Notes.md",
+    "assets/data-transformation.pdf",
+    "WR VA TODO.md",
+    "WR General Index.md",
+    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
     "PG Go http server.md",
     "PG Go index.md",
     "PG Go note dump.md",
-    "Pasted image 20260505111809.png",
-    "Pasted image 20260505111659.png",
-    "Pasted image 20260505111353.png",
-    "Pasted image 20260505111021.png",
-    "Pasted image 20260505110640.png",
-    "Pasted image 20260505110630.png",
-    "Pasted image 20260505110442.png",
     "TECH CLI Tools and Commands.md",
-    "Pasted image 20260505024736.png",
     "PER Anything that has to do with science.md",
     "PER Project ideas index.md",
-    "_0003 Personal MOC.md",
-    "SC Datascience index.md",
-    "SC DataScience Note Dump.md",
-    "_0004 Sciences MOC.md",
-    "PER Interactive science learning website.md",
-    "WR VA General Notes.md",
-    "SC Tidy Data.md",
-    "SC Data Science Cheat Sheet for Business Leaders.md",
-    "SC Introduction to Probability Rules Cheat Sheet.md",
-    "SC Descriptive Statistics Cheat Sheet.md",
-    "SC Data Visualization Cheat Sheet.md",
-    "SC Biochemistry index.md",
-    "SC Principles of Biochemistry.md",
-    "SC Chemistry index.md",
     "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
-    "SC Chemistry.md",
-    "TECH Linux index.md",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",
     "html/VA diagnostic report.html",
@@ -1438,8 +1451,6 @@
     "Va diagnostic report outline.txt",
     "sedijvXKQ",
     "assets/sedqcVKfQ",
-    "assets/sedetWzrg",
-    "01_04_rmarkdown.html",
-    "Samuel & Adel/Excalidraw"
+    "assets/sedetWzrg"
   ]
 }

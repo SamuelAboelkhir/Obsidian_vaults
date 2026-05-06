@@ -287,7 +287,40 @@ xyplot(Ozone ~ Wind | Month, data = airquality, layout = c(5, 1))
 ```
 ![[Pasted image 20260506104801.png]]
 - `transform` can transform its first argument to a data frame if it's not one already, and then can do a mutation on said data frame, like how we changed the `Month` column to a factor
-- 
+- While the base system plots to a graphics device directly, lattice instead returns an object of the class trellis, and then the print methods of lattice do the plotting job'
+- The command line auto prints trellis objects which gives the impression of automatically writing to the graphics device
+- This also means that the trellis object can be saved in the workspace
+```R
+p = xyplot(Ozone ~ Wind, data = airquality)
+print(p)
+```
+#### Panel functions
+- Lattice also has panel functions which controls what happens inside each panel of the plot
+- It's also possible to write custom ones
+```R
+set.seed(10)
+x = rnorm(100)
+f = rep(0:1, each = 50)
+y = x + f - f * x + rnorm(100, sd =0.5)
+f = factor(f, labels = c("Group 1", "Group 2"))
+xyplot(y ~ x | f, layout = c(2,1))
+```
+![[Pasted image 20260506224012.png]]
+```R
+xyplot(y ~ x | f, panel = function(x, y, ...) {
+	panel.xyplot(x, y, ...)
+	panel.abline(h = median(y), lty = 2)
+})
+```
+![[Pasted image 20260506224118.png]]
+```R
+xyplot(y ~ x | f, panel = function(x, y, ...) {
+	panel.xyplot(x, y, ...)
+	panel.lmline(x, y, col = 2)
+})
+```
+![[Pasted image 20260506224803.png]]
+
 ### The ggplot system
 - A middle ground system between both systems, and pretty much the most comprehensive and beloved system
 - Can increment a plot like the base system, but abstracts some of the very fine tuning required by the base system like lattice
@@ -299,3 +332,10 @@ qplot(displ, hwy, data = mpg)
 ```
 - It's nice to know that the `example` function can take any other function as an argument, and show examples of how to use it
 	- It does this by running all the code in a function's "examples" section from R's online help topics
+- ggplot implements what's known as the Grammer of Graphics "by Leland Wilkinson"
+- The philosophy here, is that we compose a sentence in essence, describing each component of the plot
+- This system builds upon R's base grid system
+- Based on the course, `qplot` is the workhorse of ggplot2, however, it has sense been deprecated
+- `qplot` stands for quick plot, and is meant to be similar to the base system's `plot`, and the reason for its deprecation, was to encourage users to use the main ggplot2 core function `ggplot` which can compose some much more complicated graphics
+- Regardless, plots in ggplot2 are generally made up of aesthetics `aes` which include things like size, shape, and color, along side `gemos` which is where you indicate if you're plotting lines, or points, etc...
+- 
