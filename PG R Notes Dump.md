@@ -28,6 +28,7 @@ MOC: Programming
 ## Remove package
 - Remove a package with `remove.packages()`
 ## Version and sessionInfo
+- We can check the version of a package with `packageVersion("dplyr")`
 - You can also see the R version and session info with `version`, `sessionInfo()`
 	- Knowing this is useful for many things, including the fact that some packages may require specific R versions
 ## Help and vignettes
@@ -109,6 +110,7 @@ MOC: Programming
 > as.numeric(x)
 [1] NA NA NA
 ```
+- In R, to check if a value is in an array, we use `%in%`
 ### Lists
 - These are kinda like a javascript object with how they print out
 ```R
@@ -1096,3 +1098,322 @@ Enter a frame number, or 0 to exit
 3: file(file, "rt")
 Selection: 
 ```
+## str
+- The `str` function displays the internal structure of an R object in a compact fashion
+```R
+> x = rnorm(100, 2, 4)
+> str(x)
+ num [1:100] -8.348 0.538 0.839 4.744 8.924 ...
+ 
+> f = gl(40,10)
+> str(f)
+ Factor w/ 40 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
+ 
+ > str(airquality)
+'data.frame':	153 obs. of  6 variables:
+ $ Ozone  : int  41 36 12 18 NA 28 23 19 8 NA ...
+ $ Solar.R: int  190 118 149 313 NA NA 299 99 19 194 ...
+ $ Wind   : num  7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...
+ $ Temp   : int  67 72 74 62 56 66 65 59 61 69 ...
+ $ Month  : int  5 5 5 5 5 5 5 5 5 5 ...
+ $ Day    : int  1 2 3 4 5 6 7 8 9 10 ...
+ 
+> s = split(airquality, airquality$Month)
+> str(s)
+List of 5
+ $ 5:'data.frame':	31 obs. of  6 variables:
+  ..$ Ozone  : int [1:31] 41 36 12 18 NA 28 23 19 8 NA ...
+  ..$ Solar.R: int [1:31] 190 118 149 313 NA NA 299 99 19 194 ...
+  ..$ Wind   : num [1:31] 7.4 8 12.6 11.5 14.3 14.9 8.6 13.8 20.1 8.6 ...
+  ..$ Temp   : int [1:31] 67 72 74 62 56 66 65 59 61 69 ...
+  ..$ Month  : int [1:31] 5 5 5 5 5 5 5 5 5 5 ...
+  ..$ Day    : int [1:31] 1 2 3 4 5 6 7 8 9 10 ...
+ $ 6:'data.frame':	30 obs. of  6 variables:
+  ..$ Ozone  : int [1:30] NA NA NA NA NA NA 29 NA 71 39 ...
+  ..$ Solar.R: int [1:30] 286 287 242 186 220 264 127 273 291 323 ...
+  ..$ Wind   : num [1:30] 8.6 9.7 16.1 9.2 8.6 14.3 9.7 6.9 13.8 11.5 ...
+  ..$ Temp   : int [1:30] 78 74 67 84 85 79 82 87 90 87 ...
+  ..$ Month  : int [1:30] 6 6 6 6 6 6 6 6 6 6 ...
+  ..$ Day    : int [1:30] 1 2 3 4 5 6 7 8 9 10 ...
+ $ 7:'data.frame':	31 obs. of  6 variables:
+  ..$ Ozone  : int [1:31] 135 49 32 NA 64 40 77 97 97 85 ...
+  ..$ Solar.R: int [1:31] 269 248 236 101 175 314 276 267 272 175 ...
+  ..$ Wind   : num [1:31] 4.1 9.2 9.2 10.9 4.6 10.9 5.1 6.3 5.7 7.4 ...
+  ..$ Temp   : int [1:31] 84 85 81 84 83 83 88 92 92 89 ...
+  ..$ Month  : int [1:31] 7 7 7 7 7 7 7 7 7 7 ...
+  ..$ Day    : int [1:31] 1 2 3 4 5 6 7 8 9 10 ...
+ $ 8:'data.frame':	31 obs. of  6 variables:
+  ..$ Ozone  : int [1:31] 39 9 16 78 35 66 122 89 110 NA ...
+  ..$ Solar.R: int [1:31] 83 24 77 NA NA NA 255 229 207 222 ...
+  ..$ Wind   : num [1:31] 6.9 13.8 7.4 6.9 7.4 4.6 4 10.3 8 8.6 ...
+  ..$ Temp   : int [1:31] 81 81 82 86 85 87 89 90 90 92 ...
+  ..$ Month  : int [1:31] 8 8 8 8 8 8 8 8 8 8 ...
+  ..$ Day    : int [1:31] 1 2 3 4 5 6 7 8 9 10 ...
+ $ 9:'data.frame':	30 obs. of  6 variables:
+  ..$ Ozone  : int [1:30] 96 78 73 91 47 32 20 23 21 24 ...
+  ..$ Solar.R: int [1:30] 167 197 183 189 95 92 252 220 230 259 ...
+  ..$ Wind   : num [1:30] 6.9 5.1 2.8 4.6 7.4 15.5 10.9 10.3 10.9 9.7 ...
+  ..$ Temp   : int [1:30] 91 92 93 93 87 84 80 78 75 73 ...
+  ..$ Month  : int [1:30] 9 9 9 9 9 9 9 9 9 9 ...
+  ..$ Day    : int [1:30] 1 2 3 4 5 6 7 8 9 10 ...
+```
+## Simulation
+- A good way for practicing R, or testing functions with statistical objectives, is the use of a simulation
+- R provides built-in functions for generating probability distributions
+	- `rnorm`: generate random Normal variates with a gives mean and standard deviation. 
+	- `dnorm`: evaluate the Normal probability density (with a given mean/SD) at a point (or vector of points)
+	- `pnorm`: evaluate the cumulative distribution function for a Normal distribution
+	- `rpois`: generate random Poisson variates with a given rate
+- Some prefixes that we will run by occasionally, as they exist for every kind of distribution generation function
+	-  r for random number generations
+	- d for density
+	- p for cumulative distribution
+	- q for quantile function
+### seeding
+- It's important to set a seed before generating random numbers with `set.seed`
+- This ensures reproducible results, as random generation on computers only generates psudo-random numbers, there is no true randomness
+### simulating a linear model
+- We will use an example with a single predictor, and some random noise
+	- $y = B{_0} + B{_1}X + E$
+	- $E$ ~ $N$(0,2$^2$), $X$ ~ $N$(0,1$^2$), $B_0$ = 0.5 and $B_1$ = 2
+```R
+> set.seed(20)
+> x = rnorm(100)
+> e = rnorm(100, 0, 2)
+> y = 0.5 + (2 * x) + e
+> summary(y)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+-6.4084 -1.5402  0.6789  0.6893  2.9303  6.5052 
+> plot(x, y)
+```
+- What if x is binary?
+```R
+> x = rbinom(100, 1, 0.5)
+> y = 0.5 + (2 * x) + e
+> summary(y)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+-3.0489  0.1981  1.6548  1.6395  3.1800  6.3324 
+```
+- This means that we have 100 values, where there is a 50% chance the value will 1
+- Now for a generalized linear model where we simulate from a Poisson model, in which:
+	- Y ~ Poisson($u$)
+	- $log u = B{_0} + B{-1}x$
+	- $B_0$  = 0.5 and $B_1$ = 0.3
+	- We need to use `rpoise`
+```R
+> plot(x, y)
+> set.seed(1)
+> x = rnorm(100)
+> log.mu = 0.5 + 0.3 * x
+> y = rpois(100, exp(log.mu))
+> summary(y)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    1.00    1.00    1.55    2.00    6.00 
+> plot(x, y)
+```
+### sample
+- The `sample` function draws randomly from a set of scalar objects
+```R
+> set.seed(1)
+> sample(1:10, 4)
+[1] 9 4 7 1
+> sample(1:10, 4)
+[1] 2 7 3 6
+> sample(letters, 5)
+[1] "r" "s" "a" "u" "w"
+> sample(1:10)
+ [1] 10  6  9  2  1  5  8  4  3  7
+> sample(1:10)
+ [1]  5 10  2  8  6  1  4  3  9  7
+> sample(1:10, replace = TRUE)
+ [1]  3  6 10 10  6  4  4 10  9  7
+```
+## Profiling
+- The act of examining how much time R code spends running, with the goal of optimizing it
+- We can use `system.time` to calculate the time an R expression took to be evaluated
+	- It computes the time in seconds
+	- If we run into an error, it will give you the time until the error occurred
+	- it returns an object of class `proc_time`
+- There are two ways of looking at time when it comes to code
+	- **User time:** the time the CPU(s) took to run the expression
+	- **Elapsed time:** the real time spent for the expression to run
+- User time and elapsed time are usually very close, but they mainly diverge when using a package that can leverage multi-threading, in which case elapsed time will be smaller
+- Using an external API where the network could be the actual bottleneck, not the CPU, is an example of when elapsed time would be higher than user time
+### Rprof
+- Another option are `Rprof` and `summaryRprof`, where `Rprof` is the actual profiller, and `summaryRprof` summarizes the output into something readable
+- Note that `system.time` and `Rprof` are not designed to be used together, so don't do that
+- `Rprof` keeps track of the function call stack at regular intervals, and tabulates how much time was spent in each function
+	- The profiler isn't really useful if your code is already running very fast. You wouldn't exactly need it if it was
+- `summaryRprof` is the same, but summarized, duh
+- It offers two summary methods
+	- `by.total`: divides the time spent in each function by the total run time
+	- `by.self`: does the same but first subtracts out time spent in functions about in the call stack
+		- This is more interesting as it highlights the amount of time the function ran for, alone, while cutting out the run time of helper functions that it may have called
+- Note, any underlying C or Fortran code that R may have used will not be profiled
+## Files and directories
+- We use `file.exists("directory name")` to check for the existence of a directory, even the the function has "file" in it
+- `dir.create("dir name")` is used to create a directory
+```R
+if (!file.exists("data")) {
+	dir.create("data")
+}
+```
+- We can also download files from the internet using `download.file()`
+```R
+fileUrl = "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD"
+download.file(fileUrl, destfile = "./data/cameras.csv", method = "curl")
+list.files("./data")
+```
+- The `curl` method is mainly needed on unix systems (they say mac I assume unix) when dealing with `https` urls
+### Excel
+- For excel files we use `read.xlsx` from the `xlsx` package
+- The function takes a `sheetIndex` argument to specify the sheet with the required data and a `header` argument for keeping header names
+- We can also read a subset of the excel file using the `colIndex` and `rowIndex` arguments
+- Excel can be written back out of R using `write.xlsx`
+- `read.xlsx2` is a faster version of the function, but apparently it can be slightly unstable with subsetting
+### XML
+- This requires the `xml` package
+- The function here is `xmlTreeParse()` which parses in xml into a tree structure
+- This function is not a one-hit wonder like the rest of them, this time, the parsed xml will be stored in a variable, and we actually need more functions to process it
+- The `xmlRoot()` function will access the root tag (node), which basically stores the whole parsed document in a variable
+- `xmlName()` gets the name of a node
+- We can also use list accessing syntax to access elements of the parsed node `rootNode[[1]]`
+```R
+library(XML)
+fileUrl = "http://example"
+doc = xmlTreeParse(fileUrl, useInternal=TRUE)
+rootNode = xmlRoot(doc)
+xmlName(rootNode)
+```
+- The xml package even has xml specific apply commands, one of which is `xmlSApply()` which will programatically extract parts of the file
+```R
+xmlSApply(rootNode, xmlValue)
+```
+- xml even brandishes a dedicated language, "XPath" that can be used for parsing xml nodes in R
+```
+- /node Top level node
+- //node Node at any level
+- node[@attr-name] Node with an attribute name
+- node[@attr-name='bob'] Node with attribute name attr-name='bob'
+```
+### HTML
+- HTML requires the use of `htmlTreeParse()`
+```R
+fileUrl = "http://example"
+doc = htmlTreeParse(fileUrl, useInternal=TRUE)
+scores = xpathSApply(doc, "//li[@class='score']", xmlValue)
+teams = xpathSApply(doc, "//li[@class='team-name']", xmlValue)
+```
+### JSON
+- The `jsonlite` library is needed here
+```R
+library(jsonlite)
+jsonData = fromJSON("http://example")
+names(jsonData)
+```
+- Reading JSON or any of the other file types in this section should load them into a `data.frame`
+- We can also write to JSON
+```R
+myjson = toJSON(iris, pretty=TRUE)
+cat(myjson)
+```
+# Data Tables
+- Data tables are the successors to data frames
+- The package is written in C and is very fast
+- It's way faster at subsetting, grouping and updating
+- It has a slightly different syntax sometimes though
+## Creation
+```R
+DF = data.frame(x=rnorm(9), y=rep(c("a","b","c"), each=3), z=rnorm(9))
+DT = data.table(x=rnorm(9), y=rep(c("a","b","c"), each=3), z=rnorm(9))
+```
+- The `tables`function show how many tables are loaded in memory, and their total size, names, number of rows, cols and keys
+## Subsetting
+```R
+DT[2,]
+
+DT[DT$y="a",]
+```
+- Subsetting rows and columns here is different
+```R
+# Using a single index subsets rows instead of columns
+DT[c(2,3)]
+```
+- The column subset function in data tables uses expressions
+- An expression in R is a collection of statements enclosed in  curly brackets
+- We can use this to pass functions to the data table that we want to run on all the columns
+```R
+DT[,list(mean(x), sum(z))]
+```
+- We can even use a walrus operator to quickly add a new column
+```R
+DT[,W:=z^2]
+```
+- Note that when adding new data to data frames, R creates a new data frame where the additions are applied. With data tables that's not the case
+- Data tables also have some special variables
+- `.N` allows you to do a unique total count of a specific column's variables
+```R
+set.seed(123);
+DT = data.table(x=sample(letters[1:3], 1E5, TRUE))
+DT[, .N, by=x]
+
+	x     N
+1:  a 33387
+2:  c 33201
+3:  b 33412
+```
+## Keys
+- Data table also allows us to set a key
+- This feels a lot like a SQL index, but the difference is that a key just sorts the data in place by the chosen column
+```R
+DT = data.table(x=rep(c("a","b","c"), each=100), y=rnorm(300))
+setkey(DT, x)
+DT['a']
+Key: <x>
+          x           y
+     <char>       <num>
+  1:      a -1.65808828
+  2:      a  0.48353355
+  3:      a -0.12598362
+  4:      a  1.36050733
+  5:      a -0.95224638
+  6:      a -0.67258096
+  7:      a -0.10470971
+  8:      a -0.19415974
+  9:      a -0.31749215
+ 10:      a -1.28466190
+ 11:      a -0.71499752
+ #---rest
+```
+## Joins
+- We even have the ability to do table joins, sure feels like a mini SQL here
+```R
+DT1 = data.table(x=c("a", "a", "b", "dt1"), y=1:4)
+DT2 = data.table(x=c("a", "b", "dt2"), z=5:7)
+setkey(DT1, x); setkey(DT2, x)
+merge(DT1, DT2)
+
+Key: <x>
+        x     y     z
+   <char> <int> <int>
+1:      a     1     5
+2:      a     2     5
+3:      b     3     6
+```
+- What we just did is akin to an inner join
+- The merging itself is based on all the possible combinations of matching x values
+- This means that for `x ="a"` where DT1 has y = 1, 2 and DT2 has z = 5, we get, 
+```
+(a,1) x (a,5) -> (a,1,5)
+(a,2) x (a,5) -> (a,2,5)
+```
+- We had only one b for both, and dt1 and dt2 were unique to their respective tables so they get dropped, since an inner join only takes values that exist in both tables
+- We could have kept all the rows though if we used the `all` flag
+```R
+merge(DT1, DT2, all = TRUE)      # full outer join
+merge(DT1, DT2, all.x = TRUE)   # left join
+merge(DT1, DT2, all.y = TRUE)   # right join
+```
+## Reading from files
+- Needless to say that reading data from disk into a data table is faster than a data frame, with the `fread` function
+- It's actually 10 times faster to read with a data table than a data frame

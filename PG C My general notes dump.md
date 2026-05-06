@@ -363,7 +363,7 @@ printf("X: %d\n", (*ptrToPoint).x); // X: 10
 	4. **Performance**: The operating system can optimize memory access depending on the hardware and needs of the program. For example, by moving data between physical memory and the hard drive.
 - The idea to remember here is that, virtual memory is just an encapsulation over a process, where the process believes it has access to contiguous memory, starting from 0, but in reality, every address in the virtual memory may very well be scattered all over the physical stick
 - Also, RAM is paginated, and virtual memory addresses are mapped to physical addresses using a paging table
-## Arrays
+### Arrays
 - An array in C is a fixed size ordered collection of elements, that's indexed by ints starting at zero, and can only hold elements of the same type
 - They are stored in contiguous memory just like structs
 - Iterating over an array in C is only dooable via loops
@@ -495,6 +495,319 @@ printf("ptr[1].x = %d, ptr[1].y = %d, ptr[1].z = %d\n",
 | `0x2018` | `points[2].x` | 7     | 24             |
 | `0x201C` | `points[2].y` | 8     | 28             |
 | `0x2020` | `points[2].z` | 9     | 32             |
+### Array casting
+- Since arrays in most cases are just pointers, if we have an array of 3 structs full of ints, since arrays are contiguous in memory, we can actually cast it into another array of ints
+```C
+coordinate_t points[3] = {
+  {5, 4, 1},
+  {7, 3, 2},
+  {9, 6, 8}
+};
+
+int *points_start = (int *)points;
+
+for (int i = 0; i < 9; i++) {
+  printf("points_start[%d] = %d\n", i, points_start[i]);
+}
+/*
+points_start[0] = 5
+points_start[1] = 4
+points_start[2] = 1
+points_start[3] = 7
+points_start[4] = 3
+points_start[5] = 2
+points_start[6] = 9
+points_start[7] = 6
+points_start[8] = 8
+*/
+```
+### Pointer size
+- The size of a pointer is independent of the size of the data it "points" at
+- The size of a pointer is actually determined by the system's architecture, whether it's 32-bit, 64-bit or something else
+- This is of course because the pointer just hold the hex number representing the data's memory address
+- This is unlike the size of an array, which is a contiguous block of memory where the data are of a specific size
+```C
+int *intPtr;
+char *charPtr;
+double *doublePtr;
+printf("Size of int pointer: %zu bytes\n", sizeof(intPtr));
+printf("Size of char pointer: %zu bytes\n", sizeof(charPtr));
+printf("Size of double pointer: %zu bytes\n", sizeof(doublePtr));
+// Size of int pointer: 4 bytes
+// Size of char pointer: 4 bytes
+// Size of double pointer: 4 bytes
+
+int intArray[10];
+char charArray[10];
+double doubleArray[10];
+printf("Size of int array: %zu bytes\n", sizeof(intArray));
+printf("Size of char array: %zu bytes\n", sizeof(charArray));
+printf("Size of double array: %zu bytes\n", sizeof(doubleArray));
+// Size of int array: 40 bytes
+// Size of char array: 10 bytes
+// Size of double array: 80 bytes
+```
+### Array decays to pointers
+- Arrays are like pointers, but they're not actually pointers
+- As we said before, an array allocates memory for all the elements that it holds, while a pointer just holds the address of the data
+- The reason arrays behave like pointers, is because the array's name can decay into a pointer to the first element of the array
+#### When do arrays decay
+- Arrays decay when used in expressions containing pointers
+```C
+int arr[5];
+
+// 'arr' decays to 'int*' because that's the type of 'ptr'
+int *ptr = arr;
+
+// 'arr' decays to 'int*' to perform pointer arithmetic
+int value = *(arr + 2);
+```
+- They also decay when passed to functions, so arrays are always passed by reference
+#### When do arrays not decay
+- Arrays don't decay when the `sizeof` operator is used on them, as it will return the size of the full array, not just the pointer
+- Taking the address of an array with `&` actually gives a pointer to the full array, not just the first element
+	- The `&arr` type is a pointer to the whole array. For example `int (*)[5]` is an int array with 5 elements
+- After initialization the array is fully allocated to the memory without decaying
+### C strings
+```C
+char *msg = "ssh terminal.shop for the best coffee";
+```
+- In the above example, `char` is a pointer to the first character in the string
+- A C string is
+	- Any number of chars terminated by a null character `('\0')`
+	- A pointer to the first element of a char array
+- Most string manipulation in C is done using pointers to move around the array
+- The null terminator is very critical for determining the end of a string
+	- The null terminator is usually added automatically to the end of a char array
+- C strings don't store their length, which instead is determined by the position of the null terminator
+- A function like `strlen` calculates the length of a string by iterating through the characters until the null terminator is found
+- The fact C doesn't store string lengths, means that if we're not careful, it's possible to cause buffer overflows, and off-by-one errors during string operations
+- A C string can be declared using arrays or pointers
+```C
+char str1[] = "Hi";
+char *str2 = "Snek";
+printf("%s %s\n", str1, str2);
+// Output: Hi Snek
+```
+- Memory wise
+```C
+// notice we aren't using all 50 characters
+char first[50] = "Snek";
+char *second = "lang!";
+strcat(first, second);
+printf("Hello, %s\n", first);
+// Output: Hello, Sneklang!
+```
+- `strcat` appends the 2nd argument to the first
+- First in memory might look like this
+
+| 'S'    | 'n'    | 'e'    | 'k'    | '\0'   | ????   | ... | ????   |
+| ------ | ------ | ------ | ------ | ------ | ------ | --- | ------ |
+| 0x3000 | 0x3001 | 0x3002 | 0x3003 | 0x3004 | 0x3005 | ... | 0x3031 |
+- Second
+
+| 'l'    | 'a'    | 'n'    | 'g'    | '!'    | '\0'   |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| 0x4000 | 0x4001 | 0x4002 | 0x4003 | 0x4004 | 0x4005 |
+- First and second concatenated
+
+| 'S'    | 'n'    | 'e'    | 'k'    | 'l'    | 'a'    | 'n'    | 'g'    | '!'    | '\0'   | ????   | ... | ????   |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | --- | ------ |
+| 0x3000 | 0x3001 | 0x3002 | 0x3003 | 0x3004 | 0x3005 | 0x3006 | 0x3007 | 0x3008 | 0x3009 | 0x300A | ... | 0x3031 |
+- Even though the array `first` had a lot more space left, `strcat` was able to determine the end of first using the null terminator, and appended second after it
+#### C string library
+- The C standard library provides a set of functions to manipulate strings in the `<string.h>` header file
+- Some of the most commonly used ones are
+- [`strcpy`](https://en.cppreference.com/w/c/string/byte/strcpy): Copies a string to another.    
+```c
+char src[] = "Hello";
+char dest[6];
+strcpy(dest, src);
+// dest now contains "Hello"
+```
+- [`strncpy`](https://en.cppreference.com/w/c/string/byte/strncpy): Copies a _specified number of characters_ from one string to another.
+```c
+char src[] = "Hello";
+char dest[6];
+strncpy(dest, src, 3);
+// dest now contains "Hel"
+dest[3] = '\0';
+// ensure null termination
+```
+- [`strcat`](https://en.cppreference.com/w/c/string/byte/strcat): Concatenates (appends) one string to another.
+```c
+char dest[12] = "Hello";
+char src[] = " World";
+strcat(dest, src);
+// dest now contains "Hello World"
+```
+- [`strncat`](https://en.cppreference.com/w/c/string/byte/strncat): Concatenates a _specified number of characters_ from one string to another.
+```c
+char dest[12] = "Hello";
+char src[] = " World";
+strncat(dest, src, 3);
+// dest now contains "Hello Wo"
+```
+- [`strlen`](https://en.cppreference.com/w/c/string/byte/strlen): Returns the length of a string (excluding the null terminator).
+
+```c
+char str[] = "Hello";
+size_t len = strlen(str);
+// len is 5
+```
+- [`strcmp`](https://en.cppreference.com/w/c/string/byte/strcmp): Compares two strings lexicographically.
+
+```c
+char str1[] = "Hello";
+char str2[] = "World";
+int result = strcmp(str1, str2);
+// result is negative since "Hello" < "World"
+```
+- [`strchr`](https://en.cppreference.com/w/c/string/byte/strchr): Finds the first occurrence of a character in a string.
+
+```c
+char str[] = "Hello";
+char *pos = strchr(str, 'l');
+// pos points to the first 'l' in "Hello"
+```
+- [`strstr`](https://en.cppreference.com/w/c/string/byte/strstr): Finds the first occurrence of a substring in a string.
+
+```c
+char str[] = "Hello World";
+char *pos = strstr(str, "World");
+// pos points to "World" in "Hello World"
+```
+## Forward declaration
+- Sometimes a struct needs to reference itself, like in the case of a node struct in a linked list
+```C
+typedef struct Node {
+  int value;
+  node_t *next;
+} node_t;
+```
+- Node here is not defined yet, and the compiler will complain about using declaring it this way
+- We can solve this using a forward declaration
+```C
+typedef struct Node node_t;
+
+typedef struct Node {
+  int value;
+  node_t *next;
+} node_t;
+```
+- This lets the compiler know about the existence of the struct even before it's fully defined
+- The forward declaration must match the eventual definition
+- The following isn't allowed
+```C
+typedef struct Node node_t;
+
+typedef struct BadName {
+  int value;
+  node_t *next;
+} node_t;
+```
+### Mutual structs
+- If two structs reference each other in a circular reference, that's another use case for forward declaration
+```C
+typedef struct Computer computer_t;
+typedef struct Person person_t;
+
+struct Person {
+  char *name;
+  computer_t *computer;
+};
+
+struct Computer {
+  char *brand;
+  person_t *owner;
+};
+```
+## Enums
+- To define an enum in C
+```C
+typedef enum DaysOfWeek {
+  MONDAY,
+  TACO_TUESDAY,
+  WEDNESDAY,
+  THURSDAY,
+  FRIDAY,
+  SATURDAY,
+  FUNDAY,
+} days_of_week_t;
+```
+- The `typedef` and `days_of_week_t` parts are of course still optional, but conventional
+- To then use the enum
+```C
+typedef struct Event {
+  char *title;
+  days_of_week_t day;
+} event_t;
+
+// Or if you don't want to use the alias:
+
+typedef struct Event {
+  char *title;
+  enum DaysOfWeek day;
+} event_t;
+```
+- Although enums by default are enumerated starting from 0, we can still give them explicit values
+```C
+typedef enum {
+  EXIT_SUCCESS = 0,
+  EXIT_FAILURE = 1,
+  EXIT_COMMAND_NOT_FOUND = 127,
+} ExitStatus;
+
+// Alternatively, you can define the first value and let the compiler fill in the rest (incrementing by 1):
+typedef enum {
+  LANE_WPM = 200,
+  PRIME_WPM, // 201
+  TEEJ_WPM,  // 202
+} WordsPerMinute;
+```
+### Switch
+- C also supports switch, which pairs very well with enums
+```C
+switch (logLevel) {
+  case LOG_DEBUG:
+    printf("Debug logging enabled\n");
+    break;
+  case LOG_INFO:
+    printf("Info logging enabled\n");
+    break;
+  case LOG_WARN:
+    printf("Warning logging enabled\n");
+    break;
+  case LOG_ERROR:
+    printf("Error logging enabled\n");
+    break;
+  default:
+    printf("Unknown log level: %d\n", logLevel);
+    break;
+}
+
+// You can allow fallthrough
+switch (errorCode) {
+  case 1:
+  case 2:
+  case 3:
+    // 1, 2, and 3 are all minor errors
+    printf("Minor error occurred. Please try again.\n");
+    break;
+  case 4:
+  case 5:
+    // 4 and 5 are major errors
+    printf("Major error occurred. Restart required.\n");
+    break;
+  default:
+    printf("Unknown error.\n");
+    break;
+}
+```
+### Sizeof enum`
+- Since enums are at the end of the day, just ints, the size of an enum is the same as an int
+- In case a very large enum that surpasses the size of a normal int is used, the C compiler will assign it a larger int type
+- 
 # Stack and Heap
 ### Stack
 - The stack in C is an OS controlled memory that acts as its name implies, as a stack

@@ -1,7 +1,7 @@
 ---
 tags:
 - DS
-MOC: Technology
+MOC: Sciences
 source: "https://www.datacamp.com/cheat-sheet/data-viz-cheat-sheet"
 ---
 [[_0000 Home|Home]] | [[_0004 Sciences MOC |Back to Sciences MOC]] | [[SC Datascience index|Back to index]]

@@ -12,14 +12,18 @@ MOC: Programming
 - ASCII is used for representing 128 English characters in the form of numbers, with each letter being assigned to a specific number in the range 0 to 127. For e.g., the ASCII code for uppercase A is 65, uppercase B is 66, and so on. Check out the following table for some more examples.
 - Most computers are using ASCII encoding for text representation, which makes transferring data from one device to another a lot easier.
 # The Difference Between Unicode and UTF-8
+## Unicode
 - Unicode is a character set.
 - It is a list where all characters have a unique decimal number:
+```
 A	=	65
 B	=	66
 C	=	67
 D	=	69
+```
 - The decimal numbers that represent the string "hello"is 104 101 108 108 111
-UTF-8 is encoding.
+## Encoding
+- UTF-8 is encoding.
 - It is how unicode numbers are translated into binary numbers to be stored in the computer:
 - UTF-8 encoding will store "hello" like this (binary): 01101000 01100101 01101100 01101100  01101111
 - Unicode is a **character set**. It translates characters to numbers.
