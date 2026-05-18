@@ -526,7 +526,7 @@ INSERT INTO a VALUES (1); -- COMMITTED immediately!
 INSERT INTO b VALUES (2); -- COMMITTED immediately!
 ROLLBACK;                 -- does nothing, everything is already saved
 ```
-- If you wanted to run a migration, the migration normally has to "lock" the database as it runs, similar to [[PG Go note dump#Mutexes]] which lock a certain function to a specific goroutine to avoid conflicting insertions/deletions
+- If you wanted to run a migration, the migration normally has to "lock" the database as it runs, similar to [[PG Go Main#Mutexes]] which lock a certain function to a specific goroutine to avoid conflicting insertions/deletions
 - In order to have a proper multi-statement transaction, `autocommit` needs to be turned off
 ## Migration locking
 ### The problem
