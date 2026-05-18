@@ -5,7 +5,7 @@ MOC: Personal
 ---
 [[_0000 Home|Home]] | [[_0003 Personal MOC]] | [[PER Project ideas index|Back to index]]
 
-# The unnamed science project
+# CompGoR
 ## The dream
 - This project is going to be a reflection of my education, of everything I know
 - It will combine

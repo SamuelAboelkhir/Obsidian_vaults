@@ -371,16 +371,16 @@ See `:help text-objects`
 
 ### Search
 
-| \- | \- |
-| --- | --- |
-| `/foo` | Search forward |
-| `/foo\c` | Search forward *(case insensitive)* |
-| `?foo` | Search backward |
+| \-       | \-                                             |
+| -------- | ---------------------------------------------- |
+| `/foo`   | Search forward                                 |
+| `/foo\c` | Search forward *(case insensitive)*            |
+| `?foo`   | Search backward                                |
 | `/\v\d+` | Search with [regex](https://quickref.me/regex) |
-| `n` | Next matching search pattern |
-| `N` | Previous match |
-| `*` | Search for current word forward |
-| `#` | Search for current word backward |
+| `n`      | Next matching search pattern                   |
+| `N`      | Previous match                                 |
+| `*`      | Search for current word forward                |
+| `#`      | Search for current word backward               |
 
 ### Replace LINE
 
@@ -390,14 +390,14 @@ See `:help text-objects`
 
 ---
 
-|  |  |
-| --- | --- |
-| `:s/old/new` | Replace first |
-| `:s/old/new/g` | Replace all |
-| `:s/\vold/new/g` | Replace all with [regex](https://quickref.me/regex) |
-| `:s/old/new/gc` | replace all *(Confirm)* |
-| `:s/old/new/i` | Ignore case replace first |
-| `:2,6s/old/new/g` | Replace between lines `2` - `6` |
+|                   |                                                     |
+| ----------------- | --------------------------------------------------- |
+| `:s/old/new`      | Replace first                                       |
+| `:s/old/new/g`    | Replace all                                         |
+| `:s/\vold/new/g`  | Replace all with [regex](https://quickref.me/regex) |
+| `:s/old/new/gc`   | replace all *(Confirm)*                             |
+| `:s/old/new/i`    | Ignore case replace first                           |
+| `:2,6s/old/new/g` | Replace between lines `2` - `6`                     |
 
 ### Replace FILE
 

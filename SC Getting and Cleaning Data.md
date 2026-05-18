@@ -72,7 +72,7 @@ A-->B-->C-->D
 9      D female     5
 10     E female     5
 ```
-- We can tidy this data using [[PG R Notes Dump#Tidyr|Tidyr]]. Usage examples will be covered in [[PG R Notes Dump]]
+- We can tidy this data using [[PG R Main#Tidyr|Tidyr]]. Usage examples will be covered in [[PG R Main]]
 - In the cleaned dataset, we grouped male and female under the sex column, and their counts under the count column
 - A good indication that a single table has multiple observational units, is if redundant data is found
 ```R
@@ -472,12 +472,12 @@ cran %>%
 ```
 ## Data acquisition
 ### Downloading Data
-- This following section, and probably many more will be closely related to, and heavily reliant on [[PG R Notes Dump|R]]
-- Refer to [[PG R Notes Dump#Files and directories]] for this section
+- This following section, and probably many more will be closely related to, and heavily reliant on [[PG R Main|R]]
+- Refer to [[PG R Main#Files and directories]] for this section
 - It's good practice after downloading data from the internet to also set the date in a variable as a point of reference for if/when the data changes at the source
 ### Reading from databases
 - We can also establish connections to data bases like MySQL and read from the directly
-- More information on this here [[PG R Notes Dump#MySQL]]
+- More information on this here [[PG R Main#MySQL]]
 ### MySQL
 - This section was explained with MySQL as an example, but it should work for all DB connections in general
 - The command to connect to a MySQL DB is `dbConnect`, and then we can do a `get` query with `dbGetQuery`
@@ -545,8 +545,8 @@ There were 16 warnings (use warnings() to see them)
 [1] TRUE
 ```
 #### Subsetting
-- Although this has been covered in [[PG R Notes Dump#Subsetting]], and is more of an R topic, I will cover the extended version here as it portrays to tidying data more than just pure subsetting
-- It's also good to know that [[PG R Notes Dump#Dplyr|dplyr]] can handle subsetting in a much nicer and more intuitive way, but the following is how this is done with the base package
+- Although this has been covered in [[PG R Main#Subsetting]], and is more of an R topic, I will cover the extended version here as it portrays to tidying data more than just pure subsetting
+- It's also good to know that [[PG R Main#Dplyr|dplyr]] can handle subsetting in a much nicer and more intuitive way, but the following is how this is done with the base package
 - Another way for dealing with NA values is via the `which` function
 ```R
 X[which(X$var2 > 8),]

@@ -1,7 +1,6 @@
 ---
 tags:
 - Go
-- General
 - Programming-Language
 MOC: Programming
 ---
@@ -1026,7 +1025,7 @@ func Println(a ...interface{}) (n int, err error)
 - Append adds elements to slices dynamically, and if the underlying array is full, it will create a new one and point the slice to it
 - Append is variadic
 ## Range
-- The `range` keyword in Go is syntactic sure that facilitates iterating over elements of a slice, where the `ELEMENT` is a copy of the value at `INDEX` of the slice
+- The `range` keyword in Go is syntactic sugger that facilitates iterating over elements of a slice, where the `ELEMENT` is a copy of the value at `INDEX` of the slice
 ```Go
 for INDEX, ELEMENT := range SLICE {
 }

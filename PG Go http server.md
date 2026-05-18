@@ -1,7 +1,6 @@
 ---
 tags:
 - Go
-- General
 - Programming-Language
 MOC: Programming
 ---

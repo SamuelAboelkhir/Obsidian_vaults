@@ -507,7 +507,7 @@ f = function(a, b) {
 ```
 ### The ... argument
 - R also has a very cool feature, the `...` argument
-	- Unlike the spread operator from JS or the [[PG Go note dump#Variadic|variadic]] operator from Go, the `...` argument in R indicates a variable number of arguments that can be passed on to another function
+	- Unlike the spread operator from JS or the [[PG Go Main#Variadic|variadic]] operator from Go, the `...` argument in R indicates a variable number of arguments that can be passed on to another function
 	- It's useful for when you want to extend another function, and you don't want to copy the full argument list of the first, since R's functions can have some very long argument lists
 ```R
 # Here, myplot is used to change the default plot type of `plot()`, and the remaining args are passed as is using `...`
@@ -1046,7 +1046,7 @@ List of 6
 	- `debug`: flags a function for "debug" mode, then you can step through execution one line at a time (basically a debugger)
 	- `browser`: suspends the execution of a function wherever it's called, and puts it in debug mode (kinda like a deferred `debug`)
 	- `trace`: allows you to insert debugging code into a function at a specific place
-	- `recover`: basically a `catch` for R's PANIC, that allows you to handle the thrown error [[PG Go note dump#Panic!!!!|Go]] style
+	- `recover`: basically a `catch` for R's PANIC, that allows you to handle the thrown error [[PG Go Main#Panic!!!!|Go]] style
 ```R
 > lm(y ~ x)
 
