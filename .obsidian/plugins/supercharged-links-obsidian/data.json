@@ -52,6 +52,18 @@
     {
       "type": "path",
       "name": "MOC",
+      "value": "IT",
+      "matchCaseSensitive": true,
+      "match": "startswith",
+      "uid": "3d18-f1e4",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "MOC",
       "value": "NET",
       "matchCaseSensitive": true,
       "match": "startswith",
@@ -128,18 +140,6 @@
       "matchCaseSensitive": false,
       "match": "contains",
       "uid": "c75b-027a",
-      "selectText": true,
-      "selectAppend": true,
-      "selectPrepend": true,
-      "selectBackground": true
-    },
-    {
-      "type": "path",
-      "name": "MOC",
-      "value": "IT",
-      "matchCaseSensitive": true,
-      "match": "startswith",
-      "uid": "f193-ad63",
       "selectText": true,
       "selectAppend": true,
       "selectPrepend": true,

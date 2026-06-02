@@ -121,6 +121,7 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 ### System management and monitoring
 
 #### Back to top: [[#Links]]
+- `id`: print real and effective user and group IDs
 - `sudo sysctl -w fs.inotify.max_user_watches=131070` : increase the limit of file watchers.
 - `ncdu` : a tool that shows you the distribution of disk space.
 - `free -h` : shows memory statistics in a human readable format.
@@ -204,7 +205,9 @@ sudo swapon /swap/swapfile0
 - `sysbench`: Scriptable multi-threaded benchmark tool for databases and systems
 - `powertop`:  A power consumption and power management diagnosis tool.
 - `snapper`: snapshot creation tool. The created snapshots can be booted into using `limine` or `GRUB`
-- `btrfs subvolume list`: shows you all your subvolumes, like those created by snapper
+- `btrfs`: A filesystem and a toolbox for managing said filesystem/
+	- `btrfs subvolume list`: shows you all your subvolumes, like those created by snapper
+	- `btrfs balance start`: attempts to balance the filesystem blocks when they are fragmented
 - `lsblk`: lists block devices, so it can show available SSDs, filesystem types, mountpoints and so on
 ---
 ### Networking commands and tools
