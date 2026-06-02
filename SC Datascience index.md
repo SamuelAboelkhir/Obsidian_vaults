@@ -11,6 +11,7 @@ MOC: Sciences
 [[SC Exploratory Analysis CodeBook]]
 [[SC Exploratory Analysis Project README]]
 [[SC Reproducible Research]]
+[[SC Statistical Inference]]
 ### From the internet
 [[SC Data Visualization Cheat Sheet]]
 [[SC Descriptive Statistics Cheat Sheet]]

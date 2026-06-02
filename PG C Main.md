@@ -1810,4 +1810,428 @@ snek_object_t *first = new_snek_array(1);
   // refcounts: first = 1, second = 2
   refcount_dec(second);
   // refcounts: first = 1, second = 1
+  
+ void refcount_dec(snek_object_t *obj) {
+  if (obj == NULL) {
+    return;
+  }
+  obj->refcount--;
+  if (obj->refcount == 0) {
+    // this doesn't happen when refcount is 1
+    return refcount_free(obj);
+  }
+  return;
+} 
+```
+#### Pros and Cons
+- The pros of MaS are:
+	- It can detect cylces, and thus prevent memory leaks in certain cases
+	- It has less on-demand bookkeeping
+	- Reduces potential performance degradation in highly multi threaded programs, while refcounting would require atomic updates for thread safety
+- Cons of MaS:
+	- It's more complex to implement
+	- Can cause "stop-the-world" pauses when lots of objects need to be freed, resulting in poor performance
+	- Higher memory overhead
+	- Less predictable performance
+#### Stack Frames
+- To implement MaS, we will use a struct called `vm_t` Virtual Machine Type
+- This struct will simulate what would normally be tracked by a fully functional interpreted language
+- stack.h
+```C
+#include <stddef.h>
+#include <stdlib.h>
+
+typedef struct Stack {
+  size_t count;
+  size_t capacity;
+  void **data;
+} stack_t;
+
+stack_t *stack_new(size_t capacity);
+
+void stack_push(stack_t *stack, void *obj);
+void *stack_pop(stack_t *stack);
+
+void stack_free(stack_t *stack);
+void stack_remove_nulls(stack_t *stack);
+```
+- vm.h
+```C
+#include "stack.h"
+
+typedef struct VirtualMachine {
+  stack_t *frames;
+  stack_t *objects;
+} vm_t;
+
+vm_t *vm_new();
+void vm_free(vm_t *vm);
+```
+- The `frames` field holds a stack of frames which are pushed and popped as we enter and exit from different scopes
+```C
+msg1 = "This is in scope 1"
+def outer_func():
+    msg2 = "This is in scope 2"
+    def inner_func():
+        msg3 = "This is in scope 3"
+        return
+    return
+```
+- At each scope (function calls in our case), a new stack frame is pushed onto the `frames` stack, and when we exit a scope (function return), we pop the stack frame off the `frames` stack
+- Since we use `void *` when working with generics in C, we wont know the data type held by `stack_t`, so we will need wrapper functions to help us make sure we don't push the wrong kinds of data into our stacks by mistake
+- While `frames` is a stack for frames, `objects` is a stack for object pointers
+- vm.c
+```C
+#include "vm.h"
+
+vm_t *vm_new() {
+  vm_t *vm = malloc(sizeof(vm_t));
+  if (vm == NULL) {
+    return NULL;
+  }
+
+  vm->frames = stack_new(8);
+  if (vm->frames == NULL) {
+    free(vm);
+    return NULL;
+  }
+
+  vm->objects = stack_new(8);
+  if (vm->objects == NULL) {
+    stack_free(vm->frames);
+    free(vm);
+    return NULL;
+  }
+
+  return vm;
+}
+
+void vm_free(vm_t *vm) {
+  if (vm == NULL) {
+    return;
+  }
+
+  stack_free(vm->frames);
+  stack_free(vm->objects);
+
+  free(vm);
+}
+```
+- stack.c
+```C
+#include "stack.h"
+#include "munit.h"
+#include <stdio.h>
+
+void stack_push(stack_t *stack, void *obj) {
+  if (stack->count == stack->capacity) {
+    // Double stack capacity to avoid reallocing often
+    stack->capacity *= 2;
+    stack->data = realloc(stack->data, stack->capacity * sizeof(void *));
+    if (stack->data == NULL) {
+      // Unable to realloc, just exit :) get gud
+      exit(1);
+    }
+  }
+
+  stack->data[stack->count] = obj;
+  stack->count++;
+
+  return;
+}
+
+void *stack_pop(stack_t *stack) {
+  if (stack->count == 0) {
+    return NULL;
+  }
+
+  stack->count--;
+  return stack->data[stack->count];
+}
+
+void stack_free(stack_t *stack) {
+  if (stack == NULL) {
+    return;
+  }
+
+  if (stack->data != NULL) {
+    free(stack->data);
+  }
+
+  free(stack);
+}
+
+void stack_remove_nulls(stack_t *stack) {
+  size_t new_count = 0;
+
+  // Iterate through the stack and compact non-NULL pointers.
+  for (size_t i = 0; i < stack->count; ++i) {
+    if (stack->data[i] != NULL) {
+      stack->data[new_count++] = stack->data[i];
+    }
+  }
+
+  // Update the count to reflect the new number of elements.
+  stack->count = new_count;
+
+  // Optionally, you might want to zero out the remaining slots.
+  for (size_t i = new_count; i < stack->capacity; ++i) {
+    stack->data[i] = NULL;
+  }
+}
+
+stack_t *stack_new(size_t capacity) {
+  stack_t *stack = malloc(sizeof(stack_t));
+  if (stack == NULL) {
+    return NULL;
+  }
+
+  stack->count = 0;
+  stack->capacity = capacity;
+  stack->data = malloc(stack->capacity * sizeof(void *));
+  if (stack->data == NULL) {
+    free(stack);
+    return NULL;
+  }
+
+  return stack;
+}
+```
+- We now need to add some type safe functions for interacting with our stacks
+```C
+// The C compiler won't stop us :'(
+stack_push(vm->frames, (void *)7);
+stack_push(vm->frames, (void *)"uh oh");
+```
+- We will also add wrapper functions to help us make sure we only push `frame_t *` types onto `vm->frames`
+```C
+#include "vm.h"
+
+void vm_frame_push(vm_t *vm, frame_t *frame) { stack_push(vm->frames, frame); }
+
+frame_t *vm_new_frame(vm_t *vm) {
+  frame_t *frame = malloc(sizeof(frame_t));
+  frame->references = stack_new(8);
+
+  vm_frame_push(vm, frame);
+  return frame;
+}
+
+void frame_free(frame_t *frame) {
+  stack_free(frame->references);
+  free(frame);
+}
+```
+#### Tracking Objects
+- Our VM needs to be able to track every new object that we create
+- Instead of tracking how many times an object is referenced, we will only check at GC time if each object is still referenced at all
+- In vm.c
+```C
+void vm_track_object(vm_t *vm, snek_object_t *obj) {
+  stack_push(vm->objects, obj);
+}
+```
+- In sneknew.c
+```C
+snek_object_t *_new_snek_object(vm_t *vm) {
+  snek_object_t *obj = calloc(1, sizeof(snek_object_t));
+  if (obj == NULL) {
+    return NULL;
+  }
+  vm_track_object(vm, obj);
+  return obj;
+}
+```
+#### Free
+- We will also rewrite out freeing logic for MaS
+- We no longer need `refcount_dec` since the VM is tracking the objects already
+- In snekobject.c
+```C
+#include "snekobject.h"
+
+void snek_object_free(snek_object_t *obj) {
+  switch (obj->kind) {
+  case INTEGER:
+  case FLOAT:
+    break;
+  case STRING:
+    free(obj->data.v_string);
+    break;
+  case VECTOR3: {
+    break;
+  }
+  case ARRAY: {
+    snek_array_t *array = &obj->data.v_array;
+    free(array->elements);
+    break;
+  }
+  }
+  free(obj);
+}
+```
+- in vm.c
+```C
+void vm_free(vm_t *vm) {
+  for (size_t i = 0; i < vm->frames->count; i++) {
+    frame_free(vm->frames->data[i]);
+  }
+  stack_free(vm->frames);
+  for (size_t i = 0; i < vm->objects->count; i++) {
+    snek_object_free(vm->objects->data[i]);
+  }
+  stack_free(vm->objects);
+  free(vm);
+}
+```
+#### Frame References
+- We also need for each stack frame to know about all the objects that it references
+- in vm.c
+```C
+void frame_reference_object(frame_t *frame, snek_object_t *obj) {
+  stack_push(frame->references, obj);
+}
+```
+#### Mark and Sweep
+- The mark and sweep algorithm works in two phases
+	- **Mark Phase:** Traverses the object graph, marking all reachable objects
+	- **Sweep Phase:** Scan memory, collecting all unmarked objects, which are considered garbage
+- We no longer care here about how many times an object is referenced, we instead just keep track of which objects are referenced in each stack frame, and then we traverse our container objects looking for any other referenced objects
+- In snekobject.h
+```C
+typedef struct SnekObject {
+  bool is_marked;
+
+  snek_object_kind_t kind;
+  snek_object_data_t data;
+} snek_object_t;
+```
+- In sneknew.c
+```C
+snek_object_t *_new_snek_object(vm_t *vm) {
+  snek_object_t *obj = calloc(1, sizeof(snek_object_t));
+  if (obj == NULL) {
+    return NULL;
+  }
+  obj->is_marked = false;
+  vm_track_object(vm, obj);
+  return obj;
+}
+```
+#### Mark
+- Different MaS implementations have different ways of marking the root objects, which are the objects referenced by the stack frame itself, but in our example, we will mark all the directly referenced objects
+- In vm.c
+```C
+void mark(vm_t *vm) {
+  for (size_t i = 0; i < vm->frames->count; i++) {
+    frame_t *frame = vm->frames->data[i];
+    for (size_t j = 0; j < frame->references->count; j++) {
+      snek_object_t *obj = frame->references->data[j];
+      obj->is_marked = true;
+    }
+  }
+}
+```
+#### Trace
+- With that, marking is done, and we can get into tracing
+- In tracing, we go through all of our objects to determine which ones are connected to the roots
+```python
+def get_list():
+  a = 5
+  return [a]
+
+print(get_list())
+```
+- If we run the above code, it will return a list with the integer `a` inside it
+- Our current `mark` function will mark that list, but not the `a` integer inside it
+- This means that when we go to sweep the memory, integer `a` will be freed, while it's being actively used, and the OS will fill the memory with something else
+- We also have another problem
+```python
+def get_list():
+    a = []
+    a.append(a)
+    return [5]
+
+print(get_list())
+```
+- The above list references itself, then returns a completely different list
+- Our trace function will consider this `a` list alive since it's referenced somewhere, even though that somewhere is itself, and `a` is not even reachable since `get_list` doesn't return it
+- Tracing (which is part of the Mark phase) solves these 3 problems
+- In vm.c
+```C
+void trace(vm_t *vm) {
+  stack_t *gray_objects = stack_new(8);
+  if (gray_objects == NULL) {
+    return;
+  }
+
+  for (size_t i = 0; i < vm->objects->count; i++) {
+    snek_object_t *obj = vm->objects->data[i];
+    if (obj->is_marked) {
+      stack_push(gray_objects, obj);
+    }
+  }
+
+  while (gray_objects->count > 0) {
+    void *top = stack_pop(gray_objects);
+    trace_blacken_object(gray_objects, top);
+  }
+
+  stack_free(gray_objects);
+}
+
+void trace_blacken_object(stack_t *gray_objects, snek_object_t *obj) {
+  switch (obj->kind) {
+  case INTEGER:
+  case FLOAT:
+  case STRING:
+    break;
+  case VECTOR3: {
+    snek_vector_t vec = obj->data.v_vector3;
+    trace_mark_object(gray_objects, vec.x);
+    trace_mark_object(gray_objects, vec.y);
+    trace_mark_object(gray_objects, vec.z);
+    break;
+  }
+  case ARRAY: {
+    for (size_t i = 0; i < obj->data.v_array.size; i++) {
+      trace_mark_object(gray_objects, obj->data.v_array.elements[i]);
+    }
+    break;
+  }
+  }
+}
+
+void trace_mark_object(stack_t *gray_objects, snek_object_t *obj) {
+  if (obj == NULL || obj->is_marked) {
+    return;
+  }
+
+  stack_push(gray_objects, obj);
+  obj->is_marked = true;
+}
+```
+#### Sweep
+- Now, with every object having an `is_marked` field, we can use it to determine if an object is reachable or not
+- All we need to do now is iterate over all the objects in the VM, and free any object that's not marked, and once it's freed, we can remove it from the VM completely
+- In vm.c
+```C
+void vm_collect_garbage(vm_t *vm) {
+  mark(vm);
+  trace(vm);
+  sweep(vm);
+}
+
+void sweep(vm_t *vm) {
+  for (int i = 0; i < vm->objects->count; i++) {
+    snek_object_t *obj = vm->objects->data[i];
+    if (obj->is_marked) {
+      obj->is_marked = false;
+    } else {
+      snek_object_free(obj);
+      vm->objects->data[i] = NULL;
+    }
+  }
+
+  stack_remove_nulls(vm->objects);
+}
 ```

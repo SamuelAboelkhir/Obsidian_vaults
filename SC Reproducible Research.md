@@ -236,3 +236,64 @@ predictedSpam nonspam spam
 - They also help you preserve the code and any written summaries that you have in a single document
 - The creation of this document as you go is how you make sure that your analysis is reproducible, as everything you did step by step from start to finish with the code you used to do it is now documented, and Rmarkdown using knitter even allows you to run the code and see the results within the document, so you don't have to document the result itself, just the code needed to produce it
 - This is the standard for big data analysis
+## Organizing a data analysis
+- The key files/folders in a data analysis
+	- Data
+		- Raw: can be added to git, but if it's too big then can skip
+		- Processed: should be named according to the script that generated it
+	- Figures
+		- Exploratory: no need for these to be pretty, they don't make it to the final report
+		- Final: prettified versions of the relevant exploratory figures, maybe new ones too. Need to be descriptive and clear
+	- R code
+		- Raw/unused scripts: like the figures, no need for these to be super clean, but cleanliness still helps
+		- Final: commented, clean, clear, well explained, meant to be read by others
+		- R Markdown: optional, great for generating reproducible reports, code snippits can be embedded in them, then knitted into PDF, HTML, etc. Part of the concept of "literate programming"
+	- Text
+		- README: not needed if an R Markdown, or some equivalent file exists
+		- Text of analysis/report: basically a scientific paper or summary. Not much explanation needed, this is literally a scientific paper, like a review paper or a research paper, and should be structured following those sorts of principles
+## Communicating results
+- People are busy, especially managers and decision makers
+- You should break down the results of an analysis by levels of granularity
+- You shouldn't bombard people with too much information, focus on a summary of the main findings, and attach a more detailed analysis with your results
+- The report should be broken up like a paper
+	- Title
+	- Abstract
+	- Body
+	- Supplementary materials / The gory details
+	- Code / Data
+- If you're sending an email, then in the body:
+	- The body should include a brief description of the problem
+	- Context as to what was discussed as a reminder
+	- A call to action if action is needed, with suggested options
+	- If questions need answering, try to make them yes or no questions
+- The email can also have attachments
+	- Code
+	- Figures
+	- Don't overdo it though
+- Links to supplementary materials
+	- More code, software, data
+	- A github repo or project website
+## Reproducible research checklist
++ Are we doing good science?
++ Was any part of this analysis done by hand?
+- If so, are those parts precisely document?
+- Does the documentation match reality?
++ Have we taught a computer to do as much as possible (i.e. coded)?
++ Are we using a version control system?
++ Have we documented our software environment?
++ Have we saved any output that we cannot reconstruct from original data + code?
++ How far back in the analysis pipeline can we go before our results are no longer (automatically) reproducible?
+## Replication and Reproducibility
+### Replication
++ Focuses on the validity of the scientific claim
++ "Is this claim true?”
+	+ The claim may be true if we can replicate it with different investigators, lab equipment, who are all collecting new data, that reaches the same conclusion
++ The ultimate standard for strengthening scientific evidence
++ New investigators, data, analytical methods, laboratories, instruments, etc.
++ Particularly important in studies that can impact broad policy or regulatory decisions
+### Reproducibility
++ Focuses on the validity of the data analysis
++ "Can we trust this analysis?"
++ Arguably a minimum standard for any scientific study
++ New investigators, same data, same methods
++ Important when replication is impossible

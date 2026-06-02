@@ -10,13 +10,13 @@ MOC: Programming
 [[PG Character Encoding]]
 [[PG Regular expression syntax cheat sheet]]
 - Other Regex cheat sheet [[PG RegEX Cheat Sheet & Quick Reference]]
-[[PG Markdown Cheat Sheet]]
 [[PG LSP]]
 ## SQL
 [[PG SQL]]
 [[PG AI Discussion]]
 ### From the internet
 [[PG PostgreSQL Basics Cheat Sheet]]
+[[PG Markdown Cheat Sheet]]
 ## Project management
 [[PG Jira]]
 ## CICD
