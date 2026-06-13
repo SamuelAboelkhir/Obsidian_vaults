@@ -46,6 +46,7 @@ MOC: Technology
 - `ldd`: list dynamic dependencies. It lists the dependencies of a binary file, and whether or not the binary file can locate them
 ---
 ### File operations
+#### Back to top: [[#Links]]
 - `cat`: prints file content to stdout
 	- `batcat`: better cat that adds scrolling among other features
 - `ls`: shows the contents of a folder
@@ -109,6 +110,14 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - 
 - `ln`: Creates links between files
 	- `ln -s /home/file1 /home/Documents/link-to-file1`
+	- `ln` is the link command and `-s` stands for symbolic
+	- The target can be either an absolute path or a relative one, where with the absolute path, the link is maintained as long as the target's location doesn't change, but with a relative path, the relative positions of the target and link paths is what needs to be preserved, otherwise they can both be moved together
+	- As an example, if I'm in the following directory 
+	- `~/Work and Education/bootdev/Linux/worldbanc/public`
+	- I can create the following symlink
+	- `❯ ln -s ../investments/tbills.txt products/credit_cards/tbills.txt`
+	- Where the target is written relative to the link (as if the CWD was the credit_cards directory)
+	- A link can then be seen with `ls -l`
 - `pandoc`: General markup converter with multiple different format options
 - `glow`: TUI markup renderer
 - `evtest`: A tools that captures a device's inputs
@@ -127,6 +136,18 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - `free -h` : shows memory statistics in a human readable format.
 - `swapon --show` : shows the available swapfiles and their usages.
 -  `more /proc/sys/vm/swappiness` : shows the swappiness statistic of the system.
+- `chmod`: Allows you to change the a file's permissions
+	- This command controls three permissions for the categories in order
+	- `rwx` are the three permissions read, write, execute
+	- `ugo` are the three categories user, group, others
+	- `chmod -R u=rwx,g=,o= <DIRECTORY>`
+		- In the command above, `u` means "user" (aka "owner"), `g` means "group," and `o` means "others." The "=" means "set the permissions to the following," and the `rwx` means "read, write and execute." The `g=` and `o=` mean "set group and other permissions to nothing." The `-R` means "recursively," which means "do this to all of the contents of the directory as well."
+	- There are multiple valid syntaxes for this command, such as `u+x` or `+x` for adding execute to user, or `-x` for removing execute from user
+	- More info can be found at [[#Privileges/permissions]]
+- `chown`: Changes the owner of a file or directory
+	- `sudo chown -R <user> <DIRECTORY>`
+
+Be sure to replace `DIRECTORY` with the path to the `private` directory.
 ```zsh
 sudo dd if=dev/zero of=/swapfile2 bs=1M count=2048 status=progress
 sudo chmod 600 /swapfile2
@@ -263,6 +284,8 @@ sudo ip route add default via 192.168.57.1
 - [[TECH SSH |ssh]]
 - `tcpdump`: This command captures network packets in real-time, providing insight into traffic flowing through the network.
 - `nc (Netcat)`: This command reads and writes data across network connections using TCP or UDP. It is often called the “Swiss army knife” of networking
+	- To send data from a file to a specific IP and port
+	- `nc <IP> <PORT> < </path/file>`
 - `ss`: A modern replacement for netstat, this command analyzes socket-level statistics, such as open and listening ports
 	- Syntax: ss -tuln (to show listening TCP/UDP ports)
 - `warp-cli`: A cloudflare cli tool for using `warp`
@@ -351,7 +374,7 @@ Old:
 - `netdiscover -r 192.168.57.0/24` sweeps an entire subnet showing data in a table
 ### nmap
 - nmap runs in stealth mode by default, in which case instead of a normal TCP three-way handshake: SYN SYNACK ACK, it does SYN SYNACK RST, however, this can be picked up by decent security measures
-- `nmap -T4 -p- -A` 
+- `nmap -T4 -p- -A <target-IP-address>`
 	- `-T` determines the speed of the process which is between 1 and 5 (5 is the fastest)
 	- `-p-` says to scan all ports. Without it the top 1000 ports are scanned by default. `-p` alone can be succeeded with specific port numbers
 	- `-A` is an aggressive scan, which means that it will find all possible information such as fingerprinting, OS details, etc.

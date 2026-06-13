@@ -7601,7 +7601,7 @@ var require_lib = __commonJS({
         };
       })
     });
-    var getAPI3 = (app) => {
+    var getAPI2 = (app) => {
       var _a2;
       if (app)
         return (_a2 = app.plugins.plugins.dataview) === null || _a2 === void 0 ? void 0 : _a2.api;
@@ -7614,7 +7614,7 @@ var require_lib = __commonJS({
     exports.EXPRESSION = EXPRESSION;
     exports.KEYWORDS = KEYWORDS;
     exports.QUERY_LANGUAGE = QUERY_LANGUAGE;
-    exports.getAPI = getAPI3;
+    exports.getAPI = getAPI2;
     exports.isPluginEnabled = isPluginEnabled;
     exports.parseField = parseField;
   }
@@ -26559,11 +26559,11 @@ __export(main_exports, {
   default: () => GraphLinkTypesPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian = require("obsidian");
-var import_obsidian_dataview2 = __toESM(require_lib());
+var import_obsidian2 = require("obsidian");
+var import_obsidian_dataview = __toESM(require_lib());
 
 // src/linkManager.ts
-var import_obsidian_dataview = __toESM(require_lib());
+var import_obsidian = require("obsidian");
 
 // node_modules/@pixi/constants/lib/index.mjs
 var ENV = /* @__PURE__ */ ((ENV2) => (ENV2[ENV2.WEBGL_LEGACY = 0] = "WEBGL_LEGACY", ENV2[ENV2.WEBGL = 1] = "WEBGL", ENV2[ENV2.WEBGL2 = 2] = "WEBGL2", ENV2))(ENV || {});
@@ -49272,7 +49272,7 @@ var import_markdown_link_extractor = __toESM(require_markdown_link_extractor());
 var LinkManager = class {
   // Space between the text and the start of the line
   constructor() {
-    this.api = (0, import_obsidian_dataview.getAPI)();
+    this.api = null;
     this.categoricalColors = [
       16007990,
       // Red
@@ -49335,20 +49335,20 @@ var LinkManager = class {
     let lastTheme = "";
     let lastStyleSheetHref = "";
     let debounceTimer;
+    const updateThemeColors = () => {
+      var _a2, _b;
+      this.currentTheme = document.body.classList.contains("theme-dark") ? "theme-dark" : "theme-light";
+      const currentStyleSheetHref = (_b = (_a2 = document.querySelector('link[rel="stylesheet"][href*="theme"]')) == null ? void 0 : _a2.getAttribute("href")) != null ? _b : "";
+      if (this.currentTheme && this.currentTheme !== lastTheme || currentStyleSheetHref !== lastStyleSheetHref) {
+        this.textColor = this.getComputedColorFromClass(this.currentTheme, "--text-normal");
+        lastTheme = this.currentTheme;
+        lastStyleSheetHref = currentStyleSheetHref;
+      }
+    };
+    updateThemeColors();
     const themeObserver = new MutationObserver(() => {
       clearTimeout(debounceTimer);
-      debounceTimer = window.setTimeout(() => {
-        var _a2;
-        this.currentTheme = document.body.classList.contains("theme-dark") ? "theme-dark" : "theme-light";
-        const currentStyleSheetHref = (_a2 = document.querySelector('link[rel="stylesheet"][href*="theme"]')) == null ? void 0 : _a2.getAttribute("href");
-        if (this.currentTheme && this.currentTheme !== lastTheme || currentStyleSheetHref !== lastStyleSheetHref) {
-          this.textColor = this.getComputedColorFromClass(this.currentTheme, "--text-normal");
-          lastTheme = this.currentTheme;
-          if (currentStyleSheetHref) {
-            lastStyleSheetHref = currentStyleSheetHref;
-          }
-        }
-      }, 100);
+      debounceTimer = window.setTimeout(updateThemeColors, 100);
     });
     themeObserver.observe(document.body, { attributes: true, attributeFilter: ["class"] });
     themeObserver.observe(document.head, { childList: true, subtree: true, attributes: true, attributeFilter: ["href"] });
@@ -49376,7 +49376,6 @@ var LinkManager = class {
       pixiText: this.initializeLinkText(renderer, obLink, pairStatus),
       pixiGraphics: tagColors ? this.initializeLinkGraphics(renderer, obLink, tagLegend) : null
     };
-    console.log(obLink);
     this.linksMap.set(key, newLink);
     if (obLink.source.id !== obLink.target.id && this.linksMap.has(reverseKey)) {
       const reverseLink = this.linksMap.get(reverseKey);
@@ -49429,7 +49428,12 @@ var LinkManager = class {
     }
   }
   removeLinks(renderer, currentLinks) {
-    const currentKeys = new Set(currentLinks.map((link) => this.generateKey(link.source.id, link.target.id)));
+    const currentKeys = new Set(
+      currentLinks.filter((link) => {
+        var _a2, _b;
+        return Boolean(((_a2 = link == null ? void 0 : link.source) == null ? void 0 : _a2.id) && ((_b = link == null ? void 0 : link.target) == null ? void 0 : _b.id));
+      }).map((link) => this.generateKey(link.source.id, link.target.id))
+    );
     this.linksMap.forEach((_, key) => {
       if (!currentKeys.has(key)) {
         const link = this.linksMap.get(key);
@@ -49571,7 +49575,7 @@ var LinkManager = class {
           color,
           legendText: textL,
           legendGraphics: graphicsL,
-          nUsing: 0
+          nUsing: 1
         };
         this.tagColors.set(linkString, newLegendGraphic);
       } else {
@@ -49591,25 +49595,6 @@ var LinkManager = class {
     this.updateLinkGraphics(renderer, link);
     return graphics;
   }
-  // Utility function to extract the file path from a Markdown link
-  extractPathFromMarkdownLink(markdownLink) {
-    const links = (0, import_markdown_link_extractor.default)(markdownLink).links;
-    return links.length > 0 ? links[0] : "";
-  }
-  // Method to determine the type of a value, now a class method
-  determineDataviewLinkType(value) {
-    if (typeof value === "object" && value !== null && "path" in value) {
-      return 0 /* WikiLink */;
-    } else if (typeof value === "string" && value.includes("](")) {
-      return 1 /* MarkdownLink */;
-    } else if (typeof value === "string") {
-      return 2 /* String */;
-    } else if (Array.isArray(value)) {
-      return 3 /* Array */;
-    } else {
-      return 4 /* Other */;
-    }
-  }
   // Remove all text nodes from the graph
   destroyMap(renderer) {
     if (this.linksMap.size > 0) {
@@ -49627,33 +49612,72 @@ var LinkManager = class {
       if (value === null || value === void 0 || value === "") {
         continue;
       }
-      const valueType = this.determineDataviewLinkType(value);
-      switch (valueType) {
-        case 0 /* WikiLink */:
-          if (value.path === targetId) {
-            return key;
-          }
-          break;
-        case 1 /* MarkdownLink */:
-          if (this.extractPathFromMarkdownLink(value) === targetId) {
-            return key;
-          }
-          break;
-        case 3 /* Array */:
-          for (const item of value) {
-            if (this.determineDataviewLinkType(item) === 0 /* WikiLink */ && item.path === targetId) {
-              return key;
-            }
-            if (this.determineDataviewLinkType(item) === 1 /* MarkdownLink */ && this.extractPathFromMarkdownLink(item) === targetId) {
-              return key;
-            }
-          }
-          break;
-        default:
-          return null;
+      if (this.valueContainsTarget(value, sourceId, targetId)) {
+        return key;
       }
     }
     return null;
+  }
+  valueContainsTarget(value, sourceId, targetId) {
+    if (this.isArrayLike(value)) {
+      return Array.from(value).some((item) => this.valueContainsTarget(item, sourceId, targetId));
+    }
+    if (this.isDataviewLink(value)) {
+      const candidates = /* @__PURE__ */ new Set();
+      candidates.add(value.path);
+      if (typeof value.obsidianLink === "function") {
+        candidates.add(value.obsidianLink());
+      }
+      if (typeof value.fileName === "function") {
+        candidates.add(value.fileName());
+      }
+      return Array.from(candidates).some((candidate) => this.linkPathMatchesTarget(candidate, sourceId, targetId));
+    }
+    if (typeof value === "string") {
+      return this.extractLinkPathsFromString(value).some((candidate) => this.linkPathMatchesTarget(candidate, sourceId, targetId));
+    }
+    return false;
+  }
+  isArrayLike(value) {
+    var _a2, _b;
+    return Array.isArray(value) || Boolean((_b = (_a2 = this.api) == null ? void 0 : _a2.isArray) == null ? void 0 : _b.call(_a2, value));
+  }
+  isDataviewLink(value) {
+    return typeof value === "object" && value !== null && typeof value.path === "string";
+  }
+  extractLinkPathsFromString(value) {
+    const paths = /* @__PURE__ */ new Set();
+    try {
+      for (const path2 of (0, import_markdown_link_extractor.default)(value).links) {
+        paths.add(path2);
+      }
+    } catch (e2) {
+    }
+    const wikiLinkPattern = /!?\[\[([^\]]+)\]\]/g;
+    let wikiLinkMatch;
+    while ((wikiLinkMatch = wikiLinkPattern.exec(value)) !== null) {
+      paths.add(wikiLinkMatch[1]);
+    }
+    return Array.from(paths);
+  }
+  linkPathMatchesTarget(rawLinkPath, sourceId, targetId) {
+    var _a2, _b, _c;
+    const candidate = this.normalizeLinkPath(rawLinkPath);
+    const normalizedTarget = (0, import_obsidian.normalizePath)(targetId);
+    if (candidate === normalizedTarget || `${candidate}.md` === normalizedTarget) {
+      return true;
+    }
+    const resolvedFile = (_c = (_b = (_a2 = this.api) == null ? void 0 : _a2.app) == null ? void 0 : _b.metadataCache) == null ? void 0 : _c.getFirstLinkpathDest(candidate, sourceId);
+    return (resolvedFile == null ? void 0 : resolvedFile.path) === normalizedTarget;
+  }
+  normalizeLinkPath(rawLinkPath) {
+    const withoutAlias = rawLinkPath.split("|", 1)[0];
+    let decoded = withoutAlias;
+    try {
+      decoded = decodeURIComponent(withoutAlias);
+    } catch (e2) {
+    }
+    return (0, import_obsidian.normalizePath)((0, import_obsidian.getLinkpath)(decoded.trim()));
   }
   // Function to calculate the coordinates for placing the link text.
   getLinkToTextCoordinates(linkX, linkY, panX, panY, scale) {
@@ -49686,7 +49710,7 @@ var DEFAULT_SETTINGS = {
   tagNames: true,
   tagLegend: true
 };
-var GraphLinkTypesSettingTab = class extends import_obsidian.PluginSettingTab {
+var GraphLinkTypesSettingTab = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -49694,27 +49718,27 @@ var GraphLinkTypesSettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("Type Names").setDesc("Toggle to enable or disable link type names in the graph view.").addToggle((toggle) => toggle.setValue(this.plugin.settings.tagNames).onChange(async (value) => {
+    new import_obsidian2.Setting(containerEl).setName("Type Names").setDesc("Toggle to enable or disable link type names in the graph view.").addToggle((toggle) => toggle.setValue(this.plugin.settings.tagNames).onChange(async (value) => {
       this.plugin.settings.tagNames = value;
       await this.plugin.saveSettings();
       this.plugin.startUpdateLoop();
     }));
-    new import_obsidian.Setting(containerEl).setName("Type Colors").setDesc("Toggle to enable or disable link type colors in the graph view.").addToggle((toggle) => toggle.setValue(this.plugin.settings.tagColors).onChange(async (value) => {
+    new import_obsidian2.Setting(containerEl).setName("Type Colors").setDesc("Toggle to enable or disable link type colors in the graph view.").addToggle((toggle) => toggle.setValue(this.plugin.settings.tagColors).onChange(async (value) => {
       this.plugin.settings.tagColors = value;
       await this.plugin.saveSettings();
       this.plugin.startUpdateLoop();
     }));
-    new import_obsidian.Setting(containerEl).setName("Show Legend").setDesc("Toggle to show or hide the legend for link type colors in the graph view.").addToggle((toggle) => toggle.setValue(this.plugin.settings.tagLegend).onChange(async (value) => {
+    new import_obsidian2.Setting(containerEl).setName("Show Legend").setDesc("Toggle to show or hide the legend for link type colors in the graph view.").addToggle((toggle) => toggle.setValue(this.plugin.settings.tagLegend).onChange(async (value) => {
       this.plugin.settings.tagLegend = value;
       await this.plugin.saveSettings();
       this.plugin.startUpdateLoop();
     }));
   }
 };
-var GraphLinkTypesPlugin = class extends import_obsidian.Plugin {
+var GraphLinkTypesPlugin = class extends import_obsidian2.Plugin {
   constructor() {
     super(...arguments);
-    this.api = (0, import_obsidian_dataview2.getAPI)();
+    this.api = null;
     this.currentRenderer = null;
     this.animationFrameId = null;
     this.linkManager = new LinkManager();
@@ -49722,13 +49746,27 @@ var GraphLinkTypesPlugin = class extends import_obsidian.Plugin {
   }
   // Lifecycle method called when the plugin is loaded
   async onload() {
+    var _a2;
     await this.loadSettings();
     this.addSettingTab(new GraphLinkTypesSettingTab(this.app, this));
+    this.api = (0, import_obsidian_dataview.getAPI)();
     if (!this.api) {
-      console.error("Dataview plugin is not available.");
-      new import_obsidian.Notice("Data plugin is not available.");
+      this.registerEvent(this.app.metadataCache.on("dataview:api-ready", () => {
+        var _a3, _b;
+        this.api = (0, import_obsidian_dataview.getAPI)();
+        this.linkManager.api = this.api;
+        this.indexReady = Boolean((_b = (_a3 = this.api) == null ? void 0 : _a3.index) == null ? void 0 : _b.initialized);
+        this.initEventHandlers();
+        void this.handleLayoutChange();
+      }));
       return;
     }
+    this.linkManager.api = this.api;
+    this.indexReady = Boolean((_a2 = this.api.index) == null ? void 0 : _a2.initialized);
+    this.initEventHandlers();
+    await this.handleLayoutChange();
+  }
+  initEventHandlers() {
     this.registerEvent(this.app.workspace.on("layout-change", () => {
       this.handleLayoutChange();
     }));
@@ -49739,6 +49777,12 @@ var GraphLinkTypesPlugin = class extends import_obsidian.Plugin {
       if (this.indexReady) {
         this.handleLayoutChange();
       }
+    }));
+    this.registerEvent(this.app.metadataCache.on("resolved", () => {
+      this.handleLayoutChange();
+    }));
+    this.registerEvent(this.app.vault.on("rename", () => {
+      this.handleLayoutChange();
     }));
   }
   async loadSettings() {
@@ -49786,9 +49830,12 @@ var GraphLinkTypesPlugin = class extends import_obsidian.Plugin {
   waitForRenderer() {
     return new Promise((resolve2) => {
       const checkInterval = 500;
+      const maxWait = 1e4;
+      let elapsed = 0;
       const intervalId = setInterval(() => {
         const renderer = this.findRenderer();
-        if (renderer) {
+        elapsed += checkInterval;
+        if (renderer || elapsed >= maxWait) {
           clearInterval(intervalId);
           resolve2();
         }
@@ -49799,7 +49846,7 @@ var GraphLinkTypesPlugin = class extends import_obsidian.Plugin {
   startUpdateLoop(verbosity = 0) {
     if (!this.currentRenderer) {
       if (verbosity > 0) {
-        new import_obsidian.Notice("No valid graph renderer found.");
+        new import_obsidian2.Notice("No valid graph renderer found.");
       }
       return;
     }
@@ -49819,6 +49866,8 @@ var GraphLinkTypesPlugin = class extends import_obsidian.Plugin {
       this.linkManager.removeLinks(renderer, renderer.links);
     }
     renderer.links.forEach((link) => {
+      if (!link || !link.source || !link.target)
+        return;
       if (updateMap) {
         const key = this.linkManager.generateKey(link.source.id, link.target.id);
         if (!this.linkManager.linksMap.has(key)) {

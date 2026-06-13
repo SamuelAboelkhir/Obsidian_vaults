@@ -25,12 +25,11 @@ MOC: Programming
 [[PG Website deployment]]
 ## Design
 [[PG API first design]]
-# Git
+## Git
 [[PG Git]]
+## Docker
+[[PG Docker]]
 ### From the internet
 [[PG Basics to Advanced Git Commands]]
-# Docker
-[[PG Docker]]
-
-# HTTP
+## HTTP
 [[PG HTTP]]
