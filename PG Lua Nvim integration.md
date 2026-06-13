@@ -1,3 +1,11 @@
+---
+tags:
+- Lua
+- Programming-Language
+MOC: Programming
+---
+
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Lua index|Back to index]]
 # Understanding how Lua works with NVIM
 ## Runtime path
 - nvim knows to look for lua plugins in any folder called `lua/` that's in a folder which is in its runtime path, which can be checked inside nvim with `echo nvim_list_runtime_paths()`

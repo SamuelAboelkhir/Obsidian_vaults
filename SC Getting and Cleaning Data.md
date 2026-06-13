@@ -124,6 +124,14 @@ A-->B-->C-->D
 - Not every step in the processing can be included in the script though, in which case instructions are in order
 - These instructions are also steps of the process, but written down for the end user to follow instead of running automatically with the script, such as asking the user to use some third part software on the raw data to get it to the desired form the cript will then run on
 - It could also involve asking the user to run the script on pieces of the raw data, instead of passing the whole thing all at once, or just asking the user to do some final tweaks to the output by hand
+#### Data formats
+- Data normally comes in one of 2 formats, wide, or long
+- The wide formats has data taking a rectangular shape, where each column is a variable and each row is an observation
+- That's bascially how a SQL database tends to look, for example
+![[Pasted image 20260614010541.png]]
+- In the long format, data type is stored in 1 column, and the values in another, so that each row has a single observation for a single variable
+![[Pasted image 20260614010638.png]]
+- It's important to understand that data storage in easier in the wide format, which is more readable, but working with data is easier in the long format, so easy conversion between the two formats is important
 ## Tidying and manipulating data
 ### Dplyr
 ![[data-transformation.pdf]]
@@ -435,6 +443,7 @@ cran %>%
 - This is more of an honorable mention, as `readr` is a separate package, but we used the `parse_number` function from the package
 - `parse_number` basically takes a string that has a number in it, and returns just the number
 - We use this function inside `mutate` to change all the values of class, to just numbers
+- `readr`also has a bunch of upgraded reading and writing functions, in relation to the built-in utils, such as `read_csv` and `write_csv`
 #### Bind_rows
 - We covered a couple more examples, but the one I'm noting here is where we used `bind_rows`, which is a function that can join two identical tables into a bigger one
 ```R
@@ -671,12 +680,60 @@ google = handle("http://google.com")
 pg1 = GET(handle=google, path"/")
 pg2 = GET(handle=google, path"search")
 ```
+#### rvest
+- A dedicated webscrapping tool in R
+- It's good even better when coupled with the `selectorGadget` browser extension, which shows you the html node you need to search for with `rvest` to scrape the element that you want
+```R
+> library(rvest)
+> packages = read_html("https://datatrail-jhu.github.io/stable_website/webscrape.html")
+> packages |> html_nodes("strong") |> html_text()
+[1] "rvest"        "httr"         "dbplyr"       "jsonlite"     "googlesheets"
+```
 ### Using APIs
 - This is a bit more complicated, as you're basically constructing a `curl` request
 ```R
 myapp = oauth_app("twitter", key="yourConsumerKeyHere", secret="yourConsumerSecretHere")
 sig = sign_oauth1.0(myapp, token="yourTokenHere", token_secret="yourTokenSecretHere")
 homeTL = GET("http://api.twitter.com/1.1/statuses/home_timeline.json", sig)
+```
+#### httr
+- The `httr` package can make this easier though
+- We can fetch data from github for example in the following manner
+```R
+repos = GET(url = 'https://api.github.com/users/SamuelAboelkhir/repos')
+```
+- `repos` here will only contain data about the request itself though, so to extract the actual data, we can follow up with
+```R
+repoContent = content(repos)
+```
+- `repoContent` is a list with many items, so to make it easier to use
+```R
+lapply(repoContent, function(x) {tibble(x)})
+```
+- Now each element will be transformed into a tibble for easy access
+- We can also download CSVs
+- Still using github as an example, we can download a raw file from github
+```R
+## Make API request
+api_response <- GET(url = "https://raw.githubusercontent.com/fivethirtyeight/data/master/steak-survey/steak-risk-survey.csv")
+
+## Extract content from API response
+df_steak <- content(api_response, type="text/csv")
+```
+- But we're not limited to making the request, then reading the content, as we can do it all in one shot
+```R
+#use readr to read in CSV from a URL
+df <- read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/steak-survey/steak-risk-survey.csv")
+```
+- When you require authentication, unlike the approach I documented above, a better approach would be to use an API key, which makes programmatic authentication much easier, since ideally we want the code to be automated
+```R
+myapp = oauth_app("twitter",
+					key = "yourConsumerKeyHere",
+					secret = "yourConsumerSecretHere")
+sig = sign_oauth1.0(myapp,
+					token = "yourTokenHere",
+					token_secret = "yourTokenSecretHere")
+homeTL = GET("https://api.twitter.com/1.1/statuses/home_timeline.json", sig)
 ```
 ## Summarizing
 - We can summarize a dataset with many functions such as `head`, `tail`, `str` and `summary`
@@ -717,3 +774,30 @@ extractionmethod      Anise Basil Jatropha  Mint
   Water               154.5   0.0    119.0   0.0
 ```
 - Also, `ftable` can summarize a table
+## Images
+- `magick` is a good choice for reading images into R, as it allows us to analyze the image, extract text from it, and even add it to plots
+```R
+# install package
+#install.packages("magick")
+# load package
+library(magick)
+## Linking to ImageMagick 6.9.9.39
+## Enabled features: cairo, fontconfig, freetype, lcms, pango, rsvg, webp
+## Disabled features: fftw, ghostscript, x11
+img1 <- image_read("https://ggplot2.tidyverse.org/logo.png")
+img2 <- image_read("https://pbs.twimg.com/media/D5bccHZWkAQuPqS.png")
+#show the image
+print(img1)
+## # A tibble: 1 x 7
+## format width height colorspace matte filesize density
+## <chr> <int> <int> <chr> <lgl> <int> <chr>
+## 1 PNG 240 278 sRGB TRUE 38516 85x85
+```
+- Reading text uses OCR (optical character recognition), and relies on the `tesseract` package
+```R
+#concatenate and print text
+cat(image_ocr(img1))
+## ggplot2
+cat(image_ocr(img2))
+## parsnip
+```

@@ -184,3 +184,11 @@ docker push bootdotdev/awesomeimage --all-tags
 11. The server that runs the containers, perhaps a [Kubernetes](https://kubernetes.io/) cluster, is told there is a new version
 12. The k8s cluster pulls down the latest image
 13. The k8s cluster shuts down old containers as it spins up new containers of the latest image
+
+# Docker compose
+- Not getting into documenting this yet, but, if you want to expose a container's network to your host network, you can add the following parameter under the `services` field
+```yml
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+```
+- You may need to make sure whatever port on localhost that you want to reach from the container is listening on all ports, as if it's just listening on `127.0.0.1` then it will only be reachable from localhost
