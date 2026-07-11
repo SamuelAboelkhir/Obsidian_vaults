@@ -24,7 +24,9 @@ MOC: IT
 [[EH Exploitation]]
 [[EH Buffer Overflow Steps]]
 [[EH Spiking]]
-# OWASP
+## Vulnerability categories
+[[EH SSRF]]
+## OWASP
 [[EH OWASP]]
 ## Assessments
 [[EH AS Assessments index]]

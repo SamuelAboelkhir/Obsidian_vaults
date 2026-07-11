@@ -19,5 +19,7 @@ MOC: Technology
 [[TECH Awk Command Cheat Sheet & Quick Reference]]
 [[TECH Sed Command Cheat Sheet & Quick Reference]]
 [[TECH SSH]]
-# Creating a service
-[[TECH Services]]
+# Services
+[[TECH Creating a Service]]
+[[TECH Wifi hotspot service]]
+[[TECH VM firewall rules service]]

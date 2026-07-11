@@ -206,16 +206,16 @@ Format specifiers are used to describe the format of input and output in formatt
 
 The following is the ****list of some commonly used format specifiers in C:****
 
-|****Format Specifier****|****Description****|
-|---|---|
-|****%c****|For b type.|
-|****%d****|For signed integer type.|
-|****%f****|For float type.|
-|****%lf****|Double|
-|****%p****|Pointer|
-|****%s****|String|
-|****%u****|Unsigned int|
-|****%%****|Prints % character|
+| ****Format Specifier**** | ****Description****      |
+| ------------------------ | ------------------------ |
+| ****%c****               | For b type.              |
+| ****%d****               | For signed integer type. |
+| ****%f****               | For float type.          |
+| ****%lf****              | Double                   |
+| ****%p****               | Pointer                  |
+| ****%s****               | String                   |
+| ****%u****               | Unsigned int             |
+| ****%%****               | Prints % character       |
 
 ## Escape Sequence
 

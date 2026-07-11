@@ -107,7 +107,6 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - [[TECH Awk Command Cheat Sheet & Quick Reference|awk]]
 - [[TECH Sed Command Cheat Sheet & Quick Reference|sed]]
 - `eval`: eval is a built-in Linux command that executes arguments as a shell command. It combines arguments into a single string, uses it as input to the shell, and executes the commands
-- 
 - `ln`: Creates links between files
 	- `ln -s /home/file1 /home/Documents/link-to-file1`
 	- `ln` is the link command and `-s` stands for symbolic
@@ -125,7 +124,10 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - `gedit`: Opens the default GUI text editor
 - `gio`: Opens a file using its default GUI app
 - `xdg-open`: Opens a file or URL in the user's preferred application
-- #### Back to top: [[#Links]]
+- `file`: A simple command that determines a file's type
+- `mktemp`: Creates temporary files under `/tmp` directly with randomized names
+	- Use `-d` to create a directory instead
+- `base64`: base64 encode/decode data and print to standard output
 ---
 ### System management and monitoring
 
@@ -279,9 +281,10 @@ sudo ip route add default via 192.168.57.1
 - `ps aux | grep -E "(dhcp|network|wpa|nm-)"`: finds network related processes
 - To find processes using specific ports
 	- `sudo netstat -tulpn | grep :80`
-
 - `sudo dhcpcd eth0` lets dhcpd run on your interface and give it an IP address
 - [[TECH SSH |ssh]]
+	- More info on SSH available at [https://help.ubuntu.com/community/SSH/OpenSSH/Keys](https://help.ubuntu.com/community/SSH/OpenSSH/Keysa)
+- `scp`: Just check this link for more info [https://help.ubuntu.com/community/SSH/TransferFiles](https://help.ubuntu.com/community/SSH/TransferFiles)
 - `tcpdump`: This command captures network packets in real-time, providing insight into traffic flowing through the network.
 - `nc (Netcat)`: This command reads and writes data across network connections using TCP or UDP. It is often called the “Swiss army knife” of networking
 	- To send data from a file to a specific IP and port
@@ -292,6 +295,12 @@ sudo ip route add default via 192.168.57.1
 	- initialize with `warp-cli registration new`
 	- connect with `warp-cli connect`
 	- disconnect with `warp-cli disconnect`
+- `openssl`: 
+	- `openssl s_client -crlf -connect <ip:port> -servername <ip>`
+	- openssl versions older that 1.1.1 required that we send the IP or name of the server twice, once for the actual handshake, and once to specify what we're connecting to, but nowadays, that part is handled automatically, and we only need to pass the `-servername` flag if we're connecting to an IP address and not a FQDN, or, the TLS host needs to be different
+	- Use the `-ign_eof` flag to prevent `CONNECTED COMMANDS` from running.
+		- More info in `man openssl-s-client`
+	- More information available at [https://www.feistyduck.com/library/openssl-cookbook/online/testing-with-openssl/connecting-to-tls-services.html](https://www.feistyduck.com/library/openssl-cookbook/online/testing-with-openssl/connecting-to-tls-services.html)
 ---
 ### System protection
 
@@ -355,6 +364,7 @@ sudo ip route add default via 192.168.57.1
 -  You can also use `sudo useradd [name]` followed by `sudo passwd [name]`
 - You switch to that user with `su [name]`
 - You can add a group with `sudo groupadd [group]` then add a user with `sudo usermod -a -G [group] [user]`
+	- You can use `su <user>` for the group addition to take effect
 ### Networking
 The following commands will have 2 versions. The old version of the command, and the recent version.
 
