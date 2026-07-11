@@ -6,7 +6,7 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 80.85969180859692,
+        "dimension": 78.22458270106222,
         "children": [
           {
             "id": "23b3d987666c9bde",
@@ -68,77 +68,49 @@
             }
           },
           {
-            "id": "5e35c3905b48b807",
+            "id": "8e80d468d88d403f",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 4,
               "stack": [
+                {
+                  "title": "WR Projects index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR VA Temp Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA Temp Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA Temp Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR VA onboarding meeting",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA onboarding meeting.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA onboarding meeting\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2026-06-19 19.17.27.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-06-19 19.17.27.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-06-19 19.17.27.excalidraw\"}",
+                  "eState": "{}"
+                },
                 {
                   "title": "Drawing 2026-03-24 19.17.21.excalidraw",
                   "icon": "excalidraw-icon",
                   "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-24 19.17.21.excalidraw\"}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WR VA TODO.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WR VA TODO"
-            }
-          },
-          {
-            "id": "abb51e2bc8f7c8e7",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "TECH Linux index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0001 Technology MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TECH CLI Tools and Commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TECH CLI Tools and Commands"
-            }
-          },
-          {
-            "id": "8e80d468d88d403f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
                   "eState": "{}"
                 }
               ]
@@ -153,454 +125,94 @@
             }
           },
           {
-            "id": "190c961f91002115",
+            "id": "bb2418cfcb649525",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Pasted image 20260711231421",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Pasted image 20260711231421.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20260711231421\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "IT index",
+                  "title": "EH Ethical Hacking index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":22},\"to\":{\"line\":8,\"ch\":22}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":27},\"to\":{\"line\":26,\"ch\":27}},\"scroll\":1.8333333333333335}"
                 },
                 {
-                  "title": "TECH Linux index",
+                  "title": "EH SSRF",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":1.8233913395386483}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH SSRF.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH SSRF\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":120},\"to\":{\"line\":9,\"ch\":120}},\"scroll\":0}"
+                },
+                {
+                  "title": "EH Ethical Hacking index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":14},\"to\":{\"line\":25,\"ch\":14}},\"scroll\":5}"
+                },
+                {
+                  "title": "_0005 IT MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":12},\"to\":{\"line\":6,\"ch\":12}}}"
+                },
+                {
+                  "title": "CYB Cybersecurity index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0005 IT MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "_0001 Technology MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "TECH Linux index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":18},\"to\":{\"line\":7,\"ch\":18}}}"
-                },
-                {
-                  "title": "TECH NVIM commands",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH NVIM commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH NVIM commands\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "TECH SSH",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH SSH.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH SSH\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "TECH Services",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Services.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Services\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "TECH Scripting",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Scripting.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Scripting\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":6},\"to\":{\"line\":13,\"ch\":6}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.040027510316369}"
-                },
-                {
-                  "title": "PG SQL",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}}}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.984319119669877}"
-                },
-                {
-                  "title": "PER Anything that has to do with science",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Anything that has to do with science.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Anything that has to do with science\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "PER Project ideas index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Project ideas index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Project ideas index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0003 Personal MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":8},\"to\":{\"line\":3,\"ch\":8}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_0001 Technology MOC.md",
+                "file": "EH SSRF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_0001 Technology MOC"
-            }
-          },
-          {
-            "id": "b9d401ed81919c87",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 3,
-              "stack": [
-                {
-                  "title": "PG R Main",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Main\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG R index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.806512006512007}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG Lua index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Lua index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Lua index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":21},\"to\":{\"line\":9,\"ch\":21}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Lua Main",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Lua Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Lua Main\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":126},\"to\":{\"line\":5,\"ch\":126}},\"scroll\":0.7625}"
-                },
-                {
-                  "title": "PG Lua index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Lua index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Lua index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.8333333333333335}"
-                },
-                {
-                  "title": "PG Go index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG Lua Nvim integration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG Lua Nvim integration"
-            }
-          },
-          {
-            "id": "0e4196a92189f540",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "PG R index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SC Preprocessing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Getting and Cleaning Data.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Preprocessing\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":130,\"ch\":61},\"to\":{\"line\":130,\"ch\":61}},\"scroll\":122.11404066073698}"
-                },
-                {
-                  "title": "PG R Notes Dump",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Notes Dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1834,\"ch\":3},\"to\":{\"line\":1834,\"ch\":3}},\"scroll\":1813.5982142857142}"
-                },
-                {
-                  "title": "SC Preprocessing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Getting and Cleaning Data.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Preprocessing\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":108,\"ch\":26},\"to\":{\"line\":108,\"ch\":26}},\"scroll\":85.68869047619047}"
-                },
-                {
-                  "title": "SC Datascience index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":28},\"to\":{\"line\":7,\"ch\":28}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0004 Sciences MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG R Main.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG R Main"
-            }
-          },
-          {
-            "id": "9905f43c4a04e6ae",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "SC Pathways",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Pathways.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Pathways\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SC Datascience index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":42},\"to\":{\"line\":11,\"ch\":42}},\"scroll\":0}"
-                },
-                {
-                  "title": "SC Reproducible Research",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Reproducible Research.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Reproducible Research\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0.76}"
-                },
-                {
-                  "title": "SC Datascience index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":30},\"to\":{\"line\":10,\"ch\":30}},\"scroll\":0}"
-                },
-                {
-                  "title": "SC Exploratory Analysis",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Exploratory Analysis.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Exploratory Analysis\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.76}"
-                },
-                {
-                  "title": "SC Datascience index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":16},\"to\":{\"line\":9,\"ch\":16}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0004 Sciences MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "SC Datascience index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":12},\"to\":{\"line\":8,\"ch\":12}}}"
-                },
-                {
-                  "title": "_0004 Sciences MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC Statistical Inference.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SC Statistical Inference"
-            }
-          },
-          {
-            "id": "c6ad8c23743c6ee4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 2,
-              "stack": [
-                {
-                  "title": "EH OWASP",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH OWASP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH OWASP\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":28},\"to\":{\"line\":6,\"ch\":28}}}"
-                },
-                {
-                  "title": "data-transformation",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"assets/data-transformation.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"data-transformation\"}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SC Datascience index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Datascience index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Datascience index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC Getting and Cleaning Data.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SC Getting and Cleaning Data"
-            }
-          },
-          {
-            "id": "9341e451cb7ce214",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC Datascience index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SC Datascience index"
-            }
-          },
-          {
-            "id": "9a38c9e4fe8aba31",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":0},\"to\":{\"line\":33,\"ch\":0}},\"scroll\":10.997395833333334}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":16.997433076641}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG SQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG SQL"
+              "title": "EH SSRF"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 19.140308191403083,
+        "dimension": 21.775417298937786,
         "children": [
           {
             "id": "5345fe004c76117d",
             "type": "tabs",
-            "dimension": 65.53398058252428,
+            "dimension": 52.941176470588246,
             "children": [
               {
                 "id": "8db8e8362861b018",
@@ -617,7 +229,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "SC Getting and Cleaning Data.md",
+                    "file": "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -718,12 +330,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.13168723802450646,
+                      "scale": 0.05852766205146177,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of SC Getting and Cleaning Data"
+                  "title": "Graph of Drawing 2026-03-24 19.17.21.excalidraw"
                 }
               }
             ]
@@ -731,7 +343,7 @@
           {
             "id": "6d28c791c403057c",
             "type": "tabs",
-            "dimension": 34.46601941747573,
+            "dimension": 47.058823529411754,
             "children": [
               {
                 "id": "9b48b59a18d7e0d2",
@@ -839,7 +451,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 280.5
   },
   "right": {
     "id": "abf9a2f144801ffd",
@@ -961,13 +573,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SC Getting and Cleaning Data.md",
+                "file": "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SC Getting and Cleaning Data"
+              "title": "Outline of Drawing 2026-03-24 19.17.21.excalidraw"
             }
           },
           {
@@ -1076,50 +688,50 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c6ad8c23743c6ee4",
+  "active": "8e80d468d88d403f",
   "lastOpenFiles": [
-    "SC Datascience index.md",
-    "assets/data-transformation.pdf",
-    "SC Getting and Cleaning Data.md",
-    "EH OWASP.md",
-    "PG R Main.md",
-    "Pasted image 20260614010638.png",
-    "Pasted image 20260614010541.png",
-    "TECH CLI Tools and Commands.md",
-    "TECH Linux index.md",
-    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
-    "TECH Linux Main.md",
-    "_0001 Technology MOC.md",
-    "WR VA TODO.md",
+    "_0006 Programming MOC.md",
+    "assets/Pasted image 20260614205811.png",
+    "assets/Pasted image 20260614010638.png",
+    "assets/Pasted image 20260614210452.png",
+    "assets/Pasted image 20260614210208.png",
+    "assets/Pasted image 20260711231421.png",
+    "assets/Pasted image 20260711233102.png",
+    "NET Networking index.md",
+    "NET Common ports and protocols.md",
+    "NET Networking main.md",
+    "PG Go index.md",
+    "PG Go Main.md",
+    "_0000 Home.md",
     "WR Overtime And Annuals.md",
     "WR VA General Notes.md",
-    "PG SQL.md",
-    "SC Statistical Inference.md",
-    "TECH SSH.md",
-    "SC Exploratory Analysis.md",
-    "PG Lua Nvim integration.md",
-    "_0006 Programming MOC.md",
-    "PG R index.md",
-    "PG Lua index.md",
-    "PG Lua Main.md",
+    "NET Shared Responsibility Model.md",
+    "_0005 IT MOC.md",
+    "IT index.md",
+    "TECH CLI Tools and Commands.md",
+    "EH SSRF.md",
+    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
+    "PG Character Encoding.md",
     "PG Other index.md",
-    "PG Docker.md",
-    "TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md",
-    "SC Reproducible Research.md",
+    "TECH Linux index.md",
+    "_0001 Technology MOC.md",
+    "EH Ethical Hacking index.md",
+    "EH AS Assessments index.md",
+    "TECH VM firewall rules service.md",
+    "TECH Wifi hotspot service.md",
+    "TECH Creating a Service.md",
+    "EH OWASP.md",
+    "assets/data-transformation.pdf",
+    "assets/Pasted image 20260614010541.png",
     "copilot/memory",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "Pasted image 20260602005536.png",
+    "assets/Pasted image 20260602005536.png",
     "Pasted image 20260602001052.png",
     "assets/Pasted image 20260602001428.png",
-    "assets/Pasted Image 20260521171333_451.png",
-    "assets/Pasted image 20260527101442.png",
     "Untitled.base",
     "WR VA BL Schema attempt 1.canvas",
-    "assets/Pasted image 20260517230439.png",
-    "assets/Pasted image 20260517232642.png",
-    "assets/Pasted image 20260517232520.png",
     "assets/PG base-r-cheat-sheet.pdf",
     "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
     "WR Compass permissions canvas.canvas",

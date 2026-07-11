@@ -124,13 +124,13 @@ G gg H M L k j ▶ print("to")
 
 ### Normal Mode
 
-| Shortcut | Description |
-| --- | --- |
-| `r` | Replace one character |
-| `R` | Enter Replace mode |
-| `u` */* `3u` | Undo changes `1` / `3` times |
-| `U` | Undo changes on one line |
-| `J` | Join with next line |
+| Shortcut              | Description                  |
+| --------------------- | ---------------------------- |
+| `r`                   | Replace one character        |
+| `R`                   | Enter Replace mode           |
+| `u` */* `3u`          | Undo changes `1` / `3` times |
+| `U`                   | Undo changes on one line     |
+| `J`                   | Join with next line          |
 | `<C-r>` */* 5 `<C-r>` | Redo changes `1` / `5` times |
 
 ### Cut and paste
@@ -470,16 +470,18 @@ See `:help text-objects`
 
 ### Substitute expression (magic)
 
-| \- | \- |
-| --- | --- |
-| `&` *\|* `\0` | Replace with the whole matched |
-| `\1`...`\9` | Replace with the group 0-9 |
-| `\u` | Uppercase next letter |
-| `\U` | Uppercase following characters |
-| `\l` | Lowercase next letter |
-| `\L` | Lowercase following characters |
-| `\e` | End of `\u`, `\U`, `\l` and `\L` |
-| `\E` | End of `\u`, `\U`, `\l` and `\L` |
+| \-            | \-                               |
+| ------------- | -------------------------------- |
+| `&` *\|* `\0` | Replace with the whole matched   |
+| `\1`...`\9`   | Replace with the group 0-9       |
+| `\u`          | Uppercase next letter            |
+| `\U`          | Uppercase following characters   |
+| `\l`          | Lowercase next letter            |
+| `\L`          | Lowercase following characters   |
+| `\e`          | End of `\u`, `\U`, `\l` and `\L` |
+| `\E`          | End of `\u`, `\U`, `\l` and `\L` |
+| `\r`          | Replace with new line            |
+| `\s`          | Space                            |
 
 ### Examples
 

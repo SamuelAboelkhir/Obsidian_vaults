@@ -127,7 +127,7 @@ A-->B-->C-->D
 #### Data formats
 - Data normally comes in one of 2 formats, wide, or long
 - The wide formats has data taking a rectangular shape, where each column is a variable and each row is an observation
-- That's bascially how a SQL database tends to look, for example
+- That's basically how a SQL database tends to look, for example
 ![[Pasted image 20260614010541.png]]
 - In the long format, data type is stored in 1 column, and the values in another, so that each row has a single observation for a single variable
 ![[Pasted image 20260614010638.png]]
@@ -312,6 +312,21 @@ cran %>%
   filter(size_mb <= 0.5) %>%
   arrange(desc(size_mb))
 ```
+#### Other functions
+- %>% - pipe operator for chaining a sequence of operations
+- `glimpse` - get an overview of what’s included in dataset 
+- `filter` - filter rows
+- `select` - select, rename, and reorder columns
+- `rename` - rename columns
+- `arrange` - reorder rows
+- `mutate` - create a new column
+- `group_by` - group variables
+- `summarize` - summarize information within a dataset
+- `left_join` - combine data across data frame
+- `tally` - get overall sum of values of specified column(s) or the number of rows of tibble
+- `count` - get counts of unique values of specified column(s) (shortcut of group_by` and tally())
+- `add_count` - add values of count() as a new column
+- `add_tally` - add value(s) of tally() as a new column
 ### Tidyr
 - A package for tidying messy data, that's dependent on the functionalities of dplyr, as it comes from the same ecosystem
 #### Gather
@@ -331,7 +346,7 @@ cran %>%
 9      D female     5
 10     E female     5
 ```
-- `gather`' arguments are, the original dataset first, then a key, and a value arguments, which here were sex and count respectively. This gives the column names for the tidy dataset. Lastly, -grade meant that we want to gather all columns, except for grade, since this was already a proper column
+- `gather` arguments are, the original dataset first, then a key, and a value arguments, which here were sex and count respectively. This gives the column names for the tidy dataset. Lastly, -grade meant that we want to gather all columns, except for grade, since this was already a proper column
 #### Separate
 - This function has been superseded by `separate_wider_position` and `separate_wider_delim`
 - In the following example, we have data that suffers from two issues
@@ -479,6 +494,43 @@ cran %>%
 9   Jeff     4     C failed
 10 Karen     3     C failed
 ```
+#### pivot_longer
+- As mentioned before data is usually stored in wide format, but is easier to work with in long format
+- Tidyr gives us the `pivot_longer` and `pivot_wider` functions to allow us to reshape the data into either format
+```R
+gathered = airquality |> pivot_longer(everything(), names_to = "variable", values_to = "value")
+```
+![[Pasted image 20260614205811.png]]
+- Pivoting to long format doesn't necessarily mean that we have to move everything into the variable and value columns
+- On the contrary, some columns are important for identifying our rows, such as the day in the airquality set
+- In that case, we would like to specify explicitly, which columns should go into the variables column
+```R
+gathered <- airquality |>
+			pivot_longer(c(Ozone, Solar.R, Wind, Temp),
+			names_to = "variable",
+			values_to = "value")
+```
+![[Pasted image 20260614210208.png]]
+#### pivot_wider
+- Since data is best stored in the wide format, then once done with the data, we may want to store the output in wide format again using `pivot_wider`
+- Although the order of the columns wont necessarily be the same
+```R
+spread_data <- gathered %>%
+			pivot_wider(names_from = "variable",
+			values_from = "value")
+```
+![[Pasted image 20260614210452.png]]
+#### Other functions
+- `unite` - combine contents of two or more columns into a single column
+- `separate` - separate contents of a column into two or more columns
+### Janitor
+- Not a direct member of the tidyverse, but considered an adjacent package used for cleaning messy data
+- `clean_names` - clean names of a data frame
+- `tabyl` - get a helpful summary of a variable
+- `get_dupes` - identify duplicate observations
+### Skimr
+- The whole purpose of this package is to summarize a dataframe or tibble within, specifically within the tidy dataframework
+- `skim` - summarize a data frame
 ## Data acquisition
 ### Downloading Data
 - This following section, and probably many more will be closely related to, and heavily reliant on [[PG R Main|R]]
