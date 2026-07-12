@@ -205,17 +205,17 @@
             "id": "9edb14f090ce8c3a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1",
-                  "icon": "lucide-file-text",
-                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1\"}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "SC Biochemistry index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "_0004 Sciences MOC",
@@ -228,12 +228,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SC Chemistry index.md",
+                "file": "SC Principles of Biochemistry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SC Chemistry index"
+              "title": "SC Principles of Biochemistry"
             }
           }
         ],
@@ -264,7 +264,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "SC Chemistry index.md",
+                    "file": "SC Principles of Biochemistry.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -370,7 +370,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of SC Chemistry index"
+                  "title": "Graph of SC Principles of Biochemistry"
                 }
               }
             ]
@@ -608,13 +608,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
+                "file": "SC Principles of Biochemistry.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2026-03-24 19.17.21.excalidraw"
+              "title": "Outline of SC Principles of Biochemistry"
             }
           },
           {
@@ -723,12 +723,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "9edb14f090ce8c3a",
+  "active": "563e5529cdb39fec",
   "lastOpenFiles": [
-    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
+    "SC Biochemistry index.md",
+    "_0004 Sciences MOC.md",
     "SC Chemistry index.md",
     "SC Chemistry.md",
-    "_0004 Sciences MOC.md",
+    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
     "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
     "_0006 Programming MOC.md",
     "assets/Pasted image 20260614205811.png",
