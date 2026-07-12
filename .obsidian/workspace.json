@@ -200,9 +200,44 @@
               "icon": "lucide-file",
               "title": "EH SSRF"
             }
+          },
+          {
+            "id": "9edb14f090ce8c3a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1",
+                  "icon": "lucide-file-text",
+                  "state": "{\"type\":\"pdf\",\"state\":{\"file\":\"assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf\"},\"icon\":\"lucide-file-text\",\"title\":\"SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1\"}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0004 Sciences MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC Chemistry index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SC Chemistry index"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "8e63b7d754490c17",
@@ -229,7 +264,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
+                    "file": "SC Chemistry index.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -335,7 +370,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Drawing 2026-03-24 19.17.21.excalidraw"
+                  "title": "Graph of SC Chemistry index"
                 }
               }
             ]
@@ -688,8 +723,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8e80d468d88d403f",
+  "active": "9edb14f090ce8c3a",
   "lastOpenFiles": [
+    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
+    "SC Chemistry index.md",
+    "SC Chemistry.md",
+    "_0004 Sciences MOC.md",
+    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
     "_0006 Programming MOC.md",
     "assets/Pasted image 20260614205811.png",
     "assets/Pasted image 20260614010638.png",
@@ -710,7 +750,6 @@
     "IT index.md",
     "TECH CLI Tools and Commands.md",
     "EH SSRF.md",
-    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
     "PG Character Encoding.md",
     "PG Other index.md",
     "TECH Linux index.md",
@@ -718,9 +757,6 @@
     "EH Ethical Hacking index.md",
     "EH AS Assessments index.md",
     "TECH VM firewall rules service.md",
-    "TECH Wifi hotspot service.md",
-    "TECH Creating a Service.md",
-    "EH OWASP.md",
     "assets/data-transformation.pdf",
     "assets/Pasted image 20260614010541.png",
     "copilot/memory",
@@ -733,7 +769,6 @@
     "Untitled.base",
     "WR VA BL Schema attempt 1.canvas",
     "assets/PG base-r-cheat-sheet.pdf",
-    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",
     "html/VA diagnostic report.html",
