@@ -7,6 +7,7 @@ MOC: Programming
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]]
 ## General
 [[PG General Patterns]]
+[[PG Workflows]]
 [[PG Character Encoding]]
 [[PG Regular expression syntax cheat sheet]]
 - Other Regex cheat sheet [[PG RegEX Cheat Sheet & Quick Reference]]

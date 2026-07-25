@@ -12,11 +12,9 @@ MOC: Personal
 [[PER Questions]]
 [[PER Project ideas index]]
 
+[[PER Audio]]
 [[PER Disabled]]
-who has an account?
-who is actually using the account?
-usage frequency
-are the KPIs ready for the reviewer to go in and perform the review?
+
 # Workout routine
 #### Upper
 - Pushups 3 sets to failure

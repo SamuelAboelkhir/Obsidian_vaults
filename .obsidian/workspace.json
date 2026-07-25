@@ -6,7 +6,7 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 78.22458270106222,
+        "dimension": 80.76441102756893,
         "children": [
           {
             "id": "23b3d987666c9bde",
@@ -65,6 +65,218 @@
               },
               "icon": "lucide-file",
               "title": "WR VA General Notes"
+            }
+          },
+          {
+            "id": "082780571528be1f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0.8839397470758341}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Go Main.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Go Main"
+            }
+          },
+          {
+            "id": "afaf52a8f0f205bb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Go http server.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Go http server"
+            }
+          },
+          {
+            "id": "20333c88c370e194",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "TECH Linux index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "TECH Linux index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":69},\"to\":{\"line\":6,\"ch\":69}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0001 Technology MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TECH CLI Tools and Commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TECH CLI Tools and Commands"
+            }
+          },
+          {
+            "id": "a54c1a0a375d9151",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "TECH Linux index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH Linux index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH Linux index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0001 Technology MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TECH Vim Cheat Sheet & Quick Reference.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TECH Vim Cheat Sheet & Quick Reference"
+            }
+          },
+          {
+            "id": "bd2baafb755e5f8f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WR Overtime And Annuals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WR Overtime And Annuals"
+            }
+          },
+          {
+            "id": "dfb1428cd75ddc1f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "PG HTTP response status codes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG HTTP response status codes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG HTTP response status codes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -202,7 +414,7 @@
             }
           },
           {
-            "id": "9edb14f090ce8c3a",
+            "id": "e3d9e901a344f19d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -212,37 +424,78 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "SC Biochemistry index",
+                  "title": "PG Other index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":10},\"to\":{\"line\":7,\"ch\":10}},\"scroll\":0.8823529411764706}"
                 },
                 {
-                  "title": "_0004 Sciences MOC",
+                  "title": "PG General Patterns",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG General Patterns.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG General Patterns\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":0},\"to\":{\"line\":76,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8823529411764706}"
+                },
+                {
+                  "title": "PG SQL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8235294117647058}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SC Principles of Biochemistry.md",
+                "file": "PG Workflows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SC Principles of Biochemistry"
+              "title": "PG Workflows"
+            }
+          },
+          {
+            "id": "e6ce9e255f0485de",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_0000 Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_0000 Home"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 21.775417298937786,
+        "dimension": 19.235588972431078,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -264,7 +517,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "SC Principles of Biochemistry.md",
+                    "file": "PG Workflows.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -365,12 +618,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.05852766205146177,
+                      "scale": 0.13168723961578896,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of SC Principles of Biochemistry"
+                  "title": "Graph of PG Workflows"
                 }
               }
             ]
@@ -486,7 +739,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 279.5
   },
   "right": {
     "id": "abf9a2f144801ffd",
@@ -608,13 +861,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SC Principles of Biochemistry.md",
+                "file": "WR VA General Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SC Principles of Biochemistry"
+              "title": "Outline of WR VA General Notes"
             }
           },
           {
@@ -723,41 +976,43 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "563e5529cdb39fec",
+  "active": "3197a52ebbcc7fda",
   "lastOpenFiles": [
-    "SC Biochemistry index.md",
-    "_0004 Sciences MOC.md",
-    "SC Chemistry index.md",
-    "SC Chemistry.md",
-    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
-    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
+    "assets/Linkedin_Posts_2024_Blue.pdf",
+    "_0000 Home.md",
+    "PG Workflows.md",
+    "PG Other index.md",
+    "PG General Patterns.md",
     "_0006 Programming MOC.md",
+    "PG SQL.md",
+    "PG Go http server.md",
+    "PG Go Main.md",
+    "PG Go index.md",
+    "TECH Vim Cheat Sheet & Quick Reference.md",
+    "TECH Linux index.md",
+    "TECH CLI Tools and Commands.md",
+    "WR Overtime And Annuals.md",
+    "WR VA General Notes.md",
+    "Pasted image 20260724195748.png",
+    "_0001 Technology MOC.md",
+    "PG Regular expression syntax cheat sheet.md",
+    "PG HTTP response status codes.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md",
+    "PG Bash scripting cheatsheet.md",
+    "PG Bash index.md",
+    "_0004 Sciences MOC.md",
+    "SC Datascience index.md",
+    "SC Statistical Inference.md",
+    "PG Git.md",
+    "Recording 20260713133106.m4a",
+    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
     "assets/Pasted image 20260614205811.png",
     "assets/Pasted image 20260614010638.png",
     "assets/Pasted image 20260614210452.png",
     "assets/Pasted image 20260614210208.png",
     "assets/Pasted image 20260711231421.png",
     "assets/Pasted image 20260711233102.png",
-    "NET Networking index.md",
-    "NET Common ports and protocols.md",
-    "NET Networking main.md",
-    "PG Go index.md",
-    "PG Go Main.md",
-    "_0000 Home.md",
-    "WR Overtime And Annuals.md",
-    "WR VA General Notes.md",
-    "NET Shared Responsibility Model.md",
-    "_0005 IT MOC.md",
-    "IT index.md",
-    "TECH CLI Tools and Commands.md",
-    "EH SSRF.md",
-    "PG Character Encoding.md",
-    "PG Other index.md",
-    "TECH Linux index.md",
-    "_0001 Technology MOC.md",
-    "EH Ethical Hacking index.md",
-    "EH AS Assessments index.md",
-    "TECH VM firewall rules service.md",
     "assets/data-transformation.pdf",
     "assets/Pasted image 20260614010541.png",
     "copilot/memory",
@@ -766,14 +1021,12 @@
     "copilot",
     "assets/Pasted image 20260602005536.png",
     "Pasted image 20260602001052.png",
-    "assets/Pasted image 20260602001428.png",
     "Untitled.base",
     "WR VA BL Schema attempt 1.canvas",
     "assets/PG base-r-cheat-sheet.pdf",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",
     "html/VA diagnostic report.html",
-    "html/api_planning_guide.html",
     "WR Bid.it Schema.canvas"
   ]
 }

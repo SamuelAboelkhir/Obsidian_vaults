@@ -1,26 +1,11 @@
 {
-  "addDendronNotes": false,
-  "addDateNotes": false,
-  "aliasesInIndex": false,
-  "alphaSortAsc": true,
   "altLinkFields": [],
   "CSVPaths": "",
-  "createIndexIndent": "  ",
   "dateFormat": "YYYY-MM-DD",
-  "dateNoteFormat": "yyyy-MM-dd",
-  "dateNoteField": "next",
   "dataviewNoteField": "up",
   "dateNoteAddMonth": "",
   "dateNoteAddYear": "",
-  "debugMode": "WARN",
-  "dendronNoteDelimiter": ".",
-  "dendronNoteField": "up",
-  "dvWaitTime": 5000,
   "enableAlphaSort": true,
-  "enableRelationSuggestor": false,
-  "fieldSuggestor": true,
-  "filterImpliedSiblingsOfDifferentTypes": false,
-  "jugglLayout": "hierarchy",
   "limitWriteBCCheckboxes": [
     "Home",
     "Back to MOC",
@@ -31,12 +16,6 @@
     "prev"
   ],
   "CHECKBOX_STATES_OVERWRITTEN": false,
-  "gridDefaultDepth": 25,
-  "hierarchyNotes": [
-    ""
-  ],
-  "hierarchyNoteIsParent": false,
-  "HNUpField": "",
   "indexNotes": [
     ""
   ],
@@ -44,7 +23,6 @@
   "namingSystemRegex": "",
   "namingSystemSplit": ".",
   "namingSystemEndsWithDelimiter": false,
-  "refreshOnNoteChange": true,
   "useAllMetadata": true,
   "openMatrixOnLoad": true,
   "openDuckOnLoad": false,
@@ -53,18 +31,13 @@
   "showNameOrType": true,
   "showRelationType": true,
   "regexNoteField": "",
-  "relSuggestorTrigger": "\\",
   "rlLeaf": true,
   "showAllPathsIfNoneToIndexNote": false,
   "showAllAliases": true,
-  "showBCs": true,
   "showBCsInEditLPMode": true,
-  "showRefreshNotice": true,
   "showImpliedRelations": true,
   "showTrail": true,
-  "showGrid": true,
   "showJuggl": false,
-  "showPrevNext": true,
   "sortByNameShowAlias": false,
   "squareDirectionsOrder": [
     0,
@@ -94,10 +67,7 @@
     "prev"
   ],
   "showAll": "All",
-  "noPathMessage": "This note has no real or implied parents",
-  "tagNoteField": "",
   "threadIntoNewPane": false,
-  "threadingTemplate": "{{field}} of {{current}}",
   "threadingDirTemplates": {
     "up": "",
     "same": "",
@@ -105,50 +75,405 @@
     "next": "",
     "prev": ""
   },
-  "threadUnderCursor": false,
   "trailSeperator": "→",
   "treatCurrNodeAsImpliedSibling": false,
-  "trimDendronNotes": false,
-  "respectReadableLineLength": true,
-  "userHiers": [
+  "showWriteAllBCsCmd": false,
+  "visGraph": "Force Directed Graph",
+  "visRelation": "Parent",
+  "visClosed": "Real",
+  "visAll": "All",
+  "showUpInJuggl": false,
+  "is_dirty": false,
+  "edge_fields": [
     {
-      "up": [
+      "label": "up"
+    },
+    {
+      "label": "down"
+    },
+    {
+      "label": "same"
+    },
+    {
+      "label": "next"
+    },
+    {
+      "label": "prev"
+    },
+    {
+      "label": "parent"
+    },
+    {
+      "label": "MOC"
+    },
+    {
+      "label": "Index"
+    },
+    {
+      "label": "Back to MOC"
+    },
+    {
+      "label": "Back to index"
+    }
+  ],
+  "edge_field_groups": [
+    {
+      "label": "ups",
+      "fields": [
+        "up",
         "parent",
         "MOC",
         "Index"
-      ],
-      "same": [
-        "same"
-      ],
-      "down": [
+      ]
+    },
+    {
+      "label": "downs",
+      "fields": [
         "down"
-      ],
-      "next": [
+      ]
+    },
+    {
+      "label": "sames",
+      "fields": [
+        "same"
+      ]
+    },
+    {
+      "label": "nexts",
+      "fields": [
         "next"
-      ],
-      "prev": [
+      ]
+    },
+    {
+      "label": "prevs",
+      "fields": [
         "prev",
         "Back to MOC",
         "Back to index"
       ]
     }
   ],
-  "writeBCsInline": false,
-  "showWriteAllBCsCmd": false,
-  "visGraph": "Force Directed Graph",
-  "visRelation": "Parent",
-  "visClosed": "Real",
-  "visAll": "All",
-  "wikilinkIndex": true,
-  "impliedRelations": {
-    "siblingIdentity": false,
-    "sameParentIsSibling": true,
-    "siblingsSiblingIsSibling": false,
-    "siblingsParentIsParent": false,
-    "parentsSiblingsIsParents": false,
-    "parentsParentsIsParent": false,
-    "cousinsIsSibling": false
+  "implied_relations": {
+    "transitive": [
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "up"
+          }
+        ],
+        "close_field": "down",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "down"
+          }
+        ],
+        "close_field": "up",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "same"
+          }
+        ],
+        "close_field": "same",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "next"
+          }
+        ],
+        "close_field": "prev",
+        "close_reversed": true
+      },
+      {
+        "name": "",
+        "rounds": 1,
+        "chain": [
+          {
+            "field": "prev"
+          }
+        ],
+        "close_field": "next",
+        "close_reversed": true
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "close_field": "down",
+        "chain": [
+          {
+            "field": "parent"
+          }
+        ],
+        "close_reversed": true
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "close_field": "parent",
+        "chain": [
+          {
+            "field": "down"
+          }
+        ],
+        "close_reversed": true
+      },
+      {
+        "rounds": 1,
+        "name": "",
+        "chain": [
+          {
+            "field": "parent"
+          },
+          {
+            "field": "down"
+          }
+        ],
+        "close_reversed": false,
+        "close_field": "same"
+      }
+    ]
   },
-  "refreshOnNoteSave": true,
-  "showUpInJuggl": false
+  "self_is_sibling": [
+    "same"
+  ],
+  "explicit_edge_sources": {
+    "typed_link": {},
+    "list_note": {
+      "default_neighbour_field": ""
+    },
+    "tag_note": {
+      "default_field": "",
+      "default_sibling_field": ""
+    },
+    "regex_note": {
+      "default_field": "up"
+    },
+    "dendron_note": {
+      "enabled": false,
+      "default_field": "up",
+      "default_sibling_field": "",
+      "delimiter": ".",
+      "display_trimmed": false
+    },
+    "johnny_decimal_note": {
+      "enabled": false,
+      "delimiter": ".",
+      "default_field": "up",
+      "default_sibling_field": ""
+    },
+    "date_note": {
+      "enabled": false,
+      "date_format": "yyyy-MM-dd",
+      "default_field": "next",
+      "stretch_to_existing": false,
+      "week_start": "monday",
+      "week": {
+        "enabled": false,
+        "date_format": "kkkk-'W'WW",
+        "folder": "",
+        "next_field": "next",
+        "up_field": "up"
+      },
+      "month": {
+        "enabled": false,
+        "date_format": "yyyy-MM",
+        "folder": "",
+        "next_field": "next",
+        "up_field": "up"
+      },
+      "quarter": {
+        "enabled": false,
+        "date_format": "yyyy-'Q'q",
+        "folder": "",
+        "next_field": "next",
+        "up_field": "up"
+      },
+      "year": {
+        "enabled": false,
+        "date_format": "yyyy",
+        "folder": "",
+        "next_field": "next",
+        "up_field": "up"
+      }
+    },
+    "traverse_note": {
+      "default_field": "up"
+    }
+  },
+  "views": {
+    "page": {
+      "all": {
+        "sticky": false
+      },
+      "trail": {
+        "enabled": true,
+        "format": "path",
+        "selection": "all",
+        "default_depth": 25,
+        "no_path_message": "This note has no real or implied parents",
+        "show_controls": true,
+        "merge_fields": false,
+        "field_group_labels": [
+          "ups"
+        ],
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        }
+      },
+      "prev_next": {
+        "enabled": true,
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        },
+        "field_group_labels": {
+          "prev": [
+            "prevs"
+          ],
+          "next": [
+            "nexts"
+          ]
+        },
+        "period_rows": {
+          "week": false,
+          "month": false,
+          "quarter": false,
+          "year": false
+        }
+      }
+    },
+    "side": {
+      "matrix": {
+        "collapse": false,
+        "edge_sort_id": {
+          "field": "basename",
+          "order": 1
+        },
+        "custom_sort_fields": false,
+        "custom_sort_field_labels": [],
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        },
+        "show_attributes": [
+          "source",
+          "implied_kind",
+          "round"
+        ],
+        "field_group_labels": [
+          "ups",
+          "downs",
+          "sames",
+          "nexts",
+          "prevs"
+        ],
+        "lock_view": false,
+        "lock_path": ""
+      },
+      "tree": {
+        "collapse": false,
+        "show_attributes": [],
+        "merge_fields": false,
+        "default_depth": 5,
+        "lock_view": false,
+        "lock_path": "",
+        "field_group_labels": [
+          "ups",
+          "downs"
+        ],
+        "edge_sort_id": {
+          "field": "basename",
+          "order": 1
+        },
+        "show_node_options": {
+          "ext": false,
+          "folder": false,
+          "alias": false
+        },
+        "find_root": true,
+        "find_root_field_group_labels": [
+          "ups"
+        ]
+      }
+    },
+    "codeblocks": {
+      "show_node_options": {
+        "ext": false,
+        "folder": false,
+        "alias": false
+      }
+    }
+  },
+  "commands": {
+    "rebuild_graph": {
+      "notify": true,
+      "trigger": {
+        "note_save": true,
+        "layout_change": true
+      }
+    },
+    "list_index": {
+      "default_options": {
+        "fields": [],
+        "indent": "  ",
+        "link_kind": "wiki",
+        "show_attributes": [],
+        "field_group_labels": [],
+        "edge_sort_id": {
+          "order": 1,
+          "field": "basename"
+        },
+        "show_node_options": {
+          "ext": false,
+          "alias": false,
+          "folder": false
+        }
+      }
+    },
+    "freeze_implied_edges": {
+      "default_options": {
+        "destination": "frontmatter",
+        "included_fields": [],
+        "use_alias": true
+      }
+    },
+    "thread": {
+      "default_options": {
+        "destination": "frontmatter",
+        "target_path_template": "{{field}} of {{current}}"
+      }
+    }
+  },
+  "suggestors": {
+    "edge_field": {
+      "enabled": false,
+      "trigger": "\\"
+    }
+  },
+  "debug": {
+    "level": "INFO"
+  },
+  "_bc_migrations": {
+    "tree_ups_with_downs_default": true,
+    "tree_find_root_default": true
+  }
 }

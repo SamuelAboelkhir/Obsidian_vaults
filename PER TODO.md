@@ -1,9 +1,9 @@
 ---
 tags:
 - TODO
-Navigation: "[[_0000 Home|Home]] | [[_0003 Personal MOC]]"
 MOC: Personal
 ---
+[[_0000 Home|Home]] | [[_0003 Personal MOC]]
 
 - [ ] Learn more about the [[TECH Anatomy of Memory]] and the theory behind finding vulnerabilities in a service/app that allow for [[EH Buffer Overflow Steps]] and [[EH Exploitation#Netcat Reverse Shell]]
 - [ ] Figure how opcode is used in hacking

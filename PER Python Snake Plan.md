@@ -5,9 +5,12 @@ tags:
 - Programming-Language
 MOC: Personal
 ---
+[[_0000 Home|Home]] | [[_0003 Personal MOC]] | [[PER Project ideas index|Back to index]]
 
-[[_0000 Home|Home]] | [[_0003 Personal MOC]]
-
+# Current progrogress
+- The map owns the rendering
+- Snake owns the game logic
+- Continue the separation between logic and rendering
 # Buttons
 - Play
 - Pause
