@@ -27,13 +27,13 @@ $ echo '123abc' | sed 's/[0-9]+//g'
 
 ### Option Examples
 
-| Option | Example | Description |
-| --- | --- | --- |
-| `-i` | sed -ibak 's/On/Off/' php.ini | Backup and modify input file directly |
-| `-E` | sed -E 's/\[0-9\]+//g' input-file | Use extended regular expressions |
-| `-n` | sed -n '3 p' config.conf | Suppress default pattern space printing |
-| `-f` | sed -f script.sed config.conf | Execute sed script file |
-| `-e` | sed -e 'command1' -e 'command2' input-file | Execute multiple sed commands |
+| Option | Example                                    | Description                             |
+| ------ | ------------------------------------------ | --------------------------------------- |
+| `-i`   | sed -ibak 's/On/Off/' php.ini              | Backup and modify input file directly   |
+| `-E`   | sed -E 's/\[0-9\]+//g' input-file          | Use extended regular expressions        |
+| `-n`   | sed -n '3 p' config.conf                   | Suppress default pattern space printing |
+| `-f`   | sed -f script.sed config.conf              | Execute sed script file                 |
+| `-e`   | sed -e 'command1' -e 'command2' input-file | Execute multiple sed commands           |
 
 ### Multiple commands
 

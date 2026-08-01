@@ -4,11 +4,11 @@ tags:
 MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
-# Unicode :
+# Unicode - Unicode Transformation Format:
 - Unicode provides a unique way to define every character in every spoken language of the world by assigning it a unique number. The Unicode standard is maintained by the Unicode Consortium and defines more than 1,40,000 characters from more than 150 modern and historic scripts along with emoji.
 - Unicode can be defined with different character encoding like UTF-8, UTF-16, UTF-32, etc. Among these UTF-8 is the most popular as it used in over 90% of websites on the World Wide Web as well as on most modern Operating systems like Windows.
-# ASCII :
-- It is a character encoding standard for electronic communication. American Standard Code for Information Interchange(ASCII) and was first launched in 1963. ASCII codes are used to represent text in computers and telecom devices.
+# ASCII - American Standard Code for Information Interchange:
+- It is a character encoding standard for electronic communication. ASCII and was first launched in 1963. ASCII codes are used to represent text in computers and telecom devices.
 - ASCII is used for representing 128 English characters in the form of numbers, with each letter being assigned to a specific number in the range 0 to 127. For e.g., the ASCII code for uppercase A is 65, uppercase B is 66, and so on. Check out the following table for some more examples.
 - Most computers are using ASCII encoding for text representation, which makes transferring data from one device to another a lot easier.
 # The Difference Between Unicode and UTF-8

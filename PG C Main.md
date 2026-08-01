@@ -872,7 +872,7 @@ void create_typist(int uses_nvim) {
 - **Cache-Friendly Memory Access:** Stack memory is stored in a contiguous block, enhancing cache performance due to spatial locality. Related values live next to each other in memory, the CPU can load and access them more quickly.
 - **Automatic Memory Management:** Stack memory is managed automatically as functions are called and as they return.
 - **Inherent Thread Safety:** Each thread has its own stack. Heap allocations require synchronization mechanisms when used concurrently, potentially introducing overhead. Meanwhile the heap is shared between all threads
-- Our beloved friend [[PG Go Main|Go]] primarily uses stack allocation for variables, at least whenever possible. The Go compiler performs escape analysis to decide if a variable can be allocated on the stack. Languages like [[PG Python|Python]] though allocate most of their objects on the heap, which impacts their performance
+- Our beloved friend [[PG Go Main|Go]] primarily uses stack allocation for variables, at least whenever possible. The Go compiler performs escape analysis to decide if a variable can be allocated on the stack. Languages like [[PG Python main|Python]] though allocate most of their objects on the heap, which impacts their performance
 - The stack does have a limited size, which means that eventually it can reach its limit, run out of memory, and cause a stack overflow, which is a very famous error in recursion if the function runs forever
 ### Heap
 - The heap however has nothing to do with the actual data structure called heap

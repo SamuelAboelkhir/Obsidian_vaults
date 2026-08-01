@@ -28,6 +28,10 @@ pi := 3.14159
 //string
 message := "Hello, world!"
 
+//string literal
+message := `Hello, world!
+			how are ya?`
+
 //bool
 isGoat := true
 ```
@@ -1412,7 +1416,10 @@ package rand
 - Go programs are organized into packages
 - A package is a directory of Go code that's all compiled together
 - Functions, types, variables, and constants defined in one source file are visible to all other source file within the same package (directory)
-- A repository contains one or more modules, where a module is a collection of Go packages that are relates together
+- A repository contains one or more modules, where a module is a collection of Go packages that relates together
+- Module group the code and tracks the dependencies it uses
+- It's created with the `go mod init <MODULE_PATH>` command
+	- The module path can be a remote location such as a github repo, or a local one
 ![[go_module.png]]
 ## One Module Per Repo (Usually)
 - A module is declared by a file named `go.mod` at the root of the project
