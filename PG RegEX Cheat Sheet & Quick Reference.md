@@ -299,14 +299,14 @@ In `[ ]` always escape `. \ ]` and sometimes `^ - .`
 
 ### Shorthand classes
 
-| Pattern | Meaning |
-| --- | --- |
+| Pattern          | Meaning                                             |
+| ---------------- | --------------------------------------------------- |
 | `\w            ` | "Word" character   *(letter, digit, or underscore)* |
-| `\d            ` | Digit |
-| `\s            ` | Whitespace   *(space, tab, vtab, newline)* |
-| `\W, \D, or \S ` | Not word, digit, or whitespace |
-| `[\D\S]        ` | Means not digit or whitespace, both match |
-| `[^\d\s]       ` | Disallow digit and whitespace |
+| `\d            ` | Digit                                               |
+| `\s            ` | Whitespace   *(space, tab, vtab, newline)*          |
+| `\W, \D, or \S ` | Not word, digit, or whitespace                      |
+| `[\D\S]        ` | Means not digit or whitespace, both match           |
+| `[^\d\s]       ` | Disallow digit and whitespace                       |
 
 ### Occurrences
 

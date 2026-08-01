@@ -5,6 +5,13 @@ tags:
 MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Python index|Back to index]]
+# Python basics
+- Python is an [_extremely_ popular](https://survey.stackoverflow.co/2025/technology#1-programming-scripting-and-markup-languages) language in the industry, and is well-known for:
+	- Backend web servers
+	- DevOps and cloud engineering
+	- Machine learning
+	- Scripting and automation
+	- etc...
 # The Zen of Python
 Tim Peters, a long time Pythonista, describes the guiding principles of Python in his famous short piece, [The Zen of Python.](https://peps.python.org/pep-0020/)
 ```

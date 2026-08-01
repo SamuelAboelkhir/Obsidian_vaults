@@ -128,6 +128,15 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - `mktemp`: Creates temporary files under `/tmp` directly with randomized names
 	- Use `-d` to create a directory instead
 - `base64`: base64 encode/decode data and print to standard output
+- `type`: Shows extra data about a command
+	- Can include the executable's location or whether it's an alias
+- `strings`: Extract printable strings from binaries
+- `tr`: Translate characters
+- `tar`: Archiving utility
+- `gzip`: Compress/decompress gzip files
+- `zcat`: Output gzip contents
+- `bzip2`: Compress/decompress bzip2 files
+- `bzcat`: Output bzip2 contents
 ---
 ### System management and monitoring
 
@@ -135,6 +144,7 @@ find . -name "*.txt" -exec sh -c 'echo "Processing: $1"; wc -l "$1"' _ {} \;
 - `id`: print real and effective user and group IDs
 - `sudo sysctl -w fs.inotify.max_user_watches=131070` : increase the limit of file watchers.
 - `ncdu` : a tool that shows you the distribution of disk space.
+	- `du` is another disk usage tools
 - `free -h` : shows memory statistics in a human readable format.
 - `swapon --show` : shows the available swapfiles and their usages.
 -  `more /proc/sys/vm/swappiness` : shows the swappiness statistic of the system.
@@ -232,6 +242,8 @@ sudo swapon /swap/swapfile0
 	- `btrfs subvolume list`: shows you all your subvolumes, like those created by snapper
 	- `btrfs balance start`: attempts to balance the filesystem blocks when they are fragmented
 - `lsblk`: lists block devices, so it can show available SSDs, filesystem types, mountpoints and so on
+- `cron`: Scheduled jobs
+- `crontab`: Manage cron jobs
 ---
 ### Networking commands and tools
 
@@ -300,6 +312,7 @@ sudo ip route add default via 192.168.57.1
 	- openssl versions older that 1.1.1 required that we send the IP or name of the server twice, once for the actual handshake, and once to specify what we're connecting to, but nowadays, that part is handled automatically, and we only need to pass the `-servername` flag if we're connecting to an IP address and not a FQDN, or, the TLS host needs to be different
 	- Use the `-ign_eof` flag to prevent `CONNECTED COMMANDS` from running.
 		- More info in `man openssl-s-client`
+	- `openssl rand -base64 64`: is an common way to generate a strong random string
 	- More information available at [https://www.feistyduck.com/library/openssl-cookbook/online/testing-with-openssl/connecting-to-tls-services.html](https://www.feistyduck.com/library/openssl-cookbook/online/testing-with-openssl/connecting-to-tls-services.html)
 ---
 ### System protection
@@ -341,6 +354,8 @@ sudo ip route add default via 192.168.57.1
 ---
 #### Back to top: [[#Links]]
 # Commands useful in pentesting
+
+#### Back to top: [[#Links]]
 ### Finding Users Data
 - [[TECH CLI Tools and Commands#^870e82|Getent]] with group/passwd/shadow(with sudo).  
 	-  [[TECH CLI Tools and Commands#^2ddd0f|Group]]  will show you all members of a group
