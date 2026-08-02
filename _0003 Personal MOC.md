@@ -5,7 +5,7 @@ MOC: Personal
 ---
 [[_0000 Home|Home]] 
 [[PER Important websites]]
-[[PER Cloths inventory]]
+[[PER Clothes inventory]]
 # TODO
 [[PER TODO]]
 [[PER Daily TODO]]
