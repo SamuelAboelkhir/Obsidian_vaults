@@ -474,6 +474,41 @@
             }
           },
           {
+            "id": "52eee270b3c37b3f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0003 Personal MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":25},\"to\":{\"line\":6,\"ch\":25}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PER Cloths inventory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PER Cloths inventory"
+            }
+          },
+          {
             "id": "00a10dbf5b6c305e",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -482,6 +517,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PG Alogrithms index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Alogrithms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Alogrithms index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":21},\"to\":{\"line\":10,\"ch\":21}},\"scroll\":0.8880280977640308}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":15},\"to\":{\"line\":24,\"ch\":15}},\"scroll\":5.347822547822548}"
+                },
+                {
+                  "title": "PG Character Encoding",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Character Encoding.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Character Encoding\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8880280977640308}"
                 },
                 {
                   "title": "PG Go Main",
@@ -542,12 +595,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Character Encoding.md",
+                "file": "PG bubble selection insertion sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Character Encoding"
+              "title": "PG bubble selection insertion sort"
             }
           },
           {
@@ -578,6 +631,27 @@
               "icon": "lucide-file",
               "title": "PG Python main"
             }
+          },
+          {
+            "id": "b06c51898609feb1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.4"
+            }
           }
         ],
         "currentTab": 9
@@ -607,7 +681,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PG Character Encoding.md",
+                    "file": "PER Cloths inventory.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -713,7 +787,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PG Character Encoding"
+                  "title": "Local graph"
                 }
               }
             ]
@@ -774,7 +848,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -951,13 +1027,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PG Character Encoding.md",
+                "file": "PER Cloths inventory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PG Character Encoding"
+              "title": "Outline"
             }
           },
           {
@@ -1066,54 +1142,53 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "00a10dbf5b6c305e",
+  "active": "563e5529cdb39fec",
   "lastOpenFiles": [
+    "PG bubble selection insertion sort.md",
+    "WR VA General Notes.md",
+    "PER Cloths inventory.md",
+    "assets/cloths/20260802_132826.jpg",
+    "assets/cloths/20260802_130743.jpg",
+    "assets/cloths/20260802_130831.jpg",
+    "assets/cloths/20260802_130903.jpg",
+    "assets/cloths/20260802_131944.jpg",
+    "assets/cloths/20260802_132624.jpg",
+    "assets/cloths",
+    "_0003 Personal MOC.md",
+    "PER Groceries.md",
+    "PER Questions.md",
+    "PER Daily TODO.md",
+    "PER Important websites.md",
+    "_0000 Home.md",
+    "PG Workflows.md",
+    "PG Alogrithms index.md",
+    "PG Python main.md",
+    "PG searching algorithms.md",
+    "PG Time complexities of different data structures.md",
+    "_0006 Programming MOC.md",
+    "PG Character Encoding.md",
     "PG Go Main.md",
     "PG Go index.md",
     "PG Go Extras.md",
     "PG Object Oriented Programming.md",
     "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
-    "_0000 Home.md",
     "TECH CLI Tools and Commands.md",
     "TECH Linux index.md",
     "_0001 Technology MOC.md",
     "PG Other index.md",
-    "WR VA General Notes.md",
-    "PG Workflows.md",
-    "PG Git.md",
-    "_0006 Programming MOC.md",
-    "PG Python main.md",
-    "WR Overtime And Annuals.md",
-    "PG Bash scripting cheatsheet.md",
-    "TECH Vim Regexp Cheat Sheet.md",
-    "PG RegEX Cheat Sheet & Quick Reference.md",
-    "PG Regular expression syntax cheat sheet.md",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/15-16-17-pdf-slides-merge-quick-radix-sort.pdf",
-    "TECH Linux Main.md",
-    "TECH Bash & zsh Shell Terminal Basics Cheat Sheet.md",
-    "TECH Scripting.md",
-    "PG Bash index.md",
-    "TECH Awk Command Cheat Sheet & Quick Reference.md",
-    "TECH Sed Command Cheat Sheet & Quick Reference.md",
     "Pasted image 20260729183635.png",
     "Pasted image 20260724195748.png",
     "assets/Pasted image 20260727213710.png",
     "assets/Pasted image 20260726233843.png",
-    "assets/Pasted image 20260726222800.png",
-    "assets/Pasted image 20260726222913.png",
     "Untitled.base",
     "assets/Linkedin_Posts_2024_Blue.pdf",
     "Recording 20260713133106.m4a",
     "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
-    "assets/Pasted image 20260614205811.png",
-    "assets/Pasted image 20260614010638.png",
-    "assets/Pasted image 20260614210452.png",
-    "assets/Pasted image 20260614210208.png",
     "assets/data-transformation.pdf",
     "copilot/memory",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
-    "copilot",
     "WR VA BL Schema attempt 1.canvas",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",

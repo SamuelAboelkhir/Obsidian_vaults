@@ -7,6 +7,7 @@ MOC: Programming
 # Unicode - Unicode Transformation Format:
 - Unicode provides a unique way to define every character in every spoken language of the world by assigning it a unique number. The Unicode standard is maintained by the Unicode Consortium and defines more than 1,40,000 characters from more than 150 modern and historic scripts along with emoji.
 - Unicode can be defined with different character encoding like UTF-8, UTF-16, UTF-32, etc. Among these UTF-8 is the most popular as it used in over 90% of websites on the World Wide Web as well as on most modern Operating systems like Windows.
+- Input method frameworks (IMFs) such as `fcitx5` provide the ability to select unicode with `CTRL+SHIFT+U` which brings up `U+` and then you type the UTF-16 encoding that you want, or `CTRL+SHIFT+ALT+U` for a drop down menu with search support
 # ASCII - American Standard Code for Information Interchange:
 - It is a character encoding standard for electronic communication. ASCII and was first launched in 1963. ASCII codes are used to represent text in computers and telecom devices.
 - ASCII is used for representing 128 English characters in the form of numbers, with each letter being assigned to a specific number in the range 0 to 127. For e.g., the ASCII code for uppercase A is 65, uppercase B is 66, and so on. Check out the following table for some more examples.
