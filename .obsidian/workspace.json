@@ -500,12 +500,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PER Cloths inventory.md",
+                "file": "PER Clothes inventory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PER Cloths inventory"
+              "title": "PER Clothes inventory"
             }
           },
           {
@@ -681,7 +681,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PER Cloths inventory.md",
+                    "file": "PER Clothes inventory.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -782,7 +782,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.05852766205146176,
+                      "scale": 0.01734152981105682,
                       "close": true
                     }
                   },
@@ -1027,7 +1027,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PER Cloths inventory.md",
+                "file": "PER Clothes inventory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -1142,17 +1142,31 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "563e5529cdb39fec",
+  "active": "52eee270b3c37b3f",
   "lastOpenFiles": [
+    "assets/clothes/Shirts/20260802_141612.jpg",
+    "assets/clothes/Shirts/20260802_141424.jpg",
+    "assets/clothes/Shirts/20260802_141339.jpg",
+    "assets/clothes/T-Shirts/20260802_141830.jpg",
+    "assets/clothes/T-Shirts/20260802_140858.jpg",
+    "assets/clothes/T-Shirts/20260802_135147.jpg",
+    "assets/clothes/T-Shirts/20260802_135112.jpg",
+    "assets/clothes/Pants/20260802_132826.jpg",
+    "assets/clothes/Pants/20260802_132624.jpg",
+    "assets/clothes/Pants/20260802_131944.jpg",
+    "assets/clothes/Pants/20260802_130903.jpg",
+    "assets/clothes/Shirts",
+    "assets/clothes/T-Shirts",
+    "assets/clothes/Pants",
+    "assets/clothes/Home",
+    "assets/clothes",
+    "assets/cloths/Shirts",
+    "assets/cloths/T-Shirts",
+    "assets/cloths/Pants",
+    "assets/cloths/Home",
     "PG bubble selection insertion sort.md",
     "WR VA General Notes.md",
-    "PER Cloths inventory.md",
-    "assets/cloths/20260802_132826.jpg",
-    "assets/cloths/20260802_130743.jpg",
-    "assets/cloths/20260802_130831.jpg",
-    "assets/cloths/20260802_130903.jpg",
-    "assets/cloths/20260802_131944.jpg",
-    "assets/cloths/20260802_132624.jpg",
+    "PER Clothes inventory.md",
     "assets/cloths",
     "_0003 Personal MOC.md",
     "PER Groceries.md",
@@ -1176,19 +1190,6 @@
     "TECH Linux index.md",
     "_0001 Technology MOC.md",
     "PG Other index.md",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/15-16-17-pdf-slides-merge-quick-radix-sort.pdf",
-    "Pasted image 20260729183635.png",
-    "Pasted image 20260724195748.png",
-    "assets/Pasted image 20260727213710.png",
-    "assets/Pasted image 20260726233843.png",
-    "Untitled.base",
-    "assets/Linkedin_Posts_2024_Blue.pdf",
-    "Recording 20260713133106.m4a",
-    "assets/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
-    "assets/data-transformation.pdf",
-    "copilot/memory",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts",
     "WR VA BL Schema attempt 1.canvas",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",
