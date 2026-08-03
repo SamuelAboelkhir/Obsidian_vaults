@@ -115,16 +115,16 @@ Escape these special characters with `\`
 
 ### Anchors
 
-| Pattern | Description |
-| --- | --- |
-| `\G` | Start of match |
-| `^` | Start of string |
-| `$` | End of string |
-| `\A` | Start of string |
-| `\Z` | End of string |
-| `\z` | Absolute end of string |
-| `\b` | A word boundary |
-| `\B` | Non-word boundary |
+| Pattern | Description            |
+| ------- | ---------------------- |
+| `\G`    | Start of match         |
+| `^`     | Start of string        |
+| `$`     | End of string          |
+| `\A`    | Start of string        |
+| `\Z`    | End of string          |
+| `\z`    | Absolute end of string |
+| `\b`    | A word boundary        |
+| `\B`    | Non-word boundary      |
 
 ### Substitution
 
