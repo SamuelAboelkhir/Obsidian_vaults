@@ -6,7 +6,7 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 81.3849590469099,
+        "dimension": 81.83172002978407,
         "children": [
           {
             "id": "23b3d987666c9bde",
@@ -17,6 +17,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "WR Overtime And Annuals",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Overtime And Annuals.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Overtime And Annuals\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "WR VA General Notes",
@@ -59,12 +65,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR Overtime And Annuals.md",
+                "file": "TECH CLI Tools and Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR Overtime And Annuals"
+              "title": "TECH CLI Tools and Commands"
             }
           },
           {
@@ -105,25 +111,25 @@
             }
           },
           {
-            "id": "8e80d468d88d403f",
+            "id": "e3d9e901a344f19d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "PG Go Main",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go Main\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2173,\"ch\":41},\"to\":{\"line\":2173,\"ch\":41}},\"scroll\":2155.473214285714}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":194},\"to\":{\"line\":47,\"ch\":194}},\"scroll\":33.68362282878412}"
-                },
-                {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2025-11-29 20.06.40.excalidraw.restored",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.restored.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-11-29 20.06.40.excalidraw.restored\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2026-03-24 19.17.21.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-24 19.17.21.excalidraw\"}",
                   "eState": "{}"
                 },
                 {
@@ -133,108 +139,34 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Drawing 2026-03-24 19.17.21.excalidraw",
+                  "title": "Drawing 2026-01-27 14.41.39.excalidraw",
                   "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-24 19.17.21.excalidraw\"}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-24 19.17.21.excalidraw"
-            }
-          },
-          {
-            "id": "bb2418cfcb649525",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Pasted image 20260711231421",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Pasted image 20260711231421.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20260711231421\"}",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-01-27 14.41.39.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-01-27 14.41.39.excalidraw\"}",
                   "eState": "{}"
                 },
                 {
-                  "state": "{}",
+                  "title": "Drawing 2026-06-19 19.17.27.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-06-19 19.17.27.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-06-19 19.17.27.excalidraw\"}",
                   "eState": "{}"
                 },
                 {
-                  "title": "EH Ethical Hacking index",
+                  "title": "Tldraw 2026-08-12 2.11PM",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":27},\"to\":{\"line\":26,\"ch\":27}},\"scroll\":1.8333333333333335}"
+                  "state": "{\"type\":\"tldraw-view\",\"state\":{\"file\":\"Excalidraw/Tldraw 2026-08-12 2.11PM.md\"},\"icon\":\"lucide-file\",\"title\":\"Tldraw 2026-08-12 2.11PM\"}",
+                  "eState": "{}"
                 },
                 {
-                  "title": "EH SSRF",
+                  "title": "Tldraw 2026-08-12 2.11PM (0)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH SSRF.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH SSRF\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":120},\"to\":{\"line\":9,\"ch\":120}},\"scroll\":0}"
-                },
-                {
-                  "title": "EH Ethical Hacking index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":14},\"to\":{\"line\":25,\"ch\":14}},\"scroll\":5}"
-                },
-                {
-                  "title": "_0005 IT MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":12},\"to\":{\"line\":6,\"ch\":12}}}"
-                },
-                {
-                  "title": "CYB Cybersecurity index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"CYB Cybersecurity index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CYB Cybersecurity index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0005 IT MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"tldraw-view\",\"state\":{\"file\":\"Excalidraw/Tldraw 2026-08-12 2.11PM (0).md\"},\"icon\":\"lucide-file\",\"title\":\"Tldraw 2026-08-12 2.11PM (0)\"}",
+                  "eState": "{}"
                 },
                 {
                   "title": "_0000 Home",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0001 Technology MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":8},\"to\":{\"line\":3,\"ch\":8}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EH SSRF.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EH SSRF"
-            }
-          },
-          {
-            "id": "e3d9e901a344f19d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
                 },
                 {
                   "title": "_0006 Programming MOC",
@@ -275,14 +207,47 @@
               ]
             },
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-24 19.17.21.excalidraw"
+            }
+          },
+          {
+            "id": "04bbca8d9c05d9cd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "WR Projects index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8823529411764706}"
+                },
+                {
+                  "title": "_0002 Work MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "_0000 Home.md",
+                "file": "WR VA General Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_0000 Home"
+              "title": "WR VA General Notes"
             }
           },
           {
@@ -321,41 +286,6 @@
             }
           },
           {
-            "id": "4e2f019a80c1cd69",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG Python main",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python main\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8235294117647058}"
-                },
-                {
-                  "title": "PG Python index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Python index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Python index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG RegEX Cheat Sheet & Quick Reference.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG RegEX Cheat Sheet & Quick Reference"
-            }
-          },
-          {
             "id": "f8e3d718b1175c50",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -364,22 +294,40 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PG Paradigms index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Paradigms index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Paradigms index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Object Oriented Programming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Object Oriented Programming.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Object Oriented Programming\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Regular expression syntax cheat sheet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Regular expression syntax cheat sheet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Regular expression syntax cheat sheet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Regular expression syntax cheat sheet.md",
+                "file": "PG Functional Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Regular expression syntax cheat sheet"
+              "title": "PG Functional Programming"
             }
           },
           {
-            "id": "b06c51898609feb1",
+            "id": "945b28ac01486aeb",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -387,24 +335,103 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PG Git",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Git.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Git\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.4"
+                "file": "PG R Main.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
+              "icon": "lucide-file",
+              "title": "PG R Main"
+            }
+          },
+          {
+            "id": "01f644ff9d525ed0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Object Oriented Programming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Object Oriented Programming.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Object Oriented Programming\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Functional Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Functional Programming"
+            }
+          },
+          {
+            "id": "f752a725257857af",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "NET Common ports and protocols",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Common ports and protocols.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Common ports and protocols\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.883367796129714}"
+                },
+                {
+                  "title": "NET Networking index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Networking index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Networking index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0005 IT MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Docker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Docker"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 18.615040953090098,
+        "dimension": 18.168279970215934,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -426,7 +453,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "WR Overtime And Annuals.md",
+                    "file": "PG Docker.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -527,7 +554,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.9999999637485969,
+                      "scale": 0.13168723802450655,
                       "close": true
                     }
                   },
@@ -650,7 +677,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 215.21484375
   },
   "right": {
     "id": "abf9a2f144801ffd",
@@ -772,7 +799,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WR Overtime And Annuals.md",
+                "file": "PG Docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -834,10 +861,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "WR VA General Notes.md"
+                "file": "Excalidraw/Tldraw 2026-08-12 2.11PM.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for WR VA General Notes"
+              "title": "File properties"
             }
           },
           {
@@ -884,34 +911,49 @@
       "system3-relay:Relay": false,
       "webpage-html-export:Export as HTML": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "tldraw:Create new tldrawing": false
     }
   },
-  "active": "23b3d987666c9bde",
+  "active": "f752a725257857af",
   "lastOpenFiles": [
-    "WR VA General Notes.md",
-    "PER Clothes inventory.md",
-    "assets/clothes/T-Shirts/20260803_163702.jpg",
-    "assets/clothes/T-Shirts/20260803_163739.jpg",
-    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
-    "_0000 Home.md",
-    "PG RegEX Cheat Sheet & Quick Reference.md",
-    "PG Regular expression syntax cheat sheet.md",
-    "PG Python main.md",
-    "PG bubble selection insertion sort.md",
-    "PG Workflows.md",
-    "copilot/copilot-conversations/DataView_Table_Compatibility@20260802_200951.md",
     "NET Common ports and protocols.md",
-    "WR Overtime And Annuals.md",
+    "NET Networking index.md",
+    "_0005 IT MOC.md",
+    "IT index.md",
+    "PG Functional Programming.md",
+    "PG Object Oriented Programming.md",
+    "Tldraw 2026-08-15 1.37PM.md",
+    "PG RegEX Cheat Sheet & Quick Reference.md",
+    "PG Character Encoding.md",
+    "TECH CLI Tools and Commands.md",
+    "TECH Linux index.md",
+    "TECH Hyprland.md",
+    "TECH VM firewall rules service.md",
+    "TECH Wifi hotspot service.md",
+    "_0001 Technology MOC.md",
+    "_0000 Home.md",
     "_0003 Personal MOC.md",
-    "assets/clothes/T-Shirts/20260802_173949.jpg",
-    "assets/clothes/T-Shirts/20260802_173833.jpg",
-    "assets/clothes/T-Shirts/20260802_173633.jpg",
-    "assets/clothes/T-Shirts/20260802_173522.jpg",
-    "assets/clothes/T-Shirts/20260802_173347.jpg",
-    "assets/clothes/T-Shirts/20260802_173235.jpg",
-    "assets/clothes/20260802_173633.jpg",
-    "assets/clothes/20260802_173522.jpg",
+    "TECH Vim Regexp Cheat Sheet.md",
+    "WR VA General Notes.md",
+    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
+    "PG R Main.md",
+    "PG Git.md",
+    "Excalidraw/Tldraw 2026-08-12 2.17PM.tldr",
+    "Excalidraw/Tldraw 2026-08-12 2.16PM.md",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.restored.md",
+    "Excalidraw/Drawing 2026-06-19 19.17.27.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-27 14.41.39.excalidraw.md",
+    "assets/Pasted image 20260811011447.png",
+    "assets/Pasted image 20260811011146.png",
+    "assets/Pasted image 20260811011004.png",
+    "assets/Pasted image 20260811010937.png",
+    "assets/clothes/Shirts/20260809_151221.jpg",
+    "assets/clothes/Shirts/20260809_151124.jpg",
+    "assets/clothes/Shirts/20260809_151021.jpg",
+    "assets/clothes/Shirts/20260809_150832.jpg",
+    "assets/clothes/Shirts/20260809_150545.jpg",
+    "assets/clothes/Shirts/20260809_150314.jpg",
     "assets/clothes/Shorts",
     "assets/clothes/Shirts",
     "assets/clothes/T-Shirts",
@@ -921,19 +963,6 @@
     "assets/cloths/Shirts",
     "assets/cloths/T-Shirts",
     "assets/cloths/Pants",
-    "assets/cloths/Home",
-    "PER Groceries.md",
-    "PER Questions.md",
-    "PER Daily TODO.md",
-    "PER Important websites.md",
-    "PG Alogrithms index.md",
-    "PG searching algorithms.md",
-    "PG Time complexities of different data structures.md",
-    "_0006 Programming MOC.md",
-    "PG Character Encoding.md",
-    "PG Go Main.md",
-    "PG Go index.md",
-    "PG Go Extras.md",
     "WR VA BL Schema attempt 1.canvas",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",

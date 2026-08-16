@@ -9,10 +9,10 @@
   --text-normal: #bebebe;
 
   /* Selection colors */
-  --text-selection: #515151;
+  --text-selection: #2a2a2a;
 
   /* Border color */
-  --background-modifier-border: #8a8a8d;
+  --background-modifier-border: #333333;
 
   /* Semantic heading colors */
   --text-title-h1: #D35F5F;
@@ -43,10 +43,10 @@
 
   /* Tags */
   --tag-color: #bebebe;
-  --tag-background: #8a8a8d;
+  --tag-background: #333333;
 
   /* Graph */
-  --graph-line: #8a8a8d;
+  --graph-line: #333333;
   --graph-node: #e68e0d;
   --graph-node-focused: #e68e0d;
   --graph-node-tag: #bebebe;
@@ -70,7 +70,7 @@
 .cm-s-obsidian span.cm-keyword { color: #D35F5F; }
 .cm-s-obsidian span.cm-string { color: #FFC107; }
 .cm-s-obsidian span.cm-number { color: #b91c1c; }
-.cm-s-obsidian span.cm-comment { color: #8a8a8d; }
+.cm-s-obsidian span.cm-comment { color: #333333; }
 .cm-s-obsidian span.cm-operator { color: #e68e0d; }
 .cm-s-obsidian span.cm-def { color: #e68e0d; }
 
