@@ -23,3 +23,6 @@ MOC: Technology
 [[TECH Creating a Service]]
 [[TECH Wifi hotspot service]]
 [[TECH VM firewall rules service]]
+
+# hyprland
+[[TECH Hyprland]]

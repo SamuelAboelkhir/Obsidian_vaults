@@ -139,6 +139,64 @@ apt-get install python3 -y
 EOT
 ```
 - The Problem with the above method though is that docker can actually cache repeated commands, but here it will cache the update and install under the same key, so if you want to change the `apt-get install` part, you'll also need to redo the `apt-get update` part, so it's best to keep them spearated with two `RUN` commands
+- BUUUT, if we separate them like in the above example, that can cause cache poisining
+## Final comments
+### Alpine
+- A note on `Alpine` is that it uses `Musl LibC` which is is a small implementation of the C standard library that a lot of languages, such as Python, Go, JS, and many many other rely on for OS level commands such as `open` and `read`, which contributes to its small size
+- However, `Musl LibC` is not compatible with `GLibC` which is what most software actually uses and builds against, such as debian and ubuntu
+- This means that apps may end up rebuilding native dependencies from scratch and just be overall slower as a cost for the smaller size
+- Due to this, `slim` can be a better alternative to alpine despite its slightly larger size, as it's fully capable of using binaries as is without having to recompile them against a different version of `LibC`
+- If using alpine is a must, at least make sure not to use the `--only-binary=:all` flag as it forces docker to use default binaries and not rebuild from source, which as mentioned would cause issues for alpine
+- Alpine may also require you to add C's build tools for it to be able to do its required recompiling, and again, build time is larger with alpine than with slim
+### Cache
+- Remember that docker caches previous steps as long as they remain unchanged
+- Introduce a change in a layer though, and you invalidate the cache for all subsequent layers
+- This is an important concept, as for a language like JS, you mainly want to copy over your `package.json` and `package-lock.json` files first, then build, then copy the rest of the project
+- Doing this means that we wont be rebuilding the entire app everytime a change is introduced to the code as you wont be invalidating everything starting from the very first `COPY` line, so you wont have to rebuild over and over again
+### Separate the build stage from the runtime stage
+- This wont matter if you only copy already built binaries into the container really, but consider this following docker file
+```dockerfile
+FROM golang:alpine as builder
+WORKDIR /build
+COPY . .
+RUN go build -o /app .
+
+FROM alpine
+COPY --from=builder /app /bin/app
+CMD ["/bin/app"]
+```
+- In the above file, we used golang:alpine to build our app, but instead of keeping it in the final container, we then created another base image, and only copied the built binary inside of it so that we wont also keep Go's toolchain with us needlessly and wasting space
+- We could have conserved even more space, by using `FROM scratch` where scratch is a special docker image that basically has nothing, it's completely empty and very small, so no shell, or tools, or anything, but can run a statically linked binary perfectly fine. A dynamically linked binary requiring shared libraries may be another story though
+- Although, distroless images are arguably more useful, even if they're larger, because they provide a minimal runtime environment with things that applications commonly need, such as CA certificates and a non-root user, while still omitting shells and most general-purpose OS utilities, that's otherwise missing in scratch
+### Stages
+- It's possible to have multiple `FROM` statements as seen in the above example, and each one is called a stage
+- You can have as many stages as you want, and by default the last one becomes the actual image
+- We can actually pick a stage if we want though
+```dockerfile
+FROM golang:alpine AS builder
+
+FROM alpine AS production
+COPY --from=builder /app /app
+
+FROM golang:alpine AS development
+COPY --from=builder /app /app
+```
+```bash
+docker build --target production .
+```
+- or
+```bash
+docker build --target development .
+```
+### Digest hash
+- Using `docker buildx imagetools inspect node:26-slim` can show the digest hash of the image
+- It's usually better to add that digest to the image tag to make sure you're always using the same version, as tags may be made to point at different images
+- For example the `latest` tag always point at the latest image, so it's not exactly consistent
+```dockerfile
+FROM node:26-slim@sha256:4ebb5ace66f15a24c14c492e01a8beeed4fddf970a856109f5126e703e5fe503
+```
+### Droast
+- This is just a good CLI tool that lints dockerfiles, pointing out mistakes, and roasting you for making them along the way 😅
 # Debugging
 - `docker logs [OPTIONS] CONTAINER` is the command you use to see what's happening in your container as long as it's running in detached mode `-d`
 - You can also pass a command to the container to run as you're running it with `sh -c`
