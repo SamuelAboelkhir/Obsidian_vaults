@@ -41,18 +41,18 @@ NAME = "John"   # => Error (about space)
 
 ### Arguments
 
-| Expression | Description |
-| --- | --- |
-| `$1` … `$9` | Parameter 1... 9 |
-| `$0` | Name of the script itself |
-| `$1` | First argument |
-| `${10}` | Positional parameter 10 |
-| `$#` | Number of arguments |
-| `$$` | Process id of the shell |
-| `$*` | All arguments |
-| `$@` | All arguments, starting from first |
-| `$-` | Current options |
-| `$_` | Last argument of the previous command |
+| Expression  | Description                           |
+| ----------- | ------------------------------------- |
+| `$1` … `$9` | Parameter 1... 9                      |
+| `$0`        | Name of the script itself             |
+| `$1`        | First argument                        |
+| `${10}`     | Positional parameter 10               |
+| `$#`        | Number of arguments                   |
+| `$$`        | Process id of the shell               |
+| `$*`        | All arguments                         |
+| `$@`        | All arguments, starting from first    |
+| `$-`        | Current options                       |
+| `$_`        | Last argument of the previous command |
 
 See: [Special parameters](http://wiki.bash-hackers.org/syntax/shellvars#special_parameters_and_shell_variables)
 

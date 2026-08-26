@@ -1,6 +1,6 @@
 ---
 tags: 
-- CLI
+- services
 - LI
 MOC: Technology
 ---

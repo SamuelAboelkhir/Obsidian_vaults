@@ -8,6 +8,7 @@ MOC: Programming
 ## General
 [[PG General Patterns]]
 [[PG Workflows]]
+[[PG SOLID Principles]]
 [[PG Character Encoding]]
 [[PG Regular expression syntax cheat sheet]]
 - Other Regex cheat sheet [[PG RegEX Cheat Sheet & Quick Reference]]

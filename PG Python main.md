@@ -12,6 +12,10 @@ MOC: Programming
 	- Machine learning
 	- Scripting and automation
 	- etc...
+- A ternary in python
+```python
+result: float = number / 2 if number % 2 == 0 else (number * 3) + 1
+```
 # The Zen of Python
 Tim Peters, a long time Pythonista, describes the guiding principles of Python in his famous short piece, [The Zen of Python.](https://peps.python.org/pep-0020/)
 ```

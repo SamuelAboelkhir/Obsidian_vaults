@@ -22,7 +22,7 @@ MOC: Programming
 ### Server multiplexer
 - To create a server, you need a server multiplexer (basically the same idea as a controller, where you can define different routes). You can make a mux struct with `http.NewServeMux`
 - A mux can then be assigned handlers for different routes, which are basically just structs that satisfy the `handler` interface, which run functions that return the desired http response to whoever hits the route
-- In the case of a file server, Go provides a default `http.FilerServer` handler, which can be passed a local pass to the static asset to be served, and assigned to a certain http route, where the route is an actual path on the host's filesystem, that you can specifiy with `http.Dir`
+- In the case of a file server, Go provides a default `http.FilerServer` handler, which can be passed a local path to the static asset to be served, and assigned to a certain http route, where the route is an actual path on the host's filesystem, that you can specifiy with `http.Dir`
 - You can name the path anything you want, even if that path doesn't exist on the host machine, as along as your use `http.StripPrefix` to remove the fake path (that's meant to be shown in the URL only) and pass the true path to the handler
 - You can serve your mux with all of its paths and handlers by passing it to an `http.Server` struct
 ### Server

@@ -7,7 +7,7 @@ source: "https://quickref.me/awk.html"
 ---
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
 ## Awk
-
+- A SQL-esq tool for parsing files with logical composite commands
 ## Getting Started
 
 ### Have a try
