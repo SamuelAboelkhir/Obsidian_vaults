@@ -8,6 +8,9 @@ source: "https://quickref.me/sed.html"
 [[_0000 Home|Home]] | [[_0001 Technology MOC|Back to Technology MOC]] | [[TECH Linux index|Back to index]]
 - See also [[TECH CLI Tools and Commands#File operations]]
 
+## Intro
+- Sed is basically a CLI search and replace similar to VIM's own search and replace
+- Both sed and VIM's search and replace are based on the same technology called `ED`
 ### Sed Usage
 
 Syntax

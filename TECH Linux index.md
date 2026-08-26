@@ -23,6 +23,8 @@ MOC: Technology
 [[TECH Creating a Service]]
 [[TECH Wifi hotspot service]]
 [[TECH VM firewall rules service]]
-
+[[TECH doom emacs]]
 # hyprland
 [[TECH Hyprland]]
+# Desktop apps
+[[TECH Desktop apps]]
