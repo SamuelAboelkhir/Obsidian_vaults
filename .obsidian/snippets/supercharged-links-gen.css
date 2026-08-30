@@ -96,13 +96,13 @@ div[data-id="6258-b88f"] div.setting-item-description::after,
 }
 
 div[data-id="8091-2e83"] div.setting-item-description,
-[data-link-path^="TECH" ] {
+[data-link-path^="LI" ] {
     color: var(--8091-2e83-color) !important;
     font-weight: var(--8091-2e83-weight);
 }
 
 .c-8091-2e83-use-background div[data-id="8091-2e83"] div.setting-item-description,
-.c-8091-2e83-use-background .data-link-text[data-link-path^="TECH" ] {
+.c-8091-2e83-use-background .data-link-text[data-link-path^="LI" ] {
     background-color: var(--8091-2e83-background-color) !important;
     border-radius: 5px;
     padding-left: 2px;
@@ -111,12 +111,12 @@ div[data-id="8091-2e83"] div.setting-item-description,
 }
 
 div[data-id="8091-2e83"] div.setting-item-description::before,
-.data-link-icon[data-link-path^="TECH" ]::before {
+.data-link-icon[data-link-path^="LI" ]::before {
     content: var(--8091-2e83-before);
 }
 
 div[data-id="8091-2e83"] div.setting-item-description::after,
-.data-link-icon-after[data-link-path^="TECH" ]::after {
+.data-link-icon-after[data-link-path^="LI" ]::after {
     content: var(--8091-2e83-after);
 }
 
@@ -409,7 +409,7 @@ settings:
         default: '#ffffff'
     - 
         id: 8091-2e83
-        title: path is TECH
+        title: path is LI
         description: Example note
         type: heading
         collapsed: true

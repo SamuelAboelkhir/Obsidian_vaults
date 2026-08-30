@@ -1,9 +1,9 @@
 ---
 tags:
 - EH
-MOC: IT
+MOC: EH
 ---
-[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0007 Ethical Hacking MOC|Back to Ethical Hacking MOC]]
 #### 1.  [[EH Reconnaissance]]
 1. [[TECH CLI Tools and Commands#nmap|nmap]] scan to detect possibly vulnerable ports 
 	1. Can give us ports like 139 (smb) and 80/443 (http/https)

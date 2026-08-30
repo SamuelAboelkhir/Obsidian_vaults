@@ -1,9 +1,9 @@
 ---
 tags:
 - EH
-MOC: IT
+MOC: EH
 ---
-[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0007 Ethical Hacking MOC|Back to Ethical Hacking MOC]]
 After finding potential vulnerabilities during enumeration, you want to start researching possible exploits
 - A good way to start is with google
 	- Copy the name of a tech that you suspect to be exploitable and add "exploit" to it in the search field
