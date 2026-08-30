@@ -4,9 +4,9 @@ tags:
 - Assessment
 - Index
 - EH
-MOC: Technology
+MOC: Ethical Hacking
 ---
-[[_0000 Home|Home]] | [[_0005 IT MOC|Back to Cybersecurity MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0007 Ethical Hacking MOC|Back to Ethical Hacking MOC]]
 # All Findings
 ## Findings
 ## Ports

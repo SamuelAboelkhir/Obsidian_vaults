@@ -227,3 +227,146 @@ get_age: Callable[[str], int | str] = lambda name: {
 print(get_age("lane"))
 # 29
 ```
+## First-Class and Higher-Order Functions
+- A programming language "supports first-class functions" when functions are treated like any other variable. That means functions can be passed as arguments to other functions, can be returned by other functions, and can be assigned to variables.
+    First-class function: A function that is treated like any other value
+    Higher-order function: A function that accepts another function as an argument or returns a function
+- Python does support first-class and higher-order functions.
+### First-Class Example
+```python
+from collections.abc import Callable
+
+
+def square(x: int) -> int:
+    return x * x
+
+
+# Assign function to a variable
+f: Callable[[int], int] = square
+
+print(f(5))
+# 25
+```
+### Higher-Order Example
+```python
+def square(x: int) -> int:
+    return x * x
+
+
+def my_map(func: Callable[[int], int], arg_list: list[int]) -> list[int]:
+    result: list[int] = []
+    for i in arg_list:
+        result.append(func(i))
+    return result
+
+
+squares: list[int] = my_map(square, [1, 2, 3, 4, 5])
+print(squares)
+# [1, 4, 9, 16, 25]
+```
+## Map
+- "Map," "filter," and "reduce" are three commonly used [higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function) in functional programming.
+- In Python, the built-in [map](https://docs.python.org/3/library/functions.html#map) function takes a function and an [iterable](https://docs.python.org/3/glossary.html#term-iterable) (often a list) as inputs. It returns an [iterator](https://en.wikipedia.org/wiki/Iterator) that applies the function to every item, yielding the results.
+![[Pasted image 20260829211014.png]]
+- With `map`, we can operate on lists without using loops and nasty stateful variables. For example, given this code:
+```python
+def square(x: int) -> int:
+    return x * x
+
+
+nums: list[int] = [1, 2, 3, 4, 5]
+squared_nums: list[int] = []
+for num in nums:
+    num_squared: int = square(num)
+    squared_nums.append(num_squared)
+
+print(squared_nums)
+# [1, 4, 9, 16, 25]
+```
+- We could use `map` instead, like this:
+```python
+from collections.abc import Iterator
+
+
+def square(x: int) -> int:
+    return x * x
+
+
+nums: list[int] = [1, 2, 3, 4, 5]
+squared_nums: Iterator[int] = map(square, nums)
+
+print(list(squared_nums))
+# [1, 4, 9, 16, 25]
+```
+- `map()` returns a "map object," so the [`list()` type constructor](https://docs.python.org/3/library/stdtypes.html#list) is needed to convert it back into a standard list.
+## Filter
+
+The built-in [`filter` function](https://docs.python.org/3/library/functions.html#filter) takes a function and an iterable (often a list) and returns an iterator that keeps elements from the original iterable only where the result of the function on that item returned `True`.
+![[Pasted image 20260829211711.png]]
+In Python:
+
+```python
+def is_even(x: int) -> bool:
+    return x % 2 == 0
+
+
+numbers: list[int] = [1, 2, 3, 4, 5, 6]
+evens: list[int] = list(filter(is_even, numbers))
+print(evens)
+# [2, 4, 6]
+```
+## Reduce
+- The built-in [`functools.reduce()`](https://docs.python.org/3/library/functools.html#functools.reduce) function takes a function and a list of values, and applies the function to each value in the list, _accumulating a single result_ as it goes.
+![[Pasted image 20260829211800.png|325]]
+```python
+# import functools from the standard library
+import functools
+
+
+def add(sum_so_far: int, x: int) -> int:
+    print(f"sum_so_far: {sum_so_far}, x: {x}")
+    return sum_so_far + x
+
+
+numbers: list[int] = [1, 2, 3, 4]
+sum: int = functools.reduce(add, numbers)
+# sum_so_far: 1, x: 2
+# sum_so_far: 3, x: 3
+# sum_so_far: 6, x: 4
+# 10 doesn't print, it's just the final result
+print(sum)
+# 10
+```
+- Notice that we're passing the function `add` without the `()`! It means that `reduce` will take care of execution and pass the parameters for you. Think of passing `add` like handing someone a recipe (the instructions), instead of the finished dish (the result of the execution).
+## Map, Filter, and Reduce Review
+- Higher-order functions like `map`, `filter`, and `reduce` allow us to _avoid stateful iteration and mutation of variables_.
+- Take a look at this [imperative](https://en.wikipedia.org/wiki/Imperative_programming) code that calculates the [factorial](https://en.wikipedia.org/wiki/Factorial) of a number:
+```python
+def factorial(n: int) -> int:
+    # a procedure that continuously multiplies
+    # the current result by the next number
+    result: int = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+```
+- Here's the same factorial function using `reduce`:
+```python
+import functools
+
+
+def factorial(n: int) -> int:
+    return functools.reduce(lambda x, y: x * y, range(1, n + 1))
+```
+- In the functional example, we're just combining functions to get the result we want. There's no need to reassign variables or keep track of the program's state in a loop.
+- A loop is inherently stateful! Depending on which iteration you're on, the `i` variable has a different value.
+## Zip
+- The [`zip` function](https://docs.python.org/3/library/functions.html#zip) takes two iterables (often lists), and returns a _new_ iterable where each element is a _tuple_ containing one element from each of the original iterables.
+```python
+a: list[int] = [1, 2, 3]
+b: list[int] = [4, 5, 6]
+
+c: list[tuple[int, int]] = list(zip(a, b))
+print(c)
+# [(1, 4), (2, 5), (3, 6)]
+```

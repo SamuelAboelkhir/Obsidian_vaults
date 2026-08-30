@@ -1,9 +1,9 @@
 ---
 tags:
 - EH
-MOC: IT
+MOC: EH
 ---
-[[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[EH Ethical Hacking index|Back to index]]
+[[_0000 Home|Home]] | [[_0007 Ethical Hacking MOC|Back to Ethical Hacking MOC]]
 # Server-side request forgery
 ## What it is
 - This is a vulnerability were the attacker causes a server application to send a request to an unintended location

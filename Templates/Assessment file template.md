@@ -4,6 +4,6 @@ tags:
 - Assessment
 - {type}
 - EH
-MOC: Technology
+MOC: Ethical Hacking
 ---
-[[_0000 Home|Home]] | [[_0005 IT MOC|Back to Cybersecurity MOC]] | [[EH AS Assessments index|Back to index]]
+[[_0000 Home|Home]] | [[_0007 Ethical Hacking MOC|Back to Ethical Hacking MOC]] | [[EH Assessments index|Back to index]]

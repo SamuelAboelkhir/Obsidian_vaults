@@ -1,3 +1,10 @@
+---
+tags:
+- Other
+MOC: Programming
+---
+
+[[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
 # Big files
 - Unlike small form data that we store in relational databases, big files are very large assets/files ranging from kilobytes to gigabytes
 - The rule when it comes to storing data is:

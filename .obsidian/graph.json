@@ -3,8 +3,8 @@
   "search": "-file:Home -tag:#MOC -tag:#Index  -path:assets  -path:Excalidraw  -path:copilot -file:/^WR/",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -57,7 +57,7 @@
       }
     },
     {
-      "query": "file:/^TECH/-tag:#Index",
+      "query": "file:/^LI/-tag:#Index",
       "color": {
         "a": 1,
         "rgb": 9550649
@@ -95,6 +95,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.16348370567220513,
-  "close": true
+  "scale": 0.24522556276324103,
+  "close": false
 }
