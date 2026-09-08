@@ -156,10 +156,10 @@ $dim
 #### Create matrix through vector
 - Another way to create a matrix is to create a vector first, then give it a dimension attribute
 ```R
-> m = 1:10
-> dim(m) = c(2, 5)
-> m
-> m
+m = 1:10
+dim(m) = c(2, 5)
+m
+m
 	 [,1] [,2] [,3] [,4] [,5]
 [1,]   1    3    5    7    9
 [2,]   2    4    6    8   10

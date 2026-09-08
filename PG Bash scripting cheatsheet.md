@@ -671,18 +671,18 @@ printf '%i+%i=%i\n' 1 2 3  4 5 9
 
 ### Transform strings
 
-| Command option | Description |
-| --- | --- |
-| `-c` | Operations apply to characters not in the given set |
-| `-d` | Delete characters |
-| `-s` | Replaces repeated characters with single occurrence |
-| `-t` | Truncates |
-| `[:upper:]` | All upper case letters |
-| `[:lower:]` | All lower case letters |
-| `[:digit:]` | All digits |
-| `[:space:]` | All whitespace |
-| `[:alpha:]` | All letters |
-| `[:alnum:]` | All letters and digits |
+| Command option | Description                                         |
+| -------------- | --------------------------------------------------- |
+| `-c`           | Operations apply to characters not in the given set |
+| `-d`           | Delete characters                                   |
+| `-s`           | Replaces repeated characters with single occurrence |
+| `-t`           | Truncates                                           |
+| `[:upper:]`    | All upper case letters                              |
+| `[:lower:]`    | All lower case letters                              |
+| `[:digit:]`    | All digits                                          |
+| `[:space:]`    | All whitespace                                      |
+| `[:alpha:]`    | All letters                                         |
+| `[:alnum:]`    | All letters and digits                              |
 
 #### Example
 

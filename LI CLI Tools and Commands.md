@@ -244,6 +244,22 @@ sudo swapon /swap/swapfile0
 - `lsblk`: lists block devices, so it can show available SSDs, filesystem types, mountpoints and so on
 - `cron`: Scheduled jobs
 - `crontab`: Manage cron jobs
+- `gpg`: OpenPGP encryption and signing tool
+	- Can be used to encrypt and decrypte files containing, for example, credentials
+	- `gpg --full-generate-key`: generate a gpg key
+	- `chmod 600 ~/.authinfo.gpg`: Here authinfo is the file with credentails that we want to encrypt
+	- Use the following format to create an entry: `machine pub400 login BLACKDOVA password BLACK01288137949!1`
+	- `gpg --encrypt --recipient YOUR_KEY_ID --output ~/.authinfo.gpg ~/.authinfo`: The CLI way of encrypting an `.authinfo` file
+	- `gpg --decrypt ~/.authinfo.gpg`: Decrypt the file with the gpg key
+	- `cat ~/.authinfo.gpg`: File content will be encrypted
+	- It's also possible to create the file straight in emacs `emacs ~/.authinfo.gpg`
+		- Then we add the credentials:
+			```
+			machine va-ibmi login esky001 password YOUR_PASSWORD
+			machine va-redis login YOUR_REDIS_USER password YOUR_REDIS_PASSWORD
+			machine pub400 login BLACKDOVA password YOUR_PUB400_PASSWORD
+			```
+		- Emacs's EasyPG will then ask for the GPG key to use for encryption
 ---
 ### Networking commands and tools
 

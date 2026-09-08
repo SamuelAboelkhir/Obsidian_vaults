@@ -336,6 +336,7 @@ func main() {
 ## Defer
 - This is a unique feature of Go
 - The `defer` keyword allows us to mark a function, that will be executed automatically whenever and wherever the enclosing function it was called inside of returns
+- `defer` is also LIFO, so in case of multiple defers, the last one is always executed first
 ```Go
 func GetUsername(dstName, srcName string) (username string, err error) {
 	// Open a connection to a database
@@ -2170,6 +2171,40 @@ const (
 ```
 - Note that Iota is not an `enum`, and doesn't provide the benefits of an `enum`, such as type safety, as you can still assign any number to `sendingChannel`, even if it's outside the 3 defined values here
 - It is however the closest thing we have, and still would create a list of numbered items that fall under `sendingChannel`
+# Files
+- We can interact with files in Go using the `os` package
+- Example interactions are:
+```Go
+// Create a file
+	dst, err := os.Create(assetDiskPath)
+	if err != nil {
+		respondWithError(w, http.StatusInternalServerError, "Unable to create file on server", err)
+		return
+	}
+	defer dst.Close()
+
+// Create a temp file
+	tempDir, err := os.CreateTemp("", "tubely-upload.mp4")
+	if err != nil {
+		respondWithError(w, http.StatusInternalServerError, "Unable to create file on server", err)
+		return
+	}
+	defer os.Remove(tempDir.Name())
+	defer tempDir.Close()
+
+// Reset file pointer after reading from a file
+	if _, err = io.Copy(tempDir, file); err != nil {
+		respondWithError(w, http.StatusInternalServerError, "Error saving file", err)
+		return
+	}
+
+	_, err = file.Seek(0, io.SeekStart)
+	if err != nil {
+		respondWithError(w, http.StatusInternalServerError, "Failed to reset file pointer", err)
+		return
+	}
+```
+- All examples are taken from `handler_upload_video.go` and `handler_upload_thumbnail.go` from the `learn-file-storage-s3-golang-starter` boot.dev course
 # Go Proverbs
 ```
 Don't communicate by sharing memory, share memory by communicating.
