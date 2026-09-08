@@ -18,14 +18,14 @@ $ awk -F: '{print $1, $NF}' /etc/passwd
 
 ---
 
-| \- | \- | \- |
-| --- | --- | --- |
-|  | `-F:` | Colon as a separator |
-|  | `{...}` | Awk program |
-|  | `print` | Prints the current record |
-|  | `$1` | First field |
-|  | `$NF` | Last field |
-|  | `/etc/passwd` | Input data file |
+| \-  | \-            | \-                        |
+| --- | ------------- | ------------------------- |
+|     | `-F:`         | Colon as a separator      |
+|     | `{...}`       | Awk program               |
+|     | `print`       | Prints the current record |
+|     | `$1`          | First field               |
+|     | `$NF`         | Last field                |
+|     | `/etc/passwd` | Input data file           |
 
 ### Variables
 
@@ -708,7 +708,53 @@ root       /root
 bin        /bin
 daemon     /sbin
 ```
+# My examples
+## Example 1
+```bash
+❯ awk '
+/^```R$/ {
+    in_r = 1
+    print
+    next
+}
 
+/^```$/ {
+    in_r = 0
+    print
+    next
+}
+
+in_r {
+    if ($0 ~ /^> /)
+        print substr($0, 3)
+    next
+}
+
+{ print }
+' "PG R Main.md" > "notes-clean.md"
+```
+- Explained
+```
+for every line:
+
+    if line == "```R":
+        in_r = true
+        print line
+        continue
+
+    if line == "```":
+        in_r = false
+        print line
+        continue
+
+    if in_r:
+        if line starts with "> ":
+            print line without first 2 characters
+
+        continue
+
+    print line unchanged
+```
 ## Also see
 
 - [The GNU Awk User's Guide](https://www-zeuthen.desy.de/dv/documentation/unixguide/infohtml/gawk/gawk.html) *(www-zeuthen.desy.de)*

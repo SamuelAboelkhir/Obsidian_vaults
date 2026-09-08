@@ -19,6 +19,54 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "_0002 Work MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "WR Projects index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0.8883194668492783}"
+                },
+                {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8275796496256579}"
+                },
+                {
+                  "title": "WR Projects index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":5.19245261464265}"
+                },
+                {
+                  "title": "WR Intranet",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Intranet.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Intranet\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":27},\"to\":{\"line\":19,\"ch\":27}}}"
+                },
+                {
+                  "title": "WR Projects index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":14},\"to\":{\"line\":10,\"ch\":14}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0002 Work MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8288788839973643}"
+                },
+                {
                   "title": "WR Projects index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
@@ -35,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR VA General Notes.md",
+                "file": "WR General Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR VA General Notes"
+              "title": "WR General Index"
             }
           },
           {
@@ -155,6 +203,71 @@
             }
           },
           {
+            "id": "9098d54897fdda76",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "PG Go Extras",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go Extras.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go Extras\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":17},\"to\":{\"line\":24,\"ch\":17}},\"scroll\":9.076734980082955}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8816257373569024}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Go Main.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Go Main"
+            }
+          },
+          {
             "id": "01f644ff9d525ed0",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -163,6 +276,30 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":8.666892643730144}"
+                },
+                {
+                  "title": "PG R Main",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG R Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG R Main\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Functional Programming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Functional Programming.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Functional Programming\"}",
+                  "eState": "{\"scroll\":336.9062604557013}"
                 },
                 {
                   "title": "PG Object Oriented Programming",
@@ -175,12 +312,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Functional Programming.md",
+                "file": "PG Go http server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Functional Programming"
+              "title": "PG Go http server"
             }
           },
           {
@@ -207,7 +344,7 @@
             }
           },
           {
-            "id": "f6aeb605ea444e25",
+            "id": "b0f33f3e8eefb551",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -215,448 +352,21 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "LI Vim Cheat Sheet & Quick Reference",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Vim Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Vim Cheat Sheet & Quick Reference\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0001 Linux MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "LI Linux Main",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Linux Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Linux Main\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":15},\"to\":{\"line\":4,\"ch\":15}}}"
-                },
-                {
-                  "title": "_0001 Linux MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0001 Linux MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":14},\"to\":{\"line\":7,\"ch\":14}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0001 Linux MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":9}},\"scroll\":0.01698784317831447}"
-                },
-                {
-                  "title": "_0001 Technology MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Technology MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Technology MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "EH Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Dev index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Dev index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Dev index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":3},\"to\":{\"line\":7,\"ch\":3}}}"
-                },
-                {
-                  "title": "EH Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":31},\"to\":{\"line\":11,\"ch\":31}}}"
-                },
-                {
-                  "title": "EH Blue index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Blue index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Blue index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Blue Initial Findings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Blue Initial Findings.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Blue Initial Findings\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Blue index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Blue index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Blue index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Academy index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Academy index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Academy index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Academy Flow",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Academy Flow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Academy Flow\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Academy index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Academy index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Academy index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":17},\"to\":{\"line\":16,\"ch\":17}}}"
-                },
-                {
-                  "title": "EH Academy nmap scan",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Academy nmap scan.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Academy nmap scan\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Academy index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Academy index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Academy index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Academy Initial Findings",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Academy Initial Findings.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Academy Initial Findings\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Academy index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Academy index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Academy index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":14},\"to\":{\"line\":9,\"ch\":14}}}"
-                },
-                {
-                  "title": "EH Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":31},\"to\":{\"line\":11,\"ch\":31}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":14},\"to\":{\"line\":29,\"ch\":14}},\"scroll\":5.199298370868836}"
-                },
-                {
-                  "title": "EH AS Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH AS Academy index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Academy index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Academy index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH AS Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.220621807179276}"
-                },
-                {
-                  "title": "EH Ethical Hacking",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH AS Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":125},\"to\":{\"line\":7,\"ch\":125}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.883367796129714}"
-                },
-                {
-                  "title": "EH AS Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH AS Academy index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Academy index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Academy index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":3},\"to\":{\"line\":7,\"ch\":3}}}"
-                },
-                {
-                  "title": "EH AS Assessments index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH AS Assessments index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH AS Assessments index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":19},\"to\":{\"line\":11,\"ch\":19}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.82089942180893}"
-                },
-                {
-                  "title": "EH Ethical Hacking",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "EH Reconnaissance",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Reconnaissance.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Reconnaissance\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":7},\"to\":{\"line\":3,\"ch\":7}}}"
-                },
-                {
-                  "title": "EH Ethical Hacking",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH Ethical Hacking.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":125},\"to\":{\"line\":5,\"ch\":125}}}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0007 Ethical Hacking MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":3,\"ch\":20}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0005 IT MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0007 Ethical Hacking MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0007 Ethical Hacking MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH Ethical Hacking index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":26},\"to\":{\"line\":31,\"ch\":26}},\"scroll\":0.7158499605574296}"
-                },
-                {
-                  "title": "_0005 IT MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "IT base conversion",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT base conversion.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT base conversion\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "IT index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IT index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IT index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0005 IT MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":19},\"to\":{\"line\":5,\"ch\":19}}}"
-                },
-                {
-                  "title": "_0003 Personal MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":93},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0005 IT MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0005 IT MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0005 IT MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_0001 Linux MOC.md",
+                "file": "SC Getting and Cleaning Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_0001 Linux MOC"
-            }
-          },
-          {
-            "id": "73ac10fabdba461e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Assessment index template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment index template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment index template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":19},\"to\":{\"line\":6,\"ch\":19}}}"
-                },
-                {
-                  "title": "Assessment file template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment file template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment file template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":119},\"to\":{\"line\":8,\"ch\":119}}}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_0000 Home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_0000 Home"
-            }
-          },
-          {
-            "id": "a85ff28651d40d5a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Assessment file template",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Assessment file template.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Assessment file template\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "EH SSRF",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"EH SSRF.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"EH SSRF\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Graph view",
-                  "icon": "lucide-git-fork",
-                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "SC Getting and Cleaning Data"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "8e63b7d754490c17",
@@ -683,6 +393,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
+                    "file": "WR General Index.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -872,7 +583,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wide format",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1028,7 +739,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WR Overtime And Annuals.md",
+                "file": "WR General Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -1144,35 +855,39 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "a85ff28651d40d5a",
+  "active": "04bbca8d9c05d9cd",
   "lastOpenFiles": [
-    "_0000 Home.md",
-    "Templates/Assessment index template.md",
-    "Templates/Assessment file template.md",
-    "_0001 Linux MOC.md",
-    "LI Vim Cheat Sheet & Quick Reference.md",
-    "LI Linux Main.md",
-    "sed63S1Uj",
+    "_0002 Work MOC.md",
+    "WR Projects index.md",
+    "WR Overtime And Annuals.md",
+    "WR VA General Notes.md",
+    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
+    "SC Getting and Cleaning Data.md",
+    "PG Go Main.md",
+    "PG Go http server.md",
+    "PG CDN.md",
+    "PG Go index.md",
+    "PG Go http client.md",
+    "_0006 Programming MOC.md",
+    "PG R Main.md",
+    "PG Go Extras.md",
+    "PG HTTP.md",
+    "PG WebSocket and Its Difference from HTTP.md",
+    "PG Other index.md",
+    "PG Workflows.md",
+    "assets/Linkedin_Posts_2024_Blue.pdf",
+    "PG SOLID Principles.md",
+    "PG Character Encoding.md",
+    "WR Intranet.md",
+    "PG Git.md",
     "LI CLI Tools and Commands.md",
-    "LI Sed Command Cheat Sheet & Quick Reference.md",
-    "LI Anatomy of Memory.md",
-    "TECH Linux Main.md",
-    "LI xargs.md",
-    "LI Wifi hotspot service.md",
-    "LI VM firewall rules service.md",
-    "LI Vim Regexp Cheat Sheet.md",
-    "LI SSH.md",
-    "LI Scripting.md",
-    "LI NVIM commands.md",
-    "LI Hyprland.md",
-    "LI doom emacs service.md",
     "LI Desktop apps.md",
-    "LI Creating a Service.md",
-    "LI Bash & zsh Shell Terminal Basics Cheat Sheet.md",
-    "LI Awk Command Cheat Sheet & Quick Reference.md",
-    "TECH Desktop apps.md",
-    "_0001 Technology MOC.md",
-    "_0007 Ethical Hacking MOC.md",
+    "_0001 Linux MOC.md",
+    "LI doom emacs service.md",
+    "assets/Pasted image 20260902124635.png",
+    "assets/Pasted image 20260831231140.png",
+    "assets/Pasted image 20260901005442.png",
+    "sed63S1Uj",
     "assets/sedEe7f3A",
     "assets/Pasted image 20260829211800.png",
     "assets/sediYPWYR",
@@ -1188,10 +903,6 @@
     "Excalidraw/Tldraw 2026-08-12 2.17PM.tldr",
     "assets/Pasted image 20260811011447.png",
     "assets/Pasted image 20260811011146.png",
-    "assets/Pasted image 20260811011004.png",
-    "assets/Pasted image 20260811010937.png",
-    "assets/clothes/Shirts/20260809_151221.jpg",
-    "assets/clothes/Shorts",
     "WR VA BL Schema attempt 1.canvas",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",

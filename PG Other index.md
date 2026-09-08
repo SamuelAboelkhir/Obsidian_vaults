@@ -34,6 +34,7 @@ MOC: Programming
 [[PG Docker]]
 ### From the internet
 [[PG Basics to Advanced Git Commands]]
-## HTTP
-[[PG HTTP]]
+## Web protocols
+### From the internet
+[[PG WebSocket and Its Difference from HTTP]]
 [[PG HTTP response status codes]]
