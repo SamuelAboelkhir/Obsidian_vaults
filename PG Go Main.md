@@ -2203,6 +2203,9 @@ const (
 		respondWithError(w, http.StatusInternalServerError, "Failed to reset file pointer", err)
 		return
 	}
+	
+// Read file
+
 ```
 - All examples are taken from `handler_upload_video.go` and `handler_upload_thumbnail.go` from the `learn-file-storage-s3-golang-starter` boot.dev course
 # Go Proverbs

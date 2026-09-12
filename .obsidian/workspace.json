@@ -6,17 +6,47 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 81.91757779646763,
+        "dimension": 80.04750593824228,
         "children": [
           {
             "id": "04bbca8d9c05d9cd",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
+                {
+                  "title": "PER TODO",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER TODO\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":44},\"to\":{\"line\":27,\"ch\":44}},\"scroll\":7.214830847395774}"
+                },
+                {
+                  "title": "LI CLI Tools and Commands",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI CLI Tools and Commands\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":258,\"ch\":14},\"to\":{\"line\":258,\"ch\":14}},\"scroll\":243.13624182525555}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "WR Projects index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.776582167817034}"
+                },
+                {
+                  "title": "_0002 Work MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR General Index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "_0002 Work MOC",
@@ -83,123 +113,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR General Index.md",
+                "file": "WR VA General Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR General Index"
-            }
-          },
-          {
-            "id": "e3d9e901a344f19d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "TECH CLI Tools and Commands",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"TECH CLI Tools and Commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"TECH CLI Tools and Commands\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":380,\"ch\":72},\"to\":{\"line\":380,\"ch\":72}},\"scroll\":380.0578939054801}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2025-11-29 20.06.40.excalidraw.restored",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.restored.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2025-11-29 20.06.40.excalidraw.restored\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2026-03-24 19.17.21.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-24 19.17.21.excalidraw\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2026-06-19 19.17.27.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-06-19 19.17.27.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-06-19 19.17.27.excalidraw\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2026-01-27 14.41.39.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-01-27 14.41.39.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-01-27 14.41.39.excalidraw\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Drawing 2026-06-19 19.17.27.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-06-19 19.17.27.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-06-19 19.17.27.excalidraw\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Tldraw 2026-08-12 2.11PM",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"tldraw-view\",\"state\":{\"file\":\"Excalidraw/Tldraw 2026-08-12 2.11PM.md\"},\"icon\":\"lucide-file\",\"title\":\"Tldraw 2026-08-12 2.11PM\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Tldraw 2026-08-12 2.11PM (0)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"tldraw-view\",\"state\":{\"file\":\"Excalidraw/Tldraw 2026-08-12 2.11PM (0).md\"},\"icon\":\"lucide-file\",\"title\":\"Tldraw 2026-08-12 2.11PM (0)\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":10},\"to\":{\"line\":7,\"ch\":10}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG General Patterns",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG General Patterns.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG General Patterns\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":0},\"to\":{\"line\":76,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8823529411764706}"
-                },
-                {
-                  "title": "PG SQL",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG SQL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG SQL\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8235294117647058}"
-                }
-              ]
-            },
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-24 19.17.21.excalidraw"
+              "title": "WR VA General Notes"
             }
           },
           {
@@ -321,7 +240,7 @@
             }
           },
           {
-            "id": "25f2d760d78394c1",
+            "id": "c3d99bb8bf5f9d1e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -329,6 +248,42 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":33},\"to\":{\"line\":17,\"ch\":33}}}"
                 }
               ]
             },
@@ -344,7 +299,7 @@
             }
           },
           {
-            "id": "b0f33f3e8eefb551",
+            "id": "6313b4a508463ba4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -352,26 +307,224 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":7},\"to\":{\"line\":15,\"ch\":7}},\"scroll\":0}"
+                },
+                {
+                  "title": "LI SSH",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI SSH.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI SSH\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Org Mode cheatsheet",
+                  "icon": "globe-2",
+                  "state": "{\"type\":\"webviewer\",\"state\":{\"url\":\"https://devhints.io/org-mode\",\"title\":\"Org Mode cheatsheet\",\"mode\":\"webview\"},\"icon\":\"globe-2\",\"title\":\"Org Mode cheatsheet\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Org Mode cheatsheet",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://duckduckgo.com/?q=org-mode+cheatsheet&ia=cheatsheet\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
+                  "title": "org-mode cheatsheet at DuckDuckGo",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://duckduckgo.com/?q=org-mode+cheatsheet\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
+                },
+                {
+                  "title": "org-mode cheatsheet at DuckDuckGo",
+                  "icon": "globe-2",
+                  "state": "{\"state\":{\"url\":\"https://duckduckgo.com/?q=org-mode%20cheatsheet\"},\"type\":\"webviewer\"}",
+                  "eState": "null"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SC Getting and Cleaning Data.md",
+                "file": "LI Org-Mode Reference Card.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SC Getting and Cleaning Data"
+              "title": "LI Org-Mode Reference Card"
+            }
+          },
+          {
+            "id": "10e2ae69e766d06e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "LI SSH",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI SSH.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI SSH\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LI doom emacs service",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI doom emacs service.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI doom emacs service\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.643019843582419}"
+                },
+                {
+                  "title": "LI Desktop apps",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Desktop apps.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Desktop apps\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":7},\"to\":{\"line\":2,\"ch\":7}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":7},\"to\":{\"line\":30,\"ch\":7}},\"scroll\":16.287642343258437}"
+                },
+                {
+                  "title": "LI Linux Main",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Linux Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Linux Main\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LI Hyprland",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Hyprland.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Hyprland\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":3},\"to\":{\"line\":5,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":8},\"to\":{\"line\":28,\"ch\":8}},\"scroll\":10.643019843582419}"
+                },
+                {
+                  "title": "LI Vim Cheat Sheet & Quick Reference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Vim Cheat Sheet & Quick Reference.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Vim Cheat Sheet & Quick Reference\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LI Org-Mode Reference Card",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Org-Mode Reference Card.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Org-Mode Reference Card\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LI Emacs Org Tables",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Emacs Org Tables.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Emacs Org Tables\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":7},\"to\":{\"line\":2,\"ch\":7}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LI Linux Main",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Linux Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Linux Main\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LI Neovim commands",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Neovim commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Neovim commands\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":8},\"to\":{\"line\":2,\"ch\":8}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LI Neovim commands",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Neovim commands.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI NVIM commands\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LI Org-Mode Reference Card",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Org-Mode Reference Card.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Org-Mode Reference Card\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":20},\"to\":{\"line\":7,\"ch\":20}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_0001 Linux MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_0001 Linux MOC"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 18.08242220353238,
+        "dimension": 19.95249406175772,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -393,7 +546,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "WR General Index.md",
+                    "file": "_0001 Linux MOC.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -583,7 +736,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wide format",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -617,7 +770,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.21484375
+    "width": 242.35571670532227
   },
   "right": {
     "id": "abf9a2f144801ffd",
@@ -725,30 +878,6 @@
             }
           },
           {
-            "id": "b4686196e4d86fa4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "WR General Index.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
             "id": "563e5529cdb39fec",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -765,25 +894,6 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
-            }
-          },
-          {
-            "id": "091b8a1c3995a236",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
             }
           },
           {
@@ -808,6 +918,30 @@
             }
           },
           {
+            "id": "b4686196e4d86fa4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_0001 Linux MOC.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
             "id": "5ea4da4f7f66d3cc",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -825,9 +959,28 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "0e3178e1abc03943",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "system3-sync-status",
+              "state": {},
+              "icon": "satellite",
+              "title": "Sync status"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -855,35 +1008,39 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "04bbca8d9c05d9cd",
+  "active": "10e2ae69e766d06e",
   "lastOpenFiles": [
-    "_0002 Work MOC.md",
-    "WR Projects index.md",
-    "WR Overtime And Annuals.md",
-    "WR VA General Notes.md",
-    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
-    "SC Getting and Cleaning Data.md",
-    "PG Go Main.md",
-    "PG Go http server.md",
-    "PG CDN.md",
-    "PG Go index.md",
-    "PG Go http client.md",
-    "_0006 Programming MOC.md",
-    "PG R Main.md",
-    "PG Go Extras.md",
-    "PG HTTP.md",
-    "PG WebSocket and Its Difference from HTTP.md",
-    "PG Other index.md",
-    "PG Workflows.md",
-    "assets/Linkedin_Posts_2024_Blue.pdf",
-    "PG SOLID Principles.md",
-    "PG Character Encoding.md",
-    "WR Intranet.md",
-    "PG Git.md",
-    "LI CLI Tools and Commands.md",
-    "LI Desktop apps.md",
+    "LI SSH.md",
     "_0001 Linux MOC.md",
     "LI doom emacs service.md",
+    "LI Desktop apps.md",
+    "LI Linux Main.md",
+    "LI Hyprland.md",
+    "LI Vim Cheat Sheet & Quick Reference.md",
+    "LI Org-Mode Reference Card.md",
+    "LI Emacs Org Tables.md",
+    "LI Neovim commands.md",
+    "LI Bash & zsh Shell Terminal Basics Cheat Sheet.md",
+    "PG CDN.md",
+    "PG C Main.md",
+    "PG TS.md",
+    "PG JS-TS index.md",
+    "_0006 Programming MOC.md",
+    "PG C index.md",
+    "SC Hypnagogic hallucinations.md",
+    "SC Other index.md",
+    "_0004 Sciences MOC.md",
+    "SC Chemistry.md",
+    "SC Biochemistry index.md",
+    "SC Principles of Biochemistry.md",
+    "SC Datascience index.md",
+    "WR VA General Notes.md",
+    "_0000 Home.md",
+    "Excalidraw/Libraries/local-library.excalidrawlib",
+    "Excalidraw/Libraries",
+    "Pasted image 20260909221550.png",
+    "Pasted image 20260909220312.png",
+    "assets/Linkedin_Posts_2024_Blue.pdf",
     "assets/Pasted image 20260902124635.png",
     "assets/Pasted image 20260831231140.png",
     "assets/Pasted image 20260901005442.png",
@@ -895,14 +1052,10 @@
     "assets/sedxYVXsP",
     "assets/sedUSSQSA",
     "assets/sedOSGSo6",
-    "assets/sedWB7jty",
     "assets/Pasted image 20260829211711.png",
     "assets/Pasted image 20260829211014.png",
     "assets/Pasted image 20260826112052.png",
     "assets/Pasted image 20260823200245.png",
-    "Excalidraw/Tldraw 2026-08-12 2.17PM.tldr",
-    "assets/Pasted image 20260811011447.png",
-    "assets/Pasted image 20260811011146.png",
     "WR VA BL Schema attempt 1.canvas",
     "WR Compass permissions canvas.canvas",
     "WR Church ERD.canvas",

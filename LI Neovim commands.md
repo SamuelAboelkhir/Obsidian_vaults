@@ -1,5 +1,6 @@
 ---
 tags: 
+- neovim
 - LI
 MOC: Technology
 ---

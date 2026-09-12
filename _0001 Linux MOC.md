@@ -1,7 +1,6 @@
 ---
 tags: 
-- Index
-- LI
+- MOC
 MOC: Linux
 ---
 [[_0000 Home|Home]]
@@ -12,8 +11,11 @@ MOC: Linux
 [[LI Anatomy of Memory]]
 [[LI Bash & zsh Shell Terminal Basics Cheat Sheet]]
 # VIM/Nvim
-[[LI NVIM commands]]
+[[LI Neovim commands]]
 [[LI Vim Cheat Sheet & Quick Reference]]
+# Emacs
+[[LI Emacs Org Tables]]
+[[LI Org-Mode Reference Card]]
 # Complicated CLI tools
 [[LI xargs]]
 [[LI Awk Command Cheat Sheet & Quick Reference]]
