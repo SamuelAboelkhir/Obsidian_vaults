@@ -722,6 +722,24 @@ struct Computer {
 };
 ```
 ## Enums
+- An enum is a set of named integer constants, where the integer is the value, and the identifier gives it a meaningful name
+- This means that a we're assigning identifiers to a set of numbers, such as `0="monday", 1="tuesday"` and so on
+```
+identifier       integer
+─────────────    ───────
+MONDAY              0
+TACO_TUESDAY       1
+WEDNESDAY          2
+```
+- Then you can use those integers as keys into other structures:
+```C
+const char *description[] = {
+    [MONDAY]       = "the first day",
+    [TACO_TUESDAY] = "the day of tacos",
+    [WEDNESDAY]    = "the middle day",
+};
+```
+- Here, **the enum isn't providing the descriptions**. It's providing stable identities that you can use to associate other data with the members.
 - To define an enum in C
 ```C
 typedef enum DaysOfWeek {

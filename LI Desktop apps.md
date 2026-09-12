@@ -1,6 +1,6 @@
 ---
 tags: 
-- hypr
+- linux
 - LI
 MOC: Technology
 ---

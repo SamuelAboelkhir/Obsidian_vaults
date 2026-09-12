@@ -1,5 +1,6 @@
 ---
 tags: 
+- vim
 - LI
 MOC: Technology
 source: "https://quickref.me/vim.html"
