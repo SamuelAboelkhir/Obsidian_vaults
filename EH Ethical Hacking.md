@@ -10,7 +10,7 @@ MOC: EH
 	- Active
 	- Passive
 2. Scanning and enumeration
-	- [[TECH CLI Tools and Commands#nmap|nmap]], [[EH Hacking Tools#^687ee2|nessus]], [[EH Hacking Tools#^b7c0a7|nikto]], etc
+	- [[LI CLI Tools and Commands#nmap|nmap]], [[EH Hacking Tools#^687ee2|nessus]], [[EH Hacking Tools#^b7c0a7|nikto]], etc
 3. Gaining Access ("Exploitation")
 4. Maintaining Access
 5. Covering Tracks

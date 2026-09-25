@@ -10,4 +10,4 @@ MOC: EH
 ### Linkdin
 - Investigating an organization on social media like linkdin can lead you to photos by the org or employees with important data, such as employee badges
 - Try not to look at employee profiles from you actual profile as they will get notified that you looked at their profiles
-- [[TECH Scripting#Challenge|Web scrapping script challenge]]
+- [[LI Scripting#Challenge|Web scrapping script challenge]]

@@ -2205,6 +2205,11 @@ const (
 	}
 	
 // Read file
+	fastEncodedVideo, err := os.Open(fastEncodedVideoPath)
+	if err != nil {
+		respondWithError(w, http.StatusInternalServerError, "Failed to load fast encode MP4", err)
+		return
+	}
 
 ```
 - All examples are taken from `handler_upload_video.go` and `handler_upload_thumbnail.go` from the `learn-file-storage-s3-golang-starter` boot.dev course

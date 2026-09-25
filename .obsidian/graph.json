@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-file:Home -tag:#MOC -tag:#Index  -path:assets  -path:Excalidraw  -path:copilot -file:/^WR/",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -95,6 +95,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.24522556276324103,
-  "close": false
+  "scale": 0.1634837101297543,
+  "close": true
 }

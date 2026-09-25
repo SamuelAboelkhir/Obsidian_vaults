@@ -344,4 +344,149 @@ bytes=32768-
 ```sh
 aws iam list-policies --scope Local --no-cli-pager
 ```
-- 
+## Private Bucket
+- Our `tubely` bucket is _public_ (remember how we unchecked "Block all public access" in the bucket settings when we made it?).
+- Public buckets are useful when you want to serve public content directly from them, like user profile pictures, for example. 
+- However, you should _only_ use them when you're certain all the content should be public, and you're okay with the risks of anyone on the internet using the bandwidth you pay AWS for to download your assets over and over again...
+- A good use case for a _public_ bucket might be:
+	- Users' profile pictures
+	- Public certificates of completion (we do this for Boot.dev!)
+	- Dynamically generated images for social sharing (like the link previews you see on Twitter)
+- While a _private_ bucket might contain:
+	- A user's privately uploaded documents
+	- A user's draft content that they haven't published yet
+	- The org's video content that's only available to paying customers
+## Signed URLs
+- Presigned URLs are a way to give temporary access to a private object in S3. S3 will generate a URL (by attaching a cryptographic signature) that allows access to the object for a _limited time_. 
+- To be clear, it doesn't require the user to be logged in - it's just a URL that expires.
+- The idea is that we'll generate these URLs with _very_ short life spans, and then only give them to users who have already been authenticated by your application.
+- Okay, so now that we've switched to a private bucket, we have a problem. 
+- Our code in that app's current state will generate URLs that simply put, won't work.
+- Let's use presigned URLs to fix it! 
+- Now, we're gonna do something a bit... hacky. 
+- There's no point in storing pre-signed URLs in the database, because they expire quickly. 
+- Instead, we'll use the `video_url` column to store the bucket and key of the video, then we'll use that to generate the presigned URL on the fly and respond with it on the API.
+### Presigned URLs
+- **The problem:** a private S3 bucket means a plain object URL returns `Access Denied`. The browser has no AWS credentials.
+- **The fix:** the server generates a URL with a cryptographic signature baked into the query string. Anyone holding that URL can fetch the object until it expires — no login required. Short expiry (5 minutes here) keeps the blast radius small, and your app only hands them out to already-authenticated users.
+```go
+presignClient := s3.NewPresignClient(s3Client)
+obj, err := presignClient.PresignGetObject(ctx, &s3.GetObjectInput{
+    Bucket: aws.String(bucket),
+    Key:    aws.String(key),
+}, s3.WithPresignExpires(expireTime))
+return obj.URL, nil
+```
+#### The storage pattern
+- Presigned URLs expire, so storing them is pointless. Instead the database holds a **stable pointer** to the object — `bucket,key` — and the usable URL is minted fresh on every response.
+	- **Write path:** save `bucket,key` to the database
+	- **Read path:** split on the comma, presign, swap into `VideoURL` before responding
+	- The signed version never goes back into the database
+- That ordering was the core insight, and it's a pattern you'll see anywhere ephemeral credentials meet persistent storage.
+#### Bugs worth remembering
+
+| Bug                            | Lesson                                                                                                          |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| `*video.VideoURL == nil`       | You compare the pointer to nil, then dereference. `*ptr` is already a `string`.                                 |
+| `index out of range [1]`       | `strings.Split` doesn't guarantee two parts. Check `len(parts) != 2`.                                           |
+| Bucket appeared inside the key | S3's `Key` is the path _within_ the bucket. The comma-join was your own encoding, not something S3 understands. |
+| Encoded URL inside a URL       | Stale database rows. Delete old records after changing a storage format.                                        |
+| Presigned URL saved to db      | Persist the raw value, transform only at response time.                                                         |
+- The debugging habit underneath all of it: read the stack trace's top frame and file line, and let it tell you which function to look at rather than guessing.
+## Encryption
+- Although our S3 bucket is private (which means outsiders can't gain access to the files directly without credentials), it's still good for stuff to be encrypted. 
+- After all, what if a hacker physically walked into the data center to read our customers' secrets directly?
+### At Rest
+- Files in S3 are encrypted at rest ("at rest" just means "while they're sitting in storage on disk") by default. 
+- This was not always the case, but it is now! You don't need to do anything, the S3 service takes care of all of that for you. 
+- When you access S3 with your credentials, the service decrypts the files for you before handing them over.
+### In Transit
+- When you're uploading or downloading files from S3, how do you know that someone can't intercept the data as it travels through the internet? 
+- Well, when you access S3 via the web, you're using [httpS](https://en.wikipedia.org/wiki/HTTPS). 
+- The `S` means that the data is encrypted as it travels between your computer and the S3 service.
+- When you access S3 via the SDK (in your Go code), it also uses HTTPS by default. 
+- So as long as you don't go out of your way to disable encryption, you're good to go.
+# CDNs
+## Regions
+- A [region](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) is a geographic location where AWS has data centers. Data centers are clustered into "availability zones" (or "AZ" for acronym ~~masochists~~ enjoyers).
+![[Pasted image 20260915001737.png|747]]
+- By default, your S3 bucket is replicated across multiple availability zones in a _single region_. That said, there are options to automatically replicate your bucket's data across multiple regions. (We won't do that, but it's good to know about.)
+## CDNs
+- A [Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) (CDN) is a (typically global) network of servers that caches and delivers content to users based on their geographic location.
+- When we give users a URL to an S3 object, they'll download that object from the S3 service in the region that our bucket lives in (for me, that's `us-east-2`, near Ohio in the USA).
+- If a user in Australia tries to download that object, they're going to have to wait for the data to travel from Ohio to Australia... and that's a long way! 
+- A CDN, like [AWS CloudFront](https://aws.amazon.com/cloudfront/), can help with that. 
+- It takes a static asset like an image or video and caches it on servers all over the world. 
+- When a user requests the asset, they get it from the server closest to them, which saves a lot of time.
+![[Pasted image 20260915002108.png|723]]
+- In the example above, the "origin" server is an S3 bucket, and the "edge" servers are CloudFront servers. 
+- The origin is in the US, and whenever it updates, the edge servers update their caches. 
+- Then, when a user connects in Australia, they get the copy of the asset from the edge server in Australia. Much faster!
+> Behind the scenes, creating the distribution through the UI also updates the S3 bucket policy to allow the new distribution to access files in the bucket. If you want to check the policy, go back to your S3 bucket, click on the "Permissions" tab, and look for "Bucket Policy."
+## Use CloudFront
+- Now that we have a cloudfront distribution that sits in front of our private S3 bucket, let's strip out all that signed URL stuff.
+- Signed URLs are useful for _truly_ private content, but if all you need is more protection and control over files that you want to make publicly accessible, a CDN is a better choice. 
+- CDN's like CloudFront not only offer better security than serving files directly from S3 (due to more granular controls, firewalls, and DDoS protection), but they _also_ offer better performance.
+## Invalidations
+- A CDN is a _massive, globally distributed cache_. 
+- Sure, we get massive performance improvements, because users that are geographically close to an edge server can download assets much faster than if they had to travel to the origin server.
+- But what happens when we update an asset? 
+- How long does it take the edge servers to update their versions? 
+- The answer is: _it depends_. 
+- That's always the tradeoff with cache - you need to deal with invalidations. 
+- Luckily CloudFront makes it fairly easy to force invalidations of the cache.
+- An invalidation is a request to remove an object from the cache. 
+- That means the next time a user requests the object, the edge server will have to go back to the origin server to get the latest version. 
+- That means it will be slower for the first user, but fast again for subsequent users.
+- If you're having issues with stale content, creating an invalidation is the way to fix it.
+## Why CDNs?
+- A CDN like CloudFront has two purposes (as far as the context of this course is concerned):
+	- **Speed**: Users get content from the server closest to them, which is faster than getting it from the origin server.
+	- **Security**: The origin server is hidden from the public internet, and only the CDN can access it. This is a security measure that can help prevent DDoS attacks and other malicious activity.
+- Some CDNs, like [Cloud_Flare_](https://www.cloudflare.com/), (not to be confused with Cloud_Front_) are known for their incredibly robust security features. 
+- Things like DDoS protection, Web Application Firewalls, etc.
+### What Do CDNs Serve?
+- Images and videos are certainly common, but in reality any static asset is a good fit for a CDN. 
+- At Boot.dev, they use CloudFlare's CDN to serve the static assets for our frontend:
+	- Images
+	- HTML
+	- CSS
+	- JS
+- They deploy on their edge network, which means that their users get the initial HTML document quickly. 
+- That said, their backend server is a Go application running in a single region in the United States, so any dynamic requests to their API still have to come all the way back to the US.
+# Resiliency
+## Availability
+- I mentioned earlier that one of the big advantages of "serverless" (and in particular, S3) is that it takes care of a lot of the "IT ops" work that traditionally engineers at every company had to homebrew.
+- One of those is **availability**: how often your service is up and running, serving user requests. It's often measured in "nines" - like "three nines" (99.9%) or "five nines" (99.999%).
+- See, users don't like when they log into your web app and stuff isn't loading. They don't like to hear that you're "down for maintenance".
+- AWS and S3 aren't perfect - but they are _really good_ at availability. When AWS has outages, it's [big news](https://www.theverge.com/2020/11/25/21719396/amazon-web-services-aws-outage-down-internet-problems). Partly because so much of the internet runs on AWS, but also because they're _rare_.
+- You _could_ build your own cluster of servers with better than or equal to one of the large cloud provider's availability. But it's very hard, and very expensive.
+## Reliability
+- Okay, so let's say you've got 5 9's of availability. 
+- That's `99.999%` uptime. Pretty solid. But what about _reliability_?
+- Reliability is about how well your system _works_ when it's up. 
+- For example, maybe your server is responding to HTTP requests, but it's returning erroneous data because some dependency is down. That's not reliable.
+- The reliability of S3 is very high out of the box.
+## Durability
+
+- Durability is the last in the resiliency trifecta:
+	1. Availability
+	2. Reliability
+	3. Durability
+- It's about how well your data _survives_ in the event of an outage. For example, let's say you're running your own single server:
+	1. What happens if the intern accidentally `rm -rf`s the `user_pics` directory?
+	2. What happens if the server's hard drive fails?
+	3. What happens if the data center it's in catches fire?
+- These are all _durability_ questions. 
+- Durability is primarily about _backups_ and _redundancy_. In the case of S3, it automatically replicates your data across multiple servers. If one goes down, the backups are there.
+- According to [these docs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/DataDurability.html) S3's standard storage provides 99.999999999% durability and 99.99% availability of objects over a given year. _Nice_.
+## Bucket Versioning
+- By default, S3 does _not_ store multiple versions of an object. 
+- If you upload a file to a key that already contains an object, the old object is _overwritten_.
+- [Bucket versioning](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html) is an optional feature where the bucket stores multiple versions of an object. It helps:	
+	- Prevent accidental deletion
+	- Rollback to previous versions of files
+	- Store multiple versions of files in the same key
+- On that last point, Lane recommends _primarily_ using object versions for "just-in-case" purposes, not for expected day-to-day versioning. 
+- If he has an application that stores multiple versions of the "same" object, he would probably store them in different keys entirely. 
+- If he writes a bug, he doesn't want to screw up his "user's versions"... so he prefers his infrastructure-level backups to only be used for _disaster recovery_.

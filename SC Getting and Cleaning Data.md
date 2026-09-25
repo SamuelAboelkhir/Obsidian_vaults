@@ -233,7 +233,7 @@ A-->B-->C-->D
  4 ABCExtremes       22904.
  5 ABCoptim          17807.
 ```
-- The following example will make use of 2 new dply functions, `n` and `n_distinct`, which are basically `wc`, and `unique -c`, from [[TECH CLI Tools and Commands#File operations|linux CLI]]
+- The following example will make use of 2 new dply functions, `n` and `n_distinct`, which are basically `wc`, and `unique -c`, from [[LI CLI Tools and Commands#File operations|linux CLI]]
 ```R
 > pack_sum <- summarize(by_package,
                       count = n(),
