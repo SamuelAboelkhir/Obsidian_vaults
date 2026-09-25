@@ -48,11 +48,11 @@ If you haven't already, check out the [offical Org Mode Tables documentation](ht
 
 Org mode uses the `@` symbol to denote rows and the `$` symbol to denote columns. As you see here:
 
-|   |   |   |
-|---|---|---|
-|@1 $1|@1 $2|@1 $3|
-|@2 $1|@2 $2|@2 $3|
-|@3 $1|@3 $2|@3 $3|
+|       |       |       |
+| ----- | ----- | ----- |
+| @1 $1 | @1 $2 | @1 $3 |
+| @2 $1 | @2 $2 | @2 $3 |
+| @3 $1 | @3 $2 | @3 $3 |
 
 Remember this notation, it will be everywhere in this tutorial.
 

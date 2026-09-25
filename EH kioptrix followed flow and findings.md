@@ -7,7 +7,7 @@ tags:
 MOC: EH
 ---
 [[_0000 Home|Home]] | [[_0007 Ethical Hacking MOC|Back to Ethical Hacking MOC]] | [[EH kioptrix - level 1 index|Back to index]]
-1. [[TECH CLI Tools and Commands#nmap|nmap]] scan to detect possibly vulnerable ports 
+1. [[LI CLI Tools and Commands#nmap|nmap]] scan to detect possibly vulnerable ports 
 	1. Gave us port 139 (smb) and 80/443 (http/https)
 	2. Gave us some OS info
 2. [[EH Enumeration|Enumerate]] findings by first trying to connect to the target on the browser

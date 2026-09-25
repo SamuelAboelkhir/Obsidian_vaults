@@ -8,13 +8,10 @@ MOC: Personal
 [[PER Clothes inventory]]
 # TODO
 [[PER TODO]]
-[[PER Daily TODO]]
-[[PER Groceries]]
 [[PER Questions]]
 [[PER Project ideas index]]
 
 [[PER Audio]]
-[[PER Disabled]]
 
 # Workout routine
 #### Upper

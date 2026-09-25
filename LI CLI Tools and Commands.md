@@ -244,7 +244,7 @@ sudo swapon /swap/swapfile0
 - `lsblk`: lists block devices, so it can show available SSDs, filesystem types, mountpoints and so on
 - `cron`: Scheduled jobs
 - `crontab`: Manage cron jobs
-- `gpg`: OpenPGP encryption and signing tool
+- `gpg`: The GNU Privacy Guard, using OpenPGP (Pretty Good Privacy) encryption and signing tool
 	- Can be used to encrypt and decrypte files containing, for example, credentials
 	- `gpg --full-generate-key`: generate a gpg key
 	- `chmod 600 ~/.authinfo.gpg`: Here authinfo is the file with credentails that we want to encrypt
@@ -260,6 +260,16 @@ sudo swapon /swap/swapfile0
 			machine pub400 login BLACKDOVA password YOUR_PUB400_PASSWORD
 			```
 		- Emacs's EasyPG will then ask for the GPG key to use for encryption
+- `stow`: Stow is a symlink farm manager which takes distinct sets of software and/or data located in separate directories on the filesystem, and makes them all appear to be installed in a single directory tree.
+	- It's a very good tool for managing dotfiles
+	- To use stow:
+		1. Create a directory where you want to store your symlinks
+		2. Create a directory for the specific symlink: 
+			1. `mkdir nvim/.config/`
+			2. Note that the naming convention for stow is `<name>/<location>` 
+		3. Move the dotfile to the new directory `mv ~/.config/nvim nvim/.config/nvim`
+		4. Stow it `stow nvim`
+	- Stowing the directory/file creates a symlink to the location indicated in the directory name
 ---
 ### Networking commands and tools
 

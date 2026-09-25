@@ -6,6 +6,13 @@ tags:
 MOC: Programming
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG JS-TS index|Back to index]]
+# New project
+- The easiest way may be with shadcn, but there are multiple ways
+```bash
+pnpm dlx shadcn@latest init --preset [CODE] --template vite
+# or with just vite
+pnpm create vite@latest my-app -- --template react-ts
+```
 ### React tips
 - useEffect always triggers after a render, don't use it to track changes based on user input
 - Each react component has a default `key` prop that makes different instances of the same component render as different components in general

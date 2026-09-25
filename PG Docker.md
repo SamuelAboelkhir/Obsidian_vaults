@@ -147,7 +147,7 @@ EOT
 - This means that apps may end up rebuilding native dependencies from scratch and just be overall slower as a cost for the smaller size
 - Due to this, `slim` can be a better alternative to alpine despite its slightly larger size, as it's fully capable of using binaries as is without having to recompile them against a different version of `LibC`
 - If using alpine is a must, at least make sure not to use the `--only-binary=:all` flag as it forces docker to use default binaries and not rebuild from source, which as mentioned would cause issues for alpine
-- Alpine may also require you to add C's build tools for it to be able to do its required recompiling, and again, build time is larger with alpine than with slim
+- Alpine may also require you to add C's build tools for it to be able to do its required recompiling, and again, build time is larger with alpine than with `slim`
 ### Cache
 - Remember that docker caches previous steps as long as they remain unchanged
 - Introduce a change in a layer though, and you invalidate the cache for all subsequent layers

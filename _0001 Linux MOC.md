@@ -14,6 +14,7 @@ MOC: Linux
 [[LI Neovim commands]]
 [[LI Vim Cheat Sheet & Quick Reference]]
 # Emacs
+[[LI Emacs lisp cheatsheet]]
 [[LI Emacs Org Tables]]
 [[LI Org-Mode Reference Card]]
 # Complicated CLI tools
