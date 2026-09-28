@@ -12,23 +12,23 @@
             "id": "04bbca8d9c05d9cd",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "WR Business apps",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Business apps.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Business apps\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "WR General Index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Pasted image 20260927222459",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Pasted image 20260927222459.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20260927222459\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":766,\"ch\":433},\"to\":{\"line\":766,\"ch\":433}},\"scroll\":753.8936487099154}"
                 },
                 {
                   "title": "WR Projects index",
@@ -111,14 +111,12 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "WR VA General Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/Pasted image 20260927222426.png"
               },
-              "icon": "lucide-file",
-              "title": "WR VA General Notes"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260927222426"
             }
           },
           {
@@ -587,7 +585,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "WR VA General Notes.md",
+                    "file": "assets/Pasted image 20260927222426.png",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -976,7 +974,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WR VA General Notes.md",
+                "file": "assets/Pasted image 20260927222426.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -1051,24 +1049,25 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "04bbca8d9c05d9cd",
+  "active": "3197a52ebbcc7fda",
   "lastOpenFiles": [
+    "assets/Pasted image 20260927222459.png",
+    "WR VA General Notes.md",
+    "Pasted image 20260924174713.png",
     "PG Go Main.md",
     "_0000 Home.md",
     "SC Taxonomy.md",
     "SC Biology index.md",
     "PG Templ.md",
     "assets/Go_is_GOATed.png",
-    "WR VA General Notes.md",
     "SC Plant Anatomy.md",
-    "Pasted image 20260927230335.png",
-    "Pasted image 20260927230320.png",
-    "Pasted image 20260927230041.png",
-    "Pasted image 20260927230036.png",
-    "Pasted image 20260927222848.png",
-    "Pasted image 20260927222835.png",
-    "Pasted image 20260927222459.png",
-    "Pasted image 20260927222426.png",
+    "assets/Pasted image 20260927230335.png",
+    "assets/Pasted image 20260927230320.png",
+    "assets/Pasted image 20260927230041.png",
+    "assets/Pasted image 20260927230036.png",
+    "assets/Pasted image 20260927222848.png",
+    "assets/Pasted image 20260927222835.png",
+    "assets/Pasted image 20260927222426.png",
     "_0004 Sciences MOC.md",
     "SC Chemistry index.md",
     "SC Chemistry.md",
@@ -1084,7 +1083,6 @@
     "PG CICD.md",
     "PG Docker.md",
     "PG SOLID Principles.md",
-    "Pasted image 20260924174713.png",
     "WR Overtime And Annuals.md",
     "PG Go index.md",
     "WR Intranet.md",
