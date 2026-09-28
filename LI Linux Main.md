@@ -72,6 +72,11 @@ echo "This is an env variable $VARIABLE"
 chmod +x ./example.sh
 ./example.sh
 ```
+- We can also pass a variable to a CLI tool like so
+```bash
+MY_VARIABLE=5 go run .
+```
+- Where the Go program being ran here is expecting an env variable called `MY_VARIABLE` to be supplied
 ## PATH
 - This is a built-in environment variable, and is core to the whole functionality of the shell
 - The PATH stores the location of every single executable on the system, making them instantly usable
