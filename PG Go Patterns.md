@@ -214,7 +214,7 @@ func (f *HandlerFunc) ServeHTTP(ResponseWrite, *Request) {
 	f(w, r)
 }
 ```
-- This allows us to wrap other functions with `HandlerFunc` converting their type into one that implements `Handler`, which is quite handy in handlers and middlewears in web dev
+- This allows us to wrap other functions with `HandlerFunc` converting their type into one that implements `Handler`, which is quite handy in handlers and middlewares in web dev
 ```Go
 func (cfg *apiConfig) middlewareMetricsInc(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

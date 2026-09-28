@@ -649,10 +649,25 @@ empty := struct{}{}
 type emptyStruct struct{}
 empty := emptyStruct{}
 ```
+## Casting
+- Type casting is an explicit type conversion
+- Coercion is its counterpart, which is an implicit type conversion that takes place in a language like javascript when you try something such as
+```js
+"25" + 5
+
+// results in "255"
+```
+- Casting doesn't always succeed though as the language may not always have a conversion mechanism in place between the two types, leaving you to handle it yourself. For example
+```Go
+num := 5
+float64(num) // This conversion works
+string(num) // This conversion fails
+```
+- For an `int` to `string` conversion you would need to use a tool like `strconv.Itoa`
 # Interfaces in Go
 - An interface is a collection of functions under one type
 - A struct that defines all the functions of an interface as methods with the same return types will satisfy the interface and become a member of it
-- A struct can belong to multiple interfaces
+- A struct can satisfy multiple interfaces
 ```Go
 type shape interface {
   area() float64
@@ -701,8 +716,10 @@ type Copier interface {
 }
 ```
 ## Type Assertion
-- In cases where you need to access one of the types that implement an interface, you can do so with type assertion
-- It's kinda similar to C's casting, but while C's compiler trusts you to do whatever you want, Go will actually check the type at runtime, and will PANIC if the type doesn't match the assertion
+- When you need to access the concrete type stored inside an interface, you can use a type assertion. 
+- An interface value has a static interface type and contains a concrete dynamic type and value at runtime. 
+- A type assertion extracts the concrete value from the interface and gives it the asserted type as its static type. 
+- Go checks the assertion at runtime. If the dynamic type does not match the asserted type, the assertion panics.
 ```Go
 type shape interface {
 	area() float64
