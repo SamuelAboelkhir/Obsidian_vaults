@@ -5,10 +5,10 @@ MOC: IT
 ---
 [[_0000 Home|Home]] | [[_0005 IT MOC|Back to IT MOC]] | [[NET Networking index|Back to index]]
 # Open Systems Interconnection (OSI) Model
-![OSI model](assets/proxy-image.jpeg)
+![OSI model](proxy-image.jpeg)
 
 # Common Ports and Protocols
-![Common Ports and Protocols](assets/Screenshot%20from%202025-08-24%2002-33-08.png)
+![Common Ports and Protocols](Screenshot%20from%202025-08-24%2002-33-08.png)
 
 ### 1. FTP - File Transfer Protocol
 - Generic file transfer method not specific to any OS
@@ -107,7 +107,7 @@ MOC: IT
 - SNMP traps
 	- Alerts and notifications from the network devices
 	- Uses udp/162
--  ![Network management](assets/Screenshot%20from%202025-08-29%2014-03-59.png)
+![Network management](Screenshot%20from%202025-08-29%2014-03-59.png)
 
 ### 12. LDAP and LDAPS - Lightweight Directory Access Protocol
 - Store and retrieve information in a network directory to keep track of devices on a network, users using them, and the relationship between the users and devices, and stores the data in a database
@@ -116,7 +116,7 @@ MOC: IT
 - LDAPS is a non-standard implementation of LDAP over SSL
 	- Uses tcp/636
 - Uses a hierarchical structure and categorizes devices the organization into units in a tree structure
-- ![LDAP tree structure](assets/Screenshot%20from%202025-08-29%2014-01-01.png)
+![LDAP tree structure](Screenshot%20from%202025-08-29%2014-01-01.png)
 
 ### 13. SMB - Server Message Block
 - **Refer To:** 
@@ -182,7 +182,7 @@ MOC: IT
 - Encapsulates traffic inside of IP
 	- Two endpoints appear to be directly connected to each other
 	- No built-in encryption
-	- ![GRE](assets/Screenshot%20from%202025-08-29%2014-23-37.png)
+![GRE](Screenshot%20from%202025-08-29%2014-23-37.png)
 
 ### 20. VPN - Virtual Private Network
 - Encrypted and private data traversing a public network
@@ -223,14 +223,14 @@ MOC: IT
 - Phase 2
 	- Coordinate ciphers and key sizes
 	- Negotiate an inbound and outbound SA for IPSec
-- ![Phases diagram](assets/Screenshot%20from%202025-08-29%2014-35-17.png)
+![Phases diagram](Screenshot%20from%202025-08-29%2014-35-17.png)
 
 ### 23. Transport mode and Tunnel mode
 - Transport mode inserts an IPSec Header between the IP Header and the data, and ends with an IPSec Trailer
 	- The IPs are in the clear but the data is encrypted
 	- If the data is captured, the original IP Header can be seen and traced back to the sender
 - Tunnel mode inserts the IPSec Header and Trailer around the IP Header and Data, and adds a new IP Header at the very start
-- ![IPSec](assets/Screenshot%20from%202025-08-29%2014-39-46.png)
+![IPSec](Screenshot%20from%202025-08-29%2014-39-46.png)
 - Tunnel mode is the most used mode for the upmost security
 
 ### 24. Authentication Header (AH)
@@ -238,7 +238,7 @@ MOC: IT
 	- SHA-1, SHA-256, SHA-384, or SHA-512 are common (MD5 is deprecated) 
 	- Does NOT provide encryption/confidentiality
 	- Adds the AH to the packet header
-	- ![AH](assets/Screenshot%20from%202025-08-29%2014-41-55.png)
+![AH](Screenshot%20from%202025-08-29%2014-41-55.png)
 
 ### 25. Encapsulation Security Payload (ESP)
 - Encrypts the packet
@@ -246,4 +246,4 @@ MOC: IT
 	- Provides both encryption AND authentication 
 	- Can be used with or without AH
 	- Adds a header, a trailer, and an Integrity Check Value
-	- ![ESP](assets/Screenshot%20from%202025-08-29%2014-43-25.png)
+![ESP](Screenshot%20from%202025-08-29%2014-43-25.png)

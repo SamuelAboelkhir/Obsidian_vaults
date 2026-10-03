@@ -5,7 +5,11 @@ MOC: Sciences
 ---
 [[_0000 Home|Home]] | [[_0004 Sciences MOC|Back to Sciences MOC]] | [[SC Chemistry index|Back to index]]
 ![[ColorLargeTypePeriodicTable.png]]
+
 ![[electron_config.jpg]]
+
+![[Electron_Configuration.jpg]]
+
 ![[SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf]]
 
 - **Atomic mass** → one isotope, one atom.
