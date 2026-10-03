@@ -60,7 +60,7 @@ MOC: EH
 - The name of the tool will start with its category, e.g 'auxiliary' which is meant for enumeration, followed by what it does exactly
 - You can then say `use` and the name or number of the tool that you want to use
 - Typing info will show you `info` about the tool and `options` will show you available usage options
-	-  ![Payload Options](assets/Screenshot_2025-09-04_16-24-56.png)
+ ![Payload Options](Screenshot_2025-09-04_16-24-56.png)
 - Tools will normally require you `set` an RHOST(S) which is the target(s) of your attack
 	- You can set pretty much everything in general such as the LHOST, ports, and the payload `set payload linux/x86/shell_bind_tcp`
 - Once your options are set you can then `run` or `exploit` to use the tool
@@ -71,7 +71,7 @@ MOC: EH
 	- `-f`is the coding language we generate the shellcode with
 	- `-a`is our architecture
 	- `-b`is for bad characters that should be used which we found here [[EH Buffer Overflow Steps#^d6154c|Buffer Overflow stes#Finding Bad Characters]]
-	- ![Generated ShellCode](assets/Screenshot_2025-09-13_05-14-49.png)
+![Generated ShellCode](Screenshot_2025-09-13_05-14-49.png)
 #### smbclient
 - Not exactly a hacking tool, but it can connect to an smbserver's file share
 - If you can anonymously connect to an smbserver you can get an idea of the network's file structure, and may find important files

@@ -2,7 +2,7 @@
 tags: 
 - CLI
 - LI
-MOC: Technology
+MOC: Linux
 source: "https://quickref.me/awk.html"
 ---
 [[_0000 Home|Home]] | [[_0001 Linux MOC|Back to Linux MOC]] 
