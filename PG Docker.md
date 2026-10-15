@@ -88,7 +88,7 @@ reverse_proxy caddy1:80 caddy2:80 {
 - They're basically "Infrastructure as Code (IaC)" for an image
 - Using dockerfiles, we wont need to manually install dependencies on the server, just add the dockerfile into source control and build it automatically
 #### Commands
-##### Dockerizing GO
+##### Dockerizing [[PG Go Main|Go]]
 - The base image is selected with the `FROM` command
 	- `FROM debian:stable-slim`
 - You can also make the container run a command upon running with `CMD`
@@ -119,9 +119,9 @@ COPY goserver /bin/goserver
 ENV PORT=8991
 CMD ["/bin/goserver"]
 ```
-- The Go server is configured to use the "PORT" variable from the OS environment, so it will use any "PORT" value that we set as its port
-##### Dockerizing python
-- Unlike GO which was super easy to dockerize since it's a compiled language that like `C` just gives us a binary to run, python is interpreted, and we would need the python interpreter as a dependency
+- The [[PG Go Main|Go]] server is configured to use the "PORT" variable from the OS environment, so it will use any "PORT" value that we set as its port
+##### Dockerizing [[PG Python main|Python]]
+- Unlike [[PG Go Main|Go]] which was super easy to dockerize since it's a compiled language that like [[PG C Main|C]] just gives us a binary to run, [[PG Python main|Python]] is interpreted, and we would need the [[PG Python main|Python]] interpreter as a dependency
 - For that we can use `RUN`
 	- `RUN` will execute any command passed to it to create a new layer on top of the current image, which is then used in the next step in the Dockerfile
 	- This is unlike `CMD` which executes commands once the container is actually running

@@ -14,3 +14,4 @@ MOC: Personal
 - [[PER My own ASCII art]]
 - [[PER Password manager]]
 - [[PER Interactive science learning website]]
+- Go wrapper around ffmpeg, using bubble tea

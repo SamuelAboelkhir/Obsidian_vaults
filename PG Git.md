@@ -74,14 +74,14 @@ MOC: Programming
 - Git stores a full snapshot of files on a per-commit level. This means that while git doesn't duplicate files, it doesn't just store the changes you made in a file, but an entire new file containing the changes, with a new hash.
 - This is how git is able to track a file's changes throughout the branch's history, and how it's able to revert back to an old version of the file
 - A branch is a pointer to a specific commit
-	- A branch isn't your typical `C` pointer, but rather it's a ref (hash) or named pointer that points to the tip commit of a branch (last commit of a branch) which is also a hash, but not a ref, a ref only points to another hash
+	- A branch isn't your typical [[PG C Main|C]] pointer, but rather it's a ref (hash) or named pointer that points to the tip commit of a branch (last commit of a branch) which is also a hash, but not a ref, a ref only points to another hash
 - Normally git only needs the first 7 digits of a hash to function, but from what I found, you can actually pass just the first 4 to a command and it will work just fine
 - An example of this system is that:
 	- If you `git log` and get the hashes of the commits
 	- You can then `git cat-file` with the hash of the tree the commit is showing
 	- This will bring back the blob, then `git cat-file` on the blob's hash will show the file's contents
 - From these findings it's obvious that git uses a tree data structure to function
-- The head though which is normally a references that references other refs (branch hashes) can also be detached and point at a commit directly
+- The head though which is normally a reference that references other refs (branch hashes) can also be detached and point at a commit directly
 	- If this happens you basically end up with a linked list as you will only know about this one branch, which is why it's detached
 	- You can rejoin society though by creating a proper branch off of the detached head
 # Merging and rebasing
@@ -109,7 +109,7 @@ MOC: Programming
 - Similarly, `--hard` takes you back to a previous commit, but this time, all changes in the work tree, and any commit after the one you're going back to, are discarded
 # Remote
 - `git remote add <name> <url>` adds another git repo, on a server or even on your own device as a remote related repo, that by convention is the "authoritative source of truth" for your repo
-- By convention when we add a remote repo, we name it "origin"
+- By convention when we add a remote repo, we name it "origin" 
 - `git fetch` fetches all meta data from the remote branch without applying the changes to your local repo
 	- It's useful if you want to check where your colleagues are at with their own changes before applying it with `git pull` in order to review the project's progress and potentially avoid merge conflicts
 - We can also `git merge [<remote>/<branch>]` to merge a remote branch into a local branch
@@ -165,7 +165,7 @@ MOC: Programming
 - It's basically git log but with a step by step path made of every action taken, such as commits and branch switches all the way to step 0 which is where you're at now
 - Reflog also, unlike log, doesn't just show you what's currently available in the branch, but if you were to `git reset`, which would remove a commit and by consequence remove it from `git log`, `git reflog` will tell you that you reset a commit
 - Reflog basically follows the movement of the HEAD ref
-- Imagine you deleted a branch with a unique command on it, and you need that commit, now what?
+- Imagine you deleted a branch with a unique commit on it, and you need that commit, now what?
 - Well, thanks to reflog, you can recover the hash of that commit, and follow it down with `git cat-file` all the way till you find the blob's contents
 - The resulting chain of commands would look like this
 ```bash

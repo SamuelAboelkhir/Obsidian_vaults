@@ -6,7 +6,7 @@ MOC: IBMi
 source: "https://www.ibm.com/docs/en/i/7.1.0?topic=integrity-journaling"
 ---
 
-[[_0000 Home|Home]] | [[__0008 IBM i MOC|Back to IBMi MOC]] 
+[[_0000 Home|Home]] | [[_0008 IBM i MOC|Back to IBMi MOC]] 
 
 # Journaling
 - The DB2® for i journal support provides an audit trail and forward and backward recovery.

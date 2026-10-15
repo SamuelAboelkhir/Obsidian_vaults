@@ -1324,7 +1324,7 @@ analytics.MessagesTotal
 - If you try to dereference a nil pointer, it will cause a runtime error, and `panic` (I wonder if we can defer a recover just in case)
 - So, just like in C, always check if a pointer is nil before actually dereferencing it
 ## Pointer Receivers
-- In Go, a pointer receiver is more popular that value receivers for struct methods since you usually want to alter the value of the receiver
+- In Go, a pointer receiver is more popular than value receivers for struct methods since you usually want to alter the value of the receiver
 - Apparently, a method with pointer receivers doesn't need a pointer to be used when calling the method. The pointer will automatically be derived from the value
 ```Go
 // Pointer receiver

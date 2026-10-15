@@ -118,4 +118,203 @@ MOC: Sciences
 - They're also brittle and shatter if force is applied
 ![[Pasted image 20261001224759.png]]
 ## Covalent Bonds
-- 
+- **Covalent Bond**: A sharing of electrons by two non-metal atoms
+- **Polar Covalent Bond**: An unequal sharing of electrons between two non-metal atoms
+## Lewis structures
+- This is a representation of a molecule, that shows how the valence electrons are arranged among the molecule's atoms
+- Bonding involves the valence electrons of atoms
+- The dots around an element's symbol represents the valence electrons of the element
+- Elements of the same group have the same valence electron [[SC Periodic Table#Properties of the table#Groups|See periodic table notes]]
+![[image.MTLTW3.png]]
+### Lewis structures of molecules
+- **Single Bond**: Two atoms sharing one electron pair, such $H_2$
+- **Double Bond**: Two atoms sharing two pairs of electrons such as $O_2$
+- **Triple Bond**: Two atoms sharing three pairs of electrons such as $N_2$
+- **Resonance Structures**: More than one Lewis Structure can be drawn for those molecules, for example $O_3$
+### Rules for Lewis structures of molecules
+1. Count the valence electrons for each atom
+2. Draw the skeleton structure for the molecule
+	- Join the atoms by a single bond (the shared electron)
+	- The central atom is the least [[SC Periodic Table#Electronegativity|electronegative]] atom, and is written first (O > N > C)
+		- For example, F is never central while H is always terminal
+3. Determine no. of valence electrons available for distribution (total V.E - no. of shared electrons)
+4. Determine no. of valence electrons required to fit the octet rule for each atom, except H again
+	1. If V.E in step 3 = V.E in step 4 then distribute the available electrons on the terminal atoms first, then the central atom to satisfy the octet (as unshared electron pairs)
+	2. If no. of V.E in step 3 is less than that of step 4 by 2 electrons, then convert the single bond into a double bond
+	3. If no. of V.E in step 3 is less than that of step 4 by 4 electrons, then convert the single bond into 2 double bonds, or a triple bond
+#### Examples
+##### Ex.1 Lewis structure of $OCl]^-$
+1. Total V.E = O(6e) + Cl(7e) + negative(1e) = 14 electrons
+2. Skeleton is O - Cl $]^-$
+3. No. of V.E available for distribution is 14e(total V.E) - 2e(1 single bond) = 12e
+4. No. of electrons required to fit the octet rule for each atom from the skeleton is 6 for O and 6 for Cl which is 12
+	- Here step 3 = step 4 so we just distribute the available electrons on the 2 atoms to satisfy the octet
+![[image.5B6YW3.png|290]]
+##### Ex.2 Lewis structure of $SO_2$
+1. Total V.E = 2O(2*6) + S(6) = 18
+2. Skeleton is O - S - O
+3. No. of V.E available for distribution is 18 - 4(2 single bonds) = 14
+4. No. of electrons required to fit the octet is 12 for the 2 O and 4 for the S(it has two from the two single bonds already) = 16e
+	- Here step 3 is less than step 4 by 2 V.E, so we need to convert 1 single bond into a double bond, and distribute the remaining electrons starting with the terminal atoms
+![[image.9QYTW3.png|447]]
+##### Ex.3 Lewis structure of $NO]^+$
+1. So O(6) + N(5) - the positive charge(we're missing an electron) = 10e
+2. Skeleton is N - O $]^+$
+3. No. of V.E available for the distribution is 10 - 2 from the single bond = 8e
+4. No. of electrons required to fit the octet is 6 for the O and 6 for the N which is 12e
+	- Step 3 is less than step 4 by 4e so 2 double bonds or a triple bond is needed, and we only have 2 atoms, so a triple bond it is
+![[image.K61QW3.png|188]]
+## Exceptions to the octet rule
+- Three types of ions and molecules don't follow the octet rule
+	- Those with an odd number of electrons
+	- Those with less than an octet
+	- Those with more than eight valence electrons (an expanded octet)
+### Odd number of electrons
+- Relatively rare and usually quite unstable and reactive
+- An example is NO which as previously stated has 5 electrons for the N and 6 for the O for a total of 11 V.E
+![[image.0EZQW3 1.png|416]]
+### Less than an octet
+- Such as BF3 and BeF2
+![[Pasted image 20261010171030.png|219]]
+### More than an octet
+- Some central atoms can exceed an octet, such as with Al, Si, P, S, Cl, As, Br, Xe, etc. [ PCl5, SF6, XeF4, ClF3]
+![[Pasted image 20261010171145.png|238]]
+- PCl5 can only exist if P has 10 electrons around it
+- An octet is allowed to expand starting with elements on the 3rd row and below, as these atoms can fill their d orbitals, which in this case do participate in the bonding
+- PO4$]^{3-}$ can be drawn with 8 electrons around the central phosphorus, however, it's better for the structure to have a double bond with one of the oxygens
+![[image.UCOZW3.png|520]]
+- This is because it eliminates the charge on the phosphorus as well as the charge on one of the oxygens
+- The rule of thumb is: For a central atom that's on the 3rd period or below, if expanding its octet can eliminate some formal charges, do so
+## Formal charge
+- $C_f = E_v -(E_u + 1/2 E_b)$
+	- $E_v$: no. of valence electrons of the atom
+	- $E_u$: no, of unshared electrons around the atom (lone pairs)
+	- $E_b$: no. of bonding electrons shared by the atom
+- A more stable Lewis structure has
+	- Highly electronegative atoms (-ve $C_f$)
+	- A $C_f$ value that's zero or lower
+- Therefore, the best Lewis structures are the ones with the fewest charges, and the ones that put a negative charge on the most electronegative atom
+![[image.P0TUW3.png|501]]
+## Drawing Lewis structures
+### Resonance structure
+A resonance structure is one structure from a group of Lewis structures that describe the same molecule which can't be accurately depicted using a single Lewis structure
+In other words, like the above image, some molecules have an equal chance to exist in more than one configuration. These configurations form a group of structures in which the structures are resonant to each other
+
+The real molecule in these cases is a **hybrid** or **average** of the resonance structures. That doesn't mean that it flips back and forth between the possible structures, it just exists in an in between structure of sorts
+
+The following two ozone structures are equivalent, except for in their electrons placement
+
+![[Pasted image 20261013004327.png|478]]
+
+Then we have ll the possible resonance structures for $NO_3^-$, which a V.E of 5 + 3x6 + 1 = 24
+![[Pasted image 20261013004529.png|536]]
+## Valence Shell Electron Pair Repulsion (VSEPR) Theory
+- This is a method for predicting the shape or geometry of a molecule from its central atom's electron groups
+![[image.LWY3W3.png|392]]
+
+Electron pairs, both bonding and non-bonding, repel one another, and as a result, the electron pairs remain as far apart as possible to minimize this repulsion
+
+- Two electron pairs in the valence orbital are arrange **linearly**
+- Three electron pairs would be arranged in a **trigonal planar**
+- Four electron pairs will form a **tetrahedral**
+- Five electron pairs will form a **trigonal bipyramid**
+- Six electron pairs will form an **octahedral**
+
+The repulsion of lone pairs is normally **higher** than the repulsion of bonded pairs
+
+![[image.5QA1W3.png|389]]
+
+![[image.GIJTW3.png|535]]
+
+The most stable arrangement of electron pairs, is the one that maximizes their separation, whether they're bonded or not
+
+The non-bonding electron pairs are as important in determining the structure as the bonding ones
+
+Non-bonding electrons do however take more space in the valence shell than the bonding ones
+
+If one or more of the electron pairs are lone pairs, the distribution of the electron pairs and the geometrical shape of the molecule will differ
+Bond angles for example decrease as the number of non-bonding electron pairs increases
+
+Repulsion strength isn't fixed, and different pairs repulse each other differently
+The order of repulsion strengths is:
+- lone pair long pair > lone pair bonded pair > bonded pair bonded pair
+![[image.ASJ4W3.png|356]]
+
+![[image.P13UW3.png|355]]
+
+![[image.6TVXW3.png|358]]
+
+## Applying the VSEPR theory
+- Draw the Lewis structure of the molecule or polyatomic ion
+- Determine $AX_nE_m$ by using the number of:
+	- Unshared electron pairs (E)
+	- Number of bonds (electron pairs or terminal atoms) (X) around the central atom (A)
+	- Multiple bonds count as a single bond
+	- Establish the geometrical orientation of the electron pairs around the central atom
+![[image.IM5NW3.png|440]]
+
+### Examples
+The following are the shapes and bond angles of CO2, HCN, CH4, NH3, and H2O using the VSEPR theory
+
+![[image.U6YYW3.png]]
+
+
+![[image.3DWUW3.png]]
+
+![[image.KIMXW3.png]]
+
+![[image.S323W3.png]]
+
+![[image.D5B5W3.png]]
+
+## Valence bond theory
+- Covalent bonds are formed from the overlap of atomic orbitals, each containing an electron of opposite spins
+- Valence bond theory describes a bond as an overlap of atomic **hybrid** orbitals
+- Sigma bonds are strong bonds formed from a face to face bond between two orbitals, whether its S-S or S-P or P-P
+- A pi bond is a weaker bond formed from a side bonding between two P orbitals though
+
+![[image.F1IMW3.png]]
+
+![[image.ZHLSW3.png]]
+
+![[image.54SNW3.png]]
+
+| Valence Electron Pair Geometry | Number of Orbitals | Hybrid Orbitals |
+| ------------------------------ | ------------------ | --------------- |
+| Linear                         | 2                  | $sp$            |
+| Trigonal PLanar                | 3                  | $sp^2$          |
+| Tetrahedral                    | 4                  | $sp^3$          |
+| Trigonal Bipyramidal           | 5                  | $sp^3d$         |
+| Octahedral                     | 6                  | $sp^3d^2$       |
+Hybridization is also possible within an atom without overlap, such as with Carbon which can promote a 2s electron into a 2p orbital and form 4 sp3 orbitals that are 25% s and 75% p in their characteristics
+
+| Hybridization | Total Orbitals | Description                                                                                                                                                                                                                                                                       |
+| ------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $sp$          | 2              | 2 equal orbitals directed linearly ($BeCl_2$)<br>2 pure p orbitals un-hybridized<br>If there is an electron in each un-hybridized p<br>orbital, then two π components can form creating a<br>triple bond as in ethyne ($C_2H_2$)                                                  |
+| $sp^2$        | 3              | 3 equal orbitals directed to the corners of an<br>equilateral triangle (trigonal planar) ($BF_3$)<br>1 pure p orbital un-hybridized<br>If there is an electron in the un-hybridized p<br>orbital, then one π component can form creating a<br>double bond as in ethene ($C_2H_4$) |
+| $sp^3$        | 4              | 4 equal orbitals directed to the corners of a<br>tetrahedron ($CH_4$)<br>π components and hence multiple bonds are not<br>possible as all p orbitals were used in the<br>hybridization                                                                                            |
+| $sp^3d$       | 5              | 5 equal orbitals in a trigonal bipyramidal arrangement                                                                                                                                                                                                                            |
+| $sp^3d^2$     | 6              | 6 equal orbitals in an octahedral arranagement                                                                                                                                                                                                                                    |
+### Bond structures
+- S-S bond
+![[Sigma-Bond-s-s-Orbital-Overlap.jpg|408]]
+
+- S-P bond
+![[Sigma-Bond-s-p-Orbital-Overlap.jpg|441]]
+
+- P-P bond
+![[Sigma-Bond-p-p-Orbital-Overlap.jpg|325]]
+
+- P-P Pi bond
+![[Pi-Bond-p-p-Orbital-Overlap.jpg|319]]
+
+- Sigma and Pi bonds
+![[Sigma-and-Pi-Bonds.jpg|358]]
+
+- Ethene example
+![[Ethene-Lewis-Structure.jpg|374]]
+
+- Ethene's bonds
+![[Sigma-and-Pi-Bonds-Examples.jpg|430]]
+# Resources
+- https://chemistryfigures.com/lewis-structures?formula=NO%2B is a very good website for generating figures from formulas

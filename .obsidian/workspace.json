@@ -6,7 +6,7 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 84.0670859538784,
+        "dimension": 84.07138136153338,
         "children": [
           {
             "id": "04bbca8d9c05d9cd",
@@ -15,16 +15,16 @@
               "pos": 2,
               "stack": [
                 {
-                  "title": "WR General Index",
+                  "title": "WR Lessons learned from pricing app",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":23},\"to\":{\"line\":7,\"ch\":23}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Lessons learned from pricing app.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Lessons learned from pricing app\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0.7676959970772236}"
                 },
                 {
-                  "title": "WR AI utilization dump",
+                  "title": "WR Projects index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR AI utilization dump.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR AI utilization dump\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":0},\"to\":{\"line\":38,\"ch\":0}},\"scroll\":24.913443584171866}"
                 },
                 {
                   "state": "{}",
@@ -122,59 +122,6 @@
             }
           },
           {
-            "id": "d45e39fc639ee631",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 2,
-              "stack": [
-                {
-                  "title": "WR Code Review Flow",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Code Review Flow.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Code Review Flow\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR General Index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR General Index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0002 Work MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":3},\"to\":{\"line\":5,\"ch\":3}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WR Overtime And Annuals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WR Overtime And Annuals"
-            }
-          },
-          {
             "id": "26ec0eb41e0ee5a7",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -182,6 +129,24 @@
               "stack": [
                 {
                   "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "image.0EZQW3",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Chemistry/image.0EZQW3.png\"},\"icon\":\"lucide-image\",\"title\":\"image.0EZQW3\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Pasted image 20261010171030",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Chemistry/Pasted image 20261010171030.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261010171030\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Drawing 2026-03-24 19.17.21.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md\"},\"icon\":\"excalidraw-icon\",\"title\":\"Drawing 2026-03-24 19.17.21.excalidraw\"}",
                   "eState": "{}"
                 },
                 {
@@ -213,10 +178,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md"
+                "file": "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-24 19.17.21.excalidraw"
+              "title": "Drawing 2025-11-29 20.06.40.excalidraw"
             }
           },
           {
@@ -390,6 +355,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "SC Chemistry index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":21},\"to\":{\"line\":11,\"ch\":21}}}"
+                },
+                {
+                  "title": "SC Bonding & Structure",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Bonding & Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Bonding & Structure\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":36},\"to\":{\"line\":82,\"ch\":36}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Java",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Java.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Java\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "PG Java index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Java index.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Java index\"}",
@@ -442,166 +425,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Java.md",
+                "file": "SC Isomerism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Java"
+              "title": "SC Isomerism"
             }
           },
           {
-            "id": "39f93ef4d7503db4",
+            "id": "25431475ffcdcba0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 3,
               "stack": [
                 {
-                  "title": "SC Taxonomy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Taxonomy.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Taxonomy\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":66},\"to\":{\"line\":91,\"ch\":66}},\"scroll\":69.32571675490365}"
+                  "title": "Pasted image 20261013004529",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Chemistry/Pasted image 20261013004529.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261013004529\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Pasted image 20261013004327",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Chemistry/Pasted image 20261013004327.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261013004327\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "image.P0TUW3",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Chemistry/image.P0TUW3.png\"},\"icon\":\"lucide-image\",\"title\":\"image.P0TUW3\"}",
+                  "eState": "{}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "SC Plant Anatomy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Plant Anatomy.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Plant Anatomy\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":92},\"to\":{\"line\":78,\"ch\":92}},\"scroll\":0}"
-                },
-                {
-                  "title": "SC Biology index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biology index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biology index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
-                },
-                {
-                  "title": "SC Taxonomy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Taxonomy.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biology\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":27},\"to\":{\"line\":6,\"ch\":27}}}"
-                },
-                {
-                  "title": "SC Biology index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biology index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biology index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "_0004 Sciences MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "SC Biology index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biology index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biology index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}}}"
-                },
-                {
-                  "title": "_0004 Sciences MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":20},\"to\":{\"line\":5,\"ch\":20}}}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":31},\"to\":{\"line\":17,\"ch\":31}}}"
-                },
-                {
-                  "title": "PG Go Main",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go Main\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC Biology index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SC Biology index"
-            }
-          },
-          {
-            "id": "e01bbba8cf38e997",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SC Chemistry index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":26},\"to\":{\"line\":10,\"ch\":26}},\"scroll\":0}"
-                },
-                {
-                  "title": "SC Bonding & Structure",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Bonding & Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Bonding & Structure\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7627946627317683}"
-                },
-                {
-                  "title": "SC Chemistry index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":29},\"to\":{\"line\":9,\"ch\":29}},\"scroll\":0}"
-                },
-                {
-                  "title": "SC Chemistry",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "SC Chemistry index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "SC Coordination Chemistry",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Coordination Chemistry.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Coordination Chemistry\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":9},\"to\":{\"line\":25,\"ch\":9}},\"scroll\":24.572131086825724}"
-                },
-                {
-                  "title": "SC Chemistry index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":16},\"to\":{\"line\":8,\"ch\":16}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0004 Sciences MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "SC Biology index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biology index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biology index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "SC Taxonomy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Taxonomy.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Taxonomy\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0}"
                 }
               ]
             },
@@ -617,7 +475,171 @@
             }
           },
           {
-            "id": "5cd54a5a1e866892",
+            "id": "20f195e942f03a8e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SC Chemistry index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC Chemistry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SC Chemistry"
+            }
+          },
+          {
+            "id": "632e12fd7b488c68",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "Pasted image 20261013213638",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Biochemistry/Attachments/Pasted image 20261013213638.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261013213638\"}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SC Biochemistry index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC Principles of Biochemistry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SC Principles of Biochemistry"
+            }
+          },
+          {
+            "id": "fc567a4d99008b76",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":5.960365949096052}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.32599127150604}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Go http server",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http server.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http server\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7676959970772236}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Git"
+            }
+          },
+          {
+            "id": "df22fc5825476af0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":11},\"to\":{\"line\":18,\"ch\":11}},\"scroll\":1.3972947097871122}"
+                },
+                {
+                  "title": "PG Bash index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Bash index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Bash index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":5.960365949096052}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":19},\"to\":{\"line\":15,\"ch\":19}},\"scroll\":0.7676959970772236}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PG Go Main.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PG Go Main"
+            }
+          },
+          {
+            "id": "6bed2f98b79d667b",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -631,21 +653,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR VA ISAAC.md",
+                "file": "PER Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR VA ISAAC"
+              "title": "PER Questions"
+            }
+          },
+          {
+            "id": "c02e5660c2e75673",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_0000 Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_0000 Home"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 15.932914046121594,
+        "dimension": 15.928618638466624,
         "children": [
           {
             "id": "5345fe004c76117d",
@@ -667,7 +712,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "SC Periodic Table.md",
+                    "file": "PER Questions.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -768,7 +813,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.13348390293139636,
+                      "scale": 0.2701365769852864,
                       "close": true
                     }
                   },
@@ -858,7 +903,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
@@ -1075,7 +1120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SC Periodic Table.md",
+                "file": "PER Questions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -1104,7 +1149,7 @@
             }
           },
           {
-            "id": "f81b03d6417975fb",
+            "id": "af65694983c152d8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1150,48 +1195,50 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "e01bbba8cf38e997",
+  "active": "6bed2f98b79d667b",
   "lastOpenFiles": [
-    "SC Biology index.md",
-    "SC Taxonomy.md",
-    "SC Periodic Table.md",
-    "SC Chemistry index.md",
-    "SC Bonding & Structure.md",
-    "SC Chemistry.md",
+    "_0000 Home.md",
+    "PER Questions.md",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
+    "PG Go Main.md",
+    "_0006 Programming MOC.md",
+    "PG Java index.md",
+    "PG Go index.md",
+    "PG Bash index.md",
+    "_0001 Linux MOC.md",
     "WR VA General Notes.md",
-    "WR AI utilization dump.md",
-    "WR General Index.md",
-    "WR Overtime And Annuals.md",
-    "WR Code Review Flow.md",
-    "_0002 Work MOC.md",
     "WR Projects index.md",
-    "WR VA ISAAC.md",
-    "PG Docker.md",
-    "PG Alogrithms index.md",
-    "PG doubly linked lists.md",
+    "WR Lessons learned from pricing app.md",
+    "WR Compass.md",
+    "WR Bit.it TODO.md",
+    "WR Bid.it Schema.canvas",
+    "WR Church ERD.canvas",
+    "WR Church Tasks.md",
+    "PG Git.md",
+    "PG Other index.md",
+    "PG Go http server.md",
+    "SC Principles of Biochemistry.md",
+    "SC Isomerism.md",
+    "SC Chemistry index.md",
+    "SC Periodic Table.md",
+    "SC Bonding & Structure.md",
+    "PG Java.md",
+    "Pasted image 20261013235429.png",
+    "Pasted image 20261013234941.png",
+    "Biochemistry/Attachments/Pasted image 20261013213638.png",
+    "Biochemistry/Attachments/Pasted image 20261013234344.png",
+    "Biochemistry/Attachments/Pasted image 20261013233623.png",
+    "Biochemistry/Attachments/Pasted image 20261013232004.png",
+    "Biochemistry/Attachments/Pasted image 20261013223402.png",
+    "Biochemistry/Attachments/Pasted image 20261013222137.png",
+    "Biochemistry/Attachments/Pasted image 20261013221817.png",
+    "Biochemistry/Attachments/Pasted image 20261013221330.png",
+    "SC Biochemistry index.md",
+    "SC Equations.md",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/20-pdf-slides-doubly-linked-lists.pdf",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/19-pdf-slides-singly-linked-lists.pdf",
-    "PG singly linked lists.md",
-    "PG stacks.md",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/21-1-pdf-slides-stacks.pdf",
-    "PG queues.md",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/21-2-pdf-slides-queues.pdf",
-    "PG searching algorithms.md",
-    "_0006 Programming MOC.md",
-    "Pasted image 20261001224759.png",
-    "Pasted image 20261001224442.png",
-    "image.HFUKW3.png",
-    "Pasted image 20261001223932.png",
-    "Pasted image 20261001222759.png",
-    "Pasted image 20261001222746.png",
-    "Pasted image 20261001222623.png",
-    "Pasted image 20261001222545.png",
-    "image.O0A3V3.png",
-    "assets/Chemistry/ColorLargeTypePeriodicTable.png",
-    "EH kioptrix nikto.md",
-    "PG CDN.md",
-    "PG Templ.md",
-    "PG Jira.md",
     "assets/Biology",
     "assets/Chemistry",
     "assets/Data science",
@@ -1199,8 +1246,6 @@
     "WR Compass permissions canvas.canvas",
     "assets/pdfs/CheatSheet.pdf",
     "assets/pdfs/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
-    "WR VA BL Schema attempt 1.canvas",
-    "WR Church ERD.canvas",
-    "WR Bid.it Schema.canvas"
+    "WR VA BL Schema attempt 1.canvas"
   ]
 }

@@ -6,56 +6,186 @@ MOC: Sciences
 [[_0000 Home|Home]] | [[_0004 Sciences MOC|Back to Sciences MOC]] | [[SC Biochemistry index|Back to index]]
 
 # Unit 1: Introduction to Biochemistry
-
 ## Core concepts:
+### 1.1.1
+- The main difference between living and non-living matters is not the type of elements, but rather the amount of each element. 
+- Another big difference is the continuous biochemical reactions done by living organisms.
+- Oxygen, Carbon Hydrogen, and Nitrogen make up 95% of the weight of the human body
+- Carbon by itself represents 50% of desiccated living matter
+- These elements however exist in trace amounts in the earth crust, except for Oxygen which makes up 49% of the crust
+- Oxygen, Iron, Aluminum, and Silicon are the major components of the crust, even though, Oxygen aside, the rest exist in trace amounts in the human body
+- Living organisms find it more advantageous to use one element (Carbon) for multiple purposes and its versatility makes it able to form multiple different structures and chemical bonds.
+- Carbon can make linear chains, branched chains, and cyclical structures, and this structural diversity, leads to functional diversity
+- Carbon is capable of having 4 covalent bonds, by promoting one of its 2s electrons to the empty 2pz orbital, and then hyberdizing the 4 orbitals into sp3 orbitals
+![[Pasted image 20261013204822.png|579]]
+- Hybridization reminder: **SP3**, **SP2**, and **SP** hybridized molecules are determined by the number of orbitals that participate in sigma bonding. (see [[SC Bonding & Structure#Valence bond theory]])
+- Another possibility is for only 3 orbitals to become hyberdized, forming SP2 hybridization and leaving the pz orbital orthogonal to the SP2 orbitals, and capable of forming a Pi bond
+![[screenshot-2026-10-13_21-14-37.png|575]]
+- The sideways overlap here forms a ring structure around the Carbon
+- This is what a double bond actually looks like
+![[Pasted image 20261013212054.png|578]]
+- Lastly, we have SP hybridization
+![[Pasted image 20261013212233.png|584]]
+- This is how triple bonds are formed
+![[Pasted image 20261013212338.png|585]]
+- **SP3** Carbon is characterized by a bond angle between its sigma bonds measuring **109.5** degrees while **SP2** measures **120** degrees and **SP** measures **180** degrees ( important when studying protein structures ).
+- Triple bonds are strong and short but unstable which is why almost no biomolecule contains a triple bond ( the instability is probably due to a reduction in entropy due to the reduction of possible conformations of the molecule which increases the amount of free energy it has available to undergo chemical reactions ).
+- The following 3 characteristics are very important in understanding the geometry and reactivity of biomolecules
+![[Pasted image 20261013213123.png|487]]
+### 1.1.2
+Atomic composition isn't the only factor that determines the identity of a molecule as some molecules have different structures, despite having the same composition
+![[Pasted image 20261013213638.png|285]]
 
-1- The main difference between living and non-living matters is not the type of elements, but rather the amount of each element. Another big difference is the continuous biochemical reactions done by living organisms.
+In the above example, the double bond, blocks the free rotation around the axis of the carbon-carbon, effectively locking the molecule in its specific configuration until the covalent bond breaks
 
-  
-2- Living organisms find it more advantageous to use one element (carbon) for multiple purposes and its versatility making it able to form multiple different structures and chemical bonds.
+These two molecules have different configurations, and are **stereoisomers** of each other
 
-3- Hybridization reminder: **SP3**, **SP2**, and **SP** hybridized molecules are determined by the number of orbitals that participate in sigma bonding.
+- Maleic acid has a **cis** (zusammen) configuration because its two functional groups are on the same side
+- Fumaric acid has a **trans** (entgegen) configuration
+- A molecule with a **chiral center** can also have stereoisomers
+- A chiral center is a carbon bound to 4 distinct chemical groups
+- The groups must be distinct for the carbon to be chiral, otherwise it would be **achiral**
+![[Pasted image 20261013214216.png|196]]
+Two configurations of a molecule that has a chiral center are called **enantiomers**
+These are mirror images of each other, and rotation can never get them to be super-imposable
+That's not the case for achiral carbon containing molecules, which can be made super-imposable via rotation of the chemical groups
+![[Pasted image 20261013214439.png|535]]
+This is important for biomolecules, as the interactions between **ligands** and their **receptors** are **sterospecific**
+Molecules with different configurations, can bind to different receptors, increasing functional diversity
+Such is the case with the two following enantiomers
+ ![[Pasted image 20261013215026.png|466]]
+These biomolecules bind to certain receptors on the nose, but one gives a fresh spearmint odor, while the other gives a pungent caraway odor
+Single bonds, however, do allow for free rotation
 
-4- **SP3** Carbon is characterized by a bond angle between its sigma bonds measuring **109.5** degrees while **SP2** measures **120** degrees and **SP** measures **180** degrees ( important when studying protein structures ).
+The ability of a molecule to exist in different forms freely, is known as **conformation**, not **configuration**, and the switch between conformations, doesn't require the breaking of any bonds, but some conformations are more stable than others for certain molecules, and as such, more prevalent
+![[Pasted image 20261013215354.png|345]]
 
-5- Triple bonds are strong and short but unstable which is why almost no biomolecule contains a triple bond ( the instability is probably due to a reduction in entropy due to the reduction of possible conformations of the molecule which increases the amount of free energy it has available to undergo chemical reactions ).
+In ethane, the staggered conformation is more prevalent, due to **steric hindrance** (related to repulsion?), because it has lower potential energy
+### 1.1.3
+Living organisms are characterized by their continuous biochemical reactions, and the continuous exchange of matter and energy with their surroundings
 
-6- The laws of thermodynamics play a crucial law in the progress of biochemical processes.
+Organisms exchange matter, such as water, minerals , gases, and organic molecules, and energy in the form of sunlight and complex organic molecules
 
-7- Gibbs free energy equation:
+Potential energy has to be extracted from food though, and converted into a form usable by the cells. That's **catabolism**
+This energy is then usable to synthesize other biomolecules through **anabolism**, and **metabolism** is the sum of the two
+![[Pasted image 20261013220310.png|395]]
 
-**dG = dH - TdS ( G = KJ/mol, H = KJ/mol T = Kelvin, S = J/K mol )**
+**Phototrophs**, get their energy from sunlight, while **chemotrophs** get it from other sources
+- **Lithotrophs** get their energy from inorganic sources
+- **Orgnotrophs** get it from organic sources
 
-Where **G** is the amount of energy available to do work ( potential energy for example ).
+**Autotrophs** get their carbon from carbon dioxide, while **heterotrophs** get it from organic molecules
+![[Pasted image 20261013220950.png|452]]
 
-**H** is the total amount of energy in the system. In the case of a biochemical reaction, it would include the energy stored in the bonds of all the molecules involved in the reaction e.g: enzymes and substrates as well as the energy of the environment surrounding the reaction e.g: a protein folding in a water medium where water represents the surrounding environment.
+This gives us a different method of classifying life other than the usual [[SC Taxonomy|taxonomy]], as both humans and E.coli for example are considered **chemoorganotrophs**
 
-And in **TdS T** represents the temperature of the system and **S** is a quantitative measure of the randomness of the system e.g: back to the protein folding in a water medium where the protein’s randomness, its entropy represents all the possible conformations that every single atom in every single side chain of its sequence can take. **T** amplifies the amount of random movement every atom does and therefore raising **T** increases the entropy of the system.
+Matter flow in life is cyclical. For example, autotrophs generate the Oxygen and organic molecules that heterotrophs need, while heterotrophs in turn generate the CO2 and water than autotrophs need, but the flow of energy is irreversible, as most of it comes from the sun, and chemical sources
 
-8- The potential energy change of a system from one state to another is constant regardless of the pathway it takes. A system that moves from the A state to the B state will always have the same potential energy change. If we imagine that state A is a building in a street and state B is another building in a faraway street, the amount of energy change you would have to undergo to get from building A to B whether you end up going on foot, using a bicycle or even by taxi will still be the same regardless.
+This energy is then lost at various stages as **heat**
+![[Pasted image 20261013221330.png|318]]
 
-9- The change in potential energy stated above is also explained by **G = H - TS**, where, as stated **TS** is a measure of the systems’ entropy which is also the amount of energy not available to do work in the system contrary to **G**. So the total energy of a system is **H** and the amount of energy available to do work is **G** while the rest of the energy is **TS** which explains why spontaneous changes in **G** are always negative because that’s the amount of energy the system had available to consume to do work and that amount was just lost from **G** and gained by **TS** assuming that no energy was gained or lost by the system quoting the 2nd law of thermodynamics. However, a small amount of energy will always be lost during energy change, this lost energy is heat which is a type of energy that living organisms can’t use or recycle and that’s a portion of energy that will always be lost from the system and has to be replenished by means such as eating. This is also why the flow of energy among living organisms is irreversible.
+Heat can't be converted into chemical energy though, which is why the energy flow is not cyclical
 
-10- So now that we’re aware of the nature of enthalpy can we explain the difference between exergonic and exothermic reactions? As well as endergonic and endothermic ones? Simple. As stated before **G = H - TS** but we can also write **dG = dH - TdS** where **d** means delta and it means difference as in the change from high **G** to low **G** or the difference between high **G** and low **G**. So to apply this to our problem, an exergonic reaction is a spontaneous one, endergonic reactions are the opposite, this means that **-G** reactions use their potential energy, their free energy and get to a lower energy state where they are much more stable. This is thermodynamically favorable. While endergonic reactions require more energy than what they have to change state. An example of this is compressed gas. A gas that fills an open container will not stay inside of the container, it will always disperse while in order to keep the gas inside of the container energy will have to be spent to compress it inside of the container. Compressed gas has much lower entropy and therefore higher free energy than what it first had which means that it’s in a less stable and less favorable state. On the other hand, we know that a change in free energy without an intentional change in the total amount of energy will always be accompanied by a loss of a portion of energy in the form of heat, the lost energy cannot be regained by the system and therefore it means that there was a loss in the total amount of energy or **-H** this means that an exothermic reaction shows a decrease in enthalpy while an endergonic reaction is one where energy was obtained or a reaction where the system consumed heat and a positive value of enthalpy was maintained. This, in essence, means that an exergonic reaction can be endothermic and vise versa depending on the change in entropy.
+Energy is the capacity to do work, and all systems obey the laws of thermodynamics
+#### The role of thermodynamics in biochemical systems
+The first two laws of thermodynamics, dictate how living organisms use their energy
+The first law of thermodynamics state that
+- The universe contains a constant amount of energy, therefore energy is not created nor destroyed, but rather changes form
+The change in potential energy for a chicken at the top of a flight of stairs, from when it was at the bottom, will remain the same, regardless of how it made it up there
 
-11- Biochemical reactions in cells are not at equilibrium, they are kept at a far from equilibrium state or near equilibrium state where far from equilibrium is enzyme-dependent and near equilibrium is substrate-dependent. There is a relation between the free energy change of the reaction and the equilibrium constant. Such a relation is usually studied by the equation **dGo = -RTln(Keq)** where **Go** is **G** at standard conditions of temperature and reactants concentration where **T = 25 C/298 K** and the concentration is **1 M**. The thing is, cells are not kept at standard conditions, they exist in what’s known as physiological condition where **dGo** can have a value that isn’t actually representative of what’s happening inside the cell mainly because as mentioned reactions in a cell are not at equilibrium, so not at **Keq** and because of that there are reactions that are spontaneous under physiological conditions but non-spontaneous under standard conditions. So now we need to calculate the actual change in free energy **dG = dGo + RTln(K)** where **K** is representative of the actual concentration of the reactants within the cell. The relation between **dG = dGo + RTln(K)** and dGo = -RTln(Keq) comes from the fact that at equilibrium, no work is done and therefore **dG = 0** or **0 = dGo + RTln(K)** which means that **dGo = -RTln(Keq).**
+Similarly, the transformation of a molecule A to B, regardless of how that was done, will require the same change in potential energy
+![[Pasted image 20261013221817.png|390]]
+The second law states that
+- Energy is transferred in a way that increases the randomness (entropy) of the universe
+A sandcastle's spontaneous decay under the effect of the wind and crashing waves, is more likely than the spontaneous arrangement of grains of sands into a sandcastle
 
+The transformation of various forms of energy into thermal energy, contributes to that increase in entropy
+
+The second law of thermodynamics apply to the whole universe, not an isolated system, and while anabolism may be decreasing entropy by assembling building blocks into larger molecules, the energy loss in the form of heat caused by the process, increases the overall entropy of the universe
+
+The Gibbs free energy equation, is a fundamental equation that describes thermodynamics, and is applicable to biochemical reactions
+- Gibbs free energy equation:
+`dG = dH - TdS ( G = KJ/mol, H = KJ/mol T = Kelvin, S = J/K mol )`
+
+This equation connects three thermodynamics parameters **G** the free energy, **H** the enthalpy, and **S** the entropy
+So the free energy of a system is enthalpy minus the product of entropy and temperature
+- **G** is the amount of energy available to do work ( potential energy for example ).
+- **H** is the total amount of energy in the system. 
+	- In the case of a biochemical reaction, it would include the energy stored in the bonds of all the molecules involved in the reaction e.g: enzymes and substrates as well as the energy of the environment surrounding the reaction e.g: a protein folding in a water medium where water represents the surrounding environment.
+- And in **TdS T** represents the temperature of the system
+- **S** is a quantitative measure of the randomness of the system 
+	- e.g: back to the protein folding in a water medium where the protein’s randomness, its entropy represents all the possible conformations that every single atom in every single side chain of its sequence can take. **T** amplifies the amount of random movement every atom does and therefore raising **T** increases the entropy of the system.
+![[Pasted image 20261013223402.png|295]]
+
+The potential energy change of a system from one state to another is constant regardless of the pathway it takes. A system that moves from the A state to the B state will always have the same potential energy change. If we imagine that state A is a building in a street and state B is another building in a faraway street, the amount of energy change you would have to undergo to get from building A to B whether you end up going on foot, using a bicycle or even by taxi will still be the same regardless.
+
+The change in potential energy stated above is also explained by **G = H - TS**, where, as stated **TS** is a measure of the systems’ entropy which is also the amount of energy not available to do work in the system contrary to **G**. So the total energy of a system is **H** and the amount of energy available to do work is **G** while the rest of the energy is **TS** which explains why spontaneous changes in **G** are always negative because that’s the amount of energy the system had available to consume to do work and that amount was just lost from **G** and gained by **TS** assuming that no energy was gained or lost by the system quoting the 2nd law of thermodynamics. However, a small amount of energy will always be lost during energy change, this lost energy is heat which is a type of energy that living organisms can’t use or recycle and that’s a portion of energy that will always be lost from the system and has to be replenished by means such as eating. This is also why the flow of energy among living organisms is irreversible.
+### 1.1.4
+Reactions are characterized with 4 properties
+- Spontaneity
+- Equilibrium constant
+- Directionality
+- Velocity
+#### Spontaneity
+ So now that we’re aware of the nature of enthalpy can we explain the difference between exergonic and exothermic reactions? As well as endergonic and endothermic ones? 
+ Simple. As stated before **G = H - TS** but we can also write **dG = dH - TdS** where **d** means delta and it means difference as in the change from high **G** to low **G** or the difference between high **G** and low **G**. 
+ So to apply this to our problem, an exergonic reaction is a spontaneous one, endergonic reactions are the opposite, this means that **-G** reactions use their potential energy, their free energy and get to a lower energy state where they are much more stable. 
+ This is thermodynamically favorable. 
+ While endergonic reactions require more energy than what they have to change state. 
+ 
+ Note that the **change** in enthalpy in those exergonic reactions is less than the change in entropy, and when the change in enthalpy is negative, heat is released, making the reaction **exothermic**
+ However, if the change in enthalpy remains positive, the reaction is **endothermic**
+ See how the spontaneity of the reaction, is actually orthogonal to the whether or not heat is released?
+ So, this means that spontaneity is discriptive of the reaction's Gibbs free energy, while heat release or gain is a describes its enthalpy
+ ![[Pasted image 20261013232004.png|478]]
+ - In the figure, S = substrates, P = products
+
+Endergonic reactions, on the other hand, are ones where the substrates of a reaction are the ones with lower potential energy than the products
+
+ An example of this is compressed gas. 
+ A gas that fills an open container will not stay inside of the container, it will always disperse while in order to keep the gas inside of the container energy will have to be spent to compress it inside of the container. 
+ Compressed gas has much lower entropy and therefore higher free energy than what it first had which means that it’s in a less stable and less favorable state. 
+ On the other hand, we know that a change in free energy without an intentional change in the total amount of energy will always be accompanied by a loss of a portion of energy in the form of heat, the lost energy cannot be regained by the system and therefore it means that there was a loss in the total amount of energy or **-H** this means that an exothermic reaction shows a decrease in enthalpy while an endergonic reaction is one where energy was obtained or a reaction where the system consumed heat and a positive value of enthalpy was maintained. 
+ This, in essence, means that an exergonic reaction can be endothermic and vise versa depending on the change in entropy.
+#### Equilibrium
+Equilibrium in a reaction means that the interconversion of a substrate and product maintains a constant concentration of each side
+In other words, the rate of formation of both S and P, are the same
+The ratio of the P to S at equilibrium, is known as the **equilibrium constant**
+![[Pasted image 20261013233623.png|254]]
+#### Directonality
+Most biochemical reactions are reversible, and can move in either direction
+For example CO2 and H2O can form H2CO3, an H2CO3 can dissociate into CO2 and H2O
+The direction of a reversible reaction is determined by **Le Chatelier's** principal, which states that when a dynamic equilibrium is disturbed, say by a change in the concentration of one reagent, the position of the equilibrium changes to counteract the disturbance
+In other words, the reaction proceeds in whichever direction that can return the reaction to equilibrium
+In the conversion of CO2 + H2O into H2CO3, the reaction moves in the direction of H2CO3, until the lowest amount of **G** is reached, at which state, the ratio of S and P's concentrations will be equal to the equilibrium constant
+While CO2 is higher than its value at equilibrium, Gibbs free energy is negative, and the reaction moves downhill
+If we move past equilibrium and H2CO3 is higher than the equilibrium concentration, the inverse happens
+![[Pasted image 20261013234344.png|267]]
+
+Biochemical reactions in cells are not at equilibrium, they are kept at a far from equilibrium state or near equilibrium state where far from equilibrium is enzyme-dependent and near equilibrium is substrate-dependent.
+There is a relation between the free energy change of the reaction and the equilibrium constant.
+Such a relation is usually studied by the equation **dGo = -RTln(Keq)** where **Go** is **G** at standard conditions of temperature and reactants concentration where **T = 25 C/298 K**, **R** is the gas constant = **$1.98 x 10^{-3}$ $kcal$ $mol^{-1}$ $deg^{-1}$**, and the concentration is **1 M**.
+![[Pasted image 20261013234941.png|372]]
+The thing is, cells are not kept at standard conditions, they exist in what’s known as physiological condition where **dGo** can have a value that isn’t actually representative of what’s happening inside the cell mainly because as mentioned reactions in a cell are not at equilibrium, so not at **Keq** and because of that there are reactions that are spontaneous under physiological conditions but non-spontaneous under standard conditions.
+So now we need to calculate the actual change in free energy **dG = dGo + RTln(K)** where **K** is representative of the actual concentration of the reactants within the cell.
+The relation between **dG = dGo + RTln(K)** and **dGo = -RTln(Keq)** comes from the fact that at equilibrium, no work is done and therefore **dG = 0** or **0 = dGo + RTln(K)** which means that **dGo = -RTln(Keq).**
+![[Pasted image 20261013235429.png|375]]
 # Unit 2: Structural Biochemistry
 
 ## Protein Structure:
 
 ### 2.1.1
 
-1- A protein’s function is determined by its structure and the structure is determined by the protein’s sequence.
+1. A protein’s function is determined by its structure and the structure is determined by the protein’s sequence.
 
-2- Amino acids share a general formula and the naturally occurring amino acid in the body is the L enantiomer ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_.png>)
+2. Amino acids share a general formula and the naturally occurring amino acid in the body is the L enantiomer ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_.png>)
 
-3- Amino acids existing in physiological pH (7.4) exist as a zwitterion which has both the N and C termini in their charged form. Of course, if the R group of the amino acid has no extra carboxylic or amino groups the one positive and one negative charge of the AA will result in the AA having no net charge, and in that case, it will be at its isoelectric point.
+3. Amino acids existing in physiological pH (7.4) exist as a zwitterion which has both the N and C termini in their charged form. Of course, if the R group of the amino acid has no extra carboxylic or amino groups the one positive and one negative charge of the AA will result in the AA having no net charge, and in that case, it will be at its isoelectric point.
 
-4- The polarity of amino acids is important because it determines the type of non-covalent interactions they can form and these interactions determine the shape of the protein, and hence its function. The three types of non-covalent interactions are
+4. The polarity of amino acids is important because it determines the type of non-covalent interactions they can form and these interactions determine the shape of the protein, and hence its function. The three types of non-covalent interactions are
 
   
-1) Van Der Waals interactions: these are the weakest ones and can only be formed over short distances, however, they can be formed between ANY two atoms that are close to each other ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%201.png>)
+5) Van Der Waals interactions: these are the weakest ones and can only be formed over short distances, however, they can be formed between ANY two atoms that are close to each other ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%201.png>)
 
 Here, the radius of the Van Der Waals interactions between these two AAs is illustrated by these transparent green spheres.
 
@@ -67,25 +197,26 @@ Here, the radius of the Van Der Waals interactions between these two AAs is illu
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%203.png>)
 
-5- Only two amino acids, Methionine and Cysteine have a sulfur atom while the rest only have Oxygen Hydrogen Nitrogen and Carbon. Cysteine’s sulfur exists as a sulfhydryl group.
+5. Only two amino acids, Methionine and Cysteine have a sulfur atom while the rest only have Oxygen Hydrogen Nitrogen and Carbon. Cysteine’s sulfur exists as a sulfhydryl group.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%204.png>)
 
-6- Sulfhydryl groups are very reactive and can form disulfide bridges under oxidizing conditions. These oxidizing conditions are usually found on the extracellular side while intracellularly conditions are usually on the reducing side so Cysteines will be found in their free reduced forms.
+6. Sulfhydryl groups are very reactive and can form disulfide bridges under oxidizing conditions. These oxidizing conditions are usually found on the extracellular side while intracellularly conditions are usually on the reducing side so Cysteines will be found in their free reduced forms.
 
-7- While all naturally occurring AAs are chiral and exist as L-Amino Acids, two exceptions to this rule exist. Glycine has hydrogen as it’s side chain and therefore is achiral. This shorter side chain makes it **less** conformationally restricted, which plays a role in protein folding. And Proline, while it’s considered an amino acid, in fact, has an imine group instead of an amine due to the fact that its R side chain is covalently bonded to the amino group. The covalent linkage in Proline makes it **more** conformationally restricted, which also plays a role in protein folding.
+7. While all naturally occurring AAs are chiral and exist as L-Amino Acids, two exceptions to this rule exist. Glycine has hydrogen as it’s side chain and therefore is achiral. This shorter side chain makes it **less** conformationally restricted, which plays a role in protein folding. And Proline, while it’s considered an amino acid, in fact, has an imine group instead of an amine due to the fact that its R side chain is covalently bonded to the amino group. The covalent linkage in Proline makes it **more** conformationally restricted, which also plays a role in protein folding.
 
 ### 2.1.2
 
-1- Polypeptides can form **Alpha helices**, **Beta sheets**, and **loops** based on their chemical nature.
+1. Polypeptides can form **Alpha helices**, **Beta sheets**, and **loops** based on their chemical nature.
 
-2- Transcriptional machinery within cells mediates the binding of different amino acids through condensation forming unbranched polypeptides.
+2. Transcriptional machinery within cells mediates the binding of different amino acids through condensation forming unbranched polypeptides.
 
-3- Measurements of the bonds within these polypeptides showed that the **C-alpha** carbon had the expected tetrahedral geometry associated with its chiral nature while carbonyl carbons have bond angles that suggest they have a trigonal planer geometry. The interesting part is the bond length between the nitrogen and carbon of peptide bonds which measures **1.32 A**, this bond length is both shorter than a normal **C-N** bond and longer than a **C=N** bond ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%205.png>). This unusual bond length can be explained by resonance ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%206.png>) which causes the partial double bond nature of the peptide bond and also causes the carbon and its oxygen, as well as the nitrogen and its hydrogen to all, exist within the same plane, or in other words, they are planer. It should also be noted that due to the aforementioned partial double bond nature of the peptide bond, this bond cannot rotate freely like single bonds.
+3. Measurements of the bonds within these polypeptides showed that the **C-alpha** carbon had the expected tetrahedral geometry associated with its chiral nature while carbonyl carbons have bond angles that suggest they have a trigonal planer geometry. The interesting part is the bond length between the nitrogen and carbon of peptide bonds which measures **1.32 A**, this bond length is both shorter than a normal **C-N** bond and longer than a **C=N** bond ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%205.png>). This unusual bond length can be explained by resonance ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%206.png>) which causes the partial double bond nature of the peptide bond and also causes the carbon and its oxygen, as well as the nitrogen and its hydrogen to all, exist within the same plane, or in other words, they are planer. It should also be noted that due to the aforementioned partial double bond nature of the peptide bond, this bond cannot rotate freely like single bonds.
 
-4- From the previous point we can deduce that since the peptide bond can’t rotate then it must exist in either a **cis** or **trans** conformation. Due to stearic clashing, the **cis** conformation is unfavorable and almost all peptide bonds exist in a trans conformation, except for one peptide bond, and that would be the peptide bond that is N-terminal to **proline,** that’s because the steric clash in **proline** is similar in both the **cis** and **trans** conformations due to its cyclical nature ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%207.png>)
+4. From the previous point we can deduce that since the peptide bond can’t rotate then it must exist in either a **cis** or **trans** conformation. Due to stearic clashing, the **cis** conformation is unfavorable and almost all peptide bonds exist in a trans conformation, except for one peptide bond, and that would be the peptide bond that is N-terminal to **proline,** that’s because the steric clash in **proline** is similar in both the **cis** and **trans** conformations due to its cyclical nature ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%207.png>)
 
-5- As for the two dihedral angles on both sides of the alpha carbon ( a dihedral angle is an angle between two intersecting planes ) are free to rotate and each residue has as mentioned two of them ( a residue is a bonded amino acid ). These angles are known as the **Phi** and **Psi** angles where **Phi** is the angle between **N** and **C-alpha** and **Psi** is the angle between **C-alpha** and the **carbonyl carbon**. This order is easy to remember because phi psi sounds just like sci-fi but in reverse. Peptide bonds also have another name when referring to their angle which is **omega**, the **omega** angle can be either **zero** or **180** degrees corresponding to a **cis** or **trans** configuration respectively. Measuring Phi and Psi is directional, meaning that to measure the Phi angle you need to consider the fact that it’s the angle between the N-terminus and C-alpha, not the other way around, this is useful to remember due to how these angles are measured from their representations as such ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%208.png>)
+5. As for the two dihedral angles on both sides of the alpha carbon ( a dihedral angle is an angle between two intersecting planes ) are free to rotate and each residue has as mentioned two of them ( a residue is a bonded amino acid ). These angles are known as the **Phi** and **Psi** angles where **Phi** is the angle between **N** and **C-alpha** and **Psi** is the angle between **C-alpha** and the **carbonyl carbon**. This order is easy to remember because phi psi sounds just like sci-fi but in reverse. Peptide bonds also have another name when referring to their angle which is **omega**, the **omega** angle can be either **zero** or **180** degrees corresponding to a **cis** or **trans** configuration respectively. Measuring Phi and Psi is directional, meaning that to measure the Phi angle you need to consider the fact that it’s the angle between the N-terminus and C-alpha, not the other way around, this is useful to remember due to how these angles are measured from their representations as such 
+![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%208.png>)
 
 So, to measure the Phi angle, you look down the length of the N-terminal end looking towards the C-alpha carbon and then measure the angle between both carbonyl carbons. This is how it would look like:
 
@@ -93,11 +224,11 @@ So, to measure the Phi angle, you look down the length of the N-terminal end loo
 
 Similarly, to measure the Psi angle, you look down the length of the C-alpha carbon from the same direction so from the N-terminal end same as the arrow in the figure combining all three angles is showing and you look towards the C-terminus and you measure the angle between the two nitrogens just as such: ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2010.png>)
 
-6- These angles are then used on a Phi Psi plot ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2011.png>) this plot was later modified by an Indian structural biologist called Ramachandran who realized that due to steric clashes, not all dihedral angle values are allowed, and then he used structural models to determine all the possible values in which dihedral angles can exist in a naturally occurring amino acid and what he found was that these values can be spread over three regions ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2012.png>) and this modified plot is called the Ramachandran plot.
+6. These angles are then used on a Phi Psi plot ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2011.png>) this plot was later modified by an Indian structural biologist called Ramachandran who realized that due to steric clashes, not all dihedral angle values are allowed, and then he used structural models to determine all the possible values in which dihedral angles can exist in a naturally occurring amino acid and what he found was that these values can be spread over three regions ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2012.png>) and this modified plot is called the Ramachandran plot.
 
-7- If several residues in series lie within the green region of the plot they will form an alpha-helix if the same occurs within the blue region they will form a beta-sheet.
+7. If several residues in series lie within the green region of the plot they will form an alpha-helix if the same occurs within the blue region they will form a beta-sheet.
 
-8- L-amino acids can form right-handed helices ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2013.png>) the helix is formed because when residues are within the green region they will be able to form hydrogen bonds between each AA and the AA that is three AAs away from it or each one and four, or in other words, the carbonyl from AA1 will form a hydrogen bond with the amino group of AA4
+8. L-amino acids can form right-handed helices ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2013.png>) the helix is formed because when residues are within the green region they will be able to form hydrogen bonds between each AA and the AA that is three AAs away from it or each one and four, or in other words, the carbonyl from AA1 will form a hydrogen bond with the amino group of AA4
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2014.png>)( an illustration of an alpha-helix backbone structure )
 
@@ -107,7 +238,7 @@ The side chains of the residues of alpha-helix will be pointing outwards and sli
 
 And if you were to straighten the AAs here back into their primary structure, you’ll notice that the hydrophobic residues are all three to four residues apart as expected. This allows this helix to pack with another one forming a hydrophobic core.
 
-9- Beta-sheets have the same requirements as alpha-helices just in the blue region instead of the green one. However, beta-sheets are made out of beta-strands, and multiple strands are required to form a sheet ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2017.png>)These sheets can contain parallel strands, anti-parallel strands, or a mix, the one above is a mix. Anti-parallel strands usually come from adjacent parts of the same polypeptide and are connected by a short loop, adjacent strands don’t necessarily come from adjacent parts of the polypeptide or even the same polypeptide for that matter, they can come from a whole other part of the polypeptide or even a whole other protein, to begin with. In beta-sheets, the backbone doesn’t fold unto itself like in alpha-helices, rather it multiple backbones that exist in an extended conformation bind together via hydrogen bonds to form a sheet. Sidechains in beta-sheets are perpendicular to the hydrogen bonds and exist in an alternating pattern above and below the plane ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2018.png>)
+9. Beta-sheets have the same requirements as alpha-helices just in the blue region instead of the green one. However, beta-sheets are made out of beta-strands, and multiple strands are required to form a sheet ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2017.png>)These sheets can contain parallel strands, anti-parallel strands, or a mix, the one above is a mix. Anti-parallel strands usually come from adjacent parts of the same polypeptide and are connected by a short loop, adjacent strands don’t necessarily come from adjacent parts of the polypeptide or even the same polypeptide for that matter, they can come from a whole other part of the polypeptide or even a whole other protein, to begin with. In beta-sheets, the backbone doesn’t fold unto itself like in alpha-helices, rather it multiple backbones that exist in an extended conformation bind together via hydrogen bonds to form a sheet. Sidechains in beta-sheets are perpendicular to the hydrogen bonds and exist in an alternating pattern above and below the plane ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2018.png>)
 
 This gives the amino acids of beta-sheets an alternating pattern. This means that if a beta-sheet contains amino acids with both aliphatic and polar residues that are alternating then this beta-sheet can have both a polar side and a non-polar side.
 
@@ -115,25 +246,25 @@ This gives the amino acids of beta-sheets an alternating pattern. This means tha
 
 ### 2.1.3
 
-1- Tertiary and Quaternary structures are very similar in how their specific three-dimensional shapes are created which is for the most part through non-covalent bonds.
+1. Tertiary and Quaternary structures are very similar in how their specific three-dimensional shapes are created which is for the most part through non-covalent bonds.
 
-2- Tertiary structures are the arrangement of secondary structures within a single polypeptide into a three-dimensional shape.
+2. Tertiary structures are the arrangement of secondary structures within a single polypeptide into a three-dimensional shape.
 
-3- Quaternary structures are the arrangement of several polypeptides into one protein complex.
+3. Quaternary structures are the arrangement of several polypeptides into one protein complex.
 
-4- Tertiary structures are built from motifs that together form domains that form the final protein. Motifs are specific secondary structure patterns that repeat from one protein to the other and they are-in the structural hierarchy-the smallest form of arrangement, you could also say that they are the smallest grouping which is made of several secondary structure elements that assemble in a consistent way and again they repeat in different protein with different sequences, one such example is the Beta-Alpha-Beta motif ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2019.png>)as you can see, in this motif, two adjacent beta-sheets are connected by an alpha-helix forming a parallel beta-sheet. These motifs then arrange into larger globular structures known as domains ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2020.png>)
+4. Tertiary structures are built from motifs that together form domains that form the final protein. Motifs are specific secondary structure patterns that repeat from one protein to the other and they are-in the structural hierarchy-the smallest form of arrangement, you could also say that they are the smallest grouping which is made of several secondary structure elements that assemble in a consistent way and again they repeat in different protein with different sequences, one such example is the Beta-Alpha-Beta motif ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2019.png>)as you can see, in this motif, two adjacent beta-sheets are connected by an alpha-helix forming a parallel beta-sheet. These motifs then arrange into larger globular structures known as domains ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2020.png>)
 
 Here, the yellow highlighted motif is the one shown above.
 
-5- Domains are independent folding units in proteins meaning that if a domain is isolated from a protein that has multiple domains, that one domain would still fold on its own to reach its tertiary structure. Domains interact together to form functional units ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2021.png>)
+5. Domains are independent folding units in proteins meaning that if a domain is isolated from a protein that has multiple domains, that one domain would still fold on its own to reach its tertiary structure. Domains interact together to form functional units ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2021.png>)
 
 Here the domain shown before is now highlighted and is interacting with another domain.
 
-6- The active site in enzymes is usually found in **loop regions** which are shaped both by their native **structure** and **chemically** from interacting for example with an allosteric activator to provide specificity for a substrate. And these active sites are usually in crevasses at the **interface** between two domains and they are rich in **loops**.
+6. The active site in enzymes is usually found in **loop regions** which are shaped both by their native **structure** and **chemically** from interacting for example with an allosteric activator to provide specificity for a substrate. And these active sites are usually in crevasses at the **interface** between two domains and they are rich in **loops**.
 
 And here is how the enzyme ( alcohol dehydrogenase ) would look like with its substrates **NADP** and **Ethanol** ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2022.png>)
 
-7- What has been shown previously was one subunit of the alcohol dehydrogenase enzyme
+7. What has been shown previously was one subunit of the alcohol dehydrogenase enzyme
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2023.png>)
 
@@ -141,7 +272,7 @@ Alcohol dehydrogenase is in fact a **dimer** containing two identical subunits f
 
 The interface between both subunits appears to be formed by two interacting anti-parallel beta strands each of which is part of a parallel beta-sheet therefore together they formed one large mixed beta-sheet. Each of the two subunits in the quaternary structure-so the two tertiary structures-are folded in a specific way known as a **Rossmann fold**, this is a very common fold found in many proteins but in particular, it’s found in proteins that bind nucleotides as cofactors ( with NADP, of course, being a dinucleotide ). To clarify again, domains are the unit that can fold and different domains that have different sequences can share the same fold based on their intended function such as the case of alcohol dehydrogenase and Glutathione which can both bind NADP and these folds are used to classify protein structure as well.
 
-8- There are three main types of folds: Alpha folds, Beta folds, and Alpha Beta folds with the previous example, the Rossmann fold, being one of the mixed fold types, or an Alpha Beta fold. The Rossmann fold, for example, is a particular arrangement of beta-strands in alpha-helices and also including several beta-alpha-beta motifs ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2024.png>)
+8. There are three main types of folds: Alpha folds, Beta folds, and Alpha Beta folds with the previous example, the Rossmann fold, being one of the mixed fold types, or an Alpha Beta fold. The Rossmann fold, for example, is a particular arrangement of beta-strands in alpha-helices and also including several beta-alpha-beta motifs ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2024.png>)
 
 This arrangement yields a six-stranded parallel beta-sheet sandwiched between helices on either side. An example of a mostly beta fold would be carbonic anhydrase ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2025.png>)
 
@@ -155,7 +286,7 @@ Hemoglobin, however, is also different from myoglobin in the fact that it’s a 
 
 And here is a comparison of what hemoglobin actually looks like next to myoglobin ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2028.png>)
 
-9- The four subunits of hemoglobin are not all the same, hemoglobin has two alpha hemoglobin subunits that have the same primary structure and two beta hemoglobin subunits have a different primary structure. The quaternary structure of hemoglobin allows it to have some very important functional properties that are not possible in a monomeric protein like myoglobin.
+9. The four subunits of hemoglobin are not all the same, hemoglobin has two alpha hemoglobin subunits that have the same primary structure and two beta hemoglobin subunits have a different primary structure. The quaternary structure of hemoglobin allows it to have some very important functional properties that are not possible in a monomeric protein like myoglobin.
 
 10- Proteins can have the same fold whether they have very similar sequences or even very different ones, this means that there is a finite number of possible folds and that even new proteins tend to reuse already existing folds. The function of a protein doesn’t stop at its general fold though and while almost all possible folds have been identified there is a lot that structural biologists still don’t know about protein structures because a proteins’ function is still highly dependent on the details in its loops and its specific side chains.
 
@@ -163,25 +294,25 @@ And here is a comparison of what hemoglobin actually looks like next to myoglobi
 
 ### 2.2.1
 
-1- Folded proteins exist in an aqueous environment.
+1. Folded proteins exist in an aqueous environment.
 
-2- When a protein changes from its unfolded state where it has a lot of conformational entropy to only one conformation after having folded it loses a lot of entropy, this loss of entropy is the main opposing force to protein folding and that’s where the water comes in.
+2. When a protein changes from its unfolded state where it has a lot of conformational entropy to only one conformation after having folded it loses a lot of entropy, this loss of entropy is the main opposing force to protein folding and that’s where the water comes in.
 
-3- Water can tumble around and form hydrogen bonds with many different molecules in solution and therefore they have high conformational entropy like the unfolded protein.
+3. Water can tumble around and form hydrogen bonds with many different molecules in solution and therefore they have high conformational entropy like the unfolded protein.
 
 However, water molecules that are exposed to a **hydrophobic** surface like that of a hydrophobic residue have fewer molecules to form hydrogen bonds with and therefore less conformational entropy ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2029.png>)
 
-4- Folding proteins usually start by burying their hydrophobic residue in their core ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2030.png>)
+4. Folding proteins usually start by burying their hydrophobic residue in their core ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2030.png>)
 
 This way they won’t get into contact with water molecules which means that these molecules will be able to interact with other molecules and form hydrogen bonds with them which increases their conformational entropy and even increases the overall entropy of the entire system. This means that the folding of a protein is in fact thermodynamically favorable due to the increase in entropy. The burying of hydrophobic residues in the hydrophobic core and the consequent increase in the system’s entropy is known as the **Hydrophobic Effect**. But not all of the hydrophobic residues are buried during the first steps of folding, in fact, 50% of the protein’s surface residues will still be hydrophobic and these residues are important for interactions with other proteins, ligands, and substrates. Membrane proteins will contain a high amount of hydrophobic residues on their surfaces as well to interact with the hydrophobic lipids constituting the membrane.
 
-5- The hydrophobic effect also leads to the cooperative folding of the protein ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2031.png>)
+5. The hydrophobic effect also leads to the cooperative folding of the protein ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2031.png>)
 
 When the first hydrophobic residues start to interact together they bring closer other hydrophobic residues that will also interact with each other initiating a sort of snowball effect that leads to the burying of the hydrophobic residues in the hydrophobic core.
 
 As for the polar groups that will also get buried within the core, the partial charges on these groups are already stabilized by the hydrogen bonds that were back when the secondary structures were being formed and the same hydrogen bonds are what’s going to stabilize the polar groups and help them get buried with the rest of the residue in the core. The rest of the non-covalent interactions formed within a protein are the final major contributor to the energetics of protein folding as they serve to decrease the enthalpy of the protein as it folds.
 
-6- The average size of a domain is about 100 amino acids. If we consider the folding of that domain, these are the energy changes that would occur from the unfolded state to the folded state
+6. The average size of a domain is about 100 amino acids. If we consider the folding of that domain, these are the energy changes that would occur from the unfolded state to the folded state
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2032.png>)
 
@@ -189,13 +320,13 @@ From this presentation, we see that the increase in entropy in the system from t
 
 ### 2.2.2
 
-1- The thermodynamic hypothesis dictates that the most stable fold for a protein is its native fold and that the folding of proteins within cells is a spontaneous process.
+1. The thermodynamic hypothesis dictates that the most stable fold for a protein is its native fold and that the folding of proteins within cells is a spontaneous process.
 
-2- The primary structure of a protein is enough to dictate its native fold without the need for any special template or instructions as long as it has a favorable physiological-like buffer.
+2. The primary structure of a protein is enough to dictate its native fold without the need for any special template or instructions as long as it has a favorable physiological-like buffer.
 
-3- This hypothesis also suggests that with proper knowledge of the energetics of protein folding one day we might be able to predict the three-dimensional fold of a protein just from its primary structure, a feat that we have already accomplished with smaller and simpler proteins.
+3. This hypothesis also suggests that with proper knowledge of the energetics of protein folding one day we might be able to predict the three-dimensional fold of a protein just from its primary structure, a feat that we have already accomplished with smaller and simpler proteins.
 
-4- Here is an illustration of various different protein folding funnels or thermodynamic landscapes
+4. Here is an illustration of various different protein folding funnels or thermodynamic landscapes
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2033.png>)
 
@@ -207,25 +338,25 @@ The X-axis represents the different conformations the protein can have, the Y-ax
 
 ### 2.2.3
 
-1- Protein folding is not a random process, and a protein never explores all the different possible conformations that it can go through, to prove this we can consider a 100 amino acids long protein’s folding path, knowing that each dihedral angle can exist in one of the three possible regions on the Ramachandran plot or that we have three possible conformations per amino acid we can estimate that should this protein-starting at a high energy state-go through all possible conformations to reach the lowest possible energy state where it will be at its native fold, this protein will have **3^100** possible conformations to go through, here, the reason every single amino acid’s conformation is taken into account is that a change in even two dihedral angles can result in the disruption of the whole structure, so very precise phi-psi angles are required for the proper folding of the protein. To return to the main point of this example, if a protein goes through every single one of the 3^100 possible conformations it can have to reach its native fold, assuming that every change needs only 0.1 picoseconds to be made, that protein would still need **10^27** years to explore every single conformation, in retrospect, the entire universe is only around **14x10^19** years old, and we know that a protein reaches its native fold after having gone through a specific folding path relatively quick, this concept introduced a paradox to the scientist who first introduced this concept and it was named **Levinthal’s Paradox** after that scientist Cyrus Levinthal and that’s how Levinthal reached his hypothesis that a protein doesn’t go through every single possible conformation that it has and that it actually takes a path to get to its native fold.
+1. Protein folding is not a random process, and a protein never explores all the different possible conformations that it can go through, to prove this we can consider a 100 amino acids long protein’s folding path, knowing that each dihedral angle can exist in one of the three possible regions on the Ramachandran plot or that we have three possible conformations per amino acid we can estimate that should this protein-starting at a high energy state-go through all possible conformations to reach the lowest possible energy state where it will be at its native fold, this protein will have **3^100** possible conformations to go through, here, the reason every single amino acid’s conformation is taken into account is that a change in even two dihedral angles can result in the disruption of the whole structure, so very precise phi-psi angles are required for the proper folding of the protein. To return to the main point of this example, if a protein goes through every single one of the 3^100 possible conformations it can have to reach its native fold, assuming that every change needs only 0.1 picoseconds to be made, that protein would still need **10^27** years to explore every single conformation, in retrospect, the entire universe is only around **14x10^19** years old, and we know that a protein reaches its native fold after having gone through a specific folding path relatively quick, this concept introduced a paradox to the scientist who first introduced this concept and it was named **Levinthal’s Paradox** after that scientist Cyrus Levinthal and that’s how Levinthal reached his hypothesis that a protein doesn’t go through every single possible conformation that it has and that it actually takes a path to get to its native fold.
 
-2- Protein residues display a degree of cooperativity while folding which brings residues in proximity to each other, this concept was hinted at before when we talked about the hydrophobic effect when it was mentioned that the contact between the first two residues brings about the contact of subsequent residues, that reaction also called **The hydrophobic collapse** where the hydrophobic effect takes place and hydrophobic residues react together and are buried in the hydrophobic core of the protein is the first step of protein folding. Another example of cooperativity is the formation of alpha helices, there, the formation of the first hydrogen bond is considered the largest kinetic barrier, its formation is known as the **Nucleation event** ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2035.png>) once the first hydrogen bond forms, which is a process that might take a while, every subsequent hydrogen bond will form much more quickly and easily, this is because the formation of that first hydrogen bond brings in proximity the other residues that would want to form hydrogen bonds together. The hydrophobic core, however, isn’t always what forms first, here is an illustration of the two models scientists came up with that explain protein folding ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2036.png>)
+2. Protein residues display a degree of cooperativity while folding which brings residues in proximity to each other, this concept was hinted at before when we talked about the hydrophobic effect when it was mentioned that the contact between the first two residues brings about the contact of subsequent residues, that reaction also called **The hydrophobic collapse** where the hydrophobic effect takes place and hydrophobic residues react together and are buried in the hydrophobic core of the protein is the first step of protein folding. Another example of cooperativity is the formation of alpha helices, there, the formation of the first hydrogen bond is considered the largest kinetic barrier, its formation is known as the **Nucleation event** ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2035.png>) once the first hydrogen bond forms, which is a process that might take a while, every subsequent hydrogen bond will form much more quickly and easily, this is because the formation of that first hydrogen bond brings in proximity the other residues that would want to form hydrogen bonds together. The hydrophobic core, however, isn’t always what forms first, here is an illustration of the two models scientists came up with that explain protein folding ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2036.png>)
 
 The diffusion collision model suggests that first the secondary structures are formed and then they would move around until they achieve the correct fold necessary to form the tertiary structure of the protein. The second model, the Nucleation condensation model suggests that the hydrophobic core collapses first in a random way, after the core collapses this allows the formation of the secondary structure because the elements are now in close proximity and the protein will adopt its native fold. Both of these models are viable and which of them a protein will adopt and follow depends on the primary structure of that protein.
 
 ### 2.2.4
 
-1- Newly synthesized proteins in the cytosol are at risk of reacting with other newly synthesized proteins and adopting a new conformation ( aggregating ) that has even less energy than their native folds ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2037.png>)
+1. Newly synthesized proteins in the cytosol are at risk of reacting with other newly synthesized proteins and adopting a new conformation ( aggregating ) that has even less energy than their native folds ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2037.png>)
 
 How do proteins overcome this?
 
-2- Proteins can prevent aggregation by the use of chaperon proteins that help them fold, these chaperons are not specific to certain proteins ( although there are other chemical chaperons that ARE specific to their proteins ).
+2. Proteins can prevent aggregation by the use of chaperon proteins that help them fold, these chaperons are not specific to certain proteins ( although there are other chemical chaperons that ARE specific to their proteins ).
 
-3- HSP70 is our example chaperon, this chaperon starts aiding the protein from the point where it’s still being translated by the ribosome ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2038.png>)
+3. HSP70 is our example chaperon, this chaperon starts aiding the protein from the point where it’s still being translated by the ribosome ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2038.png>)
 
 HSP70 interacts with the hydrophobic residues of the protein, it will mask them transiently-meaning that it will easily release the protein-and prevent their interaction with other proteins in the cytosol, note that if the chaperon protein complex was stable it would have just created an aggregate, which is the very thing the chaperon is meant to prevent.
 
-4- HSP70 has three domains, a substrate-binding domain, a lid domain, and an ATPase domain. The way that this protein binds its substrate is that while it has a bound ATP molecule it will be in its substrate-free state ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2039.png>)
+4. HSP70 has three domains, a substrate-binding domain, a lid domain, and an ATPase domain. The way that this protein binds its substrate is that while it has a bound ATP molecule it will be in its substrate-free state ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2039.png>)
 
 When this ATP is hydrolyzed and replaced by an ADP molecule HSP70 will then be able to bind the substrate, and it's that very act of binding the substrate that will promote the exchange of ADP again to ATP to return the chaperone to its substrate-free state.
 
@@ -237,13 +368,13 @@ And here are the two states superimposed to showcase how big the conformational 
 
 The movement of the lid domain is what creates the binding pocket required to bind the substrate
 
-5- HSP70 stands for Heat Shock Protein 70, heat shock protein is a whole class of proteins, most of which are chaperons, their name comes from the fact that their expression increases with their exposure to high temperatures, this exposure is usually transient and hence the name heat shock and even though these proteins are expressed more at high temperatures they are still present in high quantities even before that exposure which showcases how important they are for folding proteins.
+5. HSP70 stands for Heat Shock Protein 70, heat shock protein is a whole class of proteins, most of which are chaperons, their name comes from the fact that their expression increases with their exposure to high temperatures, this exposure is usually transient and hence the name heat shock and even though these proteins are expressed more at high temperatures they are still present in high quantities even before that exposure which showcases how important they are for folding proteins.
 
-6- The reason these proteins are expressed more at high temperatures is that proteins are denatured or in other words unfolded at high temperatures, which puts them at risk of being aggregated, so cells will upregulate chaperons’ expression to prevent that aggregation and allow the denatured proteins to refold once again. Chaperons’ expression is also upregulated in secretory cells when they are generating a lot of secreted proteins because that puts them under folding stress and can result in misfolded proteins or aggregates which can accumulate and lead to cell death, here the chaperons will help these proteins fold properly as well.
+6. The reason these proteins are expressed more at high temperatures is that proteins are denatured or in other words unfolded at high temperatures, which puts them at risk of being aggregated, so cells will upregulate chaperons’ expression to prevent that aggregation and allow the denatured proteins to refold once again. Chaperons’ expression is also upregulated in secretory cells when they are generating a lot of secreted proteins because that puts them under folding stress and can result in misfolded proteins or aggregates which can accumulate and lead to cell death, here the chaperons will help these proteins fold properly as well.
 
-7- Chaperon proteins are not only important for folding proteins or even only for other proteins.
+7. Chaperon proteins are not only important for folding proteins or even only for other proteins.
 
-8- Another type of chaperon is HSP60 or GorEL in bacteria in a cutaway view showing its inside![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2043.png>)
+8. Another type of chaperon is HSP60 or GorEL in bacteria in a cutaway view showing its inside![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2043.png>)
 
 This chaperon forms a huge multimeric cage structure and can house an entire protein and protect it as it folds into its native fold in a safe environment away from other proteins.
 
@@ -251,55 +382,55 @@ This chaperon forms a huge multimeric cage structure and can house an entire pro
 
 ### 2.3.1
 
-1- Biochemical reactions always process towards equilibrium, where there is no net change of reactants concentration.
+1. Biochemical reactions always process towards equilibrium, where there is no net change of reactants concentration.
 
-2- Both internal and external factors can affect the equilibrium of a reaction as well as its directionality, but not its speed
+2. Both internal and external factors can affect the equilibrium of a reaction as well as its directionality, but not its speed
 
-3- Enzymes are biological catalysts often made out of proteins, but sometimes they can be made out of RNA as is the case of Ribosomal RNA on ribosomes.
+3. Enzymes are biological catalysts often made out of proteins, but sometimes they can be made out of RNA as is the case of Ribosomal RNA on ribosomes.
 
-4- To understand how big the effect of catalysts is, consider the spontaneous reaction of glucose phosphorylation into glucose-6-phosphate, the rate of this reaction is 1.3 x 10^-13 mol/L/min, after the addition of the catalyst hexokinase the rate of this reaction became 1.3 x 10^-3 mol/L/min, that’s a 10 billion times faster reaction.
+4. To understand how big the effect of catalysts is, consider the spontaneous reaction of glucose phosphorylation into glucose-6-phosphate, the rate of this reaction is 1.3 x 10^-13 mol/L/min, after the addition of the catalyst hexokinase the rate of this reaction became 1.3 x 10^-3 mol/L/min, that’s a 10 billion times faster reaction.
 
-5- ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2044.png>) This is a reaction diagram, it shows us a favorable analog spontaneous reaction. This reaction, however, will be incredibly slow without a catalyst due to the activation energy barrier that it has to overcome which means that this energy barrier slows down the reaction.
+5. ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2044.png>) This is a reaction diagram, it shows us a favorable analog spontaneous reaction. This reaction, however, will be incredibly slow without a catalyst due to the activation energy barrier that it has to overcome which means that this energy barrier slows down the reaction.
 
-6- What an enzyme does is form an enzyme-substrate complex first, and then it converts into an enzyme-product complex, and then the product is released ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2045.png>)
+6. What an enzyme does is form an enzyme-substrate complex first, and then it converts into an enzyme-product complex, and then the product is released ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2045.png>)
 
-7- ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2046.png>)There are many intermediates between the substrate and the product including the Enzyme-substrate complex or ES as well as all the steps required to convert the substrate into the product such as a rearrangement of certain bonds, transient charges that are formed in the enzyme, distortion or change in the position of chemical groups that ends in the formation of the Enzyme-product complex, this complex then needs to be destabilized to release the product from the enzyme and the sum of all of those intermediates is known as the transition state, the enzyme then proceeds to stabilize the transition state which lowers its free energy and therefore reduce the activation energy of the reaction which speeds it up.
+7. ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2046.png>)There are many intermediates between the substrate and the product including the Enzyme-substrate complex or ES as well as all the steps required to convert the substrate into the product such as a rearrangement of certain bonds, transient charges that are formed in the enzyme, distortion or change in the position of chemical groups that ends in the formation of the Enzyme-product complex, this complex then needs to be destabilized to release the product from the enzyme and the sum of all of those intermediates is known as the transition state, the enzyme then proceeds to stabilize the transition state which lowers its free energy and therefore reduce the activation energy of the reaction which speeds it up.
 
 ### 2.3.2
 
-1- Enzymes are great catalysts for three main reasons: The first reason is the formation of transient covalent bonds between the enzyme and its substrate which activates the substrate and lowers the activation energy. These bonds are formed between chemical groups from the substrate and the enzyme’s amino acids at the active site where catalysis takes place. The second reason is the formation of weak non-covalent bonds, their formation causes the release of a small amount of energy, and the sum of this energy forms what’s called **binding energy** the release of this binding energy is the main reason behind the decrease of activation energy. The difference in free energy of the transition state of the uncatalyzed and catalyzed reactions can be showcased here on a reaction coordinate diagram
+1. Enzymes are great catalysts for three main reasons: The first reason is the formation of transient covalent bonds between the enzyme and its substrate which activates the substrate and lowers the activation energy. These bonds are formed between chemical groups from the substrate and the enzyme’s amino acids at the active site where catalysis takes place. The second reason is the formation of weak non-covalent bonds, their formation causes the release of a small amount of energy, and the sum of this energy forms what’s called **binding energy** the release of this binding energy is the main reason behind the decrease of activation energy. The difference in free energy of the transition state of the uncatalyzed and catalyzed reactions can be showcased here on a reaction coordinate diagram
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2047.png>)
 
 A decrease in activation energy of 5.7 KJ/mol results in the increase of the rate of the enzyme by tenfold. An enzyme, however, would decrease the activation energy by 60 to 100 KJ/mol, and one weak non-covalent bond can decrease the activation energy by 4 to 30 KJ/mol which means that only a few weak non-covalent bonds are required for the catalysis to proceed. And the third reason is the extreme specificity of enzymes such as how Beta-Galactosidase can catalyze the cleavage of the beta-galactosidic bond of beta-galactose but can’t do anything to the alpha-galactosidic bond of alpha-galactose.
 
-2- We need to keep in mind that enzymes don’t stabilize the Enzyme-Substrate complex, because then the free energy of the ES would be much lower than that of the product itself which would hinder instead of help catalysis, instead, first the enzyme binds to the substrate forming ES which has the same amount of free energy as the free substrate, it then proceeds to destabilize the substrate to start its conversion into the product, here, the enzyme stabilizes the transition state from ES to EP and eventually the release of P to lower its free energy reducing the reaction time.
+2. We need to keep in mind that enzymes don’t stabilize the Enzyme-Substrate complex, because then the free energy of the ES would be much lower than that of the product itself which would hinder instead of help catalysis, instead, first the enzyme binds to the substrate forming ES which has the same amount of free energy as the free substrate, it then proceeds to destabilize the substrate to start its conversion into the product, here, the enzyme stabilizes the transition state from ES to EP and eventually the release of P to lower its free energy reducing the reaction time.
 
-3- Previously, it was thought that enzymes and substrates have a key-lock interaction between each other ( the Fischer model ) and that a structural analog resembling the substrate but smaller should be able to fit in the lock and react as well while a bigger analog wouldn’t even fit in the lock. This concept was experimentally proven wrong, smaller analogs don’t react with the enzyme, and bigger analogs were predicted to be unable to even bind to the enzyme, what was observed is that there can be a tight binding between the larger analog and the enzyme although still no reaction, this led to the **Induced Fit Hypothesis**, this hypothesis is based on two assumptions: First, is that there are optimum weak interactions between the enzyme and the transition state and Second, is that upon binding the enzyme changes its conformation, that’s the induced fit which optimizes the position of the reacting groups and favors enzyme catalysis. This is why a bigger analog can bind to the enzyme but can’t react with it ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2048.png>)
+3. Previously, it was thought that enzymes and substrates have a key-lock interaction between each other ( the Fischer model ) and that a structural analog resembling the substrate but smaller should be able to fit in the lock and react as well while a bigger analog wouldn’t even fit in the lock. This concept was experimentally proven wrong, smaller analogs don’t react with the enzyme, and bigger analogs were predicted to be unable to even bind to the enzyme, what was observed is that there can be a tight binding between the larger analog and the enzyme although still no reaction, this led to the **Induced Fit Hypothesis**, this hypothesis is based on two assumptions: First, is that there are optimum weak interactions between the enzyme and the transition state and Second, is that upon binding the enzyme changes its conformation, that’s the induced fit which optimizes the position of the reacting groups and favors enzyme catalysis. This is why a bigger analog can bind to the enzyme but can’t react with it ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2048.png>)
 
 It’s because while there will be a change in conformation in the enzyme, that change won’t be complete and the structural analog will hinder the motion of the different regions of the enzyme, preventing the correct alignment of the reacting groups and thus preventing catalysis.
 
-4- There is also a fourth factor by which enzymes increase the reaction rate, that is **desolvation**, there are weak interactions that exist between the substrate and the surrounding water molecules, desolvation is the process by which these weak interactions are replaced by weak interactions between the enzyme and the substrate which contributes to the binding energy and facilitate catalysis.
+4. There is also a fourth factor by which enzymes increase the reaction rate, that is **desolvation**, there are weak interactions that exist between the substrate and the surrounding water molecules, desolvation is the process by which these weak interactions are replaced by weak interactions between the enzyme and the substrate which contributes to the binding energy and facilitate catalysis.
 
 ### 2.3.3
 
-1- Enzymes are very large compared to their substrates ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2049.png>)
+1. Enzymes are very large compared to their substrates ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2049.png>)
 
 In this Alcohol Dehydrogenase example ( An enzyme that catalyses the conversion of ethanol to acetaldehyde with reduction of an NAD+ molecule )![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2050.png>)
 
 This is the active site of the enzyme where NAD+ ( Bottom Left ) and ethanol ( Middle ) are surrounded by ten residues out of which only two or three contribute to catalysis. So then what’s the function of the rest of the enzyme?
 
-2- What are the reasons behind the tertiary structure of the polypeptide that makes the enzyme?
+2. What are the reasons behind the tertiary structure of the polypeptide that makes the enzyme?
 
 First, the tertiary structure of the enzyme or its three-dimensional fold allows the correct positioning of the catalytic residues that will react with the substrate, Second you have the region of the protein that is necessary for the induced fit for the change of conformation that is needed to optimize the positioning of the reacting groups between the substrate and the enzyme, Third you need to regulate the activity of the enzymes because these enzymes catalyze reactions in different metabolic pathways which needs control and coordination, and Fourth, some regions of the enzyme could be needed for protein-protein interactions, they can even assemble in multi-functional complexes like those involved in sequential reactions and can catalyze an entire biochemical pathway. That’s why enzymes can’t be limited to short peptides containing all the catalytic residues.
 
-3- And here is a normal length enzyme vs one that is only long enough to have all of its catalytic units
+3. And here is a normal length enzyme vs one that is only long enough to have all of its catalytic units
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2051.png>)
 
 Notice that the substrate can’t bind to the short polypeptide because it has limited folding options and can’t position its catalytic residues correctly to bind the enzyme, while that’s not a problem with the normal length enzyme.
 
-4- So in our example of ADH we know that ethanol will transfer two hydrogens to NAD+ to become acetaldehyde so ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2052.png>)
+4. So in our example of ADH we know that ethanol will transfer two hydrogens to NAD+ to become acetaldehyde so ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2052.png>)
 
 And from this chemical formula, we see that the hydrogen from the hydroxyl group will give us the proton in the reaction while the two hydrogens carried by the methylene group both have an equal probability of being transferred to NAD+, what was observed, however, is that it’s always the same hydrogen that gets transferred to form NADH ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2053.png>)
 
@@ -307,29 +438,29 @@ This consistency can be explained by a substrate-enzyme interaction model called
 
 That our three attachments sites are 1) the methyl group which attaches to the enzyme, 2) the hydroxyl group which also attaches to the enzyme, 3) and one specific hydrogen that will always be the same forms the third attachment point to the enzyme, that hydrogen from the methylene group is now positioned near the NAD+ group and will always be the one to get transferred to NAD+.
 
-5- Here,
+5. Here,
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2055.png>)
 
 We have an example of induced fit in the Citrate synthase enzyme, this enzyme binds both oxaloacetate and acetyl-CoA to form Citrate, acetyl-CoA, however, is very unstable and has a high hydrolysis potential of dGo = -32,2 KJ/mol and if it binds to the enzyme first there is a risk of it getting hydrolyzed before having the chance to react with the oxaloacetate molecule which would be wasteful, this is why as shown by the diagram the oxaloacetate molecule binds to Citrate synthase first, this causes the induced fit to take place and a conformational change occurs in the enzyme which creates the binding site of Ac-CoA and allows it to now bind to the enzyme, the two substrates then react together causing a second induced-fit which repositions the catalytic residues to then trigger the hydrolysis of the acetyl group and its transfer to oxaloacetate and Citrate and CoA are then released.
 
-6- Another reason behind the size of enzymes was regulation by for example transient covalent modifications the most common of which is phosphorylation catalyzed by a kinase, and dephosphorylation catalyzed by a phosphatase, these can either activate or inhibit different enzymes. In eukaryotes, the residues that are phosphorylated or dephosphorylated are serine, threonine, and tyrosine.
+6. Another reason behind the size of enzymes was regulation by for example transient covalent modifications the most common of which is phosphorylation catalyzed by a kinase, and dephosphorylation catalyzed by a phosphatase, these can either activate or inhibit different enzymes. In eukaryotes, the residues that are phosphorylated or dephosphorylated are serine, threonine, and tyrosine.
 
 ### 2.3.4.1
 
 #### Protein processing
 
-1- The activity of many newly synthesized proteins requires post-translational modifications and interactions with specific ligands.
+1. The activity of many newly synthesized proteins requires post-translational modifications and interactions with specific ligands.
 
-2- Some enzymes are synthesized as proenzymes or zymogens, these are inactive enzymes that are activated through a hydrolysis reaction mediated by a proteolytic enzyme which results in a change in conformation of a portion of the polypeptide which reveals the active site of the now mature, fully processed enzyme.
+2. Some enzymes are synthesized as proenzymes or zymogens, these are inactive enzymes that are activated through a hydrolysis reaction mediated by a proteolytic enzyme which results in a change in conformation of a portion of the polypeptide which reveals the active site of the now mature, fully processed enzyme.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2056.png>)
 
-3- The processing often occurs within the Golgi system where a specific region of the zymogen that can be a simple peptide bond, a short peptide, or even a large independently folded polypeptide exceeding 100 amino acids in length. These regions don’t only inactivate the enzyme, in many cases, they are necessary for the stabilization and proper folding of the zymogen.
+3. The processing often occurs within the Golgi system where a specific region of the zymogen that can be a simple peptide bond, a short peptide, or even a large independently folded polypeptide exceeding 100 amino acids in length. These regions don’t only inactivate the enzyme, in many cases, they are necessary for the stabilization and proper folding of the zymogen.
 
-4- Aside from the **inactivating peptide** mentioned above there are also **signaling peptides** that can be found at the N-terminus of many proteins which are used to direct proteins to different intracellular compartments. Some proteins which are made on free cytoplasmic ribosomes will remain cytoplasmic while other proteins made by the same free ribosomes can have specific N-terminus sequences that can direct them to the mitochondria, nucleus or other small organelles such as peroxisomes. Other times synthesis ( or translation ) can start in the cytoplasm but right after the synthesis of the signaling sequence the ribosome itself would get attached to the endoplasmic reticulum where the translation will resume and proteins will then accumulate in the lumen ( the interior ) of the ER or get embedded in the membrane of the ER, these proteins will then be transported to the Golgi system and from there to secretory vesicles or to a type of cytoplasmic organelle called lysosomes. If the protein is contained inside of the secretory vesicle then it will be secreted outside the cell, while if it was contained in the membrane then it will be integrated into the membrane of the cell. Signal peptides are organelle-specific and are usually cleaved off after delivery. Signaling and inactivating peptides are powerful regulators that control the activation of the protein where and when it’s needed. ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2057.png>)
+4. Aside from the **inactivating peptide** mentioned above there are also **signaling peptides** that can be found at the N-terminus of many proteins which are used to direct proteins to different intracellular compartments. Some proteins which are made on free cytoplasmic ribosomes will remain cytoplasmic while other proteins made by the same free ribosomes can have specific N-terminus sequences that can direct them to the mitochondria, nucleus or other small organelles such as peroxisomes. Other times synthesis ( or translation ) can start in the cytoplasm but right after the synthesis of the signaling sequence the ribosome itself would get attached to the endoplasmic reticulum where the translation will resume and proteins will then accumulate in the lumen ( the interior ) of the ER or get embedded in the membrane of the ER, these proteins will then be transported to the Golgi system and from there to secretory vesicles or to a type of cytoplasmic organelle called lysosomes. If the protein is contained inside of the secretory vesicle then it will be secreted outside the cell, while if it was contained in the membrane then it will be integrated into the membrane of the cell. Signal peptides are organelle-specific and are usually cleaved off after delivery. Signaling and inactivating peptides are powerful regulators that control the activation of the protein where and when it’s needed. ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2057.png>)
 
-5- One of these zymogens is called chymotrypsin, a digestive proteolytic enzyme that breaks proteins from ingested food and is produced and secreted by the pancreas as chymotrypsinogen and is activated in the duodenum by a protease enzyme called trypsin.
+5. One of these zymogens is called chymotrypsin, a digestive proteolytic enzyme that breaks proteins from ingested food and is produced and secreted by the pancreas as chymotrypsinogen and is activated in the duodenum by a protease enzyme called trypsin.
 
 In the duodenum, the 245 amino acids long chymotrypsinogen is cleaved between AA 15 and 16 forming pie-chymotrypsin which remains covalently attached by a disulfide bond between AA 15 and 16. Pie-chymotrypsin then digests itself ( autolysis ) and two dipeptides are removed, the residues occupying positions 14 and 15 and the ones occupying positions 147 and 148, the remaining fragments remain covalently attached via disulfide bonds ( or sulfide bridges ) forming the mature form of chymotrypsin called alpha-chymotrypsin.
 
@@ -343,24 +474,24 @@ And here we see the effect of these conformational changes. A hydrophobic pocket
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2060.png>)
 
-6- Not only enzymes can be activated by proteolysis but also hormones and neuropeptides, for example, insulin. The very first form on insulin is a 110 AA protein called pre-pro-insulin, this zymogen will go through the endoplasmic reticulum where the signaling peptide will be cleaved off then it will accumulate in the ER lumen where disulfide bonds will link the N and C termini regions before proinsulin is sent to the Golgi system and then to secretory vesicles where it will be subjected to proteolytic cleavage, the result is the formation of active insulin formed by the C and N termini regions connected by disulfide bonds, these two chains are called A and B, as for the region connecting both fragments, it’s called the C-peptide. Both insulin and the C-peptide are then secreted by the pancreatic cells.
+6. Not only enzymes can be activated by proteolysis but also hormones and neuropeptides, for example, insulin. The very first form on insulin is a 110 AA protein called pre-pro-insulin, this zymogen will go through the endoplasmic reticulum where the signaling peptide will be cleaved off then it will accumulate in the ER lumen where disulfide bonds will link the N and C termini regions before proinsulin is sent to the Golgi system and then to secretory vesicles where it will be subjected to proteolytic cleavage, the result is the formation of active insulin formed by the C and N termini regions connected by disulfide bonds, these two chains are called A and B, as for the region connecting both fragments, it’s called the C-peptide. Both insulin and the C-peptide are then secreted by the pancreatic cells.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2061.png>)
 
-7- Insulin and C-peptides have opposing actions on RBCs. Insulin can bind to a receptor on RBCs that activates an enzyme called **PDE3** that can convert excess **ATP** to **AMP**, without it the excess ATP will be released and will react with the endothelial cells activating their **ENOS** enzyme which produces **nitric oxide** which can then cause **vasodilation**, **C-peptides**, on the other hand, will bind to a different receptor that activates the **PKC** enzyme in RBCs which inhibits **PDE3** thus both of them together control the production of **NO** and **vasodilation**. They can also exhibit an inhibitory effect together on **WBCs**. when **WBCs** are activated they release cytokines that stimulate the up-regulation of adhesion molecules at the surface of endothelial cells and facilitate the attachment of **WBCs** to endothelial cells, this is the first step in **extravasation** or the **infiltration** of inflamed tissue by **WBCs**. When both insulin and **C-peptide** are bound to a **WBC** via their respective receptors they activate a signaling cascade which decreases the release of **cytokines** thus preventing tissue infiltration by **WBCs**. Therefore, they have anti-inflammatory properties. **C-peptides** also help tune the production of insulin by binding to their membrane receptor on pancreatic cells when insulin levels are low, this leads to the activation of a type of **G-protein** which leads to an intracellular signaling pathway that mimics insulin signaling and enhances insulin signaling, while the binding of a **C-peptide** to its receptor when insulin levels are high will activate a different **G-protein** that leads to the activation of **PKC** which will then repress the insulin signaling pathway and dampen the insulin signaling pathway.
+7. Insulin and C-peptides have opposing actions on RBCs. Insulin can bind to a receptor on RBCs that activates an enzyme called **PDE3** that can convert excess **ATP** to **AMP**, without it the excess ATP will be released and will react with the endothelial cells activating their **ENOS** enzyme which produces **nitric oxide** which can then cause **vasodilation**, **C-peptides**, on the other hand, will bind to a different receptor that activates the **PKC** enzyme in RBCs which inhibits **PDE3** thus both of them together control the production of **NO** and **vasodilation**. They can also exhibit an inhibitory effect together on **WBCs**. when **WBCs** are activated they release cytokines that stimulate the up-regulation of adhesion molecules at the surface of endothelial cells and facilitate the attachment of **WBCs** to endothelial cells, this is the first step in **extravasation** or the **infiltration** of inflamed tissue by **WBCs**. When both insulin and **C-peptide** are bound to a **WBC** via their respective receptors they activate a signaling cascade which decreases the release of **cytokines** thus preventing tissue infiltration by **WBCs**. Therefore, they have anti-inflammatory properties. **C-peptides** also help tune the production of insulin by binding to their membrane receptor on pancreatic cells when insulin levels are low, this leads to the activation of a type of **G-protein** which leads to an intracellular signaling pathway that mimics insulin signaling and enhances insulin signaling, while the binding of a **C-peptide** to its receptor when insulin levels are high will activate a different **G-protein** that leads to the activation of **PKC** which will then repress the insulin signaling pathway and dampen the insulin signaling pathway.
 
 ### 2.3.4.2
 
 #### Blood Coagulation
 
-1- There are two main components to blood clots.  
+1. There are two main components to blood clots.  
 First, platelets which form the plug itself to stop blood from flowing outside the damaged vessel. They are cellular fragments devoid of a nucleus which derive from the bone marrow cells megakaryocytes.
 
 Second, fibrin which is a fibrous protein that forms a mesh that extends outside the vessel to stabilize the platelet plug.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2062.png>)
 
-2- So how do platelets and fibrin work together to bring about blood clotting or coagulation? They do so through three phases, **initiation**, **extension**, and **stabilization**.
+2. So how do platelets and fibrin work together to bring about blood clotting or coagulation? They do so through three phases, **initiation**, **extension**, and **stabilization**.
 
 But then how does the coagulation cascade regulate blood clotting?
 
@@ -376,7 +507,7 @@ To summarize, the activation of platelets that occurred during those three phase
 
 Also, the fibrin deposition at the base of the clot and the higher inter platelet interactions cause the **core** platelets to be more **closely** packed and **more** stable while platelets in the shell are **loosely** packed and **less** stable because of the **limited** fibrin deposition and the inter platelet interactions being dependent on the concentration of ADP and thromboxane A2.
 
-3- Fibrinogen is the third most abundant protein in blood plasma. This protein weighs 340 kilodaltons ( 1 dalton is defined as 1/12 of the mass of an unbound neutral atom of carbon-12 in its nuclear and electronic ground state and at rest, or just the weight of a hydrogen atom ) and consists of two C-terminal domains ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2064.png>)
+3. Fibrinogen is the third most abundant protein in blood plasma. This protein weighs 340 kilodaltons ( 1 dalton is defined as 1/12 of the mass of an unbound neutral atom of carbon-12 in its nuclear and electronic ground state and at rest, or just the weight of a hydrogen atom ) and consists of two C-terminal domains ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2064.png>)
 
 that are connected via coiled-coil regions ( below is what a coiled-coil looks like )
 
@@ -386,13 +517,13 @@ In order for thrombin to convert fibrinogen into fibrin, it cleaves small portio
 
 The remaining part of fibrinogen is the fibrin monomer.
 
-4- The cleavage of fibrinopeptides reveals binding sites of the central nodule, these binding sites interact with the C-terminal domains of other fibrin molecules to form a meshwork of fibers or the polymer. Finally, coagulation factor XIII will catalyze the cross-linking of fibrins to stabilize the filamentous network.
+4. The cleavage of fibrinopeptides reveals binding sites of the central nodule, these binding sites interact with the C-terminal domains of other fibrin molecules to form a meshwork of fibers or the polymer. Finally, coagulation factor XIII will catalyze the cross-linking of fibrins to stabilize the filamentous network.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2067.png>)
 
 This meshwork extends from the base of the plug into the extravascular region around the lesion. Without fibrin, the plug would be pushed off by the flowing blood and the clot would not be formed. Fibrin formation is of course regulated by thrombin’s activation, and that, in turn, is regulated by the coagulation cascade which is triggered by the presence of a vascular lesion.
 
-5- A blood vessel is surrounded from the lumen side by an **endothelium**, surrounding that is another layer of cells that expresses a transmembrane receptor called a **tissue factor**
+5. A blood vessel is surrounded from the lumen side by an **endothelium**, surrounding that is another layer of cells that expresses a transmembrane receptor called a **tissue factor**
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2068.png>)
 
@@ -402,13 +533,13 @@ The cells presenting TF will be exposed to blood in the lumen. From here, the co
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2070.png>)
 
-6- The intrinsic pathway can be initiated by several factors including misfolded proteins, bacterial surface proteins, or exposure to anionic compounds such as extracellular nucleic acids or phospholipids displayed at the surface of activated platelets and the site of the vascular lesion. The first step is the activation of coagulation factor **XII** which is a protease, then factor **XIIa** cleaves factor **XI** which is another protease, after this, both pathways start sharing steps where factor IXa with factor **VIIIa** will activate factor **X**. Both pathways contribute to the processing and activation of **thrombin** and the result will hence be an enhancement of the formation of the fibrin meshwork and the activation of platelets.
+6. The intrinsic pathway can be initiated by several factors including misfolded proteins, bacterial surface proteins, or exposure to anionic compounds such as extracellular nucleic acids or phospholipids displayed at the surface of activated platelets and the site of the vascular lesion. The first step is the activation of coagulation factor **XII** which is a protease, then factor **XIIa** cleaves factor **XI** which is another protease, after this, both pathways start sharing steps where factor IXa with factor **VIIIa** will activate factor **X**. Both pathways contribute to the processing and activation of **thrombin** and the result will hence be an enhancement of the formation of the fibrin meshwork and the activation of platelets.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2071.png>)
 
 The intrinsic pathway doesn’t play a major role in the formation of a blood clot, but when misregulated it can contribute to **thrombosis** which is the formation of blood clots in the absence of vascular lesions. These clots can block blood flow in blood vessels.
 
-7- Thrombin also plays a major role in the deactivation of the vascular cascade and controlling the size of the clot after the lesion has been sealed. After some time thrombin will end up forming a complex with **protein S** both of which will then form a ternary complex with **thrombomodulin** or **tm** which is a membrane protein found at the surface of vascular endothelium cells on the lumen side of the vessel. This ternary complex then triggers the activation of **protein C** which is a protease that degrades factor **Va** and **VIIIa** and the result is the deactivation of factor **IX** and **X** and in the end, the coagulation cascade will be stopped. There are also two extra levels of inhibition. First, protein **TFPI** binds to and inhibits **TF** and factors **VII** and **X**. Then, the protein **antithrombin** **3** binds irreversibly to thrombin inactivating its proteolytic activity. It also inactivates other serine proteases including factors **IX**, **X**, **XI**, and **XII** which block both the extrinsic and intrinsic pathways.
+7. Thrombin also plays a major role in the deactivation of the vascular cascade and controlling the size of the clot after the lesion has been sealed. After some time thrombin will end up forming a complex with **protein S** both of which will then form a ternary complex with **thrombomodulin** or **tm** which is a membrane protein found at the surface of vascular endothelium cells on the lumen side of the vessel. This ternary complex then triggers the activation of **protein C** which is a protease that degrades factor **Va** and **VIIIa** and the result is the deactivation of factor **IX** and **X** and in the end, the coagulation cascade will be stopped. There are also two extra levels of inhibition. First, protein **TFPI** binds to and inhibits **TF** and factors **VII** and **X**. Then, the protein **antithrombin** **3** binds irreversibly to thrombin inactivating its proteolytic activity. It also inactivates other serine proteases including factors **IX**, **X**, **XI**, and **XII** which block both the extrinsic and intrinsic pathways.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2072.png>)
 
@@ -416,13 +547,13 @@ The coagulation cascade is responsible for **Hemostasis** ( stopping the flow of
 
 ### 2.3.5
 
-1- Thrombus: a blood clot that forms in the arteries or veins of the body. It can cause strokes, heart attacks, shortness of breath, or death based on where it occurred.
+1. Thrombus: a blood clot that forms in the arteries or veins of the body. It can cause strokes, heart attacks, shortness of breath, or death based on where it occurred.
 
 ## Enzyme kinetics:
 
 ### 2.4.1
 
-1- The study of enzyme kinetics revolves around the study of reaction velocity which is defined as the amount of product produced or the amount of substrate consumed per unit time. This can be done, for example, via a colorimetric assay using spectrophotometry.
+1. The study of enzyme kinetics revolves around the study of reaction velocity which is defined as the amount of product produced or the amount of substrate consumed per unit time. This can be done, for example, via a colorimetric assay using spectrophotometry.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2073.png>)
 
@@ -430,7 +561,7 @@ A studied reaction will have a constant amount of substrate that gets depleted o
 
 ### 2.4.2
 
-1- **Michaelis and Menten** were two of the scientists who developed a mathematical equation to help describe enzyme kinetics. The first step is the formation of an enzyme-substrate complex which is a reversible reaction with constant rates **K1** for the forward reaction and **K-1** for the reverse reaction
+1. **Michaelis and Menten** were two of the scientists who developed a mathematical equation to help describe enzyme kinetics. The first step is the formation of an enzyme-substrate complex which is a reversible reaction with constant rates **K1** for the forward reaction and **K-1** for the reverse reaction
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2074.png>)
 
@@ -442,7 +573,7 @@ Since we will be focusing on the early stage of the reaction the concentration o
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2076.png>)
 
-2- Now we want to combine these three constants and create one single constant, that will be the **Michaelis-Menton constant** or **Km**. The very first stage of the reaction after having mixed the substrate with the enzyme is called the **pre-steady-state** where the concentration of ES is still being built up. Following that, we reach the **steady-state** where the concentration of ES is constant, this is the state that we will focus on. So now the first thing we need to do when studying steady-state enzyme kinetics determines the rate of formation of ES, that would be the product of **the forward rate constant x the concentration of the starting material**
+2. Now we want to combine these three constants and create one single constant, that will be the **Michaelis-Menton constant** or **Km**. The very first stage of the reaction after having mixed the substrate with the enzyme is called the **pre-steady-state** where the concentration of ES is still being built up. Following that, we reach the **steady-state** where the concentration of ES is constant, this is the state that we will focus on. So now the first thing we need to do when studying steady-state enzyme kinetics determines the rate of formation of ES, that would be the product of **the forward rate constant x the concentration of the starting material**
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2077.png>)
 
@@ -454,7 +585,7 @@ Since we’re at steady-state this means that **V1 = V2** since ES is constant w
 
 By rearranging this equation putting all the rate constants on one side and all the concentrations on the other, we get Km ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2081.png>)and this here is the **Michaelis-Menten** constant.
 
-3- So what does Km mean? From the equation, we can see that a high Km correlates to a low concentration of ES which suggests that the enzyme has a very low affinity to the substrate. A low Km that would mean that very little of the enzyme is free and the concentration of ES is high which also means that the enzyme has a high affinity for the substrate. However, this statement can only be true in one condition, if the second step of the reaction is the rate-limiting step and the value of K2 is very small compared to the other rate constants because then Km would be proportional only to the K-1 over K1 ratio which indicates the affinity of the enzyme to the substrate. Now the next problem that needs addressing is to come up with a more useful equation for Km, because while we know the total amount of enzyme we added to the substrate, determining how much of it is left compared to the concentration of ES is very difficult, what we do know, however, is that the total amount of enzyme is equal to the amount of free enzyme plus the amount of enzyme in ES so **[ET] = [E] + [ES]** so **[E] = [ET] - [ES]** and now we can replace **E** in the Km equation with something easier to determine, something we know.
+3. So what does Km mean? From the equation, we can see that a high Km correlates to a low concentration of ES which suggests that the enzyme has a very low affinity to the substrate. A low Km that would mean that very little of the enzyme is free and the concentration of ES is high which also means that the enzyme has a high affinity for the substrate. However, this statement can only be true in one condition, if the second step of the reaction is the rate-limiting step and the value of K2 is very small compared to the other rate constants because then Km would be proportional only to the K-1 over K1 ratio which indicates the affinity of the enzyme to the substrate. Now the next problem that needs addressing is to come up with a more useful equation for Km, because while we know the total amount of enzyme we added to the substrate, determining how much of it is left compared to the concentration of ES is very difficult, what we do know, however, is that the total amount of enzyme is equal to the amount of free enzyme plus the amount of enzyme in ES so **[ET] = [E] + [ES]** so **[E] = [ET] - [ES]** and now we can replace **E** in the Km equation with something easier to determine, something we know.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2082.png>)
 
@@ -486,7 +617,7 @@ This is the optimum condition for the cell, here the enzyme is sensitive to chan
 
 ### 2.4.3
 
-1- Michaelis-Menten’s hyperbolic curve allows us to estimate both Km and Vmax, but there is another way that allows us to get a more accurate estimate, that would be to get those values from a straight line. So to linearise the curve we start with the main equation ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2088.png>)
+1. Michaelis-Menten’s hyperbolic curve allows us to estimate both Km and Vmax, but there is another way that allows us to get a more accurate estimate, that would be to get those values from a straight line. So to linearise the curve we start with the main equation ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2088.png>)
 
 Then, we take the reciprocal of the equation and rearrange it ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2089.png>)
 
@@ -508,9 +639,9 @@ m = Km/Vmax
 
 ### 2.4.4.1
 
-1- Cells contain neutral molecules that act as enzyme inhibitors, these molecules are also important in medicine.
+1. Cells contain neutral molecules that act as enzyme inhibitors, these molecules are also important in medicine.
 
-2- There are three main classes of inhibitors, the first of which are competitive inhibitors
+2. There are three main classes of inhibitors, the first of which are competitive inhibitors
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%2093.png>)
 
@@ -552,7 +683,7 @@ Which is the Lineweaver-Burk equation in the presence of an inhibitor
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20102.png>)
 
-3- Competitive inhibitors don’t affect Vmax because all it takes is to assume an infinite amount of substrate and then the substrate will outcompete the inhibitor. However, they do affect Km, the reason being that the slope in the absence of an inhibitor is equal to **Km/Vmax**, while in the presence of one it’s equal to **Km/Vmax (1+[I]/KI)** which is larger than one, so the slope gets steeper
+3. Competitive inhibitors don’t affect Vmax because all it takes is to assume an infinite amount of substrate and then the substrate will outcompete the inhibitor. However, they do affect Km, the reason being that the slope in the absence of an inhibitor is equal to **Km/Vmax**, while in the presence of one it’s equal to **Km/Vmax (1+[I]/KI)** which is larger than one, so the slope gets steeper
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20103.png>)
 
@@ -560,13 +691,13 @@ The **(1+[I]/KI)** term which is larger than one is represented as alpha, and th
 
 ### 2.4.4.2
 
-1- The second type of inhibitors are uncompetitive inhibitors. These can only bind to the ES complex to form an **ESI** complex which is non-productive
+1. The second type of inhibitors are uncompetitive inhibitors. These can only bind to the ES complex to form an **ESI** complex which is non-productive
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20104.png>)
 
-2- The effects on Km and Vmax here are different, a portion of the enzyme here is bound to be trapped in a non-productive state and therefore Vmax will decrease while the apparent Km will also decrease because the formation of the ESI complex will shift the equilibrium of the reaction to the right towards the formation of more ES which makes the affinity of the enzyme to the substrate appear higher.
+2. The effects on Km and Vmax here are different, a portion of the enzyme here is bound to be trapped in a non-productive state and therefore Vmax will decrease while the apparent Km will also decrease because the formation of the ESI complex will shift the equilibrium of the reaction to the right towards the formation of more ES which makes the affinity of the enzyme to the substrate appear higher.
 
-3- As for the Lineweaver-Burk equation
+3. As for the Lineweaver-Burk equation
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20105.png>)
 
@@ -580,7 +711,7 @@ Now looking at the slope
 
 Apparent Km is equal to Km/alpha prime so it will be less than Km
 
-4- Finally we have mixed inhibitors
+4. Finally we have mixed inhibitors
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20108.png>)
 
@@ -594,7 +725,7 @@ In the following example
 
 This inhibitor favors binding with E over ES, therefore, alpha will have a higher value than alpha prime and Km will increase.
 
-5- The final example of inhibitors is a sub-group of mixed inhibitors known as non-competitive inhibitors which is a mixed inhibitor that doesn’t favor either E or ES and that can theoretically make the exact same amount of EI and ESI so EI = ESI and alpha will be equal to alpha prime which means that Km will be equal to apparent Km.
+5. The final example of inhibitors is a sub-group of mixed inhibitors known as non-competitive inhibitors which is a mixed inhibitor that doesn’t favor either E or ES and that can theoretically make the exact same amount of EI and ESI so EI = ESI and alpha will be equal to alpha prime which means that Km will be equal to apparent Km.
 
 **![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20111.png>)**
 
@@ -604,9 +735,9 @@ This inhibitor favors binding with E over ES, therefore, alpha will have a highe
 
 #### ISM
 
-1- Enzymes are stereospecific and can only bind to a specific enantiomer of their substrate and can form one specific enantiomer form of the ES complex, enzymes also exhibit varying levels of activity and stability under different conditions of pH, salinity, and temperature.
+1. Enzymes are stereospecific and can only bind to a specific enantiomer of their substrate and can form one specific enantiomer form of the ES complex, enzymes also exhibit varying levels of activity and stability under different conditions of pH, salinity, and temperature.
 
-2- To harness the power of enzymes and/or change their activity, one must adapt and modify the natural form of the enzymes that are found in living cells. Scientists can adapt enzyme specificity, activity, and/or stability to new environments in the laboratory using a variety of methods and techniques. There are three main approaches that scientists use **Rational design**, **Directed evolution,** and **Semi-rational design.** In order to use rational design, a preexisting knowledge of the structure of the enzyme must be available, a rational approach is then used to replace specific amino acids by others that can change the binding properties and/or activity of the enzyme. Also, a ligand can be designed to inhibit or activate the enzyme. However, one drawback of this method is that prior knowledge of the structure of the enzyme with and without its substrates is required as well as a good understanding of its mechanism of action. This requires time because it isn’t a simple task and therefore the process is costly, finally, the structure-function complexity of some enzymes can limit the usability of this approach.
+2. To harness the power of enzymes and/or change their activity, one must adapt and modify the natural form of the enzymes that are found in living cells. Scientists can adapt enzyme specificity, activity, and/or stability to new environments in the laboratory using a variety of methods and techniques. There are three main approaches that scientists use **Rational design**, **Directed evolution,** and **Semi-rational design.** In order to use rational design, a preexisting knowledge of the structure of the enzyme must be available, a rational approach is then used to replace specific amino acids by others that can change the binding properties and/or activity of the enzyme. Also, a ligand can be designed to inhibit or activate the enzyme. However, one drawback of this method is that prior knowledge of the structure of the enzyme with and without its substrates is required as well as a good understanding of its mechanism of action. This requires time because it isn’t a simple task and therefore the process is costly, finally, the structure-function complexity of some enzymes can limit the usability of this approach.
 
 Second is directed evolution. This method is completely different from Rational design since it tests random substitutions.
 
@@ -626,17 +757,17 @@ While those that improve the stability of the enzyme tend to be away from the ac
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20115.png>)
 
-3- When saturating a given site there are different ways of choosing how many and which of the three codons making a gene to mutate. First is the **NNN degeneracy** where each nucleotide will be replaced giving us for each codon in a three codons sequence for a site with three amino acids 4 times 4 times 4 or 64 nucleotide combinations so that each of the 20 amino acids will be represented at the target site, however, the genetic code is degenerate and each amino acid has three codons that represent it, which means that we don’t have to use all four possible nucleotides in the third position of the triplet. This leads us to the **NNK degeneracy**, where N represents A, C, G, or T, K represents only G or T, so now we will have 4 times 4 times 2 or 32 nucleotide combinations which in fact still represents all 20 amino acids in the site and also it prevents stop codons from being represented. Finally, to reduce the possible combinations for each modified codon and decrease the complexity of the libraries, we use the **NDT degeneracy**, here, X is replaced by N, Y is replaced by D which represents A, G, or T, and Z is replaced by T which only represents T. Now we have 4 times 3 for only 12 possible nucelotide combinations, and while this degeneracy doesn’t represent all 20 amino acids, it still covers representatives of each type, polar, aliphatic, aromatic, positively or negatively charged.
+3. When saturating a given site there are different ways of choosing how many and which of the three codons making a gene to mutate. First is the **NNN degeneracy** where each nucleotide will be replaced giving us for each codon in a three codons sequence for a site with three amino acids 4 times 4 times 4 or 64 nucleotide combinations so that each of the 20 amino acids will be represented at the target site, however, the genetic code is degenerate and each amino acid has three codons that represent it, which means that we don’t have to use all four possible nucleotides in the third position of the triplet. This leads us to the **NNK degeneracy**, where N represents A, C, G, or T, K represents only G or T, so now we will have 4 times 4 times 2 or 32 nucleotide combinations which in fact still represents all 20 amino acids in the site and also it prevents stop codons from being represented. Finally, to reduce the possible combinations for each modified codon and decrease the complexity of the libraries, we use the **NDT degeneracy**, here, X is replaced by N, Y is replaced by D which represents A, G, or T, and Z is replaced by T which only represents T. Now we have 4 times 3 for only 12 possible nucelotide combinations, and while this degeneracy doesn’t represent all 20 amino acids, it still covers representatives of each type, polar, aliphatic, aromatic, positively or negatively charged.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20116.png>)
 
 The idea behind which degeneracy method to use is that the number of clones they need to screen through to cover 95% of all possible combinations using the NNK degeneracy for two amino acids is around 3000 while with the NDT degeneracy they only need to go through is only around 500. And for three amino acids or sites, the NNK degeneracy gives around 100K clones and NDT gives around 5000. But this doesn’t make NDT a clear winner here because scientists also need to consider whether they want their clones to contain only a representative portion of each type of amino acid (NDT) or if they want them to include all amino acids (NNK).
 
-4- So as an example of the ISM, imagine scientists identified four sites in an enzyme that can be modified to enhance the enzyme’s thermostability, they can track their progress via the T50 of a protein which is the temperature at which 50% of the protein is denatured. So after using ISM at each of the four sites, we get a separate library for each site named A, B, C, and D. Each library is then screened for the best performer with the highest T50, and then the winner from each library is compared to the others to identify the best performer across all libraries. This mutant is then used as the new template with its mutated site, for example, site C, to create three new libraries where we are adding the mutation from site C to another mutation to further enhance the enzyme. Here, we can assume that site D was the best performer this time giving us yet a new template, library C+D that has the previous mutation inside site C plus the new mutation in site D and we continue down this road until we get to the best possible mutant, for example, mutant X from library C+D+B+A. Here, we reached a variant with mutations in all four sites, and the best thermostability possible.
+4. So as an example of the ISM, imagine scientists identified four sites in an enzyme that can be modified to enhance the enzyme’s thermostability, they can track their progress via the T50 of a protein which is the temperature at which 50% of the protein is denatured. So after using ISM at each of the four sites, we get a separate library for each site named A, B, C, and D. Each library is then screened for the best performer with the highest T50, and then the winner from each library is compared to the others to identify the best performer across all libraries. This mutant is then used as the new template with its mutated site, for example, site C, to create three new libraries where we are adding the mutation from site C to another mutation to further enhance the enzyme. Here, we can assume that site D was the best performer this time giving us yet a new template, library C+D that has the previous mutation inside site C plus the new mutation in site D and we continue down this road until we get to the best possible mutant, for example, mutant X from library C+D+B+A. Here, we reached a variant with mutations in all four sites, and the best thermostability possible.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20117.png>)
 
-5- In a real-life example, scientists managed to increase the thermostability of the bacterial enzyme Lipase A by 10X. First, to select the target sites that they should work on, they decided to choose based on a parameter called the **B-Factor** which measures the flexibility of an amino acid in a protein structure, they then identified the ten amino acids with the highest B-Factor in the wild type protein.
+5. In a real-life example, scientists managed to increase the thermostability of the bacterial enzyme Lipase A by 10X. First, to select the target sites that they should work on, they decided to choose based on a parameter called the **B-Factor** which measures the flexibility of an amino acid in a protein structure, they then identified the ten amino acids with the highest B-Factor in the wild type protein.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20118.png>)
 
@@ -662,15 +793,15 @@ To confirm the results these two variants or mutants were then tested against th
 
 ### 2.5.1
 
-1- There are two types of structural lipids: **Glycerophospholipids** and **Sphingolipids**. There are many building blocks for lipids, three of which are **Fatty acids**, **Sphingosines**, and **Glycerol** where glycerol and sphingosines are alcohols that form the backbones of many lipids while fatty acids form the tails.
+1. There are two types of structural lipids: **Glycerophospholipids** and **Sphingolipids**. There are many building blocks for lipids, three of which are **Fatty acids**, **Sphingosines**, and **Glycerol** where glycerol and sphingosines are alcohols that form the backbones of many lipids while fatty acids form the tails.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20122.png>)
 
-2- Fatty acids can form ester linkages with the hydroxyl groups of glycerol, fatty acids, glycerols, and sphingosines can form phosphodiester linkages by linking to the hydroxyl group of a phosphate group, fatty acids can also bind to the amino group of sphingosine forming an amide bond.
+2. Fatty acids can form ester linkages with the hydroxyl groups of glycerol, fatty acids, glycerols, and sphingosines can form phosphodiester linkages by linking to the hydroxyl group of a phosphate group, fatty acids can also bind to the amino group of sphingosine forming an amide bond.
 
-3- Triacylglycerol is the main fuel molecule of the cell, it is made of a glycerol backbone and three acyl functional groups which are part of the ester linkages. A triacylglycerol can also be simple if all three fatty acid tails are the same or mixed if they are different.
+3. Triacylglycerol is the main fuel molecule of the cell, it is made of a glycerol backbone and three acyl functional groups which are part of the ester linkages. A triacylglycerol can also be simple if all three fatty acid tails are the same or mixed if they are different.
 
-4- Going back to Glycerophospholipids, these are the same as triacylglycerols but with one difference being that instead of one of the fatty acids these have a phosphodiester linkage to a phosphate group, they can also be called phosphoglycerides. Glycerophosphates usually have a saturated 16-18 carbons long fatty acid on C1 and an unsaturated 18-20 carbons long one and at C3 they have a phosphate group and the same phosphodiester linkage can lead to a variety of different headgroups connected to the phosphate group, the simplest of which is phosphatidic acid
+4. Going back to Glycerophospholipids, these are the same as triacylglycerols but with one difference being that instead of one of the fatty acids these have a phosphodiester linkage to a phosphate group, they can also be called phosphoglycerides. Glycerophosphates usually have a saturated 16-18 carbons long fatty acid on C1 and an unsaturated 18-20 carbons long one and at C3 they have a phosphate group and the same phosphodiester linkage can lead to a variety of different headgroups connected to the phosphate group, the simplest of which is phosphatidic acid
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20123.png>)
 
@@ -678,17 +809,17 @@ Sphingolipids have a sphingosine molecule forming their backbones with one of th
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20124.png>)
 
-5- The phospholipid bilayer is made of amphipathic structural lipids, the main two are the cylindrical **phosphatidylcholine** and the conical **phosphatidylethanolamine** the conical shape comes from the fact that this lipid has a relatively small head group and carry unsaturated fatty acids. The difference in shape between these lipids is what enables the bilayer to bend and form a sphere. The conical lipids are better-adapted to curved membranes and hence exist mainly on the inner leaflet of the bilayer.
+5. The phospholipid bilayer is made of amphipathic structural lipids, the main two are the cylindrical **phosphatidylcholine** and the conical **phosphatidylethanolamine** the conical shape comes from the fact that this lipid has a relatively small head group and carry unsaturated fatty acids. The difference in shape between these lipids is what enables the bilayer to bend and form a sphere. The conical lipids are better-adapted to curved membranes and hence exist mainly on the inner leaflet of the bilayer.
 
-6- Cholesterol is a very hydrophobic, flat molecule with four hydrocarbon rings, its shape, allows it to intercalate between other lipids in the bilayer and it has an effect of membrane fluidity and lipid mobility.
+6. Cholesterol is a very hydrophobic, flat molecule with four hydrocarbon rings, its shape, allows it to intercalate between other lipids in the bilayer and it has an effect of membrane fluidity and lipid mobility.
 
 ### 2.5.2
 
-1- There are two types of lipids, structural lipids and storage lipids. Triacylglycerols are the main type of storage lipids, but why? First, let’s talk about triacylglycerols for a bit, they are present in the body of mammals in specialized cells called adipocytes which make up the adipose tissue. They accumulate in an extremely large lipid droplet that even pushes to cytoplasm and nucleus against the membrane of adipocytes. In immature adipose tissue, brown adipose tissue, and other cells that can store lipids like hepatocytes, the lipid droplets are very small and numerous.
+1. There are two types of lipids, structural lipids and storage lipids. Triacylglycerols are the main type of storage lipids, but why? First, let’s talk about triacylglycerols for a bit, they are present in the body of mammals in specialized cells called adipocytes which make up the adipose tissue. They accumulate in an extremely large lipid droplet that even pushes to cytoplasm and nucleus against the membrane of adipocytes. In immature adipose tissue, brown adipose tissue, and other cells that can store lipids like hepatocytes, the lipid droplets are very small and numerous.
 
-2- Now, let’s compare triacylglycerol to glycogen. First, the carbons in fatty acids are much more reduced than carbons in sugars. As a result, the complete oxidation of one gram of fatty acid produces twice as much energy as the complete oxidation of one gram of carbohydrate, 38 KJ to 17 KJ. Second, fatty acids are extremely hydrophobic and are stored in an almost anhydrous state inside of the lipid droplet. In contrast, ⅔ the mass of glycogen is water, so at equal mass, triacylglycerol contains much more usable full molecules than glycogen, one gram of hydrated glycogen produces six times less ATP than one gram of triacylglycerol.
+2. Now, let’s compare triacylglycerol to glycogen. First, the carbons in fatty acids are much more reduced than carbons in sugars. As a result, the complete oxidation of one gram of fatty acid produces twice as much energy as the complete oxidation of one gram of carbohydrate, 38 KJ to 17 KJ. Second, fatty acids are extremely hydrophobic and are stored in an almost anhydrous state inside of the lipid droplet. In contrast, ⅔ the mass of glycogen is water, so at equal mass, triacylglycerol contains much more usable full molecules than glycogen, one gram of hydrated glycogen produces six times less ATP than one gram of triacylglycerol.
 
-3- For an average individual, if we switch up all of his energy reserves into glycogen, he will get a massive weight increase.
+3. For an average individual, if we switch up all of his energy reserves into glycogen, he will get a massive weight increase.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20125.png>)
 
@@ -696,29 +827,29 @@ However, glycogen is still extremely useful and important, it’s much faster to
 
 ### 2.5.3
 
-1- How is fat stored and released from adipocytes? How are the hydrophobic lipids stored in the aqueous environment of the cell surrounded by cytoplasm? Lipid droplets are surrounded by a monolayer of phospholipids surrounded by a layer of protein called **Perilipin**. So how are lipids mobilized? Through the process of **Lipolysis** where the fatty acids are going to be broken off of the glycerol backbone, this is a three-step process catalyzed by three different reactions. First, triacylglycerol is converted to diacylglycerol through the enzyme **ATGL**, it’s then converted into monoacylglycerol via **HSL**, and finally glycerol and the last molecule of fatty acid via **MGL**.
+1. How is fat stored and released from adipocytes? How are the hydrophobic lipids stored in the aqueous environment of the cell surrounded by cytoplasm? Lipid droplets are surrounded by a monolayer of phospholipids surrounded by a layer of protein called **Perilipin**. So how are lipids mobilized? Through the process of **Lipolysis** where the fatty acids are going to be broken off of the glycerol backbone, this is a three-step process catalyzed by three different reactions. First, triacylglycerol is converted to diacylglycerol through the enzyme **ATGL**, it’s then converted into monoacylglycerol via **HSL**, and finally glycerol and the last molecule of fatty acid via **MGL**.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20126.png>)
 
-2- How is triacylglycerol degradation coordinated with energetic needs? How and when are the enzymes responsible activated? These enzymes are inactive because they are kept away from their substrate. ATGL, for example, requires another protein **ABHD5** to be activated first before it can do its job, this protein is kept in an inactive form bound to the perilipin of the lipid droplet, and HSL which is bound to a protein called **FABP4** is kept away from the droplet in the cytoplasm. An individual undergoing intense exercise who needs energy will produce hormones like those from the **Catecholamine** family, like, **Adrenaline** and **Noradrenaline** these can stimulate and control the activity of adipocytes, the way they do it is by binding to the **beta-adrenergic receptor** at the membrane of adipocytes, this receptor has an extracellular domain which binds catecholamines and an intracellular domain that binds to a **trimeric G protein** when catecholamine is bound to its receptor a change of conformation occurs in the beta-adrenergic receptor that transduced to the G protein and activates it, the G protein will then activate another membrane protein **adenylyl cyclase** which converts **ATP** into **cAMP**, so the consequence of catecholamine binding was an increase in the concentration of cAMP, cAMP will then activate the **PKA** enzyme, and PKA will then phosphorylate perilipin and HSL. Phosphorylated perilipin triggers the dissociation of ABHD5 activating it and allowing it to recruit ATGL, phosphorylating perilipin causes a remodeling of the perilipin layer which increases the access of enzymes to the lipid droplet, phosphorylated HSL is activated and can be recruited at the surface of the droplet. MGL is abundant and always active so now that its substrate is present it will be easy for it to work on it.
+2. How is triacylglycerol degradation coordinated with energetic needs? How and when are the enzymes responsible activated? These enzymes are inactive because they are kept away from their substrate. ATGL, for example, requires another protein **ABHD5** to be activated first before it can do its job, this protein is kept in an inactive form bound to the perilipin of the lipid droplet, and HSL which is bound to a protein called **FABP4** is kept away from the droplet in the cytoplasm. An individual undergoing intense exercise who needs energy will produce hormones like those from the **Catecholamine** family, like, **Adrenaline** and **Noradrenaline** these can stimulate and control the activity of adipocytes, the way they do it is by binding to the **beta-adrenergic receptor** at the membrane of adipocytes, this receptor has an extracellular domain which binds catecholamines and an intracellular domain that binds to a **trimeric G protein** when catecholamine is bound to its receptor a change of conformation occurs in the beta-adrenergic receptor that transduced to the G protein and activates it, the G protein will then activate another membrane protein **adenylyl cyclase** which converts **ATP** into **cAMP**, so the consequence of catecholamine binding was an increase in the concentration of cAMP, cAMP will then activate the **PKA** enzyme, and PKA will then phosphorylate perilipin and HSL. Phosphorylated perilipin triggers the dissociation of ABHD5 activating it and allowing it to recruit ATGL, phosphorylating perilipin causes a remodeling of the perilipin layer which increases the access of enzymes to the lipid droplet, phosphorylated HSL is activated and can be recruited at the surface of the droplet. MGL is abundant and always active so now that its substrate is present it will be easy for it to work on it.
 
-3- Free fatty acids will bind to FABP4 (Fatty acid binding protein 4) which acts as a chaperon that leads and protects the hydrophobic fatty acids and the cell from each other until they reach the cell membrane through the cytoplasm where they will be exported to the bloodstream, bind to serum albumin, and get transported to where they are needed, as, for the glycerol, it’s a polar hydrophilic molecule which will not need chaperons, it will leave the cell through protein channels called aquaporins, and then it will travel to the liver where it will be recycled via the **Cori cycle** to produce glucose that will then enter the glycolytic pathway.
+3. Free fatty acids will bind to FABP4 (Fatty acid binding protein 4) which acts as a chaperon that leads and protects the hydrophobic fatty acids and the cell from each other until they reach the cell membrane through the cytoplasm where they will be exported to the bloodstream, bind to serum albumin, and get transported to where they are needed, as, for the glycerol, it’s a polar hydrophilic molecule which will not need chaperons, it will leave the cell through protein channels called aquaporins, and then it will travel to the liver where it will be recycled via the **Cori cycle** to produce glucose that will then enter the glycolytic pathway.
 
 ### 2.5.4
 
-1- Taking a look at the composition of the membrane of an RBC
+1. Taking a look at the composition of the membrane of an RBC
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20127.png>)
 
 We can see that as previously stated phosphatidylcholine is more prevalent in the outer leaflet while phosphatidylethanolamine is more prevalent in the inner leaflet, we can also see that sphingomyelin has a much higher presence in the outer leaflet while the opposite is true for phosphatidylinositol, and phosphatidylserine only exists in the inner leaflet the latter two are negatively charged lipids. This is all part of the relationship between lipid distribution and structure, and membrane function, there are three parameters that relate to this which are, **membrane curvature** which is linked to the shape of the lipid, the **asymmetric distribution** of lipids across the membrane, and the **membrane fluidity** determined by the distribution of lipids across the membrane. What we just talked about concerning the composition of lipids in both the outer and inner leaflets of RBCs relates to membrane curvature. The asymmetric distribution of these lipids is behind the bi-concave shape of RBCs which is important for their function. This asymmetry breaks down in aged RBCs, phosphatidylserine, for example, which only exists in the inner leaflets starts to appear in the outer leaflet as well which is a signal to macrophages to breakdown these RBCs.
 
-2- Lipids are mobile and can move and diffuse easily in the membrane but the flip of lipids from one leaflet to another is unfavorable because the hydrophilic head of the lipid would have to go through the hydrophobic core of the membrane, which is why it is done through proteins, three of em, **Flippase** which moves lipids from the outer to the inner leaflets against their concentration gradient, **Floppase** which does the same but from the inner to the outer leaflet, and **Scramblase** which flips lipids both ways but following the concentration gradient. Flippase and floppase maintain the asymmetry while scramblase erases it.
+2. Lipids are mobile and can move and diffuse easily in the membrane but the flip of lipids from one leaflet to another is unfavorable because the hydrophilic head of the lipid would have to go through the hydrophobic core of the membrane, which is why it is done through proteins, three of em, **Flippase** which moves lipids from the outer to the inner leaflets against their concentration gradient, **Floppase** which does the same but from the inner to the outer leaflet, and **Scramblase** which flips lipids both ways but following the concentration gradient. Flippase and floppase maintain the asymmetry while scramblase erases it.
 
-3- The bulk of lipids is made in the ER and Golgi apparatus and they follow the same pathway as secreted proteins, some are made in the ER then transported to the Golgi apparatus via vesicles and from there to the plasma membrane again via vesicles. Lipids are embedded in the membranes of the ER, Golgi, and transport vesicles. Membranes of the ER, Golgi, and plasma membrane have a common origin and their lipid composition is similar, but not the same, sphingomyelins are more prevalent for example in the Golgi apparatus and plasma membrane because they are made in Golgi, but they are made on the luminal side which means that they are integrated within the inner leaflets of Golgi’s membrane. ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20128.png>)
+3. The bulk of lipids is made in the ER and Golgi apparatus and they follow the same pathway as secreted proteins, some are made in the ER then transported to the Golgi apparatus via vesicles and from there to the plasma membrane again via vesicles. Lipids are embedded in the membranes of the ER, Golgi, and transport vesicles. Membranes of the ER, Golgi, and plasma membrane have a common origin and their lipid composition is similar, but not the same, sphingomyelins are more prevalent for example in the Golgi apparatus and plasma membrane because they are made in Golgi, but they are made on the luminal side which means that they are integrated within the inner leaflets of Golgi’s membrane. ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20128.png>)
 
 When sphingomyelins travel to the plasma membrane it will also be in the inner leaflets of the transport vesicles. As the vesicle fuses with the plasma membrane, the inner leaflet of the vesicle becomes the outer leaflet of the membrane, and that explains why sphingomyelins are more abundant in the outer leaflet of the cell membrane than the inner leaflet, which means that the asymmetric distribution of sphingomyelins is explained by their mode of synthesis.
 
-4- The melting point of lipids is determined by their saturation level, long chains of fatty acids pack tightly and form dense, regular, packed structures. This is called a **paracrystalline state** or regular packing and it has low fluidity. If your membrane had short, unsaturated fatty acids the packing would be looser and more fluid. This is the **fluid state** or irregular packing.
+4. The melting point of lipids is determined by their saturation level, long chains of fatty acids pack tightly and form dense, regular, packed structures. This is called a **paracrystalline state** or regular packing and it has low fluidity. If your membrane had short, unsaturated fatty acids the packing would be looser and more fluid. This is the **fluid state** or irregular packing.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20129.png>)
 
@@ -732,7 +863,7 @@ And cell membranes are richer in cholesterol because while phosphatidylcholine i
 
 ### 2.5.5
 
-1- This is a lipid raft
+1. This is a lipid raft
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20131.png>)It’s thicker than the rest of the membrane because it’s rich in phospholipids and contains a cluster of proteins with a specific function. Both lipids and proteins can diffuse in the plane of the lipid bilayer, but how can we measure the rate of diffusion? We use a simple method called **FRAP-Fluorescence recovery after bleaching**. First, you label the surface of the membrane with a fluorescent molecule to label all the lipids at the surface. We then expose a small region of the membrane to an intense laser that bleaches the fluorescence to acquire a dark spot surrounded by fluorescence.
 
@@ -752,15 +883,15 @@ The coefficient is determined based on the radius of the bleached spot and the h
 
 Lipids can travel two micrometers per second which are one side of an average bacteria to the other in one second, or from one side of an epithelial cell to the other in a few minutes. Proteins can diffuse as fast as lipids but not always some transmembrane proteins might have intracellular regions that are tethered to a network of dense proteins located beneath the membrane called a membrane skeleton, as is the case with the chloride bicarbonate exchanger in RBCs, this tethering limits or even prevents the lateral mobility of the protein.
 
-2- The total concentration of protein in a membrane varies from cell to cell and from organelle to organelle. Mitochondria have 70% protein in their membranes. Schwann cells on the other hands which are insulators are on the opposite side of the spectrum. Protein types also differ, RBCs have a wide variety of proteins in their membranes while retinal rod cells have only one type, the photoreceptor which diffuses as fast as lipids.
+2. The total concentration of protein in a membrane varies from cell to cell and from organelle to organelle. Mitochondria have 70% protein in their membranes. Schwann cells on the other hands which are insulators are on the opposite side of the spectrum. Protein types also differ, RBCs have a wide variety of proteins in their membranes while retinal rod cells have only one type, the photoreceptor which diffuses as fast as lipids.
 
-3- Integral proteins path through the membrane and the portion that is on the inside of the membrane is hydrophobic and interacts with the hydrophobic core. Peripheral proteins can exist inside and outside of the membrane.
+3. Integral proteins path through the membrane and the portion that is on the inside of the membrane is hydrophobic and interacts with the hydrophobic core. Peripheral proteins can exist inside and outside of the membrane.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20136.png>)
 
 The beta subunit of the peripheral G protein here interacts with other subunits and is attached to the membrane via non-covalent bonds, while its alpha and gamma subunits form covalent bonds with lipids inserted in the bi-layer.
 
-4- Proteins also form pumps and channels that are responsible for the permeability of membranes by allowing the passage of ions and other molecules to and from the cell
+4. Proteins also form pumps and channels that are responsible for the permeability of membranes by allowing the passage of ions and other molecules to and from the cell
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20137.png>)
 
@@ -776,27 +907,27 @@ Proteins also play a role in signaling both within cells and across cells.
 
 #### Lipodystrophy
 
-1- Body fat needs to be maintained within certain levels, having too low or too much of it can be the cause of lipid storage-related pathologies. Having too few lipid droplets can lead to pathologies like **Lipodystrophy** and **Cachexia**. They are both characterized by the wasting of fat tissues.
+1. Body fat needs to be maintained within certain levels, having too low or too much of it can be the cause of lipid storage-related pathologies. Having too few lipid droplets can lead to pathologies like **Lipodystrophy** and **Cachexia**. They are both characterized by the wasting of fat tissues.
 
-2- The differentiation of pre-adipocytes into adipocytes requires the expression of two key proteins, the kinase **AKT2** and the nuclear receptor **PPARgamma**. In patients with **familial partial Lipodystrophy**, one of these two proteins is defective and pre-adipocytes don’t differentiate properly. After they mature, proteins like **Lamin A** and **ZMPSTE24** are then needed for the function of the nuclear envelope and a defect in either of them triggers apoptosis. Without these mature adipocytes leads to a decrease in fat storage and Lipodystrophy.
+2. The differentiation of pre-adipocytes into adipocytes requires the expression of two key proteins, the kinase **AKT2** and the nuclear receptor **PPARgamma**. In patients with **familial partial Lipodystrophy**, one of these two proteins is defective and pre-adipocytes don’t differentiate properly. After they mature, proteins like **Lamin A** and **ZMPSTE24** are then needed for the function of the nuclear envelope and a defect in either of them triggers apoptosis. Without these mature adipocytes leads to a decrease in fat storage and Lipodystrophy.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20139.png>)
 
-3- The level of stored triacylglycerol in lipid droplets depends on the rate of synthesis of triacylglycerol as well as the rate of mobilization by lipolysis. TAG is made by the ER and at high energy state, **GPAT**, **AGPAT**, and **MGAT** catalyze the addition of fatty acids to glycerol or monoacylglycerol to produce diacylglycerol then **DGAT1** and **DGAT2** add the final fatty acid to form triacylglycerol. TAG molecules then accumulate between the two leaflets of the ER forming an **oil lens** this lens continues to grow up to a limit then it detaches from the ER as a lipid droplet.
+3. The level of stored triacylglycerol in lipid droplets depends on the rate of synthesis of triacylglycerol as well as the rate of mobilization by lipolysis. TAG is made by the ER and at high energy state, **GPAT**, **AGPAT**, and **MGAT** catalyze the addition of fatty acids to glycerol or monoacylglycerol to produce diacylglycerol then **DGAT1** and **DGAT2** add the final fatty acid to form triacylglycerol. TAG molecules then accumulate between the two leaflets of the ER forming an **oil lens** this lens continues to grow up to a limit then it detaches from the ER as a lipid droplet.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20140.png>)
 
-4- Mutations that result in uncontrolled activation of lipolysis will also result in Lipodystrophy, for example, mutations preventing perilipin from inhibiting ABHD5 to prevent it from recruiting ATGL will lead to the continued activation of lipolysis. Acquired lipodystrophy is the result of an autoimmune disease of drug treatment. HIV-associated lipodystrophy, for example, develops from anti-retroviral therapy which causes mitochondrial toxicity. Also, protease inhibitors inhibit a protein needed for the processing of the nuclear protein Lamin A which leads to apoptosis in adipocytes.
+4. Mutations that result in uncontrolled activation of lipolysis will also result in Lipodystrophy, for example, mutations preventing perilipin from inhibiting ABHD5 to prevent it from recruiting ATGL will lead to the continued activation of lipolysis. Acquired lipodystrophy is the result of an autoimmune disease of drug treatment. HIV-associated lipodystrophy, for example, develops from anti-retroviral therapy which causes mitochondrial toxicity. Also, protease inhibitors inhibit a protein needed for the processing of the nuclear protein Lamin A which leads to apoptosis in adipocytes.
 
 ### 2.5.7
 
 #### Lipid droplet pathologies
 
-1- Fat is distributed in the subcutaneous tissue, its amount is affected by age and sex. Adipose tissue is also found around internal organs.
+1. Fat is distributed in the subcutaneous tissue, its amount is affected by age and sex. Adipose tissue is also found around internal organs.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20141.png>)
 
-2- Health problems start when your caloric intake is not balanced by appropriate energy expenditure. This imbalance leads to obesity and a condition known as **ectopic fat deposition**, which is fat overflowing into tissue that’s not equipped to handle an excess of unprocessed fat and becoming toxic. **Neutral lipid storage disease** is a rare genetic disease where the body can’t store fat properly. It’s a monogenic disease meaning that it’s the result of a defect in a single gene. It has two forms, **NLSD-M** which is characterized by a type of heart disorder called **Cardiomyopathy.** The other type **NLSD-I** is characterized by **Ichthyosis** where the skin of the patient is dry and rough and takes a fish scales like appearance. The defective gene responsible for NLSD is the gene coding for ATGL, this prevents the first step of lipolysis from ever taking place, and with the patient being unable to use their fat storage caloric intake will only continue to increase until the amount of TAG exceeds its storage capacity in adipocytes leading to ectopic fat deposition and lipotoxicity. The fatty acids that are usually released are needed for proper cell signaling and gene expression in mitochondria, this is why ATGL defects result in the impairment of oxidative phosphorylation and energy production which affects tissues such as the cardiac muscles that are highly dependant on normal mitochondrial functions. Fortunately, studies have shown that agonists that can restore the defective pathway can reverse ATGL dependent mitochondrial defects. NLSD-I is also known as **CDS** or the **Chanarin-Dorfman Syndrome** after two physicians who conducted a detailed study on the syndrome. While NLSD-M is associated with mutations in the ATGL gene, NLSD-I is associated with mutations in the ABHD5 gene. Surprisingly, while ABHD5 is responsible for the activation of ATGL and therefore you’d expect the symptoms of NLSD-I to be similar to those of NLSD-M, that’s actually not the case. NLDS-M patients have cardiomyopathy but don’t display ichthyosis, this is the opposite for NLSD-I patients, which suggests that ABHD5 has an independent role from ATGL in TAG regulation. Patients with Ichthyosis lack proper skin permeability. The skin has a barrier called the skin permeability barrier which is made from structural proteins held in an extracellular matrix of specially processed fatty acids that come from the lipolysis of TAG. NLSD-I patients suffer from an abnormal TAG deposition in the skin which leads to the disruption of the lipid-based matrix and the result is the skin taking a rough, dry, fish-like appearance.
+2. Health problems start when your caloric intake is not balanced by appropriate energy expenditure. This imbalance leads to obesity and a condition known as **ectopic fat deposition**, which is fat overflowing into tissue that’s not equipped to handle an excess of unprocessed fat and becoming toxic. **Neutral lipid storage disease** is a rare genetic disease where the body can’t store fat properly. It’s a monogenic disease meaning that it’s the result of a defect in a single gene. It has two forms, **NLSD-M** which is characterized by a type of heart disorder called **Cardiomyopathy.** The other type **NLSD-I** is characterized by **Ichthyosis** where the skin of the patient is dry and rough and takes a fish scales like appearance. The defective gene responsible for NLSD is the gene coding for ATGL, this prevents the first step of lipolysis from ever taking place, and with the patient being unable to use their fat storage caloric intake will only continue to increase until the amount of TAG exceeds its storage capacity in adipocytes leading to ectopic fat deposition and lipotoxicity. The fatty acids that are usually released are needed for proper cell signaling and gene expression in mitochondria, this is why ATGL defects result in the impairment of oxidative phosphorylation and energy production which affects tissues such as the cardiac muscles that are highly dependant on normal mitochondrial functions. Fortunately, studies have shown that agonists that can restore the defective pathway can reverse ATGL dependent mitochondrial defects. NLSD-I is also known as **CDS** or the **Chanarin-Dorfman Syndrome** after two physicians who conducted a detailed study on the syndrome. While NLSD-M is associated with mutations in the ATGL gene, NLSD-I is associated with mutations in the ABHD5 gene. Surprisingly, while ABHD5 is responsible for the activation of ATGL and therefore you’d expect the symptoms of NLSD-I to be similar to those of NLSD-M, that’s actually not the case. NLDS-M patients have cardiomyopathy but don’t display ichthyosis, this is the opposite for NLSD-I patients, which suggests that ABHD5 has an independent role from ATGL in TAG regulation. Patients with Ichthyosis lack proper skin permeability. The skin has a barrier called the skin permeability barrier which is made from structural proteins held in an extracellular matrix of specially processed fatty acids that come from the lipolysis of TAG. NLSD-I patients suffer from an abnormal TAG deposition in the skin which leads to the disruption of the lipid-based matrix and the result is the skin taking a rough, dry, fish-like appearance.
 
 Normal skin permeability barrier:
 
@@ -806,21 +937,21 @@ The skin of an NLSD-I patient:
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20143.png>)
 
-3- The **metabolic syndrome** is a polygenic disease associated with mutations affecting a group of non-allelic genes. It’s characterized by a cluster of pathologies, including high blood levels of triacylglycerol, cholesterol, and LDL, hyperglycemia, and insulin resistance. The pathologies associated with this syndrome are correlated with obesity and high caloric intake. Even patients who don’t consume a lot of fat will eventually suffer from excess fat resulting from the conversion of carbohydrates and amino acids into fat molecules. The body tries to deal with this excess fat by increasing the **size** of adipocytes as well as increasing their **numbers**. Ectopic fat deposition causes lipotoxicity and increased inflammation and can trigger insulin resistance which in the long run leads to type-2 diabetes. Enlarged adipose tissue secretes a **chemokine** called **MCP-1** which attracts **macrophages**. These macrophages will secrete a protein called **TNF-Alpha** after having infiltrated the adipocytes which increases the export of fatty acids to muscle cells. This increase in the number of fatty acids in muscle tissue leads to ectopic fat deposition and these fatty acids also interfere with the uptake of glucose by cells leading to insulin resistance ( the inability of insulin to stimulate the uptake of glucose from the blood by cells ). In this current case, the patient’s pancreas is fully functional and is able to secrete insulin but his cells have lost their ability to respond to insulin which eventually leads to type-2 diabetes as well as cardiovascular diseases.
+3. The **metabolic syndrome** is a polygenic disease associated with mutations affecting a group of non-allelic genes. It’s characterized by a cluster of pathologies, including high blood levels of triacylglycerol, cholesterol, and LDL, hyperglycemia, and insulin resistance. The pathologies associated with this syndrome are correlated with obesity and high caloric intake. Even patients who don’t consume a lot of fat will eventually suffer from excess fat resulting from the conversion of carbohydrates and amino acids into fat molecules. The body tries to deal with this excess fat by increasing the **size** of adipocytes as well as increasing their **numbers**. Ectopic fat deposition causes lipotoxicity and increased inflammation and can trigger insulin resistance which in the long run leads to type-2 diabetes. Enlarged adipose tissue secretes a **chemokine** called **MCP-1** which attracts **macrophages**. These macrophages will secrete a protein called **TNF-Alpha** after having infiltrated the adipocytes which increases the export of fatty acids to muscle cells. This increase in the number of fatty acids in muscle tissue leads to ectopic fat deposition and these fatty acids also interfere with the uptake of glucose by cells leading to insulin resistance ( the inability of insulin to stimulate the uptake of glucose from the blood by cells ). In this current case, the patient’s pancreas is fully functional and is able to secrete insulin but his cells have lost their ability to respond to insulin which eventually leads to type-2 diabetes as well as cardiovascular diseases.
 
 ## Carbohydrate structure:
 
 ### 2.6.1
 
-1-
+1.
 
 ### 2.6.2
 
-1-
+1.
 
 ### 2.6.3
 
-1- Aldehyde groups react with alcohol groups to form hemiacetal while ketal groups react with alcohols to form hemiketal. Both of these groups can react with another alcohol to form an acetal and a ketal respectively.
+1. Aldehyde groups react with alcohol groups to form hemiacetal while ketal groups react with alcohols to form hemiketal. Both of these groups can react with another alcohol to form an acetal and a ketal respectively.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20144.png>)
 
@@ -840,7 +971,7 @@ Glycogen synthase elongates primer chains that are usually at least four glucose
 
 ### 2.6.4
 
-1-
+1.
 
 # Unit 3: Cellular Bioenergetics
 
@@ -848,7 +979,7 @@ Glycogen synthase elongates primer chains that are usually at least four glucose
 
 ### 3.1.1
 
-1- The conversion of one molecule of glucose into two molecules of pyruvate is done in ten steps. The first five are known as the **preparatory phase** and the latter five are the **payoff phase**. The first step is the phosphorylation of glucose by one molecule of ATP
+1. The conversion of one molecule of glucose into two molecules of pyruvate is done in ten steps. The first five are known as the **preparatory phase** and the latter five are the **payoff phase**. The first step is the phosphorylation of glucose by one molecule of ATP
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20149.png>)
 
@@ -872,7 +1003,7 @@ Finally, step five is the interconversion of DHAP into GAP.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20154.png>)
 
-2- Next is the payoff phase. ( all the upcoming steps occur twice ).
+2. Next is the payoff phase. ( all the upcoming steps occur twice ).
 
 First, the formation of 1,3-bisphosphoglycerate by the addition of an inorganic phosphate and the reduction of one NAD+ molecule. The free energy of hydrolysis of 1,3-bisphosphate is very high at -49.3 KJ/mol.
 
@@ -900,19 +1031,19 @@ And the end result.
 
 ### 3.1.2
 
-1- ATP hydrolysis is an exergonic reaction that drives forward many unfavorable reactions, but it’s not the most exergonic reaction in a cell otherwise there won’t be any other reaction exergonic enough for a molecule to be able to transfer its phosphate to ADP to regenerate ATP.
+1. ATP hydrolysis is an exergonic reaction that drives forward many unfavorable reactions, but it’s not the most exergonic reaction in a cell otherwise there won’t be any other reaction exergonic enough for a molecule to be able to transfer its phosphate to ADP to regenerate ATP.
 
 And here is a graph of glycolysis intermediates and their free energy of hydrolysis
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20161.png>)
 
-2- The regeneration of ATP from PEP is known as a coupled reaction in which two reactions share a common reactant and can be catalyzed by the same enzyme **pyruvate kinase**. Here the hydrolysis of PEP is highly exergonic and the synthesis of ATP is endergonic, but the sum of the reactions is still exergonic and -32 KJ/mol.
+2. The regeneration of ATP from PEP is known as a coupled reaction in which two reactions share a common reactant and can be catalyzed by the same enzyme **pyruvate kinase**. Here the hydrolysis of PEP is highly exergonic and the synthesis of ATP is endergonic, but the sum of the reactions is still exergonic and -32 KJ/mol.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20162.png>)
 
 The sharing of a common reactant and common enzyme are the two conditions required for two reactions to be coupled. This is why, for example, the phosphorylation of glucose into G6P and dephosphorylation of PEP are not coupled even though they share inorganic phosphate as a common reactant.
 
-3- The reduction of NAD+ is necessary for glycolysis and therefore it’s important to regenerate NAD+ from NADH. This is done through pyruvate but the way it’s done differs between aerobic and anaerobic organisms. In aerobic organisms, pyruvate is decarboxylated to form AcCoA which enters the tricarboxylic acid pathway to generate more NADH which is then all regenerated during the oxidative phosphorylation pathway. For anaerobic organisms, they use fermentation pathways to regenerate their NAD+, the two most common of those pathways are lactate fermentation and ethanol fermentation.
+3. The reduction of NAD+ is necessary for glycolysis and therefore it’s important to regenerate NAD+ from NADH. This is done through pyruvate but the way it’s done differs between aerobic and anaerobic organisms. In aerobic organisms, pyruvate is decarboxylated to form AcCoA which enters the tricarboxylic acid pathway to generate more NADH which is then all regenerated during the oxidative phosphorylation pathway. For anaerobic organisms, they use fermentation pathways to regenerate their NAD+, the two most common of those pathways are lactate fermentation and ethanol fermentation.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20163.png>)
 
@@ -922,9 +1053,9 @@ Humans have tissues that can sometimes function under anaerobic conditions. Duri
 
 ### 3.2.1
 
-1- RBCs are solely dependent on glycolysis for their ATP production, one-third of their volume is occupied by hemoglobin and they lack organelles such as a nucleus or mitochondria to maximize oxygen transfer between themselves and other tissue and also allow for them to be able to deform when moving through narrow capillaries. RBCs can’t have mitochondria not only for the aforementioned reasons but also because ATP production in mitochondria requires oxygen and it wouldn’t make sense for RBCs to consume most of the oxygen they’re supposed to be transporting along the way. From this, we can deduce that the pyruvate resulting from glycolysis in RBCs will be converted into lactate, and this lactate cannot be allowed to accumulate in RBCs otherwise it would acidify their cytoplasm and affect the function of their hemoglobin. Instead, lactate from RBCs as well as muscle cells is transported to the liver as part of a pathway called the **Cori cycle** and then it will be converted back into glucose through the gluconeogenesis pathway.
+1. RBCs are solely dependent on glycolysis for their ATP production, one-third of their volume is occupied by hemoglobin and they lack organelles such as a nucleus or mitochondria to maximize oxygen transfer between themselves and other tissue and also allow for them to be able to deform when moving through narrow capillaries. RBCs can’t have mitochondria not only for the aforementioned reasons but also because ATP production in mitochondria requires oxygen and it wouldn’t make sense for RBCs to consume most of the oxygen they’re supposed to be transporting along the way. From this, we can deduce that the pyruvate resulting from glycolysis in RBCs will be converted into lactate, and this lactate cannot be allowed to accumulate in RBCs otherwise it would acidify their cytoplasm and affect the function of their hemoglobin. Instead, lactate from RBCs as well as muscle cells is transported to the liver as part of a pathway called the **Cori cycle** and then it will be converted back into glucose through the gluconeogenesis pathway.
 
-2- The intermediates of glycolysis are important for maintaining the function of hemoglobin in RBCs. The **Rapoport-Luebering Shunt** is a pathway that converts 1,3-BPG into its isomer 2,3-BPG by a mutase enzyme, 2,3-BPG will then be converted into 3-phosphoglycerate bypassing the production of two ATPs along the way, but this isn’t an attempt by RBCs to be wasteful, 2,3-BPG is very important for the release of oxygen from hemoglobin so it can be transported to other tissues.
+2. The intermediates of glycolysis are important for maintaining the function of hemoglobin in RBCs. The **Rapoport-Luebering Shunt** is a pathway that converts 1,3-BPG into its isomer 2,3-BPG by a mutase enzyme, 2,3-BPG will then be converted into 3-phosphoglycerate bypassing the production of two ATPs along the way, but this isn’t an attempt by RBCs to be wasteful, 2,3-BPG is very important for the release of oxygen from hemoglobin so it can be transported to other tissues.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20164.png>)
 
@@ -938,11 +1069,11 @@ Another way RBCs use to protect themselves from reactive oxygen species is t**he
 
 ### 3.2.2
 
-1- Hemoglobin is a tetramer made of two alpha subunits and two beta subunits. Each subunit contains a heme which is a porphyrin ring with an iron atom bound in the middle. And each heme can bind one molecule of oxygen.
+1. Hemoglobin is a tetramer made of two alpha subunits and two beta subunits. Each subunit contains a heme which is a porphyrin ring with an iron atom bound in the middle. And each heme can bind one molecule of oxygen.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20167.png>)
 
-2- Hemoglobin has two conformations, a deoxygenated state called T-state that has a low affinity for oxygen and an oxygenated state called R-state that has a high affinity for oxygen. The switch between two stats is what allow oxygen transfer from the lungs to hemoglobin and from hemoglobin to other tissue.
+2. Hemoglobin has two conformations, a deoxygenated state called T-state that has a low affinity for oxygen and an oxygenated state called R-state that has a high affinity for oxygen. The switch between two stats is what allow oxygen transfer from the lungs to hemoglobin and from hemoglobin to other tissue.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20168.png>)
 
@@ -964,7 +1095,7 @@ The binding constants K1 to K4 increase as more oxygen is bound which means that
 
 This is known as cooperative binding. The increase in hemoglobin’s affinity towards oxygen is the result of the conformational change that occurs after the first oxygen is bound to the first heme and this conformational change and increase in affinity increase the more oxygen bind to hemoglobin.
 
-3- For a person who’s at rest the partial pressure of oxygen affects hemoglobin’s affinity for it. In systemic arteries, the partial pressure of oxygen is high at around 100 mmHg. In systemic veins, this pressure is much lower at around 40 mmHg. We can see from this oxygen-binding curve that hemoglobins were 100% saturated-more or less-in arteries while in veins they were only 75% saturated which means that they gave around 25% of their oxygen to tissues.
+3. For a person who’s at rest the partial pressure of oxygen affects hemoglobin’s affinity for it. In systemic arteries, the partial pressure of oxygen is high at around 100 mmHg. In systemic veins, this pressure is much lower at around 40 mmHg. We can see from this oxygen-binding curve that hemoglobins were 100% saturated-more or less-in arteries while in veins they were only 75% saturated which means that they gave around 25% of their oxygen to tissues.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20173.png>)
 
@@ -972,7 +1103,7 @@ For an individual who’s undergoing intense physical exercise. This person will
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20174.png>)
 
-4- Using binding curves we can compare the affinity of hemoglobin for oxygen at different conditions. So taking a constant partial pressure of 40 mmHg, at normal conditions that saturation of hemoglobin will be at 75%, changes in the affinity without changing the partial pressure will result in either a **Rightward shift** in case of a decrease in affinity and a **Leftward shift** if it increases.
+4. Using binding curves we can compare the affinity of hemoglobin for oxygen at different conditions. So taking a constant partial pressure of 40 mmHg, at normal conditions that saturation of hemoglobin will be at 75%, changes in the affinity without changing the partial pressure will result in either a **Rightward shift** in case of a decrease in affinity and a **Leftward shift** if it increases.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20175.png>)
 
@@ -1000,9 +1131,9 @@ Switching from T-state to R-state when 2,3-BPG is bound requires breaking the no
 
 ### 3.3.1
 
-1- Fermentation pathways that yield one product and a constant amount of ATP are called linear, while those that produce more than one product from the same intermediate and a variable amount of ATP depending on the pathway are called branched pathways.
+1. Fermentation pathways that yield one product and a constant amount of ATP are called linear, while those that produce more than one product from the same intermediate and a variable amount of ATP depending on the pathway are called branched pathways.
 
-2- Lactate fermentation (linear)
+2. Lactate fermentation (linear)
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20180.png>)
 
@@ -1016,7 +1147,7 @@ The acetaldehyde pathway regenerates NAD+ and the acetyl phosphate pathway forms
 
 ### 3.3.2
 
-1- Cellular respiration is the aerobic form of respiration, anaerobic organisms don’t necessarily have to rely on fermentation only for their ATP production as some of them can use anaerobic respiration which is almost the same as cellular respiration but with an inorganic molecule as the final electron acceptor instead of oxygen.
+1. Cellular respiration is the aerobic form of respiration, anaerobic organisms don’t necessarily have to rely on fermentation only for their ATP production as some of them can use anaerobic respiration which is almost the same as cellular respiration but with an inorganic molecule as the final electron acceptor instead of oxygen.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20183.png>)
 
@@ -1028,17 +1159,17 @@ The final product of anaerobic respiration is determined by its final electron a
 
 Also, denitrifiers have the most exergonic respiration which means that they can produce a lot of energy and in cases where nitrate or nitrite are plentiful, denitrifiers will flourish.
 
-2- Bacterial proliferation is dependent on the availability of nutrients and final electron acceptors, and metal ions are more abundant than nitrate in most environments which means that metal reducers are actually more abundant than denitrifiers, they have a competitive advantage.
+2. Bacterial proliferation is dependent on the availability of nutrients and final electron acceptors, and metal ions are more abundant than nitrate in most environments which means that metal reducers are actually more abundant than denitrifiers, they have a competitive advantage.
 
-3- Denitrifiers have a big impact on the environment, they consume nitrates, and that is extremely damaging to farmers as nitrate is a very crucial nutrient for plants. Farmers then have to use nitrate-based fertilizers to replenish nitrates in the soil. These fertilizers are then washed away into lakes and rivers and this nitrate must then be removed from drinkable water which is the job of wastewater plants who use denitrifiers to remove than nitrate. Nitrate must be removed from drinkable water because nitrite which comes from nitrate can oxidize the iron in hemoglobin forming **methemoglobin**. Methemoglobin cannot perform the job of hemoglobin and therefore anyone who drinks water saturated with nitrate will suffer from deoxygenation in his tissues or hypoxia. This can also cause a condition in babies called the blue baby syndrome which can be lethal. Nitrate excess in water can also stimulate the overgrowth of phytoplanktons which consume a lot of oxygen and will deprive other organic species of it causing their death.
+3. Denitrifiers have a big impact on the environment, they consume nitrates, and that is extremely damaging to farmers as nitrate is a very crucial nutrient for plants. Farmers then have to use nitrate-based fertilizers to replenish nitrates in the soil. These fertilizers are then washed away into lakes and rivers and this nitrate must then be removed from drinkable water which is the job of wastewater plants who use denitrifiers to remove than nitrate. Nitrate must be removed from drinkable water because nitrite which comes from nitrate can oxidize the iron in hemoglobin forming **methemoglobin**. Methemoglobin cannot perform the job of hemoglobin and therefore anyone who drinks water saturated with nitrate will suffer from deoxygenation in his tissues or hypoxia. This can also cause a condition in babies called the blue baby syndrome which can be lethal. Nitrate excess in water can also stimulate the overgrowth of phytoplanktons which consume a lot of oxygen and will deprive other organic species of it causing their death.
 
-4- Denitrification is a process composed of four sequential reduction reactions.
+4. Denitrification is a process composed of four sequential reduction reactions.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20186.png>)
 
 These reductions require electrons supplied by membrane-bound complexes.
 
-5- The first electron acceptor is found in the cell membrane of bacteria and it’s called coenzyme Q, it’s extremely hydrophobic and is embedded in the cell membrane. It receives electrons and protons from different universal donors. It’s also known as ubiquinone and its reduced form is ubiquinol.
+5. The first electron acceptor is found in the cell membrane of bacteria and it’s called coenzyme Q, it’s extremely hydrophobic and is embedded in the cell membrane. It receives electrons and protons from different universal donors. It’s also known as ubiquinone and its reduced form is ubiquinol.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20187.png>)
 
@@ -1056,23 +1187,23 @@ Ubiquinol can’t deliver electrons to the reductases that are in the periplasm 
 
 ### 3.3.3
 
-1- Bacteria, archaea, fungi, and viruses of all types live in every different region of our bodies especially the gut region in varying compositions.
+1. Bacteria, archaea, fungi, and viruses of all types live in every different region of our bodies especially the gut region in varying compositions.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20190.png>)
 
-2- Babies microbiota is built up in waves
+2. Babies microbiota is built up in waves
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20191.png>)
 
 The composition of this microbiota is determined by a number of factors such as nutrient availability, their ability to withstand the different microbial removal factors whether they’re chemical or physical. Bacteria then colonize and start modifying the environment around them which eases or hardens the colonization of other bacteria of the same environment.
 
-3- Bacteria in the gut region grow on the mucous layer lining the microvilli of the intestines and some of them can even grow inside the intestinal epithelium.
+3. Bacteria in the gut region grow on the mucous layer lining the microvilli of the intestines and some of them can even grow inside the intestinal epithelium.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20192.png>)
 
 Their role is to contribute to the fight against pathogens as well as help us with food digestion and also the production of molecules that we cannot produce ourselves and they even help regulate energy balance and metabolic functions. The type of bacteria that make the gut microbiome is so important that it has even been linked to obesity and it’s theorized that changing the population of bacteria in an obese person’s gut can help rid him of his obesity.
 
-4- Unfortunately, the gut microbiota can be disrupted by chronic factors like a poor diet or chronic stress or acute factors like an overconsumption of antibiotics. The result will be a loss of diversity in the microbiota. The microbiota can, however, be replenished after the disruptive trigger has been eliminated, but it can also be altered, this is all dependent on external factors and an altered microbiota can still be unstable and low on diversity which can lead to chronic infections and it can influence your whole metabolic state. Human well being is highly dependant on the symbiosis between us and microbes.
+4. Unfortunately, the gut microbiota can be disrupted by chronic factors like a poor diet or chronic stress or acute factors like an overconsumption of antibiotics. The result will be a loss of diversity in the microbiota. The microbiota can, however, be replenished after the disruptive trigger has been eliminated, but it can also be altered, this is all dependent on external factors and an altered microbiota can still be unstable and low on diversity which can lead to chronic infections and it can influence your whole metabolic state. Human well being is highly dependant on the symbiosis between us and microbes.
 
 ## The citric acid cycle:
 
@@ -1082,17 +1213,17 @@ Their role is to contribute to the fight against pathogens as well as help us wi
 
 ### 3.4.2
 
-1- Glycolysis takes place in the cytoplasm then pyruvate is transported to the mitochondria where it will be converted to Ac-CoA. Pyruvate’s conversion into Ac-CoA is known as an oxidative-decarboxylation because pyruvate is oxidized and decarboxylated to reach that point. Two carbons from pyruvate form an acetyl group and are attached to coenzyme A during the oxidative phase and during the decarboxylation phase, the third carbon is detached and forms CO2.
+1. Glycolysis takes place in the cytoplasm then pyruvate is transported to the mitochondria where it will be converted to Ac-CoA. Pyruvate’s conversion into Ac-CoA is known as an oxidative-decarboxylation because pyruvate is oxidized and decarboxylated to reach that point. Two carbons from pyruvate form an acetyl group and are attached to coenzyme A during the oxidative phase and during the decarboxylation phase, the third carbon is detached and forms CO2.
 
-2- PDH or PDC is an enzyme complex made out of three other enzymes.
+2. PDH or PDC is an enzyme complex made out of three other enzymes.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20193.png>)
 
 The core is made out of **eight E2 trimers** or 24 subunits. Each subunit is divided into three domains: a flexible deployment domain, a transacetylase domain which is responsible for the catalytic activity, and a small domain that allows interactions between E2 and E3. The complex also contains **six E1 tetramers** and **six E3 dimers**. Each enzyme also has some co-enzymes attached to it, **E1** has **thiamine phosphate (TPP)** which is covalently attached to it, **E2** has **Lipoate (Lipoic acid)** covalently attached as well as **Coenzyme A (CoA)** which is transiently attached, and **E3** has **Flavine adenine dinucleotide (FAD)** covalently attached and **Nicotinamide adenine dinucleotide (NAD)** transiently attached.
 
-3- Oxidative decarboxylation takes place in four steps, **Decarboxylation**, **Oxidation**, **Transfer**, and **Regeneration**. Different steps are catalyzed by different subunits and coenzymes. The conversion of pyruvate to Ac-CoA is very exergonic and irreversible.
+3. Oxidative decarboxylation takes place in four steps, **Decarboxylation**, **Oxidation**, **Transfer**, and **Regeneration**. Different steps are catalyzed by different subunits and coenzymes. The conversion of pyruvate to Ac-CoA is very exergonic and irreversible.
 
-4- ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20194.png>)
+4. ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20194.png>)
 
 This carbon is extremely acidic and can be deprotonated to react with pyruvate
 
@@ -1118,7 +1249,7 @@ Dihydrolipoamide must be re-oxidized for a new reaction cycle to take place, thi
 
 The FAD carried by E3 will accept two hydrogens and two electrons from dihydrolipoamide fully regenerating it and then those protons and electrons will be transferred to the transiently attached NAD+ molecule which will detach after accepting them and then contribute in the oxidative phosphorylation pathway. This concludes one reaction cycle of this complex as it is now reset to its original state and for every **pyruvate**, we get one **Ac-CoA** and one **NADH+H**.
 
-5- The active site of E1 is connected to its surface by a 20 angstroms long channel and TPP will be at the bottom of that channel. The flexible domain or the lipoamide arm of E2 will then penetrate into that channel to interact with hydroxyethyl-TPP. After E1 catalysis the transfer of the acetyl group to the flexible arm, that arm will move to the catalytic core of E2 to transfer the acetyl group to coenzyme A.
+5. The active site of E1 is connected to its surface by a 20 angstroms long channel and TPP will be at the bottom of that channel. The flexible domain or the lipoamide arm of E2 will then penetrate into that channel to interact with hydroxyethyl-TPP. After E1 catalysis the transfer of the acetyl group to the flexible arm, that arm will move to the catalytic core of E2 to transfer the acetyl group to coenzyme A.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20201.png>)
 
@@ -1130,7 +1261,7 @@ The FAD carried by E3 will accept two hydrogens and two electrons from dihydroli
 
 And that was an example of substrate channeling.
 
-6- The activity of PDH is dependent on the energy state of the cell, it’s active when the cell is low on ATP and inactive when the cell is high on ATP. This is part of the allosteric regulation of the complex which is governed by the concentration of the complex products, NADH and Ac-CoA, as well as the ultimate product ATP. These four molecules are the allosteric regulators namely inhibitors of that complex, for example, Ac-CoA acts on E2, NADH acts on E3. The opposite is true at low energy state. Here the substrates will be at high concentration, coenzyme A, NAD+, and AMP. This time these three molecules are going to act as activators.
+6. The activity of PDH is dependent on the energy state of the cell, it’s active when the cell is low on ATP and inactive when the cell is high on ATP. This is part of the allosteric regulation of the complex which is governed by the concentration of the complex products, NADH and Ac-CoA, as well as the ultimate product ATP. These four molecules are the allosteric regulators namely inhibitors of that complex, for example, Ac-CoA acts on E2, NADH acts on E3. The opposite is true at low energy state. Here the substrates will be at high concentration, coenzyme A, NAD+, and AMP. This time these three molecules are going to act as activators.
 
 The second type of regulation is reversible phosphorylation also known as transient covalent modification.
 
@@ -1142,15 +1273,15 @@ In liver and adipose tissues, hormonal control has also been observed. The bindi
 
 ### 3.4.3
 
-1- The citric acid cycle creates three **NADH**, one **FADH2**, and one **GTP** for every molecule of **Ac-CoA**. **Ac-CoA** reacts with **oxaloacetate** to form an intermediate called **citryl-CoA** before the thioester bond is hydrolyzed to release citrate. **Citrate** is then hydrolyzed into **cis-aconitate** which is then rehydrated to form the **citrate** isomer **isocitrate**. The next step is the first of two oxidative decarboxylations, **isocitrate** releases one CO2 and reduces one NAD+ to form **alpha-ketoglutarate** which is also decarboxylated, reduces one more NAD+, and then bound to coenzyme A to form **succinyl-CoA**. **Succinyl**’s conversion into **succinate** is exergonic and coupled with the formation of one **GTP**. **Succinate** is now dehydrogenated creating **formate** and reducing one **FAD**. **Fumarate** is then hydrated to form **malate** which is finally dehydrogenated to form **oxaloacetate** again and reduces one **NAD**.
+1. The citric acid cycle creates three **NADH**, one **FADH2**, and one **GTP** for every molecule of **Ac-CoA**. **Ac-CoA** reacts with **oxaloacetate** to form an intermediate called **citryl-CoA** before the thioester bond is hydrolyzed to release citrate. **Citrate** is then hydrolyzed into **cis-aconitate** which is then rehydrated to form the **citrate** isomer **isocitrate**. The next step is the first of two oxidative decarboxylations, **isocitrate** releases one CO2 and reduces one NAD+ to form **alpha-ketoglutarate** which is also decarboxylated, reduces one more NAD+, and then bound to coenzyme A to form **succinyl-CoA**. **Succinyl**’s conversion into **succinate** is exergonic and coupled with the formation of one **GTP**. **Succinate** is now dehydrogenated creating **formate** and reducing one **FAD**. **Fumarate** is then hydrated to form **malate** which is finally dehydrogenated to form **oxaloacetate** again and reduces one **NAD**.
 
-2- The carbons that leave as CO2 during decarboxylation are not the ones donated by Ac-CoA. The **fourth** carbon of isocitrate is released in the first decarboxylation and the **sixth** carbon of citrate is released in the second from alpha-ketoglutarate. Taking citrate as a reference all mentioned carbon positions will be the carbon’s position in citrate. The carbons from Ac-CoA were carbon **one** and **two** of citrate in their first cycle, in their second cycle carbon **one** will be the **fifth** carbon of citrate, and carbon **two** will be the **sixth** carbon. This means that carbon **two** will be released in its second cycle during the second decarboxylation. Carbon **one** will be moved from the **fifth** position of citrate to the **fourth** and will be released during the first decarboxylation of the third cycle.
+2. The carbons that leave as CO2 during decarboxylation are not the ones donated by Ac-CoA. The **fourth** carbon of isocitrate is released in the first decarboxylation and the **sixth** carbon of citrate is released in the second from alpha-ketoglutarate. Taking citrate as a reference all mentioned carbon positions will be the carbon’s position in citrate. The carbons from Ac-CoA were carbon **one** and **two** of citrate in their first cycle, in their second cycle carbon **one** will be the **fifth** carbon of citrate, and carbon **two** will be the **sixth** carbon. This means that carbon **two** will be released in its second cycle during the second decarboxylation. Carbon **one** will be moved from the **fifth** position of citrate to the **fourth** and will be released during the first decarboxylation of the third cycle.
 
 ### 3.4.4
 
 #### Glyoxylate cycle part 1
 
-1- The TCA cycle has two main roles, the production of NADH+H and FADH2, and the production of precursors that are used for the biosynthesis of fatty acids and amino acids.
+1. The TCA cycle has two main roles, the production of NADH+H and FADH2, and the production of precursors that are used for the biosynthesis of fatty acids and amino acids.
 
 **Gluconeogenesis** is a pathway that regenerates glucose from the intermediates of glycolysis. The first step is the conversion of pyruvate to back to PEP, this can’t be done in the mitochondria however and pyruvate will have to be first converted into oxaloacetate which is then converted into PEP. PEP can then leave the mitochondria and head back to the cytoplasm where it will be converted back to glucose. It can also be converted first into **malate** in some cases before leaving the mitochondria. This is also the case with **alanine** and **lactate** which are both first converted into pyruvate before carrying out the same gluconeogenesis steps.
 
@@ -1158,7 +1289,7 @@ In liver and adipose tissues, hormonal control has also been observed. The bindi
 
 Vertebrates cannot convert Ac-CoA directly into pyruvate for two main reasons, first, the conversion of pyruvate into Ac-CoA is highly exergonic and therefore irreversible. Second, Ac-CoA contains only two carbons and during the TCA cycle two carbons are lost as CO2, what this means is that there is no net production of oxaloacetate in the cycle since for every two carbons gained two will be lost and oxaloacetate is only regenerated or maintained by the cycle not produced so using it to produce glucose will hinder the cycle since one of its intermediates will be depleted.
 
-2- The only way to produce glucose consistently from using oxaloacetate would be to somehow bypass the steps where carbon is lost and retain these materials to make more oxaloacetate. This isn’t possible for vertebrates but bacteria, archaea, fungi, protists, and plants have another pathway they use that allows them to do just that. The **glyoxylate cycle** shares enzymes and intermediates with TCA but it’s by the third step that they differ as **isocitrate** will be split into two molecules by the **isocitrate lyase** enzyme, **succinate,** and **glyoxylate**, another enzyme **malate synthase** will then add the carbons of another Ac-CoA and glyoxylate to form the four-carbon **malate** which is then converted to oxaloacetate.
+2. The only way to produce glucose consistently from using oxaloacetate would be to somehow bypass the steps where carbon is lost and retain these materials to make more oxaloacetate. This isn’t possible for vertebrates but bacteria, archaea, fungi, protists, and plants have another pathway they use that allows them to do just that. The **glyoxylate cycle** shares enzymes and intermediates with TCA but it’s by the third step that they differ as **isocitrate** will be split into two molecules by the **isocitrate lyase** enzyme, **succinate,** and **glyoxylate**, another enzyme **malate synthase** will then add the carbons of another Ac-CoA and glyoxylate to form the four-carbon **malate** which is then converted to oxaloacetate.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20207.png>)
 
@@ -1166,7 +1297,7 @@ This pathway manages to produce an excess of oxaloacetate which is then decarbox
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20208.png>)
 
-3- There is a difference between how plants carry out this pathway as opposed to bacteria. Plants are eukaryotes with membrane-bound organelles while bacteria are prokaryotes that lack specialized organelles therefore the regulation and maintenance of the pathway will differ.
+3. There is a difference between how plants carry out this pathway as opposed to bacteria. Plants are eukaryotes with membrane-bound organelles while bacteria are prokaryotes that lack specialized organelles therefore the regulation and maintenance of the pathway will differ.
 
 In plants, fatty acids in lipid-rich seeds are beta-oxidized to produce Ac-CoA which will enter the TCA like cycle glyoxylate in the glyoxysome. There, an excess of succinate is produced, this excess will be transported through the cytosol to the mitochondria to feed the citric acid cycle and produce an excess of malate, this malate will be transported outside of the mitochondria and converted into oxaloacetate which will be transformed into a monosaccharide by gluconeogenesis and then these monosaccharides will be used to make sucrose. This only happens in plants however when they are not able to carry out photosynthesis fully like in the case of seed germination and early plant development.
 
@@ -1196,7 +1327,7 @@ The energy state of the cell also contributes to the regulation of the two pathw
 
 #### Glyoxylate cycle part 2
 
-1- The glyoxylate cycle can, directly and indirectly, affect us. Organisms like the fungus **Stagonospora nodorum** causes diseases in wheat and other grains and have a big advantage over other microbes than can’t survive off of **acetate** and **fatty acids** due to their lack of a glyoxylate cycle. The malate synthase enzyme’s activity increases during germination and with increased virulence which suggests the existence of a relationship between the activation of the glyoxylate cycle and pathogenicity.
+1. The glyoxylate cycle can, directly and indirectly, affect us. Organisms like the fungus **Stagonospora nodorum** causes diseases in wheat and other grains and have a big advantage over other microbes than can’t survive off of **acetate** and **fatty acids** due to their lack of a glyoxylate cycle. The malate synthase enzyme’s activity increases during germination and with increased virulence which suggests the existence of a relationship between the activation of the glyoxylate cycle and pathogenicity.
 
 And it can be observed that mutations that lead to the inactivation of malate synthase do render the fungus unable to create necrotic lesions in the leaves of the host.
 
@@ -1206,9 +1337,9 @@ And it can be observed that mutations that lead to the inactivation of malate sy
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20215.png>)
 
-2- In mammals, **Candida albicans** is an organism that’s part of the normal microbiota and it lives on the skin and in the gastrointestinal tract. This microbe is harmless but can be responsible for life-threatening diseases in immunocompromised patients. Again, an increase in the activity of glyoxylate cycle enzymes is observed with the increased proliferation of this fungus.
+2. In mammals, **Candida albicans** is an organism that’s part of the normal microbiota and it lives on the skin and in the gastrointestinal tract. This microbe is harmless but can be responsible for life-threatening diseases in immunocompromised patients. Again, an increase in the activity of glyoxylate cycle enzymes is observed with the increased proliferation of this fungus.
 
-3- **Macrophages** and **neutrophils** are the first line of defense against invading bacteria as part of the innate immune response. When a bacteria encounter a macrophage, it gets engulfed by **phagocytosis** and the macrophage then releases **cytokines** to further stimulate the immune response by recruiting monocytes and neutrophils which migrate to the infected tissue by extravasation which makes them responsible for local **inflammations**. Part of the activation of macrophages is a change of the gene expression pattern in them which leads to the production of enzymes that catalyzes the production of biologically active molecules in response to local inflammations. This change in expression is dependent on the type of pathogen and there are different anti-microbial activities that macrophages can exhibit.
+3. **Macrophages** and **neutrophils** are the first line of defense against invading bacteria as part of the innate immune response. When a bacteria encounter a macrophage, it gets engulfed by **phagocytosis** and the macrophage then releases **cytokines** to further stimulate the immune response by recruiting monocytes and neutrophils which migrate to the infected tissue by extravasation which makes them responsible for local **inflammations**. Part of the activation of macrophages is a change of the gene expression pattern in them which leads to the production of enzymes that catalyzes the production of biologically active molecules in response to local inflammations. This change in expression is dependent on the type of pathogen and there are different anti-microbial activities that macrophages can exhibit.
 
 **Immunoresponsive gene 1 (Irg1)** is one of these highly upregulated molecules. Its effects can be studied by an experimental design that **monitors** its **activity** and **analyzes** changes in metabolite expression. The experiment is conducted using **lipopolysaccharides (LPS)** to stimulate macrophages by binding to their membrane receptors and then measure changes in metabolite expression between activated cells, and cells with **suppressed** IRG1 expression via **RNA silencing**. The result was an observed increase in the concentration of **itaconic acid** in stimulated cells compared to IRG1 suppressed cells. Itaconic acid is an **isocitrate lyase (ICL) inhibitor** meaning that macrophages fight pathogens by blocking their glyoxylate cycle. Through C13 carrying acetyl-CoA, scientists were able to determine that itaconic acid is derived from the TCA cycle from **cis-aconitate** which gets decarboxylated into itaconic acid.
 
@@ -1216,7 +1347,7 @@ And it can be observed that mutations that lead to the inactivation of malate sy
 
 After incubating purified IRG-1 with cis-aconitate in vitro it was also proven that IRG-1 catalyzes the decarboxylation reaction and itaconic acid was produced.
 
-4- **Mycobacterium tuberculosis** switches to the glyoxylate cycle upon infection and starts relying on citrate and AC-CoA as a food source. When the bacterium is engulfed by a macrophage it responds by upregulating its production of ICL to counteract the inhibition of itaconic acid and allows M.tuberculosis to survive inside macrophages. This is proven by the fact that mutant M.tuberculosis that is unable to produce ICL can’t survive inside of macrophages and that M.tuberculosis incubated in vitro with citrate as a sole source of carbon and a high concentration of itaconic acid can’t grow.
+4. **Mycobacterium tuberculosis** switches to the glyoxylate cycle upon infection and starts relying on citrate and AC-CoA as a food source. When the bacterium is engulfed by a macrophage it responds by upregulating its production of ICL to counteract the inhibition of itaconic acid and allows M.tuberculosis to survive inside macrophages. This is proven by the fact that mutant M.tuberculosis that is unable to produce ICL can’t survive inside of macrophages and that M.tuberculosis incubated in vitro with citrate as a sole source of carbon and a high concentration of itaconic acid can’t grow.
 
 **Yersinia pestis** can maintain an active glyoxylate cycle inside macrophages despite the presence of itaconic acid as well. This bacteria shows upregulation of one specific operon called **ripABC**. This operon expresses three proteins, **RipA**, **RipB**, and **RipC**. When these proteins are added sequentially to a solution containing itaconic acid it gets converted into pyruvate. Each protein catalyzes one reaction in a series of three reactions that lead to a decrease in itaconic acid followed by an increase in pyruvate.
 
@@ -1224,19 +1355,19 @@ After incubating purified IRG-1 with cis-aconitate in vitro it was also proven t
 
 ### 3.5.1
 
-1- The mitochondria is composed of three sections, the **outer membrane**, the **inner membrane** folded into **cristae**, and the **mitochondrial matrix**, and the space between the outer and inner membranes is called the **intermembrane space**. It’s within the mitochondria that the citric acid, oxidative phosphorylation, amino acids, and fatty acids oxidation take place. The outer membrane is permeable to ions and small molecules while the inner membrane isn’t and specific transporters are required to move such ions and molecules from and to the mitochondrial matrix.
+1. The mitochondria is composed of three sections, the **outer membrane**, the **inner membrane** folded into **cristae**, and the **mitochondrial matrix**, and the space between the outer and inner membranes is called the **intermembrane space**. It’s within the mitochondria that the citric acid, oxidative phosphorylation, amino acids, and fatty acids oxidation take place. The outer membrane is permeable to ions and small molecules while the inner membrane isn’t and specific transporters are required to move such ions and molecules from and to the mitochondrial matrix.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20217.png>)
 
-2- The electron transport chain is explained by the **chemiosmotic theory**, electrons are transferred between proteins and carrier molecules in an exergonic downhill direction. The energy provided by the transfer provides the energy needed to move protons across the inner membrane to the intermembrane space. This stores the energy derived from the oxidation of fuel molecules as a transmembrane chemical potential called the **proton motive force**. This conserved energy is reserved for the synthesis of ATP and is released from the movement of protons down their gradient back into the mitochondrial matrix through the **ATP synthase** enzyme.
+2. The electron transport chain is explained by the **chemiosmotic theory**, electrons are transferred between proteins and carrier molecules in an exergonic downhill direction. The energy provided by the transfer provides the energy needed to move protons across the inner membrane to the intermembrane space. This stores the energy derived from the oxidation of fuel molecules as a transmembrane chemical potential called the **proton motive force**. This conserved energy is reserved for the synthesis of ATP and is released from the movement of protons down their gradient back into the mitochondrial matrix through the **ATP synthase** enzyme.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20218.png>)
 
-3- There are four universal electron acceptors, **NAD+**, **NADP+**, **FAD**, and **FMN**. NAD+ and FAD contribute to catabolic reactions like the electron transport chain and are mainly found in the mitochondria while NADP+ is mainly responsible for anabolic reactions and is mainly found in the cytoplasm and this separation contributes to the separation between anabolic and catabolic pathways in eukaryotes.
+3. There are four universal electron acceptors, **NAD+**, **NADP+**, **FAD**, and **FMN**. NAD+ and FAD contribute to catabolic reactions like the electron transport chain and are mainly found in the mitochondria while NADP+ is mainly responsible for anabolic reactions and is mainly found in the cytoplasm and this separation contributes to the separation between anabolic and catabolic pathways in eukaryotes.
 
 ### 3.5.2
 
-1- The electron transport chain is made of a bunch of different electron acceptors that range in their electron affinity or their reduction potential from low to high and as such the transfer is always exergonic and spontaneous.
+1. The electron transport chain is made of a bunch of different electron acceptors that range in their electron affinity or their reduction potential from low to high and as such the transfer is always exergonic and spontaneous.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20219.png>)
 
@@ -1244,7 +1375,7 @@ Delta E which is the change in reduction potential during the transfer of electr
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20220.png>)
 
-2- Calculating delta G and delta E under standard conditions:
+2. Calculating delta G and delta E under standard conditions:
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20221.png>)
 
@@ -1252,7 +1383,7 @@ Delta E which is the change in reduction potential during the transfer of electr
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20223.png>)
 
-3- Calculating delta E under none-standard conditions:
+3. Calculating delta E under none-standard conditions:
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20224.png>)
 
@@ -1260,7 +1391,7 @@ Delta E which is the change in reduction potential during the transfer of electr
 
 The same type of calculation can be used to determine the direction of the electron flow.
 
-4- There are four types of electron carriers most of which are membrane-bound and the can transport one or two electrons at a time.
+4. There are four types of electron carriers most of which are membrane-bound and the can transport one or two electrons at a time.
 
 The first one is **ubiquinone** or **coenzyme Q**
 
@@ -1290,7 +1421,7 @@ The last type is **iron-sulfur centers** which are associated with different typ
 
 ### 3.5.3
 
-1- Electron carriers are carried within four protein complexes. The first one NADH-ubiquinone oxidoreductase is a large L-shaped complex made of 42 subunits with an arm that extends in the mitochondrial matrix.
+1. Electron carriers are carried within four protein complexes. The first one NADH-ubiquinone oxidoreductase is a large L-shaped complex made of 42 subunits with an arm that extends in the mitochondrial matrix.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20233.png>)
 
@@ -1300,7 +1431,7 @@ NADH+H will interact with a subunit containing FMN and donates one electron and 
 
 These electrons are then transported from FMNH2 to two iron-sulfur center proteins consecutively and finally to coenzyme Q, the protons are then also transported directly from FMNH2 to Coenzyme Q to form ubiquinol. This whole process is coupled with the extraction of four extra protons from the matrix to the intermembrane space.
 
-2- Complex two accepts its electrons and protons from FADH2, the FADH2 that’s reduced during the TCA cycle is part of this complex as this complex is a link between the TCA cycle and oxidative phosphorylation and allows a direct coupling between them since **succinate dehydrogenase** is the enzyme that reduces **succinate** into **fumarate**.
+2. Complex two accepts its electrons and protons from FADH2, the FADH2 that’s reduced during the TCA cycle is part of this complex as this complex is a link between the TCA cycle and oxidative phosphorylation and allows a direct coupling between them since **succinate dehydrogenase** is the enzyme that reduces **succinate** into **fumarate**.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20235.png>)
 
@@ -1310,7 +1441,7 @@ Complex two is a trimer shaped like a mushroom. FADH2 is bound to the **SdhA** s
 
 Coenzyme Q plays a central role in accepting electrons and protons from NADH+H and FADH2 from complex one and two to then deliver them to complex three, but it can also accept electrons and protons from other sources of FADH2 like the FADH2 resulting from the beta-oxidation of fatty acids and FADH2 from the reduction of **Glycerol-3-phosphate** to **dihydroxyacetone phosphate**.
 
-3- Complex three transfer electrons from **ubiquinol** to **cytochrome C** which is attached to the surface of the inner membrane of the mitochondria on the intermembrane space side.
+3. Complex three transfer electrons from **ubiquinol** to **cytochrome C** which is attached to the surface of the inner membrane of the mitochondria on the intermembrane space side.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20237.png>)
 
@@ -1340,7 +1471,7 @@ The results of one Q cycle are two reduced **cyt C** and four **H+**
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20243.png>)
 
-4- Complex four transfers the electrons of the reduced **cyt C** molecules to the final electron acceptor oxygen to form water. It also acts as a dimer and its monomer has thirteen subunits with also three subunits that form its functional core.
+4. Complex four transfers the electrons of the reduced **cyt C** molecules to the final electron acceptor oxygen to form water. It also acts as a dimer and its monomer has thirteen subunits with also three subunits that form its functional core.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20244.png>)
 
@@ -1382,27 +1513,27 @@ The two electrons and protons donated by NADH+H leads to the formation of one mo
 
 ### 3.6.1(till 9.44)
 
-1- To estimate the energy stored in the proton gradient we must first realize that this energy is composed of two components, **chemical potential energy** from the difference of concentration, and **electrical** **potential energy** from the separation of charges across the membrane from the transfer of positive ions without any counterions.
+1. To estimate the energy stored in the proton gradient we must first realize that this energy is composed of two components, **chemical potential energy** from the difference of concentration, and **electrical** **potential energy** from the separation of charges across the membrane from the transfer of positive ions without any counterions.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20256.png>)
 
 In the chemical moiety, **CI** is the concentration in the intermembrane space and **CM** is the concentration in the matrix. In the electrical moiety, **Z** is the absolute value of the charge which is 1 in the case of protons, and **delta psi** is the transmembrane difference in electrical potential.
 
-2- **dG = RTln(CI/CM)** comes from the Gibbs free energy at non-standard conditions equation, only there are no bonds being made or broken here only protons moving across a membrane, so **dGo** is equal to zero, and also these protons are charged and have no counterion, so this creates an electrical potential represented by **ZFdPSI.**
+2. **dG = RTln(CI/CM)** comes from the Gibbs free energy at non-standard conditions equation, only there are no bonds being made or broken here only protons moving across a membrane, so **dGo** is equal to zero, and also these protons are charged and have no counterion, so this creates an electrical potential represented by **ZFdPSI.**
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20257.png>)
 
-3- What’s the cost of transporting protons across the membrane? From experimental values, we know that the delta psi for the inner membrane of the mitochondria is about 0.15-0.20 volts. And of course, the matrix pH is more basic than that of the intermembrane space, and the delta pH equals 0.75. So the energy cost to pump one mole of protons is 20 KJ/mol, and since one-mole of NADH+H is responsible for the pumping of 10 moles of protons then the energy cost for that pumping is 200 KJ/mol. The change of free energy from the electron transfer one mole of NADH+H under standard conditions is -220.1 KJ/mol where the electron donor is NADH+H and the acceptor is oxygen. This is more than enough energy to power the transfer of protons across the membrane
+3. What’s the cost of transporting protons across the membrane? From experimental values, we know that the delta psi for the inner membrane of the mitochondria is about 0.15-0.20 volts. And of course, the matrix pH is more basic than that of the intermembrane space, and the delta pH equals 0.75. So the energy cost to pump one mole of protons is 20 KJ/mol, and since one-mole of NADH+H is responsible for the pumping of 10 moles of protons then the energy cost for that pumping is 200 KJ/mol. The change of free energy from the electron transfer one mole of NADH+H under standard conditions is -220.1 KJ/mol where the electron donor is NADH+H and the acceptor is oxygen. This is more than enough energy to power the transfer of protons across the membrane
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20258.png>)
 
 ### 3.6.2
 
-1- **ATP synthase** is a massive enzyme weighing over half a megadalton, in essence, it’s composed of two motors, one is run by the proton motive force, and the other by ATP hydrolysis because on its own it’s an ATPase. The role of the upper motor is to rotate the lower motor in reverse as to reverse the ATP hydrolysis reaction, and the reverse of ATP hydrolysis is ATP synthesis.
+1. **ATP synthase** is a massive enzyme weighing over half a megadalton, in essence, it’s composed of two motors, one is run by the proton motive force, and the other by ATP hydrolysis because on its own it’s an ATPase. The role of the upper motor is to rotate the lower motor in reverse as to reverse the ATP hydrolysis reaction, and the reverse of ATP hydrolysis is ATP synthesis.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20259.png>)
 
-2- The **F0** subunit is embedded in the inner membrane, it contains a ring of hydrophobic polypeptides called c-chains, and the c-ring contains 10-15 c-chains, the number is species dependent.
+2. The **F0** subunit is embedded in the inner membrane, it contains a ring of hydrophobic polypeptides called c-chains, and the c-ring contains 10-15 c-chains, the number is species dependent.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20260.png>)
 
@@ -1410,7 +1541,7 @@ Next to the **c-ring** is the **a-chain** a chain that contains the proton chann
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20261.png>)
 
-3- The second subunit is the ATP driven motor **F1** which contains five types of chains. Two of them, the **gamma** and **epsilon** chains form the axel or stalk of the motor, this axel interacts with the c-ring and will rotate through the lower ring made of six chains of two types, three **alphas,** and three **betas**. The **alpha-beta ring** forms the enzymatic core of the enzyme, they can both bind ATP but the beta chains alone are catalytic while the alpha chains are regulatory chains. The rotation of the c-ring causes the rotation of the stalk which does **NOT** cause the rotation of the alpha-beta ring. The stalk unlike that of a real generator is not symmetrical. It contacts each beta chain differently and forces each one into one of three distinct conformations, all three conformations always exist simultaneously, and the turning of the stalk alternates which conformation each beta chain is in which affects ATP binding to each one of them. As mentioned before the alpha-beta ring doesn’t actually rotate with the stalk, this is due to the presence of a **stator** that holds the **F1** subunit still and resists the rotation of **F0** and the **stalk** but the structure of the stator remains only partially determined and will be shown as a schematic**.**
+3. The second subunit is the ATP driven motor **F1** which contains five types of chains. Two of them, the **gamma** and **epsilon** chains form the axel or stalk of the motor, this axel interacts with the c-ring and will rotate through the lower ring made of six chains of two types, three **alphas,** and three **betas**. The **alpha-beta ring** forms the enzymatic core of the enzyme, they can both bind ATP but the beta chains alone are catalytic while the alpha chains are regulatory chains. The rotation of the c-ring causes the rotation of the stalk which does **NOT** cause the rotation of the alpha-beta ring. The stalk unlike that of a real generator is not symmetrical. It contacts each beta chain differently and forces each one into one of three distinct conformations, all three conformations always exist simultaneously, and the turning of the stalk alternates which conformation each beta chain is in which affects ATP binding to each one of them. As mentioned before the alpha-beta ring doesn’t actually rotate with the stalk, this is due to the presence of a **stator** that holds the **F1** subunit still and resists the rotation of **F0** and the **stalk** but the structure of the stator remains only partially determined and will be shown as a schematic**.**
 
 **![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20262.png>)**
 
@@ -1418,23 +1549,23 @@ And while ATP synthase was shown here as a single molecule it has been determine
 
 ### 3.6.3
 
-1- ATP synthase doesn’t bind the transition state itself very well but rather it binds both ADP and ATP extremely well and they exist almost at equilibrium in their respective active sites of the enzyme and they both have almost the exact same free energy level and therefore the transition from one of them to the other costs almost nothing. But this very good binding comes at a cost. For ATP to be released a very big energy barrier has to be overcome. This is what the conformational changes of the beta chains are meant for.
+1. ATP synthase doesn’t bind the transition state itself very well but rather it binds both ADP and ATP extremely well and they exist almost at equilibrium in their respective active sites of the enzyme and they both have almost the exact same free energy level and therefore the transition from one of them to the other costs almost nothing. But this very good binding comes at a cost. For ATP to be released a very big energy barrier has to be overcome. This is what the conformational changes of the beta chains are meant for.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20264.png>)
 
-2- At any given time each of the three beta chains will be at a different conformation with different binding properties. One beta chain will be in the **O-state (open state)** an open conformation where ADP and ATP binding and dissociation are both very easy, the **L-state (loose state)** and in this state, bound ADP and inorganic phosphate are trapped within the chain, and the third state is the **T-state (tight state)** a state that has very high avidity towards ATP ( really loves binding ATP ) which drives the conversion of ADP and inorganic phosphate to ATP.
+2. At any given time each of the three beta chains will be at a different conformation with different binding properties. One beta chain will be in the **O-state (open state)** an open conformation where ADP and ATP binding and dissociation are both very easy, the **L-state (loose state)** and in this state, bound ADP and inorganic phosphate are trapped within the chain, and the third state is the **T-state (tight state)** a state that has very high avidity towards ATP ( really loves binding ATP ) which drives the conversion of ADP and inorganic phosphate to ATP.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20265.png>)
 
 The number of protons that need to pass through ATP synthase for one ATP to be made can be calculated. Assuming a 10 chain c-ring, 10 protons will need to pass through for one full turn of the c-ring to be achieved and one full turn is needed for three ATPs to be made. So in theory 10/3 is 3.333 so 3 protons need to flow back for the creation of one ATP.
 
-3- ATP is mostly used outside of the mitochondria and ADP is needed inside the mitochondria, but the inner membrane is impermeable to ATP and ADP and a transport protein **Adenine nucleotide translocase** is needed to swap both molecules together which is a favorable process since ADP carries three negative charges and ATP carries four so its transfer to the intermembrane space where all the positively charged protons are stored is favorable but it's also going to reduce the total electrical potential by moving there reducing the proton motive force. Another protein **phosphate translocase** is responsible for transporting inorganic phosphate to the matrix, a process that’s coupled with the transfer of one proton which makes it favorable and also neutralizes their charges but still reduces the chemical potential of the proton motive force.
+3. ATP is mostly used outside of the mitochondria and ADP is needed inside the mitochondria, but the inner membrane is impermeable to ATP and ADP and a transport protein **Adenine nucleotide translocase** is needed to swap both molecules together which is a favorable process since ADP carries three negative charges and ATP carries four so its transfer to the intermembrane space where all the positively charged protons are stored is favorable but it's also going to reduce the total electrical potential by moving there reducing the proton motive force. Another protein **phosphate translocase** is responsible for transporting inorganic phosphate to the matrix, a process that’s coupled with the transfer of one proton which makes it favorable and also neutralizes their charges but still reduces the chemical potential of the proton motive force.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20266.png>)
 
 ### 3.6.4
 
-1- **Aspartate** residues on the C-chains are key to the rotation of the C-ring. On the A-chain there are two half channels, the **N-side half channel** (N-side means the mitochondrial matrix) and the **P-side half channel** (P-side means the intermembrane space) as well as a positively charged **Arginine** residue that shifts between both half channels. The aspartate residue facing the p-side half channel is deprotonated and negatively charged which means that it can’t leave the protection of the A-chain that’s separating it from the hydrophobic phospholipids surrounding them and it’s kept stable by electrostatic interactions with the protonated arginine residue. The other aspartate facing the n-side is protonated and neutral and doesn’t have any of the aforementioned issues.![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20267.png>)
+1. **Aspartate** residues on the C-chains are key to the rotation of the C-ring. On the A-chain there are two half channels, the **N-side half channel** (N-side means the mitochondrial matrix) and the **P-side half channel** (P-side means the intermembrane space) as well as a positively charged **Arginine** residue that shifts between both half channels. The aspartate residue facing the p-side half channel is deprotonated and negatively charged which means that it can’t leave the protection of the A-chain that’s separating it from the hydrophobic phospholipids surrounding them and it’s kept stable by electrostatic interactions with the protonated arginine residue. The other aspartate facing the n-side is protonated and neutral and doesn’t have any of the aforementioned issues.![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20267.png>)
 
 The relatively high concentration of protons in the intermembrane space facilitates the entry of protons to the P-side half channel. The similar positive charge kicks away the arginine residue towards the N-side and the deprotonated aspartate can now bind the proton from the P-side half channel. The arginine now facing the protonated aspartate triggers the deprotonation of said aspartate and the move of its proton towards the N-side half channel and back to the matrix triggering a one chain rotation. The direction of this rotation is determined by the relative concentration of protons across the membrane and the cause of the rotation is Brownian motion.
 
@@ -1442,11 +1573,11 @@ The relatively high concentration of protons in the intermembrane space facilita
 
 ### 3.7.1
 
-1- It’s common for end products of catabolic pathways to inhibit the early steps of the pathway to prevent wasteful production just like in the case of **ATCase** an enzyme that regulates the early steps of pyrimidine production with its end product being **CTP**. ATCase is part of a group of enzymes known as **allosteric enzymes** that have regulatory sites that are separate from their catalytic sites. In the following diagram, ATCase was treated with a chemical that separated its regulatory site that binds its allosteric inhibitor **CTP** and its catalytic site that binds the substrate and is unaffected by CTP.
+1. It’s common for end products of catabolic pathways to inhibit the early steps of the pathway to prevent wasteful production just like in the case of **ATCase** an enzyme that regulates the early steps of pyrimidine production with its end product being **CTP**. ATCase is part of a group of enzymes known as **allosteric enzymes** that have regulatory sites that are separate from their catalytic sites. In the following diagram, ATCase was treated with a chemical that separated its regulatory site that binds its allosteric inhibitor **CTP** and its catalytic site that binds the substrate and is unaffected by CTP.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20268.png>)
 
-2- Allos means other and stereos mean structure so allosteric is greek for other structures, that’s what happens to allosteric enzymes after binding an effector they change conformations.
+2. Allos means other and stereos mean structure so allosteric is greek for other structures, that’s what happens to allosteric enzymes after binding an effector they change conformations.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20269.png>)
 
@@ -1458,7 +1589,7 @@ The presence of the activator changes the kinetics so that the curve is actually
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20271.png>)
 
-3- Two models were made to describe the kinetics of allosteric enzymes, both are built on assumptions. The first is the **Monod, Wyman, Changeux (MWC) model**. **The first** assumption is that an allosteric enzyme is oligomeric and symmetrical built of many subunits **2)** each has one binding site **3)** the enzyme as a whole can exist in one of two conformations **4)** the transition is an all-or-nothing event that maintains the symmetry of the enzyme **5)** the affinity of a binding site to its substrate is dependent on the conformation of the enzyme only and not the binding state of the other subunits **6)** the binding of a ligand to one conformation causes the equilibrium to shift in favor of the conformation with the bound ligand. This model has some issues, for example, symmetry doesn’t always exist in an enzyme.
+3. Two models were made to describe the kinetics of allosteric enzymes, both are built on assumptions. The first is the **Monod, Wyman, Changeux (MWC) model**. **The first** assumption is that an allosteric enzyme is oligomeric and symmetrical built of many subunits **2)** each has one binding site **3)** the enzyme as a whole can exist in one of two conformations **4)** the transition is an all-or-nothing event that maintains the symmetry of the enzyme **5)** the affinity of a binding site to its substrate is dependent on the conformation of the enzyme only and not the binding state of the other subunits **6)** the binding of a ligand to one conformation causes the equilibrium to shift in favor of the conformation with the bound ligand. This model has some issues, for example, symmetry doesn’t always exist in an enzyme.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20272.png>)
 
@@ -1474,7 +1605,7 @@ The MWC model applies well to predict the change in velocity when the concentrat
 
 ### 3.7.2
 
-1- Living organisms don’t exist at equilibrium but rather at steady state or **Homeostasis** which is achieved by a constant influx of nutrients and efflux of waste and is maintained by the inhibition and activation of metabolic pathways. Any disturbance in the Homeostasis triggers a coordinated regulation of metabolic pathways with the purpose of the return to the steady-state. Some enzymes are kept **near equilibrium**, their activity is governed by how quickly the substrate can be provided and they are, therefore, **substrate limited**. Other enzymes are kept **far from equilibrium**, the activity of the enzymes here is kept low until specific effectors activate the enzyme and allow the conversion of substrates into products, these reactions are **enzyme limited**. In vitro, the mass action ratio of fructose-6-phosphate and fructose 1-6BP which is ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20275.png>) is 250, this is at equilibrium, while in cells it’s only 0.04, so the concentration of the product fructose 1-6BP is low which means that the activity of its enzyme PFK-1 is low, it’s an enzyme limited reaction, and PFK-1 here acts as a metabolic valve.
+1. Living organisms don’t exist at equilibrium but rather at steady state or **Homeostasis** which is achieved by a constant influx of nutrients and efflux of waste and is maintained by the inhibition and activation of metabolic pathways. Any disturbance in the Homeostasis triggers a coordinated regulation of metabolic pathways with the purpose of the return to the steady-state. Some enzymes are kept **near equilibrium**, their activity is governed by how quickly the substrate can be provided and they are, therefore, **substrate limited**. Other enzymes are kept **far from equilibrium**, the activity of the enzymes here is kept low until specific effectors activate the enzyme and allow the conversion of substrates into products, these reactions are **enzyme limited**. In vitro, the mass action ratio of fructose-6-phosphate and fructose 1-6BP which is ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20275.png>) is 250, this is at equilibrium, while in cells it’s only 0.04, so the concentration of the product fructose 1-6BP is low which means that the activity of its enzyme PFK-1 is low, it’s an enzyme limited reaction, and PFK-1 here acts as a metabolic valve.
 
 These metabolic valves can keep an entire pathway “turned off”.
 
@@ -1484,15 +1615,15 @@ Once they are activated and allowed to convert their substrate into products, th
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20277.png>)
 
-2- The activity of these metabolic valves is regulated by allosteric effectors whose concentration in a cell reflects the cell’s metabolic state and their reactions are very fast and takes only milliseconds. The other type of regulation is **reversible covalent modifications** like phosphorylation which can activate or inactivate an enzyme, they are usually the product of an intracellular signaling cascade triggered by external factors like hormones, these reactions are slower and take seconds to be accomplished. **Transcriptional regulation** is much slower and it doesn’t affect the activity of the enzyme but rather the amount (similar to the glyoxylate cycle from 3.4.4).
+2. The activity of these metabolic valves is regulated by allosteric effectors whose concentration in a cell reflects the cell’s metabolic state and their reactions are very fast and takes only milliseconds. The other type of regulation is **reversible covalent modifications** like phosphorylation which can activate or inactivate an enzyme, they are usually the product of an intracellular signaling cascade triggered by external factors like hormones, these reactions are slower and take seconds to be accomplished. **Transcriptional regulation** is much slower and it doesn’t affect the activity of the enzyme but rather the amount (similar to the glyoxylate cycle from 3.4.4).
 
 ### 3.7.3
 
-1- ATP is an allosteric inhibitor of PFK-1. AMP is an activator of PFK-1. The net effect on PFK-1 can be determined from the ratio between ATP and AMP, a high ratio means a high concentration of ATP, which means the cell is at a high energy state, which means that glycolysis and the consumption of fuel molecules is not needed and that PFK-1 is inhibited by ATP. If the ratio is low, AMP concentration is high, the energy state of the cell is low, and ATP production will be boosted by the activation of PFK-1 and glycolysis. ADP, however, has no effect on PFK-1 because of enzymes and pathways that constantly regenerate ATP from ADP like **adenylate kinase** which converts two molecules of ADP to ATP and AMP as well as the **creatine phosphate cycle** so AMP is a clearer indicator of the energy state of the cell and provides a more sensitive control over PFK-1 than ADP. The concentration of AMP is much smaller than that of ATP and ADP respectively and a small change in the concentration of ATP results in a large percentage change in the concentration of AMP which provides a sensitive and tight control over the activity of PFK-1. The intermediates of glycolysis and TCA ( amino acids, lipids, and nucleic acids) also play a role in the regulation of the glycolytic flux. Citrate, for example, which is formed in the earlier steps of TCA is an inhibitor of PFK-1, a high concentration of citrate indicates that biosynthetic precursors are abundant and that the cell is in a high energy state and it inhibits PFK-1 by enhancing the inhibitory effects of ATP. In the liver, ATP is always at high concentration and ATP’s role in the regulation of PFK-1 is low, instead, PFK-1 in the liver is controlled by **fructose 2,6-bisphosphate**. It can alter the activity of PFK-1 in two ways, **1)** a high concentration of F-2,6-BP activates PFK-1 even at high levels of ATP by increasing its affinity for its substrate **2)** it dampens the effect of ATP on PFK-1.
+1. ATP is an allosteric inhibitor of PFK-1. AMP is an activator of PFK-1. The net effect on PFK-1 can be determined from the ratio between ATP and AMP, a high ratio means a high concentration of ATP, which means the cell is at a high energy state, which means that glycolysis and the consumption of fuel molecules is not needed and that PFK-1 is inhibited by ATP. If the ratio is low, AMP concentration is high, the energy state of the cell is low, and ATP production will be boosted by the activation of PFK-1 and glycolysis. ADP, however, has no effect on PFK-1 because of enzymes and pathways that constantly regenerate ATP from ADP like **adenylate kinase** which converts two molecules of ADP to ATP and AMP as well as the **creatine phosphate cycle** so AMP is a clearer indicator of the energy state of the cell and provides a more sensitive control over PFK-1 than ADP. The concentration of AMP is much smaller than that of ATP and ADP respectively and a small change in the concentration of ATP results in a large percentage change in the concentration of AMP which provides a sensitive and tight control over the activity of PFK-1. The intermediates of glycolysis and TCA ( amino acids, lipids, and nucleic acids) also play a role in the regulation of the glycolytic flux. Citrate, for example, which is formed in the earlier steps of TCA is an inhibitor of PFK-1, a high concentration of citrate indicates that biosynthetic precursors are abundant and that the cell is in a high energy state and it inhibits PFK-1 by enhancing the inhibitory effects of ATP. In the liver, ATP is always at high concentration and ATP’s role in the regulation of PFK-1 is low, instead, PFK-1 in the liver is controlled by **fructose 2,6-bisphosphate**. It can alter the activity of PFK-1 in two ways, **1)** a high concentration of F-2,6-BP activates PFK-1 even at high levels of ATP by increasing its affinity for its substrate **2)** it dampens the effect of ATP on PFK-1.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20278.png>)
 
-2- F-2,6-BP comes from the enzyme **PFK-2** which phosphorylates Fructose-6-phosphate on carbon 2 instead of 1.
+2. F-2,6-BP comes from the enzyme **PFK-2** which phosphorylates Fructose-6-phosphate on carbon 2 instead of 1.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20279.png>)
 
@@ -1504,23 +1635,23 @@ If you remember signaling cascades and how they work, glucagon will bind to gluc
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20281.png>)
 
-3- The slowing down of glycolysis in the liver gives priority of access to the low blood glucose to the brain and muscles. When blood sugar levels are back to normal, glucagon signaling will stop, and PFK-2 will return to normal and with it the glucose consumption rate of the liver.
+3. The slowing down of glycolysis in the liver gives priority of access to the low blood glucose to the brain and muscles. When blood sugar levels are back to normal, glucagon signaling will stop, and PFK-2 will return to normal and with it the glucose consumption rate of the liver.
 
 ### 3.7.4
 
-1- There are three **metabolic valves** in glycolysis, the first step with the phosphorylation of glucose into glucose-6-P by the enzyme **Hexokinase** or **Glucokinase** specifically in the liver, PFK-1’s conversion of F-6-P into F-1,6-P, and the final step of PEP’s conversion into pyruvate by the enzyme **pyruvate kinase**. Different tissues are different in their need for glycolysis, the brain and muscles have the **M isoform** of the enzyme hexokinase which has a high affinity for glucose (low Km) while the liver has an **L isoform hexokinase** with lower Km and is actually sequestered in the nucleus when blood glucose is low. The concentration of glucose-6-P in muscles increases with blood glucose levels and acts as an allosteric inhibitor for the hexokinase enzyme. Glucose-6-P also accumulates at high energy levels, that’s because ATP concentration will be high and will inhibit the PFK-1 enzyme preventing F-6-P from being converted into F-1,6-BP, F-6-P will therefore accumulate, and the downstream step the conversion of G-6-P into F-6-P is easily reversible, therefore the accumulation of F-6-P leads to an accumulation of G-6-P and the inhibition of the M isoform of hexokinase which prevents the import of more glucose from the bloodstream.
+1. There are three **metabolic valves** in glycolysis, the first step with the phosphorylation of glucose into glucose-6-P by the enzyme **Hexokinase** or **Glucokinase** specifically in the liver, PFK-1’s conversion of F-6-P into F-1,6-P, and the final step of PEP’s conversion into pyruvate by the enzyme **pyruvate kinase**. Different tissues are different in their need for glycolysis, the brain and muscles have the **M isoform** of the enzyme hexokinase which has a high affinity for glucose (low Km) while the liver has an **L isoform hexokinase** with lower Km and is actually sequestered in the nucleus when blood glucose is low. The concentration of glucose-6-P in muscles increases with blood glucose levels and acts as an allosteric inhibitor for the hexokinase enzyme. Glucose-6-P also accumulates at high energy levels, that’s because ATP concentration will be high and will inhibit the PFK-1 enzyme preventing F-6-P from being converted into F-1,6-BP, F-6-P will therefore accumulate, and the downstream step the conversion of G-6-P into F-6-P is easily reversible, therefore the accumulation of F-6-P leads to an accumulation of G-6-P and the inhibition of the M isoform of hexokinase which prevents the import of more glucose from the bloodstream.
 
-2- When the hexokinase of multiple different tissues is inhibited by an excess of glucose the liver will take up all the remaining glucose where it will be converted into glycogen and fats. This is possible because the L isoform of hexokinase doesn’t get inhibited by G-6-P. The Km of glucokinase is also high and the enzyme works at near maximum velocity when the concentration of glucose is high in hepatocytes. With a very high concentration of ATP inhibiting PFK-1 the progress of glycolysis will be very slow, instead, G-6-P will be consumed in other pathways like fatty acid, glycogen synthesis, and the PPP pathway (pentose phosphate pathway). This is the reason why the regulation of PFK-1 is very important because it’s the first committed (first step that results in a product that isn’t a precursor to any other pathway) step unique to glycolysis.
+2. When the hexokinase of multiple different tissues is inhibited by an excess of glucose the liver will take up all the remaining glucose where it will be converted into glycogen and fats. This is possible because the L isoform of hexokinase doesn’t get inhibited by G-6-P. The Km of glucokinase is also high and the enzyme works at near maximum velocity when the concentration of glucose is high in hepatocytes. With a very high concentration of ATP inhibiting PFK-1 the progress of glycolysis will be very slow, instead, G-6-P will be consumed in other pathways like fatty acid, glycogen synthesis, and the PPP pathway (pentose phosphate pathway). This is the reason why the regulation of PFK-1 is very important because it’s the first committed (first step that results in a product that isn’t a precursor to any other pathway) step unique to glycolysis.
 
-3- Pyruvate kinase also has an M form and an L form, they are both allosteric enzymes, and they are both controlled by three effectors, F-1,6-BP is an allosteric activator, ATP inhibits it just like PFK-1, and the amino acid alanine which can be converted to pyruvate and vice versa, alanine is another inhibitor of **PK** because it’s an indicator of a high concentration of pyruvate and therefore high energy state. PK-L is controllable by **reversible phosphorylation** done by PKA which is activated by glucagon. This is different for PK-M because muscle and brain cells don’t have glucagon receptors to begin with.
+3. Pyruvate kinase also has an M form and an L form, they are both allosteric enzymes, and they are both controlled by three effectors, F-1,6-BP is an allosteric activator, ATP inhibits it just like PFK-1, and the amino acid alanine which can be converted to pyruvate and vice versa, alanine is another inhibitor of **PK** because it’s an indicator of a high concentration of pyruvate and therefore high energy state. PK-L is controllable by **reversible phosphorylation** done by PKA which is activated by glucagon. This is different for PK-M because muscle and brain cells don’t have glucagon receptors to begin with.
 
 ## Regulation of blood sugar by the liver:
 
 ### 3.8.1
 
-1- The amount of monosaccharides consumed per day are not enough to fulfill our body’s needs as the brain on its own consumes glucose almost purely and it requires 120 grams of it per day. That’s why **gluconeogenesis** is a very important pathway that allows us to remake glucose out of some waste materials and other metabolites, but in order to do so, the three metabolic valves which are three highly exergonic reactions that are irreversible must be bypassed, that’s done through three **bypass reactions** using gluconeogenesis specific enzymes, the other seven reactions of glycolysis are easily reversible and don’t require similar treatment.
+1. The amount of monosaccharides consumed per day are not enough to fulfill our body’s needs as the brain on its own consumes glucose almost purely and it requires 120 grams of it per day. That’s why **gluconeogenesis** is a very important pathway that allows us to remake glucose out of some waste materials and other metabolites, but in order to do so, the three metabolic valves which are three highly exergonic reactions that are irreversible must be bypassed, that’s done through three **bypass reactions** using gluconeogenesis specific enzymes, the other seven reactions of glycolysis are easily reversible and don’t require similar treatment.
 
-2- The first bypass reaction is the conversion of pyruvate into PEP through a multistep process that can utilize different precursors. There are two different pathways that can be used to accomplish this depending on the precursors, the first one uses **pyruvate** and **alanine** and is the predominant pathway. First, both alanine and pyruvate are transported to the mitochondria from the cytoplasm, and alanine is converted into pyruvate.
+2. The first bypass reaction is the conversion of pyruvate into PEP through a multistep process that can utilize different precursors. There are two different pathways that can be used to accomplish this depending on the precursors, the first one uses **pyruvate** and **alanine** and is the predominant pathway. First, both alanine and pyruvate are transported to the mitochondria from the cytoplasm, and alanine is converted into pyruvate.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20282.png>)
 
@@ -1542,15 +1673,15 @@ This reaction has positive free energy under standard conditions but under physi
 
 The malate conversion step done within the mitochondria is needed because later on in gluconeogenesis 1-3 bisphosphoglycerate will be converted back to glyceraldehyde-3-P which is a reduction reaction that required the expenditure of one NADH+H, the ratio NADH+H/NAD+ is much lower in the cytoplasm than in the mitochondria and NADH+H can’t be transported from the mitochondria to the cytoplasm because the inner membrane is impermeable to it. So, the step done in the mitochondria is basically the same as transporting NADH+H out to the cytoplasm.
 
-4- The second pathway is used when **lactate** is the precursor for gluconeogenesis. The conversion from lactate to pyruvate happens in the cytoplasm and is coupled with the formation of a NADH+H molecule which will compensate for the consumption of NADH+H later on.
+4. The second pathway is used when **lactate** is the precursor for gluconeogenesis. The conversion from lactate to pyruvate happens in the cytoplasm and is coupled with the formation of a NADH+H molecule which will compensate for the consumption of NADH+H later on.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20286.png>)
 
-5- The second bypass reaction is the conversion of fructose-1,6-bisphosphate into fructose-6-phosphate. The opposite reaction is done during glycolysis via PFK-1 and is irreversible. In gluconeogenesis, this step is done via **Fructose-1,6-bisphosphatase**, it’s an exergonic reaction at -16.3 KJ/mol. The dephosphorylation of F-1,6-BP is not coupled with the synthesis of an ATP, gluconeogenesis doesn’t lead to the production of any ATP in general.
+5. The second bypass reaction is the conversion of fructose-1,6-bisphosphate into fructose-6-phosphate. The opposite reaction is done during glycolysis via PFK-1 and is irreversible. In gluconeogenesis, this step is done via **Fructose-1,6-bisphosphatase**, it’s an exergonic reaction at -16.3 KJ/mol. The dephosphorylation of F-1,6-BP is not coupled with the synthesis of an ATP, gluconeogenesis doesn’t lead to the production of any ATP in general.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20287.png>)
 
-6- The third and final bypass reaction is the conversion of G-6-P into glucose which allows these newly synthesized glucose molecules to leave the liver and go to the tissue that needs them.
+6. The third and final bypass reaction is the conversion of G-6-P into glucose which allows these newly synthesized glucose molecules to leave the liver and go to the tissue that needs them.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20288.png>)
 
@@ -1562,13 +1693,13 @@ Both pathways are exergonic and spontaneous but with a big difference in free en
 
 ### 3.8.2
 
-1- **Ac-CoA** is a **PDH complex** **inhibitor**. At high energy state, the accumulation of Ac-CoA inhibits PDH preventing the formation of more Ac-CoA causing an increase in pyruvate. Ac-CoA also **activates pyruvate decarboxylase** which will convert all the excess pyruvate to oxaloacetate and then back to glucose. This is an example of **reciprocal regulation** (an effector that affects two different molecules equally but in opposite ways). There are more examples of this type of regulation in glycolysis like the activation of PFK-1 by AMP and the inhibition of FBPase-1 by AMP, in the liver F-2,6-BP activates PFK-1 and inhibits FBPase-1 while PFK-2 the producer of F-2,6-BP is itself under hormonal control.
+1. **Ac-CoA** is a **PDH complex** **inhibitor**. At high energy state, the accumulation of Ac-CoA inhibits PDH preventing the formation of more Ac-CoA causing an increase in pyruvate. Ac-CoA also **activates pyruvate decarboxylase** which will convert all the excess pyruvate to oxaloacetate and then back to glucose. This is an example of **reciprocal regulation** (an effector that affects two different molecules equally but in opposite ways). There are more examples of this type of regulation in glycolysis like the activation of PFK-1 by AMP and the inhibition of FBPase-1 by AMP, in the liver F-2,6-BP activates PFK-1 and inhibits FBPase-1 while PFK-2 the producer of F-2,6-BP is itself under hormonal control.
 
-2- Taking a look at the kinetics of PFK-1 and FBPase-1 with and without F-2,6-BP, we can see that without F-2,6-BP, PFK-1 has a high K0.5 equal to 2 mM before it reaches half of its maximum velocity while by adding a very small amount of F-2,6-BP in comparison, about 0.13 micromolar, the K0.5 of PFK-1 decreases drastically and will be only 0.08 mM instead. The same is true for FBPase-1, without the presence of its inhibitor F-2,6-BP its K0.5 will be at 5 micromolar but with the addition of just 25 micromolar of F-2,6-BP the kinetics changes drastically from a hyperbolic curve to a sigmoidal one and 1/2Vmax will now be achieved at over 70 micromolar of F-1,6-BP.
+2. Taking a look at the kinetics of PFK-1 and FBPase-1 with and without F-2,6-BP, we can see that without F-2,6-BP, PFK-1 has a high K0.5 equal to 2 mM before it reaches half of its maximum velocity while by adding a very small amount of F-2,6-BP in comparison, about 0.13 micromolar, the K0.5 of PFK-1 decreases drastically and will be only 0.08 mM instead. The same is true for FBPase-1, without the presence of its inhibitor F-2,6-BP its K0.5 will be at 5 micromolar but with the addition of just 25 micromolar of F-2,6-BP the kinetics changes drastically from a hyperbolic curve to a sigmoidal one and 1/2Vmax will now be achieved at over 70 micromolar of F-1,6-BP.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20290.png>)
 
-3- We know how glucagon affects the liver at low glucose levels but what about high glucose levels? Insulin will be produced and will bind to insulin receptors on the liver which leads to the activation of **insulin-sensitive protein kinases** one of which will then activate a **phospho-protein phosphatase** which will dephosphorylate **PFK-2** which was previously phosphorylated due to **glucagon** via **PKA** and PFK-2 with its kinase domain now active again will convert some F-6-P into F-2,6-BP which can now activate PFK-1 and inhibit FBPase-1.
+3. We know how glucagon affects the liver at low glucose levels but what about high glucose levels? Insulin will be produced and will bind to insulin receptors on the liver which leads to the activation of **insulin-sensitive protein kinases** one of which will then activate a **phospho-protein phosphatase** which will dephosphorylate **PFK-2** which was previously phosphorylated due to **glucagon** via **PKA** and PFK-2 with its kinase domain now active again will convert some F-6-P into F-2,6-BP which can now activate PFK-1 and inhibit FBPase-1.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20291.png>)
 
@@ -1578,7 +1709,7 @@ This shows that the second bypass reaction is characterized by a double layer of
 
 ### 3.8.3
 
-1- Glycogen synthase is key for the synthesis of glycogen while **glycogen phosphorylase** is key for the degradation of glycogen by cleaving glycosidic linkages to release glucose-1-phosphate.
+1. Glycogen synthase is key for the synthesis of glycogen while **glycogen phosphorylase** is key for the degradation of glycogen by cleaving glycosidic linkages to release glucose-1-phosphate.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20293.png>)
 
@@ -1592,13 +1723,13 @@ phosphorylated by PKA which inhibits it.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20295.png>)
 
-2- When insulin is produced it will bind to its receptor phosphorylating and activating a series of **insulin receptor substrates (IRS)** that will then phosphorylate a series of **protein kinases** and one of them will phosphorylate and inactivate **GSK** which is another protein kinase that phosphorylates and inactivates glycogen synthase.
+2. When insulin is produced it will bind to its receptor phosphorylating and activating a series of **insulin receptor substrates (IRS)** that will then phosphorylate a series of **protein kinases** and one of them will phosphorylate and inactivate **GSK** which is another protein kinase that phosphorylates and inactivates glycogen synthase.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20296.png>)
 
 ### 3.8.4
 
-1- **Protein phosphatase-1 (PP1)** is an enzyme that dephosphorylates both glycogen synthase and glycogen phosphorylase, it also dephosphorylates phosphorylase kinase which phosphorylates glycogen phosphorylase therefore PP1 inactivates the activator of that enzyme.
+1. **Protein phosphatase-1 (PP1)** is an enzyme that dephosphorylates both glycogen synthase and glycogen phosphorylase, it also dephosphorylates phosphorylase kinase which phosphorylates glycogen phosphorylase therefore PP1 inactivates the activator of that enzyme.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20297.png>)
 
@@ -1606,17 +1737,17 @@ In case of low blood glucose PKA will inhibit PP1 and proceed to do the function
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20298.png>)
 
-2- PP1 is part of the **glycogen synthase phosphatase complex** which of course contains PP1 as well as a regulatory subunit called **subunit G** a member of a family of glycogen targeting regulatory subunits. This subunit is responsible for recruiting the complex to glycogen particles. At low blood glucose activated glycogen phosphorylase will act as an allosteric inhibitor of PP1 and the already bound glycogen synthase will remain phosphorylated and inactive.
+2. PP1 is part of the **glycogen synthase phosphatase complex** which of course contains PP1 as well as a regulatory subunit called **subunit G** a member of a family of glycogen targeting regulatory subunits. This subunit is responsible for recruiting the complex to glycogen particles. At low blood glucose activated glycogen phosphorylase will act as an allosteric inhibitor of PP1 and the already bound glycogen synthase will remain phosphorylated and inactive.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20299.png>)
 
-3- **GL** is the liver isoform of the G subunit, muscles have their own isoform **GM** that differently.
+3. **GL** is the liver isoform of the G subunit, muscles have their own isoform **GM** that differently.
 
 In muscles, GM directs PP1 to glycogen particles and facilitates glycogen synthesis by dephosphorylating glycogen synthase and phosphorylase. PKA phosphorylates GM directly and as a result, PP1 will dissociate from GM and then diffuse away from glycogen reducing the catalytic efficiency of PP1 since it’s now farther away from its substrate. PKA will also phosphorylate and activate an inhibitor that binds to PP1 and further reduces its activity.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20300.png>)
 
-4- Insulin through a signaling cascade can decrease the intracellular concentration of cAMP the activator of PKA.
+4. Insulin through a signaling cascade can decrease the intracellular concentration of cAMP the activator of PKA.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20301.png>)
 
@@ -1632,25 +1763,25 @@ The delay between the deactivation of phosphorylase and activation of synthase i
 
 #### Diabetes
 
-1- Diabetes mellitus comes in three types, type 1 also known as the childhood-onset, type 2 the adulthood onset, and gestational diabetes which is a transient side effect of pregnancy that affects 9% of all pregnant women.
+1. Diabetes mellitus comes in three types, type 1 also known as the childhood-onset, type 2 the adulthood onset, and gestational diabetes which is a transient side effect of pregnancy that affects 9% of all pregnant women.
 
-2- Type 1 is known to occur suddenly before an individual reaches 25 years of age, it’s the result of genetic, environmental, or autoimmune complications, it’s always characterized by the loss of beta cells and a decrease in insulin production which continues until a certain threshold is reached which is when diabetes symptoms start showing. The only available treatment for type 1 diabetes is constant monitoring of the patient’s blood glucose level along with periodic insulin injections to maintain glucose homeostasis.
+2. Type 1 is known to occur suddenly before an individual reaches 25 years of age, it’s the result of genetic, environmental, or autoimmune complications, it’s always characterized by the loss of beta cells and a decrease in insulin production which continues until a certain threshold is reached which is when diabetes symptoms start showing. The only available treatment for type 1 diabetes is constant monitoring of the patient’s blood glucose level along with periodic insulin injections to maintain glucose homeostasis.
 
-3- Type 2 progresses slowly and starts showing in individuals between 40 and 60 years of age but is starting to appear in younger individuals and is associated with obesity. It’s also the product of genetic and environmental factors. In its early stages type 2 is characterized by resistance towards insulin and eventually beta-cell loss due to exposure to high glucose levels. Treatments for this type vary depending on age, the progression of the disease, and other complications. Compared to type 1, type 2 diabetes can be prevented early on with a controlled diet and exercise.
+3. Type 2 progresses slowly and starts showing in individuals between 40 and 60 years of age but is starting to appear in younger individuals and is associated with obesity. It’s also the product of genetic and environmental factors. In its early stages type 2 is characterized by resistance towards insulin and eventually beta-cell loss due to exposure to high glucose levels. Treatments for this type vary depending on age, the progression of the disease, and other complications. Compared to type 1, type 2 diabetes can be prevented early on with a controlled diet and exercise.
 
-4- Gestational diabetes is a temporary resistance towards insulin that disappears after delivery but it can reoccur later in life as type 2 diabetes.
+4. Gestational diabetes is a temporary resistance towards insulin that disappears after delivery but it can reoccur later in life as type 2 diabetes.
 
 ### 3.8.5.2
 
 #### Type 1
 
-1- Type 1 diabetes is characterized by the **destruction of beta cells** due to **autoimmune** diseases. One of the major causes for it is **viral infections**, prolonged and chronic viral infections as well as molecules that **mimic** them ( due to structural resemblance between viral proteins and our own ) can trigger a strong immune response which leads to immune cells attacking the viral particles and beta cells with them as well as any of our own proteins that resemble viral proteins enough to stimulate an immune response. But, viral infections alone can’t cause type 1 diabetes, rather, **genetic factors** play a major role in its onset.
+1. Type 1 diabetes is characterized by the **destruction of beta cells** due to **autoimmune** diseases. One of the major causes for it is **viral infections**, prolonged and chronic viral infections as well as molecules that **mimic** them ( due to structural resemblance between viral proteins and our own ) can trigger a strong immune response which leads to immune cells attacking the viral particles and beta cells with them as well as any of our own proteins that resemble viral proteins enough to stimulate an immune response. But, viral infections alone can’t cause type 1 diabetes, rather, **genetic factors** play a major role in its onset.
 
-2- Patients at first can’t use any glucose in their cells for energy production which leads to them being underweight and undernourished, later on, muscles will be broken down and their amino acids used in gluconeogenesis and fatty acids will be used to produced ketone bodies for the brain which leads to ketoacidosis due to a decrease in blood pH. This is why type 1 is known as **insulin-dependent** diabetes.
+2. Patients at first can’t use any glucose in their cells for energy production which leads to them being underweight and undernourished, later on, muscles will be broken down and their amino acids used in gluconeogenesis and fatty acids will be used to produced ketone bodies for the brain which leads to ketoacidosis due to a decrease in blood pH. This is why type 1 is known as **insulin-dependent** diabetes.
 
-3- Scientists have been able to identify over 50 genes that when mutated can lead to this disease, but the onset of the disease in genetically similar individuals and even its inheritance rate in identical twins differ which points a finger at the importance of **environmental factors** as **triggers** in these genetically predisposed individuals.
+3. Scientists have been able to identify over 50 genes that when mutated can lead to this disease, but the onset of the disease in genetically similar individuals and even its inheritance rate in identical twins differ which points a finger at the importance of **environmental factors** as **triggers** in these genetically predisposed individuals.
 
-4- **Enterovirus** infections seem to often be the trigger of this disease in predisposed individuals. The enterovirus **Coxsackievirus**, for example, is present in almost all humans and usually causes mild, asymptomatic infections but in some cases, it triggers a strong immune response directed against it as well as infected tissues, and multiple subtypes of this virus infect beta cells. During an acute infection, the viral **double-stranded RNA genome** is detected by cytoplasmic receptors that are part of the **innate immune** **detection**. Then, **transcription factors** coding for **interferons** and **chemokines** will be expressed, and **interferons (INF) alpha** and **beta** will be secreted by the infected cell and bind to receptors that exist on the surface of the cell itself as well as neighboring ones. This triggers the activation of intracellular proteins that are bound to these receptors. The consequences of this are the **activation** of more of the **transcription factor** from earlier, and the activation of **interferon-stimulated genes** coding for **antiviral proteins**. **Pro-apoptotic factors** are also activated which leads to apoptosis of the infected cells. The release of chemokines and interferons also stimulates the infiltration of pancreatic cells by **macrophages** and **T-cells** which will cause a local inflammation called **insulitis**. The infiltrating cells then release **interferon-gamma**, **TNF**, and **interleukin-1-beta** all of which are cytokines that contribute to the antiviral and apoptotic activities of the infected cells.
+4. **Enterovirus** infections seem to often be the trigger of this disease in predisposed individuals. The enterovirus **Coxsackievirus**, for example, is present in almost all humans and usually causes mild, asymptomatic infections but in some cases, it triggers a strong immune response directed against it as well as infected tissues, and multiple subtypes of this virus infect beta cells. During an acute infection, the viral **double-stranded RNA genome** is detected by cytoplasmic receptors that are part of the **innate immune** **detection**. Then, **transcription factors** coding for **interferons** and **chemokines** will be expressed, and **interferons (INF) alpha** and **beta** will be secreted by the infected cell and bind to receptors that exist on the surface of the cell itself as well as neighboring ones. This triggers the activation of intracellular proteins that are bound to these receptors. The consequences of this are the **activation** of more of the **transcription factor** from earlier, and the activation of **interferon-stimulated genes** coding for **antiviral proteins**. **Pro-apoptotic factors** are also activated which leads to apoptosis of the infected cells. The release of chemokines and interferons also stimulates the infiltration of pancreatic cells by **macrophages** and **T-cells** which will cause a local inflammation called **insulitis**. The infiltrating cells then release **interferon-gamma**, **TNF**, and **interleukin-1-beta** all of which are cytokines that contribute to the antiviral and apoptotic activities of the infected cells.
 
 The inflammation reaction is also controlled by negative regulators, for example, a protein **PTPN2** that inactivates the antiviral reaction and apoptosis.
 
@@ -1658,15 +1789,15 @@ The inflammation reaction is also controlled by negative regulators, for example
 
 Pancreatic beta cells have limited regenerative capabilities which makes them vulnerable and their loss during acute infections is not well compensated. Alpha cells on the other hand can mount an effective antiviral response that clears the infection without apoptosis and are not under as much risk as beta cells. However, the loss of beta cells from viral infections is still moderate and not enough to explain the onset of type 1 diabetes. Here, we need to trace back to genetically susceptible individuals. These patients are the ones who develop type 1 diabetes as a result of viral infection because the mechanism regulating the immune response doesn’t work which leads to chronic infections, a sustained immune response, and ultimately more beta cell losses. These patients also exhibit **epitope spreading** where **antigens** from destroyed beta cells end up being presented to **immune cells** in **lymph nodes** and then these stimulated cells end up mounting an attack against the beta cells themselves, an autoimmune response.
 
-5- Two of the genes that are associated with type 1 diabetes are **TYK2** and **PTPN2** which have opposite effects. TYK2 increases antiviral and apoptotic responses and mutations affecting it increases the protection against type 1 diabetes, but on the contrary, mutations can also lead to the very fast onset of the disease after infection. Also according to the **hygiene hypothesis** contrary to popular beliefs, hyper sanitary conditions don’t lower the risk of getting the disease by removing the possibility of viral infection because these conditions increase the incidence of **allergic reaction** and the likelihood of developing autoimmune diseases because they limit the exposure to microbes during childhood and therefore the maturation of children’s immune systems is affected. A less mature immune system increases the likelihood of developing an autoimmune response to viral infections in pancreatic beta cells.
+5. Two of the genes that are associated with type 1 diabetes are **TYK2** and **PTPN2** which have opposite effects. TYK2 increases antiviral and apoptotic responses and mutations affecting it increases the protection against type 1 diabetes, but on the contrary, mutations can also lead to the very fast onset of the disease after infection. Also according to the **hygiene hypothesis** contrary to popular beliefs, hyper sanitary conditions don’t lower the risk of getting the disease by removing the possibility of viral infection because these conditions increase the incidence of **allergic reaction** and the likelihood of developing autoimmune diseases because they limit the exposure to microbes during childhood and therefore the maturation of children’s immune systems is affected. A less mature immune system increases the likelihood of developing an autoimmune response to viral infections in pancreatic beta cells.
 
-6- When a genetically predisposed individual is exposed to a viral infection early in life, pancreatic beta cells loss is triggered during the acute phase of the disease and is controlled by antiviral and antiapoptotic responses that maintain cell loss and insulin concentration decrease moderate. The progression of the disease will be affected by the genetic background of this individual, however, and a sustained low-grade infection will be developed that leads to chronic inflammation and the development of an autoimmune response and insulin production will decrease slowly. After many years, the level of insulin production will be very small and fall below a clinical threshold, only then will the patient display diabetes symptoms and will suffer from health complications.
+6. When a genetically predisposed individual is exposed to a viral infection early in life, pancreatic beta cells loss is triggered during the acute phase of the disease and is controlled by antiviral and antiapoptotic responses that maintain cell loss and insulin concentration decrease moderate. The progression of the disease will be affected by the genetic background of this individual, however, and a sustained low-grade infection will be developed that leads to chronic inflammation and the development of an autoimmune response and insulin production will decrease slowly. After many years, the level of insulin production will be very small and fall below a clinical threshold, only then will the patient display diabetes symptoms and will suffer from health complications.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20305.png>)
 
 ### 3.8.5.3
 
-1- Insulin promotes glucose uptake in adipose tissue and its conversion to fat as well as its uptake by muscles where it will be stored as glycogen and also, of course, the liver. The glucose transporter **glut-4** (adipose, and skeletal muscle transporter) is embedded in intramembrane vesicles when insulin molecules bind to their receptors, a signaling cascade is triggered that leads to the fusion of those intracellular vesicles and a big increase in the number of glucose transporters at the cell surface. When insulin concentration decreases, these transporters are internalized once again and recycled in intracellular vesicles.
+1. Insulin promotes glucose uptake in adipose tissue and its conversion to fat as well as its uptake by muscles where it will be stored as glycogen and also, of course, the liver. The glucose transporter **glut-4** (adipose, and skeletal muscle transporter) is embedded in intramembrane vesicles when insulin molecules bind to their receptors, a signaling cascade is triggered that leads to the fusion of those intracellular vesicles and a big increase in the number of glucose transporters at the cell surface. When insulin concentration decreases, these transporters are internalized once again and recycled in intracellular vesicles.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20306.png>)
 
@@ -1676,31 +1807,31 @@ One of the consequences of activating PBK is the fusion of the intracellular ves
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20307.png>)
 
-2- The symptoms of T1D are numerous but the most obvious one is **hyperglycemia** which is a sustained blood glucose level of 100-126 mg/dl in fasting adults. At this level, excess glucose will be excreted in the urine, which is another side effect known as **glycosuria** and that’s usually the first indicator of hyperglycemia and with it diabetes. Hyperglycemia increases the osmotic pressure of the blood, and to compensate, water is drawn from cells, and when the blood paths through the kidneys glucose then exert an osmotic force in kidneys. Water then follows the glucose that the kidneys excrete leading to an increase in urine output called **polyuria**. The loss of so much water leads to dehydration which then leads to excessive thirst or **polydipsia.** Both hyperglycemia and cell dehydration increase cell stress and tissue damage, such damage in beta cells, for example, oxidative damage caused by hyperglycemia, further decreases insulin production. These patients also can’t use glucose in the absence of insulin causing a state of metabolic starvation keeping those patients always hungry in what’s known as **polyphagia**. The liver then responds to low glucose levels in tissues by upregulating gluconeogenesis further contributing to hyperglycemia. Even fats will be mobilized to provide energy thus lipolysis will be activated causing adipose tissue wasting as well as an increase in circulating fatty acids. Ketone bodies will also be produced by the liver to supply the brain with fuel. The accumulation of these bodies increases the concentration of hydronium ions and decreases the pH of the body below physiological levels and can lead to fatal **ketoacidosis**. The liver handles the excess fatty acids circulating in the blood by converting them back to TAG molecules that are packaged into **very-low-density lipoproteins (VLDL)**, but, the lipoprotein lipase that is supposed to degrade these molecules and extract the fatty acids that adipose tissue can store, is no longer being synthesized because its synthesis was reliant on the presence of insulin that stimulates amino acid uptake. The abnormally high concentration of VLDL then leads to a symptom called **hypertriacylglycerolemia** or **dyslipidemia**. The abnormally high concentration of glucose will lead to **non-enzymatic glycosylation** or **glycation** of proteins where glucose molecules will form covalent bonds with random proteins altering their function leading to complications like **retinopathy** and **vascular stiffening**. Even hemoglobin gets glycated and in fact, a glycated hemoglobin level that’s above 6.5 mg/dl is a confirmation of type 1 diabetes as the normal level of glycated hemoglobin is only 5.7 mg/dl.
+2. The symptoms of T1D are numerous but the most obvious one is **hyperglycemia** which is a sustained blood glucose level of 100-126 mg/dl in fasting adults. At this level, excess glucose will be excreted in the urine, which is another side effect known as **glycosuria** and that’s usually the first indicator of hyperglycemia and with it diabetes. Hyperglycemia increases the osmotic pressure of the blood, and to compensate, water is drawn from cells, and when the blood paths through the kidneys glucose then exert an osmotic force in kidneys. Water then follows the glucose that the kidneys excrete leading to an increase in urine output called **polyuria**. The loss of so much water leads to dehydration which then leads to excessive thirst or **polydipsia.** Both hyperglycemia and cell dehydration increase cell stress and tissue damage, such damage in beta cells, for example, oxidative damage caused by hyperglycemia, further decreases insulin production. These patients also can’t use glucose in the absence of insulin causing a state of metabolic starvation keeping those patients always hungry in what’s known as **polyphagia**. The liver then responds to low glucose levels in tissues by upregulating gluconeogenesis further contributing to hyperglycemia. Even fats will be mobilized to provide energy thus lipolysis will be activated causing adipose tissue wasting as well as an increase in circulating fatty acids. Ketone bodies will also be produced by the liver to supply the brain with fuel. The accumulation of these bodies increases the concentration of hydronium ions and decreases the pH of the body below physiological levels and can lead to fatal **ketoacidosis**. The liver handles the excess fatty acids circulating in the blood by converting them back to TAG molecules that are packaged into **very-low-density lipoproteins (VLDL)**, but, the lipoprotein lipase that is supposed to degrade these molecules and extract the fatty acids that adipose tissue can store, is no longer being synthesized because its synthesis was reliant on the presence of insulin that stimulates amino acid uptake. The abnormally high concentration of VLDL then leads to a symptom called **hypertriacylglycerolemia** or **dyslipidemia**. The abnormally high concentration of glucose will lead to **non-enzymatic glycosylation** or **glycation** of proteins where glucose molecules will form covalent bonds with random proteins altering their function leading to complications like **retinopathy** and **vascular stiffening**. Even hemoglobin gets glycated and in fact, a glycated hemoglobin level that’s above 6.5 mg/dl is a confirmation of type 1 diabetes as the normal level of glycated hemoglobin is only 5.7 mg/dl.
 
 ### 3.8.5.4
 
-1- There is no known cure for type 1 diabetes but instead some life long treatments. One of those treatments is an **insulin injection** in the **fat layer just beneath the skin**, **the abdomen** for faster absorption, the **back of the thighs**, or the **back of the arms** in a part rich in adipose tissue. Injection directly in the muscles, however, should be avoided to prevent a very quick absorption and need for frequent injections. There are two injection regimens currently in use, the **standard** regiment, and the **intensive** regiment. The standard involves only one or two injections per day which sustain blood glucose at 225 mg/dl and glycated hemoglobin remains at an average of 8%-9%. The blood glucose level of a healthy individual is 100 mg/dl and their average glycated hemoglobin is 6%, so the standard regiment doesn’t normalize blood glucose levels but instead gives the patient control over them without risking **hypoglycemia**. The intensive regiment is meant to get blood glucose levels as close to normal as possible, this requires constant monitoring over blood glucose levels, and the patient might have to take three or more injections daily but it decreases the risk of long-term microvascular damage. This regiment is harder to control and most of its complications arise from insulin overdoses. Hypoglycemia episodes are very dangerous especially for young children under eight years old because it affects normal brain development. And it’s also dangerous for elderly people because it increases the risk of strokes and heart attacks.
+1. There is no known cure for type 1 diabetes but instead some life long treatments. One of those treatments is an **insulin injection** in the **fat layer just beneath the skin**, **the abdomen** for faster absorption, the **back of the thighs**, or the **back of the arms** in a part rich in adipose tissue. Injection directly in the muscles, however, should be avoided to prevent a very quick absorption and need for frequent injections. There are two injection regimens currently in use, the **standard** regiment, and the **intensive** regiment. The standard involves only one or two injections per day which sustain blood glucose at 225 mg/dl and glycated hemoglobin remains at an average of 8%-9%. The blood glucose level of a healthy individual is 100 mg/dl and their average glycated hemoglobin is 6%, so the standard regiment doesn’t normalize blood glucose levels but instead gives the patient control over them without risking **hypoglycemia**. The intensive regiment is meant to get blood glucose levels as close to normal as possible, this requires constant monitoring over blood glucose levels, and the patient might have to take three or more injections daily but it decreases the risk of long-term microvascular damage. This regiment is harder to control and most of its complications arise from insulin overdoses. Hypoglycemia episodes are very dangerous especially for young children under eight years old because it affects normal brain development. And it’s also dangerous for elderly people because it increases the risk of strokes and heart attacks.
 
 ### 3.8.6
 
 #### Type 2
 
-1- While type 1 diabetes was characterized by a loss in beta cells, type 2 diabetes is a loss of the cell’s ability to respond to insulin and an eventual loss of beta cells and reduced secretion of insulin. Obesity is a major risk factor for type 2 diabetes, it leads to ectopic fat deposition which leads to lipotoxicity, inflammations, and ultimately insulin resistance. Lipotoxicity and inflammations can also lead to a decline in insulin secretion, and together, insulin resistance and deficiency lead to type 2 diabetes.
+1. While type 1 diabetes was characterized by a loss in beta cells, type 2 diabetes is a loss of the cell’s ability to respond to insulin and an eventual loss of beta cells and reduced secretion of insulin. Obesity is a major risk factor for type 2 diabetes, it leads to ectopic fat deposition which leads to lipotoxicity, inflammations, and ultimately insulin resistance. Lipotoxicity and inflammations can also lead to a decline in insulin secretion, and together, insulin resistance and deficiency lead to type 2 diabetes.
 
-2- When insulin binds to its membrane-bound receptor it initiates a step-based signaling cascade. Step 1, the insulin receptor autophosphorylates **tyrosine** residues and then **IRS-1** bind to the activated receptor via one of the activated tyrosine residues. IRS-1 is then activated by the activated tyrosines and activates the kinase **phosphatidylinositol-3-kinase (PI3K)**. Activated PI3K then converts a signaling lipid called **phosphatidylinositol-4,5-bisphosphate (PIP2)** into **phosphatidylinositol-3,4,5-triphosphate (PIP3)**. PIP3 then activates the kinase **PDK-1** that will then activate another kinase **Akt**. Finally, activated Akt facilitates the transport of glut-4 to the cell surface, it also indirectly stimulates glycogen synthesis by inactivating a repressor of glycogen synthase.
+2. When insulin binds to its membrane-bound receptor it initiates a step-based signaling cascade. Step 1, the insulin receptor autophosphorylates **tyrosine** residues and then **IRS-1** bind to the activated receptor via one of the activated tyrosine residues. IRS-1 is then activated by the activated tyrosines and activates the kinase **phosphatidylinositol-3-kinase (PI3K)**. Activated PI3K then converts a signaling lipid called **phosphatidylinositol-4,5-bisphosphate (PIP2)** into **phosphatidylinositol-3,4,5-triphosphate (PIP3)**. PIP3 then activates the kinase **PDK-1** that will then activate another kinase **Akt**. Finally, activated Akt facilitates the transport of glut-4 to the cell surface, it also indirectly stimulates glycogen synthesis by inactivating a repressor of glycogen synthase.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20308.png>)
 
-3- Inactivation of the signaling cascade starts with a **phosphatase** that dephosphorylates and inactivates the receptor. IRS-1 is also deactivated by an **S/T kinase (serine/tyrosine kinase)** that phosphorylates IRS-1 hence deactivating it as well as PI3K. A regulatory protein called **SOCS** then binds to the receptor and IRS-1 facilitating their proteolytic degradation by the **proteasome complex**. Lastly, another phosphatase dephosphorylates PIP3 back into PIP2 returning PDK1 and Akt to their inactive states due to the decrease in the concentration of PIP3.
+3. Inactivation of the signaling cascade starts with a **phosphatase** that dephosphorylates and inactivates the receptor. IRS-1 is also deactivated by an **S/T kinase (serine/tyrosine kinase)** that phosphorylates IRS-1 hence deactivating it as well as PI3K. A regulatory protein called **SOCS** then binds to the receptor and IRS-1 facilitating their proteolytic degradation by the **proteasome complex**. Lastly, another phosphatase dephosphorylates PIP3 back into PIP2 returning PDK1 and Akt to their inactive states due to the decrease in the concentration of PIP3.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20309.png>)
 
-4- Excess TAG concentration in adipocytes causes them to get larger, larger adipocytes lead to chronic inflammation. Their production of **anti-inflammatory** molecules decreases and their production of **pro-inflammatory** molecules increases. Enlarged adipocytes secrete **MCP-1** which is a chemokine that attracts macrophages. Macrophages that infiltrate the adipose tissue then secrete **TNF-alpha**. This leads to an increase in lipolysis and fatty acid export to muscles. Excess fatty acids cause ectopic fat deposition and interfere with the targeting of glucose transporters at the surface of muscle cells leading to insulin resistance. The mechanism that causes beta cells dysfunction isn’t fully known yet but it’s hypothesized that it has to do with insulin’s overproduction. The amount of insulin secreted is linked to blood glucose levels, hyperglycemia due to insulin resistance means that insulin will be produced at a sustained high amount. Proinsulin is heavily processed inside the endoplasmic reticulum and Golgi. Disulfide bonds need to be formed and the C-peptide connecting the A and B peptides must be cleaved. This complex process fails during insulin overproduction which leads to misfolded and inactive insulin. Accumulation of misfolded insulin in the Golgi system leads to cell death. Individuals with insulin resistance don’t necessarily develop type 2 diabetes, both insulin resistance and deficiency are needed for type 2 to develop but insulin resistance can be compensated by just producing more insulin and it would only develop in case insulin production decreases and the resistance is no longer compensated.
+4. Excess TAG concentration in adipocytes causes them to get larger, larger adipocytes lead to chronic inflammation. Their production of **anti-inflammatory** molecules decreases and their production of **pro-inflammatory** molecules increases. Enlarged adipocytes secrete **MCP-1** which is a chemokine that attracts macrophages. Macrophages that infiltrate the adipose tissue then secrete **TNF-alpha**. This leads to an increase in lipolysis and fatty acid export to muscles. Excess fatty acids cause ectopic fat deposition and interfere with the targeting of glucose transporters at the surface of muscle cells leading to insulin resistance. The mechanism that causes beta cells dysfunction isn’t fully known yet but it’s hypothesized that it has to do with insulin’s overproduction. The amount of insulin secreted is linked to blood glucose levels, hyperglycemia due to insulin resistance means that insulin will be produced at a sustained high amount. Proinsulin is heavily processed inside the endoplasmic reticulum and Golgi. Disulfide bonds need to be formed and the C-peptide connecting the A and B peptides must be cleaved. This complex process fails during insulin overproduction which leads to misfolded and inactive insulin. Accumulation of misfolded insulin in the Golgi system leads to cell death. Individuals with insulin resistance don’t necessarily develop type 2 diabetes, both insulin resistance and deficiency are needed for type 2 to develop but insulin resistance can be compensated by just producing more insulin and it would only develop in case insulin production decreases and the resistance is no longer compensated.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20310.png>)
 
-5- Unlike type 1 diabetes type 2 is preventable and treatable. Aerobic exercises, reduced caloric intake, and a healthy diet can all reverse the effects of the disease. A change in lifestyle in later stages coupled with medications meant to reduce blood glucose levels by reducing the liver’s glucose production and stimulating insulin production as well as increasing cell sensitivity towards insulin all help. **Sulfonylureas** are small molecules that stimulate insulin secretion. Beta cells can sense when blood glucose is high and they activate a signaling pathway that increases intracellular ATP concentration. The increase in ATP triggers the closing of **potassium channels** located at the cell membrane, the loss of transported potassium outside of the cell leads to a membrane depolarization which leads to the opening of membrane-bound calcium channels. The intracellular increase in calcium concentration triggers the release of insulin by exocytosis. Sulfonylureas can close the potassium channels themselves without the need for glucose but at the risk of hypoglycemia.
+5. Unlike type 1 diabetes type 2 is preventable and treatable. Aerobic exercises, reduced caloric intake, and a healthy diet can all reverse the effects of the disease. A change in lifestyle in later stages coupled with medications meant to reduce blood glucose levels by reducing the liver’s glucose production and stimulating insulin production as well as increasing cell sensitivity towards insulin all help. **Sulfonylureas** are small molecules that stimulate insulin secretion. Beta cells can sense when blood glucose is high and they activate a signaling pathway that increases intracellular ATP concentration. The increase in ATP triggers the closing of **potassium channels** located at the cell membrane, the loss of transported potassium outside of the cell leads to a membrane depolarization which leads to the opening of membrane-bound calcium channels. The intracellular increase in calcium concentration triggers the release of insulin by exocytosis. Sulfonylureas can close the potassium channels themselves without the need for glucose but at the risk of hypoglycemia.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20311.png>)
 
@@ -1714,11 +1845,11 @@ Skipped
 
 ### 4.1.2
 
-1- Glucose-6-phosphate, pyruvate, and acetyl coenzyme A are three metabolic hubs that are shared intermediates for different pathways. These hubs connect different pathways and remove the need to have a direct route for a substrate into different pathways. G-6-P comes from glucose and other dietary carbohydrates, glycogen, amino acids, pyruvate, and lactate. All the non-carbohydrate intermediates indirectly lead to the synthesis of G-6-P through **gluconeogenesis** but first, they have to be converted into **pyruvate**, this gives us the first link between the pyruvate hub and G-6-P hub. G-6-P itself is a hub because it leads to multiple other pathways like the formation of glycogen, pyruvate through glycolysis, and the pentose phosphate pathway where nucleic acids like NADP are synthesized. Pyruvate comes from glucose, alanine, and lactate and it can also be converted back to these molecules, the interconversion between pyruvate and alanine is also a key link between carbohydrate and amino acid metabolism. Ac-CoA comes mainly from pyruvate and fatty acids but also from amino acids and ketone bodies. Ac-CoA products are fatty acids, ketone bodies, and cholesterol, and of course, it also feeds the TCA cycle.
+1. Glucose-6-phosphate, pyruvate, and acetyl coenzyme A are three metabolic hubs that are shared intermediates for different pathways. These hubs connect different pathways and remove the need to have a direct route for a substrate into different pathways. G-6-P comes from glucose and other dietary carbohydrates, glycogen, amino acids, pyruvate, and lactate. All the non-carbohydrate intermediates indirectly lead to the synthesis of G-6-P through **gluconeogenesis** but first, they have to be converted into **pyruvate**, this gives us the first link between the pyruvate hub and G-6-P hub. G-6-P itself is a hub because it leads to multiple other pathways like the formation of glycogen, pyruvate through glycolysis, and the pentose phosphate pathway where nucleic acids like NADP are synthesized. Pyruvate comes from glucose, alanine, and lactate and it can also be converted back to these molecules, the interconversion between pyruvate and alanine is also a key link between carbohydrate and amino acid metabolism. Ac-CoA comes mainly from pyruvate and fatty acids but also from amino acids and ketone bodies. Ac-CoA products are fatty acids, ketone bodies, and cholesterol, and of course, it also feeds the TCA cycle.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20312.png>)
 
-2- The complete oxidation of glucose gives us **32 ATP**, it’s assumed that one NADH gives 2.5 ATPs and one FADH2 gives 1.5 ATPs.
+2. The complete oxidation of glucose gives us **32 ATP**, it’s assumed that one NADH gives 2.5 ATPs and one FADH2 gives 1.5 ATPs.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20313.png>)
 
@@ -1734,11 +1865,11 @@ What makes fatty acids better fuel molecules is their ability to be stored in an
 
 ### 4.1.3
 
-1- Metabolism is adjusted in different tissues to suit their different needs. In muscles, where there is a lot of contraction and movement that consumes a lot of ATP, metabolism is adjusted for the fast production of ATP. In RBCs metabolism is minimal to optimize their ability to capture and deliver oxygen while decreasing the risk of oxidative damages. Brain cells pump ions to produce electrical signals and control the activity of many tissues both directly and indirectly through hormones and action potentials. Different tissues with different specialization have almost all the same pathways and enzymes but they use them differently to achieve their specific needs and carry out their roles and functions.
+1. Metabolism is adjusted in different tissues to suit their different needs. In muscles, where there is a lot of contraction and movement that consumes a lot of ATP, metabolism is adjusted for the fast production of ATP. In RBCs metabolism is minimal to optimize their ability to capture and deliver oxygen while decreasing the risk of oxidative damages. Brain cells pump ions to produce electrical signals and control the activity of many tissues both directly and indirectly through hormones and action potentials. Different tissues with different specialization have almost all the same pathways and enzymes but they use them differently to achieve their specific needs and carry out their roles and functions.
 
-2- The liver is the first stop for blood that drains the capillaries of the digestive tract, this gives it two very important functions **1)** the processing of toxins that are absorbed in our body, and **2)** the liver also processes the nutrients derived from the food that we ingest which include amino acids, fatty acids, monosaccharides, nucleotides, etc… the liver then provides other organs with the right mix of nutrients. It also controls homeostasis and maintains blood glucose at around 4 millimolar which is important for the brain and RBCs since they rely exclusively on glucose for energy. The liver is very good at taking up glucose because of its specific glucose transporter **glut-2** which is so efficient that liver glucose levels are usually close to blood glucose levels and are kept inside thanks to glucokinase which phosphorylates them into G-6-P. Glucokinase has unique kinetic properties, it **doesn’t get inhibited by G-6-P** for example while hexokinases will be. It can also continue to catalyze the conversion of glucose to G-6-P even when the intracellular concentration of G-6-P is high and allows the liver to store the excess glucose as glycogen until other tissues need glucose where glycogen will be broken down into G-1-P then converted to G-6-P by a **phosphoglucomutase**, the stored glycogen is also depleted at night while you’re asleep. Glucokinase also has a low affinity for glucose compared to hexokinase and is not very efficient at phosphorylating glucose when blood glucose is low allowing for the glucose stored in the liver to be chipped out to the bloodstream. Fatty acids in the liver are the main fuel molecule used for ATP production but it can also be used to synthesize cholesterol, bile salts, and steroids. Excess Ac-CoA is used to make ketone bodies. Fatty acids will also be used to make TAG molecules that will be stored in lipoproteins and then delivered to other tissues or stored in adipocytes and free fatty acids will bind to albumin and then get transported to skeletal and cardiac muscles as fuel. Excess fatty acids in the liver will be stored in lipid droplets and cause **fatty liver** disease which is also common with type 2 diabetes, obesity, and other metabolic disorders. The protein synthesis rate in the liver is high and amino acids in the liver will be used to make liver proteins as well as serum proteins and some amino acids will be exported to other tissues to contribute to their protein synthesis needs. Amino acids are needed for many biosynthetic pathways like the production of **nucleotides**, **hormones**, and **porphyrins**, and their degradation produces **urea** as well as other molecules that are used to produce ATP like **pyruvate** and **Ac-CoA**.
+2. The liver is the first stop for blood that drains the capillaries of the digestive tract, this gives it two very important functions **1)** the processing of toxins that are absorbed in our body, and **2)** the liver also processes the nutrients derived from the food that we ingest which include amino acids, fatty acids, monosaccharides, nucleotides, etc… the liver then provides other organs with the right mix of nutrients. It also controls homeostasis and maintains blood glucose at around 4 millimolar which is important for the brain and RBCs since they rely exclusively on glucose for energy. The liver is very good at taking up glucose because of its specific glucose transporter **glut-2** which is so efficient that liver glucose levels are usually close to blood glucose levels and are kept inside thanks to glucokinase which phosphorylates them into G-6-P. Glucokinase has unique kinetic properties, it **doesn’t get inhibited by G-6-P** for example while hexokinases will be. It can also continue to catalyze the conversion of glucose to G-6-P even when the intracellular concentration of G-6-P is high and allows the liver to store the excess glucose as glycogen until other tissues need glucose where glycogen will be broken down into G-1-P then converted to G-6-P by a **phosphoglucomutase**, the stored glycogen is also depleted at night while you’re asleep. Glucokinase also has a low affinity for glucose compared to hexokinase and is not very efficient at phosphorylating glucose when blood glucose is low allowing for the glucose stored in the liver to be chipped out to the bloodstream. Fatty acids in the liver are the main fuel molecule used for ATP production but it can also be used to synthesize cholesterol, bile salts, and steroids. Excess Ac-CoA is used to make ketone bodies. Fatty acids will also be used to make TAG molecules that will be stored in lipoproteins and then delivered to other tissues or stored in adipocytes and free fatty acids will bind to albumin and then get transported to skeletal and cardiac muscles as fuel. Excess fatty acids in the liver will be stored in lipid droplets and cause **fatty liver** disease which is also common with type 2 diabetes, obesity, and other metabolic disorders. The protein synthesis rate in the liver is high and amino acids in the liver will be used to make liver proteins as well as serum proteins and some amino acids will be exported to other tissues to contribute to their protein synthesis needs. Amino acids are needed for many biosynthetic pathways like the production of **nucleotides**, **hormones**, and **porphyrins**, and their degradation produces **urea** as well as other molecules that are used to produce ATP like **pyruvate** and **Ac-CoA**.
 
-3- In a fasting individual liver and muscle glycogen will be the first two fuel sources to be depleted. 24 hours later there will be a drop in blood glucose level and **glucagon** will be secreted to initiate **gluconeogenesis** to produce glucose to maintain blood glucose levels while **lipolysis** will also be activated and fatty acids will be the main fuel source of the liver and muscles. **Amino acids** are then also deaminated which will result in urea production that will be eliminated in the kidneys and also TCA intermediates will be produced to feed the gluconeogenesis pathway. This will lead to **oxaloacetate** being depleted and the TCA cycle will **slow down**. Imported fatty acids will be degraded in the liver and converted into **ketone bodies** to act as partial substitute fuel molecules for the brain. If fatty acids are depleted then **essential proteins** will start getting broken down for their amino acids which leads to skeletal and cardiac **muscle wasting**, loss of **kidney** and **liver** functions, and in the end, death.
+3. In a fasting individual liver and muscle glycogen will be the first two fuel sources to be depleted. 24 hours later there will be a drop in blood glucose level and **glucagon** will be secreted to initiate **gluconeogenesis** to produce glucose to maintain blood glucose levels while **lipolysis** will also be activated and fatty acids will be the main fuel source of the liver and muscles. **Amino acids** are then also deaminated which will result in urea production that will be eliminated in the kidneys and also TCA intermediates will be produced to feed the gluconeogenesis pathway. This will lead to **oxaloacetate** being depleted and the TCA cycle will **slow down**. Imported fatty acids will be degraded in the liver and converted into **ketone bodies** to act as partial substitute fuel molecules for the brain. If fatty acids are depleted then **essential proteins** will start getting broken down for their amino acids which leads to skeletal and cardiac **muscle wasting**, loss of **kidney** and **liver** functions, and in the end, death.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20316.png>)
 
@@ -1748,11 +1879,11 @@ What makes fatty acids better fuel molecules is their ability to be stored in an
 
 ### 4.2.1
 
-1- Muscles consume 50% of a person’s oxygen intake at rest and 90% during activity. Mitochondria in muscle cells are very abundant and can take almost half of the volume of the cell. At rest, muscles rely mostly on fatty acids from adipose tissue. These fatty acids will be transported inside the myocyte’s mitochondria where it will be beta-oxidized. These fatty acids will produce a lot of reduced electron carriers that will then be used in oxidative phosphorylation which explains the need for all the oxygen. At rest and during moderate activity the muscle has access to an ample supply of oxygen and will produce most of its ATP by aerobic respiration. During a burst of activity, however, there will be a high demand for ATP without enough oxygen to supply it via respiration, blood flow will then be increased to deliver more nutrients and oxygen but that increase requires several minutes and will be too slow to make up for the initial demand for ATP. Here, the residual ATP within the cells will be used, and also a new molecule will come into play **phosphocreatine**. This molecule regenerates ATP by phosphorylating ADP molecules. Phosphocreatine is present in a small amount and can only help sustain muscles for a short time. The muscle will also use its own pool of **glycogen** to sustain itself, also keep in mind that glycogen breakdown produces more ATP than glucose breakdown because the step where glucose is usually phosphorylated into G-6-P during the investment phase will be skipped here and glycolysis will produce three instead of two ATP. But until **vasodilation (the widening of blood vessels)** brings in more oxygen myocytes will be working under anaerobic conditions and will be relying on fermentation.
+1. Muscles consume 50% of a person’s oxygen intake at rest and 90% during activity. Mitochondria in muscle cells are very abundant and can take almost half of the volume of the cell. At rest, muscles rely mostly on fatty acids from adipose tissue. These fatty acids will be transported inside the myocyte’s mitochondria where it will be beta-oxidized. These fatty acids will produce a lot of reduced electron carriers that will then be used in oxidative phosphorylation which explains the need for all the oxygen. At rest and during moderate activity the muscle has access to an ample supply of oxygen and will produce most of its ATP by aerobic respiration. During a burst of activity, however, there will be a high demand for ATP without enough oxygen to supply it via respiration, blood flow will then be increased to deliver more nutrients and oxygen but that increase requires several minutes and will be too slow to make up for the initial demand for ATP. Here, the residual ATP within the cells will be used, and also a new molecule will come into play **phosphocreatine**. This molecule regenerates ATP by phosphorylating ADP molecules. Phosphocreatine is present in a small amount and can only help sustain muscles for a short time. The muscle will also use its own pool of **glycogen** to sustain itself, also keep in mind that glycogen breakdown produces more ATP than glucose breakdown because the step where glucose is usually phosphorylated into G-6-P during the investment phase will be skipped here and glycolysis will produce three instead of two ATP. But until **vasodilation (the widening of blood vessels)** brings in more oxygen myocytes will be working under anaerobic conditions and will be relying on fermentation.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20318.png>) ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20319.png>) ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20320.png>)
 
-2- Cardiac muscles can’t rely on fermentation as much as skeletal muscles do and instead they have a completely aerobic metabolism, this is because the heart is very sensitive to pH changes and can’t tolerate lactate accumulation, this is due to the fact that low pH means the heart won’t be able to maintain certain ion gradients that are essential for its contraction. The heart also primarily uses fatty acids and glucose and glycogen are only additional fuel sources for the heart when its workload increases or when blood glucose is high, the heart can even metabolize a small amount of lactate that’s delivered from skeletal muscles and RBCs.
+2. Cardiac muscles can’t rely on fermentation as much as skeletal muscles do and instead they have a completely aerobic metabolism, this is because the heart is very sensitive to pH changes and can’t tolerate lactate accumulation, this is due to the fact that low pH means the heart won’t be able to maintain certain ion gradients that are essential for its contraction. The heart also primarily uses fatty acids and glucose and glycogen are only additional fuel sources for the heart when its workload increases or when blood glucose is high, the heart can even metabolize a small amount of lactate that’s delivered from skeletal muscles and RBCs.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20321.png>).3- Most of our ATP is produced inside the mitochondria, but it’s mostly consumed outside of it which means that to regenerate ATP ADP would have to be transported back to the mitochondria. This time delay when ATP is in large demand actually doesn’t impact the cell almost at all thanks to the **phosphocreatine system** which regenerates ATP and is present in different parts of the muscle cell. Creatine can be acquired directly from food or it can be made in the liver from the amino acids **glycine** and **arginine**. Phosphocreatine is highly energetic and its hydrolysis can be coupled with ATP regeneration from ADP. **Creatine kinase** is the enzyme that catalyzes this reaction. The use of phosphocreatine doesn’t generate lactate, doesn’t require oxygen, but instead consumes protons which very beneficial for muscle cells since it helps prevents their acidification during intense activity when lactic acid starts to accumulate.
 
@@ -1762,7 +1893,7 @@ Phosphocreatine is rapidly consumed during intense activity but at rest, up to 5
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20323.png>)
 
-4- The first component of the interactosome is the **ATP synthesome**. It’s formed of three proteins starting with **ATP synthase**, the second protein is the **adenine nucleotide transporter (ANT)** which coordinates the exchange between ATP and ADP across the membrane, and the third protein is the **phosphate transporter**.
+4. The first component of the interactosome is the **ATP synthesome**. It’s formed of three proteins starting with **ATP synthase**, the second protein is the **adenine nucleotide transporter (ANT)** which coordinates the exchange between ATP and ADP across the membrane, and the third protein is the **phosphate transporter**.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20324.png>)
 
@@ -1774,21 +1905,21 @@ ATP that’s produced by ATP synthase will be transported by ANT to the intermem
 
 ### 4.2.2
 
-1- ATP and phosphocreatine can power muscles for six seconds only, after that other fuel molecules will be needed. Different fuel sources are needed for different activities based on their intensity and duration, they synthesize ATP at different rates and amount, and generally, the fastest ATP producers produce the least amount of it.
+1. ATP and phosphocreatine can power muscles for six seconds only, after that other fuel molecules will be needed. Different fuel sources are needed for different activities based on their intensity and duration, they synthesize ATP at different rates and amount, and generally, the fastest ATP producers produce the least amount of it.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20326.png>)
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20327.png>)
 
-2- A 100 meters race is an intense activity that requires a short burst of energy. The top record for it is 9.58 seconds. The muscles in such a race are fueled by muscle ATP, phosphocreatine, and glycolysis. The intracellular concentration of ATP during the race drops by 30% and that of phosphocreatine drops by 70% with a high presence of lactate causing mild acidosis.
+2. A 100 meters race is an intense activity that requires a short burst of energy. The top record for it is 9.58 seconds. The muscles in such a race are fueled by muscle ATP, phosphocreatine, and glycolysis. The intracellular concentration of ATP during the race drops by 30% and that of phosphocreatine drops by 70% with a high presence of lactate causing mild acidosis.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20328.png>)
 
-3- In a 1000 meters race if the runner keeps up the same pace he’d finish the race in 95 seconds, but what’s observed is that the top record for that race is 132 seconds. That’s because maintaining the same amount of effort for a longer period will only help accumulate even more lactate, so much so that the blood pH would drop from 7.4 to 6.8 causing severe acidosis and cell death. For longer races like the 1000 meters race, endogenous ATP sources can only fuel a portion of the race but additional energy from aerobic sources will be needed as well. This time ATP will be provided by the oxidative phosphorylation of muscle and hepatic glycogen which is slower and therefore a slower pace of the race has to be slower as well which is why the world record is 132 seconds instead of 95.
+3. In a 1000 meters race if the runner keeps up the same pace he’d finish the race in 95 seconds, but what’s observed is that the top record for that race is 132 seconds. That’s because maintaining the same amount of effort for a longer period will only help accumulate even more lactate, so much so that the blood pH would drop from 7.4 to 6.8 causing severe acidosis and cell death. For longer races like the 1000 meters race, endogenous ATP sources can only fuel a portion of the race but additional energy from aerobic sources will be needed as well. This time ATP will be provided by the oxidative phosphorylation of muscle and hepatic glycogen which is slower and therefore a slower pace of the race has to be slower as well which is why the world record is 132 seconds instead of 95.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20329.png>)
 
-4- In an even longer race like a marathon with a distance of 42 kilometers another different source of energy will be needed as well as cooperation between muscles, the liver, and adipose tissue. First, the faster sources of ATP will be mobilized and used up, this, however, doesn’t provide anywhere close to the 150 moles of ATP needed for the race. Fatty acid oxidation will have to take place, but it’s very slow and if runners depend solely on it it will take around 6 hours to finish the race. But elite runners can finish it in just over 2 hours. These runners trained to make their muscles use almost equal amounts of glycogen and fatty acids.
+4. In an even longer race like a marathon with a distance of 42 kilometers another different source of energy will be needed as well as cooperation between muscles, the liver, and adipose tissue. First, the faster sources of ATP will be mobilized and used up, this, however, doesn’t provide anywhere close to the 150 moles of ATP needed for the race. Fatty acid oxidation will have to take place, but it’s very slow and if runners depend solely on it it will take around 6 hours to finish the race. But elite runners can finish it in just over 2 hours. These runners trained to make their muscles use almost equal amounts of glycogen and fatty acids.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20330.png>)
 
@@ -1796,9 +1927,9 @@ What we gather from this is that the velocity of running decreases the longer th
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20331.png>)
 
-5- Recovery after this sort of exercise includes recycling the accumulated lactic acid and replenishing the muscle glycogen stores, both of which can be accomplished via the Cori cycle. This cooperation between the muscles and the liver shifts the burden of muscle recovery TO the liver. A very intense activity like running a race also causes muscle breakdown producing nitrogen compounds like ammonia which can be toxic. Amino acids from broken down proteins will be deaminated and their amino groups will be transferred to pyruvate to form alanine. Then alanine will be transported to the liver, deaminated again to produce pyruvate which will then either feed the citric acid cycle or get converted to glucose via gluconeogenesis. The amino groups themselves enter the **urea cycle** to get converted to urea and are then excreted with the urine.
+5. Recovery after this sort of exercise includes recycling the accumulated lactic acid and replenishing the muscle glycogen stores, both of which can be accomplished via the Cori cycle. This cooperation between the muscles and the liver shifts the burden of muscle recovery TO the liver. A very intense activity like running a race also causes muscle breakdown producing nitrogen compounds like ammonia which can be toxic. Amino acids from broken down proteins will be deaminated and their amino groups will be transferred to pyruvate to form alanine. Then alanine will be transported to the liver, deaminated again to produce pyruvate which will then either feed the citric acid cycle or get converted to glucose via gluconeogenesis. The amino groups themselves enter the **urea cycle** to get converted to urea and are then excreted with the urine.
 
-6- Different types of muscle fibers are used in different races as well. Two types of muscle fibers can be used which are either **slow-twitch** or **fast-twitch** muscles with fast-twitch have two types of its own. Slow-twitch muscles are meant for long aerobic exercises and have slow contraction speed, they are also rich in mitochondria and the oxygen carrier myoglobin and the abundance of myoglobin make these muscles appear red. They also used primarily fatty acids and have a low amount of glycogen and are resistant to fatigue. A 100 meters race will involve the type 2 muscles or fast-twitch muscles which are either **2a** or **2b** with slow-twitch being type 1 muscle fiber. Type 2b fibers are known as the fast glycolysis fibers. They contain a smaller amount of mitochondria and myoglobin and appear white. They also contain a lot of glycogen. They are easy to fatigue due to the production of lactic acid and their dependence on fermentation. Type 2a is an intermediate between type 1 and type 2b. Muscles are made out of a mixture of these fibers.
+6. Different types of muscle fibers are used in different races as well. Two types of muscle fibers can be used which are either **slow-twitch** or **fast-twitch** muscles with fast-twitch have two types of its own. Slow-twitch muscles are meant for long aerobic exercises and have slow contraction speed, they are also rich in mitochondria and the oxygen carrier myoglobin and the abundance of myoglobin make these muscles appear red. They also used primarily fatty acids and have a low amount of glycogen and are resistant to fatigue. A 100 meters race will involve the type 2 muscles or fast-twitch muscles which are either **2a** or **2b** with slow-twitch being type 1 muscle fiber. Type 2b fibers are known as the fast glycolysis fibers. They contain a smaller amount of mitochondria and myoglobin and appear white. They also contain a lot of glycogen. They are easy to fatigue due to the production of lactic acid and their dependence on fermentation. Type 2a is an intermediate between type 1 and type 2b. Muscles are made out of a mixture of these fibers.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20332.png>)
 
@@ -1806,39 +1937,39 @@ What we gather from this is that the velocity of running decreases the longer th
 
 ### 4.3.1
 
-1- The different action between Insulin and Glucagon: The liver is the key target of Insulin.
+1. The different action between Insulin and Glucagon: The liver is the key target of Insulin.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20333.png>)
 
-2- Unlike insulin and glucagon, adrenaline targets muscles primarily instead of the liver and it causes some changes to the vascular system which increases tissue oxygenation and increases the supply of nutrients to the muscles. Other changes to your metabolism also prime the fight or flight response that requires muscle contraction and a lot of ATP. Both adrenaline and glucagon activate the same pathways. Glucagon receptors are found on the liver and glucose-1-phosphate will be released from glycogen via glycogen phosphorylase to create glucose that will be released in the bloodstream, while adrenaline receptors are also found on the liver but more importantly they’re found on muscles, and this time, the released glucose will be used by the muscles themselves to create ATP.
+2. Unlike insulin and glucagon, adrenaline targets muscles primarily instead of the liver and it causes some changes to the vascular system which increases tissue oxygenation and increases the supply of nutrients to the muscles. Other changes to your metabolism also prime the fight or flight response that requires muscle contraction and a lot of ATP. Both adrenaline and glucagon activate the same pathways. Glucagon receptors are found on the liver and glucose-1-phosphate will be released from glycogen via glycogen phosphorylase to create glucose that will be released in the bloodstream, while adrenaline receptors are also found on the liver but more importantly they’re found on muscles, and this time, the released glucose will be used by the muscles themselves to create ATP.
 
 -Adrenaline and Glucagon comparison:
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20334.png>)
 
-3- The growth hormone is a hormone produced by the pituitary gland mostly throughout a person’s young life. It stimulates tissue growth before birth and through puberty with a decline in its secretion during adulthood. The growth hormone stimulates the consumption of fuel molecules and their subsequent use to build biomolecules in many cell types. Both insulin and growth hormone are anabolic hormones (building hormones). The growth hormone is responsible for the slow and steady growth of tissues like bone and muscle tissue through the gradual consumption of fatty acids, its production is sustained over years supporting the basal level of cell division and protein production.
+3. The growth hormone is a hormone produced by the pituitary gland mostly throughout a person’s young life. It stimulates tissue growth before birth and through puberty with a decline in its secretion during adulthood. The growth hormone stimulates the consumption of fuel molecules and their subsequent use to build biomolecules in many cell types. Both insulin and growth hormone are anabolic hormones (building hormones). The growth hormone is responsible for the slow and steady growth of tissues like bone and muscle tissue through the gradual consumption of fatty acids, its production is sustained over years supporting the basal level of cell division and protein production.
 
 Comparing the two anabolic hormones:
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20335.png>)
 
-4- Thyroid hormones (thyroxine) regulate both anabolic and catabolic pathways and their production is stimulated by thyroid-stimulating hormones from the pituitary gland. These hormones set our basal metabolic rate and help us control our body temperature. The thyroid hormone is released in the circadian cycle and in response to cold. Hyperthyroidism sends our metabolism into overdrive, also, the thyroid would become hypertrophic and a goiter will form at the throat. Hyperthyroidism also causes profuse sweating, muscle weakness, irregular heartbeats, and sudden weight loss. Hypothyroidism is more common with age and causes the metabolism to slow down leading to weight gain, constant tiredness, and sensitivity to cold. The effects of the thyroid hormone on other tissues are dependent on the concentration of other hormones. It promotes protein turnover in muscles, lipid turnover in adipose tissue ( turnover means the continuous breakdown and synthesis of molecules ), and glycogen breakdown and gluconeogenesis in the liver. It also acts on the sympathetic nervous system to activate the release of noradrenaline which stimulates thermogenin in brown adipose tissues. Thermogenin is a protein that uncouples the electron transport chain from ATP synthesis which results in the production of heat. The thyroid hormone also stimulates cycles known as futile cycles which involve the building and degrading of the same molecule at the same time to generate heat.
+4. Thyroid hormones (thyroxine) regulate both anabolic and catabolic pathways and their production is stimulated by thyroid-stimulating hormones from the pituitary gland. These hormones set our basal metabolic rate and help us control our body temperature. The thyroid hormone is released in the circadian cycle and in response to cold. Hyperthyroidism sends our metabolism into overdrive, also, the thyroid would become hypertrophic and a goiter will form at the throat. Hyperthyroidism also causes profuse sweating, muscle weakness, irregular heartbeats, and sudden weight loss. Hypothyroidism is more common with age and causes the metabolism to slow down leading to weight gain, constant tiredness, and sensitivity to cold. The effects of the thyroid hormone on other tissues are dependent on the concentration of other hormones. It promotes protein turnover in muscles, lipid turnover in adipose tissue ( turnover means the continuous breakdown and synthesis of molecules ), and glycogen breakdown and gluconeogenesis in the liver. It also acts on the sympathetic nervous system to activate the release of noradrenaline which stimulates thermogenin in brown adipose tissues. Thermogenin is a protein that uncouples the electron transport chain from ATP synthesis which results in the production of heat. The thyroid hormone also stimulates cycles known as futile cycles which involve the building and degrading of the same molecule at the same time to generate heat.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20336.png>)
 
 The contradictory effects like proteolysis AND amino acid synthesis or lipolysis AND fatty acid synthesis are due to futile cycles.
 
-5- Glucocorticoids are survival hormones that help us survive in times of stress and scarcity by slowing the rate of nucleic acid and protein synthesis. The adrenal cortex and adipose tissue release glucocorticoids when glucose is scarce and the metabolism of some tissues will even switch away from glucose to maintain blood glucose levels. Lipids and proteins will be gradually degraded to produce energy. They also stimulate the liver to uptake amino acids and glycerol to use them in gluconeogenesis. Prolonged stress is perceived by the brain and stimulates the release of hypothalamic and pituitary gland hormones that leads to cortisol release via the adrenal gland.
+5. Glucocorticoids are survival hormones that help us survive in times of stress and scarcity by slowing the rate of nucleic acid and protein synthesis. The adrenal cortex and adipose tissue release glucocorticoids when glucose is scarce and the metabolism of some tissues will even switch away from glucose to maintain blood glucose levels. Lipids and proteins will be gradually degraded to produce energy. They also stimulate the liver to uptake amino acids and glycerol to use them in gluconeogenesis. Prolonged stress is perceived by the brain and stimulates the release of hypothalamic and pituitary gland hormones that leads to cortisol release via the adrenal gland.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20337.png>)
 
 ### 4.3.2
 
-1- The brain consumes 20% of our daily intake of glucose. The brain is protected from a lot of threats thanks to the **blood-brain barrier** which is formed by a set of **capillaries**. The barrier can block **pathogens** and many **natural** and **synthetic toxins** circulating in the blood. This has a drawback though, a metabolic one because nutrients are also circulating in the bloodstream and need to get through the barrier to get to the brain. Capillaries are the smallest vessels in the body and are formed by a ring of endothelial cells. They bring nutrients from the blood to the surrounding **interstitial fluid** that’s bathing cells in tissues. Nutrients move from the blood to the fluid by diffusing through capillaries where the smallest molecules diffuse across the endothelium by passive diffusion down their concentration gradient while large molecules are transported by **endocytosis**, and vesicles carrying molecules like waste molecules and proteins are going to get transported outside the cell and release their content in the interstitial fluid by **exocytosis**. This transportation process with **endo** and **exocytosis** is called **transcytosis**. Other large molecules can pass through fluid channels called **fenestra** directly from the blood to the interstitial fluid.
+1. The brain consumes 20% of our daily intake of glucose. The brain is protected from a lot of threats thanks to the **blood-brain barrier** which is formed by a set of **capillaries**. The barrier can block **pathogens** and many **natural** and **synthetic toxins** circulating in the blood. This has a drawback though, a metabolic one because nutrients are also circulating in the bloodstream and need to get through the barrier to get to the brain. Capillaries are the smallest vessels in the body and are formed by a ring of endothelial cells. They bring nutrients from the blood to the surrounding **interstitial fluid** that’s bathing cells in tissues. Nutrients move from the blood to the fluid by diffusing through capillaries where the smallest molecules diffuse across the endothelium by passive diffusion down their concentration gradient while large molecules are transported by **endocytosis**, and vesicles carrying molecules like waste molecules and proteins are going to get transported outside the cell and release their content in the interstitial fluid by **exocytosis**. This transportation process with **endo** and **exocytosis** is called **transcytosis**. Other large molecules can pass through fluid channels called **fenestra** directly from the blood to the interstitial fluid.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20338.png>)
 
-2- Brain capillaries have a different structure. Endothelial cells are surrounded by a **basal membrane** that blocks pathogens and inflammatory immune cells. A cell type called **pericyte** and the endfeet of another cell type called **astrocyte** provide an additional physical barrier and contribute to control the composition of the brain interstitial fluid. There are also **tight junctions** that prevent molecules in the blood from slipping between endothelial cells. These vessels have no fenestra and they have a very limited transcytosis.
+2. Brain capillaries have a different structure. Endothelial cells are surrounded by a **basal membrane** that blocks pathogens and inflammatory immune cells. A cell type called **pericyte** and the endfeet of another cell type called **astrocyte** provide an additional physical barrier and contribute to control the composition of the brain interstitial fluid. There are also **tight junctions** that prevent molecules in the blood from slipping between endothelial cells. These vessels have no fenestra and they have a very limited transcytosis.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20339.png>)
 
@@ -1846,7 +1977,7 @@ Certain nutrients can get past the barrier through dedicated transporter protein
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20340.png>)
 
-3- The brain is very dependent on glucose because of its limited access to lipids. The intermediates of glycolysis and TCA are also very important as they are the precursors of many nonessential amino acids which are neurotransmitters or are themselves precursors of neurotransmitters that are used by the brain. When an actual potential occurs a large number of neurotransmitters will be released into a synapse.
+3. The brain is very dependent on glucose because of its limited access to lipids. The intermediates of glycolysis and TCA are also very important as they are the precursors of many nonessential amino acids which are neurotransmitters or are themselves precursors of neurotransmitters that are used by the brain. When an actual potential occurs a large number of neurotransmitters will be released into a synapse.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20341.png>)
 
@@ -1856,9 +1987,9 @@ When the concentrations of fuel molecules in the brain are dangerously low, the 
 
 ### 4.3.3
 
-1- Neurons coordinate our activities by sending electrochemical signals. Electrical signals also called action potentials can pass through a **presynaptic** neuron which triggers the release of neurotransmitters that are stored as packets in vesicles to the synapse. There, they will bind to receptors on the surface of the **postsynaptic** neurons and trigger another action potential that will travel along the postsynaptic neurons.
+1. Neurons coordinate our activities by sending electrochemical signals. Electrical signals also called action potentials can pass through a **presynaptic** neuron which triggers the release of neurotransmitters that are stored as packets in vesicles to the synapse. There, they will bind to receptors on the surface of the **postsynaptic** neurons and trigger another action potential that will travel along the postsynaptic neurons.
 
-2- Glycolysis and TCA are very important pathways that are dominant in neurons since they provide them with precursors for amino acids that are either used as precursors for neurotransmitters or are themselves neurotransmitters. From glycolysis, **3-phosphoglycerate** is the precursor for **serine** which can then be transformed into **glycine**. Glycine is a major inhibitory neurotransmitter in the spinal cord. The synthesis of serine is a three-step process starting with the oxidation of 3-phosphoglycerate into 3-phosphohydroxy pyruvate coupled with the reduction of NAD+. Step two is a transamination reaction where an amino group from glutamine replaces the newly formed ketone group of 3-phosphohydroxy pyruvate forming 3-phosphoserine.
+2. Glycolysis and TCA are very important pathways that are dominant in neurons since they provide them with precursors for amino acids that are either used as precursors for neurotransmitters or are themselves neurotransmitters. From glycolysis, **3-phosphoglycerate** is the precursor for **serine** which can then be transformed into **glycine**. Glycine is a major inhibitory neurotransmitter in the spinal cord. The synthesis of serine is a three-step process starting with the oxidation of 3-phosphoglycerate into 3-phosphohydroxy pyruvate coupled with the reduction of NAD+. Step two is a transamination reaction where an amino group from glutamine replaces the newly formed ketone group of 3-phosphohydroxy pyruvate forming 3-phosphoserine.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20342.png>)
 
@@ -1866,7 +1997,7 @@ The third step is the dephosphorylation of 3-phosphoserine to form serine. Serin
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20343.png>)
 
-3- TCA intermediates also serve as precursors. **Glutamate** and gamma-**aminobutyric acid (GABA)** are both derived from alpha-ketoglutarate. First, alpha-ketoglutarate is reduced by NADH and aminated by free ammonia to form glutamate, a critical excitatory neurotransmitter in circuits for memory and learning. Second, glutamate is decarboxylated to form GABA, a major inhibitory neurotransmitter in many neuronal circuits.
+3. TCA intermediates also serve as precursors. **Glutamate** and gamma-**aminobutyric acid (GABA)** are both derived from alpha-ketoglutarate. First, alpha-ketoglutarate is reduced by NADH and aminated by free ammonia to form glutamate, a critical excitatory neurotransmitter in circuits for memory and learning. Second, glutamate is decarboxylated to form GABA, a major inhibitory neurotransmitter in many neuronal circuits.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20344.png>)
 
@@ -1880,7 +2011,7 @@ The hydroxyl group comes from oxygen and **BH4** a cofactor of the enzymes that 
 
 During the conversion of dopamine into norepinephrine one oxygen atom was used to create a hydroxyl group. This reaction is coupled with the oxidation of **ascorbic acid**. Using the other oxygen ascorbic acid can be converted into dehydroascorbic acid losing two hydrogens that form one water molecule with that other oxygen. Something similar happens during the conversion of tyrosine into dopa. BH4 donates two hydrogens, these hydrogens don’t interact with dopa itself but rather after an oxygen molecule donates one oxygen to form the hydroxyl group that gets added to tyrosine the other atom reacts with the two hydrogens from BH4 to form a water molecule ( probably avoiding the presence of a free oxygen radical ).
 
-4- Catecholamine synthesis starts in the cytoplasm, then they are stored in vesicles at high concentrations. The release of vesicles is regulated by the change in the intracellular concentration of calcium in response to ATP. The loading of neurotransmitters in vesicles on the other hand requires pumping them against their concentration gradient. This is achieved with the help of two transmembrane proteins, **V-ATPase**, a pump that uses ATP to transport protons inside the vesicle forming a proton gradient. The second protein is the **vesicular monoamine transporter 2 (VMAT2)** which is a protein that couples the diffusion of protons out of the vesicle with the transport of neurotransmitters into the vesicle. This mechanism allows neurotransmitters to reach a concentration in vesicles that’s 100 times their cytosolic concentration.
+4. Catecholamine synthesis starts in the cytoplasm, then they are stored in vesicles at high concentrations. The release of vesicles is regulated by the change in the intracellular concentration of calcium in response to ATP. The loading of neurotransmitters in vesicles on the other hand requires pumping them against their concentration gradient. This is achieved with the help of two transmembrane proteins, **V-ATPase**, a pump that uses ATP to transport protons inside the vesicle forming a proton gradient. The second protein is the **vesicular monoamine transporter 2 (VMAT2)** which is a protein that couples the diffusion of protons out of the vesicle with the transport of neurotransmitters into the vesicle. This mechanism allows neurotransmitters to reach a concentration in vesicles that’s 100 times their cytosolic concentration.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20347.png>)
 
@@ -1890,11 +2021,11 @@ Besides all the energy-intensive pathways that the brain needs to go through for
 
 #### PKU
 
-1- **Phenylketonuria (PKU)** is one of the first diseases used to correlate defective enzymes to genetic mutations which lead to the concept of One Gene, One Protein. Newborns must be tested for this disease because it can have severe consequences if left untreated. This disease causes **mental retardation** and is associated with a **musty odor** in the urine of the patient, the urine also turns **green** with **ferric chloride** instead of **red** as with diabetic patients. Dr. Asbjor Folling who discovered the disease managed to identify the unknown metabolite in the patient’s urine as a metabolite of **phenylalanine** called **phenylpyruvic acid** or **phenylpyruvate**.
+1. **Phenylketonuria (PKU)** is one of the first diseases used to correlate defective enzymes to genetic mutations which lead to the concept of One Gene, One Protein. Newborns must be tested for this disease because it can have severe consequences if left untreated. This disease causes **mental retardation** and is associated with a **musty odor** in the urine of the patient, the urine also turns **green** with **ferric chloride** instead of **red** as with diabetic patients. Dr. Asbjor Folling who discovered the disease managed to identify the unknown metabolite in the patient’s urine as a metabolite of **phenylalanine** called **phenylpyruvic acid** or **phenylpyruvate**.
 
 Dr. Folling also discovered that 2% of all mentally retarded patients had elevated phenylpyruvate levels.
 
-2- PKU is the abnormal processing of phenylalanine. Phenylalanine is converted to tyrosine by the enzyme **phenylalanine hydroxylase (PAH)** with BH4 being a cofactor of PAH. PKU patients suffer from inactivated PAH which prevents the conversion from taking place. This leads to the accumulation of phenylalanine in blood and tissues and a toxic increase in its concentration until its eventual accumulation in urine, and of course, it leads to mental retardation.
+2. PKU is the abnormal processing of phenylalanine. Phenylalanine is converted to tyrosine by the enzyme **phenylalanine hydroxylase (PAH)** with BH4 being a cofactor of PAH. PKU patients suffer from inactivated PAH which prevents the conversion from taking place. This leads to the accumulation of phenylalanine in blood and tissues and a toxic increase in its concentration until its eventual accumulation in urine, and of course, it leads to mental retardation.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20348.png>)
 
@@ -1904,7 +2035,7 @@ Untreated children will appear normal until the age of six months. After that, t
 
 This disease is inherited and affects 1 in 10k Caucasians, in particular ones of northern European descent. It’s rarely seen, however, in populations from African, Asian, and Hispanic descent. Dr. Folling observed that this inherited disease is passed down in an autosomal recessive pattern. This means that for a child to develop this disease, both of his parents would have to contribute one mutated version of the PAH gene each. Parents who are not affected by the disease are **carriers**. Their children can have one of three fates, either they inherit one defective copy of the gene and become carriers, or they inherit two defective genes and develop the disease, or they don’t get a defective gene from either parent and are left unaffected.
 
-3- Every protein exists in equilibrium between a misfolded state and a folded state. Normally, the equilibrium would be to the far right favoring the folded state, but in the case of the 500 mutations found in PKU patients, the stability of the enzyme will be altered shifting the equilibrium towards the misfolded state.
+3. Every protein exists in equilibrium between a misfolded state and a folded state. Normally, the equilibrium would be to the far right favoring the folded state, but in the case of the 500 mutations found in PKU patients, the stability of the enzyme will be altered shifting the equilibrium towards the misfolded state.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20350.png>)
 
@@ -1916,7 +2047,7 @@ These enzymes are related both functionally and structurally and all use **tetra
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20352.png>)
 
-4- Tyrosine can be used in protein synthesis, and redox reactions, or converted into hormones or neurotransmitters. All of these reactions are coupled with the oxidation of BH4 which is later regenerated by a two-step reaction catalyzed by the enzymes **PCD** and **DHPR**. Classical PKU results from the disruption of PAH while mild PKU results from the disruption of the BH4 recycling pathway.
+4. Tyrosine can be used in protein synthesis, and redox reactions, or converted into hormones or neurotransmitters. All of these reactions are coupled with the oxidation of BH4 which is later regenerated by a two-step reaction catalyzed by the enzymes **PCD** and **DHPR**. Classical PKU results from the disruption of PAH while mild PKU results from the disruption of the BH4 recycling pathway.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20353.png>)
 
@@ -1936,17 +2067,17 @@ Skip for now
 
 ### 4.3.5
 
-1- Phenylalanine accumulation in the blood leads to it saturating the large neutral amino acid transporter at the blood-brain barrier. The excess phenylalanine and lack of other large neutral amino acids in the brain leads to oxidative stress, a decrease in neurotransmitter synthesis, and lipid metabolism, bioenergetic deficiencies, and an excess of intracellular calcium.
+1. Phenylalanine accumulation in the blood leads to it saturating the large neutral amino acid transporter at the blood-brain barrier. The excess phenylalanine and lack of other large neutral amino acids in the brain leads to oxidative stress, a decrease in neurotransmitter synthesis, and lipid metabolism, bioenergetic deficiencies, and an excess of intracellular calcium.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20356.png>)
 
-2- Oxidative stress occurs when there is an elevated level of oxidants like the free radicals that are formed when some molecules react with oxygen. These radicals contain chemical groups with an odd number of electrons on their atoms. These free electrons are available for pairing which makes them very reactive molecules. These radicals can cause a lot of oxidative damage but that damage is prevented thanks to antioxidant molecules that neutralize the free radicals by donating electrons to them. **Receive oxygen species (ROS)** are the most common free radicals since they are natural byproducts of cellular metabolism. These ROS are essential for several physiological processes when they are present at a low concentration, and their concentration is maintained low by antioxidants which keep the redox state of the cell at equilibrium. Now, if the production of ROS overwhelms the present antioxidants the redox state of the cell will be imbalanced leading to oxidative stress. The ROS will then start a chain reaction where essential cell components such as DNA, Proteins, and cell membranes will all be damaged. The various functions of cells will be impaired and some cells might even die. The PKU diet can actually be a reason behind oxidative stress because PKU patients will be unable to eat some foods that are rich in antioxidants and their synthesis will also be impaired due to nutrient deficiencies. The disease itself causes oxidative stress as well by tipping the balance between ROS and antioxidants in favor of ROS. The chronic exposure to phenylalanine and its derivatives also triggers the production of ROS, and at high concentrations phenylalanine will even inhibit the production of antioxidants. In the brain, signal transduction, and the function of astrocytes will be impaired, brain inflammations will occur, as well as an imbalance in the levels of superoxide. All of this causes abnormal neuronal death and aging.
+2. Oxidative stress occurs when there is an elevated level of oxidants like the free radicals that are formed when some molecules react with oxygen. These radicals contain chemical groups with an odd number of electrons on their atoms. These free electrons are available for pairing which makes them very reactive molecules. These radicals can cause a lot of oxidative damage but that damage is prevented thanks to antioxidant molecules that neutralize the free radicals by donating electrons to them. **Receive oxygen species (ROS)** are the most common free radicals since they are natural byproducts of cellular metabolism. These ROS are essential for several physiological processes when they are present at a low concentration, and their concentration is maintained low by antioxidants which keep the redox state of the cell at equilibrium. Now, if the production of ROS overwhelms the present antioxidants the redox state of the cell will be imbalanced leading to oxidative stress. The ROS will then start a chain reaction where essential cell components such as DNA, Proteins, and cell membranes will all be damaged. The various functions of cells will be impaired and some cells might even die. The PKU diet can actually be a reason behind oxidative stress because PKU patients will be unable to eat some foods that are rich in antioxidants and their synthesis will also be impaired due to nutrient deficiencies. The disease itself causes oxidative stress as well by tipping the balance between ROS and antioxidants in favor of ROS. The chronic exposure to phenylalanine and its derivatives also triggers the production of ROS, and at high concentrations phenylalanine will even inhibit the production of antioxidants. In the brain, signal transduction, and the function of astrocytes will be impaired, brain inflammations will occur, as well as an imbalance in the levels of superoxide. All of this causes abnormal neuronal death and aging.
 
-3- PKU also inhibits neurotransmitters synthesis. This is due to the accumulation of phenylalanine and a decrease of tyrosine in the brain since tyrosine is the precursor to catecholamines. Tryptophan is the precursor of the neurotransmitter **serotonin**. Phenylalanine is the natural inhibitor of the enzymes responsible for the synthesis of **L-DOPA** and **dopamine**, **5-hydroxytryptophan,** and **serotonin**. So the synthesis of catecholamine and serotonin isn’t only reduced due to a reduced concentration of their precursors but also due to an increased concentration of their inhibitor. The lack of dopamine is responsible for **Parkinson-like** symptoms which include shaking, stiffness, and difficulty with walking, balance, and coordination. It’s also responsible for an inability to feel pleasure called **anhedonia**. A lack of serotonin causes **OCD-like** symptoms and uncontrolled **impulsivity**. A deficit in both types of neurotransmitters is linked to depression.
+3. PKU also inhibits neurotransmitters synthesis. This is due to the accumulation of phenylalanine and a decrease of tyrosine in the brain since tyrosine is the precursor to catecholamines. Tryptophan is the precursor of the neurotransmitter **serotonin**. Phenylalanine is the natural inhibitor of the enzymes responsible for the synthesis of **L-DOPA** and **dopamine**, **5-hydroxytryptophan,** and **serotonin**. So the synthesis of catecholamine and serotonin isn’t only reduced due to a reduced concentration of their precursors but also due to an increased concentration of their inhibitor. The lack of dopamine is responsible for **Parkinson-like** symptoms which include shaking, stiffness, and difficulty with walking, balance, and coordination. It’s also responsible for an inability to feel pleasure called **anhedonia**. A lack of serotonin causes **OCD-like** symptoms and uncontrolled **impulsivity**. A deficit in both types of neurotransmitters is linked to depression.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20357.png>)
 
-4- The deficiency in lipid metabolism is connected mostly to the dietary restrictions of PKU patients. These patients consume very little **cholesterol** and **DHA fatty acids**, which is a long-chain form of the omega-3 fatty acids. DHA is normally the most abundant polyunsaturated fatty acid in the brain and the retina. It represents 50% of the fatty acids found in the plasma membranes of neurons weight wise. This fatty acid plays an important role in neurons, including the transport of metabolites, such as **choline** or **glycine**, it affects the activity of potassium channels and the response of the **rhodopsin (a pigment that enhances vision in the dark)** contained in synaptic vesicles. A low level of DHA lowers neuronal activity, causes a cognitive decline, and increases cell death. This fatty acid is also known to be low in the brains of severely depressed patients.
+4. The deficiency in lipid metabolism is connected mostly to the dietary restrictions of PKU patients. These patients consume very little **cholesterol** and **DHA fatty acids**, which is a long-chain form of the omega-3 fatty acids. DHA is normally the most abundant polyunsaturated fatty acid in the brain and the retina. It represents 50% of the fatty acids found in the plasma membranes of neurons weight wise. This fatty acid plays an important role in neurons, including the transport of metabolites, such as **choline** or **glycine**, it affects the activity of potassium channels and the response of the **rhodopsin (a pigment that enhances vision in the dark)** contained in synaptic vesicles. A low level of DHA lowers neuronal activity, causes a cognitive decline, and increases cell death. This fatty acid is also known to be low in the brains of severely depressed patients.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20358.png>)
 
@@ -1954,11 +2085,11 @@ It’s also an important component of **myelin sheaths** which covers the axon o
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20359.png>)
 
-5- The brain consumes a lot of ATP, and its main source of ATP is glucose. A high level of phenylalanine can decrease the efficiency of several ATP synthesis mechanisms in the brain as well as the rest of the body.
+5. The brain consumes a lot of ATP, and its main source of ATP is glucose. A high level of phenylalanine can decrease the efficiency of several ATP synthesis mechanisms in the brain as well as the rest of the body.
 
 Phe inhibits creatine kinase disrupting the efficiency of the phosphocreatine system. Phe also inhibits pyruvate kinase reducing the ATP yield from glycolysis which is most detrimental for RBCs which rely exclusively on glycolysis for their ATP production and mainly on step 10 since step 6 is usually modified to create 2,3-bisphosphoglycerate, so the RBCs of PKU patients end up being left with only 5-25% of their normal pyruvate kinase activity. The low level of ATP synthesis prevents these cells from maintaining their structural integrity and they end up losing their shape and getting **phagocytosed** explaining the **anemia** observed in PKU patients. The production of ketone bodies is also reduced due to the high level of Phe.
 
-6- The amount of free calcium in neurons will also be affected. Calcium plays an important role in many neuronal processes like neuronal excitability and plasticity and axonal transport, low and high levels of calcium also affect neuronal activity. Calcium is transported into neurons via membrane-bound transporters. Upon neuron stimulation, the cytoplasmic concentration of free calcium spikes due to the activation of the **ligand-gated calcium channel** which transports calcium from the outside of neurons to the inside. The spike is also due to the activation of the **sarcoplasmic reticulum calcium ATPase** **(SERCA)** that releases the calcium that’s trapped in the sarcoplasmic reticulum. This spike is what triggers neuronal firing. After the firing of an action potential, the cytoplasmic concentration of calcium must be returned to normal. The concentration of calcium can’t stay high otherwise the function of the neuron will be affected, to return the concentration to a normal level, the **plasma membrane calcium ATPase (PMCA)** will export calcium outside the cell, and SERCA will move the remaining calcium back inside the sarcoplasmic reticulum.
+6. The amount of free calcium in neurons will also be affected. Calcium plays an important role in many neuronal processes like neuronal excitability and plasticity and axonal transport, low and high levels of calcium also affect neuronal activity. Calcium is transported into neurons via membrane-bound transporters. Upon neuron stimulation, the cytoplasmic concentration of free calcium spikes due to the activation of the **ligand-gated calcium channel** which transports calcium from the outside of neurons to the inside. The spike is also due to the activation of the **sarcoplasmic reticulum calcium ATPase** **(SERCA)** that releases the calcium that’s trapped in the sarcoplasmic reticulum. This spike is what triggers neuronal firing. After the firing of an action potential, the cytoplasmic concentration of calcium must be returned to normal. The concentration of calcium can’t stay high otherwise the function of the neuron will be affected, to return the concentration to a normal level, the **plasma membrane calcium ATPase (PMCA)** will export calcium outside the cell, and SERCA will move the remaining calcium back inside the sarcoplasmic reticulum.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20360.png>)
 
@@ -1970,9 +2101,9 @@ An elevated level of Phe can transiently activate PMCA increasing calcium efflux
 
 ### 5.1.1
 
-1- Nucleic acids don’t only comprise DNA and RNA, they also make up energy molecules like ATP and GTP, they’re also precursors of universal electron acceptors/donors like NAD+, and they can act as signaling molecules like in the case of cAMP.
+1. Nucleic acids don’t only comprise DNA and RNA, they also make up energy molecules like ATP and GTP, they’re also precursors of universal electron acceptors/donors like NAD+, and they can act as signaling molecules like in the case of cAMP.
 
-2- Ribose and deoxyribose are the pentose sugars found in RNA and DNA respectively.
+2. Ribose and deoxyribose are the pentose sugars found in RNA and DNA respectively.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20361.png>)
 
@@ -2000,11 +2131,11 @@ Nucleotides are attached together by **phosphodiester linkages** that are formed
 
 **![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20365.png>)**
 
-3- DNA molecules are formed out of two strands making a double helix. The sugar-phosphate portions of each strand make up the external backbone while the bases are at the center of the double helix. Both strands are linked by hydrogen bonds that form between their bases. The hydrogen bonds are not formed randomly between any two bases, purines bind specifically with pyrimidines, and even more specifically **A** binds with **T** and **C** binds with **G**. The stability of the double helix is due to the interstrand hydrogen bonds, and the intrastrand **Van Der Waals** forces between the base pairs which are stacked on top of each other. Purine-Pyrimidine base pairs optimize the number of hydrogen bonds between bases as well as the alignment of the three atoms forming the hydrogen bond which further strengthens the bonds. This constant, fixed pairing is also the reason why the diameter of a double helix is constant, and why there is equal spacing between every two sugar-phosphate backbones from opposite strands. This equal spacing would not be maintained should two purines or two pyrimidines base pair.
+3. DNA molecules are formed out of two strands making a double helix. The sugar-phosphate portions of each strand make up the external backbone while the bases are at the center of the double helix. Both strands are linked by hydrogen bonds that form between their bases. The hydrogen bonds are not formed randomly between any two bases, purines bind specifically with pyrimidines, and even more specifically **A** binds with **T** and **C** binds with **G**. The stability of the double helix is due to the interstrand hydrogen bonds, and the intrastrand **Van Der Waals** forces between the base pairs which are stacked on top of each other. Purine-Pyrimidine base pairs optimize the number of hydrogen bonds between bases as well as the alignment of the three atoms forming the hydrogen bond which further strengthens the bonds. This constant, fixed pairing is also the reason why the diameter of a double helix is constant, and why there is equal spacing between every two sugar-phosphate backbones from opposite strands. This equal spacing would not be maintained should two purines or two pyrimidines base pair.
 
 RNA molecules while most commonly known for being single-stranded can also form base pairs. This is important as many RNA molecules form secondary structures by base pairing that can then fold into more complex structures which is critical for specific **RNA protein interactions** and for the **catalytic activity** of some RNAs that we know as **ribozymes.**
 
-4- Nucleotides are produced by two distinct pathways, the **salvage pathway** which is a recycling pathway where free bases are reused to make complete nucleotides. The **phosphoribosyl pyrophosphate (PRPP)** transfers ribose-5-phosphate to the free bases in this pathway, for example, the transfer of ribose-5-phosphate to free adenine to form adenosine. There is also a separate pathway that can convert ribonucleotides to deoxyribonucleotides.
+4. Nucleotides are produced by two distinct pathways, the **salvage pathway** which is a recycling pathway where free bases are reused to make complete nucleotides. The **phosphoribosyl pyrophosphate (PRPP)** transfers ribose-5-phosphate to the free bases in this pathway, for example, the transfer of ribose-5-phosphate to free adenine to form adenosine. There is also a separate pathway that can convert ribonucleotides to deoxyribonucleotides.
 
 The second pathway is the **de novo synthesis** pathway where nucleotides will be created from scratch using metabolic precursors like amino acids, bicarbonate, and folate.
 
@@ -2012,7 +2143,7 @@ PRPP itself comes from the pentose phosphate pathway. It’s derived from glucos
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20366.png>)
 
-5- ATP is the building block for the universal carriers: NAD+, NADP+, and FAD where NADP+ is phosphorylated NAD+ and as mentioned before NADP+ is used in anabolic pathways while NAD+ is used in catabolic ones.
+5. ATP is the building block for the universal carriers: NAD+, NADP+, and FAD where NADP+ is phosphorylated NAD+ and as mentioned before NADP+ is used in anabolic pathways while NAD+ is used in catabolic ones.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20367.png>)
 
@@ -2022,7 +2153,7 @@ ATP is also used in the synthesis of coenzyme A and cyclic AMP.
 
 ### 5.1.2
 
-1- **Inositol monophosphate (IMP)** is the first purine synthesized in the de novo pathway
+1. **Inositol monophosphate (IMP)** is the first purine synthesized in the de novo pathway
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20369.png>)
 
@@ -2038,7 +2169,7 @@ A nucleophilic attack by a donor molecule then displaces the newly placed phosph
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20372.png>)
 
-2- The first step in the pathway is the donation of a nitrogen atom by **glutamine** replacing the two phosphate groups and glutamate is also released as a side product.
+2. The first step in the pathway is the donation of a nitrogen atom by **glutamine** replacing the two phosphate groups and glutamate is also released as a side product.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20373.png>)
 
@@ -2088,7 +2219,7 @@ Step eleven, a final **dehydration** reaction results in the closure of the seco
 
 This process requires **6 ATP**, **1** **PRPP**, **2 Glutamine**, **1 Glycine**, **1 Aspartate**, and **2 N10-THF** molecules, it’s an energetically consuming process. This process is catalyzed by an enzyme complex. This complex increases biosynthesis efficiency and prevents diffusion and the degradation of unstable intermediates.
 
-3- The conversion of IMP into AMP and GMP involves replacing one substituent of the purine ring with another chemical group. This group is the carbonyl oxygen which is replaced by an amino group, and for GMP an amino group replaces one hydrogen carried by the second ring
+3. The conversion of IMP into AMP and GMP involves replacing one substituent of the purine ring with another chemical group. This group is the carbonyl oxygen which is replaced by an amino group, and for GMP an amino group replaces one hydrogen carried by the second ring
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20385.png>)
 
@@ -2100,11 +2231,11 @@ IMP is converted to GMP via a two-step process as well. First, IMP is oxidized t
 
 The synthesis of AMP requires the hydrolysis of GTP, and the synthesis of GMP requires the hydrolysis of ATP. This is done to maintain the balance between AMP and GMP.
 
-4- Purine biosynthesis is regulated at three specific steps. The first committed step in the pathway where an amino group is transferred to PRPP is catalyzed by the enzyme **glutamine PRPP aminotransferase**. This enzyme is controlled by feedback inhibition where **IMP**, **AMP**, and **GMP** act as allosteric inhibitors on it. The same three inhibitors can also inhibit the **PRPP synthase** enzyme itself but this isn’t considered the first committed step for this pathway because PRPP is actually a precursor for other pathways as well. The second one-also feedback inhibition-is the inhibition of the **adenylosuccinate synthase** enzyme by excess **AMP** and the same is true for the conversion of IMP to XMP which is inhibited by an excess of **GMP**. The third one is the **reciprocal regulation** by **GTP** and **ATP** where GTP activates Adenylosuccinate synthase and ATP activates the enzyme that adds the amino group to XMP converting it to GTP **XMP-glutamine amidotransferase**.
+4. Purine biosynthesis is regulated at three specific steps. The first committed step in the pathway where an amino group is transferred to PRPP is catalyzed by the enzyme **glutamine PRPP aminotransferase**. This enzyme is controlled by feedback inhibition where **IMP**, **AMP**, and **GMP** act as allosteric inhibitors on it. The same three inhibitors can also inhibit the **PRPP synthase** enzyme itself but this isn’t considered the first committed step for this pathway because PRPP is actually a precursor for other pathways as well. The second one-also feedback inhibition-is the inhibition of the **adenylosuccinate synthase** enzyme by excess **AMP** and the same is true for the conversion of IMP to XMP which is inhibited by an excess of **GMP**. The third one is the **reciprocal regulation** by **GTP** and **ATP** where GTP activates Adenylosuccinate synthase and ATP activates the enzyme that adds the amino group to XMP converting it to GTP **XMP-glutamine amidotransferase**.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20387.png>)
 
-5- As for pyrimidines. **UMP** is the first pyrimidine that’s formed and it’s then phosphorylated into **UTP**, and UTP can then be modified to form **CTP**.
+5. As for pyrimidines. **UMP** is the first pyrimidine that’s formed and it’s then phosphorylated into **UTP**, and UTP can then be modified to form **CTP**.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20388.png>)
 
@@ -2130,7 +2261,7 @@ UMP can now be phosphorylated to form UTP, and then ATP will activate the carbon
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20393.png>)
 
-6- The conversion of nucleoside monophosphates to nucleoside diphosphates is catalyzed by a class of enzymes called **nucleoside monophosphate kinases**. Only after this conversion to ADP can these molecules be converted to ATP and GTP during glycolysis, TCA, and oxidative phosphorylation. These kinases are base-specific but not specific for ribose or deoxyribose and we’ve already seen an example of one of them before. Adenylate kinase is the enzyme responsible for the reversible reaction of converting 1 ATP + 1 AMP into 2 ADP. ATP, however, is almost always the phosphate donor for these enzymes.
+6. The conversion of nucleoside monophosphates to nucleoside diphosphates is catalyzed by a class of enzymes called **nucleoside monophosphate kinases**. Only after this conversion to ADP can these molecules be converted to ATP and GTP during glycolysis, TCA, and oxidative phosphorylation. These kinases are base-specific but not specific for ribose or deoxyribose and we’ve already seen an example of one of them before. Adenylate kinase is the enzyme responsible for the reversible reaction of converting 1 ATP + 1 AMP into 2 ADP. ATP, however, is almost always the phosphate donor for these enzymes.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20394.png>)
 
@@ -2140,7 +2271,7 @@ The other nucleoside diphosphates that are not actively phosphorylated during gl
 
 ### 5.1.3
 
-1- For the reduction of nucleotides to take base a reducing agent is needed, this agent is **NADPH** which donates its electrons and protons to **FAD**, and this FAD is associated with **thioredoxin reductase**. FADH2 passes its electrons and protons to thioredoxin reducing a disulfide bond in it and leading to the formation of two **thiol (SH)** groups. Thioredoxin is then converted back to its oxidized form after transferring its electrons and protons to the **ribonucleotide reductase** enzyme ( my favorite enzyme :))))), and the disulfide bond is then recreated. Another disulfide bond this time on the reductase is now going to be reduced forming two SH groups again. The ribonucleotide, in the end, will pass its own electrons and protons to the **ribonucleotide** itself to form a **deoxyribonucleoside diphosphate**. The reductase is then converted back to its original state and is again ready for another catalytic cycle.
+1. For the reduction of nucleotides to take base a reducing agent is needed, this agent is **NADPH** which donates its electrons and protons to **FAD**, and this FAD is associated with **thioredoxin reductase**. FADH2 passes its electrons and protons to thioredoxin reducing a disulfide bond in it and leading to the formation of two **thiol (SH)** groups. Thioredoxin is then converted back to its oxidized form after transferring its electrons and protons to the **ribonucleotide reductase** enzyme ( my favorite enzyme :))))), and the disulfide bond is then recreated. Another disulfide bond this time on the reductase is now going to be reduced forming two SH groups again. The ribonucleotide, in the end, will pass its own electrons and protons to the **ribonucleotide** itself to form a **deoxyribonucleoside diphosphate**. The reductase is then converted back to its original state and is again ready for another catalytic cycle.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20396.png>)
 
@@ -2148,7 +2279,7 @@ There is another path from NADPH to the reductase but this time instead of thior
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20397.png>)
 
-2- Ribonucleotide reductase contains two identical R1 and R2 subunits. Each of the R1s has two distinct allosteric regulatory sites and they contain SH groups through which they donate their electrons and protons to ribonucleotides. The R2s contain a catalytic **tyrosyl** residue that exists as a radical. This radical doesn’t participate directly in catalysis but it generates other radicals that are necessary for it. The active site for this enzyme is at the interface between R1 and R2.
+2. Ribonucleotide reductase contains two identical R1 and R2 subunits. Each of the R1s has two distinct allosteric regulatory sites and they contain SH groups through which they donate their electrons and protons to ribonucleotides. The R2s contain a catalytic **tyrosyl** residue that exists as a radical. This radical doesn’t participate directly in catalysis but it generates other radicals that are necessary for it. The active site for this enzyme is at the interface between R1 and R2.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20398.png>)
 
@@ -2176,7 +2307,7 @@ After the release of dADP and its subsequent conversion to dATP, dATP will start
 
 This enzyme is designed in a way that provides a balanced pool of dNTPs for the synthesis of DNA and RNA.
 
-3- Cancer cells grow and divide much faster than most healthy cells and they have a higher need for nucleotides for the synthesis of DNA and RNA. This means that these cells are more sensitive to inhibitors of nucleotide biosynthesis and this is why chemotherapeutic agents are designed to target the enzymes in nucleotide biosynthesis pathways.
+3. Cancer cells grow and divide much faster than most healthy cells and they have a higher need for nucleotides for the synthesis of DNA and RNA. This means that these cells are more sensitive to inhibitors of nucleotide biosynthesis and this is why chemotherapeutic agents are designed to target the enzymes in nucleotide biosynthesis pathways.
 
 **Thymidylate synthase** is the enzyme responsible for the conversion of **dUMP** to **dTMP** by the addition of a **methyl** group.
 
@@ -2210,7 +2341,7 @@ These therapeutics have a major drawback though, which is the fact that neighbor
 
 ### 5.1.4
 
-1- Pyrimidine degradation is quite simple. When **uridine** is broken down it releases **uracil** and **ribose-5-phosphate** where R-5-P can be recycled to make new nucleotides.
+1. Pyrimidine degradation is quite simple. When **uridine** is broken down it releases **uracil** and **ribose-5-phosphate** where R-5-P can be recycled to make new nucleotides.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20410.png>)
 
@@ -2218,7 +2349,7 @@ These therapeutics have a major drawback though, which is the fact that neighbor
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20411.png>)
 
-2- Purine degradation on the other hand is more complex and leads to the degeneration of a potentially dangerous product called **uric acid** which is the final product of purine catabolism in primate and birds.
+2. Purine degradation on the other hand is more complex and leads to the degeneration of a potentially dangerous product called **uric acid** which is the final product of purine catabolism in primate and birds.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20412.png>)
 
@@ -2242,7 +2373,7 @@ Finally, the enzyme **xanthine oxidase** converts xanthine into uric acid. This 
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20417.png>)
 
-3- Uric acid is responsible for the metabolic disease called **gout**. This disease occurs when very high concentrations of uric acid accumulate in the blood leading to the buildup of **monosodium urate crystals**. These crystals accumulate in joints, particularly in the feet and hands where they provoke a strong inflammatory response which is very painful. Our blood contains a high concentration of five mg/dL of uric acid on average. The solubility of uric acid is 6.8 mg/dL which means that the concentration of uric acid in our blood is close to saturation. This also means that a diet rich in purines like one containing a lot of meat can push uric acid levels above saturation. There are treatments that limit the buildup of urate crystals and others that manage the pain associated with gout which are usually anti-inflammatory drugs. A change of diet to limit the metabolism of purines and reduce the concentration of urate crystals is also an option.
+3. Uric acid is responsible for the metabolic disease called **gout**. This disease occurs when very high concentrations of uric acid accumulate in the blood leading to the buildup of **monosodium urate crystals**. These crystals accumulate in joints, particularly in the feet and hands where they provoke a strong inflammatory response which is very painful. Our blood contains a high concentration of five mg/dL of uric acid on average. The solubility of uric acid is 6.8 mg/dL which means that the concentration of uric acid in our blood is close to saturation. This also means that a diet rich in purines like one containing a lot of meat can push uric acid levels above saturation. There are treatments that limit the buildup of urate crystals and others that manage the pain associated with gout which are usually anti-inflammatory drugs. A change of diet to limit the metabolism of purines and reduce the concentration of urate crystals is also an option.
 
 The reason why gout affects joints like the feet and hands is that it precipitates at low temperatures while as long as it’s circulating in the blood it will be maintained at a temperature that doesn’t promote precipitation.
 
@@ -2256,7 +2387,7 @@ Gout is mainly a problem that faces humans. The rest of the mammals that degrade
 
 Fish also produce uric acid and can then convert it to allantoin but fish can also express additional enzymes that can process allantoin and break it down to **allantoate**, **urea**, and **ammonia**.
 
-4- The salvage pathway is an alternative to pyrimidine and purine degradation and is also much less energy-intensive than the de novo pathway making it an economical solution for nucleotide synthesis.
+4. The salvage pathway is an alternative to pyrimidine and purine degradation and is also much less energy-intensive than the de novo pathway making it an economical solution for nucleotide synthesis.
 
 **Uracil** can react with **R-1-P** ( as you can see carbon-1 of ribose is activated by the phosphate group and is ready for a nucleophilic attack by uracil which binds them together forming uridine ) to form **uridine**. This reaction is catalyzed by **pyrimidine phosphorylase** and is the reverse of the cleavage of uridine from the pyrimidine degradation pathway.
 
@@ -2276,7 +2407,7 @@ The **Lesch-Nyhan disease** is a genetic disease caused by a deficiency in HPRT.
 
 ### 5.2.1
 
-1- The GLUT transporters are not active transporters because they don’t consume ATP to do their job, instead, they passively transport glucose in the direction of its concentration gradient.
+1. The GLUT transporters are not active transporters because they don’t consume ATP to do their job, instead, they passively transport glucose in the direction of its concentration gradient.
 
 But it’s not a channel either because its transport rate is slower than that of a channel. The way this transport protein works is via changes in conformation. When the extracellular domain of GLUT1 is in an open conformation it can bind glucose and transport to the inner portion of the transporter undergoing a conformational change along the way that closes the transport completely and then the intracellular domain of GLUT1 open and allows glucose to path inside the cell.
 
@@ -2284,7 +2415,7 @@ But it’s not a channel either because its transport rate is slower than that o
 
 Other monosaccharides such as **galactose** and **fructose** use transporters from the GLUT family as well. In **RBCs**, GLUT1 is capable of transporting **glucose** and **galactose** but not fructose. In the liver, GLUT2 can transport **glucose**, **fructose**, and **galactose**.
 
-2- Monosaccharides other than glucose have points of entry by which they can feed glycolysis.
+2. Monosaccharides other than glucose have points of entry by which they can feed glycolysis.
 
 Galactose can be converted into **glucose-1-phosphate** but not directly as there’s no enzyme that can catalyze the conversion from galactose to glucose. Instead, galactose is **phosphorylated** to form galactose-1-phosphate which traps it inside the cell similar to glucose.
 
@@ -2306,7 +2437,7 @@ Either pathway used in fructose entry into glycolysis will net 2 ATP.
 
 Polysaccharides undergo complete hydrolysis to produce monosaccharides such as fructose, glucose, galactose, and mannose ( mannose can be converted into fructose-6-phosphate ).
 
-3- Digestion of polysaccharides and disaccharides starts in the mouth with **alpha-amylase** which carries out the hydrolysis of polysaccharides into the smaller **oligosaccharides**. This enzyme is inactivated by the low pH of the stomach, but the pancreas secretes another batch of amylase that continues the digestion in the small intestines where **disaccharides** will be produced from oligosaccharides. Other enzymes attached to the surface of intestinal cells on the lumen side then catalyze the formation of monosaccharides which are then absorbed by the intestines and distributed to other tissues where they will enter glycolysis.
+3. Digestion of polysaccharides and disaccharides starts in the mouth with **alpha-amylase** which carries out the hydrolysis of polysaccharides into the smaller **oligosaccharides**. This enzyme is inactivated by the low pH of the stomach, but the pancreas secretes another batch of amylase that continues the digestion in the small intestines where **disaccharides** will be produced from oligosaccharides. Other enzymes attached to the surface of intestinal cells on the lumen side then catalyze the formation of monosaccharides which are then absorbed by the intestines and distributed to other tissues where they will enter glycolysis.
 
 Other complex polysaccharides can’t be digested by our enzymes and will instead be digested by the bacteria that form the gut microbiome.
 
@@ -2318,7 +2449,7 @@ Not all dietary carbohydrates come from plants, glycogen can also be acquired fr
 
 ### 5.2.2
 
-1- The pentose phosphate pathway is composed of an **oxidative phase** and a **non-oxidative phase**.
+1. The pentose phosphate pathway is composed of an **oxidative phase** and a **non-oxidative phase**.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20428.png>)
 
@@ -2332,7 +2463,7 @@ A second oxidation reaction then converts 6-phosphogluconate to **ribulose-5-pho
 
 This phase converts G-6-P into R-5-P and produces two NADPH. The first step of this process is irreversible and a critical point for regulation. The activity of 6-phosphogluconate dehydrogenase depends on the concentration of NADP+. When it’s high the reaction is driven forward while a high concentration of NADPH slows the reaction down as NADPH acts as a competitive inhibitor for this enzyme.
 
-2- The non-oxidative phase is handled by two enzymes, a **transketolase,** and a **transaldolase**.
+2. The non-oxidative phase is handled by two enzymes, a **transketolase,** and a **transaldolase**.
 
 Ribulose-5-phosphate can be converted to one of two molecules, either another ketose called **xylulose-5-phosphate** or an aldose called **ribose-5-phosphate**. First, transketolase transfers a two carbon block from the ketose to the aldose forming the three-carbon molecule **glyceraldehyde-3-phosphate**, and the seven-carbon molecule **sedoheptulose-7-phosphate**. Then, transaldolase transfers a three-carbon block from the ketose sedoheptulose-7-phosphate to the aldose glyceraldehyde-3-phosphate forming the ketose **fructose-6-phosphate** and the aldose **erythrose-4-phosphate**.
 
@@ -2344,7 +2475,7 @@ So the input of the non-oxidative phase is three 5-carbon phosphorylated sugars,
 
 One of the two glyceraldehydes is converted to dihydroxyacetone phosphate via the **triosephosphate isomerase** and then they are condensed via **aldolase** to form fructose-1,6-bisphosphate which is then dephosphorylated into the last fructose-6-phosphate by **fructose-1,6-bisphosphatase**. These fructose molecules can either feed the glycolysis pathway or get converted back to G-6-P to feed the PPP pathway. Also, the reactions of transaldolase and transketolase are reversible.
 
-3- Epithelial cells are characterized by rapid proliferation and require a lot of nucleotides to make DNA and RNA which means that ribose-5-phosphate will be rapidly consumed and the oxidative phase will be running forward and the non-oxidative phase will be running in reverse.
+3. Epithelial cells are characterized by rapid proliferation and require a lot of nucleotides to make DNA and RNA which means that ribose-5-phosphate will be rapidly consumed and the oxidative phase will be running forward and the non-oxidative phase will be running in reverse.
 
 Glycolytic reactions are also reversible since they are shared with gluconeogenesis and the result of this is the production of more F-6-P to feed the non-oxidative phase in reverse.
 
@@ -2364,7 +2495,7 @@ These two pathways can also be independent. Muscles, for example, lack the oxida
 
 ### 5.2.3
 
-1- Glutathione isn’t only responsible for maintaining oxidants at a low level but it also has another job which is the reduction of disulfide bonds. This is an important task in RBCs especially because hemoglobin tends to aggregate under oxidizing conditions by forming disulfide bonds between themselves.
+1. Glutathione isn’t only responsible for maintaining oxidants at a low level but it also has another job which is the reduction of disulfide bonds. This is an important task in RBCs especially because hemoglobin tends to aggregate under oxidizing conditions by forming disulfide bonds between themselves.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20436.png>)
 
@@ -2372,7 +2503,7 @@ Glucose-6-P dehydrogenase is a **dimer** that can also be active as a **tetramer
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20437.png>)
 
-2- **Glucose-6-phosphate dehydrogenase (G6PD)** deficiency is a disease that arises from a mutation in the gene coding for G6PD. This deficiency causes a reduction in the conversion of G-6-P into 6-phosphoglucono-delta-lactone. This means that NADPH production will be decreased and with it the concentration of reduced glutathione, with the first set of consequences to come to mind being an increase in the concentration of toxic oxidizing agents and hemoglobin aggregates.
+2. **Glucose-6-phosphate dehydrogenase (G6PD)** deficiency is a disease that arises from a mutation in the gene coding for G6PD. This deficiency causes a reduction in the conversion of G-6-P into 6-phosphoglucono-delta-lactone. This means that NADPH production will be decreased and with it the concentration of reduced glutathione, with the first set of consequences to come to mind being an increase in the concentration of toxic oxidizing agents and hemoglobin aggregates.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20438.png>)
 
@@ -2390,13 +2521,13 @@ Class 1 and 2 are the most severe forms since they lead to chronic and acute hem
 
 Similar to the **Lesch-Nyhan disease**, this disease is X-linked and is, therefore, more prevalent in males, but thankfully also like Lesch-Nyhan, the mutated genes are recessive. This also means that having one normal copy of the gene allows for the expression of the normal active G6PD enzyme.
 
-3- This disease was first called the **Primaquine-sensitive syndrome**. It was during the Korean War when soldiers were sent to Korea and fought in areas where malaria was endemic. These soldiers were given doses of the primaquine drug which is meant to protect against malaria.
+3. This disease was first called the **Primaquine-sensitive syndrome**. It was during the Korean War when soldiers were sent to Korea and fought in areas where malaria was endemic. These soldiers were given doses of the primaquine drug which is meant to protect against malaria.
 
 But this drug caused anemia in many soldiers. The drug induces lethal **oxidative damage** to different strains of **Plasmodium**. Healthy soldiers tolerated this drug because they could produce ample amounts of reducing agents to protect their RBCs from the anti-malarial drug. G6PD, however, is a widespread disease with over 400 million infected individuals worldwide. So many of these had G6PD deficiency from one of the five aforementioned classes, and their RBCs could not counteract the anti-malarial drug with NADPH since they can’t produce enough of it and they ended up suffering from oxidative damage which caused **Acute Hemolytic Anemia**. The severity of this anemia was dependent on three factors, G6PD activity which determines the production of NADPH, Red Cell aging which determines the overall stability of the cells, and the administered dose of the drug that determines the level of oxidative damage their cells would have to deal with. Aging RBCs are the first to be hemolyzed by the drug and doses could be adjusted to minimize the level of acute hemolytic anemia. A 45 ml dose can cause the hemolysis of multiple cells at once, but 15 ml doses administered over time not only will minimize the amount of hemolyzed cells but also allows there to be a selective enrichment even of RBCs that despite being G6PD deficient have relatively higher G6PD than the rest and are more resistant to oxidative stress allowing for the development of a relative resistance in some patients to acute hemolytic anemia caused by primaquine.
 
-4- The best way to avoid G6PD deficiency-related symptoms is the avoidance of triggering agents such as some **drugs** and **Fava Beans**. Most patients will even remain asymptomatic for their entire lives. Diabetes, myocardial infractions, infection, and intense physical exercises are all potential triggers of hemolytic anemia in patients. G6PD deficiency also increases the risk of neonatal jaundice but the specific reason is unknown. **Favism** is another name given to the disease because it was first thought that favism is caused by an allergic response to fava beans. Fava beans contain **nonvolatile glucosides** and **aglycone** that trigger the production of free radicals increasing oxidative stress. Avoidance is the best cure for G6PD deficiency but in case of severe acute hemolytic anemia blood transfusions might be necessary to return the concentration of RBCs to normal as well as dialysis in case of acute renal failure. Some patients might also benefit from the removal of their spleen since it’s one of the major sites where RBCs are lysed.
+4. The best way to avoid G6PD deficiency-related symptoms is the avoidance of triggering agents such as some **drugs** and **Fava Beans**. Most patients will even remain asymptomatic for their entire lives. Diabetes, myocardial infractions, infection, and intense physical exercises are all potential triggers of hemolytic anemia in patients. G6PD deficiency also increases the risk of neonatal jaundice but the specific reason is unknown. **Favism** is another name given to the disease because it was first thought that favism is caused by an allergic response to fava beans. Fava beans contain **nonvolatile glucosides** and **aglycone** that trigger the production of free radicals increasing oxidative stress. Avoidance is the best cure for G6PD deficiency but in case of severe acute hemolytic anemia blood transfusions might be necessary to return the concentration of RBCs to normal as well as dialysis in case of acute renal failure. Some patients might also benefit from the removal of their spleen since it’s one of the major sites where RBCs are lysed.
 
-5- This deficiency is prevalent in some regions of the world more than others. The highest prevalence is in Africa, Southern Europe, the Middle East, Southeast Asia, and Central and Southern Pacific Islands with the distribution getting affected by recent migrations to North America, South America, and Northern Europe.
+5. This deficiency is prevalent in some regions of the world more than others. The highest prevalence is in Africa, Southern Europe, the Middle East, Southeast Asia, and Central and Southern Pacific Islands with the distribution getting affected by recent migrations to North America, South America, and Northern Europe.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20441.png>)
 
@@ -2406,7 +2537,7 @@ This distribution is very similar to the distribution of malaria around the worl
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20443.png>)
 
-6- Malaria is introduced by female mosquitos feeding on human blood, it infects the liver, multiplies, and infects RBCs only to then infect more female mosquitos that come to feed on the blood of infected individuals and then proceed to spread the disease.
+6. Malaria is introduced by female mosquitos feeding on human blood, it infects the liver, multiplies, and infects RBCs only to then infect more female mosquitos that come to feed on the blood of infected individuals and then proceed to spread the disease.
 
 RBCs with normal G6PD production are targets for malarial infection in healthy individuals.
 
@@ -2420,11 +2551,11 @@ In G6PD deficient individuals, oxidative stress causes hemolysis of RBCs, the bo
 
 ### 5.3.1
 
-1- Fatty acids are assembled from two molecules, a two-carbon block from **Ac-CoA**, and a three-carbon block from **malonyl CoA**. Malonyl CoA is made from carboxylated Ac-CoA and the source of the carbon is bicarbonate, and the reaction is catalyzed by **acetyl-coenzyme A carboxylase (ACC)**. ACC contains the **biotin** coenzyme that can transfer a carboxyl group from bicarbonate to Ac-CoA. This reaction is coupled with the hydrolysis of **ATP**. Malonyl CoA is a high energy molecule like Ac-CoA and its free energy will help drive the synthesis of fatty acids forward.
+1. Fatty acids are assembled from two molecules, a two-carbon block from **Ac-CoA**, and a three-carbon block from **malonyl CoA**. Malonyl CoA is made from carboxylated Ac-CoA and the source of the carbon is bicarbonate, and the reaction is catalyzed by **acetyl-coenzyme A carboxylase (ACC)**. ACC contains the **biotin** coenzyme that can transfer a carboxyl group from bicarbonate to Ac-CoA. This reaction is coupled with the hydrolysis of **ATP**. Malonyl CoA is a high energy molecule like Ac-CoA and its free energy will help drive the synthesis of fatty acids forward.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20446.png>)
 
-2- The synthesis of fatty acids is a multistep process catalyzed by **fatty acid synthase** **(FAS)**, an enzyme that’s made of a long single polypeptide chain comprised of **seven domains** with each having a specific enzymatic activity.
+2. The synthesis of fatty acids is a multistep process catalyzed by **fatty acid synthase** **(FAS)**, an enzyme that’s made of a long single polypeptide chain comprised of **seven domains** with each having a specific enzymatic activity.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20447.png>)![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20448.png>)
 
@@ -2468,7 +2599,7 @@ The synthesis of a fatty acid with an odd number of carbons is also possible wit
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20463.png>)
 
-3- The synthesis process is terminated after the addition of the 16th carbon because fatty acids of this length are good substrates for the **TE domain (thioesterase)**. The released 16 carbon fatty acid is called **palmitic acid** or **palmitate**. This means that the synthesis of palmitate requires 8 Ac-CoA, 7 ATP, 14 NADPH, 14 hydrogens.
+3. The synthesis process is terminated after the addition of the 16th carbon because fatty acids of this length are good substrates for the **TE domain (thioesterase)**. The released 16 carbon fatty acid is called **palmitic acid** or **palmitate**. This means that the synthesis of palmitate requires 8 Ac-CoA, 7 ATP, 14 NADPH, 14 hydrogens.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20464.png>)
 
@@ -2478,7 +2609,7 @@ Only one Ac-CoA is directly integrated into palmitate while the other seven firs
 
 ### 5.3.2
 
-1- Fatty acid synthesis takes place in the cytosol while Ac-CoA is made in the mitochondria. So how does Ac-CoA get to the cytosol for fatty acid synthesis? The answer is through the **citrate acetate shuttle**. In the mitochondria, **Ac-CoA** reacts with **oxaloacetate** to form **citrate**, when it’s in excess citrate is transported outside of the mitochondria to the cytoplasm where it reacts with coenzyme A to form oxaloacetate and Ac-CoA. This reaction is catalyzed by **ATP citrate lyase** and is coupled with the hydrolysis of one ATP. The net result of this reaction is the consumption of one Ac-CoA in the mitochondria and the production of an Ac-CoA in the cytoplasm
+1. Fatty acid synthesis takes place in the cytosol while Ac-CoA is made in the mitochondria. So how does Ac-CoA get to the cytosol for fatty acid synthesis? The answer is through the **citrate acetate shuttle**. In the mitochondria, **Ac-CoA** reacts with **oxaloacetate** to form **citrate**, when it’s in excess citrate is transported outside of the mitochondria to the cytoplasm where it reacts with coenzyme A to form oxaloacetate and Ac-CoA. This reaction is catalyzed by **ATP citrate lyase** and is coupled with the hydrolysis of one ATP. The net result of this reaction is the consumption of one Ac-CoA in the mitochondria and the production of an Ac-CoA in the cytoplasm
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20466.png>)
 
@@ -2488,11 +2619,11 @@ The return of oxaloacetate to the mitochondria is important since without it TCA
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20467.png>)
 
-2- After their synthesis fatty acids can be modified even further in the **ER**, for example, to elongate palmitate over 16 carbons via enzymes that are attached to the cytoplasmic side of the ER, and malonyl CoA will be the source of the additional carbon groups. Fatty acids can also get unsaturated at the ER. To do so, three proteins will be used to introduce double bonds between specific fatty acid carbons by creating a mini electron transport chain. **Stearoyl CoA**, for example, can be unsaturated at **C9** to form **Oleoyl CoA**. **NADH** or **NADPH** is the first electron donor in the chain. Its electrons and protons will be passed to **FAD** which is attached to **cytochrome b5 reductase**. FADH2 passes its electrons to cytochrome b5 converting its ferric ion (Fe3+) into a ferrous ion (Fe2+). These electrons are then passed over to an iron ion bound to the **desaturase** enzyme. The desaturase’s ferrous ion can then react with oxygen catalyzing the desaturation reaction and releasing two molecules of water.
+2. After their synthesis fatty acids can be modified even further in the **ER**, for example, to elongate palmitate over 16 carbons via enzymes that are attached to the cytoplasmic side of the ER, and malonyl CoA will be the source of the additional carbon groups. Fatty acids can also get unsaturated at the ER. To do so, three proteins will be used to introduce double bonds between specific fatty acid carbons by creating a mini electron transport chain. **Stearoyl CoA**, for example, can be unsaturated at **C9** to form **Oleoyl CoA**. **NADH** or **NADPH** is the first electron donor in the chain. Its electrons and protons will be passed to **FAD** which is attached to **cytochrome b5 reductase**. FADH2 passes its electrons to cytochrome b5 converting its ferric ion (Fe3+) into a ferrous ion (Fe2+). These electrons are then passed over to an iron ion bound to the **desaturase** enzyme. The desaturase’s ferrous ion can then react with oxygen catalyzing the desaturation reaction and releasing two molecules of water.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20468.png>)
 
-3- Fatty acids are synthesized when the cell has a surplus of energy and carbohydrates. When the concentration of these two parameters is low fatty acid synthesis is instead repressed.
+3. Fatty acids are synthesized when the cell has a surplus of energy and carbohydrates. When the concentration of these two parameters is low fatty acid synthesis is instead repressed.
 
 Fatty acid synthesis is regulated mostly through the regulation of ACC. ACC is repressed by the kinase **AMPK** which is activated when the concentration of AMP is high. ACC is allosterically activated by a high concentration of citrate, citrate also promotes the polymerization of ACC which boosts its enzymatic activity. A high concentration of fatty acids breaks the ACC polymers decreasing its enzymatic activity.
 
@@ -2506,7 +2637,7 @@ Carbohydrates rich diets can affect fatty acid synthesis. Long term wise, a carb
 
 ### 5.3.3
 
-1- Fatty acid degradation by beta-oxidation starts in adipocytes. Lipase enzymes degrade stored TAG via lipolysis and then transport the resulting fatty acids to the bloodstream where they will be transported by serum albumin to tissues. In tissues, transport proteins will then transport fatty acids to the mitochondria. Fatty acids can’t diffuse freely through the mitochondrial membrane, instead, they are transported inside the mitochondria via the **acyl-carnitine shuttle**. This shuttle modifies fatty acids to allow their movement through the outer and inner mitochondrial membranes. First, the **acyl-coenzyme A synthase** enzyme that’s found in the outer membrane of the mitochondria attaches **coenzyme A** to **palmitate** to form **palmitoyl coenzyme A**. This reaction is coupled with the hydrolysis of ATP, leading to the production of **AMP**. The regeneration of ATP from AMP requires two molecules of ATP, therefore, we can say that the formation of palmitoyl CoA requires two ATP instead of one. Coenzyme A is then replaced by **carnitine** forming **palmitoylcarnitine** a reaction that’s catalyzed by the **carnitine palmitoyltransferase (CPT1)** which is a tightly regulated enzyme. This enzyme is located in the outer membrane of the mitochondria and it acts as a gatekeeper for the entry of fatty acids into the mitochondria. Palmitoylcarnitine is then transported in the intermembrane space via the **porin** transport protein. It’s also possible for fatty acids to be transported into the intermembrane space first then get their CoA replaced by carnitine. The carnitine moiety is what allows fatty acids to be transported through the inner membrane to the matrix via a **translocase**. After the fatty acid arrives inside the matrix, it’s carnitine moiety has to be swapped back with a coenzyme A molecule for it to be able to undergo beta-oxidation. This is catalyzed by **CPT2** which is attached to the inner membrane.
+1. Fatty acid degradation by beta-oxidation starts in adipocytes. Lipase enzymes degrade stored TAG via lipolysis and then transport the resulting fatty acids to the bloodstream where they will be transported by serum albumin to tissues. In tissues, transport proteins will then transport fatty acids to the mitochondria. Fatty acids can’t diffuse freely through the mitochondrial membrane, instead, they are transported inside the mitochondria via the **acyl-carnitine shuttle**. This shuttle modifies fatty acids to allow their movement through the outer and inner mitochondrial membranes. First, the **acyl-coenzyme A synthase** enzyme that’s found in the outer membrane of the mitochondria attaches **coenzyme A** to **palmitate** to form **palmitoyl coenzyme A**. This reaction is coupled with the hydrolysis of ATP, leading to the production of **AMP**. The regeneration of ATP from AMP requires two molecules of ATP, therefore, we can say that the formation of palmitoyl CoA requires two ATP instead of one. Coenzyme A is then replaced by **carnitine** forming **palmitoylcarnitine** a reaction that’s catalyzed by the **carnitine palmitoyltransferase (CPT1)** which is a tightly regulated enzyme. This enzyme is located in the outer membrane of the mitochondria and it acts as a gatekeeper for the entry of fatty acids into the mitochondria. Palmitoylcarnitine is then transported in the intermembrane space via the **porin** transport protein. It’s also possible for fatty acids to be transported into the intermembrane space first then get their CoA replaced by carnitine. The carnitine moiety is what allows fatty acids to be transported through the inner membrane to the matrix via a **translocase**. After the fatty acid arrives inside the matrix, it’s carnitine moiety has to be swapped back with a coenzyme A molecule for it to be able to undergo beta-oxidation. This is catalyzed by **CPT2** which is attached to the inner membrane.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20471.png>)
 
@@ -2524,7 +2655,7 @@ AMPK also promotes beta-oxidation by inhibiting ACC and slowing down the product
 
 ### 5.3.4
 
-1- Beta-oxidation is accomplished in four steps: Oxidation, Hydration, Oxidation, and Thiolysis.
+1. Beta-oxidation is accomplished in four steps: Oxidation, Hydration, Oxidation, and Thiolysis.
 
 These steps are the reverse of the four steps of fatty acid synthesis and each round leads to the shortening of the fatty acid chain by two carbons.
 
@@ -2546,7 +2677,7 @@ These steps are the reverse of the four steps of fatty acid synthesis and each r
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20480.png>)
 
-2- A palmitoyl CoA molecule undergoes seven rounds of oxidation producing 1 Ac-CoA, 1 FADH2, and 1 NADH+H each time for a total of 7 of each. In the seventh oxidation, the last two acetyl CoA molecules will be cleaved off from each other resulting in two instead of one Ac-CoA from that final oxidation and a total of 8 Ac-CoA molecules after the complete oxidation reaction.
+2. A palmitoyl CoA molecule undergoes seven rounds of oxidation producing 1 Ac-CoA, 1 FADH2, and 1 NADH+H each time for a total of 7 of each. In the seventh oxidation, the last two acetyl CoA molecules will be cleaved off from each other resulting in two instead of one Ac-CoA from that final oxidation and a total of 8 Ac-CoA molecules after the complete oxidation reaction.
 
 Each **NADH+H** that enters ETC will transport enough protons across the membrane to later produce **2.5 ATP**, **FADH2** can ultimately yield **1.5 ATP**, and **Ac-CoA** produces **3 NADH+3H**, **1 FADH2**, and **1 GTP** from the TCA cycle. This gives us a total of **(3 NADH+3H x 8) + 7 = 31 NADH + 31H+**, and **8 + 7 FADH2 = 15 FADH2**, this means **(31 x 2.5) + (15 x 1.5)** and **8 GTP** is another **+ 8** for a total of **108 ATP** per palmitoyl CoA. This calculation isn’t complete if we consider the ATP production of palmitate itself since palmitate needs to be prepared for beta-oxidation by converting it first to palmitoyl CoA which costs 2 ATP. This means that palmitate itself only produces **106 ATP**.
 
@@ -2570,7 +2701,7 @@ If the double bond was at carbon four acyl CoA dehydrogenase would be able to fu
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20487.png>)
 
-3- Under normal circumstances, acetyl CoA contributes to TCA, but during starvation or diabetes it will accumulate and get converted into ketone bodies which are proof of an active breakdown of fats.
+3. Under normal circumstances, acetyl CoA contributes to TCA, but during starvation or diabetes it will accumulate and get converted into ketone bodies which are proof of an active breakdown of fats.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20488.png>)
 
@@ -2586,17 +2717,17 @@ After reaching its destination, 3-hydroxybutyrate will be converted back to acet
 
 ### 5.3.5
 
-1- There are many metabolic defects that can affect enzymes that affect the ability of a person to metabolize fatty acids properly. Many of these disorders affect muscles and are called **Metabolic myopathies**. Severe metabolic myopathies can cause death at a very early age, while less severe forms may not appear until adulthood causing progressive muscle weakness, cramps, exercise intolerance, and heart failure.
+1. There are many metabolic defects that can affect enzymes that affect the ability of a person to metabolize fatty acids properly. Many of these disorders affect muscles and are called **Metabolic myopathies**. Severe metabolic myopathies can cause death at a very early age, while less severe forms may not appear until adulthood causing progressive muscle weakness, cramps, exercise intolerance, and heart failure.
 
-2- Carnitine can be made in the liver or obtained from our diet, mainly meat. Genetic defects of OCTN2 which is the carnitine transporter prevents the transport of carnitine into several tissues including cardiac and skeletal muscle, causing **carnitine deficiency**. This deficiency can also be caused by a low level of synthesis by the liver. This deficiency has many consequences, such as acylcarnitine not being made and the inability of fatty acids to enter the mitochondria to be oxidized. Without the ability to oxidize fatty acids lipid storage in muscles and the liver will increase. An increase in lipid storage is a common feature of metabolic myopathies.
+2. Carnitine can be made in the liver or obtained from our diet, mainly meat. Genetic defects of OCTN2 which is the carnitine transporter prevents the transport of carnitine into several tissues including cardiac and skeletal muscle, causing **carnitine deficiency**. This deficiency can also be caused by a low level of synthesis by the liver. This deficiency has many consequences, such as acylcarnitine not being made and the inability of fatty acids to enter the mitochondria to be oxidized. Without the ability to oxidize fatty acids lipid storage in muscles and the liver will increase. An increase in lipid storage is a common feature of metabolic myopathies.
 
 Patients will have to take carnitine supplements for the rest of their lives which can help because in many cases, carnitine transporters won’t be completely non-functional but rather less active than normal and the higher carnitine concentration can compensate for that. They can also use **fibrates** that activate the production of a family of transcription factors known as **PPAR**. These factors will trigger the expression of the genes involved in beta-oxidation.
 
-3- **CPT2 deficiency** is another fatty acid oxidation disorder that’s most commonly caused by a point mutation in CPT2. The symptoms for this deficiency are, exercise intolerance, cramps, and muscle weakness. This deficiency begins early in adult life and is apparent when the body’s metabolism is challenged by fasting, over-exercising, or during an infection. More severe cases can appear during infancy causing hypoglycemia and sudden death. This deficiency prevents the conversion of acylcarnitine to Ac-CoA in the matrix and then long acyl-carnitines can accumulate and cause irregular heartbeats.
+3. **CPT2 deficiency** is another fatty acid oxidation disorder that’s most commonly caused by a point mutation in CPT2. The symptoms for this deficiency are, exercise intolerance, cramps, and muscle weakness. This deficiency begins early in adult life and is apparent when the body’s metabolism is challenged by fasting, over-exercising, or during an infection. More severe cases can appear during infancy causing hypoglycemia and sudden death. This deficiency prevents the conversion of acylcarnitine to Ac-CoA in the matrix and then long acyl-carnitines can accumulate and cause irregular heartbeats.
 
 Patients should avoid triggering factors of the symptoms of this deficiency by avoiding fasting and long exercises for example. They should also adopt a high carbohydrate diet to minimize the dependency on lipid catabolism. Fibrates are also a treatment here because boosting the production of even the mutant form can boost the overall enzymatic activity.
 
-4- Fatty acid oxidation disorders can also be due to a defect in **acyl CoA dehydrogenase**. This is the enzyme that catalyzes the first step in beta-oxidation. This enzyme also comes in different types for fatty acids of different lengths and a defect in any of these types can lead to metabolic myopathies. **VLCAD dehydrogenase** is the type that catalyzes the oxidation of **very-long-chain fatty acid coenzyme A (C18, C16)** and if it’s defective it will lead to a progressive disease that typically manifests in adulthood. The symptoms of this disease are also very similar to those of CPT2 deficiency because it’s just downstream of it. This also causes the accumulation of long-chain acylcarnitine in the blood and urine.
+4. Fatty acid oxidation disorders can also be due to a defect in **acyl CoA dehydrogenase**. This is the enzyme that catalyzes the first step in beta-oxidation. This enzyme also comes in different types for fatty acids of different lengths and a defect in any of these types can lead to metabolic myopathies. **VLCAD dehydrogenase** is the type that catalyzes the oxidation of **very-long-chain fatty acid coenzyme A (C18, C16)** and if it’s defective it will lead to a progressive disease that typically manifests in adulthood. The symptoms of this disease are also very similar to those of CPT2 deficiency because it’s just downstream of it. This also causes the accumulation of long-chain acylcarnitine in the blood and urine.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20491.png>)
 
@@ -2624,15 +2755,15 @@ Triheptanoin has two purposes. The medium-length fatty acids bypass the defectiv
 
 ### 5.4.1
 
-1- Cancer cells are characterized by mutations that reprogramme them metabolically and make them similar to healthy cells that undergo rapid cell division like embryo cells, immune response cells that are triggered by infection, and involved in wound healing. Cancer cells are influenced by internal and external factors. Internally there are well specified genetic mutations that affect signaling pathways and drive the tumor phenotype. An example of these mutations is mutations in **HIF1**, **PI3K-AKT/mTOR**, **MYC, KRAS**, **p53**. These genes code for key drivers of metabolic reprogramming in cancer cells. Externally, the tumor microenvironment also affects cancer cells. This microenvironment is typically hypoxic due to a poor vascularization of tumors.
+1. Cancer cells are characterized by mutations that reprogramme them metabolically and make them similar to healthy cells that undergo rapid cell division like embryo cells, immune response cells that are triggered by infection, and involved in wound healing. Cancer cells are influenced by internal and external factors. Internally there are well specified genetic mutations that affect signaling pathways and drive the tumor phenotype. An example of these mutations is mutations in **HIF1**, **PI3K-AKT/mTOR**, **MYC, KRAS**, **p53**. These genes code for key drivers of metabolic reprogramming in cancer cells. Externally, the tumor microenvironment also affects cancer cells. This microenvironment is typically hypoxic due to a poor vascularization of tumors.
 
 The concentration of nutrients and the pH of the microenvironment also affect the metabolism of cancer cells.
 
-2- Metabolic reprogramming can be defined as a set of interrelated metabolic adaptations in cancer cells. Bioenergetic adaptations support the synthesis of ATP and biomolecules to make rapid cell growth possible. An increase in biosynthesis impacts the production of the main types of biomolecules (carbs, nucleic acids, lipids, and proteins). And, a hyperactive metabolism increases oxidative stress and the need to maintain the redox status of cancer cells as much as possible.
+2. Metabolic reprogramming can be defined as a set of interrelated metabolic adaptations in cancer cells. Bioenergetic adaptations support the synthesis of ATP and biomolecules to make rapid cell growth possible. An increase in biosynthesis impacts the production of the main types of biomolecules (carbs, nucleic acids, lipids, and proteins). And, a hyperactive metabolism increases oxidative stress and the need to maintain the redox status of cancer cells as much as possible.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20498.png>)
 
-3- **Otto Warburg** observed a higher rate of **glucose** uptake in cancer cells and their release of high amounts of **lactate**. This observation hinted at a very active **anaerobic glycolysis**, although surprisingly, this also persisted under **aerobic conditions**. At first, it was hypothesized that cancer cells had dysfunctional mitochondria rendering them unable to complete respiration. Very few cancer cases are known to have dysfunctional mitochondria though. This strange phenomenon is known as the **Warburg Effect**. Comparing glycolysis in both healthy cells and cancer cells, we see that in healthy cells pyruvate is imported in the mitochondria to participate in TCA and produce NADH and FADH2 to then drive forward oxidative phosphorylation and produce a total of **36 moles of ATP per mole of glucose**. Cancer cells prefer fermentation even when oxygen is present, so much so that it imports only 5% of its pyruvate to the mitochondria. This causes a significant reduction in ATP production at **4 moles of ATP per mole of glucose**. It’s hypothesized that cancer cells prefer this because ATP production is not their main priority. Normally, glucose is fully converted into 6 molecules of CO2 that’s then released into the bloodstream and eventually exhaled and the carbon is lost. Less carbon is lost in cancer cells and the carbon they manage to retain they then use for growth since the lactate they produce will then be taken to the liver via the **cory cycle** where it will be recycled back to glucose that cancer cells can then use.
+3. **Otto Warburg** observed a higher rate of **glucose** uptake in cancer cells and their release of high amounts of **lactate**. This observation hinted at a very active **anaerobic glycolysis**, although surprisingly, this also persisted under **aerobic conditions**. At first, it was hypothesized that cancer cells had dysfunctional mitochondria rendering them unable to complete respiration. Very few cancer cases are known to have dysfunctional mitochondria though. This strange phenomenon is known as the **Warburg Effect**. Comparing glycolysis in both healthy cells and cancer cells, we see that in healthy cells pyruvate is imported in the mitochondria to participate in TCA and produce NADH and FADH2 to then drive forward oxidative phosphorylation and produce a total of **36 moles of ATP per mole of glucose**. Cancer cells prefer fermentation even when oxygen is present, so much so that it imports only 5% of its pyruvate to the mitochondria. This causes a significant reduction in ATP production at **4 moles of ATP per mole of glucose**. It’s hypothesized that cancer cells prefer this because ATP production is not their main priority. Normally, glucose is fully converted into 6 molecules of CO2 that’s then released into the bloodstream and eventually exhaled and the carbon is lost. Less carbon is lost in cancer cells and the carbon they manage to retain they then use for growth since the lactate they produce will then be taken to the liver via the **cory cycle** where it will be recycled back to glucose that cancer cells can then use.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20499.png>)
 
@@ -2640,19 +2771,19 @@ Cancer cells value **biomass** over **ATP**. They need to keep making proteins, 
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20500.png>)
 
-4- There are two genes that code for four forms of the pyruvate kinase enzyme. **Gene L** is transcribed and then the transcripts are alternatively spliced to produce the **L isoform** containing **exon 2** which is expressed in the liver and the **R isoform** containing **exon 1** is expressed only in RBCs. The **M gene** also produces two isoforms by alternative splicing. **M1** is the most common form and is found in a wide variety of tissues, while **M2** is produced in rapidly dividing embryonic cells and tumor cells. **Pyruvate kinase M2 (PKM2)** is mostly present in an inactive form within the cytoplasm of cancer cells. This results in the accumulation of PEP that’s not converted into pyruvate and an overall increase of all the glycolytic intermediates that will contribute to biomass production. Cancer cells starve healthy neighboring cells because of their strong **glucose** and **glutamine** intake. Immune cells have a limited impact on the tumor because of the increased lactate secretion that lowers the pH of the microenvironment.
+4. There are two genes that code for four forms of the pyruvate kinase enzyme. **Gene L** is transcribed and then the transcripts are alternatively spliced to produce the **L isoform** containing **exon 2** which is expressed in the liver and the **R isoform** containing **exon 1** is expressed only in RBCs. The **M gene** also produces two isoforms by alternative splicing. **M1** is the most common form and is found in a wide variety of tissues, while **M2** is produced in rapidly dividing embryonic cells and tumor cells. **Pyruvate kinase M2 (PKM2)** is mostly present in an inactive form within the cytoplasm of cancer cells. This results in the accumulation of PEP that’s not converted into pyruvate and an overall increase of all the glycolytic intermediates that will contribute to biomass production. Cancer cells starve healthy neighboring cells because of their strong **glucose** and **glutamine** intake. Immune cells have a limited impact on the tumor because of the increased lactate secretion that lowers the pH of the microenvironment.
 
 The NADPH produced by cancer cells doesn’t only contribute to anabolic reactions but also counteracts the high production of ROS in these cells which is a direct result of the high metabolic activity existing in them. **P53** is a negative regulator of glycolysis in healthy cells. The **LKB1/AMPK** pathway suppresses **mTOR** signaling which ultimately depresses the rate of glycolysis. This way glycolytic precursors will all be channeled through **TCA** to maximize **ATP** production. In cancer cells, **P53** can be mutated which means that a negative regulator of glycolysis won’t be active. Other mutations can lead to the inactivation of the **LKB1/AMPK** pathway and the activation of **mTOR** signaling. This leads to a direct increase in glycolysis activity and an increase in the production of the transcription factor **HIF1** which represses TCA and activates glycolysis. HIF1 expression can also be triggered by hypoxic conditions.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20501.png>)
 
-5- **Oncometabolites** are cancer metabolites. An example of an oncometabolite is **2-hydroxyglutarate**. **Isocitrate dehydrogenase (IDH)** has three variants, IDH1 uses NADP+ and exists in the cytosol, IDH2 uses NADP+ and exists in the mitochondria, and IDH3 uses NAD+ and exists in the mitochondria. Mutations in the genes coding for IDH 1 and 2 are observed in different types of cancer such as **gliomas**. The mutant enzymes accept alpha-ketoglutarate as a substrate and then reduce it to 2-hydroxyglutarate coupled with the oxidation of a NADPH. The mutations in IDH1 and 2 affect one copy of the genes. The cancer cells can still express wild type IDH but also the mutant type. This way the wild type produces alpha-ketoglutarate from isocitrate and generates NADPH then the mutant consumes both to produce 2-hydroxyglutarate. This alters the redox balance in cancer cells and leads to abnormally high production of 2-hydroxyglutarate which makes it a very good **biomarker**.
+5. **Oncometabolites** are cancer metabolites. An example of an oncometabolite is **2-hydroxyglutarate**. **Isocitrate dehydrogenase (IDH)** has three variants, IDH1 uses NADP+ and exists in the cytosol, IDH2 uses NADP+ and exists in the mitochondria, and IDH3 uses NAD+ and exists in the mitochondria. Mutations in the genes coding for IDH 1 and 2 are observed in different types of cancer such as **gliomas**. The mutant enzymes accept alpha-ketoglutarate as a substrate and then reduce it to 2-hydroxyglutarate coupled with the oxidation of a NADPH. The mutations in IDH1 and 2 affect one copy of the genes. The cancer cells can still express wild type IDH but also the mutant type. This way the wild type produces alpha-ketoglutarate from isocitrate and generates NADPH then the mutant consumes both to produce 2-hydroxyglutarate. This alters the redox balance in cancer cells and leads to abnormally high production of 2-hydroxyglutarate which makes it a very good **biomarker**.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20502.png>)
 
 ### 5.4.2
 
-1- **Glutaminolysis** is a pathway where **glutamine** gets converted into a variety of other biomolecules such as alpha-ketoglutarate.
+1. **Glutaminolysis** is a pathway where **glutamine** gets converted into a variety of other biomolecules such as alpha-ketoglutarate.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20503.png>)
 
@@ -2664,17 +2795,17 @@ Out of all these factors, only amino acids and energy are expended while the oth
 
 Cells have three types of glutamine transporters. The first one is glutamine specific and only imports glutamine into cells. The second one exports glutamine but that export is coupled with the import of essential amino acids which can activate pro-growth pathways via a protein complex that contains activated mTOR. The third one is itself split into two types, its main function is to import a variety of amino acids that can be converted to glutamine inside the cell but it does though either by the first type that only imports amino acids or the second type which exchanges amino acids. Glutamine can be converted into glutamate via **glutaminolysis** and that glutamate is then converted into alpha-ketoglutarate and fuels TCA. This is how cancer cells can fuel TCA even with their inhibited pyruvate kinase and that’s also how cancer cells maximize their production of biomolecule precursors. 3-phosphoglycerate, PEP, pyruvate, oxaloacetate, and alpha-ketoglutarate are all precursors for amino acid synthesis.
 
-2- the **citrate/oxaloacetate shuttle** is upregulated in cancer cells due to the upregulation of TCA due to their increased glutaminolysis. This means an increased supply of NADPH, Ac-CoA, and malonyl CoA which contributes to the increased production of lipids.
+2. the **citrate/oxaloacetate shuttle** is upregulated in cancer cells due to the upregulation of TCA due to their increased glutaminolysis. This means an increased supply of NADPH, Ac-CoA, and malonyl CoA which contributes to the increased production of lipids.
 
 ### 5.4.3
 
-1- At a low level, ROS are beneficial to all cells because they support proliferation and cell survival. Increasing ROS levels in cancer cells is still beneficial because it triggers more mutations that can allow cells to grow faster and remove control over cell proliferation.
+1. At a low level, ROS are beneficial to all cells because they support proliferation and cell survival. Increasing ROS levels in cancer cells is still beneficial because it triggers more mutations that can allow cells to grow faster and remove control over cell proliferation.
 
 ROS are created during oxidative phosphorylation which is the transformation of energy released from redox reactions that are done throughout the electron transport chain. Complex 1 and 3 produce a significant amount of ROS like superoxides and hydrogen peroxide. The complete oxidation of fuel molecules in the mitochondria leads to a small mitochondrial ROS efflux mainly in the form of H2O2. Cancer cells rely on fermentation for their ATP production, this allows superoxides to build up and increase the hydrogen peroxide efflux from the mitochondria.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20505.png>)
 
-2- A high level of ROS results in the oxidation of nucleotides, mainly **guanine** which is converted to **8-oxoguanine**. These oxidized forms of nucleotides are incorporated into DNA and lead to unfaithful DNA repair and increased mutagenesis. Increased ROS levels also alter the activity of protein kinases that are activated by phosphorylation by inhibiting the activity of phosphatases that are supposed to dephosphorylate and inactivate protein kinases. This, in turn, prevents the inactivation of signaling cascades that control cell growth and proliferation leading to uncontrolled cell growth.
+2. A high level of ROS results in the oxidation of nucleotides, mainly **guanine** which is converted to **8-oxoguanine**. These oxidized forms of nucleotides are incorporated into DNA and lead to unfaithful DNA repair and increased mutagenesis. Increased ROS levels also alter the activity of protein kinases that are activated by phosphorylation by inhibiting the activity of phosphatases that are supposed to dephosphorylate and inactivate protein kinases. This, in turn, prevents the inactivation of signaling cascades that control cell growth and proliferation leading to uncontrolled cell growth.
 
 At excessively high levels of ROS oxidative stress will be detrimental and leads to cell death even though above-average levels of ROS are usually beneficial to cancer cells. Cells produce antioxidants to counteract ROS, mainly, NADPH and glutathione (GSH).
 
@@ -2686,7 +2817,7 @@ GSH is a tripeptide composed of **glutamate**, **cysteine**, and **glycine**. It
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20507.png>)
 
-3- To synthesize glutathione, first, glutamine needs to be imported inside the cell and then converted to glutamate. Cysteine is then added to glutamate via the gamma linkage coupled with the hydrolysis of ATP. **Glutathione synthase** then catalyzes the addition of glycine coupled with the hydrolysis of ATP to form reduced GSH.
+3. To synthesize glutathione, first, glutamine needs to be imported inside the cell and then converted to glutamate. Cysteine is then added to glutamate via the gamma linkage coupled with the hydrolysis of ATP. **Glutathione synthase** then catalyzes the addition of glycine coupled with the hydrolysis of ATP to form reduced GSH.
 
 Cancer cells also have an upregulated production of NADPH due to their increased uptake of glutamine. Both the mitochondrial and cytoplasmic forms of **malate dehydrogenase** are upregulated. This enzyme catalyzes the conversion of malate to pyruvate and the reduction of NADP+.
 
@@ -2704,7 +2835,7 @@ This is how cancer cells control their levels of ROS in a way that prevents oxid
 
 #### Cachexia
 
-1- Cachexia is a metabolic syndrome that occurs in 50-80% of cancer patients with its prevalence and severity being dependent on the type of cancer. Cachexia was the other metabolic disease related to having too few lipid droplets other than lipodystrophy. It’s the result of an imbalance between fat intake and energy expenditure, and it leads to the progressive wasting of tissues like muscle and adipose tissues and it impacts many organs.
+1. Cachexia is a metabolic syndrome that occurs in 50-80% of cancer patients with its prevalence and severity being dependent on the type of cancer. Cachexia was the other metabolic disease related to having too few lipid droplets other than lipodystrophy. It’s the result of an imbalance between fat intake and energy expenditure, and it leads to the progressive wasting of tissues like muscle and adipose tissues and it impacts many organs.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20511.png>)
 
@@ -2718,9 +2849,9 @@ Alterations in the hormonal signaling of cancer patients are what causes lipolys
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20513.png>)
 
-2- Tumors get their glucose from dietary sources, adipocytes, and the liver. Adipocytes contribute indirectly by sending the glycerol produced from lipolysis to the liver to be recycled into glucose by gluconeogenesis. All of the produced glucose will now be exported to other tissues including tumors. The synthesis of glucose from **imported** gluconeogenic precursors and the subsequent redistribution of this glucose to other tissues is a process known as the **Cori cycle**. These gluconeogenic precursors include glycerol and lactate.
+2. Tumors get their glucose from dietary sources, adipocytes, and the liver. Adipocytes contribute indirectly by sending the glycerol produced from lipolysis to the liver to be recycled into glucose by gluconeogenesis. All of the produced glucose will now be exported to other tissues including tumors. The synthesis of glucose from **imported** gluconeogenic precursors and the subsequent redistribution of this glucose to other tissues is a process known as the **Cori cycle**. These gluconeogenic precursors include glycerol and lactate.
 
-3- Glutamine comes from protein degradation in muscles and is then exported to tumors.
+3. Glutamine comes from protein degradation in muscles and is then exported to tumors.
 
 The reason these proteins are degraded is inflammation. Tumors cause inflammations that lead to the production of cytokines. Cytokines then bind to specific receptors at the surface of muscle cells activating the **NF-kappaB** signaling pathway just like in the case of adipocytes. The activation of this signaling pathway has two possible outcomes. At a **high** level of cytokines, enzymes called **caspases** are produced which then trigger apoptosis in the muscle cell. At **low** levels of cytokines, the pathway will instead trigger changes in gene expression that will lead to **autophagy**. Autophagy is a process that causes the degradation of cytosolic components which in the case of muscles means the degradation of proteins and the export of glutamine. The uncoupling protein UCP will also be produced due to the change in gene expression and it will then act on mitochondria decreasing ATP production. Tumors also cause a reduction in the production of **growth factors**. In muscle tissues, this reduces the activity of the mTOR signaling pathway and leads to a reduction in protein synthesis. The reduction in protein synthesis and the increase in protein degradation leads to protein wasting.
 
@@ -2728,13 +2859,13 @@ The reason these proteins are degraded is inflammation. Tumors cause inflammatio
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20515.png>)
 
-4- The uncoupling protein UCP whose synthesis is triggered by the NF-kappaB signaling pathway is integrated into the inner mitochondrial membrane. It creates an alternate path for the transport of protons from the proton gradient towards the matrix undermining the work of the electron transport chain and decreasing the efficiency of ATP synthesis and instead, the energy stored in the proton gradient gets converted into heat.
+4. The uncoupling protein UCP whose synthesis is triggered by the NF-kappaB signaling pathway is integrated into the inner mitochondrial membrane. It creates an alternate path for the transport of protons from the proton gradient towards the matrix undermining the work of the electron transport chain and decreasing the efficiency of ATP synthesis and instead, the energy stored in the proton gradient gets converted into heat.
 
 ![Principles of Biochemistry_](<Biochemistry/Attachments/Principles%20of%20Biochemistry_%20516.png>)
 
 Brown adipocytes are normally the specific producers of this protein. These adipocytes burn fat and sugar to produce heat and they are essential for hibernating animals. They are also found in newborns and in a small amount in healthy adults. The metabolic profile of white adipocytes in cancer patients changes as they express the uncoupling protein and they become more brown-like which contributes to energy and biomass expenditure.
 
-5- The brain is also impacted by the altered production of hormones and growth factors as well as the chronic inflammation that’s related to tumors. Its production of neuropeptides will be affected and an alteration in the sensory system will occur affecting the sense of smell and taste. This leads to **anorexia (decreased appetite)**. The gastrointestinal tract will also be affected by circulating factors that will increase its permeability and allow for microbial infection and exacerbating (worse) inflammation is observed. The gut microbiome will change and microbes implicated in nutrient uptake will be affected as well as the regulation of our appetite.
+5. The brain is also impacted by the altered production of hormones and growth factors as well as the chronic inflammation that’s related to tumors. Its production of neuropeptides will be affected and an alteration in the sensory system will occur affecting the sense of smell and taste. This leads to **anorexia (decreased appetite)**. The gastrointestinal tract will also be affected by circulating factors that will increase its permeability and allow for microbial infection and exacerbating (worse) inflammation is observed. The gut microbiome will change and microbes implicated in nutrient uptake will be affected as well as the regulation of our appetite.
 
 Tumors also lead to **atrophy (size reduction)** of cardiac muscles and increased energy consumption by the heart. The reasons for this remain unknown.
 
@@ -2744,4 +2875,4 @@ Tumors also lead to **atrophy (size reduction)** of cardiac muscles and increase
 
 Skipped
 
-1-
+1.
