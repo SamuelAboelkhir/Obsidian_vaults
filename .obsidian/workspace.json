@@ -647,18 +647,22 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PER Questions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Questions.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Questions\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":0},\"to\":{\"line\":29,\"ch\":0}},\"scroll\":6.557970277799393}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "PER Questions.md",
-                "mode": "source",
-                "source": false
+                "file": "Biochemistry/Attachments/Pasted image 20261013234941.png"
               },
-              "icon": "lucide-file",
-              "title": "PER Questions"
+              "icon": "lucide-image",
+              "title": "Pasted image 20261013234941"
             }
           },
           {
@@ -712,7 +716,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PER Questions.md",
+                    "file": "Biochemistry/Attachments/Pasted image 20261013234941.png",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1120,7 +1124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PER Questions.md",
+                "file": "Biochemistry/Attachments/Pasted image 20261013234941.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -1195,10 +1199,10 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "6bed2f98b79d667b",
+  "active": "3197a52ebbcc7fda",
   "lastOpenFiles": [
-    "_0000 Home.md",
     "PER Questions.md",
+    "_0000 Home.md",
     "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
     "PG Go Main.md",
     "_0006 Programming MOC.md",
@@ -1223,8 +1227,8 @@
     "SC Periodic Table.md",
     "SC Bonding & Structure.md",
     "PG Java.md",
-    "Pasted image 20261013235429.png",
-    "Pasted image 20261013234941.png",
+    "Biochemistry/Attachments/Pasted image 20261013235429.png",
+    "Biochemistry/Attachments/Pasted image 20261013234941.png",
     "Biochemistry/Attachments/Pasted image 20261013213638.png",
     "Biochemistry/Attachments/Pasted image 20261013234344.png",
     "Biochemistry/Attachments/Pasted image 20261013233623.png",
