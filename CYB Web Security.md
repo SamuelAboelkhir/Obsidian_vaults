@@ -110,3 +110,38 @@ MOC: IT
 - For each request, the server reads the session ID from the [`Cookie` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cookie), looks up the record, and rejects sessions that are missing, expired, or revoked.
 >A session ID is a [bearer credential](https://www.rfc-editor.org/info/rfc6750/), so it **needs to stay secret**. Don't put raw session IDs in URLs or logs.
 
+## Cookies
+[Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies) are small name-value pairs that a browser stores and sends with matching HTTP requests. Many web applications happen to store session IDs in cookies, but they're _totally different concepts_. A cookie contains:
+
+- A **name**, like: `bootdev_session_id`
+- A **value**, like: `7f3c9a21d84e4b6fa2c18e57b9034d6a`
+- _Optional_ attributes like:
+    - `Secure` (sent only over HTTPS, with a localhost exception)
+    - `HttpOnly` (unavailable to `document.cookie`)
+    - `SameSite` (restricts cross-site sending)
+> Aside from session IDs, cookies are used for stuff like preferences, shopping carts, and yes, _tracking_. For example, the Google Analytics cookie's name is `_ga` and has a unique value like `GA1.1.1734567890.1723927600`.
+
+When a server sends a valid cookie, the browser automatically stores it and attaches it to future requests that match the cookie's scope and security attributes. Your client-side code doesn't need to muck with the cookie at all! The server sets it in a response header, and the browser echoes it back in future request headers.
+
+Servers create cookies with the [`Set-Cookie`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie) response header:
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+Set-Cookie: bootdev_session_id=7f3c9a21d84e4b6fa2c18e57b9034d6a; Secure; HttpOnly; SameSite=Lax
+```
+Browsers then attach the cookie to matching requests with the [`Cookie`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cookie) request header:
+
+```text
+GET /account HTTP/1.1
+Host: localhost:3030
+Cookie: bootdev_session_id=7f3c9a21d84e4b6fa2c18e57b9034d6a
+```
+
+## Full Cookie Auth Flow
+
+1. The user logs in with their username and password.
+2. The server verifies the credentials and creates a session for that user.
+3. The server sends a response with a `Set-Cookie` header with the session ID.
+4. The browser stores the cookie.
+5. The user makes a request to post a comment, and the browser automatically sends the session cookie with the request.
+6. The server reads the cookie, loads the session, and checks that it's still valid. If it is, the hot-take is posted.

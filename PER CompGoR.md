@@ -1,5 +1,6 @@
 ---
 tags:
+- Go
 - Projects
 MOC: Personal
 ---

@@ -196,17 +196,17 @@ git merge HEAD@{1}
 - Also, remember when resolving conflicts that you still need to provide a message to the merge conflict resolution commit to document how the conflict was resolved
 - That also means that this is the only type of merge where git wont generate its default "Merge branch 'branch-name'" message, since you have to provide a custom one
 ## Rebase Conflicts
-- Since rebase checks out the source branch that you're rebasing on top of to then replay your branch's commits on top, the conflict here will have the 'theirs' branch as the HEAD unlike what happened in the merge conflict. So in this context, 'ours' is the main branch, and 'theirs' is the feature branch (again because git switched branches under the hood) despite the fact that we're rebasing while being checked out on the feature branch
+- Since rebase checks out the source branch that you're rebasing on top of, to then replay your branch's commits on top, the conflict here will have the 'theirs' branch as the HEAD unlike what happened in the merge conflict. So in this context, 'ours' is the main branch, and 'theirs' is the feature branch (again because git switched branches under the hood) despite the fact that we're rebasing while being checked out on the feature branch
 - Also, during a rebase conflict, you won't be on a branch at all, you'll be in "detached HEAD" until you resolve the conflict
 - Again, if we use `git checkout --theirs` here, it will be the reverse of during a merge conflict, as now it refers to the feature branch (previously 'ours') and vice versa for `git checkout --ours`, this distinction is really important
 - Also, in a rebase, after resolving the conflict we `git add` but we don't `git commit`, instead we `git rebase --continue`
-- During a rebase conflict, if you choose to resolve the conflict by keeping the changes from the base branch instead of the feature branch, keep in mind that the commit you decided to forsake from the feature branch, will in fact, be gone from history, since it is not pointless, but because reflog is based, it will still keep mention of it as usual
+- During a rebase conflict, if you choose to resolve the conflict by keeping the changes from the base branch instead of the feature branch, keep in mind that the commit you decided to forsake from the feature branch, will in fact, be gone from history, but because reflog is **_based_**, it will still keep mention of it as usual
 - If we instead keep some changes from the feature branch commit, even if not all of them, git would still reference it in the history
 ## Repeat Resolution Setup
 - Sometimes, especially with rebase conflicts, you may find yourself resolving the same conflict over and over again, which can be very annoying especially when you have multiple long-running feature branches being rebased off of main
 - Git gives us a solution though called "rerere" or Reuse Recorded Resolution
 - This setting allows git to remember how you usually resolve a specific conflict and then it can resolve it automatically
-- This hidden tech also applies to merging
+- This hidden tech also applies to **merging**
 - To enable "rerere": `git config set --local rerere.enabled true`
 - Rerere cache can be cleared in case you don't want the recorded resolutions to persist: `rm -rf .git/rr-cache`
 # Squashing
@@ -237,26 +237,35 @@ git merge HEAD@{1}
 # Stash
 - `git stash` records the current state of the working directory and index (staging area) and records those changes in a safe place while reverting the work tree back to match the HEAD commit, you can also `git stash list` to see all your stashes
 - `git stash pop`: applies the stash to the current working directory and removes it from the stash list
-- The stash is a LIFO stack so you add and pop stashes
+- The stash is a LIFO [[PG stacks|stack]] so you add and pop stashes
 - You can also stash changes with a message `git stash -m "message"`
 - `git stash apply`: applies the most recent stash without removing it from the list
 - `git stash drop`: remove the most recent stash from the list
 - `git stash apply stash@{2}`: stashes are zero indexed, so this applies the 3rd most recent stash in the list
 # Revert
-- `git revert <commit-hash>` is a bit less brutal than `git reset` as instead of removing a commit, it just creates a commit that reverses it, effectively undoing the change while keeping track in the history that that undoing was done
+- `git revert <commit-hash>` is a bit less brutal than `git reset` as instead of removing a commit, it just creates a commit that reverses it, effectively undoing the change while keeping track in the history that that undoing was done similar to a [[PG SQL#Down migration|SQL migration down]]
 #### Diff
 - `git diff` shows you the difference between various things, like the work tree, commits and so on. As is, the command will show you the difference between the work tree, and last commit
 - `git diff HEAD~1` shows the diff between the previous commit and the current state + last commit
 - `git diff COMMIT_HASH_1 COMMIT_HASH_2` shows the diff between two commit
 #### Reset VS Revert
 - Just like with merging and rebasing, if you're working on your own branch and you want to undo a mistake you made, then `git reset` is a good option
-- If you're trying to undo a change on a publish branch though, then it's definitely better to go for `git revert` so that everyone would know what changed
+- If you're trying to undo a change on a public branch though, then it's definitely better to go for `git revert` so that everyone would know what changed
 # Cherry Pick
 - `git cherry-pick <commit-hash>` is mainly useful when you just want to yoink a specific commit, or a couple from a branch, without the rest of the branch, so you don't want to either merge or rebase
 - To cherry pick, you need:
 	1. First, you need a clean working tree (no uncommitted changes).
 	2. Identify the commit you want to cherry-pick, typically by `git log`ing the branch it's on.
 	3. Run: `git cherry-pick <commit-hash>`
+# Restore
+- `git restore` allows you to pick certain files, or portions of files to add to your branch
+```bash
+## Add file.go to your branch
+git restore --source=D -- file.go
+
+## Interactively pick a portion of file.go to add to your branch
+git restore -p --source=D -- file.go
+```
 # Bisect
 - `git bisect` uses binary search to find a commit that introduced a bug
 - This command isn't only meant for bugs, it's meant for any change that you want to find really but the most common use case is bugs or performance regressions
