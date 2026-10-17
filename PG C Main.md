@@ -3,6 +3,7 @@ tags:
 - C
 - Programming-Language
 MOC: Programming
+Course: "https://www.boot.dev/courses/learn-memory-management-c"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG C index|Back to index]]
 

@@ -3,6 +3,7 @@ tags:
 - paradigms
 - programming-language
 moc: programming
+Course: "https://www.boot.dev/courses/learn-object-oriented-programming-python"
 ---
 
 [[_0000 home|home]] | [[_0006 programming moc|back to programming moc]] | [[pg paradigms index|back to index]]

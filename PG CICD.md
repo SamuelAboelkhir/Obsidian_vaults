@@ -2,6 +2,7 @@
 tags: 
 - Other
 MOC: Programming
+Course: "https://www.boot.dev/courses/learn-ci-cd-github-docker-golang"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Other index|Back to index]]
 

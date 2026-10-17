@@ -542,23 +542,23 @@
             "id": "fc567a4d99008b76",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "PG CDN",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CDN.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CDN\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":77},\"to\":{\"line\":4,\"ch\":77}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":5.960365949096052}"
-                },
-                {
                   "title": "_0006 Programming MOC",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.32599127150604}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":11},\"to\":{\"line\":18,\"ch\":11}},\"scroll\":8.881127142183658}"
                 },
                 {
                   "title": "PG Go index",
@@ -577,23 +577,53 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Git.md",
+                "file": "PG Other index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Git"
+              "title": "PG Other index"
             }
           },
           {
             "id": "df22fc5825476af0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "NET Components of a URL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"NET Components of a URL.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"NET Components of a URL\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7676959970772236}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":10},\"to\":{\"line\":15,\"ch\":10}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.32599127150604}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Go Main",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go Main.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go Main\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":74},\"to\":{\"line\":6,\"ch\":74}},\"scroll\":0.7489716746943461}"
                 },
                 {
                   "title": "_0006 Programming MOC",
@@ -630,12 +660,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PG Go Main.md",
+                "file": "PG Cryptography.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PG Go Main"
+              "title": "PG Cryptography"
             }
           },
           {
@@ -678,55 +708,9 @@
               "icon": "lucide-file",
               "title": "PER TUImpeg"
             }
-          },
-          {
-            "id": "c02e5660c2e75673",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_0000 Home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_0000 Home"
-            }
-          },
-          {
-            "id": "941a20af3b35b084",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WR Overtime And Annuals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WR Overtime And Annuals"
-            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 8
       },
       {
         "id": "8e63b7d754490c17",
@@ -753,7 +737,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "WR Overtime And Annuals.md",
+                    "file": "PG Other index.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -943,7 +927,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Source",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -995,7 +979,8 @@
               "title": "Web history"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1161,7 +1146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WR Overtime And Annuals.md",
+                "file": "PG Other index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -1236,37 +1221,37 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "941a20af3b35b084",
+  "active": "fc567a4d99008b76",
   "lastOpenFiles": [
-    "WR QMS re-restructring.md",
-    "_0000 Home.md",
-    "WR Overtime And Annuals.md",
-    "CYB Web Security.md",
-    "PG Go Main.md",
-    "PER TUImpeg.md",
-    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
-    "PG Git.md",
-    "PG SQL.md",
-    "WR Projects index.md",
-    "WR Lessons learned from pricing app.md",
-    "WR VA General Notes.md",
-    "PER Project ideas index.md",
-    "PER CompGoR.md",
-    "PER Python Snake Plan.md",
-    "_0003 Personal MOC.md",
-    "PER Questions.md",
-    "Biochemistry/Attachments/Pasted image 20261013234941.png",
+    "PG CDN.md",
+    "PG Other index.md",
+    "PG CICD.md",
     "_0006 Programming MOC.md",
-    "PG Java index.md",
     "PG Go index.md",
-    "PG Bash index.md",
+    "PG Go http server.md",
+    "PG Go http client.md",
+    "PG Docker.md",
+    "PG SQL.md",
+    "PG Paradigms index.md",
+    "PG Functional Programming.md",
+    "PG Object Oriented Programming.md",
+    "PG Go Main.md",
+    "PG Cryptography.md",
+    "PER TUImpeg.md",
+    "LI Linux Main.md",
     "_0001 Linux MOC.md",
-    "WR Compass.md",
-    "WR Bit.it TODO.md",
+    "_0000 Home.md",
+    "PG Python index.md",
+    "PG Python main.md",
+    "PG C index.md",
+    "PG C Main.md",
+    "PG Git.md",
+    "NET Components of a URL.md",
+    "Samuel & Adel/Dream Project.md",
+    "CYB Web Security.md",
+    "Biochemistry/Attachments/Pasted image 20261013234941.png",
     "WR Bid.it Schema.canvas",
     "WR Church ERD.canvas",
-    "WR Church Tasks.md",
-    "PG Other index.md",
     "Biochemistry/Attachments/Pasted image 20261013235429.png",
     "Biochemistry/Attachments/Pasted image 20261013213638.png",
     "Biochemistry/Attachments/Pasted image 20261013234344.png",

@@ -145,3 +145,23 @@ Cookie: bootdev_session_id=7f3c9a21d84e4b6fa2c18e57b9034d6a
 4. The browser stores the cookie.
 5. The user makes a request to post a comment, and the browser automatically sends the session cookie with the request.
 6. The server reads the cookie, loads the session, and checks that it's still valid. If it is, the hot-take is posted.
+# Cookie Security
+
+From the server's point of view, cookies are convenient. From an attacker's point of view, session cookies are **exploitable**.
+
+If an attacker steals a bearer session cookie and reuses it, the server (usually) can't tell those requests apart from the user's. Some common mistakes are:
+
+- If a session cookie is readable through `document.cookie`, injected JavaScript can steal it.
+- If a session cookie is sent over plain HTTP, an attacker who can observe the connection can capture it.
+- If a cookie has an unnecessarily broad domain or long expiration, an attacker has more opportunities to steal and reuse it.
+- If the browser attaches a cookie to a malicious cross-site request, [cross-site request forgery (CSRF)](https://owasp.org/www-community/attacks/csrf) is possible... which we'll talk about later.
+## Cookie Security Flags
+
+Modern browsers give us [tools to limit how cookies behave](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies#security). The most important ones are:
+
+- [`HttpOnly` (boolean)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#httponly): Prevents JavaScript from reading the cookie through `document.cookie`.
+- [`Secure` (boolean)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#secure): Sends the cookie only over HTTPS (and localhost, for development).
+- [`SameSite` (Strict, Lax, None)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#samesitesamesite-value): Restricts when the browser sends the cookie with cross-site requests. `Strict` is the most restrictive. `Lax` also permits top-level cross-site navigations using safe methods, which many login flows need.
+
+> Set cookie attributes deliberately instead of relying on framework or browser defaults!
+

@@ -3,6 +3,7 @@ tags:
 - Go
 - Programming-Language
 MOC: Programming
+Course: "https://www.boot.dev/courses/learn-http-clients-golang"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Go index|Back to index]]
 

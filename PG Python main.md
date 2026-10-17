@@ -3,6 +3,7 @@ tags:
 - Python
 - Programming-Language
 MOC: Programming
+Course: "https://www.boot.dev/courses/learn-python-beginners"
 ---
 [[_0000 Home|Home]] | [[_0006 Programming MOC|Back to Programming MOC]] | [[PG Python index|Back to index]]
 # Python basics

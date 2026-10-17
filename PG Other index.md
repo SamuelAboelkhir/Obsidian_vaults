@@ -14,6 +14,7 @@ MOC: Programming
 - Other Regex cheat sheet [[PG RegEX Cheat Sheet & Quick Reference]]
 [[PG LSP]]
 [[PG CDN]]
+[[PG Cryptography]]
 ## SQL
 [[PG SQL]]
 [[PG AI Discussion]]

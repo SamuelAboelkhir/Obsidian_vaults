@@ -3,6 +3,7 @@ tags:
 - CLI
 - LI
 MOC: Linux
+Course: "https://www.boot.dev/courses/learn-linux"
 ---
 
 [[_0000 Home|Home]] | [[_0001 Linux MOC|Back to Linux MOC]] 
