@@ -495,7 +495,7 @@ Exporting creates files with extensions .txt and .html in the current directory.
 ## 18. Dynamic Blocks
 
  
-|Key|Function|
-|---|---|
-|`C-c C-x C-u`|update dynamic block at point|
-|`C-u C-c C-x C-u`|update all dynamic blocks|
+| Key               | Function                      |
+| ----------------- | ----------------------------- |
+| `C-c C-x C-u`     | update dynamic block at point |
+| `C-u C-c C-x C-u` | update all dynamic blocks     |

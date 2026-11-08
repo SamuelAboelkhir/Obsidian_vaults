@@ -8,4 +8,5 @@ MOC: Sciences
 [[SC Biology index]]
 [[SC Chemistry index]]
 [[SC Datascience index]]
+[[SC Mathematics index]]
 [[SC Other index]]

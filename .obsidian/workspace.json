@@ -6,10 +6,10 @@
       {
         "id": "7a009a3f609bcaae",
         "type": "tabs",
-        "dimension": 84.07138136153338,
+        "dimension": 84.65608465608466,
         "children": [
           {
-            "id": "04bbca8d9c05d9cd",
+            "id": "a49599a1ebfbbdcd",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -17,6 +17,77 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PG Workflows",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Workflows.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Workflows\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "PG Other index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG WebSocket and Its Difference from HTTP",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG WebSocket and Its Difference from HTTP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG WebSocket and Its Difference from HTTP\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WR VA General Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WR VA General Notes"
+            }
+          },
+          {
+            "id": "04bbca8d9c05d9cd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "WR Compass permissions canvas",
+                  "icon": "lucide-layout-dashboard",
+                  "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"WR Compass permissions canvas.canvas\",\"viewState\":{\"x\":-384,\"y\":280,\"zoom\":-0.6775042501610337}},\"icon\":\"lucide-layout-dashboard\",\"title\":\"WR Compass permissions canvas\"}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "WR General Index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+                },
+                {
+                  "title": "_0002 Work MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "WR Projects index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7676959970772236}"
+                },
+                {
+                  "title": "WR QMS re-structring",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR QMS re-structring.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR QMS re-structring\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":36},\"to\":{\"line\":20,\"ch\":36}},\"scroll\":0}"
                 },
                 {
                   "title": "WR Projects index",
@@ -113,20 +184,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR QMS re-structring.md",
+                "file": "WR Project management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR QMS re-structring"
+              "title": "WR Project management"
             }
           },
           {
             "id": "26ec0eb41e0ee5a7",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "SC Getting and Cleaning Data",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Getting and Cleaning Data.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Getting and Cleaning Data\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7676959970772236}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -185,16 +262,216 @@
             }
           },
           {
-            "id": "01f644ff9d525ed0",
+            "id": "a9dfc09beb9f6b35",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SC Chemistry index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":21},\"to\":{\"line\":11,\"ch\":21}}}"
+                },
+                {
+                  "title": "SC Bonding & Structure",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Bonding & Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Bonding & Structure\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":36},\"to\":{\"line\":82,\"ch\":36}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Java",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Java.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Java\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Java index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Java index.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Java index\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0006 Programming MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Templ",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Templ.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Templ\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "PG Go http server",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http server.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http server\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.760769609813283}"
+                },
+                {
+                  "title": "PG Templ",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Templ.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Templ\"}",
+                  "eState": "{\"scroll\":191.4007085755814}"
+                },
+                {
+                  "title": "PG Go index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":7},\"to\":{\"line\":13,\"ch\":7}}}"
+                },
+                {
+                  "title": "PG Go http server",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http server.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http server\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":398,\"ch\":18},\"to\":{\"line\":398,\"ch\":18}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC Isomerism.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SC Isomerism"
+            }
+          },
+          {
+            "id": "25431475ffcdcba0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 3,
+              "stack": [
+                {
+                  "title": "LI verb",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI verb.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI verb\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":0},\"to\":{\"line\":36,\"ch\":0}},\"scroll\":7.9493970102769245}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":30},\"to\":{\"line\":18,\"ch\":30}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC Periodic Table.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SC Periodic Table"
+            }
+          },
+          {
+            "id": "20f195e942f03a8e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SC Chemistry index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC Chemistry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SC Chemistry"
+            }
+          },
+          {
+            "id": "632e12fd7b488c68",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 1,
               "stack": [
                 {
-                  "title": "PG Go http server",
+                  "title": "Pasted image 20261013213638",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Biochemistry/Attachments/Pasted image 20261013213638.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261013213638\"}",
+                  "eState": "{}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SC Biochemistry index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http server.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http server\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":382,\"ch\":26},\"to\":{\"line\":382,\"ch\":26}},\"scroll\":389.36640049237775}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SC Principles of Biochemistry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SC Principles of Biochemistry"
+            }
+          },
+          {
+            "id": "01f644ff9d525ed0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 2,
+              "stack": [
+                {
+                  "title": "PER Project ideas index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Project ideas index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Project ideas index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "WR Projects index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -310,209 +587,15 @@
             }
           },
           {
-            "id": "a49599a1ebfbbdcd",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG WebSocket and Its Difference from HTTP",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG WebSocket and Its Difference from HTTP.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG WebSocket and Its Difference from HTTP\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG Workflows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG Workflows"
-            }
-          },
-          {
-            "id": "a9dfc09beb9f6b35",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SC Chemistry index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":21},\"to\":{\"line\":11,\"ch\":21}}}"
-                },
-                {
-                  "title": "SC Bonding & Structure",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Bonding & Structure.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Bonding & Structure\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":36},\"to\":{\"line\":82,\"ch\":36}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Java",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Java.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Java\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Java index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Java index.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Java index\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG Templ",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Templ.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Templ\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG Go index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Go http server",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http server.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http server\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.760769609813283}"
-                },
-                {
-                  "title": "PG Templ",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Templ.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Templ\"}",
-                  "eState": "{\"scroll\":191.4007085755814}"
-                },
-                {
-                  "title": "PG Go index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":7},\"to\":{\"line\":13,\"ch\":7}}}"
-                },
-                {
-                  "title": "PG Go http server",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http server.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http server\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":398,\"ch\":18},\"to\":{\"line\":398,\"ch\":18}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC Isomerism.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SC Isomerism"
-            }
-          },
-          {
-            "id": "25431475ffcdcba0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 3,
-              "stack": [
-                {
-                  "title": "Pasted image 20261013004529",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Chemistry/Pasted image 20261013004529.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261013004529\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Pasted image 20261013004327",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Chemistry/Pasted image 20261013004327.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261013004327\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "image.P0TUW3",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Chemistry/image.P0TUW3.png\"},\"icon\":\"lucide-image\",\"title\":\"image.P0TUW3\"}",
-                  "eState": "{}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC Periodic Table.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SC Periodic Table"
-            }
-          },
-          {
-            "id": "20f195e942f03a8e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SC Chemistry index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC Chemistry.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SC Chemistry"
-            }
-          },
-          {
-            "id": "632e12fd7b488c68",
+            "id": "52cf085e77ac6b48",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 1,
               "stack": [
                 {
-                  "title": "Pasted image 20261013213638",
+                  "title": "Pasted image 20261031201919",
                   "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Biochemistry/Attachments/Pasted image 20261013213638.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261013213638\"}",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Data science/Pasted image 20261031201919.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261031201919\"}",
                   "eState": "{}"
                 },
                 {
@@ -520,130 +603,78 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "SC Biochemistry index",
+                  "title": "SC Mathematics index",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Biochemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Biochemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SC Principles of Biochemistry.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SC Principles of Biochemistry"
-            }
-          },
-          {
-            "id": "fc567a4d99008b76",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PG CDN",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG CDN.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG CDN\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":177,\"ch\":40},\"to\":{\"line\":177,\"ch\":40}},\"scroll\":171.5675516265089}"
-                },
-                {
-                  "title": "PG Other index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Other index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Other index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":10},\"to\":{\"line\":15,\"ch\":10}},\"scroll\":0.9780891312271723}"
-                },
-                {
-                  "title": "_0006 Programming MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0006 Programming MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0006 Programming MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":11},\"to\":{\"line\":18,\"ch\":11}},\"scroll\":8.881127142183658}"
-                },
-                {
-                  "title": "PG Go index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "PG Go http server",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PG Go http server.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PG Go http server\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7676959970772236}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PG Go Main.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PG Go Main"
-            }
-          },
-          {
-            "id": "6bed2f98b79d667b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "PER Project ideas index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Project ideas index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Project ideas index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":10},\"to\":{\"line\":8,\"ch\":10}}}"
-                },
-                {
-                  "title": "_0003 Personal MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0003 Personal MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0003 Personal MOC\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Mathematics index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Mathematics index\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "PER Questions",
+                  "title": "_0004 Sciences MOC",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"PER Questions.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"PER Questions\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "SC Mathematics index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Mathematics index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Mathematics index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":3},\"to\":{\"line\":5,\"ch\":3}}}"
+                },
+                {
+                  "title": "_0004 Sciences MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0004 Sciences MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0004 Sciences MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":24},\"to\":{\"line\":9,\"ch\":24}}}"
+                },
+                {
+                  "title": "_0000 Home",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "_0008 IBM i MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0008 IBM i MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0008 IBM i MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "IBM Journaling",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"IBM Journaling.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"IBM Journaling\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":58},\"to\":{\"line\":8,\"ch\":58}},\"scroll\":0}"
+                },
+                {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":935,\"ch\":80},\"to\":{\"line\":935,\"ch\":80}},\"scroll\":926.8141416896493}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PER TUImpeg.md",
+                "file": "SC Algebra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PER TUImpeg"
+              "title": "SC Algebra"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       },
       {
         "id": "8e63b7d754490c17",
         "type": "split",
-        "dimension": 15.928618638466624,
+        "dimension": 15.343915343915343,
         "children": [
           {
             "id": "5345fe004c76117d",
             "type": "tabs",
-            "dimension": 52.941176470588246,
+            "dimension": 25.17766497461929,
             "children": [
               {
                 "id": "8db8e8362861b018",
@@ -660,7 +691,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "PER TUImpeg.md",
+                    "file": "CYB Web Security.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -761,7 +792,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.2701365769852864,
+                      "scale": 0.06145950913914,
                       "close": true
                     }
                   },
@@ -774,7 +805,7 @@
           {
             "id": "6d28c791c403057c",
             "type": "tabs",
-            "dimension": 47.058823529411754,
+            "dimension": 74.82233502538071,
             "children": [
               {
                 "id": "9b48b59a18d7e0d2",
@@ -794,8 +825,33 @@
                   "icon": "calendar-with-checkmark",
                   "title": "Calendar"
                 }
+              },
+              {
+                "id": "b4686196e4d86fa4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "CYB Web Security.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -1047,34 +1103,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/Tldraw 2026-08-12 2.11PM.md"
+                "file": "CYB Web Security.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
-            }
-          },
-          {
-            "id": "b4686196e4d86fa4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "PER TUImpeg.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
             }
           },
           {
@@ -1097,7 +1129,7 @@
             }
           },
           {
-            "id": "af65694983c152d8",
+            "id": "8c7b375a469a5d8f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1143,46 +1175,51 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "6bed2f98b79d667b",
+  "active": "3197a52ebbcc7fda",
+  "ophidian:layout-settings": {
+    "pane-relief:focus-lock": false
+  },
   "lastOpenFiles": [
+    "assets/Computer sciences/Pasted image 20261108081125.png",
+    "SC Algebra.md",
+    "CYB Web Security.md",
+    "PER Questions.md",
+    "PER Project ideas index.md",
+    "WR Projects index.md",
+    "SC Principles of Biochemistry.md",
+    "assets/Computer sciences/Pasted image 20261107160406.png",
+    "WR Church New Req.md",
+    "WR Church Extra.md",
+    "WR Church TODO.md",
+    "WR Church Requirements.md",
+    "WR Project management.md",
+    "WR Compass permissions canvas.canvas",
+    "WR VA General Notes.md",
+    "PG SQL.md",
+    "assets/Computer sciences/SQLJoins.jpeg",
     "PG Go Main.md",
-    "PG CDN.md",
-    "PER TUImpeg.md",
-    "WR QMS re-structring.md",
+    "LI CLI Tools and Commands.md",
+    "_0000 Home.md",
+    "PG General Patterns.md",
     "PG Other index.md",
-    "PG CICD.md",
     "_0006 Programming MOC.md",
     "PG Go index.md",
-    "PG Go http server.md",
-    "PG Go http client.md",
-    "PG Docker.md",
-    "PG SQL.md",
-    "PG Paradigms index.md",
-    "PG Functional Programming.md",
-    "PG Object Oriented Programming.md",
+    "PG Go Patterns.md",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
+    "SC Cheat Sheet -  Adding Math Notation To Markdown.md",
     "PG Cryptography.md",
-    "LI Linux Main.md",
-    "_0001 Linux MOC.md",
-    "_0000 Home.md",
-    "PG Python index.md",
-    "PG Python main.md",
-    "PG C index.md",
-    "PG C Main.md",
-    "PG Git.md",
-    "NET Components of a URL.md",
-    "Samuel & Adel/Dream Project.md",
-    "Biochemistry/Attachments/Pasted image 20261013234941.png",
+    "assets/Computer sciences/Pasted image 20261105112631.png",
+    "assets/Computer sciences/Pasted image 20261104101723.png",
+    "LI verb.md",
+    "assets/Math/standard_form.png",
+    "Pasted image 20261103223706.png",
+    "assets/Math/Pasted image 20261101232635.png",
+    "assets/Data science/Pasted image 20261101172141.png",
+    "assets/Data science/Pasted image 20261101172134.png",
+    "assets/Math",
+    "assets/Math/Pasted image 20261101004454.png",
     "WR Bid.it Schema.canvas",
     "WR Church ERD.canvas",
-    "Biochemistry/Attachments/Pasted image 20261013235429.png",
-    "Biochemistry/Attachments/Pasted image 20261013213638.png",
-    "Biochemistry/Attachments/Pasted image 20261013234344.png",
-    "Biochemistry/Attachments/Pasted image 20261013233623.png",
-    "Biochemistry/Attachments/Pasted image 20261013232004.png",
-    "Biochemistry/Attachments/Pasted image 20261013223402.png",
-    "Biochemistry/Attachments/Pasted image 20261013222137.png",
-    "Biochemistry/Attachments/Pasted image 20261013221817.png",
-    "Biochemistry/Attachments/Pasted image 20261013221330.png",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/20-pdf-slides-doubly-linked-lists.pdf",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/19-pdf-slides-singly-linked-lists.pdf",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/21-1-pdf-slides-stacks.pdf",
@@ -1191,9 +1228,7 @@
     "assets/Chemistry",
     "assets/Data science",
     "assets/Computer sciences",
-    "WR Compass permissions canvas.canvas",
     "assets/pdfs/CheatSheet.pdf",
-    "assets/pdfs/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
     "WR VA BL Schema attempt 1.canvas"
   ]
 }

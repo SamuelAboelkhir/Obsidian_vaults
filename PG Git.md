@@ -81,7 +81,7 @@ Course: ["https://www.boot.dev/courses/learn-git", "https://www.boot.dev/courses
 	- If you `git log` and get the hashes of the commits
 	- You can then `git cat-file` with the hash of the tree the commit is showing
 	- This will bring back the blob, then `git cat-file` on the blob's hash will show the file's contents
-- From these findings it's obvious that git uses a tree data structure to function
+- However, git itself is a DAG (directed acyclic graph), at least with how commits are structured
 - The head though which is normally a reference that references other refs (branch hashes) can also be detached and point at a commit directly
 	- If this happens you basically end up with a linked list as you will only know about this one branch, which is why it's detached
 	- You can rejoin society though by creating a proper branch off of the detached head
@@ -324,3 +324,6 @@ git restore -p --source=D -- file.go
 - An example of a tag `git tag -a v3.10.2 -m "Fixed a lil bug"`
 - Tags are commitish as we said before, so they can be used anywhere a commit hash can be used
 - Finally, a commit, can actually have multiple tags, and you can push tags to the remote repo with `git push origin --tags`
+# Past the course
+- `git rev-parse` (revision parsing) is a plumbing command used to resolve revision expressions and retrieve repository information, such as `--show-toplevel`, which returns the absolute path to the repository's root directory.
+- `--dry-run` can be used with any git command to simulate the action without actually doing it

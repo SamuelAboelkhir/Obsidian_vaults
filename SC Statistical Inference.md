@@ -50,9 +50,9 @@ MOC: Sciences
 - Intuitively, we should be aware that the probability of something happening, is 1 minus the probability of the opposite, which is true for mutually exclusive cases, such as the probability of an even number being 1 - 0.5 (probability of an odd number) = 0.5
 - If we have an event A, which implies the occurrence of an event B, then the probability of A occurring is less that that of B occurring
 	- This is because by this definition, A becomes a subset of B
-	- ![[Pasted image 20260527101442.png]]
-	- This for example means that if we get the number 2, then this implies we have an even number, but we can have an even number if we get 4 or 6 too
-	- So if the probability of an even number is B and that of 2 is A this means that $P(B) > P(A)$
+ ![[Pasted image 20260527101442.png]]
+- This for example means that if we get the number 2, then this implies we have an even number, but we can have an even number if we get 4 or 6 too
+- So if the probability of an even number is B and that of 2 is A this means that $P(B) > P(A)$
 #### Intersection
 - What about the union of the probability we get a number that's a multiple of 2, or a one that's a multiple of 3?
 - Here we have an intersection, because $P(A)$ becomes the probability of 2, 4 or 6 and $P(B)$ is 3 or 6, so the 6 is shared
@@ -99,7 +99,7 @@ MOC: Sciences
 - Say we want to find the probability that 20 to 80% of calls in a call center gets addressed
 - That probability can be represented as follows
 ![[Pasted image 20260602001428.png]]
-- The PDF is the formula for just the height of the triangle, which is basically the slope * the base since the slope is rise/run, or height/width, the PDF is = to the rise or if we just know the slope, then it's slope * base (slope = 1/2 * base that's 2 = 1 for example)
+- The PDF is the formula for just the height of the triangle, which is basically the slope * the base since the slope is rise/run, or height/width, the PDF is = to the rise or if we just know the slope, then it's slope * base (slope is 1/2 * base which is 2, so 1/2 * 2 = 1 for example)
 - It's important to note that there is a distinction between the values 0.2 and 0.8 as "percentage" calls answered, and the actual probability percentage of being in that range
 - Note that the rules we defined are both respected too, as the values are higher than or equal to 0, and the area under is equal to 1
 - So what's the probability that 75% of the calls get addressed?
@@ -198,5 +198,47 @@ qbeta(0.5625, 2, 1)
 ## Independent identically distributed
 - Random variables are considered to be IID if they are independent, meaning that they are statistically unrelated, and identically distributed, if they've been drawn from the same population distribution
 - IID random variables are the default model for random samples, and many statistical theories assume IID variables, so we usually assume our samples are random and variables are IID
+## Expectations
+- Here, we're looking into the expected values of random variables, such as variable `X`
+- `E(X)` is a measure of the central tendency of the random variable
+- If `X` is any possible value of `p(x)` then `E(X)` is  the sum over all the possible values of the quantity `x*p(x)`
+- `E(X)` can also be considered the center of mass of a collection of locations and weights `{x, p(x)}`
+- Another term for `E(X)` is actually "mean" if all the numbers are weighted equally
 
-PROTON_LOG=1 PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 UPLAY_DISABLE_OVERLAY=1 DXVK_ASYNC=0 taskset -c 0-3 %command% 
+Considering a fair die _as always_, the expected value there would would be equivalent to the mean = 3.5, while in a high loaded dice (meaning a higher number is more probable) the expected value would be skewed towards the higher end of the spectrum, and vice versa in a low loaded die
+
+The expected value operation is linear, which means that if we add a constant `c` to our variables, such as `E(cX)`, that would be equivalent to `c*E(X)`, and if we have two random variables `X` and `Y`, then `E(X+Y)=E(X)+E(Y)` and `E(aX+bY)=aE(X)+bE(Y)`
+
+The high and low dice were loaded in opposite ways, and due to that, the average of their expected values will turn out to be fair again
+
+So far we've been talking about a discrete case with the dice, but for continuous random variables, we don't sum over discrete values, but rather the expectation integrates over a continuous function
+That means that for continuous random variables, `E(X)` is the area under the function `t*f(t)`, where `f(t)` is the PDF of `X`
+
+In the below graph, on the left we have a constant (1) and on the right is the graph of `t*f(t)`
+
+![[Pasted image 20261031201919.png]]
+
+The expected value, is the area under the triangle, which is `t*f(t)`
+Obviously I forgot my geometry, so the area of a triangle is base * height * 0.5, so here that gives us `1*1*0.5` which is `0.5`
+
+In the next example, the base is equal to 2, and `t*f(t)` gives us a parabola
+
+![[Pasted image 20261031203504.png]]
+
+The expected values of distributions is useful for characterizing them. The mean for example characterizes the central tendency of the distribution. Populations can be too big to measure though, meaning that we need to sample them and use the sample means to estimate the population mean
+
+One neat thing about expected values, is that the expected value, or mean, of the expected values, or means, of various samples taken from the population, IS the actual mean of the population even if the sample means themselves vary a lot
+That makes the sample mean an unbiased estimator of the population
+
+So, an estimator `e` of some parameter `v` is unbiased if its expected value equals `v`, i.e., `E(e)=v`
+
+Here's another figure that shows how a sample mean and the mean of averages spike together. The two shaded distributions come from the same data. The blue portion represents the density function of randomly generated standard normal data of 100000 samples, and the pink portion represents the density function of 10000 averages, each of 10 random normals
+
+![[Pasted image 20261101172134.png]]
+
+In the next figure, rolling  die 10000 times yielded the first figure. Each of the 6 possible outcomes appears with about the same frequency. The second figure is the histogram of outcomes of the average of rolling two dice, the third one is the same but with 3 dice, and the fourth one with four dice
+
+![[Pasted image 20261101172141.png]]
+
+The center of mass or mean of the original distribution was 3.5, which is exactly where all the panels are centered
+The more data that goes into the sample mean, the more concentrated its density / mass function is around the population mean

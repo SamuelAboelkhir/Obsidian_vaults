@@ -6,13 +6,13 @@ MOC: Personal
 ---
 [[_0000 Home|Home]] | [[_0003 Personal MOC]]
 
-## Ongoing
-- [[PER Python Snake Plan]]
-- [[PER CompGoR]]
-- [[PER TUImpeg]]
 ## Not started
 - [[PER Programming toolkit]]
 - [[PER My own ASCII art]]
 - [[PER Password manager]]
 - [[PER Interactive science learning website]]
-- Go wrapper around ffmpeg, using bubble tea
+## Ongoing
+- [[PER Python Snake Plan]]
+- [[PER CompGoR]]
+## Done
+- [[PER TUImpeg]]

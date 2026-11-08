@@ -15,9 +15,9 @@ MOC: Personal
 ## Phase 1 - Functional app
 - [x] Add file picker
 	- [x] Add input file input
-	- [ ] Add output file input
-- [ ] Request cut start time
-- [ ] Request cut end time
+	- [x] Add output file input
+- [x] Request cut start time
+- [x] Request cut end time
 ## Phase 2 - Prettier
 - [ ] Add time range bar
 - [ ] Check Lipgloss
