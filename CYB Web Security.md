@@ -7,7 +7,7 @@ MOC: IT
 # OWASP Top 10
 - [OWASP](https://owasp.org) (the Open Worldwide Application Security Project) publishes a new list of critical web application security risks every few years. The [OWASP Top 10:2025](https://owasp.org/Top10/2025/0x00_2025-Introduction/) combines contributed application-testing data with a survey of security practitioners. **It's based on real-world data!**
 
->The Top 10 is a great starting point, but it's not a complete security checklist.
+> [!WARNING] The Top 10 is a great starting point, but it's not a complete security checklist.
 
 - Here are the current categories for **2026**:
 	- _A01: Broken Access Control_ – Users can do things they shouldn't be allowed to do.
@@ -21,7 +21,7 @@ MOC: IT
 	- _A09: Security Logging and Alerting Failures_ – Attacks happen without triggering the records or alerts needed for a response.
 	- _A10: Mishandling of Exceptional Conditions_ – Unexpected conditions expose details, bypass controls, or leave the system in a bad state.
 
->You do _not_ need to memorize this list. You _do_ need to know where to find it and how to use it as a **guide** for identifying potential issues in your application.
+> [!QUOTE] You do _not_ need to memorize this list. You _do_ need to know where to find it and how to use it as a **guide** for identifying potential issues in your application.
 ## NoSniff
 - Missing browser security headers are a concrete example of **A02: Security Misconfiguration**. One of the simplest headers to add is [`X-Content-Type-Options: nosniff`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Content-Type-Options).
 - This header tells browsers to respect a response's declared [`Content-Type`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Type) instead of guessing from its contents.
@@ -65,7 +65,7 @@ MOC: IT
 	- `Ligma@example.com`
 - But they all _almost certainly_ point to the same mailbox, because email systems tend to treat addresses as case-_insensitive_. Apps should choose one **canonical** representation for any type of ID before storing it or looking it up... and for our purposes, we'll just lowercase the email address and strip whitespace.
 - Bearly Secure currently allows for different formats of email addresses! Our architect has decided that we **should trim surrounding whitespace** and **force lowercase** for all account emails.
->Lowercasing an email address is a deliberate product rule for _this_ app, not a universal rule regarding email. SMTP technically [preserves case in the local part](https://datatracker.ietf.org/doc/html/rfc5321#section-2.4), while domains are case-insensitive. The important security rule is _consistency_.
+> [!WARNING] Lowercasing an email address is a deliberate product rule for _this_ app, not a universal rule regarding email. SMTP technically [preserves case in the local part](https://datatracker.ietf.org/doc/html/rfc5321#section-2.4), while domains are case-insensitive. The important security rule is _consistency_.
 
 ## Stateless vs. Stateful Authentication
 - Whenever a web server receives a request, it first needs to answer:
@@ -79,14 +79,15 @@ MOC: IT
 	3. The server accepts or rejects the request based on the token without loading a session record.
 - Sure, the server may still load user data, but "stateless" means the actual token validation doesn't depend on any stored session state. Many stateless systems use [**bearer tokens**](https://www.rfc-editor.org/info/rfc6750/) encoded as [JWTs](https://www.rfc-editor.org/info/rfc7519/), and anyone who gets ahold of one can use it until it expires.
 	- Also check out [[PG Go http server#JWTs|JWTs]] 
-- To be fair, a JWT doesn't _automatically_ make a system stateless, the server _can_ still check it against stored state, but that sometimes defeats the purpose of it being a JWT in the first place.
+> [!INFO] To be fair, a JWT doesn't _automatically_ make a system stateless, the server _can_ still check it against stored state, but that sometimes defeats the purpose of it being a JWT in the first place.
 ### Stateful Authentication
 - **The server remembers you.** Typically:
 	1. After successful login, the server creates a session record and sends a secret session identifier to the client
 	2. The client sends the secret session identifier with future requests.
 	3. The server accepts or rejects the request after checking if the session identifier maps to a valid session record (usually in a database or in-memory store).
-- Web apps usually carry the session identifier in a [cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies).
-	- Also check out [[PG Go http server#Cookies|Cookies]]
+> [!INFO] Web apps usually carry the session identifier in a [cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies).
+	
+Also check out [[PG Go http server#Cookies|Cookies]] from these notes
 ### Pros and Cons
 - **Stateless token validation**:
 	- Avoids a server-side session lookup during token validation (simplifies scaling and reduces latency)
@@ -106,7 +107,7 @@ MOC: IT
 	- Whether the session has been revoked (`revoked_at`, can be `NULL` if the session is still valid)
 	![[Pasted image 20260920214802.png|602]]
 - For each request, the server reads the session ID from the [`Cookie` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cookie), looks up the record, and rejects sessions that are missing, expired, or revoked.
->A session ID is a [bearer credential](https://www.rfc-editor.org/info/rfc6750/), so it **needs to stay secret**. Don't put raw session IDs in URLs or logs.
+> [!DANGER] A session ID is a [bearer credential](https://www.rfc-editor.org/info/rfc6750/), so it **needs to stay secret**. Don't put raw session IDs in URLs or logs.
 
 ## Cookies
 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies) are small name-value pairs that a browser stores and sends with matching HTTP requests. Many web applications happen to store session IDs in cookies, but they're _totally different concepts_. A cookie contains:
@@ -117,7 +118,7 @@ MOC: IT
     - `Secure` (sent only over HTTPS, with a localhost exception)
     - `HttpOnly` (unavailable to `document.cookie`)
     - `SameSite` (restricts cross-site sending)
-> Aside from session IDs, cookies are used for stuff like preferences, shopping carts, and yes, _tracking_. For example, the Google Analytics cookie's name is `_ga` and has a unique value like `GA1.1.1734567890.1723927600`.
+> [!TIP] Aside from session IDs, cookies are used for stuff like preferences, shopping carts, and yes, _tracking_. For example, the Google Analytics cookie's name is `_ga` and has a unique value like `GA1.1.1734567890.1723927600`.
 
 When a server sends a valid cookie, the browser automatically stores it and attaches it to future requests that match the cookie's scope and security attributes. Your client-side code doesn't need to muck with the cookie at all! The server sets it in a response header, and the browser echoes it back in future request headers.
 
@@ -161,7 +162,7 @@ Modern browsers give us [tools to limit how cookies behave](https://developer.mo
 - [`Secure` (boolean)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#secure): Sends the cookie only over HTTPS (and localhost, for development).
 - [`SameSite` (Strict, Lax, None)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#samesitesamesite-value): Restricts when the browser sends the cookie with cross-site requests. `Strict` is the most restrictive. `Lax` also permits top-level cross-site navigations using safe methods, which many login flows need.
 
-> Set cookie attributes deliberately instead of relying on framework or browser defaults!
+> [!TIP] Set cookie attributes deliberately instead of relying on framework or browser defaults!
 
 # Session Lifetime
 
@@ -241,7 +242,7 @@ A password reset token should be treated like a **temporary password**, so it sh
 - **Bound to one account** (tied to the specific user who requested it)
 - **Stored as a hash** (the database never stores the raw token)
 
-> The underlying assumption here is that the user's email is both **secure and private**... which is _not_ always true for every user. So, password resets should also _always_ be accompanied by a notification to the user via any other communications channels (sms, push, email) and should invalidate existing sessions.
+> [!WARNING] The underlying assumption here is that the user's email is both **secure and private**... which is _not_ always true for every user. So, password resets should also _always_ be accompanied by a notification to the user via any other communications channels (sms, push, email) and should invalidate existing sessions.
 # Broken Password Reset Flow
 
 A password reset flow can do everything right – use strong, short-lived, single-use tokens – and _still_ leak account information. If the reset request tells a user:
@@ -386,12 +387,12 @@ Both can solve the same SSO problem, but their message formats, flows, and valid
 
 The important detail is that **your app should not ask for the user's password**. The IdP handles authentication; your app validates the result. For an OIDC ID token, that includes its signature, issuer, audience, expiration, and `nonce` when one was sent. Don't trust identity claims until the protocol response passes every required check!
 
-> **Don't implement SAML or OIDC from scratch**! Use a mature protocol library or a trusted identity product, then configure and validate it according to the provider and protocol documentation.
+> [!WARNING] **Don't implement SAML or OIDC from scratch**! Use a mature protocol library or a trusted identity product, then configure and validate it according to the provider and protocol documentation.
 # API Keys
 
 [API keys](https://www.ibm.com/think/topics/api-key) are often used to authenticate programmatic requests. They're _not_ user sessions or OAuth tokens: they're often **long-lived bearer credentials**, which makes them very dangerous if leaked.
 
-> Just imagine how much you could run up my Claude bill if you had my API key...
+> [!QUOTE] Just imagine how much you could run up my Claude bill if you had my API key...
 
 ## Common Ways API Keys Leak
 
@@ -421,7 +422,7 @@ if _, err := rand.Read(keyBytes); err != nil {
 apiKey := hex.EncodeToString(keyBytes)
 ```
 
-> Never generate keys from user data, timestamps, or anything predictable, just use a secure random generator.
+> [!DANGER] Never generate keys from user data, timestamps, or anything predictable, just use a secure random generator.
 
 ## Secure Storage
 
@@ -446,7 +447,7 @@ Rotate keys:
 
 If a key is compromised, revoke it immediately, notify the owner, and investigate the incident.
 
-> Treat API keys like passwords: transmit them only over HTTPS, keep them out of URLs and logs, and make revocation easy.
+> [!WARNING] Treat API keys like passwords: transmit them only over HTTPS, keep them out of URLs and logs, and make revocation easy.
 # Reauthentication
 
 Not all actions deserve the same level of trust. Viewing your profile? _Low risk_. Changing your password? _High risk_.
@@ -464,7 +465,7 @@ Good candidates for reauth/step-up auth include:
 - Resetting MFA or generating recovery codes
 - Responding to unusual device or location signals
 
-> Every reauthentication prompt _adds user friction_. Ask too often, and users will hate your app. Ask too little, and attackers with stolen sessions can cause damage.
+> [!TIP] Every reauthentication prompt _adds user friction_. Ask too often, and users will hate your app. Ask too little, and attackers with stolen sessions can cause damage.
 # Authentication Misconceptions
 
 Many password rules you've encountered in the wild are, unfortunately, just **security theater**. They add friction without stopping how attackers guess and reuse passwords. For example, "change your password every 90 days" may _sound_ secure, but users usually just make predictable changes:
@@ -544,7 +545,7 @@ if serverComputedCode == userSuppliedCode {
 
 The shared secret is _not_ sent during login, but the **generated code** is. If both clocks and algorithm settings agree, the server computes the same value and checks whether they match.
 
-> Because codes are so short, servers _need_ to be careful to rate-limit guesses so an attacker can't brute-force them.
+> [!WARNING] Because codes are so short, servers _need_ to be careful to rate-limit guesses so an attacker can't brute-force them.
 
 ## Enrollment
 
@@ -558,7 +559,7 @@ You're probably familiar with this process, but the way users get the shared sec
 
 Devices get lost, so [recovery codes](https://pages.nist.gov/800-63-4/sp800-63b/events/#savedrecovery) are often provided as a fallback. They're one-time secrets that can be used _in place of_ a TOTP code. The user is expected to download and store them in a safe place, like a password manager.
 
-> TOTP codes _can_ be phished. A six-digit code can be typed into a fake login page and relayed to the real site. TOTP is stronger than a password alone, but it isn't phishing-resistant like a [FIDO2/WebAuthn authenticator](https://www.w3.org/TR/webauthn-3/).
+> [!DANGER] TOTP codes _can_ be phished. A six-digit code can be typed into a fake login page and relayed to the real site. TOTP is stronger than a password alone, but it isn't phishing-resistant like a [FIDO2/WebAuthn authenticator](https://www.w3.org/TR/webauthn-3/).
 # Hardware Tokens
 
 A **hardware token** is a physical authenticator that proves possession of a secret stored on the device. Some display one-time codes. FIDO security keys instead connect to a computer or phone and use public-key cryptography to sign a challenge.
@@ -630,7 +631,7 @@ Alternatives to email recovery include:
 - **Recovery contacts:** Prearranged contacts (like an organization admin) that participate in recovery
 - **Repeated identity proofing:** Repeating enough of the original identity checks to establish that the claimant matches the identity tied to the account
 
-> [!NOTE] Recovery should be **rare**, **rate-limited**, and **auditable** – and no easier for an attacker than the account's risk level permits. Notify the user through an independent channel after every recovery!
+> [!TIP] Recovery should be **rare**, **rate-limited**, and **auditable** – and no easier for an attacker than the account's risk level permits. Notify the user through an independent channel after every recovery!
 
 # Principle of Least Privilege
 
@@ -937,3 +938,197 @@ SELECT id, email, plan FROM customers WHERE email = '' OR 1=1 --'
 ```
 
 The `--` comments out the rest of the line, and `OR 1=1` is always true, so, _every_ row in the `customers` table is now returned.
+# Fixing SQL Injection
+
+The best defense against SQL injection is to **parameterize every untrusted value**. A parameterized query sends SQL text and values to the database separately:
+
+```go
+rows, err := database.QueryContext(
+    ctx,
+    "SELECT id, name FROM products WHERE name LIKE ? LIMIT ?",
+    "%"+query+"%",
+    maxResults,
+)
+```
+
+The database parses the statement's structure before binding `query` and `maxResults` as data. Quotes and comment markers inside those values cannot become SQL syntax.
+
+Query generators such as [sqlc](https://sqlc.dev/) preserve that boundary while adding compile-time types. Bearly Secure already has a generated `SearchActiveProducts` query, so application code can call it without constructing SQL at runtime.
+![[Pasted image 20261108214532.png]]
+# Injection Beyond SQL
+
+While SQL injection is the most _famous_ kind of injection attack, it's far from the _only_ kind. Anywhere that code is built dynamically from user input is a potential injection target:
+
+- **Shell commands:** building a shell command from untrusted input with `exec.Command("sh", "-c", ...)`
+- **Template engines:** evaluating user input as template source or expressions
+- **Search filters and expressions:** query languages that accept user-defined operators
+
+Any input that should be _data_, but can be interpreted as _instructions_ is an injection risk.
+
+> [!DANGER] 99% of the time, the fix is to use robust, context-aware APIs that separate data from instructions, and not try to hand-roll your own interpreters and parsing logic. If you _absolutely must_ build your own interpreter, use its context-specific escaping rules instead of simply concatenating strings.
+
+## Shell Injection
+
+Say you want to offer an endpoint that allows a user to specify a domain name and get back its DNS information via [`nslookup`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup). A naïve implementation might look like this:
+
+```go
+domain := request.FormValue("domain")
+command := exec.CommandContext(request.Context(), "sh", "-c", "nslookup "+domain)
+output, err := command.Output()
+```
+
+The endpoint concatenates whatever `domain` the user provides _directly_ into a shell command! What happens if the user submits **this**?
+
+```sh
+example.com; rm -rf ./uploads
+```
+
+Our server runs _two_ shell commands, and the second one deletes all files in the `uploads` directory!
+
+## Avoid the Shell
+
+One fix in this scenario would be to run `nslookup` directly with Go's [`exec.CommandContext`](https://pkg.go.dev/os/exec#CommandContext) instead of passing the command through a shell:
+
+```go
+domain := request.FormValue("domain")
+command := exec.CommandContext(request.Context(), "nslookup", domain)
+output, err := command.Output()
+```
+
+With `exec.CommandContext`, we specify the binary we want to run (`nslookup`), then pass its arguments separately. The `domain` string is one argument, so shell metacharacters can't launch another command.
+
+...but that still doesn't make every argument safe. An attacker might still supply an option or another value that changes how `nslookup` behaves. The endpoint also needs to validate `domain` against the hostname syntax it intends to accept.
+
+Once you've done everything you can to use safe APIs, it can also be a good idea to explicitly whitelist the allowed inputs and reject anything that doesn't exactly match the expected pattern.
+# Safe Validation and Sanitization
+
+User input is untrusted. I know we've been over this... sorry to beat a dead horse... but it's worth repeating.
+
+## Validation vs. Sanitization
+
+Two key practices here are _validation_ and _sanitization_, and they solve different problems.
+
+- **Validation** asks: is this input allowed? It usually happens at the application boundary, when input first arrives. Invalid requests get rejected immediately.
+    
+- **Sanitization** deliberately transforms input according to a defined content policy. For example, a rich-text sanitizer might remove tags and attributes the application doesn't support.
+    
+
+Sanitization is different from context-specific **escaping or encoding**. HTML escaping, shell argument handling, and similar defenses belong deeper in the logic where the application knows how the value is being used. Validation usually happens earlier, and complements those defenses; it does _not_ replace them.
+
+## Validate, Then Reject
+
+For most user-provided data, the safest pattern is explicit validation followed by a hard reject on failure.
+
+Imagine a user registration endpoint that accepts a `username`, limited to 20 alphanumeric characters. The endpoint could "sanitize" the input by dropping any invalid characters and applying a length cap:
+
+```go
+var invalidUsernameCharacters = regexp.MustCompile(`[^a-zA-Z0-9]`)
+
+cleanedName := invalidUsernameCharacters.ReplaceAllString(username, "")
+if len(cleanedName) > 20 {
+  cleanedName = cleanedName[:20]
+}
+```
+
+But that doesn't make much sense... the user's input has been silently changed! You're going to create them a username they didn't type in?!? Bad. In this case, it would be simpler _and_ safer to simply return an error on misshapen input:
+
+```go
+var usernamePattern = regexp.MustCompile(`^[a-zA-Z0-9]{3,20}$`)
+
+func isValidUsername(input string) bool {
+  return usernamePattern.MatchString(input)
+}
+
+username := request.FormValue("username")
+if !isValidUsername(username) {
+  http.Error(responseWriter, "Invalid username", http.StatusBadRequest)
+  return
+}
+```
+# When to Sanitize
+
+Of course, there _are_ times when sanitization makes sense. For example, you might want to remove trailing and leading whitespace from the username input silently, as most users expect that behavior. But you _still_ should have a validation step that rejects invalid ones.
+
+For example, you might use it when:
+
+- Sanitizing rich text fields (comments, posts) that allow a limited set of formatting options like bold and italics
+- Removing unsupported control characters from text that will be stored or processed
+- Escaping characters that won't render correctly in your chosen output format (e.g., replacing `\n` with `<br>` in HTML)
+
+## Sanitize to a Policy
+
+Here's a "create comment" handler that validates input, sanitizes it to a small allowlist of HTML tags, and saves it:
+
+```go
+content := request.FormValue("content")
+if utf8.RuneCountInString(content) > 280 {
+  http.Error(responseWriter, "Invalid content", http.StatusBadRequest)
+  return
+}
+
+sanitizedContent := richTextPolicy.Sanitize(content)
+if strings.TrimSpace(sanitizedContent) == "" {
+  http.Error(responseWriter, "Empty content", http.StatusBadRequest)
+  return
+}
+
+saveComment(sanitizedContent) // Error handling omitted for brevity.
+responseWriter.WriteHeader(http.StatusCreated)
+```
+
+Notice that _validation happens before and after_ the tightly scoped sanitization.
+# Unsafe Archive Extraction
+
+A [ZIP archive](https://en.wikipedia.org/wiki/ZIP_\(file_format\)) is not a single document. It's a _container_ whose entries each have a name like `july/invoice.pdf`. Extracting the archive means trusting those names enough to turn them into new file paths on your server.
+
+... and that's dangerous when the archive came from a user.
+
+## Path Traversal
+
+Imagine an invoice-processing service that extracts `.zip` archives of monthly invoices into a `data/monthly-invoices` directory on the server. A naïve extractor might join that directory with every entry name:
+
+```go
+for _, entry := range archive.File {
+    destination := filepath.Join(extractionDirectory, entry.Name)
+    // Write the entry to the destination dir
+}
+```
+
+This _looks_ well-scoped to the `extractionDirectory`, but [`filepath.Join`](https://pkg.go.dev/path/filepath#Join) only builds and normalizes a path. An attacker can provide an entry like `../../app.log`, and after normalization, the destination points to an `app.log` _outside_ of `data/monthly-invoices`!
+
+This vulnerability is commonly called [Zip Slip](https://security.snyk.io/research/zip-slip-vulnerability). ZIP is just the delivery mechanism; the same path-traversal problem can occur whenever application code turns untrusted names into filesystem paths.
+
+> [!DANGER] Checking the uploaded archive's filename or [MIME type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types) does not help. The dangerous paths are _inside_ the archive, and every entry has its own attacker-controlled name.
+# Safe Archive Extraction
+
+The fix for our file-path problems is to validate each entry name _after_ resolving its destination path. We can use the _relative_ path of the destination, starting from a trusted extraction root, to make sure it doesn't escape:
+
+```go
+relativePath, err := filepath.Rel(root, destination)
+if err != nil ||
+    relativePath == "." ||
+    relativePath == ".." ||
+    strings.HasPrefix(relativePath, ".."+string(filepath.Separator)) {
+    return errors.New("archive entry escapes the extraction directory")
+}
+```
+
+In Go, [`filepath.Rel`](https://pkg.go.dev/path/filepath#Rel) describes how to reach a destination from a given root. Since we want to accept only destinations that fall under the extraction directory, we reject paths that meet any of these conditions:
+
+- The path is `.`, so the destination is the root itself (bad).
+- The path is `..`, so the destination is the parent directory of the root (bad).
+- The path [starts with](https://pkg.go.dev/strings#HasPrefix) `..` plus the platform's [`filepath.Separator`](https://pkg.go.dev/path/filepath#pkg-constants), so the destination is outside the root (bad).
+
+Other platform-aware checks are also worth running against archive entries before extraction. A Windows-style path with backslashes cannot safely be treated as an ordinary document path. Nor can a symbolic link.
+
+> [!INFO] A [symbolic link](https://en.wikipedia.org/wiki/Symbolic_link), or **symlink**, is a file that _points to another_ filesystem path. These demand careful handling (or rejection). In Go, you can tell if a file is a symlink by checking whether its `Mode()` has the [`ModeSymlink` bit](https://pkg.go.dev/os#ModeSymlink) set.
+
+For a primer on symlinks, see [our Linux course](https://www.boot.dev/lessons/7d7efcc2-abfb-4cc1-864a-be51dae65401).
+
+## Validate Before Writing
+
+When it comes to archives, always validate _all_ entry destinations before extracting _any_ of them. If the fifth entry is malicious, but you only discover that _after_ writing the first four, you'll get a partial extraction and leave the system in an inconsistent state.
+
+## Zip Bombs
+
+Archive extraction also needs **resource limits**. Compressed input can expand dramatically, so production systems should cap the number of entries and total uncompressed size. If you don't, you're open to [zip bomb](https://en.wikipedia.org/wiki/Zip_bomb) attacks. They don't leak anything, but they can bring down your servers' ability to respond by exhausting their disk space or memory as a type of [denial-of-service attack](https://owasp.org/www-community/attacks/Denial_of_Service).

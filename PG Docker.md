@@ -88,8 +88,8 @@ reverse_proxy caddy1:80 caddy2:80 {
 - Dockerfiles function like shell script as they run from top to bottom
 - They're basically "Infrastructure as Code (IaC)" for an image
 - Using dockerfiles, we wont need to manually install dependencies on the server, just add the dockerfile into source control and build it automatically
-#### Commands
-##### Dockerizing [[PG Go Main|Go]]
+## Commands
+### Dockerizing [[PG Go Main|Go]]
 - The base image is selected with the `FROM` command
 	- `FROM debian:stable-slim`
 - You can also make the container run a command upon running with `CMD`
@@ -121,7 +121,7 @@ ENV PORT=8991
 CMD ["/bin/goserver"]
 ```
 - The [[PG Go Main|Go]] server is configured to use the "PORT" variable from the OS environment, so it will use any "PORT" value that we set as its port
-##### Dockerizing [[PG Python main|Python]]
+### Dockerizing [[PG Python main|Python]]
 - Unlike [[PG Go Main|Go]] which was super easy to dockerize since it's a compiled language that like [[PG C Main|C]] just gives us a binary to run, [[PG Python main|Python]] is interpreted, and we would need the [[PG Python main|Python]] interpreter as a dependency
 - For that we can use `RUN`
 	- `RUN` will execute any command passed to it to create a new layer on top of the current image, which is then used in the next step in the Dockerfile
@@ -139,11 +139,11 @@ apt-get update
 apt-get install python3 -y
 EOT
 ```
-- The Problem with the above method though is that docker can actually cache repeated commands, but here it will cache the update and install under the same key, so if you want to change the `apt-get install` part, you'll also need to redo the `apt-get update` part, so it's best to keep them spearated with two `RUN` commands
-- BUUUT, if we separate them like in the above example, that can cause cache poisining
+- The Problem with the above method though is that docker can actually cache repeated commands, but here it will cache the update and install under the same key, so if you want to change the `apt-get install` part, you'll also need to redo the `apt-get update` part, so it's best to keep them separated with two `RUN` commands
+- BUUUT, if we separate them like in the above example, that can cause cache poisoning
 ## Final comments
 ### Alpine
-- A note on `Alpine` is that it uses `Musl LibC` which is is a small implementation of the C standard library that a lot of languages, such as Python, Go, JS, and many many other rely on for OS level commands such as `open` and `read`, which contributes to its small size
+- A note on `Alpine` is that it uses `Musl LibC` which is a small implementation of the C standard library that a lot of languages, such as Python, Go, JS, and many many other rely on for OS level commands such as `open` and `read`, which contributes to its small size
 - However, `Musl LibC` is not compatible with `GLibC` which is what most software actually uses and builds against, such as debian and ubuntu
 - This means that apps may end up rebuilding native dependencies from scratch and just be overall slower as a cost for the smaller size
 - Due to this, `slim` can be a better alternative to alpine despite its slightly larger size, as it's fully capable of using binaries as is without having to recompile them against a different version of `LibC`

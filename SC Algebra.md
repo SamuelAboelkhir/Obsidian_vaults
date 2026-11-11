@@ -203,7 +203,7 @@ $y = mx + b$ where
 - b = y-intercept
 This equation is known as the point-slope equation of a line because it shows us both the intercept and slope
 #### Standard form of a line
-While $y = mx + b$ is a correct line equation, it's not the most accurate
+While $y = mx + b$ (the slope-intercept form) is a correct line equation, it's not the most accurate
 
 Consider the following image
 ![[standard_form.png|204]]
@@ -213,8 +213,59 @@ There is actually another form of the equation that's the most generic one $Ax+B
 The point-slope equation looks like this $y - y_1 = m (x - x_1)$, and is an easy way to find the line equation if you know at least 1 point, as well as the slope
 This form is called the standard form
 
-The slope intercept from or point-slope is derived from this previous equation $y = -\frac{A}{B}x-\frac{C}{B}$
+The slope-intercept from or point-slope is derived from this previous equation $y = -\frac{A}{B}x-\frac{C}{B}$
 
 The slope of a line is equal to the rise over the run, or more formally, the change in y over the change in x $\frac{\Delta y}{\Delta x}$ meaning that $m = \frac{y2-y1}{x2-x1}$
 
 Parallel lines obviously have the same slope, while for perpendicular lines, if line 1 has slope m, line 2 will have slope $-\frac{1}{m}$
+## Lines in the Plane
+
+Recall that a **linear equation** is an equation with degree one. In this section, we will work with **linear equations in two variables**.
+
+For example, $x+2y=4$ is a linear equation in two variables.
+
+Any two letters may be used as variables. The variables x and y are the most common.
+
+The x, y **-plane** consists of the x **-axis** (the **horizontal axis**) and the y **-axis** (the **vertical axis**). The x and y axes intersect at the **origin**, (0,0).
+
+The graph of a linear equation in two variables in the plane is a **line**.
+
+For example, the linear equation $x+2y=4$ is graphed below.
+![[Pasted image 20261111002814.png|306]]
+The x **-intercept** of a line is the point where the line crosses the x-axis. The x-intercept always has the form (a, 0) for some number x. Thus we can either specify the x-intercept by its coordinates (a,0), or say that the x-intercept is at x = a.
+
+The **slope** of a line describes how steep the line is. The bigger the slope, the steeper the line.
+
+Lines with a positive slope slant upwards, and lines with a negative slope slant downwards (considered left-to-right).
+
+A **horizontal line** has slope 0. The slope of a **vertical line** is undefined.
+![[Pasted image 20261111003312.png]]
+### Calculating Slope
+
+If you know the coordinates of two points on a line, then you can find its slope.
+
+The slope of the line that contains the points (x1,y1) and (x2​,y2​) is given by the formula
+
+$m=\frac{y_2-y_1}{x_2-x_1}$
+
+The slope is equal to the change in y-coordinates (the vertical change) over the change in x-coordinates (the horizontal change). For this reason, the slope formula is sometimes summarized as
+
+$slope=\frac{rise}{run}$
+
+Finally, note that when you are computing the slope, it does not matter which of the two points you designate as (x1,y1) or (x2,y2). It only matters that the coordinates of the corresponding points are in the _same position_ in the numerator and denominator in the formula.
+
+For example, we can use the points (0,2) and (4,0) on the line $x+2y=4$ graphed above to calculate its slope.
+### Relationship of Slope-Intercept and Point-Slope Form
+
+What happens if we write the point-slope form equation of a line using the y-intercept (0,b) as our chosen point?
+
+Letting m be the slope and (x0,y0)=(0,b), we get
+
+$y-y_0=m(x-x_0)$
+$y-b=m(x-0)$
+$y-b=mx$
+$y=mx+b$
+
+which is the slope-intercept form.
+
+Thus, we can think of the slope-intercept form as a specific version of the point-slope form.
