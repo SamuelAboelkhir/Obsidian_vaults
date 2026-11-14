@@ -18,6 +18,7 @@ MOC: Linux
 [[LI Emacs Org Tables]]
 [[LI Org-Mode Reference Card]]
 [[LI verb]]
+[[LI GNUPLOT Calc and Some general emacs]]
 # Complicated CLI tools
 [[LI xargs]]
 [[LI Awk Command Cheat Sheet & Quick Reference]]

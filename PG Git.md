@@ -327,3 +327,5 @@ git restore -p --source=D -- file.go
 # Past the course
 - `git rev-parse` (revision parsing) is a plumbing command used to resolve revision expressions and retrieve repository information, such as `--show-toplevel`, which returns the absolute path to the repository's root directory.
 - `--dry-run` can be used with any git command to simulate the action without actually doing it
+- `git filter-repo --sensitive-data-removal --invert-paths --path-glob 'WR*'` is a separate tool that works with git to filter out sensitive data from git's history. Such as a `.env` file that was pushed previously before it was ever added to gitignore an untracked
+Such a file will still exist in the commit history, and can be viewed even after removal. That's where `filter-repo` comes in. This tool will parse the history based on your input, and remove the sensitive information from there too

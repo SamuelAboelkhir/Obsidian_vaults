@@ -34,8 +34,6 @@ $$
 
 ## LaTeX Cheat Sheet
 
-> Tip: These tables are wide, so you may need to scroll horizontally to see all the columns, or rotate your phone to landscape.
-
 ### Arithmetic
 
 | Notation                         | Example                                                           | Inline                                                               | Code Block                        |

@@ -9,8 +9,6 @@ source: "https://github.com/james-stoup/org-mode-table-tutorial"
 
 ## Table of Contents
 
-[](#table-of-contents)
-
 1. [Welcome to Table Madness](#orgffb6af6)
 2. [Org Table Basics](#org517e3ed)
     1. [Identifying Table Cells](#orgc20da85)

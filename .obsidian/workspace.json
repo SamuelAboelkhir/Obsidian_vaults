@@ -15,16 +15,16 @@
               "pos": 2,
               "stack": [
                 {
+                  "title": "WR Following a trip",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Following a trip.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Following a trip\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":2},\"to\":{\"line\":75,\"ch\":2}},\"scroll\":0}"
+                },
+                {
                   "title": "WR Projects index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "WR VA TODO",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA TODO.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA TODO\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7489716746943461}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":11},\"to\":{\"line\":30,\"ch\":11}},\"scroll\":12.77372489189465}"
                 },
                 {
                   "state": "{}",
@@ -75,7 +75,7 @@
                   "title": "WR General Index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":25},\"to\":{\"line\":15,\"ch\":25}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":10},\"to\":{\"line\":13,\"ch\":10}}}"
                 },
                 {
                   "title": "WR Project management",
@@ -202,166 +202,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR AI for technical writers.md",
+                "file": "WR AI Fluency Courses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR AI for technical writers"
-            }
-          },
-          {
-            "id": "ab56b01aa19acaa5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":8.245557087185029}"
-                },
-                {
-                  "title": "WR VA WORKFLOWS",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA WORKFLOWS.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA WORKFLOWS\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}},\"scroll\":0.7489716746943461}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":9},\"to\":{\"line\":29,\"ch\":9}},\"scroll\":9.375277589732615}"
-                },
-                {
-                  "title": "WR VA ACTIVITIES",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA ACTIVITIES.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA ACTIVITIES\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":9},\"to\":{\"line\":29,\"ch\":9}},\"scroll\":14.927584748709359}"
-                },
-                {
-                  "title": "_0002 Work MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR General Index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR Project management",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Project management.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Project management\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":232,\"ch\":0},\"to\":{\"line\":232,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "WR General Index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":10},\"to\":{\"line\":14,\"ch\":10}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WR VA WORKFLOWS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WR VA WORKFLOWS"
-            }
-          },
-          {
-            "id": "3caf247e2090a7f3",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":22.32355906550298}"
-                },
-                {
-                  "title": "WR VA WORKFLOWS",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA WORKFLOWS.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA WORKFLOWS\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}},\"scroll\":0.7489716746943461}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":9},\"to\":{\"line\":29,\"ch\":9}},\"scroll\":9.375277589732615}"
-                },
-                {
-                  "title": "WR VA ACTIVITIES",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA ACTIVITIES.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA ACTIVITIES\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "WR Projects index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":9},\"to\":{\"line\":29,\"ch\":9}},\"scroll\":14.927584748709359}"
-                },
-                {
-                  "title": "_0002 Work MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0002 Work MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0002 Work MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR General Index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "title": "WR Project management",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Project management.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Project management\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":232,\"ch\":0},\"to\":{\"line\":232,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "WR General Index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":10},\"to\":{\"line\":14,\"ch\":10}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WR VA ACTIVITIES.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WR VA ACTIVITIES"
+              "title": "WR AI Fluency Courses"
             }
           },
           {
@@ -762,36 +608,12 @@
             "id": "52cf085e77ac6b48",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 5,
+              "pos": 1,
               "stack": [
                 {
-                  "title": "Pasted image 20261111002814",
+                  "title": "Pasted image 20261114221030",
                   "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Math/Pasted image 20261111002814.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261111002814\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Pasted image 20261110162540",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Work/Pasted image 20261110162540.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261110162540\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Pasted image 20261111002814",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Math/Pasted image 20261111002814.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261111002814\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Pasted image 20261110162540",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Work/Pasted image 20261110162540.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261110162540\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Pasted image 20261111003312",
-                  "icon": "lucide-image",
-                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Math/Pasted image 20261111003312.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261111003312\"}",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"assets/Math/Pasted image 20261114221030.png\"},\"icon\":\"lucide-image\",\"title\":\"Pasted image 20261114221030\"}",
                   "eState": "{}"
                 },
                 {
@@ -858,6 +680,41 @@
               "icon": "lucide-file",
               "title": "SC Algebra"
             }
+          },
+          {
+            "id": "63c246fa945570b5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_0001 Linux MOC",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":11},\"to\":{\"line\":19,\"ch\":11}},\"scroll\":1.3979333577463953}"
+                },
+                {
+                  "title": "LI Emacs Org Tables",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Emacs Org Tables.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Emacs Org Tables\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LI GNUPLOT Calc and Some general emacs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LI GNUPLOT Calc and Some general emacs"
+            }
           }
         ],
         "currentTab": 9
@@ -870,7 +727,7 @@
           {
             "id": "5345fe004c76117d",
             "type": "tabs",
-            "dimension": 25.17766497461929,
+            "dimension": 25.177664974619294,
             "children": [
               {
                 "id": "8db8e8362861b018",
@@ -887,7 +744,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "CYB Web Security.md",
+                    "file": "LI GNUPLOT Calc and Some general emacs.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1037,7 +894,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "CYB Web Security.md",
+                    "file": "LI GNUPLOT Calc and Some general emacs.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -1298,9 +1155,7 @@
             },
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "CYB Web Security.md"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -1325,7 +1180,7 @@
             }
           },
           {
-            "id": "8c7b375a469a5d8f",
+            "id": "1c37ac60543730eb",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1371,59 +1226,60 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "01f644ff9d525ed0",
+  "active": "63c246fa945570b5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
+    "_0001 Linux MOC.md",
+    "LI Org-Mode Reference Card.md",
+    "LI GNUPLOT Calc and Some general emacs.md",
+    "LI Emacs Org Tables.md",
+    "SC Periodic Table.md",
+    "SC Chemistry.md",
+    "WR AI Fluency Courses.md",
     "SC Algebra.md",
+    "assets/Math/Pasted image 20261114221030.png",
+    "assets/Math/Pasted image 20261114221014.png",
+    "assets/Math/Pasted image 20261114215011.png",
+    "PG Python main.md",
+    "_0000 Home.md",
+    "WR Overtime And Annuals.md",
+    "SC Algebra.html",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
+    "WR VA General Notes.md",
+    "assets/Math/Pasted image 20261114123903.png",
+    "assets/Work/ai_fluency___intro_to_prompts_handout.pdf",
+    "WR General Index.md",
+    "WR AI for technical writers.md",
+    "assets/Work/ai_fluency___terms_and_concepts_handout.pdf",
+    "assets/Work/ai_fluency___data_privacy_handout.pdf",
+    "assets/Work/ai_fluency___intro_to_generative_ai_handout.pdf",
+    "PG SQL.md",
+    "CYB Web Security.md",
+    "SC Cheat Sheet -  Adding Math Notation To Markdown.md",
+    "WR Projects index.md",
+    "WR Following a trip.md",
+    "assets/Math/Pasted image 20261111231721.png",
+    "PG Git.md",
+    "WR VA WORKFLOWS.md",
+    "assets/Work/ai_for_technical_writers_handout.pdf",
+    "WR AI for technical writers.html",
     "assets/Math/Pasted image 20261111003312.png",
     "assets/Work/Pasted image 20261110162540.png",
     "assets/Math/Pasted image 20261111002814.png",
     "Notes -  Linear Inequalities in One Variable | Coursera.md",
     "PG R Main.md",
-    "WR VA General Notes.md",
     "WR VA ACTIVITIES.md",
-    "WR Projects index.md",
-    "WR VA WORKFLOWS.md",
     "assets/Work/Pasted image 20261110162030.png",
     "assets/Work",
     "assets/Work/Pasted image 20261110162226.png",
-    "assets/Work/Pasted image 20261110162222.png",
-    "assets/Work/Pasted image 20261110162054.png",
-    "assets/Work/Pasted image 20261110162037.png",
     "_0002 Work MOC.md",
-    "WR General Index.md",
-    "WR Overtime And Annuals.md",
-    "WR VA TODO.md",
-    "PG Workflows.md",
-    "Excalidraw/Drawing 2026-03-24 19.17.21.excalidraw.md",
-    "WR AI for technical writers.md",
-    "Excalidraw/Drawing 2026-06-19 19.17.27.excalidraw.md",
-    "Excalidraw/Drawing 2026-09-10 18.54.26.excalidraw.md",
-    "Excalidraw/Drawing 2026-01-27 14.41.39.excalidraw.md",
-    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.restored.md",
-    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
-    "PG SQL.md",
-    "assets/Computer sciences/SQLJoins.jpeg",
-    "PG Docker.md",
-    "CYB Web Security.md",
-    "WR Project management.md",
-    "SC Principles of Biochemistry.md",
-    "PG Go Main.md",
-    "assets/Computer sciences/Pasted image 20261108214532.png",
     "WR Compass permissions canvas.canvas",
     "assets/Math",
     "WR Bid.it Schema.canvas",
     "WR Church ERD.canvas",
     "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/20-pdf-slides-doubly-linked-lists.pdf",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/19-pdf-slides-singly-linked-lists.pdf",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/21-1-pdf-slides-stacks.pdf",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/21-2-pdf-slides-queues.pdf",
-    "assets/Biology",
-    "assets/Chemistry",
-    "assets/Data science",
-    "assets/Computer sciences",
     "WR VA BL Schema attempt 1.canvas"
   ]
 }
