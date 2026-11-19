@@ -9,26 +9,55 @@
         "dimension": 84.65608465608466,
         "children": [
           {
-            "id": "a49599a1ebfbbdcd",
+            "id": "a22acbddf938522b",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
                 {
-                  "title": "WR Following a trip",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Following a trip.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Following a trip\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":2},\"to\":{\"line\":75,\"ch\":2}},\"scroll\":0}"
+                  "state": "{}",
+                  "eState": "{}"
                 },
                 {
                   "title": "WR Projects index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR Projects index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR Projects index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":11},\"to\":{\"line\":30,\"ch\":11}},\"scroll\":12.77372489189465}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":10.374747446658906}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WR VA General Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WR VA General Notes"
+            }
+          },
+          {
+            "id": "a49599a1ebfbbdcd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "WR AS400 to ISAAC srouce codes report",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR AS400 to ISAAC srouce codes report.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR AS400 to ISAAC srouce codes report\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":960,\"ch\":0},\"to\":{\"line\":960,\"ch\":0}},\"scroll\":942.2567376408305}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "WR VA General Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR VA General Notes.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR VA General Notes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.7584170511964493}"
                 },
                 {
                   "title": "PG Workflows",
@@ -53,12 +82,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WR VA General Notes.md",
+                "file": "WR Projects index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WR VA General Notes"
+              "title": "WR Projects index"
             }
           },
           {
@@ -75,7 +104,7 @@
                   "title": "WR General Index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"WR General Index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"WR General Index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":10},\"to\":{\"line\":13,\"ch\":10}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":10},\"to\":{\"line\":13,\"ch\":10}},\"scroll\":0}"
                 },
                 {
                   "title": "WR Project management",
@@ -280,6 +309,27 @@
             }
           },
           {
+            "id": "25ac7c2c649f1c74",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.restored_0.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-11-29 20.06.40.excalidraw.restored_0"
+            }
+          },
+          {
             "id": "a9dfc09beb9f6b35",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -372,25 +422,19 @@
             "id": "25431475ffcdcba0",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 3,
+              "pos": 2,
               "stack": [
                 {
-                  "title": "LI verb",
+                  "title": "SC Coordination Chemistry",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI verb.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI verb\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":0},\"to\":{\"line\":36,\"ch\":0}},\"scroll\":7.9493970102769245}"
-                },
-                {
-                  "title": "_0001 Linux MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":30},\"to\":{\"line\":18,\"ch\":30}},\"scroll\":0}"
-                },
-                {
-                  "title": "_0000 Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0000 Home.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0000 Home\"}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Coordination Chemistry.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Coordination Chemistry\"}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "SC Chemistry index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":16},\"to\":{\"line\":8,\"ch\":16}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -423,7 +467,7 @@
                   "title": "SC Chemistry index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SC Chemistry index.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"SC Chemistry index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
                 }
               ]
             },
@@ -682,7 +726,7 @@
             }
           },
           {
-            "id": "63c246fa945570b5",
+            "id": "23c9e8446b732bfd",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -690,34 +734,45 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "_0001 Linux MOC",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_0001 Linux MOC.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"_0001 Linux MOC\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":11},\"to\":{\"line\":19,\"ch\":11}},\"scroll\":1.3979333577463953}"
-                },
-                {
-                  "title": "LI Emacs Org Tables",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"LI Emacs Org Tables.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"LI Emacs Org Tables\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LI GNUPLOT Calc and Some general emacs.md",
+                "file": "WR VA source codes analysis V1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LI GNUPLOT Calc and Some general emacs"
+              "title": "WR VA source codes analysis V1"
+            }
+          },
+          {
+            "id": "efa3972603954ff7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WR AS400 - ISAAC Data flow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WR AS400 - ISAAC Data flow"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 11
       },
       {
         "id": "8e63b7d754490c17",
@@ -744,7 +799,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "LI GNUPLOT Calc and Some general emacs.md",
+                    "file": "WR VA source codes analysis V1.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -894,7 +949,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "LI GNUPLOT Calc and Some general emacs.md",
+                    "file": "WR VA source codes analysis V1.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -960,7 +1015,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
@@ -1180,7 +1235,7 @@
             }
           },
           {
-            "id": "1c37ac60543730eb",
+            "id": "e55ec8757e66aad9",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1226,60 +1281,60 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "63c246fa945570b5",
+  "active": "23c9e8446b732bfd",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": false
   },
   "lastOpenFiles": [
-    "_0001 Linux MOC.md",
-    "LI Org-Mode Reference Card.md",
-    "LI GNUPLOT Calc and Some general emacs.md",
-    "LI Emacs Org Tables.md",
-    "SC Periodic Table.md",
-    "SC Chemistry.md",
+    "WR AS400 - ISAAC Data flow.md",
+    "WR VA source codes analysis V1.md",
+    "WR VA General Notes.md",
+    "WR Projects index.md",
+    "WR AS400 to ISAAC srouce codes report.md",
     "WR AI Fluency Courses.md",
+    "WR Following a trip.md",
+    "WR VA ACTIVITIES.md",
     "SC Algebra.md",
+    "WR VA onboarding meeting.md",
+    "PG Workflows.md",
+    "PG Other index.md",
+    "WR General Index.md",
+    "WR Overtime And Annuals.md",
+    "PG Python main.md",
+    "_0000 Home.md",
+    "WR VA WORKFLOWS.md",
+    "assets/Work/ai_fluency___quick_wins_with_ai.pdf",
+    "SC Statistical Inference.md",
+    "SC Datascience index.md",
+    "SC Exploratory Analysis.md",
+    "SC DataScience Note Dump.md",
+    "CYB Cybersecurity concepts.md",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
+    "PG SQL.md",
+    "assets/Computer sciences/SQLJoins.jpeg",
+    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.restored_0.md",
+    "_0006 Programming MOC.md",
+    "Pasted image 20261115210159.png",
+    "Pasted image 20261115210145.png",
+    "assets/pdfs/SC Quick Review Chemistry-By-RidaSANHAJI.pdf · version 1.pdf",
     "assets/Math/Pasted image 20261114221030.png",
     "assets/Math/Pasted image 20261114221014.png",
     "assets/Math/Pasted image 20261114215011.png",
-    "PG Python main.md",
-    "_0000 Home.md",
-    "WR Overtime And Annuals.md",
     "SC Algebra.html",
-    "Excalidraw/Drawing 2025-11-29 20.06.40.excalidraw.md",
-    "WR VA General Notes.md",
     "assets/Math/Pasted image 20261114123903.png",
     "assets/Work/ai_fluency___intro_to_prompts_handout.pdf",
-    "WR General Index.md",
-    "WR AI for technical writers.md",
     "assets/Work/ai_fluency___terms_and_concepts_handout.pdf",
     "assets/Work/ai_fluency___data_privacy_handout.pdf",
     "assets/Work/ai_fluency___intro_to_generative_ai_handout.pdf",
-    "PG SQL.md",
-    "CYB Web Security.md",
-    "SC Cheat Sheet -  Adding Math Notation To Markdown.md",
-    "WR Projects index.md",
-    "WR Following a trip.md",
     "assets/Math/Pasted image 20261111231721.png",
-    "PG Git.md",
-    "WR VA WORKFLOWS.md",
     "assets/Work/ai_for_technical_writers_handout.pdf",
     "WR AI for technical writers.html",
     "assets/Math/Pasted image 20261111003312.png",
     "assets/Work/Pasted image 20261110162540.png",
-    "assets/Math/Pasted image 20261111002814.png",
-    "Notes -  Linear Inequalities in One Variable | Coursera.md",
-    "PG R Main.md",
-    "WR VA ACTIVITIES.md",
-    "assets/Work/Pasted image 20261110162030.png",
     "assets/Work",
-    "assets/Work/Pasted image 20261110162226.png",
-    "_0002 Work MOC.md",
     "WR Compass permissions canvas.canvas",
-    "assets/Math",
     "WR Bid.it Schema.canvas",
     "WR Church ERD.canvas",
-    "AllSlidesPDF-JSAlgorithmsAndDataStructures-ColtSteele_NOTES/20-pdf-slides-doubly-linked-lists.pdf",
     "WR VA BL Schema attempt 1.canvas"
   ]
 }

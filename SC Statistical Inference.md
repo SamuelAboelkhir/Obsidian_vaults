@@ -242,3 +242,5 @@ In the next figure, rolling  die 10000 times yielded the first figure. Each of t
 
 The center of mass or mean of the original distribution was 3.5, which is exactly where all the panels are centered
 The more data that goes into the sample mean, the more concentrated its density / mass function is around the population mean
+- **Law of Large Numbers:** As the sample size increases, the sample mean converges to the population mean.
+- **Central Limit Theorem:** As the sample size increases, the distribution of sample means approaches a normal distribution, under certain conditions.

@@ -1,7 +1,8 @@
 ---
 tags:
-- math
+- Math
 MOC: Sciences
+Course: "https://www.coursera.org/specializations/algebra-elementary-to-advanced"
 ---
 [[_0000 Home|Home]] | [[_0004 Sciences MOC|Back to Sciences MOC]] | [[SC Mathematics index|Back to index]]
 # The structure of numbers
@@ -463,7 +464,7 @@ In the last step, some extra caution is needed. When we are working with inequal
 
 ## Compound Inequalities
 
-Sometimes, we want to solve inequalities where xxx is between two different numbers, for example −1 < 2x + 5 < 7.
+Sometimes, we want to solve inequalities where x is between two different numbers, for example −1 < 2x + 5 < 7.
 
 In this case, we follow the same steps as above. The only difference is that there is no longer a left-hand side and right-hand side. Instead, we apply all the same operations to all _three parts_ of the inequality (reversing the direction when necessary), and isolate the variable in the middle of the inequality, with constants on the left and right.
 
@@ -603,7 +604,7 @@ Therefore, it is possible to have a system of three linear equations in which no
 
 One of the options to solve a system of equations without graphing is the **method of substitution**.
 
-1. Use one equation to write y in terms of xxx.
+1. Use one equation to write y in terms of x.
 2. Substitute this expression for y in the first equation. The result is an equation of xxx only.
 3. Solve for x in the resulting equation.
 4. Plug in this value of xxx to find the corresponding value of y.
@@ -690,3 +691,55 @@ Similarly, to use the method of elimination, we would subtract the first equatio
 $(x−y)−(x−y)=4−(0)⇒0=4$,
 
 which is always false.
+# Systems of Linear Inequalities
+## Definitions
+
+The definitions for a system of linear inequalities and its solution are very similar to the definitions for a system of linear equations.
+
+A **system of linear inequalities** (in two variables) is a group of two or more linear inequalities involving the same variables.
+
+For example,
+
+$\begin{cases}x - y &\geq 5 \\ 2x + 3y &< 0\end{cases}$
+
+is a system of two linear inequalities of two variables.
+
+A **solution** to a system of linear inequalities is a set of values for the variables (x,y) that satisfies all of the inequalities at the same time.
+
+For example, (0,−6) is a solution to the system of linear inequalities given above, because plugging x = 0 and y =− 6y into both x − y ≥ 5x and 2x + 3y < 0 results in a true inequality.
+
+On the other hand (6,0) is not a solution to the system of linear inequalities given above. Even though plugging x = 6  and y = 0 into the first inequality x − y ≥ 5 gives a true equation, plugging x = 6 and y = 0 into the second inequality results in 12 < 0, which is false. A point is part of the solution if and only if it satisfies all of the inequalities in the system.
+
+## Solving a System of Inequalities by Graphing
+
+Solving a system of linear inequalities graphically is also similar to solving a system of linear equations graphically. The solution to a system is the intersection of the solutions of the inequalities: the set of points that are shared by the solutions to all of the inequalities.
+
+**To solve a system of two linear inequalities by graphing:**
+
+**1.** Graph the solutions to each of the linear inequalities in the same coordinate plane.
+
+**a.** Graph the boundary line for the first linear inequality and determine whether it is dashed (< or >) or solid (≤ or ≥).
+
+**b.** Test a sample point. If the coordinates of the point satisfy the inequality, shade the plane on the side of the line that contains this point. If not, shade the other side of the plane.
+
+**c.** Repeat the process for the second linear inequality.
+
+**2.** The area that is shared by both of the solutions (the area that has been shaded twice) is the solution to the system.
+
+Unlike a system of linear equations, a system of linear inequalities does not have exactly one solution. It can either have infinitely many solutions, or no solutions.
+
+![[Pasted image 20261115210145.png|580]]
+
+For example, the following system of inequalities is graphed below.
+
+$​\begin{cases}x - y &\geq 5 \\ 2x + 3y &< 0\end{cases}$
+
+The area that is shaded in red is the solution to the inequality x − y ≥ 5. The area that is shaded in blue is the solution to the inequality 2x + 3y < 0.
+
+The solution to the system of inequalities is is the area at the bottom of the picture, that has been shaded in both red and blue.
+
+![[Pasted image 20261115210159.png|277]]
+
+```desmos-graph
+
+```
